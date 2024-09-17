@@ -26,7 +26,7 @@ To run the application in development mode, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/pompette.git
+    git clone https://github.com/cancoipote/pompette.git
     cd pompette
     ```
 
