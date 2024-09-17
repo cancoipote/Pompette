@@ -1,0 +1,183 @@
+{
+  "version": "1.0.0",
+  "label": "AX470",
+  "manufacturer": "Involight",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 320,
+  "dimension_height": 242,
+  "dimension_depth": 206,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 10,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Green",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Blue",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "White",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Red + Green",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Red + Blue",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Red + White",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Green + Blue",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Green + White",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Blue + White",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Red + Green + Blue",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Red + Green + White",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Red + Blue + White",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Green + Blue + White",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Red + Green + Blue + White",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Automatic Mode",
+          "min": 160,
+          "max": 229
+        },
+        {
+          "label": "Music controlled",
+          "min": 230,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe slow to fast",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Colour change speed",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Change speed slow to fast",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Rotation",
+      "capabilities": [
+        {
+          "label": "Unused",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Rotation counter clockwise slow to fast",
+          "min": 10,
+          "max": 119
+        },
+        {
+          "label": "No Rotation",
+          "min": 120,
+          "max": 145
+        },
+        {
+          "label": "Rotation clockwise slow to fast",
+          "min": 146,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Involight/Involight-AX470.json",
+  "id": 886
+}

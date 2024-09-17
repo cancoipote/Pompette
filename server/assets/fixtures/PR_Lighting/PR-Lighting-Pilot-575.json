@@ -1,0 +1,991 @@
+{
+  "version": "1.0.0",
+  "label": "Pilot 575",
+  "manufacturer": "PR Lighting",
+  "bulb_type": "MSR 575W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 7200,
+  "dimension_weight": 39,
+  "dimension_width": 510,
+  "dimension_height": 730,
+  "dimension_depth": 500,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 22,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 780,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Open",
+          "min": 10,
+          "max": 20
+        },
+        {
+          "label": 1,
+          "min": 21,
+          "max": 34
+        },
+        {
+          "label": 2,
+          "min": 35,
+          "max": 48
+        },
+        {
+          "label": 3,
+          "min": 49,
+          "max": 62
+        },
+        {
+          "label": 4,
+          "min": 63,
+          "max": 76
+        },
+        {
+          "label": 5,
+          "min": 77,
+          "max": 90
+        },
+        {
+          "label": 6,
+          "min": 91,
+          "max": 104
+        },
+        {
+          "label": 7,
+          "min": 105,
+          "max": 118
+        },
+        {
+          "label": 8,
+          "min": 119,
+          "max": 132
+        },
+        {
+          "label": 9,
+          "min": 133,
+          "max": 146
+        },
+        {
+          "label": 10,
+          "min": 147,
+          "max": 160
+        },
+        {
+          "label": 11,
+          "min": 161,
+          "max": 174
+        },
+        {
+          "label": 12,
+          "min": 175,
+          "max": 188
+        },
+        {
+          "label": 13,
+          "min": 189,
+          "max": 202
+        },
+        {
+          "label": 14,
+          "min": 203,
+          "max": 216
+        },
+        {
+          "label": 15,
+          "min": 217,
+          "max": 230
+        },
+        {
+          "label": 16,
+          "min": 231,
+          "max": 244
+        },
+        {
+          "label": "Open",
+          "min": 245,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Iris",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 4,
+      "type_description": "Fixed Gobos",
+      "capabilities": [
+        {
+          "label": "Clear",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": 1,
+          "min": 21,
+          "max": 40
+        },
+        {
+          "label": 2,
+          "min": 41,
+          "max": 60
+        },
+        {
+          "label": 3,
+          "min": 61,
+          "max": 80
+        },
+        {
+          "label": 4,
+          "min": 81,
+          "max": 100
+        },
+        {
+          "label": 5,
+          "min": 101,
+          "max": 120
+        },
+        {
+          "label": 6,
+          "min": 121,
+          "max": 140
+        },
+        {
+          "label": 7,
+          "min": 141,
+          "max": 160
+        },
+        {
+          "label": "Clockwise rotation in speed 1 (slowest)",
+          "min": 161,
+          "max": 167
+        },
+        {
+          "label": "Clockwise rotation in speed 2",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Clockwise rotation in speed 3",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Clockwise rotation in speed 4 (fastest)",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Stop rotating",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Anti-clockwise rotation in speed (slowest)",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Anti-clockwise rotation in speed 2",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Anti-clockwise rotation in speed 3",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Anti-clockwise rotation in speed 4 (fastest)",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan rotation",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Tilt rotation",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Zoom",
+      "capabilities": [
+        {
+          "label": "Clear",
+          "min": 0,
+          "max": 50
+        },
+        {
+          "label": "Angle 1 (wide)",
+          "min": 51,
+          "max": 101
+        },
+        {
+          "label": "Angle 2 (narrow)",
+          "min": 102,
+          "max": 152
+        },
+        {
+          "label": "CTB",
+          "min": 153,
+          "max": 203
+        },
+        {
+          "label": "CTO",
+          "min": 204,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Colour Wheel 1",
+      "capabilities": [
+        {
+          "label": "White. Note: Stay 5 seconds while DMX value is 5, 6 or 7, the reset function is performed",
+          "min": 0,
+          "max": 16
+        },
+        {
+          "label": "White/filter 1",
+          "min": 17,
+          "max": 24
+        },
+        {
+          "label": "Filter 1",
+          "min": 25,
+          "max": 32
+        },
+        {
+          "label": "Filter 1/filter 2",
+          "min": 33,
+          "max": 40
+        },
+        {
+          "label": "Filter 2",
+          "min": 41,
+          "max": 48
+        },
+        {
+          "label": "Filter 2/filter 3",
+          "min": 49,
+          "max": 56
+        },
+        {
+          "label": "Filter 3",
+          "min": 57,
+          "max": 64
+        },
+        {
+          "label": "Filter 3/filter 4",
+          "min": 65,
+          "max": 72
+        },
+        {
+          "label": "Filter 4",
+          "min": 73,
+          "max": 80
+        },
+        {
+          "label": "Filter 4/filter 5",
+          "min": 81,
+          "max": 88
+        },
+        {
+          "label": "Filter 5",
+          "min": 89,
+          "max": 96
+        },
+        {
+          "label": "Filter 5/filter 6",
+          "min": 97,
+          "max": 104
+        },
+        {
+          "label": "Filter 6",
+          "min": 105,
+          "max": 112
+        },
+        {
+          "label": "Filter 6/white",
+          "min": 113,
+          "max": 120
+        },
+        {
+          "label": "White",
+          "min": 121,
+          "max": 127
+        },
+        {
+          "label": "Clockwise rotation in speed 1",
+          "min": 128,
+          "max": 133
+        },
+        {
+          "label": "Clockwise rotation in speed 2",
+          "min": 134,
+          "max": 139
+        },
+        {
+          "label": "Clockwise rotation in speed 3",
+          "min": 140,
+          "max": 145
+        },
+        {
+          "label": "Clockwise rotation in speed 4",
+          "min": 146,
+          "max": 151
+        },
+        {
+          "label": "Clockwise rotation in speed 5",
+          "min": 152,
+          "max": 157
+        },
+        {
+          "label": "Clockwise rotation in speed 6",
+          "min": 158,
+          "max": 163
+        },
+        {
+          "label": "Clockwise rotation in speed 7",
+          "min": 164,
+          "max": 169
+        },
+        {
+          "label": "Clockwise rotation in speed 8",
+          "min": 170,
+          "max": 175
+        },
+        {
+          "label": "Clockwise rotation in speed 9",
+          "min": 176,
+          "max": 181
+        },
+        {
+          "label": "Clockwise rotation in speed 10",
+          "min": 182,
+          "max": 187
+        },
+        {
+          "label": "Stop rotating",
+          "min": 188,
+          "max": 195
+        },
+        {
+          "label": "Anti-clockwise rotation in speed 1",
+          "min": 196,
+          "max": 201
+        },
+        {
+          "label": "Anti-clockwise rotation in speed 2",
+          "min": 202,
+          "max": 207
+        },
+        {
+          "label": "Anti-clockwise rotation in speed 3",
+          "min": 208,
+          "max": 213
+        },
+        {
+          "label": "Anti-clockwise rotation in speed 4",
+          "min": 214,
+          "max": 219
+        },
+        {
+          "label": "Anti-clockwise rotation in speed 5",
+          "min": 220,
+          "max": 225
+        },
+        {
+          "label": "Anti-clockwise rotation in speed 6",
+          "min": 226,
+          "max": 231
+        },
+        {
+          "label": "Anti-clockwise rotation in speed 7",
+          "min": 232,
+          "max": 237
+        },
+        {
+          "label": "Anti-clockwise rotation in speed 8",
+          "min": 238,
+          "max": 243
+        },
+        {
+          "label": "Anti-clockwise rotation in speed 9",
+          "min": 244,
+          "max": 249
+        },
+        {
+          "label": "Anti-clockwise rotation in speed 10",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Colour Wheel 2",
+      "capabilities": [
+        {
+          "label": "White. Note: Stay 5 seconds while DMX value is 5, 6 or 7, the reset function is performed",
+          "min": 0,
+          "max": 16
+        },
+        {
+          "label": "White/filter 1",
+          "min": 17,
+          "max": 24
+        },
+        {
+          "label": "Filter 1",
+          "min": 25,
+          "max": 32
+        },
+        {
+          "label": "Filter 1/filter 2",
+          "min": 33,
+          "max": 40
+        },
+        {
+          "label": "Filter 2",
+          "min": 41,
+          "max": 48
+        },
+        {
+          "label": "Filter 2/filter 3",
+          "min": 49,
+          "max": 56
+        },
+        {
+          "label": "Filter 3",
+          "min": 57,
+          "max": 64
+        },
+        {
+          "label": "Filter 3/filter 4",
+          "min": 65,
+          "max": 72
+        },
+        {
+          "label": "Filter 4",
+          "min": 73,
+          "max": 80
+        },
+        {
+          "label": "Filter 4/filter 5",
+          "min": 81,
+          "max": 88
+        },
+        {
+          "label": "Filter 5",
+          "min": 89,
+          "max": 96
+        },
+        {
+          "label": "Filter 5/filter 6",
+          "min": 97,
+          "max": 104
+        },
+        {
+          "label": "Filter 6",
+          "min": 105,
+          "max": 112
+        },
+        {
+          "label": "Filter 6/white",
+          "min": 113,
+          "max": 120
+        },
+        {
+          "label": "White",
+          "min": 121,
+          "max": 127
+        },
+        {
+          "label": "Clockwise rotation in speed 1",
+          "min": 128,
+          "max": 133
+        },
+        {
+          "label": "Clockwise rotation in speed 2",
+          "min": 134,
+          "max": 139
+        },
+        {
+          "label": "Clockwise rotation in speed 3",
+          "min": 140,
+          "max": 145
+        },
+        {
+          "label": "Clockwise rotation in speed 4",
+          "min": 146,
+          "max": 151
+        },
+        {
+          "label": "Clockwise rotation in speed 5",
+          "min": 152,
+          "max": 157
+        },
+        {
+          "label": "Clockwise rotation in speed 6",
+          "min": 158,
+          "max": 163
+        },
+        {
+          "label": "Clockwise rotation in speed 7",
+          "min": 164,
+          "max": 169
+        },
+        {
+          "label": "Clockwise rotation in speed 8",
+          "min": 170,
+          "max": 175
+        },
+        {
+          "label": "Clockwise rotation in speed 9",
+          "min": 176,
+          "max": 181
+        },
+        {
+          "label": "Clockwise rotation in speed 10",
+          "min": 182,
+          "max": 187
+        },
+        {
+          "label": "Stop rotating",
+          "min": 188,
+          "max": 195
+        },
+        {
+          "label": "Anti-clockwise rotation in speed 1",
+          "min": 196,
+          "max": 201
+        },
+        {
+          "label": "Anti-clockwise rotation in speed 2",
+          "min": 202,
+          "max": 207
+        },
+        {
+          "label": "Anti-clockwise rotation in speed 3",
+          "min": 208,
+          "max": 213
+        },
+        {
+          "label": "Anti-clockwise rotation in speed 4",
+          "min": 214,
+          "max": 219
+        },
+        {
+          "label": "Anti-clockwise rotation in speed 5",
+          "min": 220,
+          "max": 225
+        },
+        {
+          "label": "Anti-clockwise rotation in speed 6",
+          "min": 226,
+          "max": 231
+        },
+        {
+          "label": "Anti-clockwise rotation in speed 7",
+          "min": 232,
+          "max": 237
+        },
+        {
+          "label": "Anti-clockwise rotation in speed 8",
+          "min": 238,
+          "max": 243
+        },
+        {
+          "label": "Anti-clockwise rotation in speed 9",
+          "min": 244,
+          "max": 249
+        },
+        {
+          "label": "Anti-clockwise rotation in speed 10",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 4,
+      "type_description": "Rotating Gobo Wheel",
+      "capabilities": [
+        {
+          "label": "Clear",
+          "min": 0,
+          "max": 43
+        },
+        {
+          "label": 1,
+          "min": 44,
+          "max": 85
+        },
+        {
+          "label": 2,
+          "min": 86,
+          "max": 128
+        },
+        {
+          "label": 3,
+          "min": 129,
+          "max": 170
+        },
+        {
+          "label": 4,
+          "min": 171,
+          "max": 212
+        },
+        {
+          "label": 5,
+          "min": 213,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 4,
+      "type_description": "Gobo Rotation",
+      "capabilities": [
+        {
+          "label": "0~540°",
+          "min": 0,
+          "max": 120
+        },
+        {
+          "label": "Clockwise in speed 1",
+          "min": 121,
+          "max": 127
+        },
+        {
+          "label": "Clockwise in speed 2",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Clockwise in speed 3",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Clockwise in speed 4",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Clockwise in speed 5",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Clockwise in speed 6",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Clockwise in speed 7",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Clockwise in speed 8",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Stop",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Anti-clockwise in speed 8",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Anti-clockwise in speed 7",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Anti-clockwise in speed 6",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Anti-clockwise in speed 5",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Anti-clockwise in speed 4",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Anti-clockwise in speed 3",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Anti-clockwise in speed 2",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Anti-clockwise in speed 1",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 20,
+      "type_description": "Prism Rotation",
+      "capabilities": [
+        {
+          "label": "0~540°",
+          "min": 0,
+          "max": 120
+        },
+        {
+          "label": "Clockwise in speed 1",
+          "min": 121,
+          "max": 127
+        },
+        {
+          "label": "Clockwise in speed 2",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Clockwise in speed 3",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Clockwise in speed 4",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Clockwise in speed 5",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Clockwise in speed 6",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Clockwise in speed 7",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Clockwise in speed 8",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Stop",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Anti-clockwise in speed 8",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Anti-clockwise in speed 7",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Anti-clockwise in speed 6",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Anti-clockwise in speed 5",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Anti-clockwise in speed 4",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Anti-clockwise in speed 3",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Anti-clockwise in speed 2",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Anti-clockwise in speed 1",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 3,
+      "type_description": "Pan & Tilt Speed (Extended Function)",
+      "capabilities": [
+        {
+          "label": "Adjust",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Pan Fine (16-bit Extended Function)",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Tile Fine (16-bit Extended Function)",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 4,
+      "type_description": "Gobo Rotation Fine (16-bit Extended Function)",
+      "capabilities": [
+        {
+          "label": "Adjust",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 17,
+      "type_description": "Control (When Extended functions are Invalid, Shift This Channel to 15th Channel.)",
+      "capabilities": [
+        {
+          "label": "Reserved",
+          "min": 0,
+          "max": 48
+        },
+        {
+          "label": "Reset",
+          "min": 49,
+          "max": 80
+        },
+        {
+          "label": "Reserved",
+          "min": 81,
+          "max": 112
+        },
+        {
+          "label": "Turn lamp Off (stay 10 seconds)",
+          "min": 113,
+          "max": 144
+        },
+        {
+          "label": "Reserved",
+          "min": 145,
+          "max": 223
+        },
+        {
+          "label": "Turn lamp on",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 20,
+      "type_description": "Prisms",
+      "capabilities": [
+        {
+          "label": "Clear",
+          "min": 0,
+          "max": 51
+        },
+        {
+          "label": 1,
+          "min": 52,
+          "max": 102
+        },
+        {
+          "label": 2,
+          "min": 103,
+          "max": 153
+        },
+        {
+          "label": "UV effect",
+          "min": 154,
+          "max": 204
+        },
+        {
+          "label": "Frost",
+          "min": 205,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/PR_Lighting/PR-Lighting-Pilot-575.json",
+  "id": 1168
+}

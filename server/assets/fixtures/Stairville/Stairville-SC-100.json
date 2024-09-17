@@ -1,0 +1,81 @@
+{
+  "version": "1.0.0",
+  "label": "SC-100",
+  "manufacturer": "Stairville",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 117,
+  "dimension_height": 140,
+  "dimension_depth": 420,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 180,
+  "focus_tilt_max": 45,
+  "technical_power_consumption": 40,
+  "technical_dmx_connector": "3-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 3,
+      "type_description": "Patterne/Chase",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Pattern",
+          "min": 10,
+          "max": 159
+        },
+        {
+          "label": "Chase",
+          "min": 160,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No Strobe",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe Speed",
+          "min": 10,
+          "max": 249
+        },
+        {
+          "label": "Stand Alone",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Stairville/Stairville-SC-100.json",
+  "id": 1438
+}

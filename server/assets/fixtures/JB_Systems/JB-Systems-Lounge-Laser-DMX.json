@@ -1,0 +1,236 @@
+{
+  "version": "1.0.0",
+  "label": "Lounge Laser DMX",
+  "manufacturer": "JB Systems",
+  "bulb_type": "Laser/LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 233,
+  "dimension_height": 86,
+  "dimension_depth": 160,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 15,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "1-Channel Mode",
+      "capabilities": [
+        {
+          "label": "Laser off (blackout)",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "ArA, automatic random play",
+          "min": 8,
+          "max": 100
+        },
+        {
+          "label": "SrA, slow random play",
+          "min": 101,
+          "max": 170
+        },
+        {
+          "label": "Sou, sound activated random play",
+          "min": 171,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Mode Select",
+      "capabilities": [
+        {
+          "label": "Laser off (blackout)",
+          "min": 0,
+          "max": 51
+        },
+        {
+          "label": "ArA, automatic random play",
+          "min": 52,
+          "max": 102
+        },
+        {
+          "label": "SrA, slow random play",
+          "min": 103,
+          "max": 154
+        },
+        {
+          "label": "Sou, sound activated random play",
+          "min": 155,
+          "max": 206
+        },
+        {
+          "label": "Laser in DMX mode",
+          "min": 207,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 21,
+      "type_description": "Red Laser Strobe",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Laser on",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "Frequency from fast to slow",
+          "min": 128,
+          "max": 254
+        },
+        {
+          "label": "Sound controlled",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 21,
+      "type_description": "Green Laser Strobe",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Laser on",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "Frequency from fast to slow",
+          "min": 128,
+          "max": 254
+        },
+        {
+          "label": "Sound controlled",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Rotation Laser Dots",
+      "capabilities": [
+        {
+          "label": "No",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Clockwise from slow to fast",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "No",
+          "min": 128,
+          "max": 133
+        },
+        {
+          "label": "Counterclockwise from slow to fast",
+          "min": 134,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Rotation LED Effect",
+      "capabilities": [
+        {
+          "label": "No",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Clockwise from slow to fast",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "No",
+          "min": 128,
+          "max": 133
+        },
+        {
+          "label": "Counterclockwise from slow to fast",
+          "min": 134,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 5,
+      "type_description": "Dimmer LED",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Level from low to high",
+          "min": 5,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 21,
+      "type_description": "LED Strobe",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "LED on",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "Frequency from fast to slow",
+          "min": 128,
+          "max": 254
+        },
+        {
+          "label": "Sound controlled",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/JB_Systems/JB-Systems-Lounge-Laser-DMX.json",
+  "id": 929
+}

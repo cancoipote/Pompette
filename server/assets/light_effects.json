@@ -1,0 +1,1003 @@
+{
+	"frequency":50,
+	"devices_channel":
+	[
+		{"label":"stars", "channel":11},
+		{"label":"spot1", "channel":21},
+		{"label":"spot2", "channel":31},
+		{"label":"spot3", "channel":41},
+		{"label":"spot4", "channel":51},
+		{"label":"lyre1", "channel":71},
+		{"label":"lyre2", "channel":91},
+		{"label":"derby", "channel":111}
+	],
+	"atmospheres":
+	[
+		{
+			"label":"default",
+			"devices":
+			[
+				{
+					"label":"lyre1",
+					"model":"Algam MS-60 11CH for lyre 1",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":true,
+						"can_be_bypass":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_empty", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_no", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"lyre2",
+					"model":"Algam MS-60 11CH",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":true,
+						"can_be_bypass":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_empty", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_no", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"intro",
+			"devices":
+			[
+				{
+					"label":"lyre1",
+					"model":"Algam MS-60 11CH for lyre 1",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":0.5 },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_vortex", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_no", "coefficient":null },
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"intro1", "coefficient":null },
+								"end": { "value":null, "specificValue":"intro2", "coefficient":0.1 },
+								"step":2
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"intro2", "coefficient":null },
+								"end": { "value":null, "specificValue":"intro3", "coefficient":0.1 },
+								"step":2
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"intro3", "coefficient":null },
+								"end": { "value":null, "specificValue":"intro4", "coefficient":0.1 },
+								"step":2
+							}
+						]
+					}
+				},
+				{
+					"label":"lyre2",
+					"model":"Algam MS-60 11CH",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":0.5 },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_vortex", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_no", "coefficient":null },
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"intro1", "coefficient":null },
+								"end": { "value":null, "specificValue":"intro2", "coefficient":0.1 },
+								"step":2
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"intro2", "coefficient":null },
+								"end": { "value":null, "specificValue":"intro3", "coefficient":0.1 },
+								"step":2
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"intro3", "coefficient":null },
+								"end": { "value":null, "specificValue":"intro4", "coefficient":0.1 },
+								"step":2
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"intro2",
+			"devices":
+			[
+				{
+					"label":"lyre1",
+					"model":"Algam MS-60 11CH for lyre 1",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_vortex", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_no", "coefficient":null },
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"default", "coefficient":null },
+								"end": { "value":null, "specificValue":"intro3", "coefficient":null },
+								"step":2
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"intro3", "coefficient":null },
+								"end": { "value":null, "specificValue":"intro4", "coefficient":null },
+								"step":2
+							}
+						]
+					}
+				},
+				{
+					"label":"lyre2",
+					"model":"Algam MS-60 11CH",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_vortex", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_no", "coefficient":null },
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"intro3", "coefficient":null },
+								"end": { "value":null, "specificValue":"intro4", "coefficient":0.1 },
+								"step":2
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"intro4", "coefficient":null },
+								"end": { "value":null, "specificValue":"default", "coefficient":0.1 },
+								"step":2
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"chrono",
+			"devices":
+			[
+				{
+					"label":"lyre1",
+					"model":"Algam MS-60 11CH for lyre 1",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_empty", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"chrono", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500}						]
+					}
+				},
+				{
+					"label":"lyre2",
+					"model":"Algam MS-60 11CH",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_empty", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"chrono", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500}		
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"chrono2",
+			"devices":
+			[
+				{
+					"label":"lyre1",
+					"model":"Algam MS-60 11CH for lyre 1",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":0.97 },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_empty", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":800, "max":800},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"chrono", "coefficient":null },
+							{ "type":"delay", "min":800, "max":800}						]
+					}
+				},
+				{
+					"label":"lyre2",
+					"model":"Algam MS-60 11CH",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":0.97 },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_empty", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"chrono", "coefficient":null },
+							{ "type":"delay", "min":800, "max":800},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":800, "max":800}		
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"doubleOrQuits",
+			"devices":
+			[
+				{
+					"label":"lyre1",
+					"model":"Algam MS-60 11CH for lyre 1",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_empty", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_rotate_fast", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"brush_vertical", "coefficient":null }					
+						]
+					}
+				},
+				{
+					"label":"lyre2",
+					"model":"Algam MS-60 11CH",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_empty", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_rotate_fast", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"brush_vertical", "coefficient":null }		
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"wheel",
+			"devices":
+			[
+				{
+					"label":"lyre1",
+					"model":"Algam MS-60 11CH for lyre 1",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_empty", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_no", "coefficient":null },
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"default", "coefficient":null },
+								"end": { "value":null, "specificValue":"gyro1", "coefficient":null },
+								"step":4
+							},
+							{ "type":"delay", "min":300, "max":300},	
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"gyro1", "coefficient":null },
+								"end": { "value":null, "specificValue":"gyro2", "coefficient":null },
+								"step":4
+							},
+							{ "type":"delay", "min":300, "max":300}
+						]
+					}
+				},
+				{
+					"label":"lyre2",
+					"model":"Algam MS-60 11CH",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"blue", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_empty", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_no", "coefficient":null },
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"default", "coefficient":null },
+								"end": { "value":null, "specificValue":"gyro1", "coefficient":null },
+								"step":4
+							},
+							{ "type":"delay", "min":300, "max":300},	
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"gyro1", "coefficient":null },
+								"end": { "value":null, "specificValue":"gyro2", "coefficient":null },
+								"step":4
+							},
+							{ "type":"delay", "min":300, "max":300}
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"nextQuestion",
+			"devices":
+			[
+				{
+					"label":"lyre1",
+					"model":"Algam MS-60 11CH for lyre 1",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":0.2 },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_empty", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"chrono", "coefficient":null },	
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },	
+						]
+					}
+				},
+				{
+					"label":"lyre2",
+					"model":"Algam MS-60 11CH",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":0.2 },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_empty", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"chrono", "coefficient":null },	
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },	
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"trueOrFalse",
+			"devices":
+			[
+				{
+					"label":"lyre1",
+					"model":"Algam MS-60 11CH for lyre 1",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"green", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_empty", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"central", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"lyre2",
+					"model":"Algam MS-60 11CH",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_empty", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"central", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"winner1",
+			"devices":
+			[
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":0.5	},
+							{ "type":"fixed", "channel":6, "value":245, "specificValue":null, "coefficient":null	},
+							{ "type":"delay", "min":1500, "max":1500},
+							{ "type":"fixed", "channel":6, "value":0, "specificValue":null, "coefficient":null	},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":0.5	},
+							{ "type":"fixed", "channel":6, "value":245, "specificValue":null, "coefficient":null	},
+							{ "type":"delay", "min":1500, "max":1500},
+							{ "type":"fixed", "channel":6, "value":0, "specificValue":null, "coefficient":null	},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"no", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":0.5	},
+							{ "type":"fixed", "channel":6, "value":245, "specificValue":null, "coefficient":null	},
+							{ "type":"delay", "min":1500, "max":1500},
+							{ "type":"fixed", "channel":6, "value":0, "specificValue":null, "coefficient":null	},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"no", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":0.5	},
+							{ "type":"fixed", "channel":6, "value":245, "specificValue":null, "coefficient":null	},
+							{ "type":"delay", "min":1500, "max":1500},
+							{ "type":"fixed", "channel":6, "value":0, "specificValue":null, "coefficient":null	},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"no", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"lyre1",
+					"model":"Algam MS-60 11CH for lyre 1",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_empty", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"brush_horizontal", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":0.5 },
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"brush_vertical", "coefficient":null },
+								"end": { "value":null, "specificValue":"team1", "coefficient":null },
+								"step":1
+							},
+							{ "type":"delay", "min":2500, "max":2500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"lyre2",
+					"model":"Algam MS-60 11CH",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_empty", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"brush_horizontal", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":0.5 },
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"brush_vertical", "coefficient":null },
+								"end": { "value":null, "specificValue":"team4", "coefficient":null },
+								"step":1
+							},
+							{ "type":"delay", "min":2500, "max":2500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"winner2",
+			"devices":
+			[
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":0.5	},
+							{ "type":"fixed", "channel":6, "value":245, "specificValue":null, "coefficient":null	},
+							{ "type":"delay", "min":1500, "max":1500},
+							{ "type":"fixed", "channel":6, "value":0, "specificValue":null, "coefficient":null	},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"no", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":0.5	},
+							{ "type":"fixed", "channel":6, "value":245, "specificValue":null, "coefficient":null	},
+							{ "type":"delay", "min":1500, "max":1500},
+							{ "type":"fixed", "channel":6, "value":0, "specificValue":null, "coefficient":null	},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":0.5	},
+							{ "type":"fixed", "channel":6, "value":245, "specificValue":null, "coefficient":null	},
+							{ "type":"delay", "min":1500, "max":1500},
+							{ "type":"fixed", "channel":6, "value":0, "specificValue":null, "coefficient":null	},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"no", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":0.5	},
+							{ "type":"fixed", "channel":6, "value":245, "specificValue":null, "coefficient":null	},
+							{ "type":"delay", "min":1500, "max":1500},
+							{ "type":"fixed", "channel":6, "value":0, "specificValue":null, "coefficient":null	},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"no", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"lyre1",
+					"model":"Algam MS-60 11CH for lyre 1",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_empty", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"brush_horizontal", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":0.5 },
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"brush_horizontal", "coefficient":null },
+								"end": { "value":null, "specificValue":"team2", "coefficient":null },
+								"step":1
+							},
+							{ "type":"delay", "min":2500, "max":2500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"lyre2",
+					"model":"Algam MS-60 11CH",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_empty", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"brush_horizontal", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":0.5 },
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"brush_horizontal", "coefficient":null },
+								"end": { "value":null, "specificValue":"team3", "coefficient":null },
+								"step":1
+							},
+							{ "type":"delay", "min":2500, "max":2500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"winner3",
+			"devices":
+			[
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":0.5	},
+							{ "type":"fixed", "channel":6, "value":245, "specificValue":null, "coefficient":null	},
+							{ "type":"delay", "min":1500, "max":1500},
+							{ "type":"fixed", "channel":6, "value":0, "specificValue":null, "coefficient":null	},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"no", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":0.5	},
+							{ "type":"fixed", "channel":6, "value":245, "specificValue":null, "coefficient":null	},
+							{ "type":"delay", "min":1500, "max":1500},
+							{ "type":"fixed", "channel":6, "value":0, "specificValue":null, "coefficient":null	},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"no", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":0.5	},
+							{ "type":"fixed", "channel":6, "value":245, "specificValue":null, "coefficient":null	},
+							{ "type":"delay", "min":1500, "max":1500},
+							{ "type":"fixed", "channel":6, "value":0, "specificValue":null, "coefficient":null	},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":0.5	},
+							{ "type":"fixed", "channel":6, "value":245, "specificValue":null, "coefficient":null	},
+							{ "type":"delay", "min":1500, "max":1500},
+							{ "type":"fixed", "channel":6, "value":0, "specificValue":null, "coefficient":null	},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"no", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"lyre1",
+					"model":"Algam MS-60 11CH for lyre 1",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_empty", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"brush_horizontal", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":0.5 },
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"brush_vertical", "coefficient":null },
+								"end": { "value":null, "specificValue":"team3", "coefficient":null },
+								"step":1
+							},
+							{ "type":"delay", "min":2500, "max":2500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"lyre2",
+					"model":"Algam MS-60 11CH",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_empty", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"brush_horizontal", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":0.5 },
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"brush_vertical", "coefficient":null },
+								"end": { "value":null, "specificValue":"team2", "coefficient":null },
+								"step":1
+							},
+							{ "type":"delay", "min":2500, "max":2500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"winner4",
+			"devices":
+			[
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":0.5	},
+							{ "type":"fixed", "channel":6, "value":245, "specificValue":null, "coefficient":null	},
+							{ "type":"delay", "min":1500, "max":1500},
+							{ "type":"fixed", "channel":6, "value":0, "specificValue":null, "coefficient":null	},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"no", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":0.5	},
+							{ "type":"fixed", "channel":6, "value":245, "specificValue":null, "coefficient":null	},
+							{ "type":"delay", "min":1500, "max":1500},
+							{ "type":"fixed", "channel":6, "value":0, "specificValue":null, "coefficient":null	},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"no", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":0.5	},
+							{ "type":"fixed", "channel":6, "value":245, "specificValue":null, "coefficient":null	},
+							{ "type":"delay", "min":1500, "max":1500},
+							{ "type":"fixed", "channel":6, "value":0, "specificValue":null, "coefficient":null	},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"no", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":0.5	},
+							{ "type":"fixed", "channel":6, "value":245, "specificValue":null, "coefficient":null	},
+							{ "type":"delay", "min":1500, "max":1500},
+							{ "type":"fixed", "channel":6, "value":0, "specificValue":null, "coefficient":null	},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"lyre1",
+					"model":"Algam MS-60 11CH for lyre 1",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_empty", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"brush_horizontal", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":0.5 },
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"brush_vertical", "coefficient":null },
+								"end": { "value":null, "specificValue":"team4", "coefficient":null },
+								"step":1
+							},
+							{ "type":"delay", "min":2500, "max":2500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"lyre2",
+					"model":"Algam MS-60 11CH",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_empty", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"brush_horizontal", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":0.5 },
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"brush_vertical", "coefficient":null },
+								"end": { "value":null, "specificValue":"team1", "coefficient":null },
+								"step":1
+							},
+							{ "type":"delay", "min":2500, "max":2500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null }
+						]
+					}
+				}
+			]
+		}
+	]
+}

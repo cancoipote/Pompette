@@ -1,0 +1,163 @@
+{
+  "version": "1.0.0",
+  "label": "Mini Double Sided Moving Head",
+  "manufacturer": "UKing",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 146,
+  "dimension_height": 195,
+  "dimension_depth": 129,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 30,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Horizontal",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Horizontal fine tuning",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Vertical",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Vertical fine tuning",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Total dimming",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Strobe / flash",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Red dimming",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Green dimming",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Blue dimming",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "White dimming",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Laser dimming",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 3,
+      "type_description": "Custom1",
+      "capabilities": [
+        {
+          "label": "none",
+          "min": 0,
+          "max": 30
+        },
+        {
+          "label": "Self-walking1",
+          "min": 31,
+          "max": 127
+        },
+        {
+          "label": "Self-walking2",
+          "min": 128,
+          "max": 249
+        },
+        {
+          "label": "sound control",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 3,
+      "type_description": "Custom2",
+      "capabilities": [
+        {
+          "label": "Turn of the light belt",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Lamp band color selection",
+          "min": 5,
+          "max": 109
+        },
+        {
+          "label": "Lamp belt self-walking",
+          "min": 110,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 3,
+      "type_description": "Custom3",
+      "capabilities": [
+        {
+          "label": "none",
+          "min": 0,
+          "max": 249
+        },
+        {
+          "label": "reset",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/UKing/UKing-Mini-Double-Sided-Moving-Head.json",
+  "id": 1469
+}

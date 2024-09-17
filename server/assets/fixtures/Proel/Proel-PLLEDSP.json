@@ -1,0 +1,65 @@
+{
+  "version": "1.0.0",
+  "label": "PLLEDSP",
+  "manufacturer": "Proel",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 95,
+  "dimension_height": 160,
+  "dimension_depth": 150,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 5,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 5,
+      "type_description": "Dimmer / Strobe",
+      "capabilities": [
+        {
+          "label": "OFF",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Strobe effect (slow to fast)",
+          "min": 1,
+          "max": 127
+        },
+        {
+          "label": "Dimmer effect",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Proel/Proel-PLLEDSP.json",
+  "id": 1162
+}

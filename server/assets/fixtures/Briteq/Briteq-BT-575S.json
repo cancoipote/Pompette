@@ -1,0 +1,689 @@
+{
+  "version": "1.0.0",
+  "label": "BT 575S",
+  "manufacturer": "Briteq",
+  "bulb_type": "MSD 575W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 6500,
+  "dimension_weight": 27,
+  "dimension_width": 427,
+  "dimension_height": 478,
+  "dimension_depth": 39,
+  "lens_label": "PC",
+  "lens_degree_min": 14,
+  "lens_degree_max": 14,
+  "focus_type": "Fixed",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 600,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Pan & Tilt speed",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Shutter shaking",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "open",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "slow to fast shutter",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "slow to fast shaking gobo 1",
+          "min": 132,
+          "max": 185
+        },
+        {
+          "label": "slow to fast shaking gobo 2",
+          "min": 186,
+          "max": 239
+        },
+        {
+          "label": "music sense on",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "white",
+          "min": 0,
+          "max": 12
+        },
+        {
+          "label": "green",
+          "min": 13,
+          "max": 25
+        },
+        {
+          "label": "magenta",
+          "min": 26,
+          "max": 38
+        },
+        {
+          "label": "light blue",
+          "min": 39,
+          "max": 50
+        },
+        {
+          "label": "yellow",
+          "min": 51,
+          "max": 63
+        },
+        {
+          "label": "red",
+          "min": 64,
+          "max": 76
+        },
+        {
+          "label": "blue",
+          "min": 77,
+          "max": 88
+        },
+        {
+          "label": "UV purple",
+          "min": 89,
+          "max": 101
+        },
+        {
+          "label": "light green",
+          "min": 102,
+          "max": 114
+        },
+        {
+          "label": "pink",
+          "min": 115,
+          "max": 127
+        },
+        {
+          "label": "rotating wheel color fast to slow cw",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "rotating wheel color slow to fast ccw",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "No function",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 4,
+      "type_description": "Gobo 1",
+      "capabilities": [
+        {
+          "label": "no gobo",
+          "min": 0,
+          "max": 12
+        },
+        {
+          "label": "gobo1",
+          "min": 13,
+          "max": 25
+        },
+        {
+          "label": "gobo 2",
+          "min": 26,
+          "max": 38
+        },
+        {
+          "label": "gobo 3",
+          "min": 39,
+          "max": 50
+        },
+        {
+          "label": "gobo 4",
+          "min": 51,
+          "max": 63
+        },
+        {
+          "label": "gobo 5",
+          "min": 64,
+          "max": 76
+        },
+        {
+          "label": "gobo 6",
+          "min": 77,
+          "max": 88
+        },
+        {
+          "label": "gobo 7",
+          "min": 89,
+          "max": 101
+        },
+        {
+          "label": "gobo 8",
+          "min": 102,
+          "max": 114
+        },
+        {
+          "label": "gobo 9",
+          "min": 115,
+          "max": 127
+        },
+        {
+          "label": "rotating wheel fast to slow cw",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "rotating wheel slow to fast ccw",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 4,
+      "type_description": "Gobo 2",
+      "capabilities": [
+        {
+          "label": "no gobo",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "gobo 1",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "gobo 2",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "gobo 3",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "gobo 4",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "gobo 5",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "gobo 6",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "gobo 7",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "rotating wheel gobo fast to slow cw",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "rotating wheel gobo slow to fast ccw",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 4,
+      "type_description": "Gobo rotation",
+      "capabilities": [
+        {
+          "label": "Stopped",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Clockwise rotation (fast to slow)",
+          "min": 10,
+          "max": 120
+        },
+        {
+          "label": "Stopped",
+          "min": 121,
+          "max": 134
+        },
+        {
+          "label": "Counterclockwise rotation (slow to fast)",
+          "min": 135,
+          "max": 245
+        },
+        {
+          "label": "Stopped",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "Prism open",
+          "min": 0,
+          "max": 85
+        },
+        {
+          "label": "Prism effect 1",
+          "min": 86,
+          "max": 170
+        },
+        {
+          "label": "Prism effect 2",
+          "min": 171,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Prism rotation",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Pan 16 bit",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Tilt 16 bit",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 17,
+      "type_description": "Reset lamp on-off",
+      "capabilities": [
+        {
+          "label": "normal",
+          "min": 0,
+          "max": 254
+        },
+        {
+          "label": "reset dmx: ch8-255 and ch16-255, lamp off:ch8-239 and ch16-255.lamp on: ch8-247 and ch16-255",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "G1",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "G2",
+          "min": 8,
+          "max": 11
+        },
+        {
+          "label": "G3",
+          "min": 12,
+          "max": 15
+        },
+        {
+          "label": "G4",
+          "min": 16,
+          "max": 19
+        },
+        {
+          "label": "G5",
+          "min": 20,
+          "max": 23
+        },
+        {
+          "label": "G6",
+          "min": 24,
+          "max": 27
+        },
+        {
+          "label": "G7",
+          "min": 28,
+          "max": 31
+        },
+        {
+          "label": "G8",
+          "min": 32,
+          "max": 35
+        },
+        {
+          "label": "G9",
+          "min": 36,
+          "max": 39
+        },
+        {
+          "label": "G10",
+          "min": 40,
+          "max": 43
+        },
+        {
+          "label": "G11",
+          "min": 44,
+          "max": 47
+        },
+        {
+          "label": "G12",
+          "min": 48,
+          "max": 51
+        },
+        {
+          "label": "G13",
+          "min": 52,
+          "max": 55
+        },
+        {
+          "label": "G14",
+          "min": 56,
+          "max": 59
+        },
+        {
+          "label": "G15",
+          "min": 60,
+          "max": 63
+        },
+        {
+          "label": "G16",
+          "min": 64,
+          "max": 67
+        },
+        {
+          "label": "G10+G1",
+          "min": 68,
+          "max": 71
+        },
+        {
+          "label": "G10+G3",
+          "min": 72,
+          "max": 75
+        },
+        {
+          "label": "G10+G5",
+          "min": 76,
+          "max": 79
+        },
+        {
+          "label": "G10+G7",
+          "min": 80,
+          "max": 83
+        },
+        {
+          "label": "G10+G9",
+          "min": 84,
+          "max": 87
+        },
+        {
+          "label": "G13+G1",
+          "min": 88,
+          "max": 91
+        },
+        {
+          "label": "G13+G3",
+          "min": 92,
+          "max": 95
+        },
+        {
+          "label": "G13+G5",
+          "min": 96,
+          "max": 99
+        },
+        {
+          "label": "G13+G7",
+          "min": 100,
+          "max": 103
+        },
+        {
+          "label": "G13+G9",
+          "min": 104,
+          "max": 107
+        },
+        {
+          "label": "G15+G1",
+          "min": 108,
+          "max": 111
+        },
+        {
+          "label": "G15+G3",
+          "min": 112,
+          "max": 115
+        },
+        {
+          "label": "G15+G5",
+          "min": 116,
+          "max": 119
+        },
+        {
+          "label": "G15+G7",
+          "min": 120,
+          "max": 123
+        },
+        {
+          "label": "G15+G9",
+          "min": 124,
+          "max": 127
+        },
+        {
+          "label": "Gobo 1 rotation (fast to slow)",
+          "min": 128,
+          "max": 157
+        },
+        {
+          "label": "Gobo 1 rotation (slow to fast)",
+          "min": 158,
+          "max": 187
+        },
+        {
+          "label": "Gobo 2 rotation (fast to slow)",
+          "min": 188,
+          "max": 217
+        },
+        {
+          "label": "Gobo 2 rotation (slow to fast)",
+          "min": 218,
+          "max": 247
+        },
+        {
+          "label": "Sound control",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Color 2",
+      "capabilities": [
+        {
+          "label": "white",
+          "min": 0,
+          "max": 12
+        },
+        {
+          "label": "green",
+          "min": 13,
+          "max": 25
+        },
+        {
+          "label": "magenta",
+          "min": 26,
+          "max": 38
+        },
+        {
+          "label": "light blue",
+          "min": 39,
+          "max": 50
+        },
+        {
+          "label": "yellow",
+          "min": 51,
+          "max": 63
+        },
+        {
+          "label": "red",
+          "min": 64,
+          "max": 76
+        },
+        {
+          "label": "blue",
+          "min": 77,
+          "max": 88
+        },
+        {
+          "label": "UV purple",
+          "min": 89,
+          "max": 101
+        },
+        {
+          "label": "light green",
+          "min": 102,
+          "max": 114
+        },
+        {
+          "label": "pink",
+          "min": 115,
+          "max": 127
+        },
+        {
+          "label": "rotating wheel color fast to slow cw",
+          "min": 128,
+          "max": 187
+        },
+        {
+          "label": "rotating wheel color slow to fast ccw",
+          "min": 188,
+          "max": 247
+        },
+        {
+          "label": "Music sense on",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 3,
+      "type_description": "Prism/Prism rotation/Dimmer",
+      "capabilities": [
+        {
+          "label": "Prism open",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Prism",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Prism effect 1 CW rotation (fast to slow)",
+          "min": 32,
+          "max": 55
+        },
+        {
+          "label": "Prism effect 1 CCW rotation (slow to fast)",
+          "min": 56,
+          "max": 79
+        },
+        {
+          "label": "Prism effect 2 CW rotation (fast to slow)",
+          "min": 80,
+          "max": 103
+        },
+        {
+          "label": "Prism effect 2 CCW rotation (slow to fast)",
+          "min": 104,
+          "max": 127
+        },
+        {
+          "label": "Dimmer (0 - 100%)",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Briteq/Briteq-BT-575S.json",
+  "id": 252
+}

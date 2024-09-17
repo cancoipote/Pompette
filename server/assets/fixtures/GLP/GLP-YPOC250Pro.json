@@ -1,0 +1,911 @@
+{
+  "version": "1.0.0",
+  "label": "YPOC 250 Pro",
+  "manufacturer": "GLP",
+  "bulb_type": "MSD 250W",
+  "bulb_lumens": 18000,
+  "bulb_color_temperature": 8500,
+  "dimension_weight": 23,
+  "dimension_width": 380,
+  "dimension_height": 500,
+  "dimension_depth": 380,
+  "lens_label": "Other",
+  "lens_degree_min": 12,
+  "lens_degree_max": 18,
+  "focus_type": "Head",
+  "focus_pan_max": 530,
+  "focus_tilt_max": 280,
+  "technical_power_consumption": 500,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan coarse",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt coarse",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "White (fast)",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "label": "White / Color 1 (fast)",
+          "min": 2,
+          "max": 3
+        },
+        {
+          "label": "Brilliant blue (fast)",
+          "min": 4,
+          "max": 5
+        },
+        {
+          "label": "Brilliant blue / Blue (fast)",
+          "min": 6,
+          "max": 7
+        },
+        {
+          "label": "Blue (fast)",
+          "min": 8,
+          "max": 9
+        },
+        {
+          "label": "Blue / Purple (fast)",
+          "min": 10,
+          "max": 11
+        },
+        {
+          "label": "Purple (fast)",
+          "min": 12,
+          "max": 13
+        },
+        {
+          "label": "Purple / Magenta (fast)",
+          "min": 14,
+          "max": 15
+        },
+        {
+          "label": "Magenta (fast)",
+          "min": 16,
+          "max": 17
+        },
+        {
+          "label": "Magenta / Pink (fast)",
+          "min": 18,
+          "max": 19
+        },
+        {
+          "label": "Pink (fast)",
+          "min": 20,
+          "max": 21
+        },
+        {
+          "label": "Pink / Orange (fast)",
+          "min": 22,
+          "max": 23
+        },
+        {
+          "label": "Orange (fast)",
+          "min": 24,
+          "max": 25
+        },
+        {
+          "label": "Orange / Canary (fast)",
+          "min": 26,
+          "max": 27
+        },
+        {
+          "label": "Canary (fast)",
+          "min": 28,
+          "max": 29
+        },
+        {
+          "label": "Canary / Italian blue (fast)",
+          "min": 30,
+          "max": 31
+        },
+        {
+          "label": "Italian blue (fast)",
+          "min": 32,
+          "max": 33
+        },
+        {
+          "label": "Italian blue / Turquoise (fast)",
+          "min": 34,
+          "max": 35
+        },
+        {
+          "label": "Turquoise (fast)",
+          "min": 36,
+          "max": 37
+        },
+        {
+          "label": "Turquoise / Jade (fast)",
+          "min": 38,
+          "max": 39
+        },
+        {
+          "label": "Jade (fast)",
+          "min": 40,
+          "max": 41
+        },
+        {
+          "label": "Jade / Red (fast)",
+          "min": 42,
+          "max": 43
+        },
+        {
+          "label": "Red (fast)",
+          "min": 44,
+          "max": 45
+        },
+        {
+          "label": "Red / White (fast)",
+          "min": 46,
+          "max": 47
+        },
+        {
+          "label": "White (fast)",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "White (slow)",
+          "min": 64,
+          "max": 65
+        },
+        {
+          "label": "White / Brilliant blue (slow)",
+          "min": 66,
+          "max": 67
+        },
+        {
+          "label": "Brilliant blue (slow)",
+          "min": 68,
+          "max": 69
+        },
+        {
+          "label": "Brilliant blue / Blue (slow)",
+          "min": 70,
+          "max": 71
+        },
+        {
+          "label": "Blue (slow)",
+          "min": 72,
+          "max": 73
+        },
+        {
+          "label": "Blue / Purple (slow)",
+          "min": 74,
+          "max": 75
+        },
+        {
+          "label": "Purple (slow)",
+          "min": 76,
+          "max": 77
+        },
+        {
+          "label": "Purple / Magenta (slow)",
+          "min": 78,
+          "max": 79
+        },
+        {
+          "label": "Magenta (slow)",
+          "min": 80,
+          "max": 81
+        },
+        {
+          "label": "Magenta / Pink (slow)",
+          "min": 82,
+          "max": 83
+        },
+        {
+          "label": "Pink (slow)",
+          "min": 84,
+          "max": 85
+        },
+        {
+          "label": "Pink / Orange (slow)",
+          "min": 86,
+          "max": 87
+        },
+        {
+          "label": "Orange (slow)",
+          "min": 88,
+          "max": 89
+        },
+        {
+          "label": "Orange / Canary (slow)",
+          "min": 90,
+          "max": 91
+        },
+        {
+          "label": "Canary (slow)",
+          "min": 92,
+          "max": 93
+        },
+        {
+          "label": "Canary / Italian blue (slow)",
+          "min": 94,
+          "max": 95
+        },
+        {
+          "label": "Italian blue (slow)",
+          "min": 96,
+          "max": 97
+        },
+        {
+          "label": "Italian blue / Turquoise (slow)",
+          "min": 98,
+          "max": 99
+        },
+        {
+          "label": "Turquoise (slow)",
+          "min": 100,
+          "max": 101
+        },
+        {
+          "label": "Turquoise / Jade (slow)",
+          "min": 102,
+          "max": 103
+        },
+        {
+          "label": "Jade (slow)",
+          "min": 104,
+          "max": 105
+        },
+        {
+          "label": "Jade / Red (slow)",
+          "min": 106,
+          "max": 107
+        },
+        {
+          "label": "Red (slow)",
+          "min": 108,
+          "max": 109
+        },
+        {
+          "label": "Red / White (slow)",
+          "min": 110,
+          "max": 111
+        },
+        {
+          "label": "White (slow)",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "CW rotation slow to fast",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "CCW rotation fast to slow",
+          "min": 192,
+          "max": 253
+        },
+        {
+          "label": "Audio chase slow",
+          "min": 254,
+          "max": 254
+        },
+        {
+          "label": "Audio chase fast",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 4,
+      "type_description": "Gobo 1",
+      "capabilities": [
+        {
+          "label": "Gobo 1 open (fast)",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Gobo 2 (fast)",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Gobo 3 (fast)",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Gobo 4 (fast)",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Gobo 5 (fast)",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Gobo 6 (fast)",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Gobo 7 (fast)",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Gobo 8 (fast)",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Gobo 1 open (slow)",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Gobo 2 (slow)",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Gobo 3 (slow)",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Gobo 4 (slow)",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Gobo 5 (slow)",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Gobo 6 (slow)",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Gobo 7 (slow)",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Gobo 8 (slow)",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Gobo rotation STOP",
+          "min": 128,
+          "max": 129
+        },
+        {
+          "label": "CW rotation slow to fast",
+          "min": 130,
+          "max": 191
+        },
+        {
+          "label": "CCW rotation fast to slow",
+          "min": 192,
+          "max": 253
+        },
+        {
+          "label": "Audio chase slow",
+          "min": 254,
+          "max": 254
+        },
+        {
+          "label": "Audio chase fast",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 4,
+      "type_description": "Gobo 1 rotation",
+      "capabilities": [
+        {
+          "label": "Gobo position 0 to 540 deg",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Gobo rotation STOP",
+          "min": 128,
+          "max": 129
+        },
+        {
+          "label": "CW rotation slow to fast",
+          "min": 130,
+          "max": 191
+        },
+        {
+          "label": "CCW rotation fast to slow",
+          "min": 192,
+          "max": 253
+        },
+        {
+          "label": "Audio rotation slow",
+          "min": 254,
+          "max": 254
+        },
+        {
+          "label": "Audio rotation fast",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 4,
+      "type_description": "Gobo 2",
+      "capabilities": [
+        {
+          "label": "Gobo 1 open (fast)",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Gobo 2 (fast)",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "Gobo 3 (fast)",
+          "min": 8,
+          "max": 11
+        },
+        {
+          "label": "Gobo 4 (fast)",
+          "min": 12,
+          "max": 15
+        },
+        {
+          "label": "Gobo 5 (fast)",
+          "min": 16,
+          "max": 19
+        },
+        {
+          "label": "Gobo 6 (fast)",
+          "min": 20,
+          "max": 23
+        },
+        {
+          "label": "Gobo 7 (fast)",
+          "min": 24,
+          "max": 27
+        },
+        {
+          "label": "Gobo 8 (fast)",
+          "min": 28,
+          "max": 31
+        },
+        {
+          "label": "Gobo 9 (fast)",
+          "min": 32,
+          "max": 35
+        },
+        {
+          "label": "Gobo 10 (fast)",
+          "min": 36,
+          "max": 63
+        },
+        {
+          "label": "Gobo 1 open (fast)",
+          "min": 64,
+          "max": 65
+        },
+        {
+          "label": "Gobo 1 open (slow)",
+          "min": 66,
+          "max": 67
+        },
+        {
+          "label": "Gobo 2 (slow)",
+          "min": 68,
+          "max": 71
+        },
+        {
+          "label": "Gobo 3 (slow)",
+          "min": 72,
+          "max": 75
+        },
+        {
+          "label": "Gobo 4 (slow)",
+          "min": 76,
+          "max": 80
+        },
+        {
+          "label": "Gobo 5 (slow)",
+          "min": 81,
+          "max": 83
+        },
+        {
+          "label": "Gobo 6 (slow)",
+          "min": 84,
+          "max": 87
+        },
+        {
+          "label": "Gobo 7 (slow)",
+          "min": 88,
+          "max": 91
+        },
+        {
+          "label": "Gobo 8 (slow)",
+          "min": 92,
+          "max": 95
+        },
+        {
+          "label": "Gobo 9 (slow)",
+          "min": 96,
+          "max": 99
+        },
+        {
+          "label": "Gobo 10 (slow)",
+          "min": 100,
+          "max": 127
+        },
+        {
+          "label": "Rotation STOP",
+          "min": 128,
+          "max": 129
+        },
+        {
+          "label": "CW rotation slow to fast",
+          "min": 130,
+          "max": 191
+        },
+        {
+          "label": "CCW rotation fast to slow",
+          "min": 192,
+          "max": 253
+        },
+        {
+          "label": "Audio chase slow",
+          "min": 254,
+          "max": 254
+        },
+        {
+          "label": "Audio chase fast",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Random strobe",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Strobe pulse slow to fast",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Strobe slow to fast",
+          "min": 48,
+          "max": 239
+        },
+        {
+          "label": "Open (lamp ON)",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "Swing out",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Position 0 to 540 deg",
+          "min": 6,
+          "max": 129
+        },
+        {
+          "label": "CW rotation slow to fast",
+          "min": 130,
+          "max": 191
+        },
+        {
+          "label": "CCW rotation fast to slow",
+          "min": 192,
+          "max": 253
+        },
+        {
+          "label": "Audio rotation slow",
+          "min": 254,
+          "max": 254
+        },
+        {
+          "label": "Audio rotation fast",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 17,
+      "type_description": "Special",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Gobo shake 10deg slow to fast",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Gobo shake 20deg slow to fast",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Gobo shake 30deg slow to fast",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Color chaser C/C+1 slow to fast",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Color chaser C/C+2 slow to fast",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Audio pan/tilt slow",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Audio pan/tilt fast",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Laser flash random",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Laser audio",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Laser blinking slow to fast",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Laser flashing slow to fast",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Laser ON",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "No function",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "Fan silent",
+          "min": 224,
+          "max": 229
+        },
+        {
+          "label": "Lamp OFF (3sec when shutter closed)",
+          "min": 230,
+          "max": 249
+        },
+        {
+          "label": "Reset",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 3,
+      "type_description": "Movement",
+      "capabilities": [
+        {
+          "label": "No movement",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Pan effects",
+          "min": 1,
+          "max": 31
+        },
+        {
+          "label": "Tilt effects",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Pan/Tilt effects",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Inverse pan/tilt effects",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Circle effects",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Inverse circle effects",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Lying eight effects",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Random movement effects",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 22,
+      "type_description": "Movement speed",
+      "capabilities": [
+        {
+          "label": "Relative movement",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Slow to fast",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 1,
+      "type_description": "Iris",
+      "capabilities": [
+        {
+          "label": "Open to closed",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Ascend with shutter random",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Descend with shutter random",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Ascent with shutter audio",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Descend with shutter audio",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Ascend with shutter",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "Descend with shutter",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "Pulse",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "Ascend - descend",
+          "min": 240,
+          "max": 253
+        },
+        {
+          "label": "Closed",
+          "min": 254,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/GLP/GLP-YPOC250Pro.json",
+  "id": 857
+}

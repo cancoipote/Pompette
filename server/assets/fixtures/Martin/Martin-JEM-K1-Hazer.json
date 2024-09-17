@@ -1,0 +1,69 @@
+{
+  "version": "1.0.0",
+  "label": "JEM K1 Hazer",
+  "manufacturer": "Martin",
+  "bulb_type": "",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 21,
+  "dimension_width": 544,
+  "dimension_height": 459,
+  "dimension_depth": 344,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 675,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 11,
+  "channels": [
+    {
+      "index": 0,
+      "type": 5,
+      "type_description": "Haze Density",
+      "capabilities": [
+        {
+          "label": "Standby",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Proportional output level control",
+          "min": 20,
+          "max": 219
+        },
+        {
+          "label": "Prime",
+          "min": 220,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 5,
+      "type_description": "Fan Speed",
+      "capabilities": [
+        {
+          "label": "0-100%, heaters on",
+          "min": 0,
+          "max": 219
+        },
+        {
+          "label": "Auto fan mode",
+          "min": 220,
+          "max": 244
+        },
+        {
+          "label": "Machine shutdown, heaters off",
+          "min": 245,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Martin/Martin-JEM-K1-Hazer.json",
+  "id": 1049
+}

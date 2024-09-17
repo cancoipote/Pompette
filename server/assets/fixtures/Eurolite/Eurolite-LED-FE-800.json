@@ -1,0 +1,198 @@
+{
+  "version": "1.0.0",
+  "label": "LED FE-800",
+  "manufacturer": "Eurolite",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 320,
+  "dimension_height": 310,
+  "dimension_depth": 175,
+  "lens_label": "Other",
+  "lens_degree_min": 140,
+  "lens_degree_max": 140,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 25,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Red",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Green",
+          "min": 11,
+          "max": 15
+        },
+        {
+          "label": "Blue",
+          "min": 16,
+          "max": 21
+        },
+        {
+          "label": "White",
+          "min": 22,
+          "max": 27
+        },
+        {
+          "label": "Amber",
+          "min": 28,
+          "max": 33
+        },
+        {
+          "label": "Green+Blue",
+          "min": 34,
+          "max": 39
+        },
+        {
+          "label": "Red+Blue",
+          "min": 40,
+          "max": 45
+        },
+        {
+          "label": "Red+Green",
+          "min": 46,
+          "max": 51
+        },
+        {
+          "label": "Red+White",
+          "min": 52,
+          "max": 57
+        },
+        {
+          "label": "Red+Amber",
+          "min": 58,
+          "max": 63
+        },
+        {
+          "label": "Green+White",
+          "min": 64,
+          "max": 69
+        },
+        {
+          "label": "Green+Amber",
+          "min": 70,
+          "max": 75
+        },
+        {
+          "label": "Blue+White",
+          "min": 76,
+          "max": 81
+        },
+        {
+          "label": "Blue+Amber",
+          "min": 82,
+          "max": 87
+        },
+        {
+          "label": "All LED ON",
+          "min": 88,
+          "max": 93
+        },
+        {
+          "label": "Program with one Colour",
+          "min": 94,
+          "max": 123
+        },
+        {
+          "label": "Program with two Colour",
+          "min": 124,
+          "max": 185
+        },
+        {
+          "label": "fast auto Programs",
+          "min": 186,
+          "max": 218
+        },
+        {
+          "label": "slow auto Programs",
+          "min": 219,
+          "max": 250
+        },
+        {
+          "label": "music controlled",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 22,
+      "type_description": "Program Speed",
+      "capabilities": [
+        {
+          "label": "Auto Program Speed Slow->Fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Flash Speed Slow->Fast",
+          "min": 10,
+          "max": 254
+        },
+        {
+          "label": "Flash, music-controlled",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Rotation",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Rotoation Clockwise Slow > Fast",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "Stop",
+          "min": 128,
+          "max": 133
+        },
+        {
+          "label": "Rotation Counter-Clockwise Slow->Fast",
+          "min": 134,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-LED-FE-800.json",
+  "id": 686
+}

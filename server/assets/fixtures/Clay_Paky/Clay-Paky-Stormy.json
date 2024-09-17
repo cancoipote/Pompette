@@ -1,0 +1,113 @@
+{
+  "version": "1.0.0",
+  "label": "Stormy",
+  "manufacturer": "Clay Paky",
+  "bulb_type": "LED",
+  "bulb_lumens": 80000,
+  "bulb_color_temperature": 5700,
+  "dimension_weight": 7,
+  "dimension_width": 482,
+  "dimension_height": 305,
+  "dimension_depth": 182,
+  "lens_label": "Other",
+  "lens_degree_min": 42,
+  "lens_degree_max": 130,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 800,
+  "technical_dmx_connector": "5-pin",
+  "type": 12,
+  "channels": [
+    {
+      "index": 0,
+      "type": 5,
+      "type_description": "Dimmer",
+      "capabilities": [
+        {
+          "label": "Light Off",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Min < Max",
+          "min": 6,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 22,
+      "type_description": "Duration",
+      "capabilities": [
+        {
+          "label": "Min < Max",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 21,
+      "type_description": "Rate",
+      "capabilities": [
+        {
+          "label": "Light off",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Low < Fast",
+          "min": 6,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Macro",
+      "capabilities": [
+        {
+          "label": "Macro Off",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Macro 1 - Up ramp",
+          "min": 6,
+          "max": 42
+        },
+        {
+          "label": "Macro 2 - Down ramp",
+          "min": 43,
+          "max": 85
+        },
+        {
+          "label": "Macro 3 - Up < > Down ramp",
+          "min": 86,
+          "max": 128
+        },
+        {
+          "label": "Macro 4 - Random",
+          "min": 129,
+          "max": 171
+        },
+        {
+          "label": "Macro 5 - Lighting",
+          "min": 172,
+          "max": 214
+        },
+        {
+          "label": "Macro 6 - Spikes",
+          "min": 215,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Clay_Paky/Clay-Paky-Stormy.json",
+  "id": 375
+}

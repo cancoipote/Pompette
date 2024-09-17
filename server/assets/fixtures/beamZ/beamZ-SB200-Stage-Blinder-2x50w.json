@@ -1,0 +1,89 @@
+{
+  "version": "1.0.0",
+  "label": "SB200 Stage Blinder 2x50W",
+  "manufacturer": "beamZ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 275,
+  "dimension_height": 275,
+  "dimension_depth": 125,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 50,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "label": "Strobe",
+          "min": 2,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 3,
+      "type_description": "Macro",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "label": "Macro Function",
+          "min": 2,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 22,
+      "type_description": "Macro Speed",
+      "capabilities": [
+        {
+          "label": "Macro Function Speed adjustable",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "LED 1 dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "LED 2 dimmer",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/beamZ/beamZ-SB200-Stage-Blinder-2x50w.json",
+  "id": 208
+}

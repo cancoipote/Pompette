@@ -1,0 +1,237 @@
+{
+  "version": "1.0.0",
+  "label": "DW Fresnel",
+  "manufacturer": "Elation",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 4800,
+  "dimension_weight": 10,
+  "dimension_width": 264,
+  "dimension_height": 453,
+  "dimension_depth": 595,
+  "lens_label": "Fresnel",
+  "lens_degree_min": 13,
+  "lens_degree_max": 41,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 320,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Cool White LED",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Warm White LED",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Color temperature 1",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Color temperature (3200K to 6000K)",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Color temperature 2",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Color temperature 3200K",
+          "min": 1,
+          "max": 16
+        },
+        {
+          "label": "Color temperature 3400K",
+          "min": 17,
+          "max": 33
+        },
+        {
+          "label": "Color temperature 3600K",
+          "min": 34,
+          "max": 50
+        },
+        {
+          "label": "Color temperature 3800K",
+          "min": 51,
+          "max": 67
+        },
+        {
+          "label": "Color temperature 4000K",
+          "min": 68,
+          "max": 84
+        },
+        {
+          "label": "Color temperature 4200K",
+          "min": 85,
+          "max": 101
+        },
+        {
+          "label": "Color temperature 4400K",
+          "min": 102,
+          "max": 118
+        },
+        {
+          "label": "Color temperature 4600K",
+          "min": 119,
+          "max": 135
+        },
+        {
+          "label": "Color temperature 4800K",
+          "min": 136,
+          "max": 152
+        },
+        {
+          "label": "Color temperature 5000K",
+          "min": 153,
+          "max": 169
+        },
+        {
+          "label": "Color temperature 5200K",
+          "min": 170,
+          "max": 186
+        },
+        {
+          "label": "Color temperature 5400K",
+          "min": 187,
+          "max": 203
+        },
+        {
+          "label": "Color temperature 5600K",
+          "min": 204,
+          "max": 220
+        },
+        {
+          "label": "Color temperature 5800K",
+          "min": 221,
+          "max": 237
+        },
+        {
+          "label": "Color temperature 6000K",
+          "min": 238,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Shutter / Strobe",
+      "capabilities": [
+        {
+          "label": "LED off",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "LED on",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe effect (slow to fast)",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "LED on",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse effect in sequences (slow to fast)",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "LED on",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random strobe effect (slow to fast)",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "LED on",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Dimmer fine",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Dimming curves",
+      "capabilities": [
+        {
+          "label": "Standard",
+          "min": 0,
+          "max": 41
+        },
+        {
+          "label": "Stage",
+          "min": 42,
+          "max": 84
+        },
+        {
+          "label": "TV",
+          "min": 85,
+          "max": 127
+        },
+        {
+          "label": "Architectural",
+          "min": 128,
+          "max": 170
+        },
+        {
+          "label": "Theatre",
+          "min": 171,
+          "max": 213
+        },
+        {
+          "label": "Default to unit dimming curve setting",
+          "min": 214,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Elation/Elation-DW-Fresnel.json",
+  "id": 599
+}

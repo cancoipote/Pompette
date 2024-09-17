@@ -1,0 +1,292 @@
+{
+  "version": "1.0.0",
+  "label": "Mega Bar LED",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 1025,
+  "dimension_height": 65,
+  "dimension_depth": 88,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 30,
+  "technical_dmx_connector": "3-pin",
+  "type": 14,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red 1",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green 1",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue 1",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Dimmer Control",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Red 2",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Green 2",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Blue 2",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Red 3",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Green 3",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Blue 3",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 21,
+      "type_description": "Strobe Speed",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Slow -> Fast",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 3,
+      "type_description": "Macros / Progams",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 14
+        },
+        {
+          "label": "Red",
+          "min": 15,
+          "max": 28
+        },
+        {
+          "label": "Yellow",
+          "min": 29,
+          "max": 42
+        },
+        {
+          "label": "Green",
+          "min": 43,
+          "max": 56
+        },
+        {
+          "label": "Cyan",
+          "min": 57,
+          "max": 70
+        },
+        {
+          "label": "Blue",
+          "min": 71,
+          "max": 84
+        },
+        {
+          "label": "Purple",
+          "min": 85,
+          "max": 98
+        },
+        {
+          "label": "White",
+          "min": 99,
+          "max": 112
+        },
+        {
+          "label": "Color Change",
+          "min": 113,
+          "max": 126
+        },
+        {
+          "label": "Color Flow",
+          "min": 127,
+          "max": 140
+        },
+        {
+          "label": "Color Dream",
+          "min": 141,
+          "max": 154
+        },
+        {
+          "label": "Multi Color",
+          "min": 155,
+          "max": 168
+        },
+        {
+          "label": "Dream Flow",
+          "min": 169,
+          "max": 182
+        },
+        {
+          "label": "2 Color Flow",
+          "min": 183,
+          "max": 196
+        },
+        {
+          "label": "Color Change Fade",
+          "min": 197,
+          "max": 210
+        },
+        {
+          "label": "Color Flow Fade",
+          "min": 211,
+          "max": 224
+        },
+        {
+          "label": "2 Color Flow Fade",
+          "min": 225,
+          "max": 238
+        },
+        {
+          "label": "Sound Active",
+          "min": 239,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 5,
+      "type_description": "Speed/Sound Sensitivity Control",
+      "capabilities": [
+        {
+          "label": "Slow -> Fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 21,
+      "type_description": "Strobe (6Ch)",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Slow -> Fast",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 3,
+      "type_description": "Dimmer (6Ch)",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Dim -> Bright",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Bright -> Dim",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Dim -> Bright -> Dim",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Color Mixing",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "3 Color Changing",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "7 Color Changing",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Sound Active",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 5,
+      "type_description": "Dimmer",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "0% -> 100%",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Mega-Bar-LED.json",
+  "id": 101
+}

@@ -1,0 +1,151 @@
+{
+  "version": "1.0.0",
+  "label": "XF-200",
+  "manufacturer": "Futurelight",
+  "bulb_type": "MSD 250W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 11,
+  "dimension_width": 385,
+  "dimension_height": 230,
+  "dimension_depth": 265,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 450,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Open",
+          "min": 11,
+          "max": 21
+        },
+        {
+          "label": "Gobo 1",
+          "min": 22,
+          "max": 32
+        },
+        {
+          "label": "Gobo 2",
+          "min": 33,
+          "max": 43
+        },
+        {
+          "label": "Gobo 3",
+          "min": 44,
+          "max": 54
+        },
+        {
+          "label": "Gobo 4",
+          "min": 55,
+          "max": 65
+        },
+        {
+          "label": "Gobo 5",
+          "min": 66,
+          "max": 76
+        },
+        {
+          "label": "Gobo 6",
+          "min": 77,
+          "max": 87
+        },
+        {
+          "label": "Gobo 7",
+          "min": 88,
+          "max": 98
+        },
+        {
+          "label": "Gobo 8",
+          "min": 99,
+          "max": 109
+        },
+        {
+          "label": "Gobo 9",
+          "min": 110,
+          "max": 120
+        },
+        {
+          "label": "Gobo 10",
+          "min": 121,
+          "max": 131
+        },
+        {
+          "label": "Backward gobo rainbow speed",
+          "min": 132,
+          "max": 193
+        },
+        {
+          "label": "Forward gobo rainbow speed",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "Color combinations",
+          "min": 0,
+          "max": 240
+        },
+        {
+          "label": "Rainbow",
+          "min": 241,
+          "max": 250
+        },
+        {
+          "label": "Sound activation",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Flower reflector",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Clockwise rotation speed",
+          "min": 16,
+          "max": 130
+        },
+        {
+          "label": "Anti-clockwise rotation speed",
+          "min": 131,
+          "max": 245
+        },
+        {
+          "label": "Sound activation",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Futurelight/Futurelight-XF-200.json",
+  "id": 830
+}

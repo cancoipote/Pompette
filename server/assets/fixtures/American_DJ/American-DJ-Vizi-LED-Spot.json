@@ -1,0 +1,509 @@
+{
+  "version": "1.0.0",
+  "label": "Vizi LED Spot",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 9,
+  "dimension_width": 419,
+  "dimension_height": 214,
+  "dimension_depth": 303,
+  "lens_label": "Other",
+  "lens_degree_min": 14,
+  "lens_degree_max": 14,
+  "focus_type": "Fixed",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 88,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Color Wheel",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 14
+        },
+        {
+          "label": "Color 1",
+          "min": 15,
+          "max": 29
+        },
+        {
+          "label": "Color 2",
+          "min": 30,
+          "max": 44
+        },
+        {
+          "label": "Color 3",
+          "min": 45,
+          "max": 59
+        },
+        {
+          "label": "Color 4",
+          "min": 60,
+          "max": 74
+        },
+        {
+          "label": "Color 5",
+          "min": 75,
+          "max": 89
+        },
+        {
+          "label": "Color 6",
+          "min": 90,
+          "max": 104
+        },
+        {
+          "label": "Color 7",
+          "min": 105,
+          "max": 119
+        },
+        {
+          "label": "Color 8",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Forward Rainbow Effect (Fast - Slow)",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "No Rotation",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Backwards Rainbow Effect (Slow - Fast)",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 4,
+      "type_description": "Gobos",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Rotating Gobo 1",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Rotating Gobo 2",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Rotating Gobo 3",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Rotating Gobo 4",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Rotating Gobo 5",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Rotating Gobo 6",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Rotating Gobo 7",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Rotating Gobo 1 Shake",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Rotating Gobo 2 Shake",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Rotating Gobo 3 Shake",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Rotating Gobo 4 Shake",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Rotating Gobo 5 Shake",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Rotating Gobo 6 Shake",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Rotating Gobo 7 Shake",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Continious Rotation of Gobo Wheel (Slow - Fast)",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 4,
+      "type_description": "Gobo Rotation",
+      "capabilities": [
+        {
+          "label": "Gobo Indexing",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Forwards Gobo Rotation (Fast - Slow)",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "No Rotation",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Backwards Gobo Rotation (Slow - Fast)",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 5,
+      "type_description": "Rotating Prism/Gobo Macros",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "3 Facet Prism",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "5 Facet Prism",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Trapezoid Prism",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Macro 1",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Macro 2",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Macro 3",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Macro 4",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Macro 5",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Macro 6",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Macro 7",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Macro 8",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Macro 9",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Macro 10",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Macro 11",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Macro 12",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Macro 13",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Macro 14",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Macro 15",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Macro 16",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 21,
+      "type_description": "Shutter & Strobe",
+      "capabilities": [
+        {
+          "label": "LED Off",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "LED on",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobing (Slow - Fast)",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "LED on",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse Effect in Sequences",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "LED on",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random Strobe (Slow - Fast)",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "LED on",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 22,
+      "type_description": "Pan/Tilt Movement Speed",
+      "capabilities": [
+        {
+          "label": "Max to Min Speed",
+          "min": 0,
+          "max": 225
+        },
+        {
+          "label": "Blackout by Movement",
+          "min": 226,
+          "max": 235
+        },
+        {
+          "label": "Blackout by Wheel Changing",
+          "min": 236,
+          "max": 245
+        },
+        {
+          "label": "No function",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 17,
+      "type_description": "Reset & Internal Programs",
+      "capabilities": [
+        {
+          "label": "Color Change Normal",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Color Change to any Position",
+          "min": 20,
+          "max": 39
+        },
+        {
+          "label": "No function",
+          "min": 40,
+          "max": 79
+        },
+        {
+          "label": "All Motor Reset",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "Scan Motor Reset",
+          "min": 85,
+          "max": 87
+        },
+        {
+          "label": "Color Motor Reset",
+          "min": 88,
+          "max": 90
+        },
+        {
+          "label": "Gobo Motor Reset",
+          "min": 91,
+          "max": 93
+        },
+        {
+          "label": "No function",
+          "min": 94,
+          "max": 96
+        },
+        {
+          "label": "Other Motor Reset",
+          "min": 97,
+          "max": 99
+        },
+        {
+          "label": "Internal Program 1",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "Internal Program 2",
+          "min": 120,
+          "max": 139
+        },
+        {
+          "label": "Internal Program 3",
+          "min": 140,
+          "max": 159
+        },
+        {
+          "label": "Internal Program 4",
+          "min": 160,
+          "max": 179
+        },
+        {
+          "label": "Internal Program 5",
+          "min": 180,
+          "max": 199
+        },
+        {
+          "label": "Internal Program 6",
+          "min": 200,
+          "max": 219
+        },
+        {
+          "label": "Internal Program 7",
+          "min": 220,
+          "max": 239
+        },
+        {
+          "label": "Sound Active Program",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Vizi-LED-Spot.json",
+  "id": 164
+}

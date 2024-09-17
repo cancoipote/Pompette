@@ -1,0 +1,320 @@
+{
+  "version": "1.0.0",
+  "label": "CromoWash100",
+  "manufacturer": "Pro-Lights",
+  "bulb_type": "LED",
+  "bulb_lumens": 4500,
+  "bulb_color_temperature": 3200,
+  "dimension_weight": 6,
+  "dimension_width": 296,
+  "dimension_height": 344,
+  "dimension_depth": 184,
+  "lens_label": "Other",
+  "lens_degree_min": 6,
+  "lens_degree_max": 6,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 130,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan/Tilt speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Color macro",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Full power",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "R*: 100% / G*: Up / B*: 0%",
+          "min": 11,
+          "max": 30
+        },
+        {
+          "label": "R: Down / G: 100% / B: 0%",
+          "min": 31,
+          "max": 50
+        },
+        {
+          "label": "R: 0% / G: 100% / B: Up",
+          "min": 51,
+          "max": 70
+        },
+        {
+          "label": "R: 0% / G: Down / B: 100%",
+          "min": 71,
+          "max": 90
+        },
+        {
+          "label": "R: Up / G: 0% / B: 100%",
+          "min": 91,
+          "max": 110
+        },
+        {
+          "label": "R: 100% / G: 0% / B: Down",
+          "min": 111,
+          "max": 130
+        },
+        {
+          "label": "R: 100% / G: Up / B: Up",
+          "min": 131,
+          "max": 150
+        },
+        {
+          "label": "R: Down / G: Down / B: 100% R: 100% / G: 100% / B: 100%",
+          "min": 151,
+          "max": 170
+        },
+        {
+          "label": "R: 100% / G: 100% / B: 100%",
+          "min": 171,
+          "max": 200
+        },
+        {
+          "label": "White 1: 3200K",
+          "min": 201,
+          "max": 205
+        },
+        {
+          "label": "White 2: 3400K",
+          "min": 206,
+          "max": 210
+        },
+        {
+          "label": "White 3: 4200K",
+          "min": 211,
+          "max": 215
+        },
+        {
+          "label": "White 4: 4900K",
+          "min": 216,
+          "max": 220
+        },
+        {
+          "label": "White 5: 5600K",
+          "min": 221,
+          "max": 225
+        },
+        {
+          "label": "White 6: 5900K",
+          "min": 226,
+          "max": 230
+        },
+        {
+          "label": "White 7: 6500K",
+          "min": 231,
+          "max": 235
+        },
+        {
+          "label": "White 8: 7200K",
+          "min": 236,
+          "max": 240
+        },
+        {
+          "label": "White 9: 8000K",
+          "min": 241,
+          "max": 245
+        },
+        {
+          "label": "White 10: 8500K",
+          "min": 246,
+          "max": 250
+        },
+        {
+          "label": "White 11: 10000K",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe 1-20Hz",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 17,
+      "type_description": "Control",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Pan/tilt black activated (activated after 3 secs)",
+          "min": 20,
+          "max": 39
+        },
+        {
+          "label": "Pan/tilt black deactivated (activated after 3 secs)",
+          "min": 40,
+          "max": 59
+        },
+        {
+          "label": "Fan Auto",
+          "min": 60,
+          "max": 79
+        },
+        {
+          "label": "Fan Slow",
+          "min": 80,
+          "max": 99
+        },
+        {
+          "label": "Fan Normal",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "Fan Fast",
+          "min": 120,
+          "max": 139
+        },
+        {
+          "label": "Auto1 (activated after 3 secs)",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Auto2 (activated after 3 secs)",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Test (activated after 3 secs)",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Custom (activated after 3 secs)",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Sound 1",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Sound 2",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Reset (activated after 3 secs)",
+          "min": 200,
+          "max": 219
+        },
+        {
+          "label": "No function",
+          "min": 220,
+          "max": 235
+        },
+        {
+          "label": "Dim 0",
+          "min": 236,
+          "max": 239
+        },
+        {
+          "label": "Dim 1",
+          "min": 240,
+          "max": 243
+        },
+        {
+          "label": "Dim 2",
+          "min": 244,
+          "max": 247
+        },
+        {
+          "label": "Dim 3",
+          "min": 248,
+          "max": 251
+        },
+        {
+          "label": "Dim 4",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Pro-Lights/Pro-Lights-CromoWash100.json",
+  "id": 1125
+}

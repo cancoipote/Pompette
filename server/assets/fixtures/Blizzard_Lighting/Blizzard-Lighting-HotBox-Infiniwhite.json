@@ -1,0 +1,252 @@
+{
+  "version": "1.0.0",
+  "label": "HotBox Infiniwhite",
+  "manufacturer": "Blizzard Lighting",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 127,
+  "dimension_height": 127,
+  "dimension_depth": 102,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 28,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 47,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Warm White",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Cool White",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Dimming",
+          "min": 0,
+          "max": 14
+        },
+        {
+          "label": "Slow <--> fast",
+          "min": 15,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Fade, Color Change, Sound Active",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Fade in (Ch. 5 controls speed)",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Fade out (Ch. 5 controls speed)",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Fade in / fade out (Ch. 5 controls speed)",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "ACW gradual change (Ch. 5 controls speed)",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Fade in / fade out, auto run",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Color jump (Ch. 5 Controls speed)",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Sound active",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Color Saturation",
+      "capabilities": [
+        {
+          "label": "Invalid",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "A 100%",
+          "min": 10,
+          "max": 29
+        },
+        {
+          "label": "A85%+(A+C)15%",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "A60%+(A+C)40%",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "(A+C)100%",
+          "min": 50,
+          "max": 69
+        },
+        {
+          "label": "(A+C)85%+C15%",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "(A+C)60%+C40%",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "C 100%",
+          "min": 90,
+          "max": 109
+        },
+        {
+          "label": "C85%+W15%",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "C60%+W40%",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "W 100%",
+          "min": 130,
+          "max": 149
+        },
+        {
+          "label": "W85%+(C+W)15%",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "W60%+(C+W)40%",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "(C+W)100%",
+          "min": 170,
+          "max": 189
+        },
+        {
+          "label": "(C+W)50%+(A+W)50%",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "(A+W)100%",
+          "min": 200,
+          "max": 219
+        },
+        {
+          "label": "(A+W)50%+(A+C+W)50%",
+          "min": 220,
+          "max": 229
+        },
+        {
+          "label": "(A+C+W)95%+(A+C)5%",
+          "min": 230,
+          "max": 249
+        },
+        {
+          "label": "All Colors 100%",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 5,
+      "type_description": "32-Bit Dimmer",
+      "capabilities": [
+        {
+          "label": "As set in the control menu display",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Mode 0 = 8-bit, 256 dimming steps",
+          "min": 6,
+          "max": 55
+        },
+        {
+          "label": "Mode 1 = 32-bit, 0-25% intensity range",
+          "min": 56,
+          "max": 105
+        },
+        {
+          "label": "Mode 2 = 32-bit, 0-50% intensity range",
+          "min": 106,
+          "max": 155
+        },
+        {
+          "label": "Mode 3 = 32-bit, 0-75% intensity range",
+          "min": 156,
+          "max": 205
+        },
+        {
+          "label": "Mode 4 = 32-bit, full intensity dimming",
+          "min": 206,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Blizzard_Lighting/Blizzard-Lighting-HotBox-Infiniwhite.json",
+  "id": 213
+}

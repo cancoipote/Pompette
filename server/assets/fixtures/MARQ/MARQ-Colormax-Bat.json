@@ -1,0 +1,545 @@
+{
+  "version": "1.0.0",
+  "label": "Colormax Bat",
+  "manufacturer": "MARQ",
+  "bulb_type": "LED",
+  "bulb_lumens": 3060,
+  "bulb_color_temperature": 7000,
+  "dimension_weight": 2,
+  "dimension_width": 1064,
+  "dimension_height": 65,
+  "dimension_depth": 89,
+  "lens_label": "Other",
+  "lens_degree_min": 30,
+  "lens_degree_max": 30,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 30,
+  "technical_dmx_connector": "3-pin",
+  "type": 14,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red Dimmer, Section 1",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green Dimmer, Section 1",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue Dimmer, Section 1",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Red Dimmer, Section 2",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Green Dimmer, Section 2",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Blue Dimmer, Section 2",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Red Dimmer, Section 3",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Green Dimmer, Section 3",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Blue Dimmer, Section 3",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Red Dimmer, Section 4",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Green Dimmer, Section 4",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Blue Dimmer, Section 4",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Red Dimmer, Section 5",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Green Dimmer, Section 5",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Blue Dimmer, Section 5",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Red Dimmer, Section 6",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Green Dimmer, Section 6",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Blue Dimmer, Section 6",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Red Dimmer, Section 7",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Green Dimmer, Section 7",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Blue Dimmer, Section 7",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Red Dimmer, Section 8",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Green Dimmer, Section 8",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Blue Dimmer, Section 8",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Strobe rate, slow (010) to fast (255)",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Color Preset",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Red",
+          "min": 16,
+          "max": 35
+        },
+        {
+          "label": "Green",
+          "min": 36,
+          "max": 55
+        },
+        {
+          "label": "Blue",
+          "min": 56,
+          "max": 75
+        },
+        {
+          "label": "Cyan",
+          "min": 76,
+          "max": 95
+        },
+        {
+          "label": "Yellow",
+          "min": 96,
+          "max": 115
+        },
+        {
+          "label": "Orange",
+          "min": 116,
+          "max": 135
+        },
+        {
+          "label": "Pink",
+          "min": 136,
+          "max": 155
+        },
+        {
+          "label": "Purple",
+          "min": 156,
+          "max": 175
+        },
+        {
+          "label": "Dark Blue",
+          "min": 176,
+          "max": 195
+        },
+        {
+          "label": "Light Cyan",
+          "min": 196,
+          "max": 215
+        },
+        {
+          "label": "White",
+          "min": 216,
+          "max": 235
+        },
+        {
+          "label": "Warm White",
+          "min": 236,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Color Programs",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Color Program 1 (3-color snap)",
+          "min": 16,
+          "max": 35
+        },
+        {
+          "label": "Color Program 2 (7-color snap)",
+          "min": 36,
+          "max": 55
+        },
+        {
+          "label": "Color Program 3 (3-color fade)",
+          "min": 56,
+          "max": 75
+        },
+        {
+          "label": "Color Program 5 (3-color crossfade)",
+          "min": 76,
+          "max": 115
+        },
+        {
+          "label": "Color Program 6 (7-color crossfade)",
+          "min": 116,
+          "max": 135
+        },
+        {
+          "label": "Color Program 7 (red pulse)",
+          "min": 136,
+          "max": 155
+        },
+        {
+          "label": "Color Program 8 (green pulse)",
+          "min": 156,
+          "max": 175
+        },
+        {
+          "label": "Color Program 9 (blue pulse)",
+          "min": 176,
+          "max": 195
+        },
+        {
+          "label": "Sound-active color programs",
+          "min": 196,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "type": 22,
+      "type_description": "Program Speed (when Ch. 27 is set to 016–195) Microphone Sensitivity (when Ch. 27 is set to 196–255)",
+      "capabilities": [
+        {
+          "label": "Color-change rate, slow (000) to fast (255) Microphone sensitivity for sound-active programs, low (000) to high (255)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "type": 5,
+      "type_description": "Chase Programs (overrides Ch. 1–24 & 26–27)",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Chase Program 1",
+          "min": 16,
+          "max": 25
+        },
+        {
+          "label": "Chase Program 2",
+          "min": 26,
+          "max": 35
+        },
+        {
+          "label": "Chase Program 3",
+          "min": 36,
+          "max": 45
+        },
+        {
+          "label": "Chase Program 4",
+          "min": 46,
+          "max": 55
+        },
+        {
+          "label": "Chase Program 5",
+          "min": 56,
+          "max": 65
+        },
+        {
+          "label": "Chase Program 6",
+          "min": 66,
+          "max": 75
+        },
+        {
+          "label": "Chase Program 7",
+          "min": 76,
+          "max": 85
+        },
+        {
+          "label": "Chase Program 8",
+          "min": 86,
+          "max": 95
+        },
+        {
+          "label": "Chase Program 9",
+          "min": 96,
+          "max": 105
+        },
+        {
+          "label": "Chase Program 10",
+          "min": 106,
+          "max": 115
+        },
+        {
+          "label": "Chase Program 11",
+          "min": 116,
+          "max": 125
+        },
+        {
+          "label": "Chase Program 12",
+          "min": 126,
+          "max": 135
+        },
+        {
+          "label": "Chase Program 13",
+          "min": 136,
+          "max": 145
+        },
+        {
+          "label": "Chase Program 14",
+          "min": 146,
+          "max": 155
+        },
+        {
+          "label": "Chase Program 15",
+          "min": 156,
+          "max": 165
+        },
+        {
+          "label": "Chase Program 16",
+          "min": 166,
+          "max": 175
+        },
+        {
+          "label": "Chase Program 17",
+          "min": 176,
+          "max": 185
+        },
+        {
+          "label": "Chase Program 18",
+          "min": 186,
+          "max": 195
+        },
+        {
+          "label": "Chase Program 19",
+          "min": 196,
+          "max": 205
+        },
+        {
+          "label": "Chase Program 20",
+          "min": 206,
+          "max": 215
+        },
+        {
+          "label": "Chase Program 21",
+          "min": 216,
+          "max": 225
+        },
+        {
+          "label": "Sound-active chase programs",
+          "min": 226,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "Red Dimmer, Section 1&2",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 0,
+      "type_description": "Green Dimmer, Section 1&2",
+      "capabilities": []
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "Blue Dimmer, Section 1&2",
+      "capabilities": []
+    },
+    {
+      "index": 32,
+      "type": 0,
+      "type_description": "Red Dimmer, Section 3&4",
+      "capabilities": []
+    },
+    {
+      "index": 33,
+      "type": 0,
+      "type_description": "Green Dimmer, Section 3&4",
+      "capabilities": []
+    },
+    {
+      "index": 34,
+      "type": 0,
+      "type_description": "Blue Dimmer, Section 3&4",
+      "capabilities": []
+    },
+    {
+      "index": 35,
+      "type": 0,
+      "type_description": "Red Dimmer, Section 5&6",
+      "capabilities": []
+    },
+    {
+      "index": 36,
+      "type": 0,
+      "type_description": "Green Dimmer, Section 5&6",
+      "capabilities": []
+    },
+    {
+      "index": 37,
+      "type": 0,
+      "type_description": "Blue Dimmer, Section 5&6",
+      "capabilities": []
+    },
+    {
+      "index": 38,
+      "type": 0,
+      "type_description": "Red Dimmer, Section 7&8",
+      "capabilities": []
+    },
+    {
+      "index": 39,
+      "type": 0,
+      "type_description": "Green Dimmer, Section 7&8",
+      "capabilities": []
+    },
+    {
+      "index": 40,
+      "type": 0,
+      "type_description": "Blue Dimmer, Section 7&8",
+      "capabilities": []
+    },
+    {
+      "index": 41,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 42,
+      "type": 0,
+      "type_description": "Red Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 43,
+      "type": 0,
+      "type_description": "Green Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 44,
+      "type": 0,
+      "type_description": "Blue Dimmer",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/MARQ/MARQ-Colormax-Bat.json",
+  "id": 1024
+}

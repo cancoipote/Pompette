@@ -1,0 +1,93 @@
+{
+  "version": "1.0.0",
+  "label": "F-5D Fazer",
+  "manufacturer": "Antari",
+  "bulb_type": "",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 14,
+  "dimension_width": 535,
+  "dimension_height": 225,
+  "dimension_depth": 465,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 810,
+  "technical_dmx_connector": "5-pin",
+  "type": 11,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Faze",
+      "capabilities": [
+        {
+          "label": "Faze Off",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Faze 1-100%",
+          "min": 5,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Fan",
+      "capabilities": [
+        {
+          "label": "Fan 20%",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Fan 21% to 100%",
+          "min": 5,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 3,
+      "type_description": "Faze and Fan",
+      "capabilities": [
+        {
+          "label": "Faze Off and Fan 20%",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Faze 1 to 100% and Fan 100%",
+          "min": 5,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Fan and Haze Sync Mode",
+      "capabilities": [
+        {
+          "label": "Faze Off and Fan 20%",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Faze 1 to 100% and Fan 21% to 100%",
+          "min": 5,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Antari/Antari-F-5D-Fazer.json",
+  "id": 13
+}

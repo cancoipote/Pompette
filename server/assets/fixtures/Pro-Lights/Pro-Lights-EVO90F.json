@@ -1,0 +1,74 @@
+{
+  "version": "1.0.0",
+  "label": "EVO90F",
+  "manufacturer": "Pro-Lights",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 5600,
+  "dimension_weight": 5,
+  "dimension_width": 325,
+  "dimension_height": 281,
+  "dimension_depth": 266,
+  "lens_label": "Other",
+  "lens_degree_min": 10,
+  "lens_degree_max": 60,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 100,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 2,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Dimmer fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No Strobe",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe (slow to fast)",
+          "min": 10,
+          "max": 99
+        },
+        {
+          "label": "No Strobe",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Lighting Strobe (slow to fast)",
+          "min": 110,
+          "max": 179
+        },
+        {
+          "label": "No Strobe",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Random Strobe (slow to fast)",
+          "min": 190,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Pro-Lights/Pro-Lights-EVO90F.json",
+  "id": 1127
+}

@@ -1,0 +1,216 @@
+{
+  "version": "1.0.0",
+  "label": "PicoBeam 60",
+  "manufacturer": "Fun-Generation",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 234,
+  "dimension_height": 175,
+  "dimension_depth": 147,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 180,
+  "technical_power_consumption": 65,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan/Tilt speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "no function (open)",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe effect (1Hz ... 25Hz)",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 3,
+      "type_description": "Programs",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 49
+        },
+        {
+          "label": "Red",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Green",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Blue",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "White",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Yellow",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Cyan",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Purple",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "All white",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "No function",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Programme 1",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Programme 2",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Programme 3",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Programme 4",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Programme 5",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "No function",
+          "min": 190,
+          "max": 233
+        },
+        {
+          "label": "Reset",
+          "min": 234,
+          "max": 236
+        },
+        {
+          "label": "No function",
+          "min": 237,
+          "max": 249
+        },
+        {
+          "label": "Sound control",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 22,
+      "type_description": "Speed / Sensitivity",
+      "capabilities": [
+        {
+          "label": "Speed / Sensitivity",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Fun-Generation/Fun-Generation-PicoBeam-60.json",
+  "id": 787
+}

@@ -1,0 +1,71 @@
+{
+  "version": "1.0.0",
+  "label": "Platinum Line Flat PAR COB",
+  "manufacturer": "lightmaXX",
+  "bulb_type": "LED",
+  "bulb_lumens": 2520,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 220,
+  "dimension_height": 99,
+  "dimension_depth": 224,
+  "lens_label": "Fresnel",
+  "lens_degree_min": 15,
+  "lens_degree_max": 100,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 40,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Macro",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Dimmer",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Strobe",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/lightmaXX/lightmaXX-Platinum-Line-Flat-PAR-COB.json",
+  "id": 988
+}

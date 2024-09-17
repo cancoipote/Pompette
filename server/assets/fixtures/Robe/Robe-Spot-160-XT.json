@@ -1,0 +1,384 @@
+{
+  "version": "1.0.0",
+  "label": "Spot 160 XT",
+  "manufacturer": "Robe",
+  "bulb_type": "HSD 150W",
+  "bulb_lumens": 5454,
+  "bulb_color_temperature": 7000,
+  "dimension_weight": 10,
+  "dimension_width": 292,
+  "dimension_height": 415,
+  "dimension_depth": 378,
+  "lens_label": "",
+  "lens_degree_min": 19,
+  "lens_degree_max": 19,
+  "focus_type": "Head",
+  "focus_pan_max": 530,
+  "focus_tilt_max": 280,
+  "technical_power_consumption": 300,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Speed of Pan/Tilt Movement",
+      "capabilities": [
+        {
+          "label": "Max. speed (tracking mode)",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "From max. speed to min. speed (vector mode)",
+          "min": 1,
+          "max": 249
+        },
+        {
+          "label": "Max. speed (tracking mode), blackout while colour or gobo changes",
+          "min": 250,
+          "max": 252
+        },
+        {
+          "label": "Max. speed (vector mode), blackout while pan/tilt moving or colour or gobo changes",
+          "min": 253,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Colours",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "White-Turquoise",
+          "min": 1,
+          "max": 9
+        },
+        {
+          "label": "Turquoise",
+          "min": 10,
+          "max": 10
+        },
+        {
+          "label": "Turquoise-Red",
+          "min": 11,
+          "max": 20
+        },
+        {
+          "label": "Red",
+          "min": 21,
+          "max": 21
+        },
+        {
+          "label": "Red-Cyan",
+          "min": 22,
+          "max": 31
+        },
+        {
+          "label": "Cyan",
+          "min": 32,
+          "max": 32
+        },
+        {
+          "label": "Cyan-Light green",
+          "min": 33,
+          "max": 41
+        },
+        {
+          "label": "Light green",
+          "min": 42,
+          "max": 42
+        },
+        {
+          "label": "Light green-Magenta",
+          "min": 43,
+          "max": 52
+        },
+        {
+          "label": "Magenta",
+          "min": 53,
+          "max": 53
+        },
+        {
+          "label": "Magenta-Light blue",
+          "min": 54,
+          "max": 63
+        },
+        {
+          "label": "Light blue",
+          "min": 64,
+          "max": 64
+        },
+        {
+          "label": "Light blue-Yellow",
+          "min": 65,
+          "max": 73
+        },
+        {
+          "label": "Yellow",
+          "min": 74,
+          "max": 74
+        },
+        {
+          "label": "Yellow-Green",
+          "min": 75,
+          "max": 84
+        },
+        {
+          "label": "Green",
+          "min": 85,
+          "max": 85
+        },
+        {
+          "label": "Green-Pink",
+          "min": 86,
+          "max": 95
+        },
+        {
+          "label": "Pink",
+          "min": 96,
+          "max": 96
+        },
+        {
+          "label": "Pink-Blue",
+          "min": 97,
+          "max": 105
+        },
+        {
+          "label": "Blue",
+          "min": 106,
+          "max": 106
+        },
+        {
+          "label": "Blue-Orange",
+          "min": 107,
+          "max": 116
+        },
+        {
+          "label": "Orange",
+          "min": 117,
+          "max": 127
+        },
+        {
+          "label": "Forwards rainbow effect from fast to slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "No rotation",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Backwards rainbow effect from slow to fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 4,
+      "type_description": "Rotating Gobos",
+      "capabilities": [
+        {
+          "label": "Open position (hole)",
+          "min": 0,
+          "max": 11
+        },
+        {
+          "label": "Gobo 1",
+          "min": 12,
+          "max": 23
+        },
+        {
+          "label": "Gobo 2",
+          "min": 24,
+          "max": 35
+        },
+        {
+          "label": "Gobo 3",
+          "min": 36,
+          "max": 47
+        },
+        {
+          "label": "Gobo 4",
+          "min": 48,
+          "max": 59
+        },
+        {
+          "label": "Gobo 5",
+          "min": 60,
+          "max": 71
+        },
+        {
+          "label": "Gobo 6",
+          "min": 72,
+          "max": 83
+        },
+        {
+          "label": "Gobo 7",
+          "min": 84,
+          "max": 95
+        },
+        {
+          "label": "Gobo shake 1",
+          "min": 96,
+          "max": 115
+        },
+        {
+          "label": "Gobo shake 2",
+          "min": 116,
+          "max": 135
+        },
+        {
+          "label": "Gobo shake 3",
+          "min": 136,
+          "max": 155
+        },
+        {
+          "label": "Gobo shake 4",
+          "min": 156,
+          "max": 175
+        },
+        {
+          "label": "Gobo shake 5",
+          "min": 176,
+          "max": 195
+        },
+        {
+          "label": "Gobo shake 6",
+          "min": 196,
+          "max": 215
+        },
+        {
+          "label": "Gobo shake 7",
+          "min": 216,
+          "max": 235
+        },
+        {
+          "label": "Gobo wheel rotation from slow to fast",
+          "min": 236,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 4,
+      "type_description": "Gobo Rotation",
+      "capabilities": [
+        {
+          "label": "Gobo rotation",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Forwards from fast to slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "No rotation",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Backwards from slow to fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 21,
+      "type_description": "Shutter, Strobe, Reset",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Light intensity from 0 to 100%",
+          "min": 1,
+          "max": 63
+        },
+        {
+          "label": "Shutter open",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Strobe effect from slow to fast (max. 8 flashes/s)",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Reset, shutter closed",
+          "min": 128,
+          "max": 139
+        },
+        {
+          "label": "Shutter closed",
+          "min": 140,
+          "max": 159
+        },
+        {
+          "label": "Pulse effect in sequences with increasing speed",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Pulse effect in sequences with decreasing speed",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Random strobe effect with increasing speed",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Shutter open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Robe/Robe-Spot-160-XT.json",
+  "id": 1221
+}

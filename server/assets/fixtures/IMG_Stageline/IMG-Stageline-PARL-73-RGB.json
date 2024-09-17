@@ -1,0 +1,153 @@
+{
+  "version": "1.0.0",
+  "label": "Parl 73-RGB",
+  "manufacturer": "IMG Stageline",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 155,
+  "dimension_height": 180,
+  "dimension_depth": 200,
+  "lens_label": "Other",
+  "lens_degree_min": 30,
+  "lens_degree_max": 30,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 25,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Strobe, speed adjust",
+      "capabilities": [
+        {
+          "label": "No strobe",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Strobe: slow → fast",
+          "min": 8,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Show programs",
+      "capabilities": [
+        {
+          "label": "No program",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Colour sequence with crossfading 1",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Colour sequence with crossfading 2",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Colour sequence with crossfading 3",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Colour sequence with crossfading 4",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Colour sequence with crossfading 5",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Strobe: red + green + blue (= white)",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Colour sequence with fade-in and out 1",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Colour sequence with sudden changes",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Colour sequence with sudden changes and black-out phases",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Colour sequence, suddenly ON and fading out",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Colour sequence, fading in and suddenly OFF",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Colour sequence with fade-in and out 2",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "Colour sequence with crossfading 6",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "Flashing synced with music red + green + blue (= white)",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "Flashing synced with music and change of colours",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/IMG_Stageline/IMG-Stageline-PARL-73-RGB.json",
+  "id": 885
+}

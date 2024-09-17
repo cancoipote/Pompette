@@ -1,0 +1,551 @@
+{
+  "version": "1.0.0",
+  "label": "CromoSpot300",
+  "manufacturer": "Pro-Lights",
+  "bulb_type": "LED",
+  "bulb_lumens": 1800,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 10,
+  "dimension_width": 330,
+  "dimension_height": 270,
+  "dimension_depth": 473,
+  "lens_label": "Other",
+  "lens_degree_min": 16,
+  "lens_degree_max": 16,
+  "focus_type": "Fixed",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 120,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "No",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Green",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Yellow",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Blue",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Pink",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Magenta",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Light Blue",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Light Blue ---> Magenta",
+          "min": 80,
+          "max": 99
+        },
+        {
+          "label": "Magenta ---> Pink",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "Pink ---> Blue",
+          "min": 120,
+          "max": 139
+        },
+        {
+          "label": "Blue ---> Yellow",
+          "min": 140,
+          "max": 159
+        },
+        {
+          "label": "Yellow ---> Green",
+          "min": 160,
+          "max": 179
+        },
+        {
+          "label": "Green ---> Red",
+          "min": 180,
+          "max": 199
+        },
+        {
+          "label": "Red ---> White",
+          "min": 200,
+          "max": 219
+        },
+        {
+          "label": "Rainbow & Linear Effect",
+          "min": 220,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 4,
+      "type_description": "Gobo 1",
+      "capabilities": [
+        {
+          "label": "No Gobo",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Gobo 1",
+          "min": 11,
+          "max": 20
+        },
+        {
+          "label": "Gobo 2",
+          "min": 21,
+          "max": 30
+        },
+        {
+          "label": "Gobo 3",
+          "min": 31,
+          "max": 40
+        },
+        {
+          "label": "Gobo 4",
+          "min": 41,
+          "max": 50
+        },
+        {
+          "label": "Gobo 5",
+          "min": 51,
+          "max": 60
+        },
+        {
+          "label": "Gobo 6",
+          "min": 61,
+          "max": 70
+        },
+        {
+          "label": "Gobo 7",
+          "min": 71,
+          "max": 80
+        },
+        {
+          "label": "Gobo 8",
+          "min": 81,
+          "max": 90
+        },
+        {
+          "label": "Shaking Gobo 8",
+          "min": 91,
+          "max": 105
+        },
+        {
+          "label": "Shaking Gobo 7",
+          "min": 106,
+          "max": 120
+        },
+        {
+          "label": "Shaking Gobo 6",
+          "min": 121,
+          "max": 135
+        },
+        {
+          "label": "Shaking Gobo 5",
+          "min": 136,
+          "max": 150
+        },
+        {
+          "label": "Shaking Gobo 4",
+          "min": 151,
+          "max": 165
+        },
+        {
+          "label": "Shaking Gobo 3",
+          "min": 166,
+          "max": 180
+        },
+        {
+          "label": "Shaking Gobo 2",
+          "min": 181,
+          "max": 195
+        },
+        {
+          "label": "Shaking Gobo 1",
+          "min": 196,
+          "max": 210
+        },
+        {
+          "label": "Flow Effect",
+          "min": 211,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Gobo 2 Rotation",
+      "capabilities": [
+        {
+          "label": "360° indexing",
+          "min": 0,
+          "max": 60
+        },
+        {
+          "label": "Clockwise rotate from slow to fast",
+          "min": 61,
+          "max": 150
+        },
+        {
+          "label": "No function",
+          "min": 151,
+          "max": 165
+        },
+        {
+          "label": "Anti-clockwise rotate from slow to fast",
+          "min": 166,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 20,
+      "type_description": "Prism & Prism Rotation",
+      "capabilities": [
+        {
+          "label": "White Light",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Prism but not turn",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "Anti-clockwise rotate from slow to fast",
+          "min": 10,
+          "max": 127
+        },
+        {
+          "label": "Prism but not turn",
+          "min": 128,
+          "max": 132
+        },
+        {
+          "label": "Clockwise rotate from slow to fast",
+          "min": 133,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Close",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Open",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe: Slow > Fast",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse Strobe Effect: Slow > Fast",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random Strobe Effect: Slow > Fast",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 3,
+      "type_description": "Control",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Pan/Tilt Black Activated (after 3 sec.)",
+          "min": 20,
+          "max": 39
+        },
+        {
+          "label": "Pan/Tilt Black Deactivated (after 3 sec.)",
+          "min": 40,
+          "max": 59
+        },
+        {
+          "label": "Fan Automatic",
+          "min": 60,
+          "max": 79
+        },
+        {
+          "label": "Fan Slow",
+          "min": 80,
+          "max": 99
+        },
+        {
+          "label": "Fan Standard",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "Fan High-Speed",
+          "min": 120,
+          "max": 139
+        },
+        {
+          "label": "Auto 1 (activated after 3 sec.)",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Auto 2 (activated after 3 sec.)",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Test (activated after 3 sec.)",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Custom",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Sound 1 (activated after 3 sec.)",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Sound 2 (activated after 3 sec.)",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Reset (activated after 3 sec.)",
+          "min": 200,
+          "max": 219
+        },
+        {
+          "label": "No function",
+          "min": 220,
+          "max": 235
+        },
+        {
+          "label": "DIM 0",
+          "min": 236,
+          "max": 239
+        },
+        {
+          "label": "DIM 1",
+          "min": 240,
+          "max": 243
+        },
+        {
+          "label": "DIM 2",
+          "min": 244,
+          "max": 247
+        },
+        {
+          "label": "DIM 3",
+          "min": 248,
+          "max": 251
+        },
+        {
+          "label": "DIM 4",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 4,
+      "type_description": "Gobo 2",
+      "capabilities": [
+        {
+          "label": "No Gobo",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Gobo 1",
+          "min": 11,
+          "max": 20
+        },
+        {
+          "label": "Gobo 2",
+          "min": 21,
+          "max": 30
+        },
+        {
+          "label": "Gobo 3",
+          "min": 31,
+          "max": 40
+        },
+        {
+          "label": "Gobo 4",
+          "min": 41,
+          "max": 50
+        },
+        {
+          "label": "Gobo 5",
+          "min": 51,
+          "max": 60
+        },
+        {
+          "label": "Gobo 6",
+          "min": 61,
+          "max": 70
+        },
+        {
+          "label": "Gobo 7",
+          "min": 71,
+          "max": 80
+        },
+        {
+          "label": "Shaking Gobo 7",
+          "min": 81,
+          "max": 95
+        },
+        {
+          "label": "Shaking Gobo 6",
+          "min": 96,
+          "max": 110
+        },
+        {
+          "label": "Shaking Gobo 5",
+          "min": 111,
+          "max": 125
+        },
+        {
+          "label": "Shaking Gobo 4",
+          "min": 126,
+          "max": 140
+        },
+        {
+          "label": "Shaking Gobo 3",
+          "min": 141,
+          "max": 155
+        },
+        {
+          "label": "Shaking Gobo 2",
+          "min": 156,
+          "max": 170
+        },
+        {
+          "label": "Shaking Gobo 1",
+          "min": 171,
+          "max": 185
+        },
+        {
+          "label": "Flow Effect",
+          "min": 186,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Pro-Lights/Pro-Lights-CromoSpot300.json",
+  "id": 1128
+}

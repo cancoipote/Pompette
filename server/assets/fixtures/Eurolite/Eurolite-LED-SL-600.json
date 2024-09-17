@@ -1,0 +1,178 @@
+{
+  "version": "1.0.0",
+  "label": "LED SL-600",
+  "manufacturer": "Eurolite",
+  "bulb_type": "LED",
+  "bulb_lumens": 263000,
+  "bulb_color_temperature": 7800,
+  "dimension_weight": 17,
+  "dimension_width": 230,
+  "dimension_height": 340,
+  "dimension_depth": 1050,
+  "lens_label": "Other",
+  "lens_degree_min": 7,
+  "lens_degree_max": 13,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 640,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Strobe Effect",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Strobe with increasing speed",
+          "min": 1,
+          "max": 127
+        },
+        {
+          "label": "Opening pulse",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Closing pulse",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Iris",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Color Presets",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 16
+        },
+        {
+          "label": "White + Red",
+          "min": 17,
+          "max": 33
+        },
+        {
+          "label": "Red",
+          "min": 34,
+          "max": 50
+        },
+        {
+          "label": "Red + Green",
+          "min": 51,
+          "max": 67
+        },
+        {
+          "label": "Green",
+          "min": 68,
+          "max": 84
+        },
+        {
+          "label": "Green + Magenta",
+          "min": 85,
+          "max": 101
+        },
+        {
+          "label": "Magenta",
+          "min": 102,
+          "max": 118
+        },
+        {
+          "label": "Magenta + Yellow",
+          "min": 119,
+          "max": 135
+        },
+        {
+          "label": "Yellow",
+          "min": 136,
+          "max": 152
+        },
+        {
+          "label": "Yellow + Blue",
+          "min": 153,
+          "max": 169
+        },
+        {
+          "label": "Blue",
+          "min": 170,
+          "max": 186
+        },
+        {
+          "label": "Blue + Orange",
+          "min": 187,
+          "max": 203
+        },
+        {
+          "label": "Orange",
+          "min": 204,
+          "max": 220
+        },
+        {
+          "label": "Orange + Purple",
+          "min": 221,
+          "max": 237
+        },
+        {
+          "label": "Purple",
+          "min": 238,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Color Temperature",
+      "capabilities": [
+        {
+          "label": "Cold white",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "5600K",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "4500K",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "3200K",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-LED-SL-600.json",
+  "id": 710
+}

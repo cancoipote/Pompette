@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "label": "Tour-Hazer II",
+  "manufacturer": "Smoke Factory",
+  "bulb_type": "",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 18,
+  "dimension_width": 533,
+  "dimension_height": 248,
+  "dimension_depth": 442,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 1500,
+  "technical_dmx_connector": "3-pin",
+  "type": 11,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pump",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 22,
+      "type_description": "Fan",
+      "capabilities": [
+        {
+          "label": "Min to Max",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Smoke_Factory/Smoke-Factory-Tour-Hazer-II.json",
+  "id": 1269
+}

@@ -1,0 +1,325 @@
+{
+  "version": "1.0.0",
+  "label": "LED Spot Moving Head 100W",
+  "manufacturer": "UKing",
+  "bulb_type": "LED",
+  "bulb_lumens": 1700,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 220,
+  "dimension_height": 330,
+  "dimension_depth": 220,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 100,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Color Select",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Green",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Blue",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Yellow",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Amber",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Cyan",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Magenta",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Magenta / Cyan",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Cyan / Amber",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Amber / Yellow",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Yellow / Blue",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Blue / Green",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Green / Red",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Color Change Automatic Slow to Fast",
+          "min": 140,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 4,
+      "type_description": "Pattern",
+      "capabilities": [
+        {
+          "label": "Pattern 1 - Clear",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Pattern 2 - Flower",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Pattern 3 - Circles",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Pattern 4 - Triangle",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Pattern 5 - Star",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Pattern 6 - Sunburst",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Pattern 7 - Spiral",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Pattern 8 - Triangle Breakup",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Pattern 1 Dither slow to fast",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Pattern 2 Dither slow to fast",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Pattern 3 Dither slow to fast",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Pattern 4 Dither slow to fast",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Pattern 5 Dither slow to fast",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Pattern 6 Dither slow to fast",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Pattern 7 Dither slow to fast",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Pattern 8 Dither slow to fast",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Pattern Auto Change slow to fast",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Brightness",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Tilt/Pan speed",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Automatic Mode",
+      "capabilities": [
+        {
+          "label": "Other Mode",
+          "min": 0,
+          "max": 59
+        },
+        {
+          "label": "Automatic Mode 3",
+          "min": 60,
+          "max": 84
+        },
+        {
+          "label": "Automatic Mode 2",
+          "min": 85,
+          "max": 109
+        },
+        {
+          "label": "Automatic Mode 1",
+          "min": 110,
+          "max": 134
+        },
+        {
+          "label": "Automatic Mode 0",
+          "min": 135,
+          "max": 159
+        },
+        {
+          "label": "Sound Mode 3",
+          "min": 160,
+          "max": 184
+        },
+        {
+          "label": "Sound Mode 2",
+          "min": 185,
+          "max": 209
+        },
+        {
+          "label": "Sound Mode 1",
+          "min": 210,
+          "max": 234
+        },
+        {
+          "label": "Sound Mode 0",
+          "min": 235,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Other Mode",
+      "capabilities": [
+        {
+          "label": "Other Mode",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "X-Motor Auto Mode",
+          "min": 21,
+          "max": 100
+        },
+        {
+          "label": "Y-Motor Auto Mode",
+          "min": 101,
+          "max": 200
+        },
+        {
+          "label": "XY Motor Auto Mode",
+          "min": 201,
+          "max": 249
+        },
+        {
+          "label": "Reset",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/UKing/UKing-LED-Spot-Moving-Head-100W.json",
+  "id": 1468
+}

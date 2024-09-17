@@ -1,0 +1,116 @@
+{
+  "version": "1.0.0",
+  "label": "Super Solar White",
+  "manufacturer": "JB Systems",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 220,
+  "dimension_height": 180,
+  "dimension_depth": 214,
+  "lens_label": "Other",
+  "lens_degree_min": 1,
+  "lens_degree_max": 1,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 27,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Function",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 14
+        },
+        {
+          "label": "Fast to slow rotation CW",
+          "min": 15,
+          "max": 124
+        },
+        {
+          "label": "Stop rotation",
+          "min": 125,
+          "max": 139
+        },
+        {
+          "label": "Slow to fast rotation CCW",
+          "min": 140,
+          "max": 249
+        },
+        {
+          "label": "Music mode",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Dimmer Strobe",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Dimmer dark to bright",
+          "min": 8,
+          "max": 199
+        },
+        {
+          "label": "Strobe fast to slow",
+          "min": 200,
+          "max": 247
+        },
+        {
+          "label": "Open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 3,
+      "type_description": "Rotation",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Rotation Fast to Slow cw",
+          "min": 10,
+          "max": 120
+        },
+        {
+          "label": "Stop",
+          "min": 121,
+          "max": 134
+        },
+        {
+          "label": "Rotation Slow to Fast ccw",
+          "min": 135,
+          "max": 245
+        },
+        {
+          "label": "Music mode",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/JB_Systems/JB-Systems-Super-Solar-White.json",
+  "id": 938
+}

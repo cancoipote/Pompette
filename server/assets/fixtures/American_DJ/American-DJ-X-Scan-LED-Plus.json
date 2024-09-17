@@ -1,0 +1,347 @@
+{
+  "version": "1.0.0",
+  "label": "X-Scan LED Plus",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 150,
+  "dimension_height": 386,
+  "dimension_depth": 200,
+  "lens_label": "Other",
+  "lens_degree_min": 13,
+  "lens_degree_max": 13,
+  "focus_type": "Fixed",
+  "focus_pan_max": 180,
+  "focus_tilt_max": 70,
+  "technical_power_consumption": 40,
+  "technical_dmx_connector": "3-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Colors",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 14
+        },
+        {
+          "label": "Orange",
+          "min": 15,
+          "max": 29
+        },
+        {
+          "label": "Blue",
+          "min": 30,
+          "max": 44
+        },
+        {
+          "label": "Green",
+          "min": 45,
+          "max": 59
+        },
+        {
+          "label": "Yellow",
+          "min": 60,
+          "max": 74
+        },
+        {
+          "label": "Pink",
+          "min": 75,
+          "max": 89
+        },
+        {
+          "label": "Light blue",
+          "min": 90,
+          "max": 104
+        },
+        {
+          "label": "Light green",
+          "min": 105,
+          "max": 119
+        },
+        {
+          "label": "Light yellow",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Rainbow effect slow - fast",
+          "min": 128,
+          "max": 254
+        },
+        {
+          "label": "Sound active",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 4,
+      "type_description": "Gobo Wheel",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Gobo 1",
+          "min": 8,
+          "max": 14
+        },
+        {
+          "label": "Gobo 2",
+          "min": 15,
+          "max": 21
+        },
+        {
+          "label": "Gobo 3",
+          "min": 22,
+          "max": 28
+        },
+        {
+          "label": "Gobo 4",
+          "min": 29,
+          "max": 36
+        },
+        {
+          "label": "Gobo 5",
+          "min": 37,
+          "max": 43
+        },
+        {
+          "label": "Gobo 6",
+          "min": 44,
+          "max": 50
+        },
+        {
+          "label": "Gobo 7",
+          "min": 51,
+          "max": 57
+        },
+        {
+          "label": "Gobo 8",
+          "min": 58,
+          "max": 63
+        },
+        {
+          "label": "Open shake",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Gobo 1 shake",
+          "min": 72,
+          "max": 78
+        },
+        {
+          "label": "Gobo 2 shake",
+          "min": 79,
+          "max": 85
+        },
+        {
+          "label": "Gobo 3 shake",
+          "min": 86,
+          "max": 92
+        },
+        {
+          "label": "Gobo 4 shake",
+          "min": 93,
+          "max": 100
+        },
+        {
+          "label": "Gobo 5 shake",
+          "min": 101,
+          "max": 107
+        },
+        {
+          "label": "Gobo 6 shake",
+          "min": 108,
+          "max": 114
+        },
+        {
+          "label": "Gobo 7 shake",
+          "min": 115,
+          "max": 121
+        },
+        {
+          "label": "Gobo 8 shake",
+          "min": 122,
+          "max": 127
+        },
+        {
+          "label": "Rotation slow to fast",
+          "min": 128,
+          "max": 254
+        },
+        {
+          "label": "Sound active",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Shutter/Strobe",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Shutter open",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Strobe slow - fast",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "Shutter open",
+          "min": 132,
+          "max": 139
+        },
+        {
+          "label": "Shutter slow open - fast close",
+          "min": 140,
+          "max": 180
+        },
+        {
+          "label": "Shutter open",
+          "min": 181,
+          "max": 189
+        },
+        {
+          "label": "Shutter fast open - slow close",
+          "min": 190,
+          "max": 231
+        },
+        {
+          "label": "Shutter open",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Random strobe",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Shutter open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Moving Head Movement",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Movement 1",
+          "min": 8,
+          "max": 28
+        },
+        {
+          "label": "Movement 2",
+          "min": 29,
+          "max": 49
+        },
+        {
+          "label": "Movement 3",
+          "min": 50,
+          "max": 70
+        },
+        {
+          "label": "Movement 4",
+          "min": 71,
+          "max": 91
+        },
+        {
+          "label": "Movement 5",
+          "min": 92,
+          "max": 112
+        },
+        {
+          "label": "Movement 6",
+          "min": 113,
+          "max": 133
+        },
+        {
+          "label": "Movement 7",
+          "min": 134,
+          "max": 154
+        },
+        {
+          "label": "Movement 8",
+          "min": 155,
+          "max": 175
+        },
+        {
+          "label": "Movement 9",
+          "min": 176,
+          "max": 196
+        },
+        {
+          "label": "Movement 10",
+          "min": 197,
+          "max": 217
+        },
+        {
+          "label": "Movement 11",
+          "min": 218,
+          "max": 238
+        },
+        {
+          "label": "Movement 12",
+          "min": 239,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Movement Speed",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-X-Scan-LED-Plus.json",
+  "id": 174
+}

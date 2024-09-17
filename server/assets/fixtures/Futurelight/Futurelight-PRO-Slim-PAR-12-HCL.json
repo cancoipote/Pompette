@@ -1,0 +1,333 @@
+{
+  "version": "1.0.0",
+  "label": "PRO Slim PAR-12 HCL",
+  "manufacturer": "Futurelight",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 5,
+  "dimension_width": 298,
+  "dimension_height": 323,
+  "dimension_depth": 112,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 95,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Purple",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 21,
+      "type_description": "Strobe_8ch",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Sound Control",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "label": "No function",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "slow to fast (increasing speed)",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 21,
+      "type_description": "Strobe_12ch",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "slow to fast (increasing speed)",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Color presets",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "RED 100% / GREEN increasing / BLUE 0%",
+          "min": 11,
+          "max": 30
+        },
+        {
+          "label": "RED decreasing / GREEN 100% / BLUE 0%",
+          "min": 31,
+          "max": 50
+        },
+        {
+          "label": "RED 0% / GREEN 100% / BLUE increasing",
+          "min": 51,
+          "max": 70
+        },
+        {
+          "label": "RED 0% / GREEN decreasing / BLUE 100%",
+          "min": 71,
+          "max": 90
+        },
+        {
+          "label": "RED increasing/ GREEN 0% / BLUE 100%",
+          "min": 91,
+          "max": 110
+        },
+        {
+          "label": "RED 100% / GREEN 0% / BLUE decreasing",
+          "min": 111,
+          "max": 130
+        },
+        {
+          "label": "RED 100% / GREEN increasing / BLUE increasing",
+          "min": 131,
+          "max": 150
+        },
+        {
+          "label": "RED decreasing / GREEN decreasing / BLUE 100%",
+          "min": 151,
+          "max": 170
+        },
+        {
+          "label": "RED 100% / GREEN 100% / BLUE 100% / WHITE 100%",
+          "min": 171,
+          "max": 200
+        },
+        {
+          "label": "WHITE 1: 3200 K",
+          "min": 201,
+          "max": 205
+        },
+        {
+          "label": "WHITE 2: 3400 K",
+          "min": 206,
+          "max": 210
+        },
+        {
+          "label": "WHITE 3: 4200 K",
+          "min": 211,
+          "max": 215
+        },
+        {
+          "label": "WHITE 4: 4900 K",
+          "min": 216,
+          "max": 220
+        },
+        {
+          "label": "WHITE 5: 5600 K",
+          "min": 221,
+          "max": 225
+        },
+        {
+          "label": "WHITE 6: 5900 K",
+          "min": 226,
+          "max": 230
+        },
+        {
+          "label": "WHITE 7: 6500 K",
+          "min": 231,
+          "max": 235
+        },
+        {
+          "label": "WHITE 8: 7200 K",
+          "min": 236,
+          "max": 240
+        },
+        {
+          "label": "WHITE 9: 8000 K",
+          "min": 241,
+          "max": 245
+        },
+        {
+          "label": "WHITE 10: 8500 K",
+          "min": 246,
+          "max": 250
+        },
+        {
+          "label": "WHITE 11: 10000 K",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Internal programs",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Internal program 1",
+          "min": 11,
+          "max": 60
+        },
+        {
+          "label": "Internal program 2",
+          "min": 61,
+          "max": 120
+        },
+        {
+          "label": "Internal program 3",
+          "min": 121,
+          "max": 180
+        },
+        {
+          "label": "Internal program 4",
+          "min": 181,
+          "max": 240
+        },
+        {
+          "label": "Internal program 5",
+          "min": 241,
+          "max": 250
+        },
+        {
+          "label": "Music control",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 22,
+      "type_description": "Speed internal programs/microphone sensitivity",
+      "capabilities": [
+        {
+          "label": "Increasing Speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 22,
+      "type_description": "Dimmer speed",
+      "capabilities": [
+        {
+          "label": "Control Board setting dimer speed",
+          "min": 0,
+          "max": 51
+        },
+        {
+          "label": "Neutral",
+          "min": 52,
+          "max": 101
+        },
+        {
+          "label": "Dimmer speed 1",
+          "min": 102,
+          "max": 152
+        },
+        {
+          "label": "Dimmer speed 2",
+          "min": 153,
+          "max": 203
+        },
+        {
+          "label": "Dimmer speed 1",
+          "min": 204,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Hue",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Saturation",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Value (brightness)",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Intensity",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Futurelight/Futurelight-PRO-Slim-PAR-12-HCL.json",
+  "id": 826
+}

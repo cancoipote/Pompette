@@ -1,0 +1,282 @@
+{
+  "version": "1.0.0",
+  "label": "Thunderwash 600 RGBW",
+  "manufacturer": "Cameo",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 338,
+  "dimension_height": 197,
+  "dimension_depth": 87,
+  "lens_label": "Other",
+  "lens_degree_min": 75,
+  "lens_degree_max": 75,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 160,
+  "technical_dmx_connector": "3-pin",
+  "type": 12,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Strobe (RGBW Full On)",
+      "capabilities": [
+        {
+          "label": "Strobe Closed",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Strobe slow -> fast 1Hz - 30Hz",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Colour Macro",
+      "capabilities": [
+        {
+          "label": "Colour off",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Red",
+          "min": 6,
+          "max": 13
+        },
+        {
+          "label": "Amber",
+          "min": 14,
+          "max": 21
+        },
+        {
+          "label": "Yellow warm",
+          "min": 22,
+          "max": 29
+        },
+        {
+          "label": "Yellow",
+          "min": 30,
+          "max": 37
+        },
+        {
+          "label": "Green",
+          "min": 38,
+          "max": 45
+        },
+        {
+          "label": "Turquoise",
+          "min": 46,
+          "max": 53
+        },
+        {
+          "label": "Cyan",
+          "min": 54,
+          "max": 61
+        },
+        {
+          "label": "Blue",
+          "min": 62,
+          "max": 69
+        },
+        {
+          "label": "Lavender",
+          "min": 70,
+          "max": 77
+        },
+        {
+          "label": "Mauve",
+          "min": 78,
+          "max": 85
+        },
+        {
+          "label": "Magenta",
+          "min": 86,
+          "max": 93
+        },
+        {
+          "label": "Pink",
+          "min": 94,
+          "max": 101
+        },
+        {
+          "label": "Warm White",
+          "min": 102,
+          "max": 109
+        },
+        {
+          "label": "White",
+          "min": 110,
+          "max": 117
+        },
+        {
+          "label": "Cold White",
+          "min": 118,
+          "max": 125
+        },
+        {
+          "label": "Colour Jumping Stop",
+          "min": 126,
+          "max": 128
+        },
+        {
+          "label": "Colour Jumping Speed slow -> Fast / Colour 1 -> 12",
+          "min": 129,
+          "max": 192
+        },
+        {
+          "label": "Colour Fading Speed slow -> Fast / Colour 1 -> 12",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 21,
+      "type_description": "Strobe (RGBW)",
+      "capabilities": [
+        {
+          "label": "Strobe open",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Strobe closed",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Strobe slow -> fast 1Hz - 30 Hz",
+          "min": 11,
+          "max": 250
+        },
+        {
+          "label": "Strobe open",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Duration",
+      "capabilities": [
+        {
+          "label": "Flash Duration (1ms to 510ms)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 21,
+      "type_description": "Strobe Mode",
+      "capabilities": [
+        {
+          "label": "Strobe open",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Strobe closed",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Pulse Random, slow -> fast",
+          "min": 11,
+          "max": 33
+        },
+        {
+          "label": "Ramp up Random, slow -> fast",
+          "min": 34,
+          "max": 56
+        },
+        {
+          "label": "Ramp down Random, slow -> fast",
+          "min": 57,
+          "max": 79
+        },
+        {
+          "label": "Random Strobe Effect slow -> fast",
+          "min": 80,
+          "max": 102
+        },
+        {
+          "label": "Strobe Break Effect, 5s, .... 1s (Very Slow Flash) Random",
+          "min": 103,
+          "max": 127
+        },
+        {
+          "label": "Strobe slow -> fast 1Hz - 30 Hz",
+          "min": 128,
+          "max": 250
+        },
+        {
+          "label": "Strobe open",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Sound (Colour CH3, set CH2 value 000)",
+      "capabilities": [
+        {
+          "label": "Sound Control Off",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Sound Control On Low -> High (Mic Sensitivity)",
+          "min": 6,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Cameo/Cameo-Thunderwash-600-RGBW.json",
+  "id": 333
+}

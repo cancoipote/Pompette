@@ -1,0 +1,354 @@
+{
+  "version": "1.0.0",
+  "label": "Galaxy Laser LD-488",
+  "manufacturer": "Nicols",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 6,
+  "dimension_width": 600,
+  "dimension_height": 150,
+  "dimension_depth": 180,
+  "lens_label": "Other",
+  "lens_degree_min": 30,
+  "lens_degree_max": 50,
+  "focus_type": "Fixed",
+  "focus_pan_max": 120,
+  "focus_tilt_max": 120,
+  "technical_power_consumption": 50,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "Closed / Beam Off",
+          "min": 0,
+          "max": 49
+        },
+        {
+          "label": "Static Patterns",
+          "min": 50,
+          "max": 99
+        },
+        {
+          "label": "Dynamic Patterns",
+          "min": 100,
+          "max": 149
+        },
+        {
+          "label": "Sound Mode",
+          "min": 150,
+          "max": 199
+        },
+        {
+          "label": "Auto Mode",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 1,
+      "type_description": "Pattern: Static / Dynamic",
+      "capabilities": [
+        {
+          "label": "Circle / Circle to Big",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Dot Circle 1 / Dot Circle to Big",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "Dot Circle 1 / Scan Circle to Big",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "Scan Circle / Circle Flash",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "Horizontal Line / Dot Circle Flash",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "Horizontal Dot Line / Circle Roll",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "Vertical Line / Dot Circle Roll",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "Vertical Dot Line / Circle Turn",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "45° Diagonal / Dot Circle Turn",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "Dot Diagonal / Dot Circle to Add",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "135° Diagonal / Scan Circle Extend",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "Dot Diagonal / Circle Jump",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "Vertical Line 1 / Dot Circle Jump",
+          "min": 60,
+          "max": 64
+        },
+        {
+          "label": "Vertical Dot Line 1 / Horizontal Line Jump",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "Vertical Line 2 / Horizontal Dot Line Jump",
+          "min": 70,
+          "max": 74
+        },
+        {
+          "label": "Vertical Dot Line 2 / Vertical Line Jump",
+          "min": 75,
+          "max": 79
+        },
+        {
+          "label": "Triangle 1 / Vertical Dot Line Lump",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "Dot Triangle 1 / Diagonal Jump",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "Triangle 2 / Dot Diagonal Jump",
+          "min": 90,
+          "max": 94
+        },
+        {
+          "label": "Dot Triangle 2 / Short Sector Round 1",
+          "min": 95,
+          "max": 99
+        },
+        {
+          "label": "Square / Short Sector Round 2",
+          "min": 100,
+          "max": 104
+        },
+        {
+          "label": "Dot Square / Long Sector Round 1",
+          "min": 105,
+          "max": 109
+        },
+        {
+          "label": "Rectangle 1 / Long Sector Round 2",
+          "min": 110,
+          "max": 114
+        },
+        {
+          "label": "Dot Rectangle 1 / Line Scan",
+          "min": 115,
+          "max": 119
+        },
+        {
+          "label": "Rectangle 2 / Dot Line Scan",
+          "min": 120,
+          "max": 124
+        },
+        {
+          "label": "Dot Rectangle 2 / 45° Diagonal Move",
+          "min": 125,
+          "max": 129
+        },
+        {
+          "label": "Christ Cross / Dot Diagonal Move",
+          "min": 130,
+          "max": 134
+        },
+        {
+          "label": "Chiasma Line / Horizontal Line Flex",
+          "min": 135,
+          "max": 139
+        },
+        {
+          "label": "Horizontal Extend Line / Horizontal Dot Line Flex",
+          "min": 140,
+          "max": 144
+        },
+        {
+          "label": "Horizontal Shrink Line / Horizontal Line Move",
+          "min": 145,
+          "max": 149
+        },
+        {
+          "label": "Horizontal Flex Line / Horizontal Dot Line Move",
+          "min": 150,
+          "max": 154
+        },
+        {
+          "label": "Horizontal Flex Dot Line / Vertical Line Move",
+          "min": 155,
+          "max": 159
+        },
+        {
+          "label": "Green Extend Line / Vertical Dot Line Move",
+          "min": 160,
+          "max": 164
+        },
+        {
+          "label": "Green Shrink Line / Rectangle Extend",
+          "min": 165,
+          "max": 169
+        },
+        {
+          "label": "Green Flex Line / Dot Rectangle Extend",
+          "min": 170,
+          "max": 174
+        },
+        {
+          "label": "Vertical Flex Dot Line / Square Extend",
+          "min": 175,
+          "max": 179
+        },
+        {
+          "label": "Ladder Line 1 / Dot Square Extend",
+          "min": 180,
+          "max": 184
+        },
+        {
+          "label": "Ladder Line 2 / Rectangle Turn",
+          "min": 185,
+          "max": 189
+        },
+        {
+          "label": "Ladder Line 3 / Dot Rectangle Turn",
+          "min": 190,
+          "max": 194
+        },
+        {
+          "label": "Ladder Line 4 / Square Turn",
+          "min": 195,
+          "max": 199
+        },
+        {
+          "label": "Tetragon 1 / Dot Square Turn",
+          "min": 200,
+          "max": 204
+        },
+        {
+          "label": "Tetragon 2 / Pentagon Turn",
+          "min": 205,
+          "max": 209
+        },
+        {
+          "label": "Pentagon 1 / Dot Pentagon Turn",
+          "min": 210,
+          "max": 214
+        },
+        {
+          "label": "Pentagon 2 / Tetragon Turn",
+          "min": 215,
+          "max": 219
+        },
+        {
+          "label": "Pentagon 3 / Pentagon Star Turn",
+          "min": 220,
+          "max": 224
+        },
+        {
+          "label": "Pentagon 4 / Bird Fly",
+          "min": 225,
+          "max": 229
+        },
+        {
+          "label": "Wave Line / Dot Bird Fly",
+          "min": 230,
+          "max": 234
+        },
+        {
+          "label": "Wave Dot Line / Wave Flowing",
+          "min": 235,
+          "max": 239
+        },
+        {
+          "label": "Spirality Line / Dot Wave Flowing",
+          "min": 240,
+          "max": 244
+        },
+        {
+          "label": "Many Dot 1 / Many Dot Jump 1",
+          "min": 245,
+          "max": 249
+        },
+        {
+          "label": "Many Dot 2 / Square Dot Jump",
+          "min": 250,
+          "max": 254
+        },
+        {
+          "label": "Square Dot / Many Dot Jump 2",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Position X",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Position Y",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Scanning Speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Speed Patterns",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Pattern Size",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Nicols/Nicols-Galaxy-Laser.json",
+  "id": 1109
+}

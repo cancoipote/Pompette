@@ -1,0 +1,65 @@
+{
+  "version": "1.0.0",
+  "label": "LED PAR 64",
+  "manufacturer": "lightmaXX",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 230,
+  "dimension_height": 230,
+  "dimension_depth": 290,
+  "lens_label": "Other",
+  "lens_degree_min": 30,
+  "lens_degree_max": 30,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 28,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Dimmer",
+          "min": 0,
+          "max": 189
+        },
+        {
+          "label": "Strobe",
+          "min": 190,
+          "max": 250
+        },
+        {
+          "label": "No function",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/lightmaXX/lightmaXX-LED-PAR-64.json",
+  "id": 983
+}

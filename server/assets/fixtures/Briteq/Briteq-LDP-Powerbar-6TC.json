@@ -1,0 +1,369 @@
+{
+  "version": "1.0.0",
+  "label": "LDP Powerbar 6TC",
+  "manufacturer": "Briteq",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 638,
+  "dimension_height": 140,
+  "dimension_depth": 79,
+  "lens_label": "Other",
+  "lens_degree_min": 25,
+  "lens_degree_max": 25,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 22,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Color & Macro",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Color 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Color 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Color 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Color 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Color 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Color 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Color 7",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Color 8",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Color 9",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Color 10",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Color 11",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Color 12",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Color 13",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Color 14",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Color 15",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Color 16",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Color 17",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Color 18",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Color 19",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Color 20",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Color 21",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Color 22",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Color 23",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Color 24",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Color 25",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Color 26",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Color 27",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Color 28",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Color 29",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Macro 1",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Macro 2",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Dimmer/Strobe",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Dimmer 0% to 100 %",
+          "min": 8,
+          "max": 200
+        },
+        {
+          "label": "Strobe slow to fast",
+          "min": 201,
+          "max": 248
+        },
+        {
+          "label": "Open",
+          "min": 249,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Open",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Slow to fast",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "Open",
+          "min": 132,
+          "max": 139
+        },
+        {
+          "label": "Slow open fast close",
+          "min": 140,
+          "max": 181
+        },
+        {
+          "label": "Open",
+          "min": 182,
+          "max": 190
+        },
+        {
+          "label": "Fast open slow close",
+          "min": 191,
+          "max": 231
+        },
+        {
+          "label": "Open",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Random strobe",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 22,
+      "type_description": "Speed",
+      "capabilities": [
+        {
+          "label": "Macro speed (slow to fast)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "On/Off",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "On",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Off",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "On",
+          "min": 132,
+          "max": 139
+        },
+        {
+          "label": "Off",
+          "min": 140,
+          "max": 181
+        },
+        {
+          "label": "On",
+          "min": 182,
+          "max": 190
+        },
+        {
+          "label": "Off",
+          "min": 191,
+          "max": 231
+        },
+        {
+          "label": "On",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Off",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "On",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Briteq/Briteq-LDP-Powerbar-6TC.json",
+  "id": 270
+}

@@ -1,0 +1,284 @@
+{
+  "version": "1.0.0",
+  "label": "Hero Wash 712 Z RGBW Zoom",
+  "manufacturer": "Varytec",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 215,
+  "dimension_height": 300,
+  "dimension_depth": 145,
+  "lens_label": "PC",
+  "lens_degree_min": 6,
+  "lens_degree_max": 36,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 190,
+  "technical_power_consumption": 80,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan/Tilt speed from slowest to fastest",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Stroboscope, increasing speed (0 ... 20 Hz)",
+          "min": 10,
+          "max": 250
+        },
+        {
+          "label": "Open",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Colour temperature",
+      "capabilities": [
+        {
+          "label": "Colour temperature (0 % to 100 %)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Colour macros",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Red",
+          "min": 11,
+          "max": 20
+        },
+        {
+          "label": "Green",
+          "min": 21,
+          "max": 30
+        },
+        {
+          "label": "Blue",
+          "min": 31,
+          "max": 40
+        },
+        {
+          "label": "White",
+          "min": 41,
+          "max": 50
+        },
+        {
+          "label": "Red, white",
+          "min": 51,
+          "max": 60
+        },
+        {
+          "label": "Green, white",
+          "min": 61,
+          "max": 70
+        },
+        {
+          "label": "Blue, white",
+          "min": 71,
+          "max": 80
+        },
+        {
+          "label": "Red, green",
+          "min": 81,
+          "max": 90
+        },
+        {
+          "label": "Green, blue",
+          "min": 91,
+          "max": 100
+        },
+        {
+          "label": "Red, blue",
+          "min": 101,
+          "max": 110
+        },
+        {
+          "label": "Red, green, white",
+          "min": 111,
+          "max": 120
+        },
+        {
+          "label": "Green, blue, white",
+          "min": 121,
+          "max": 130
+        },
+        {
+          "label": "Red, blue, white",
+          "min": 131,
+          "max": 140
+        },
+        {
+          "label": "Red, green, blue, white",
+          "min": 141,
+          "max": 150
+        },
+        {
+          "label": "Colour sequence, increasing speed",
+          "min": 151,
+          "max": 200
+        },
+        {
+          "label": "Colour transition (fade), increasing speed",
+          "min": 201,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 3,
+      "type_description": "Auto programs",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "preprogrammed automatic show 1",
+          "min": 11,
+          "max": 20
+        },
+        {
+          "label": "preprogrammed automatic show 2",
+          "min": 21,
+          "max": 30
+        },
+        {
+          "label": "preprogrammed automatic show 3",
+          "min": 31,
+          "max": 40
+        },
+        {
+          "label": "preprogrammed automatic show 4",
+          "min": 41,
+          "max": 50
+        },
+        {
+          "label": "preprogrammed automatic show 5",
+          "min": 51,
+          "max": 60
+        },
+        {
+          "label": "preprogrammed automatic show 6",
+          "min": 61,
+          "max": 70
+        },
+        {
+          "label": "preprogrammed automatic show 7",
+          "min": 71,
+          "max": 80
+        },
+        {
+          "label": "preprogrammed automatic show 8",
+          "min": 81,
+          "max": 90
+        },
+        {
+          "label": "Sound control, from sound control off to high microphone sensitivity",
+          "min": 91,
+          "max": 230
+        },
+        {
+          "label": "Reset, if the value is transmitted for at least 3 seconds",
+          "min": 231,
+          "max": 240
+        },
+        {
+          "label": "No function",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Varytec/Varytec-Hero-Wash-712-Z-RGBW-Zoom.json",
+  "id": 1504
+}

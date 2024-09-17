@@ -1,0 +1,129 @@
+{
+  "version": "1.0.0",
+  "label": "BT-Vintage",
+  "manufacturer": "Briteq",
+  "bulb_type": "HTI 575W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 16,
+  "dimension_width": 696,
+  "dimension_height": 650,
+  "dimension_depth": 370,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 980,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Halogen Lamp Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "LED Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 21,
+      "type_description": "LED Strobe",
+      "capabilities": [
+        {
+          "label": "No strobe (open)",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Random strobe (slow > fast)",
+          "min": 8,
+          "max": 67
+        },
+        {
+          "label": "Strobe (slow > fast)",
+          "min": 68,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Blue fine",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Color effects",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Red",
+          "min": 8,
+          "max": 27
+        },
+        {
+          "label": "Orange",
+          "min": 28,
+          "max": 47
+        },
+        {
+          "label": "Yellow",
+          "min": 48,
+          "max": 67
+        },
+        {
+          "label": "Green",
+          "min": 68,
+          "max": 87
+        },
+        {
+          "label": "Cyan",
+          "min": 88,
+          "max": 97
+        },
+        {
+          "label": "Blue",
+          "min": 98,
+          "max": 107
+        },
+        {
+          "label": "Magenta",
+          "min": 108,
+          "max": 117
+        },
+        {
+          "label": "Fade colour change (very slow > fast)",
+          "min": 118,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Briteq/Briteq-BT-Vintage.json",
+  "id": 259
+}

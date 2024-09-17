@@ -1,0 +1,144 @@
+{
+  "version": "1.0.0",
+  "label": "COB Cannon Wash DW",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 8000,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 245,
+  "dimension_height": 192,
+  "dimension_depth": 415,
+  "lens_label": "Other",
+  "lens_degree_min": 40,
+  "lens_degree_max": 80,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 135,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Cool White",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Warm White",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Colour Temperature",
+      "capabilities": [
+        {
+          "label": "OFF",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "3200 K - 6400 K",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 21,
+      "type_description": "Shutter/Strobe",
+      "capabilities": [
+        {
+          "label": "OFF",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "ON",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe Slow - Fast",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "ON",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Strobe-Pulse Slow - Fast",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "ON",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random-Strobe Slow - Fast",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "ON",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Master-Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Dimmer Curves",
+      "capabilities": [
+        {
+          "label": "Standard",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Stage",
+          "min": 21,
+          "max": 40
+        },
+        {
+          "label": "TV",
+          "min": 41,
+          "max": 60
+        },
+        {
+          "label": "Architecture",
+          "min": 61,
+          "max": 80
+        },
+        {
+          "label": "Theatre",
+          "min": 81,
+          "max": 100
+        },
+        {
+          "label": "Default to unit setting",
+          "min": 101,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-COB-Cannon-Wash-DW.json",
+  "id": 36
+}

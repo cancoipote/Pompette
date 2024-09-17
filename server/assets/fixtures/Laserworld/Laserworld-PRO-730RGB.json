@@ -1,0 +1,281 @@
+{
+  "version": "1.0.0",
+  "label": "PRO-730RGB",
+  "manufacturer": "Laserworld",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 190,
+  "dimension_height": 160,
+  "dimension_depth": 270,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Mirror",
+  "focus_pan_max": 90,
+  "focus_tilt_max": 90,
+  "technical_power_consumption": 50,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Modes",
+      "capabilities": [
+        {
+          "label": "Sound Mode",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "Auto Mode",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Manual Sound Mode",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Manual Auto Mode",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Effect Modes",
+      "capabilities": [
+        {
+          "label": "Blanking",
+          "min": 0,
+          "max": 49
+        },
+        {
+          "label": "Pattern Multiplication",
+          "min": 50,
+          "max": 99
+        },
+        {
+          "label": "Multi-Pattern Effect",
+          "min": 100,
+          "max": 149
+        },
+        {
+          "label": "3D- Effect",
+          "min": 150,
+          "max": 199
+        },
+        {
+          "label": "Pattern without 3D Effect",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Colours",
+      "capabilities": [
+        {
+          "label": "Manual Colour Selection",
+          "min": 0,
+          "max": 40
+        },
+        {
+          "label": "Automatic Colour selection with speed increase",
+          "min": 41,
+          "max": 110
+        },
+        {
+          "label": "Automatic Colour mix with speed increase",
+          "min": 111,
+          "max": 180
+        },
+        {
+          "label": "Running Colour Mix",
+          "min": 181,
+          "max": 250
+        },
+        {
+          "label": "Static Colour Mix",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Pattern Selection",
+      "capabilities": [
+        {
+          "label": "Pattern Selection",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 23,
+      "type_description": "Y-Movement",
+      "capabilities": [
+        {
+          "label": "Manual Up-Down Movement",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Automatic Up-Down Movement with speed increase",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 19,
+      "type_description": "X-Movement",
+      "capabilities": [
+        {
+          "label": "Manual Right-Left Movement",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Automatic Right-Left movement with speed increase",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "X-Axis-Rotation",
+      "capabilities": [
+        {
+          "label": "Manual Rotation",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Automatic Rotation",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Y-Axis-Rotation",
+      "capabilities": [
+        {
+          "label": "Manual Rotation",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Automatic Rotation",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Circle Rotation",
+      "capabilities": [
+        {
+          "label": "Manual Rotation",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Automatic Clockwise with speed increase",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Automatic Anti-Clockwise with speed increase",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 1,
+      "type_description": "Zoom",
+      "capabilities": [
+        {
+          "label": "Positive Auto Zoom with Speed Increase",
+          "min": 0,
+          "max": 85
+        },
+        {
+          "label": "Negative Auto Zoom with Speed Increase",
+          "min": 86,
+          "max": 170
+        },
+        {
+          "label": "Positive/Negative Auto Zoom with Speed Increase",
+          "min": 171,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 1,
+      "type_description": "Pattern Size/Zoom",
+      "capabilities": [
+        {
+          "label": "Pattern Size/Zoom",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 3,
+      "type_description": "Dot Effect",
+      "capabilities": [
+        {
+          "label": "Auto Dot Effect with Speed Increase",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 3,
+      "type_description": "Drawing",
+      "capabilities": [
+        {
+          "label": "Auto Draw Mode 1 with Speed Increase",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Auto Draw Mode 2 with Speed Increase",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Laserworld/Laserworld-PRO-730RGB.json",
+  "id": 960
+}

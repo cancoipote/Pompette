@@ -1,0 +1,64 @@
+{
+  "version": "1.0.0",
+  "label": "Pin Scan",
+  "manufacturer": "Clay Paky",
+  "bulb_type": "EFR 100W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 5,
+  "dimension_width": 230,
+  "dimension_height": 230,
+  "dimension_depth": 325,
+  "lens_label": "",
+  "lens_degree_min": 2,
+  "lens_degree_max": 2,
+  "focus_type": "Head",
+  "focus_pan_max": 360,
+  "focus_tilt_max": 227,
+  "technical_power_consumption": 150,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 5,
+      "type_description": "Dimmer/ Strobe",
+      "capabilities": [
+        {
+          "label": "Close",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Open",
+          "min": 128,
+          "max": 139
+        },
+        {
+          "label": "Strobe Slow < Fast",
+          "min": 140,
+          "max": 243
+        },
+        {
+          "label": "Open",
+          "min": 244,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Clay_Paky/Clay-Paky-Pin-Scan.json",
+  "id": 367
+}

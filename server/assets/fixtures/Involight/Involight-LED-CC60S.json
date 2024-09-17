@@ -1,0 +1,523 @@
+{
+  "version": "1.0.0",
+  "label": "LED CC60S",
+  "manufacturer": "Involight",
+  "bulb_type": "LED",
+  "bulb_lumens": 15100,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 7,
+  "dimension_width": 300,
+  "dimension_height": 580,
+  "dimension_depth": 260,
+  "lens_label": "Other",
+  "lens_degree_min": 18,
+  "lens_degree_max": 18,
+  "focus_type": "Head",
+  "focus_pan_max": 180,
+  "focus_tilt_max": 90,
+  "technical_power_consumption": 127,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Colour Wheel",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 6
+        },
+        {
+          "label": "Yellow",
+          "min": 7,
+          "max": 13
+        },
+        {
+          "label": "Magenta",
+          "min": 14,
+          "max": 20
+        },
+        {
+          "label": "Green",
+          "min": 21,
+          "max": 27
+        },
+        {
+          "label": "Red",
+          "min": 28,
+          "max": 34
+        },
+        {
+          "label": "Blue",
+          "min": 35,
+          "max": 41
+        },
+        {
+          "label": "Kelly",
+          "min": 42,
+          "max": 48
+        },
+        {
+          "label": "Salmon Pink",
+          "min": 49,
+          "max": 55
+        },
+        {
+          "label": "Dark Blue",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "White + Yellow",
+          "min": 64,
+          "max": 70
+        },
+        {
+          "label": "Yellow + Magenta",
+          "min": 71,
+          "max": 77
+        },
+        {
+          "label": "Magenta + Green",
+          "min": 78,
+          "max": 84
+        },
+        {
+          "label": "Green + Red",
+          "min": 85,
+          "max": 91
+        },
+        {
+          "label": "Red + Blue",
+          "min": 92,
+          "max": 98
+        },
+        {
+          "label": "Blue + Kelly",
+          "min": 99,
+          "max": 105
+        },
+        {
+          "label": "Kelly + Salmon Pink",
+          "min": 106,
+          "max": 112
+        },
+        {
+          "label": "Salmon Pink+ Dark Blue",
+          "min": 113,
+          "max": 119
+        },
+        {
+          "label": "Dark Blue + White",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Positive rainbow effect with increasing speed",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Negative rainbow effect with increasing speed",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Close",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Open",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "Strobe effect with increasing speed",
+          "min": 8,
+          "max": 215
+        },
+        {
+          "label": "Open",
+          "min": 216,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 4,
+      "type_description": "Gobo Wheel",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Gobo 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Gobo 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Gobo 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Gobo 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Gobo 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Gobo 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Gobo 7",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Gobo 7 shake from slow to fast",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Gobo 6 shake from slow to fast",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Gobo 5 shake from slow to fast",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Gobo 4 shake from slow to fast",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Gobo 3 shake from slow to fast",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Gobo 2 shake from slow to fast",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Gobo 1 shake from slow to fast",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Open",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Positive rainbow effect with increasing speed",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Negative rainbow effect with increasing speed",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 4,
+      "type_description": "Gobo Rotation",
+      "capabilities": [
+        {
+          "label": "Gobo rotation fixed",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "Positive rotation with increasing speed",
+          "min": 64,
+          "max": 147
+        },
+        {
+          "label": "Negative rotation with increasing speed",
+          "min": 148,
+          "max": 231
+        },
+        {
+          "label": "Gobo bouncing",
+          "min": 232,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "Reserved",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Positive rotation with increasing speed",
+          "min": 4,
+          "max": 127
+        },
+        {
+          "label": "Negative rotation with increasing speed",
+          "min": 128,
+          "max": 251
+        },
+        {
+          "label": "Stop, static prism effect",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 17,
+      "type_description": "Channel function",
+      "capabilities": [
+        {
+          "label": "Reserved",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Blackout while pan/tilt moving",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Disabled blackout while pan/tilt moving",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Blackout while color wheel moving",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Disabled blackout while color wheel moving",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Blackout while gobo wheel moving",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Disabled blackout while gobo wheel moving",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Reserved",
+          "min": 56,
+          "max": 87
+        },
+        {
+          "label": "Blackout all moving",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Reset pan",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Reset tilt",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Reset colour wheel",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Reset gobo wheel",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Gobo rotation reset",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Prism reset",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Focus reset",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "All channel reset",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Reserved",
+          "min": 160,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Built-In Programs",
+      "capabilities": [
+        {
+          "label": "Reserved",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Program built-in 1",
+          "min": 8,
+          "max": 23
+        },
+        {
+          "label": "Program built-in 2",
+          "min": 24,
+          "max": 39
+        },
+        {
+          "label": "Program built-in 3",
+          "min": 40,
+          "max": 55
+        },
+        {
+          "label": "Program built-in 4",
+          "min": 56,
+          "max": 71
+        },
+        {
+          "label": "Program built-in 5",
+          "min": 72,
+          "max": 87
+        },
+        {
+          "label": "Program built-in 6",
+          "min": 88,
+          "max": 103
+        },
+        {
+          "label": "Program built-in 7",
+          "min": 104,
+          "max": 119
+        },
+        {
+          "label": "Program built-in 8",
+          "min": 120,
+          "max": 135
+        },
+        {
+          "label": "Sound control 1",
+          "min": 136,
+          "max": 151
+        },
+        {
+          "label": "Sound control 2",
+          "min": 152,
+          "max": 167
+        },
+        {
+          "label": "Sound control 3",
+          "min": 168,
+          "max": 183
+        },
+        {
+          "label": "Sound control 4",
+          "min": 184,
+          "max": 199
+        },
+        {
+          "label": "Sound control 5",
+          "min": 200,
+          "max": 215
+        },
+        {
+          "label": "Sound control 6",
+          "min": 216,
+          "max": 231
+        },
+        {
+          "label": "Sound control 7",
+          "min": 232,
+          "max": 247
+        },
+        {
+          "label": "Sound control 8",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Involight/Involight-LED-CC60S.json",
+  "id": 891
+}

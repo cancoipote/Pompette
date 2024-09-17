@@ -1,0 +1,166 @@
+{
+  "version": "1.0.0",
+  "label": "Dekker LED",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 279,
+  "dimension_height": 260,
+  "dimension_depth": 249,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 25,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "1 Motor Function",
+      "capabilities": [
+        {
+          "label": "No Rotation",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Clockwise Slow-Fast",
+          "min": 1,
+          "max": 127
+        },
+        {
+          "label": "Counter Clockwise Fast-Slow",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "2 Red Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "3 Green Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "4 Blue Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "5 White Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "6 Master Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "7 Programs",
+      "capabilities": [
+        {
+          "label": "No Program",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "4 Color Fade Change",
+          "min": 1,
+          "max": 26
+        },
+        {
+          "label": "9 Color Fade Change",
+          "min": 27,
+          "max": 51
+        },
+        {
+          "label": "4 Color Loop Change",
+          "min": 52,
+          "max": 76
+        },
+        {
+          "label": "9 Color Loop Change",
+          "min": 77,
+          "max": 101
+        },
+        {
+          "label": "Strobe 1 Dim-Bright",
+          "min": 102,
+          "max": 126
+        },
+        {
+          "label": "Strobe 2 Bright-Dim",
+          "min": 127,
+          "max": 151
+        },
+        {
+          "label": "Strobe 3 Dim-Bright-Dim",
+          "min": 152,
+          "max": 176
+        },
+        {
+          "label": "Strobe 4 W/O Dim Effect",
+          "min": 177,
+          "max": 201
+        },
+        {
+          "label": "Strobe 5 With 9 Color",
+          "min": 202,
+          "max": 226
+        },
+        {
+          "label": "Strobe 6 With Gradual Dim",
+          "min": 227,
+          "max": 254
+        },
+        {
+          "label": "All Programs Will Cycle",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 22,
+      "type_description": "8 Program Speed",
+      "capabilities": [
+        {
+          "label": "No Program",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Slow-Fast",
+          "min": 1,
+          "max": 254
+        },
+        {
+          "label": "Sound Active",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Dekker-LED.json",
+  "id": 40
+}

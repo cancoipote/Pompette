@@ -1,0 +1,306 @@
+{
+  "version": "1.0.0",
+  "label": "LED CBB-3 COB RBG 3x15W Bar",
+  "manufacturer": "Eurolite",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 204,
+  "dimension_height": 344,
+  "dimension_depth": 144,
+  "lens_label": "Other",
+  "lens_degree_min": 71,
+  "lens_degree_max": 71,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 50,
+  "technical_dmx_connector": "3-pin",
+  "type": 13,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "STL / Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Sound Control",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "label": "No function",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Strobe (increasing speed)",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Red 1",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Red 2",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Red 3",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Green 1",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Green 2",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Green 3",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Blue 1",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Blue 2",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Blue 3",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 22,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Strobe speed",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Color Presets",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Red 100% / Green increasing",
+          "min": 11,
+          "max": 30
+        },
+        {
+          "label": "Red decreasing / Green 100%",
+          "min": 31,
+          "max": 50
+        },
+        {
+          "label": "Green 100% / Blue increasing",
+          "min": 51,
+          "max": 70
+        },
+        {
+          "label": "Green decreasing / Blue 100%",
+          "min": 71,
+          "max": 90
+        },
+        {
+          "label": "Red increasing / Blue 100%",
+          "min": 91,
+          "max": 110
+        },
+        {
+          "label": "Red 100% / Blue decreasing",
+          "min": 111,
+          "max": 130
+        },
+        {
+          "label": "Red 100% / Green and Blue increasing",
+          "min": 131,
+          "max": 150
+        },
+        {
+          "label": "Red and Green decreasing / Blue 100%",
+          "min": 151,
+          "max": 170
+        },
+        {
+          "label": "Red 100% / Green 100% / Blue 100%",
+          "min": 171,
+          "max": 200
+        },
+        {
+          "label": "White (Warm to cold)",
+          "min": 201,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 3,
+      "type_description": "Internal Programs / STL",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Program 1",
+          "min": 11,
+          "max": 40
+        },
+        {
+          "label": "Program 2",
+          "min": 41,
+          "max": 80
+        },
+        {
+          "label": "Program 3",
+          "min": 81,
+          "max": 120
+        },
+        {
+          "label": "Program 4",
+          "min": 121,
+          "max": 160
+        },
+        {
+          "label": "Program 5",
+          "min": 161,
+          "max": 200
+        },
+        {
+          "label": "Loop Programs 1--5",
+          "min": 201,
+          "max": 240
+        },
+        {
+          "label": "STL",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 22,
+      "type_description": "Program Speed",
+      "capabilities": [
+        {
+          "label": "Increasing Speed of CH 7's Programs",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 22,
+      "type_description": "Dimmer Speed",
+      "capabilities": [
+        {
+          "label": "Control Board setting dimmer speed",
+          "min": 0,
+          "max": 51
+        },
+        {
+          "label": "Neutral",
+          "min": 52,
+          "max": 101
+        },
+        {
+          "label": "Dimmer Speed 1",
+          "min": 102,
+          "max": 152
+        },
+        {
+          "label": "Dimmer Speed 2",
+          "min": 153,
+          "max": 203
+        },
+        {
+          "label": "Dimmer Speed 3",
+          "min": 204,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "No function",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-LED-CBB-3-COB-RGB-3x15W-Bar.json",
+  "id": 678
+}

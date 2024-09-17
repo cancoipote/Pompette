@@ -1,0 +1,115 @@
+{
+  "version": "1.0.0",
+  "label": "Par 36",
+  "manufacturer": "UKing",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 7,
+  "dimension_width": 170,
+  "dimension_height": 130,
+  "dimension_depth": 70,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 36,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No Strobe",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Strobe Slow to Fast",
+          "min": 8,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 17,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "Manual Control",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Colors Selection (Colors contorted by CH7)",
+          "min": 11,
+          "max": 60
+        },
+        {
+          "label": "Colors Shade (Colors contorted by CH7, bigger values faster)",
+          "min": 61,
+          "max": 110
+        },
+        {
+          "label": "Colors Pulse transform (speed contorted by CH7, bigger values faster)",
+          "min": 111,
+          "max": 160
+        },
+        {
+          "label": "Colors transition (speed contorted by CH7, bigger values faster)",
+          "min": 161,
+          "max": 210
+        },
+        {
+          "label": "Sound Control",
+          "min": 211,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Color Selection",
+      "capabilities": [
+        {
+          "label": "Colors selection/colors shade(larger the values the faster)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/UKing/UKing-Par-36.json",
+  "id": 1471
+}

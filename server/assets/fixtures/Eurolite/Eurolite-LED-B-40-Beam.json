@@ -1,0 +1,138 @@
+{
+  "version": "1.0.0",
+  "label": "LED B-40 Beam",
+  "manufacturer": "Eurolite",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 320,
+  "dimension_height": 380,
+  "dimension_depth": 320,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Head",
+  "focus_pan_max": 360,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 30,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 19,
+      "type_description": "Pan/Rotation",
+      "capabilities": [
+        {
+          "label": "No rotation",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Backwards PAN-rotation with decreasing speed",
+          "min": 10,
+          "max": 127
+        },
+        {
+          "label": "No rotation",
+          "min": 128,
+          "max": 137
+        },
+        {
+          "label": "Forwards PAN-rotation with increasing speed",
+          "min": 138,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "LED colours",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Red",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Green",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Blue",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Red + Green",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Red + Blue",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Green + Blue",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Red + Green + Blue",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe-effect with increasing speed",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Internal program",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Internal program",
+          "min": 11,
+          "max": 249
+        },
+        {
+          "label": "Sound mode",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-LED-B-40-Beam.json",
+  "id": 675
+}

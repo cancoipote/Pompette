@@ -1,0 +1,311 @@
+{
+  "version": "1.0.0",
+  "label": "LED TMH-17",
+  "manufacturer": "Eurolite",
+  "bulb_type": "LED",
+  "bulb_lumens": 520,
+  "bulb_color_temperature": 8600,
+  "dimension_weight": 2,
+  "dimension_width": 170,
+  "dimension_height": 240,
+  "dimension_depth": 145,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 200,
+  "technical_power_consumption": 50,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Color-Wheel",
+      "capabilities": [
+        {
+          "label": "Open/White",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Green",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Blue",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Yellow",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Light Blue",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Orange",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Magenta",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Magenta/Orange",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Orange/Light Blue",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Light Blue/ Yellow",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Yellow/Blue",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Blue/Green",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Green/Red",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Rainbow effect with increasing speed",
+          "min": 140,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 4,
+      "type_description": "Static gobo-wheel, gobo shake",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Gobo 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Gobo 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Gobo 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Gobo 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Gobo 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Gobo 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Gobo 7",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Gobo 7 Shake with increasing speed",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Gobo 6 Shake with increasing speed",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Gobo 5 Shake with increasing speed",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Gobo 4 Shake with increasing speed",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Gobo 3 Shake with increasing speed",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Gobo 2 Shake with increasing speed",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Gobo 1 Shake with increasing speed",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Open",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Gobo-wheel rotation with increasing speed",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe-effect with increasing speed",
+          "min": 10,
+          "max": 249
+        },
+        {
+          "label": "No function",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Dimmer intensity",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Pan/Tilt speed",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Internal program, sound control",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 59
+        },
+        {
+          "label": "Internal Program",
+          "min": 60,
+          "max": 159
+        },
+        {
+          "label": "Sound Control",
+          "min": 160,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 17,
+      "type_description": "Special functions, reset",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "PAN movement",
+          "min": 21,
+          "max": 100
+        },
+        {
+          "label": "TILT movement",
+          "min": 101,
+          "max": 200
+        },
+        {
+          "label": "PAN/TILT movement",
+          "min": 201,
+          "max": 249
+        },
+        {
+          "label": "Reset",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-LED-TMH-17.json",
+  "id": 728
+}

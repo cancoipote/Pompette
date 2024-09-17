@@ -1,0 +1,334 @@
+{
+  "version": "1.0.0",
+  "label": "TourSpot 50 Mini",
+  "manufacturer": "Expolite",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 7,
+  "dimension_width": 270,
+  "dimension_height": 366,
+  "dimension_depth": 155,
+  "lens_label": "Other",
+  "lens_degree_min": 11,
+  "lens_degree_max": 11,
+  "focus_type": "Head",
+  "focus_pan_max": 630,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 50,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Gobo wheel",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 4,
+      "type_description": "Gobo rotation",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Forward gobo rotation (fast to slow)",
+          "min": 4,
+          "max": 127
+        },
+        {
+          "label": "Gobo rotation stop",
+          "min": 128,
+          "max": 131
+        },
+        {
+          "label": "Backward gobo rotation (slow to fast)",
+          "min": 132,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Shutter open",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe effect (slow to fast)",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Shutter open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse-effect in sequences (slow to fast)",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Shutter open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random strobe effect (slow to fast)",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Shutter open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 22,
+      "type_description": "Speed pan/tilt",
+      "capabilities": [
+        {
+          "label": "speed (min to max)",
+          "min": 0,
+          "max": 225
+        },
+        {
+          "label": "blackout by movement",
+          "min": 226,
+          "max": 235
+        },
+        {
+          "label": "blackout by all wheel changing",
+          "min": 236,
+          "max": 245
+        },
+        {
+          "label": "no function",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 20,
+      "type_description": "Prism & Rotating",
+      "capabilities": [
+        {
+          "label": "OFF",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "ON",
+          "min": 6,
+          "max": 127
+        },
+        {
+          "label": "rotating (slow to fast)",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 17,
+      "type_description": "Special Function",
+      "capabilities": [
+        {
+          "label": "no function",
+          "min": 0,
+          "max": 79
+        },
+        {
+          "label": "reset all motors",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "reset scan motor",
+          "min": 85,
+          "max": 87
+        },
+        {
+          "label": "reset color motor",
+          "min": 88,
+          "max": 90
+        },
+        {
+          "label": "reset gobo motor",
+          "min": 91,
+          "max": 93
+        },
+        {
+          "label": "reset shutter&dimmer motor",
+          "min": 94,
+          "max": 96
+        },
+        {
+          "label": "reset other motors",
+          "min": 97,
+          "max": 99
+        },
+        {
+          "label": "internal program 1",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "internal program 2",
+          "min": 120,
+          "max": 139
+        },
+        {
+          "label": "internal program 3",
+          "min": 140,
+          "max": 159
+        },
+        {
+          "label": "internal program 4",
+          "min": 160,
+          "max": 179
+        },
+        {
+          "label": "internal program 5",
+          "min": 180,
+          "max": 199
+        },
+        {
+          "label": "internal program 6",
+          "min": 200,
+          "max": 219
+        },
+        {
+          "label": "internal program 7",
+          "min": 220,
+          "max": 239
+        },
+        {
+          "label": "internal sound program 1",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Color Wheel",
+      "capabilities": [
+        {
+          "label": "Open / white",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Red",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Cyan",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Green",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Yellow",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Rose carmine",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Blue",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Orange",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Forward rainbow effect (fast..slow)",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Color rotation stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Backwards rainbow effect (slow..fast)",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Expolite/Expolite-TourSpot-50-Mini.json",
+  "id": 665
+}

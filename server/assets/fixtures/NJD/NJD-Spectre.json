@@ -1,0 +1,181 @@
+{
+  "version": "1.0.0",
+  "label": "Spectre",
+  "manufacturer": "NJD",
+  "bulb_type": "A1/244",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 5,
+  "dimension_width": 250,
+  "dimension_height": 250,
+  "dimension_depth": 245,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 1500,
+  "technical_dmx_connector": "5-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Brightness",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "Red",
+          "min": 0,
+          "max": 42
+        },
+        {
+          "label": "Yellow",
+          "min": 43,
+          "max": 85
+        },
+        {
+          "label": "Green",
+          "min": 86,
+          "max": 127
+        },
+        {
+          "label": "Cyan",
+          "min": 128,
+          "max": 170
+        },
+        {
+          "label": "Blue",
+          "min": 171,
+          "max": 213
+        },
+        {
+          "label": "Magenta",
+          "min": 214,
+          "max": 254
+        },
+        {
+          "label": "Red",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 3,
+      "type_description": "Saturation",
+      "capabilities": [
+        {
+          "label": "Full Colour [0] -> White [255]",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "X-position (pan) or dish rotation",
+      "capabilities": [
+        {
+          "label": "X-position (pan) or dish rotation",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Y-position (tilt)",
+      "capabilities": [
+        {
+          "label": "Y-position (tilt)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Speed",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 4,
+      "type_description": "Gobo or Colour Saturation",
+      "capabilities": [
+        {
+          "label": "Gobo or Colour Saturation",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 21,
+      "type_description": "Strobe/Blackout",
+      "capabilities": [
+        {
+          "label": "Off [0] -> 10Hz [255]",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Colour + Colour Scrolling",
+      "capabilities": [
+        {
+          "label": "Red",
+          "min": 0,
+          "max": 42
+        },
+        {
+          "label": "Yellow",
+          "min": 43,
+          "max": 85
+        },
+        {
+          "label": "Green",
+          "min": 86,
+          "max": 127
+        },
+        {
+          "label": "Cyan",
+          "min": 128,
+          "max": 170
+        },
+        {
+          "label": "Blue",
+          "min": 171,
+          "max": 213
+        },
+        {
+          "label": "Magenta",
+          "min": 214,
+          "max": 254
+        },
+        {
+          "label": "Red",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/NJD/NJD-Spectre.json",
+  "id": 1114
+}

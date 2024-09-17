@@ -1,0 +1,437 @@
+{
+  "version": "1.0.0",
+  "label": "CLUB-MIX3 19x10W RGBW",
+  "manufacturer": "AFX",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 265,
+  "dimension_height": 214,
+  "dimension_depth": 113,
+  "lens_label": "Other",
+  "lens_degree_min": 26,
+  "lens_degree_max": 26,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 200,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Shutter open",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe effect slow to fast",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Shutter open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse-effect in sequences slow to fast",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Shutter open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random strobe effect slow to fast",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Shutter open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Macro Color",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Red",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Green",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Blue",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "White",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Red + Green",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Red + Blue",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Red + White",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Green + Blue",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Green + White",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Blue + White",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "R + G + B",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "R + G + B + W",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "2700K",
+          "min": 208,
+          "max": 212
+        },
+        {
+          "label": "3200K",
+          "min": 213,
+          "max": 217
+        },
+        {
+          "label": "3500K",
+          "min": 218,
+          "max": 222
+        },
+        {
+          "label": "5000K",
+          "min": 223,
+          "max": 227
+        },
+        {
+          "label": "5500K",
+          "min": 228,
+          "max": 232
+        },
+        {
+          "label": "6000K",
+          "min": 233,
+          "max": 237
+        },
+        {
+          "label": "6500K",
+          "min": 238,
+          "max": 242
+        },
+        {
+          "label": "7000K",
+          "min": 243,
+          "max": 247
+        },
+        {
+          "label": "8000K",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Color Temp",
+      "capabilities": [
+        {
+          "label": "No Function",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Below 3200K",
+          "min": 16,
+          "max": 45
+        },
+        {
+          "label": "3200K-3500K",
+          "min": 46,
+          "max": 75
+        },
+        {
+          "label": "3500K-5000K",
+          "min": 76,
+          "max": 105
+        },
+        {
+          "label": "5000K-5500K",
+          "min": 106,
+          "max": 135
+        },
+        {
+          "label": "5500K-6000K",
+          "min": 136,
+          "max": 165
+        },
+        {
+          "label": "6000K-6500K",
+          "min": 166,
+          "max": 195
+        },
+        {
+          "label": "6500K-7000K",
+          "min": 196,
+          "max": 225
+        },
+        {
+          "label": "7000K-8000K",
+          "min": 226,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Macro Run",
+      "capabilities": [
+        {
+          "label": "No Function",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Macro Run 1",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Macro Run 2",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Macro Run 3",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Macro Run 4",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Macro Run 5",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Macro Run 6",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Macro Run 7",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Macro Run 8",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Macro Sound 1",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Macro Sound 2",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Macro Sound 3",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Macro Sound 4",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "Macro Sound 5",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "Macro Sound 7",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 22,
+      "type_description": "Macro Speed",
+      "capabilities": [
+        {
+          "label": "Macro Speed from Slow to Fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Red 1",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Green 1",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Blue 1",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "White 1",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Red 2",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Green 2",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Blue 2",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "White 2",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Red 3",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Green 3",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Blue 3",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "White 3",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/AFX/AFX-CLUB-MIX3-19x10W-RGBW.json",
+  "id": 7
+}

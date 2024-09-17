@@ -1,0 +1,249 @@
+{
+  "version": "1.0.0",
+  "label": "KUB 500 RGB",
+  "manufacturer": "BoomToneDJ",
+  "bulb_type": "Laser",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 193,
+  "dimension_height": 136,
+  "dimension_depth": 215,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 50,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 17,
+      "type_description": "Pattern controlling mode",
+      "capabilities": [
+        {
+          "label": "Laser light off",
+          "min": 0,
+          "max": 41
+        },
+        {
+          "label": "DMX control mode",
+          "min": 42,
+          "max": 83
+        },
+        {
+          "label": "Automatic control mode",
+          "min": 84,
+          "max": 125
+        },
+        {
+          "label": "Line effect automatic control mode",
+          "min": 126,
+          "max": 167
+        },
+        {
+          "label": "Animation effect sound control mode",
+          "min": 168,
+          "max": 209
+        },
+        {
+          "label": "Automatic effect sound control mode",
+          "min": 210,
+          "max": 251
+        },
+        {
+          "label": "Manual control sound mode",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 4,
+      "type_description": "Pattern selection A",
+      "capabilities": [
+        {
+          "label": "Pattern group A",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 4,
+      "type_description": "Pattern selection B",
+      "capabilities": [
+        {
+          "label": "Pattern group B",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 4,
+      "type_description": "Pattern rotation",
+      "capabilities": [
+        {
+          "label": "Rotation angle adjustment",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Rotation clockwise rotation(from slow to fast)",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Rotation anti-clockwise rotation(from slow to fast)",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 4,
+      "type_description": "Pattern left and right reverse rotation",
+      "capabilities": [
+        {
+          "label": "Left and right rotation angle selection",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Left and right reverse rotation speed (from slow to fast)",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 4,
+      "type_description": "Pattern up and down reverse rotation",
+      "capabilities": [
+        {
+          "label": "Up and down rotation angle selection",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Up and down reverse rotation speed adjustment(from slow to fast)",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 4,
+      "type_description": "Pattern left and right movement",
+      "capabilities": [
+        {
+          "label": "Left and right moving angle selection",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Left and right moving speed (from slow to fast)",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 4,
+      "type_description": "Pattern up and down movement",
+      "capabilities": [
+        {
+          "label": "Up and down moving angle selection",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Up and down moving speed(from slow to fast)",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 1,
+      "type_description": "Pattern size",
+      "capabilities": [
+        {
+          "label": "Size adjustment",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "Size zooming speed (from big to small)",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Size zooming speed (from small to big)",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Zooming (from slow to fast)",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Pattern gradual drawing",
+      "capabilities": [
+        {
+          "label": "Running gradual drawing effect(from slow to fast)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 22,
+      "type_description": "Pattern controlling",
+      "capabilities": [
+        {
+          "label": "Scanning speed adjustment",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Running dot effect",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Color selection",
+      "capabilities": [
+        {
+          "label": "Laser color selection",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/BoomToneDJ/BoomToneDJ-KUB-500-RGB.json",
+  "id": 240
+}

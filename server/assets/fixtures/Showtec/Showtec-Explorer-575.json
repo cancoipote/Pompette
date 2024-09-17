@@ -1,0 +1,440 @@
+{
+  "version": "1.0.0",
+  "label": "Explorer 575",
+  "manufacturer": "Showtec",
+  "bulb_type": "MSR 575W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 7200,
+  "dimension_weight": 36,
+  "dimension_width": 450,
+  "dimension_height": 580,
+  "dimension_depth": 379,
+  "lens_label": "Other",
+  "lens_degree_min": 15,
+  "lens_degree_max": 22,
+  "focus_type": "Head",
+  "focus_pan_max": 530,
+  "focus_tilt_max": 280,
+  "technical_power_consumption": 850,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Iris",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Scan Speed Adjustment",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Shutter open",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Strobe, slow to fast",
+          "min": 20,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 5,
+      "type_description": "Lamp ON OFF, Reset & dimmer",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 29
+        },
+        {
+          "label": "Lamp on after 3 seconds, reset",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "No function",
+          "min": 40,
+          "max": 59
+        },
+        {
+          "label": "Lamp off after 3 seconds",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "No function",
+          "min": 70,
+          "max": 128
+        },
+        {
+          "label": "Dimmer",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Static Color Wheel",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 25
+        },
+        {
+          "label": "Light Red",
+          "min": 26,
+          "max": 51
+        },
+        {
+          "label": "Pale Yellow",
+          "min": 52,
+          "max": 77
+        },
+        {
+          "label": "Light Purple",
+          "min": 78,
+          "max": 103
+        },
+        {
+          "label": "Pale Green",
+          "min": 104,
+          "max": 129
+        },
+        {
+          "label": "Light Orange",
+          "min": 130,
+          "max": 155
+        },
+        {
+          "label": "Sky Blue",
+          "min": 156,
+          "max": 181
+        },
+        {
+          "label": "Light Blue",
+          "min": 182,
+          "max": 207
+        },
+        {
+          "label": "6000K",
+          "min": 208,
+          "max": 233
+        },
+        {
+          "label": "3200K",
+          "min": 234,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Rainbow Color Wheel",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Red",
+          "min": 20,
+          "max": 39
+        },
+        {
+          "label": "Yellow",
+          "min": 40,
+          "max": 59
+        },
+        {
+          "label": "Rose",
+          "min": 60,
+          "max": 79
+        },
+        {
+          "label": "Green",
+          "min": 80,
+          "max": 99
+        },
+        {
+          "label": "Orange",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "Blue",
+          "min": 120,
+          "max": 139
+        },
+        {
+          "label": "Pink",
+          "min": 140,
+          "max": 159
+        },
+        {
+          "label": "Firefly Ligth",
+          "min": 160,
+          "max": 179
+        },
+        {
+          "label": "Dark Orange",
+          "min": 180,
+          "max": 199
+        },
+        {
+          "label": "Slow-Fast CW",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 4,
+      "type_description": "Static Gobo Wheel",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Gobo1",
+          "min": 20,
+          "max": 39
+        },
+        {
+          "label": "Gobo2",
+          "min": 40,
+          "max": 59
+        },
+        {
+          "label": "Gobo3",
+          "min": 60,
+          "max": 79
+        },
+        {
+          "label": "Gobo4",
+          "min": 80,
+          "max": 99
+        },
+        {
+          "label": "Gobo5",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "Gobo6",
+          "min": 120,
+          "max": 139
+        },
+        {
+          "label": "Gobo7",
+          "min": 140,
+          "max": 159
+        },
+        {
+          "label": "Gobo8",
+          "min": 160,
+          "max": 179
+        },
+        {
+          "label": "Gobo9",
+          "min": 180,
+          "max": 199
+        },
+        {
+          "label": "Slow-Fast CW",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 4,
+      "type_description": "Rotating Gobo Wheel",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 36
+        },
+        {
+          "label": "Gobo1",
+          "min": 37,
+          "max": 73
+        },
+        {
+          "label": "Gobo2",
+          "min": 74,
+          "max": 110
+        },
+        {
+          "label": "Gobo3",
+          "min": 111,
+          "max": 147
+        },
+        {
+          "label": "Gobo4",
+          "min": 148,
+          "max": 184
+        },
+        {
+          "label": "Gobo5",
+          "min": 185,
+          "max": 221
+        },
+        {
+          "label": "Gobo6",
+          "min": 222,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 4,
+      "type_description": "Gobo rotation",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Slow-Fast CW",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "Stop",
+          "min": 128,
+          "max": 132
+        },
+        {
+          "label": "Slow-FAst CCW",
+          "min": 133,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 1,
+      "type_description": "Zoom",
+      "capabilities": [
+        {
+          "label": "Zoom 15° (without focus correction)",
+          "min": 0,
+          "max": 32
+        },
+        {
+          "label": "Zoom 18° (without focus correction)",
+          "min": 33,
+          "max": 65
+        },
+        {
+          "label": "Zoom 22° (without focus correction)",
+          "min": 66,
+          "max": 98
+        },
+        {
+          "label": "Keep",
+          "min": 99,
+          "max": 128
+        },
+        {
+          "label": "Zoom 15° (with focus correction)",
+          "min": 129,
+          "max": 154
+        },
+        {
+          "label": "Zoom 18° (with focus correction)",
+          "min": 155,
+          "max": 179
+        },
+        {
+          "label": "Zoom 22° (with focus correction)",
+          "min": 180,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 20,
+      "type_description": "Prism rotating control",
+      "capabilities": [
+        {
+          "label": "No rotation",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Backwards rotation from slow to fast",
+          "min": 4,
+          "max": 127
+        },
+        {
+          "label": "No rotation",
+          "min": 128,
+          "max": 131
+        },
+        {
+          "label": "Forwards rotation from slow to fast",
+          "min": 132,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Showtec/Showtec-Explorer-575.json",
+  "id": 1288
+}

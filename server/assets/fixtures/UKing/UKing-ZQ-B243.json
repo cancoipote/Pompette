@@ -1,0 +1,192 @@
+{
+  "version": "1.0.0",
+  "label": "ZQ-B243",
+  "manufacturer": "UKing",
+  "bulb_type": "LED",
+  "bulb_lumens": 5,
+  "bulb_color_temperature": 3000,
+  "dimension_weight": 2,
+  "dimension_width": 81,
+  "dimension_height": 57,
+  "dimension_depth": 113,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 50,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "Color Selection",
+          "min": 0,
+          "max": 139
+        },
+        {
+          "label": "Automatic Color Change",
+          "min": 140,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Fixed Gobo",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "Shaking Gobo",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Automatic Change Pattern",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Automatic Mode",
+      "capabilities": [
+        {
+          "label": "Other channels function",
+          "min": 0,
+          "max": 59
+        },
+        {
+          "label": "Automatic Mode 3",
+          "min": 60,
+          "max": 84
+        },
+        {
+          "label": "Automatic Mode 2",
+          "min": 85,
+          "max": 109
+        },
+        {
+          "label": "Automatic Mode 1",
+          "min": 110,
+          "max": 134
+        },
+        {
+          "label": "Automatic Mode 0",
+          "min": 135,
+          "max": 159
+        },
+        {
+          "label": "Voice Control Mode 3",
+          "min": 160,
+          "max": 184
+        },
+        {
+          "label": "Voice Control Mode2",
+          "min": 185,
+          "max": 209
+        },
+        {
+          "label": "Voice Control Mode 1",
+          "min": 210,
+          "max": 234
+        },
+        {
+          "label": "Voice Control Mode 0",
+          "min": 235,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 17,
+      "type_description": "Reset",
+      "capabilities": [
+        {
+          "label": "No Function",
+          "min": 0,
+          "max": 234
+        },
+        {
+          "label": "Reset",
+          "min": 235,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Light Strips",
+      "capabilities": [
+        {
+          "label": "Color Selection",
+          "min": 0,
+          "max": 109
+        },
+        {
+          "label": "Color Auto Operation",
+          "min": 110,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Motor Speed",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/UKing/UKing-ZQ-B243.json",
+  "id": 1474
+}

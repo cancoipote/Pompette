@@ -1,0 +1,393 @@
+{
+  "version": "1.0.0",
+  "label": "Warlock",
+  "manufacturer": "American DJ",
+  "bulb_type": "MSD 2R 132W",
+  "bulb_lumens": 18650,
+  "bulb_color_temperature": 8000,
+  "dimension_weight": 10,
+  "dimension_width": 512,
+  "dimension_height": 354,
+  "dimension_depth": 516,
+  "lens_label": "Other",
+  "lens_degree_min": 28,
+  "lens_degree_max": 28,
+  "focus_type": "Fixed",
+  "focus_pan_max": 180,
+  "focus_tilt_max": 360,
+  "technical_power_consumption": 202,
+  "technical_dmx_connector": "3-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 23,
+      "type_description": "Tilt",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Clockwise Fast - Slow",
+          "min": 10,
+          "max": 120
+        },
+        {
+          "label": "Stop",
+          "min": 121,
+          "max": 134
+        },
+        {
+          "label": "Counter Clockwise Fast-Slow",
+          "min": 135,
+          "max": 245
+        },
+        {
+          "label": "Stop",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 8
+        },
+        {
+          "label": "Colour 1",
+          "min": 9,
+          "max": 17
+        },
+        {
+          "label": "Colour 2",
+          "min": 18,
+          "max": 26
+        },
+        {
+          "label": "Colour 3",
+          "min": 27,
+          "max": 35
+        },
+        {
+          "label": "Colour 4",
+          "min": 36,
+          "max": 44
+        },
+        {
+          "label": "Colour 5",
+          "min": 45,
+          "max": 53
+        },
+        {
+          "label": "Colour 6",
+          "min": 54,
+          "max": 62
+        },
+        {
+          "label": "Colour 7",
+          "min": 63,
+          "max": 71
+        },
+        {
+          "label": "Colour 8",
+          "min": 72,
+          "max": 80
+        },
+        {
+          "label": "Colour 9",
+          "min": 81,
+          "max": 89
+        },
+        {
+          "label": "Colour 10",
+          "min": 90,
+          "max": 98
+        },
+        {
+          "label": "Colour 11",
+          "min": 99,
+          "max": 107
+        },
+        {
+          "label": "Colour 12",
+          "min": 108,
+          "max": 127
+        },
+        {
+          "label": "Rainbow Effect Slow-Fast",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 4,
+      "type_description": "Gobos",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Gobo 1",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "Gobo 2",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "Gobo 3",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "Gobo 4",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "Gobo 5",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "Gobo 6",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "Gobo 7",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "Gobo 8",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "Gobo 9",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "Gobo 10",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "Gobo 11",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "Gobo 12",
+          "min": 60,
+          "max": 64
+        },
+        {
+          "label": "Gobo Animation",
+          "min": 65,
+          "max": 127
+        },
+        {
+          "label": "Gobo Wheel Rotation Slow-Fast",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Reflector Rotation",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Clockwise Rotation Fast-Slow",
+          "min": 10,
+          "max": 120
+        },
+        {
+          "label": "Stop",
+          "min": 121,
+          "max": 134
+        },
+        {
+          "label": "Counterclockwise Rotation Fast-Slow",
+          "min": 135,
+          "max": 245
+        },
+        {
+          "label": "Stop",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Open",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Strobing Slow-Fast",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "Open",
+          "min": 132,
+          "max": 139
+        },
+        {
+          "label": "Fast open - slow close",
+          "min": 140,
+          "max": 181
+        },
+        {
+          "label": "Open",
+          "min": 182,
+          "max": 189
+        },
+        {
+          "label": "Fast close - slow open",
+          "min": 190,
+          "max": 231
+        },
+        {
+          "label": "Open",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Random Strobe",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 17,
+      "type_description": "Special Functions",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 29
+        },
+        {
+          "label": "Enable Colour Wheel To Any Position",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Lamp On",
+          "min": 40,
+          "max": 59
+        },
+        {
+          "label": "Lamp Off",
+          "min": 60,
+          "max": 79
+        },
+        {
+          "label": "All Motors Reset",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "Pan/Tilt Motors Reset",
+          "min": 85,
+          "max": 87
+        },
+        {
+          "label": "Colour Wheel Motor Reset",
+          "min": 88,
+          "max": 90
+        },
+        {
+          "label": "Gobo Wheel Motor Reset",
+          "min": 91,
+          "max": 93
+        },
+        {
+          "label": "Shutter/ Dimmer Motor Reset",
+          "min": 94,
+          "max": 96
+        },
+        {
+          "label": "Other Motors Reset",
+          "min": 97,
+          "max": 99
+        },
+        {
+          "label": "Enable Blackout With Pan/Tilt Movement",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Enable Blackout With Colour Change",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Enable Blackout With Gobo Change",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Enable Blackout With Any Change",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "No function",
+          "min": 140,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Warlock.json",
+  "id": 168
+}

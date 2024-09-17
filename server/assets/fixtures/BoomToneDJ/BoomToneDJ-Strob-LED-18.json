@@ -1,0 +1,48 @@
+{
+  "version": "1.0.0",
+  "label": "Strob LED 18",
+  "manufacturer": "BoomToneDJ",
+  "bulb_type": "",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 383,
+  "dimension_height": 95,
+  "dimension_depth": 170,
+  "lens_label": "Other",
+  "lens_degree_min": 120,
+  "lens_degree_max": 120,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 54,
+  "technical_dmx_connector": "3-pin",
+  "type": 12,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Strobe from slow to fast",
+          "min": 0,
+          "max": 254
+        },
+        {
+          "label": "No strobe",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/BoomToneDJ/BoomToneDJ-Strob-LED-18.json",
+  "id": 245
+}

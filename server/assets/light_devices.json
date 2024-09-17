@@ -1,0 +1,426 @@
+{
+	"devices":
+	[
+		{
+			"label":"Algam SLIMPAR510QUAD",
+			"channels":
+			[
+				{ "label":"dimmer", "channel":1,"default":255 	},
+				{ "label":"red", 	"channel":2,"default":0 	},
+				{ "label":"green", 	"channel":3,"default":0 	},
+				{ "label":"blue", 	"channel":4,"default":0 	},
+				{ "label":"white", 	"channel":5,"default":0 	},
+				{ "label":"strobe", "channel":6,"default":0 	},
+				{ "label":"fade", 	"channel":7,"default":0 	},
+				{ "label":"speed", 	"channel":8,"default":0 	}
+			],
+			"specificValues":
+			[
+				{ "label":"no", 		"channelStart":2, "value":"000_000_000_000" },
+				{ "label":"red", 		"channelStart":2, "value":"255_000_000_000" },
+				{ "label":"green", 		"channelStart":2, "value":"000_255_000_000" },
+				{ "label":"blue", 		"channelStart":2, "value":"000_000_255_000" },
+				{ "label":"yellow", 	"channelStart":2, "value":"255_040_000_000" },
+				{ "label":"magenta", 	"channelStart":2, "value":"255_000_064_000" },
+				{ "label":"cyan", 		"channelStart":2, "value":"000_255_128_000" },
+				{ "label":"white", 		"channelStart":2, "value":"255_096_064_255" },
+				{ "label":"white123", 	"channelStart":2, "value":"255_096_064_000" },
+				{ "label":"white4", 	"channelStart":2, "value":"000_000_000_255" },
+				{ "label":"orange", 	"channelStart":2, "value":"255_016_000_000" },
+				{ "label":"pink", 		"channelStart":2, "value":"255_016_008_000" },
+				{ "label":"uv", 		"channelStart":2, "value":"128_000_255_000" }
+			]
+		},
+		{
+			"label":"LEB-431DMX",
+			"channels":
+			[
+				{ "label":"red", 	"channel":1,"default":0 },
+				{ "label":"green", 	"channel":2,"default":0 },
+				{ "label":"blue", 	"channel":3,"default":0 },
+				{ "label":"white", 	"channel":4,"default":0 },
+				{ "label":"color", 	"channel":5,"default":0 },
+				{ "label":"dimmer", "channel":6,"default":127 }
+			],
+			"specificValues":
+			[
+				{ "label":"red", 		"channelStart":1, "value":"255_000_000_000" },
+				{ "label":"green", 		"channelStart":1, "value":"000_255_000_000" },
+				{ "label":"blue", 		"channelStart":1, "value":"000_000_255_000" },
+				{ "label":"yellow", 	"channelStart":1, "value":"255_040_000_000" },
+				{ "label":"magenta", 	"channelStart":1, "value":"255_000_064_000" },
+				{ "label":"cyan", 		"channelStart":1, "value":"000_255_128_000" },
+				{ "label":"white", 		"channelStart":1, "value":"255_096_064_255" },
+				{ "label":"white123", 	"channelStart":1, "value":"255_096_064_000" },
+				{ "label":"white4", 	"channelStart":1, "value":"000_000_000_255" },
+				{ "label":"orange", 	"channelStart":1, "value":"255_016_000_000" },
+				{ "label":"pink", 		"channelStart":1, "value":"255_016_008_000" },
+				{ "label":"uv", 		"channelStart":1, "value":"128_000_255_000" }
+			]	
+		},
+		{
+			"label":"LER-4121DMX",
+			"channels":
+			[
+				{ "label":"red", 		"channel":1,"default":0 },
+				{ "label":"green", 		"channel":2,"default":0 },
+				{ "label":"blue", 		"channel":3,"default":0 },
+				{ "label":"white", 		"channel":4,"default":0 },
+				{ "label":"speed", 		"channel":5,"default":0 },
+				{ "label":"dimmer", 	"channel":6,"default":127 },
+				{ "label":"strobe", 	"channel":7,"default":0 },
+				{ "label":"program", 	"channel":8,"default":0 }
+			],
+			"specificValues":
+			[
+				{ "label":"red", 		"channelStart":1, "value":"255_000_000_000" },
+				{ "label":"green", 		"channelStart":1, "value":"000_255_000_000" },
+				{ "label":"blue", 		"channelStart":1, "value":"000_000_255_000" },
+				{ "label":"yellow", 	"channelStart":1, "value":"255_040_000_000" },
+				{ "label":"magenta", 	"channelStart":1, "value":"255_000_064_000" },
+				{ "label":"cyan", 		"channelStart":1, "value":"000_255_128_000" },
+				{ "label":"white", 		"channelStart":1, "value":"255_096_064_255" },
+				{ "label":"white123", 	"channelStart":1, "value":"255_096_064_000" },
+				{ "label":"white4", 	"channelStart":1, "value":"000_000_000_255" },
+				{ "label":"orange", 	"channelStart":1, "value":"255_016_000_000" },
+				{ "label":"pink", 		"channelStart":1, "value":"255_016_008_000" },
+				{ "label":"uv", 		"channelStart":1, "value":"128_000_255_000" }
+			]	
+		},
+		{
+			"label":"HELIOS-II",
+			"channels":
+			[
+				{ "label":"color", 			"channel":1,"default":0 },
+				{ "label":"strobe", 		"channel":2,"default":0 },
+				{ "label":"rotation", 		"channel":3,"default":0 },
+				{ "label":"strobe_program", "channel":4,"default":0 }
+			],
+			"specificValues":
+			[
+				{ "label":"no", 					"channelStart":1, "value":"000" },
+				{ "label":"r", 						"channelStart":1, "value":"006" },
+				{ "label":"g", 						"channelStart":1, "value":"021" },
+				{ "label":"b", 						"channelStart":1, "value":"036" },
+				{ "label":"w", 						"channelStart":1, "value":"051" },
+				{ "label":"rg", 					"channelStart":1, "value":"066" },
+				{ "label":"rb", 					"channelStart":1, "value":"081" },
+				{ "label":"rw", 					"channelStart":1, "value":"096" },
+				{ "label":"gb", 					"channelStart":1, "value":"111" },
+				{ "label":"gw", 					"channelStart":1, "value":"126" },
+				{ "label":"bw", 					"channelStart":1, "value":"141" },
+				{ "label":"rgb", 					"channelStart":1, "value":"156" },
+				{ "label":"rgw", 					"channelStart":1, "value":"171" },
+				{ "label":"gbw", 					"channelStart":1, "value":"186" },
+				{ "label":"rgbw", 					"channelStart":1, "value":"201" },
+				{ "label":"mix", 					"channelStart":1, "value":"230" },
+
+				{ "label":"derby_strobe_no", 		"channelStart":4, "value":"0" 	},
+				{ "label":"derby_strobe_yes", 		"channelStart":4, "value":"179" },
+
+				{ "label":"derby_rotation_no", 		"channelStart":3, "value":"0" 	},
+				{ "label":"derby_rotation_slow", 	"channelStart":3, "value":"128" },
+				{ "label":"derby_rotation_normal", 	"channelStart":3, "value":"184" },
+				{ "label":"derby_rotation_fast", 	"channelStart":3, "value":"240" }
+			]
+		},
+		{
+			"label":"Cameo SUPERFLY XS 5CH",
+			"channels":
+			[
+				{ "label":"program", 		"channel":1,"default":0 },
+				{ "label":"color", 			"channel":2,"default":0 },
+				{ "label":"strobe", 		"channel":3,"default":0 },
+				{ "label":"rotation", 		"channel":4,"default":0 },
+				{ "label":"strobe_program", "channel":5,"default":0 }
+			],
+			"specificValues":
+			[
+				{ "label":"no", 					"channelStart":2, "value":"000" },
+				{ "label":"r", 						"channelStart":2, "value":"006" },
+				{ "label":"g", 						"channelStart":2, "value":"021" },
+				{ "label":"b", 						"channelStart":2, "value":"036" },
+				{ "label":"w", 						"channelStart":2, "value":"051" },
+				{ "label":"rg", 					"channelStart":2, "value":"066" },
+				{ "label":"rb", 					"channelStart":2, "value":"081" },
+				{ "label":"rw", 					"channelStart":2, "value":"096" },
+				{ "label":"gb", 					"channelStart":2, "value":"111" },
+				{ "label":"gw", 					"channelStart":2, "value":"126" },
+				{ "label":"bw", 					"channelStart":2, "value":"141" },
+				{ "label":"rgb", 					"channelStart":2, "value":"156" },
+				{ "label":"rgw", 					"channelStart":2, "value":"171" },
+				{ "label":"gbw", 					"channelStart":2, "value":"186" },
+				{ "label":"rgbw", 					"channelStart":2, "value":"201" },
+				{ "label":"mix", 					"channelStart":2, "value":"230" },
+
+				{ "label":"derby_strobe_no", 		"channelStart":3, "value":"0" 	},
+				{ "label":"derby_strobe_yes", 		"channelStart":3, "value":"179" },
+
+				{ "label":"derby_rotation_no", 		"channelStart":4, "value":"0" 	},
+				{ "label":"derby_rotation_slow", 	"channelStart":4, "value":"128" },
+				{ "label":"derby_rotation_normal", 	"channelStart":4, "value":"184" },
+				{ "label":"derby_rotation_fast", 	"channelStart":4, "value":"240" }
+			]
+		},
+		{
+			"label":"LER-4121DMX",
+			"channels":
+			[
+				{ "label":"red", 		"channel":1,"default":0 	},
+				{ "label":"green", 		"channel":2,"default":0 	},
+				{ "label":"blue", 		"channel":3,"default":0 	},
+				{ "label":"white", 		"channel":4,"default":0 	},
+				{ "label":"speed", 		"channel":5,"default":0 	},
+				{ "label":"dimming", 	"channel":6,"default":255 	},
+				{ "label":"strobe", 	"channel":7,"default":0 	},
+				{ "label":"program", 	"channel":8,"default":0 	}
+			],
+			"specificValues":
+			[
+			]
+		},
+		{
+			"label":"LER-4121DMX",
+			"channels":
+			[
+				{ "label":"dimmer", "channel":1,"default":255 	},
+				{ "label":"red", 	"channel":2,"default":0 	},
+				{ "label":"green", 	"channel":3,"default":0 	},
+				{ "label":"blue", 	"channel":4,"default":0 	},
+				{ "label":"white", 	"channel":5,"default":0 	},
+				{ "label":"strobe", "channel":6,"default":0 	},
+				{ "label":"fade", 	"channel":7,"default":0 	},
+				{ "label":"speed", 	"channel":8,"default":0 	}
+			],
+			"specificValues":
+			[
+
+			]
+		},
+		{
+			"label":"Algam MS-60 13CH",
+			"channels":
+			[
+				{ "label":"rotation PAN", 			"channel":1,"default":0 	},
+				{ "label":"rotation PAN accuracy", 	"channel":2,"default":0 	},
+				{ "label":"rotation TILT", 			"channel":3,"default":0 	},
+				{ "label":"rotation TILT accuracy", "channel":4,"default":0 	},
+				{ "label":"rotation speed", 		"channel":5,"default":0 	},
+				{ "label":"dimmer", 				"channel":6,"default":0 	},
+				{ "label":"strobe", 				"channel":7,"default":0 	},
+				{ "label":"color", 					"channel":8,"default":0 	},
+				{ "label":"gobo", 					"channel":9,"default":0 	},
+				{ "label":"prisme", 				"channel":10,"default":0 	},
+				{ "label":"focus", 					"channel":11,"default":80 	},
+				{ "label":"program", 				"channel":12,"default":0 	},
+				{ "label":"reset", 					"channel":13,"default":0 	}
+
+			],
+			"specificValues":
+			[
+				{ "label":"white", 			"channelStart":8, "value":"0" 	},
+				{ "label":"red", 			"channelStart":8, "value":"10" 	},
+				{ "label":"yellow", 		"channelStart":8, "value":"20" 	},
+				{ "label":"blue", 			"channelStart":8, "value":"30" 	},
+				{ "label":"green", 			"channelStart":8, "value":"40" 	},
+				{ "label":"orange", 		"channelStart":8, "value":"50" 	},
+				{ "label":"pruple", 		"channelStart":8, "value":"60" 	},
+				{ "label":"cyan", 			"channelStart":8, "value":"70" 	},
+				{ "label":"magenta", 		"channelStart":8, "value":"80" 	},
+				{ "label":"pink", 			"channelStart":8, "value":"90" 	},
+				{ "label":"lemmon", 		"channelStart":8, "value":"100" },
+				{ "label":"sky_blue", 		"channelStart":8, "value":"110" },
+				{ "label":"gold", 			"channelStart":8, "value":"120" },
+				{ "label":"dark_orange", 	"channelStart":8, "value":"130" }
+			]
+		},
+		{
+			"label":"Algam MS-60 11CH",
+			"channels":
+			[
+				{ "label":"rotation PAN", 			"channel":1,"default":0 	},
+				{ "label":"rotation TILT", 			"channel":2,"default":0 	},
+				{ "label":"rotation speed", 		"channel":3,"default":0 	},
+				{ "label":"dimmer", 				"channel":4,"default":0 	},
+				{ "label":"strobe", 				"channel":5,"default":0 	},
+				{ "label":"color", 					"channel":6,"default":0 	},
+				{ "label":"gobo", 					"channel":7,"default":0 	},
+				{ "label":"prisme", 				"channel":8,"default":0 	},
+				{ "label":"focus", 					"channel":9,"default":80	},
+				{ "label":"program", 				"channel":10,"default":0	},
+				{ "label":"reset", 					"channel":11,"default":0 	}
+
+			],
+			"specificValues":
+			[
+				{ "label": "default",                    "channelStart": 1, "value": "116_128" },
+				{ "label": "intro1",                     "channelStart": 1, "value": "105_025" },
+				{ "label": "intro2",                     "channelStart": 1, "value": "128_025" },
+				{ "label": "intro3",                     "channelStart": 1, "value": "090_076" },
+				{ "label": "intro4",                     "channelStart": 1, "value": "128_076" },
+				{ "label": "chrono",                     "channelStart": 1, "value": "108_056" },
+				{ "label": "team1",                      "channelStart": 1, "value": "134_082" },
+				{ "label": "team2",                      "channelStart": 1, "value": "125_062" },
+				{ "label": "team3",                      "channelStart": 1, "value": "114_059" },
+				{ "label": "team4",                      "channelStart": 1, "value": "104_060" },
+				{ "label": "brush_horizontal",           "channelStart": 1, "value": "088_025" },
+				{ "label": "brush_diagonal",             "channelStart": 1, "value": "088_076" },
+				{ "label": "brush_vertical",             "channelStart": 1, "value": "088_128" },
+				{ "label": "gyro1",             		 "channelStart": 1, "value": "090_015" },
+				{ "label": "gyro2",             		 "channelStart": 1, "value": "138_015" },
+				{ "label": "central",             		 "channelStart": 1, "value": "110_076" },
+				{ "label": "dimmer_no",             	 "channelStart": 4, "value": "000" },
+				{ "label": "dimmer_yes",             	 "channelStart": 4, "value": "255" },
+				{ "label": "strobe_no",             	 "channelStart": 5, "value": "000" },
+				{ "label": "strobe_yes",             	 "channelStart": 5, "value": "255" },
+				{ "label": "white",                      "channelStart": 6, "value": "000" },
+				{ "label": "red",                        "channelStart": 6, "value": "010" },
+				{ "label": "yellow",                     "channelStart": 6, "value": "020" },
+				{ "label": "blue",                       "channelStart": 6, "value": "030" },
+				{ "label": "green",                      "channelStart": 6, "value": "040" },
+				{ "label": "orange",                     "channelStart": 6, "value": "050" },
+				{ "label": "magenta",                    "channelStart": 6, "value": "060" },
+				{ "label": "cyan",                       "channelStart": 6, "value": "070" },
+				{ "label": "mix",                        "channelStart": 6, "value": "255" },
+				{ "label": "gobo_empty",                 "channelStart": 7, "value": "000" },
+				{ "label": "gobo_vortex",                "channelStart": 7, "value": "008" },
+				{ "label": "gobo_vortex_shake_slow",     "channelStart": 7, "value": "072" },
+				{ "label": "gobo_vortex_shake_normal",   "channelStart": 7, "value": "075" },
+				{ "label": "gobo_vortex_shake_fast",     "channelStart": 7, "value": "079" },
+				{ "label": "gobo_saw",                   "channelStart": 7, "value": "016" },
+				{ "label": "gobo_saw_shake_slow",        "channelStart": 7, "value": "080" },
+				{ "label": "gobo_saw_shake_normal",      "channelStart": 7, "value": "083" },
+				{ "label": "gobo_saw_shake_fast",        "channelStart": 7, "value": "087" },
+				{ "label": "gobo_potatoes",              "channelStart": 7, "value": "024" },
+				{ "label": "gobo_potatoes_shake_slow",   "channelStart": 7, "value": "088" },
+				{ "label": "gobo_potatoes_shake_normal", "channelStart": 7, "value": "091" },
+				{ "label": "gobo_potatoes_shake_fast",   "channelStart": 7, "value": "095" },
+				{ "label": "gobo_triangle",              "channelStart": 7, "value": "032" },
+				{ "label": "gobo_triangle_shake_slow",   "channelStart": 7, "value": "096" },
+				{ "label": "gobo_triangle_shake_normal", "channelStart": 7, "value": "099" },
+				{ "label": "gobo_triangle_shake_fast",   "channelStart": 7, "value": "103" },
+				{ "label": "gobo_bubbles",               "channelStart": 7, "value": "040" },
+				{ "label": "gobo_bubbles_shake_slow",    "channelStart": 7, "value": "104" },
+				{ "label": "gobo_bubbles_shake_normal",  "channelStart": 7, "value": "107" },
+				{ "label": "gobo_bubbles_shake_fast",    "channelStart": 7, "value": "111" },
+				{ "label": "gobo_blast",                 "channelStart": 7, "value": "048" },
+				{ "label": "gobo_blast_shake_slow",      "channelStart": 7, "value": "112" },
+				{ "label": "gobo_blast_shake_normal",    "channelStart": 7, "value": "115" },
+				{ "label": "gobo_blast_shake_fast",      "channelStart": 7, "value": "119" },
+				{ "label": "gobo_gas_hob",               "channelStart": 7, "value": "056" },
+				{ "label": "gobo_gas_hob_shake_slow",    "channelStart": 7, "value": "120" },
+				{ "label": "gobo_gas_hob_shake_normal",  "channelStart": 7, "value": "123" },
+				{ "label": "gobo_gas_hob_shake_fast",    "channelStart": 7, "value": "127" },
+				{ "label": "gobo_mix",                   "channelStart": 7, "value": "255" },
+				{ "label": "prism_no",                   "channelStart": 8, "value": "000" },
+				{ "label": "prism_yes",                  "channelStart": 8, "value": "100" },
+				{ "label": "prism_rotate_slow",          "channelStart": 8, "value": "128" },
+				{ "label": "prism_rotate_normal",        "channelStart": 8, "value": "192" },
+				{ "label": "prism_rotate_fast",          "channelStart": 8, "value": "255" }
+			]
+		},
+		{
+			"label":"Algam MS-60 11CH for lyre 1",
+			"channels":
+			[
+				{ "label":"rotation PAN", 			"channel":1,"default":0 	},
+				{ "label":"rotation TILT", 			"channel":2,"default":0 	},
+				{ "label":"rotation speed", 		"channel":3,"default":0 	},
+				{ "label":"dimmer", 				"channel":4,"default":0 	},
+				{ "label":"strobe", 				"channel":5,"default":0 	},
+				{ "label":"color", 					"channel":6,"default":0 	},
+				{ "label":"gobo", 					"channel":7,"default":0 	},
+				{ "label":"prisme", 				"channel":8,"default":0 	},
+				{ "label":"focus", 					"channel":9,"default":80	},
+				{ "label":"program", 				"channel":10,"default":0	},
+				{ "label":"reset", 					"channel":11,"default":0 	}
+
+			],
+			"specificValues":
+			[
+				{ "label": "default",                    "channelStart": 1, "value": "104_128" },
+				{ "label": "intro1",                     "channelStart": 1, "value": "095_025" },
+				{ "label": "intro2",                     "channelStart": 1, "value": "115_025" },
+				{ "label": "intro3",                     "channelStart": 1, "value": "081_076" },
+				{ "label": "intro4",                     "channelStart": 1, "value": "115_076" },
+				{ "label": "chrono",                     "channelStart": 1, "value": "097_056" },
+				{ "label": "team1",                      "channelStart": 1, "value": "121_082" },
+				{ "label": "team2",                      "channelStart": 1, "value": "113_062" },
+				{ "label": "team3",                      "channelStart": 1, "value": "103_059" },
+				{ "label": "team4",                      "channelStart": 1, "value": "094_060" },
+				{ "label": "brush_horizontal",           "channelStart": 1, "value": "079_025" },
+				{ "label": "brush_diagonal",             "channelStart": 1, "value": "079_076" },
+				{ "label": "brush_vertical",             "channelStart": 1, "value": "079_128" },
+				{ "label": "gyro1",             		 "channelStart": 1, "value": "081_015" },
+				{ "label": "gyro2",             		 "channelStart": 1, "value": "124_015" },
+				{ "label": "central",             		 "channelStart": 1, "value": "099_076" },
+				{ "label": "dimmer_no",             	 "channelStart": 4, "value": "000" },
+				{ "label": "dimmer_yes",             	 "channelStart": 4, "value": "255" },
+				{ "label": "strobe_no",             	 "channelStart": 5, "value": "000" },
+				{ "label": "strobe_yes",             	 "channelStart": 5, "value": "255" },
+				{ "label": "white",                      "channelStart": 6, "value": "000" },
+				{ "label": "red",                        "channelStart": 6, "value": "010" },
+				{ "label": "yellow",                     "channelStart": 6, "value": "020" },
+				{ "label": "blue",                       "channelStart": 6, "value": "030" },
+				{ "label": "green",                      "channelStart": 6, "value": "040" },
+				{ "label": "orange",                     "channelStart": 6, "value": "050" },
+				{ "label": "magenta",                    "channelStart": 6, "value": "060" },
+				{ "label": "cyan",                       "channelStart": 6, "value": "070" },
+				{ "label": "mix",                        "channelStart": 6, "value": "255" },
+				{ "label": "gobo_empty",                 "channelStart": 7, "value": "000" },
+				{ "label": "gobo_vortex",                "channelStart": 7, "value": "008" },
+				{ "label": "gobo_vortex_shake_slow",     "channelStart": 7, "value": "072" },
+				{ "label": "gobo_vortex_shake_normal",   "channelStart": 7, "value": "075" },
+				{ "label": "gobo_vortex_shake_fast",     "channelStart": 7, "value": "079" },
+				{ "label": "gobo_saw",                   "channelStart": 7, "value": "016" },
+				{ "label": "gobo_saw_shake_slow",        "channelStart": 7, "value": "080" },
+				{ "label": "gobo_saw_shake_normal",      "channelStart": 7, "value": "083" },
+				{ "label": "gobo_saw_shake_fast",        "channelStart": 7, "value": "087" },
+				{ "label": "gobo_potatoes",              "channelStart": 7, "value": "024" },
+				{ "label": "gobo_potatoes_shake_slow",   "channelStart": 7, "value": "088" },
+				{ "label": "gobo_potatoes_shake_normal", "channelStart": 7, "value": "091" },
+				{ "label": "gobo_potatoes_shake_fast",   "channelStart": 7, "value": "095" },
+				{ "label": "gobo_triangle",              "channelStart": 7, "value": "032" },
+				{ "label": "gobo_triangle_shake_slow",   "channelStart": 7, "value": "096" },
+				{ "label": "gobo_triangle_shake_normal", "channelStart": 7, "value": "099" },
+				{ "label": "gobo_triangle_shake_fast",   "channelStart": 7, "value": "103" },
+				{ "label": "gobo_bubbles",               "channelStart": 7, "value": "040" },
+				{ "label": "gobo_bubbles_shake_slow",    "channelStart": 7, "value": "104" },
+				{ "label": "gobo_bubbles_shake_normal",  "channelStart": 7, "value": "107" },
+				{ "label": "gobo_bubbles_shake_fast",    "channelStart": 7, "value": "111" },
+				{ "label": "gobo_blast",                 "channelStart": 7, "value": "048" },
+				{ "label": "gobo_blast_shake_slow",      "channelStart": 7, "value": "112" },
+				{ "label": "gobo_blast_shake_normal",    "channelStart": 7, "value": "115" },
+				{ "label": "gobo_blast_shake_fast",      "channelStart": 7, "value": "119" },
+				{ "label": "gobo_gas_hob",               "channelStart": 7, "value": "056" },
+				{ "label": "gobo_gas_hob_shake_slow",    "channelStart": 7, "value": "120" },
+				{ "label": "gobo_gas_hob_shake_normal",  "channelStart": 7, "value": "123" },
+				{ "label": "gobo_gas_hob_shake_fast",    "channelStart": 7, "value": "127" },
+				{ "label": "gobo_mix",                   "channelStart": 7, "value": "255" },
+				{ "label": "prism_no",                   "channelStart": 8, "value": "000" },
+				{ "label": "prism_yes",                  "channelStart": 8, "value": "100" },
+				{ "label": "prism_rotate_slow",          "channelStart": 8, "value": "128" },
+				{ "label": "prism_rotate_normal",        "channelStart": 8, "value": "192" },
+				{ "label": "prism_rotate_fast",          "channelStart": 8, "value": "255" }
+			]
+		},
+		{
+			"label":"Valenciennes",
+			"channels":
+			[
+				{ "label":"red", 		"channel":1,"default":0 	},
+				{ "label":"green", 		"channel":2,"default":0 	},
+				{ "label":"blue", 		"channel":3,"default":0 	},
+				{ "label":"white", 		"channel":4,"default":0 	},
+				{ "label":"speed", 		"channel":5,"default":0 	},
+				{ "label":"dimming", 	"channel":6,"default":127 	},
+				{ "label":"strobe", 	"channel":7,"default":0 	},
+				{ "label":"program", 	"channel":8,"default":0 	}
+			],
+			"specificValues":
+			[
+				{ "label":"white", 	"channelStart":8, "value":"000_000_000_255" }
+			]
+		},
+	]
+}

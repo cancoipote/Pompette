@@ -1,0 +1,291 @@
+{
+  "version": "1.0.0",
+  "label": "Stormy CC",
+  "manufacturer": "Clay Paky",
+  "bulb_type": "LED",
+  "bulb_lumens": 80000,
+  "bulb_color_temperature": 5700,
+  "dimension_weight": 7,
+  "dimension_width": 482,
+  "dimension_height": 305,
+  "dimension_depth": 182,
+  "lens_label": "Other",
+  "lens_degree_min": 42,
+  "lens_degree_max": 130,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 800,
+  "technical_dmx_connector": "5-pin",
+  "type": 12,
+  "channels": [
+    {
+      "index": 0,
+      "type": 5,
+      "type_description": "Dimmer",
+      "capabilities": [
+        {
+          "label": "Light Off",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Min < Max",
+          "min": 6,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 22,
+      "type_description": "Duration",
+      "capabilities": [
+        {
+          "label": "Min < Max",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 21,
+      "type_description": "Rate",
+      "capabilities": [
+        {
+          "label": "Light off",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Low < Fast",
+          "min": 6,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Macro",
+      "capabilities": [
+        {
+          "label": "Macro Off",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Macro 1 - Up ramp",
+          "min": 6,
+          "max": 42
+        },
+        {
+          "label": "Macro 2 - Down ramp",
+          "min": 43,
+          "max": 85
+        },
+        {
+          "label": "Macro 3 - Up < > Down ramp",
+          "min": 86,
+          "max": 128
+        },
+        {
+          "label": "Macro 4 - Random",
+          "min": 129,
+          "max": 171
+        },
+        {
+          "label": "Macro 5 - Lighting",
+          "min": 172,
+          "max": 214
+        },
+        {
+          "label": "Macro 6 - Spikes",
+          "min": 215,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 22,
+      "type_description": "Blue Duration",
+      "capabilities": [
+        {
+          "label": "Min < Max",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Blue Rate",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 22,
+      "type_description": "White Duration",
+      "capabilities": [
+        {
+          "label": "Min < Max",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "White Rate",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 22,
+      "type_description": "Green Duration",
+      "capabilities": [
+        {
+          "label": "Min < MAx",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Green Rate",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 22,
+      "type_description": "Red Duration",
+      "capabilities": [
+        {
+          "label": "Min < Max",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Red Rate",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 3,
+      "type_description": "Mask",
+      "capabilities": [
+        {
+          "label": "No overwrinting",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "RED overwrinting all",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Green overwrinting all",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Blue overwrinting all",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "White overwrinting all",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "RED, GREEN overwrinting BLUE, WHITE",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "RED, BLUE overwrinting GREEN, WHITE",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "RED, WHITE overwrinting GREEN, BLUE",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "GREEN, BLUE overwrinting RED, WHITE",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "GREEN, WHITE overwrinting RED, BLUE",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "BLUE, WHITE overwrinting RED, GREEN",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "RGB overwrinting WHITE",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "RGW overwrinting BLUE",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "RBW overwrinting GREEN",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "GBW overwrinting RED",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Clay_Paky/Clay-Paky-Stormy-CC.json",
+  "id": 374
+}

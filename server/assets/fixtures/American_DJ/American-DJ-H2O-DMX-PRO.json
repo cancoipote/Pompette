@@ -1,0 +1,145 @@
+{
+  "version": "1.0.0",
+  "label": "H2O DMX PRO",
+  "manufacturer": "American DJ",
+  "bulb_type": "45 Watt LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 236,
+  "dimension_height": 121,
+  "dimension_depth": 292,
+  "lens_label": "Other",
+  "lens_degree_min": 34,
+  "lens_degree_max": 52,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 69,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Rotation",
+      "capabilities": [
+        {
+          "label": "No Rotation",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Clockwise Fast-Slow",
+          "min": 10,
+          "max": 120
+        },
+        {
+          "label": "No Rotation",
+          "min": 121,
+          "max": 134
+        },
+        {
+          "label": "Counter-Clockwise Slow-Fast",
+          "min": 135,
+          "max": 245
+        },
+        {
+          "label": "No Rotation",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Colour Wheel",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "White & Orange",
+          "min": 11,
+          "max": 21
+        },
+        {
+          "label": "Orange",
+          "min": 22,
+          "max": 32
+        },
+        {
+          "label": "Orange & Green",
+          "min": 33,
+          "max": 43
+        },
+        {
+          "label": "Green",
+          "min": 44,
+          "max": 54
+        },
+        {
+          "label": "Green & Blue",
+          "min": 55,
+          "max": 65
+        },
+        {
+          "label": "Blue",
+          "min": 66,
+          "max": 76
+        },
+        {
+          "label": "Blue & Yellow",
+          "min": 77,
+          "max": 87
+        },
+        {
+          "label": "Yellow",
+          "min": 88,
+          "max": 98
+        },
+        {
+          "label": "Yellow & Purple",
+          "min": 99,
+          "max": 109
+        },
+        {
+          "label": "Purple",
+          "min": 110,
+          "max": 120
+        },
+        {
+          "label": "Purple & White",
+          "min": 121,
+          "max": 127
+        },
+        {
+          "label": "Clockwise Colour Fast-Slow",
+          "min": 128,
+          "max": 186
+        },
+        {
+          "label": "Stop",
+          "min": 187,
+          "max": 196
+        },
+        {
+          "label": "Counter-Clockwise Slow-Fast",
+          "min": 197,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-H2O-DMX-PRO.json",
+  "id": 76
+}

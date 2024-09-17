@@ -1,0 +1,223 @@
+{
+  "version": "1.0.0",
+  "label": "Wash Zoom LED 36x18W RGBWA+UV",
+  "manufacturer": "Shehds",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 8500,
+  "dimension_weight": 7,
+  "dimension_width": 310,
+  "dimension_height": 400,
+  "dimension_depth": 220,
+  "lens_label": "Other",
+  "lens_degree_min": 10,
+  "lens_degree_max": 60,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 185,
+  "technical_power_consumption": 285,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Pan/Tilt speed - Pan/Tilt time",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Violet",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Off",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Strobe",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 3,
+      "type_description": "Pan/Tilt Auto",
+      "capabilities": [
+        {
+          "label": "No Function",
+          "min": 0,
+          "max": 49
+        },
+        {
+          "label": "Pan Auto Mode",
+          "min": 50,
+          "max": 99
+        },
+        {
+          "label": "Tilt Auto Mode",
+          "min": 100,
+          "max": 149
+        },
+        {
+          "label": "Pan & Tilt Auto Mode",
+          "min": 150,
+          "max": 199
+        },
+        {
+          "label": "Sound Control Mode",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Color Auto",
+      "capabilities": [
+        {
+          "label": "No Function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Gradient Color Mode",
+          "min": 6,
+          "max": 127
+        },
+        {
+          "label": "Pulse Color Mode",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Jump Color Mode",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 17,
+      "type_description": "Reset System",
+      "capabilities": [
+        {
+          "label": "No Function",
+          "min": 0,
+          "max": 249
+        },
+        {
+          "label": "Reset System",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Macro Color",
+      "capabilities": [
+        {
+          "label": "No Function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "CTO",
+          "min": 10,
+          "max": 41
+        },
+        {
+          "label": "Macro Color",
+          "min": 42,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Shehds/Shehds-Wash-Zoom-36x18W.json",
+  "id": 1263
+}

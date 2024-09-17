@@ -1,0 +1,633 @@
+{
+  "version": "1.0.0",
+  "label": "SlimLite 56",
+  "manufacturer": "Pulse",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 205,
+  "dimension_height": 205,
+  "dimension_depth": 69,
+  "lens_label": "Other",
+  "lens_degree_min": 30,
+  "lens_degree_max": 30,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 20,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Green Dimming",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Blue Dimming",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Slow-fast",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Red Dimming/Static Colour/Speed Adjust/Sound Sensitivity",
+      "capabilities": [
+        {
+          "label": "Red intensity/R (255)/Slow-fast/Sensitivity",
+          "min": 0,
+          "max": 8
+        },
+        {
+          "label": "Red intensity/R (255) G (50)/Slow-fast/Sensitivity",
+          "min": 9,
+          "max": 17
+        },
+        {
+          "label": "Red intensity/R (255) G (150)/Slow-fast/Sensitivity",
+          "min": 18,
+          "max": 26
+        },
+        {
+          "label": "Red intensity/R (255) G (255)/Slow-fast/Sensitivity",
+          "min": 27,
+          "max": 35
+        },
+        {
+          "label": "Red intensity/R (200) G (255)/Slow-fast/Sensitivity",
+          "min": 36,
+          "max": 44
+        },
+        {
+          "label": "Red intensity/R (100) G (255)/Slow-fast/Sensitivity",
+          "min": 45,
+          "max": 53
+        },
+        {
+          "label": "Red intensity/R (40) G (255)/Slow-fast/Sensitivity",
+          "min": 54,
+          "max": 62
+        },
+        {
+          "label": "Red intensity/G (255)/Slow-fast/Sensitivity",
+          "min": 63,
+          "max": 71
+        },
+        {
+          "label": "Red intensity/G (255) B (50)/Slow-fast/Sensitivity",
+          "min": 72,
+          "max": 80
+        },
+        {
+          "label": "Red intensity/G (255) B (150)/Slow-fast/Sensitivity",
+          "min": 81,
+          "max": 89
+        },
+        {
+          "label": "Red intensity/G (255) B (255)/Slow-fast/Sensitivity",
+          "min": 90,
+          "max": 98
+        },
+        {
+          "label": "Red intensity/G (150) B (255)/Slow-fast/Sensitivity",
+          "min": 99,
+          "max": 107
+        },
+        {
+          "label": "Red intensity/G (50) B (255)/Slow-fast/Sensitivity",
+          "min": 108,
+          "max": 116
+        },
+        {
+          "label": "Red intensity/B (255)/Slow-fast/Sensitivity",
+          "min": 117,
+          "max": 125
+        },
+        {
+          "label": "Red intensity/R (50) B (255)/Slow-fast/Sensitivity",
+          "min": 126,
+          "max": 134
+        },
+        {
+          "label": "Red intensity/R (150) B (255)/Slow-fast/Sensitivity",
+          "min": 135,
+          "max": 143
+        },
+        {
+          "label": "Red intensity/R (255) B (255)/Slow-fast/Sensitivity",
+          "min": 144,
+          "max": 152
+        },
+        {
+          "label": "Red intensity/R (220) B (50)/Slow-fast/Sensitivity",
+          "min": 153,
+          "max": 161
+        },
+        {
+          "label": "Red intensity/R (150) G (50 B (100)/Slow-fast/Sensitivity",
+          "min": 162,
+          "max": 170
+        },
+        {
+          "label": "Red intensity/R (50) G (150) B (220)/Slow-fast/Sensitivity",
+          "min": 171,
+          "max": 179
+        },
+        {
+          "label": "Red intensity/R (50) G (220) B (220)/Slow-fast/Sensitivity",
+          "min": 180,
+          "max": 188
+        },
+        {
+          "label": "Red intensity/R (150) G (220)/Slow-fast/Sensitivity",
+          "min": 189,
+          "max": 197
+        },
+        {
+          "label": "Red intensity/R (150) B (220)/Slow-fast/Sensitivity",
+          "min": 198,
+          "max": 206
+        },
+        {
+          "label": "Red intensity/G (180) B (220)/Slow-fast/Sensitivity",
+          "min": 207,
+          "max": 215
+        },
+        {
+          "label": "Red intensity/G (220) B (50)/Slow-fast/Sensitivity",
+          "min": 216,
+          "max": 224
+        },
+        {
+          "label": "Red intensity/R (220) G (100) B (50)/Slow-fast/Sensitivity",
+          "min": 225,
+          "max": 233
+        },
+        {
+          "label": "Red intensity/R (220) G (200) B (100)/Slow-fast/Sensitivity",
+          "min": 234,
+          "max": 242
+        },
+        {
+          "label": "Red intensity/R (255) G (200) B (150)/Slow-fast/Sensitivity",
+          "min": 243,
+          "max": 251
+        },
+        {
+          "label": "Red intensity/R (255) G (255) B (255)/Slow-fast/Sensitivity",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Color Programs",
+      "capabilities": [
+        {
+          "label": "Channel 2 static colours",
+          "min": 0,
+          "max": 24
+        },
+        {
+          "label": "Pr02 (7 colour fading)",
+          "min": 25,
+          "max": 49
+        },
+        {
+          "label": "Pr03 (3 colour fading)",
+          "min": 50,
+          "max": 74
+        },
+        {
+          "label": "Pr04 (7 colour jump)",
+          "min": 75,
+          "max": 99
+        },
+        {
+          "label": "Pr05 (3 colour jump)",
+          "min": 100,
+          "max": 124
+        },
+        {
+          "label": "Pr06 (colour dreaming 1)",
+          "min": 125,
+          "max": 149
+        },
+        {
+          "label": "Pr07 (colour dreaming 2)",
+          "min": 150,
+          "max": 174
+        },
+        {
+          "label": "Pr08 (red fading)",
+          "min": 175,
+          "max": 199
+        },
+        {
+          "label": "Pr09 (green fading)",
+          "min": 200,
+          "max": 224
+        },
+        {
+          "label": "Pr10 (blue fading)",
+          "min": 225,
+          "max": 249
+        },
+        {
+          "label": "Sound active",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 17,
+      "type_description": "ID Address",
+      "capabilities": [
+        {
+          "label": "ID1-ID66",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "ID1",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "ID2",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "ID3",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "ID4",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "ID5",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "ID6",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "ID7",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "ID8",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "ID9",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "ID10",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "ID11",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "ID12",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "ID13",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "ID14",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "ID15",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "ID16",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "ID17",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "ID18",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "ID19",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "ID20",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "ID21",
+          "min": 210,
+          "max": 210
+        },
+        {
+          "label": "ID22",
+          "min": 211,
+          "max": 211
+        },
+        {
+          "label": "ID23",
+          "min": 212,
+          "max": 212
+        },
+        {
+          "label": "ID24",
+          "min": 213,
+          "max": 213
+        },
+        {
+          "label": "ID25",
+          "min": 214,
+          "max": 214
+        },
+        {
+          "label": "ID26",
+          "min": 215,
+          "max": 215
+        },
+        {
+          "label": "ID27",
+          "min": 216,
+          "max": 216
+        },
+        {
+          "label": "ID28",
+          "min": 217,
+          "max": 217
+        },
+        {
+          "label": "ID29",
+          "min": 218,
+          "max": 218
+        },
+        {
+          "label": "ID30",
+          "min": 219,
+          "max": 219
+        },
+        {
+          "label": "ID31",
+          "min": 220,
+          "max": 220
+        },
+        {
+          "label": "ID32",
+          "min": 221,
+          "max": 221
+        },
+        {
+          "label": "ID33",
+          "min": 222,
+          "max": 222
+        },
+        {
+          "label": "ID34",
+          "min": 223,
+          "max": 223
+        },
+        {
+          "label": "ID35",
+          "min": 224,
+          "max": 224
+        },
+        {
+          "label": "ID36",
+          "min": 225,
+          "max": 225
+        },
+        {
+          "label": "ID37",
+          "min": 226,
+          "max": 226
+        },
+        {
+          "label": "ID38",
+          "min": 227,
+          "max": 227
+        },
+        {
+          "label": "ID39",
+          "min": 228,
+          "max": 228
+        },
+        {
+          "label": "ID40",
+          "min": 229,
+          "max": 229
+        },
+        {
+          "label": "ID41",
+          "min": 230,
+          "max": 230
+        },
+        {
+          "label": "ID42",
+          "min": 231,
+          "max": 231
+        },
+        {
+          "label": "ID43",
+          "min": 232,
+          "max": 232
+        },
+        {
+          "label": "ID44",
+          "min": 233,
+          "max": 233
+        },
+        {
+          "label": "ID45",
+          "min": 234,
+          "max": 234
+        },
+        {
+          "label": "ID46",
+          "min": 235,
+          "max": 235
+        },
+        {
+          "label": "ID47",
+          "min": 236,
+          "max": 236
+        },
+        {
+          "label": "ID48",
+          "min": 237,
+          "max": 237
+        },
+        {
+          "label": "ID49",
+          "min": 238,
+          "max": 238
+        },
+        {
+          "label": "ID50",
+          "min": 239,
+          "max": 239
+        },
+        {
+          "label": "ID51",
+          "min": 240,
+          "max": 240
+        },
+        {
+          "label": "ID52",
+          "min": 241,
+          "max": 241
+        },
+        {
+          "label": "ID53",
+          "min": 242,
+          "max": 242
+        },
+        {
+          "label": "ID54",
+          "min": 243,
+          "max": 243
+        },
+        {
+          "label": "ID55",
+          "min": 244,
+          "max": 244
+        },
+        {
+          "label": "ID56",
+          "min": 245,
+          "max": 245
+        },
+        {
+          "label": "ID57",
+          "min": 246,
+          "max": 246
+        },
+        {
+          "label": "ID58",
+          "min": 247,
+          "max": 247
+        },
+        {
+          "label": "ID59",
+          "min": 248,
+          "max": 248
+        },
+        {
+          "label": "ID60",
+          "min": 249,
+          "max": 249
+        },
+        {
+          "label": "ID61",
+          "min": 250,
+          "max": 250
+        },
+        {
+          "label": "ID62",
+          "min": 251,
+          "max": 251
+        },
+        {
+          "label": "ID63",
+          "min": 252,
+          "max": 252
+        },
+        {
+          "label": "ID64",
+          "min": 253,
+          "max": 253
+        },
+        {
+          "label": "ID65",
+          "min": 254,
+          "max": 254
+        },
+        {
+          "label": "ID66",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 17,
+      "type_description": "Fader Response",
+      "capabilities": [
+        {
+          "label": "Ch1-ch4 instant",
+          "min": 0,
+          "max": 250
+        },
+        {
+          "label": "Ch1-ch4 delayed",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Pulse/Pulse-SlimLite-56.json",
+  "id": 1183
+}

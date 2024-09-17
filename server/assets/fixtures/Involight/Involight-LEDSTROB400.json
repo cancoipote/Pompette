@@ -1,0 +1,55 @@
+{
+  "version": "1.0.0",
+  "label": "LEDSTROB400",
+  "manufacturer": "Involight",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 365,
+  "dimension_height": 144,
+  "dimension_depth": 166,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 60,
+  "technical_dmx_connector": "5-pin",
+  "type": 12,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Brightness",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 22,
+      "type_description": "Speed",
+      "capabilities": [
+        {
+          "label": "Strobe speed (Slow to fast)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Light duration",
+      "capabilities": [
+        {
+          "label": "0-100%",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Involight/Involight-LEDSTROB400.json",
+  "id": 898
+}

@@ -1,0 +1,128 @@
+{
+  "version": "1.0.0",
+  "label": "SilentPAR 12x10w 6in1",
+  "manufacturer": "BoomToneDJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 270,
+  "dimension_height": 252,
+  "dimension_depth": 90,
+  "lens_label": "Other",
+  "lens_degree_min": 45,
+  "lens_degree_max": 45,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 50,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "White dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Amber dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "UV dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 21,
+      "type_description": "Strobe speed",
+      "capabilities": [
+        {
+          "label": "Strobe off",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Strobe speed",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 22,
+      "type_description": "Program scrolling speed",
+      "capabilities": [
+        {
+          "label": "Program scrolling speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 17,
+      "type_description": "Automatic modes",
+      "capabilities": [
+        {
+          "label": "DMX operated mode",
+          "min": 0,
+          "max": 59
+        },
+        {
+          "label": "color static mode",
+          "min": 60,
+          "max": 119
+        },
+        {
+          "label": "color changing mode",
+          "min": 120,
+          "max": 179
+        },
+        {
+          "label": "fading color mode",
+          "min": 180,
+          "max": 239
+        },
+        {
+          "label": "Music Detection Mode",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/BoomToneDJ/BoomToneDJ-SilentPAR-12x10w-6in1.json",
+  "id": 244
+}

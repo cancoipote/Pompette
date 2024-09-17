@@ -1,0 +1,208 @@
+{
+  "version": "1.0.0",
+  "label": "TMH-250",
+  "manufacturer": "Eurolite",
+  "bulb_type": "ELC 250W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 3200,
+  "dimension_weight": 13,
+  "dimension_width": 300,
+  "dimension_height": 420,
+  "dimension_depth": 300,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Head",
+  "focus_pan_max": 360,
+  "focus_tilt_max": 250,
+  "technical_power_consumption": 335,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan coarse",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt coarse",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 16
+        },
+        {
+          "label": "Pink",
+          "min": 17,
+          "max": 33
+        },
+        {
+          "label": "Blue",
+          "min": 34,
+          "max": 50
+        },
+        {
+          "label": "Orange",
+          "min": 51,
+          "max": 67
+        },
+        {
+          "label": "Green",
+          "min": 68,
+          "max": 84
+        },
+        {
+          "label": "Violet",
+          "min": 85,
+          "max": 101
+        },
+        {
+          "label": "Yellow",
+          "min": 102,
+          "max": 118
+        },
+        {
+          "label": "Red",
+          "min": 119,
+          "max": 135
+        },
+        {
+          "label": "Rainbow slow to fast",
+          "min": 136,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 22,
+      "type_description": "Gobo rotation",
+      "capabilities": [
+        {
+          "label": "No rotation",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "CW rotation slow to fast",
+          "min": 5,
+          "max": 120
+        },
+        {
+          "label": "No rotation",
+          "min": 121,
+          "max": 139
+        },
+        {
+          "label": "CCW rotation slow to fast",
+          "min": 140,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Gobo 1",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Gobo 2",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Gobo 3",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Gobo 4",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Gobo 5",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Gobo 6",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Gobo 7",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Gobo 8",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Dimmer control (shutter open)",
+          "min": 3,
+          "max": 29
+        },
+        {
+          "label": "Strobe slow to fast",
+          "min": 30,
+          "max": 250
+        },
+        {
+          "label": "Shutter open",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-TMH-250.json",
+  "id": 758
+}

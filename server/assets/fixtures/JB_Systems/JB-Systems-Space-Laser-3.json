@@ -1,0 +1,238 @@
+{
+  "version": "1.0.0",
+  "label": "Space Laser 3",
+  "manufacturer": "JB Systems",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 200,
+  "dimension_height": 90,
+  "dimension_depth": 240,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 90,
+  "focus_tilt_max": 90,
+  "technical_power_consumption": 10,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Mode 1",
+      "capabilities": [
+        {
+          "label": "Laser off (Blackout)",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "AUTO",
+          "min": 20,
+          "max": 119
+        },
+        {
+          "label": "MUSIC",
+          "min": 120,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Mode 2",
+      "capabilities": [
+        {
+          "label": "Laser output in blackout",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "Laser in Music mode",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Full automatic mode",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "DMX Mode",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 4,
+      "type_description": "Pattern Group",
+      "capabilities": [
+        {
+          "label": "1: Lines",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "2: Tunnels",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "3: Curves",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "4: Others",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 4,
+      "type_description": "Pattern Select",
+      "capabilities": [
+        {
+          "label": "Pattern 1",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Pattern 2",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Pattern 3",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Pattern 4",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pattern 5",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Pattern 6",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Pattern 7",
+          "min": 192,
+          "max": 233
+        },
+        {
+          "label": "Pattern 8",
+          "min": 234,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 1,
+      "type_description": "Rotation",
+      "capabilities": [
+        {
+          "label": "Fixed rotation position of the pattern",
+          "min": 0,
+          "max": 128
+        },
+        {
+          "label": "Continuous pattern rotation from slow to fast",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 1,
+      "type_description": "Size",
+      "capabilities": [
+        {
+          "label": "Zooming : pattern size from big to small",
+          "min": 0,
+          "max": 128
+        },
+        {
+          "label": "Continuous pattern zooming from slow to fast",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 19,
+      "type_description": "Pan",
+      "capabilities": [
+        {
+          "label": "Pan movement (X Axis horizontal movement)",
+          "min": 0,
+          "max": 128
+        },
+        {
+          "label": "Pan speed (from slow to fast)",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 23,
+      "type_description": "Tilt",
+      "capabilities": [
+        {
+          "label": "Tilt movement (Y-Axis vertical movement)",
+          "min": 0,
+          "max": 128
+        },
+        {
+          "label": "Tilt speed (from slow to fast)",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Option",
+      "capabilities": [
+        {
+          "label": "Original pattern (selected with channels 2+3)",
+          "min": 0,
+          "max": 85
+        },
+        {
+          "label": "Patterns without blanking (all pattern lines connected together)",
+          "min": 86,
+          "max": 170
+        },
+        {
+          "label": "Blackout",
+          "min": 171,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/JB_Systems/JB-Systems-Space-Laser-3.json",
+  "id": 935
+}

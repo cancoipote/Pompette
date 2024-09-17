@@ -1,0 +1,107 @@
+{
+  "version": "1.0.0",
+  "label": "200b",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 930,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 132,
+  "dimension_height": 249,
+  "dimension_depth": 236,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 19,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 17,
+      "type_description": "Function",
+      "capabilities": [
+        {
+          "label": "RGB",
+          "min": 0,
+          "max": 29
+        },
+        {
+          "label": "Pulse Strobe 0-100%",
+          "min": 30,
+          "max": 59
+        },
+        {
+          "label": "Pulse Strobe 100-0%",
+          "min": 60,
+          "max": 89
+        },
+        {
+          "label": "Pulse Strobe 100-0%-100%",
+          "min": 90,
+          "max": 119
+        },
+        {
+          "label": "Color Macro",
+          "min": 120,
+          "max": 149
+        },
+        {
+          "label": "RGB Chase",
+          "min": 150,
+          "max": 179
+        },
+        {
+          "label": "Colour change",
+          "min": 180,
+          "max": 209
+        },
+        {
+          "label": "Colour change with fade",
+          "min": 210,
+          "max": 239
+        },
+        {
+          "label": "Sound activated",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-200b.json",
+  "id": 393
+}

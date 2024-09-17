@@ -1,0 +1,333 @@
+{
+  "version": "1.0.0",
+  "label": "Eclipse RGB",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 241,
+  "dimension_height": 162,
+  "dimension_depth": 196,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 43,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 17,
+      "type_description": "Auto Mode",
+      "capabilities": [
+        {
+          "label": "DMX Mode",
+          "min": 0,
+          "max": 49
+        },
+        {
+          "label": "Auto Slow",
+          "min": 50,
+          "max": 99
+        },
+        {
+          "label": "Auto Fast",
+          "min": 100,
+          "max": 149
+        },
+        {
+          "label": "Sound Active",
+          "min": 150,
+          "max": 199
+        },
+        {
+          "label": "Random",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Red",
+          "min": 5,
+          "max": 28
+        },
+        {
+          "label": "Green",
+          "min": 29,
+          "max": 56
+        },
+        {
+          "label": "Red + Green",
+          "min": 57,
+          "max": 84
+        },
+        {
+          "label": "Green Strobe",
+          "min": 85,
+          "max": 112
+        },
+        {
+          "label": "Red Strobe",
+          "min": 113,
+          "max": 140
+        },
+        {
+          "label": "Red + Green Strobe",
+          "min": 141,
+          "max": 168
+        },
+        {
+          "label": "Red Strobe + Green",
+          "min": 169,
+          "max": 197
+        },
+        {
+          "label": "Red Strobe + Green Strobe",
+          "min": 198,
+          "max": 224
+        },
+        {
+          "label": "Alternating Strobe",
+          "min": 225,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Strobe (laser)",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Strobe (slow to fast)",
+          "min": 5,
+          "max": 249
+        },
+        {
+          "label": "Strobe (sound active)",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Rotation (laser)",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Clockwise rotation (slow to fast)",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "No function",
+          "min": 128,
+          "max": 133
+        },
+        {
+          "label": "Counterclockwise rotation (slow to fast)",
+          "min": 134,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Vibration",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Vibration (slow to fast)",
+          "min": 5,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 22,
+      "type_description": "Flash",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Flash (slow to fast)",
+          "min": 5,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 5,
+      "type_description": "Red",
+      "capabilities": [
+        {
+          "label": "Red",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Fade in (0~100%)",
+          "min": 128,
+          "max": 169
+        },
+        {
+          "label": "Fade out (100%~0)",
+          "min": 170,
+          "max": 209
+        },
+        {
+          "label": "Alternating fade (100%~0~100%...)",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 5,
+      "type_description": "Green",
+      "capabilities": [
+        {
+          "label": "Green",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Fade in (0~100%)",
+          "min": 128,
+          "max": 169
+        },
+        {
+          "label": "Fade out (100%~0%)",
+          "min": 170,
+          "max": 209
+        },
+        {
+          "label": "Alternating fade (100%~0~100%...)",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 5,
+      "type_description": "Blue",
+      "capabilities": [
+        {
+          "label": "Blue",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Fade in (0~100%)",
+          "min": 128,
+          "max": 169
+        },
+        {
+          "label": "Fade out (100%~0)",
+          "min": 170,
+          "max": 209
+        },
+        {
+          "label": "Alternating fade (100%~0~100%...)",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 22,
+      "type_description": "Strobe (LED)",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Strobe (slow to fast)",
+          "min": 5,
+          "max": 249
+        },
+        {
+          "label": "Strobe (sound active)",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 3,
+      "type_description": "Rotation (LED)",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Clockwise rotation (slow to fast)",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "No function",
+          "min": 128,
+          "max": 133
+        },
+        {
+          "label": "Counterclockwise rotation (slow to fast)",
+          "min": 134,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-Eclipse-RGB.json",
+  "id": 439
+}

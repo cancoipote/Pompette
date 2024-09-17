@@ -1,0 +1,177 @@
+{
+  "version": "1.0.0",
+  "label": "Z-1520 RGB",
+  "manufacturer": "Antari",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 10,
+  "dimension_width": 295,
+  "dimension_height": 210,
+  "dimension_depth": 418,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 1550,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 11,
+  "channels": [
+    {
+      "index": 0,
+      "type": 5,
+      "type_description": "Fog",
+      "capabilities": [
+        {
+          "label": "Fog off",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Fog on",
+          "min": 5,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Chase",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Chase 1",
+          "min": 1,
+          "max": 15
+        },
+        {
+          "label": "Chase 2",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Chase 3",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Chase 4",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Chase 5",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Chase 6",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Chase 7",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Chase 8",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Chase 9",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Chase 10",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Chase 11",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Chase 12",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Chase 13",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "Chase 14",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "Chase 15",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 22,
+      "type_description": "Chase Speed",
+      "capabilities": [
+        {
+          "label": "0-255 steps per minute",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "1-20 Hz",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Antari/Antari-Z-1520-RGB.json",
+  "id": 16
+}

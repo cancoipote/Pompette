@@ -1,0 +1,238 @@
+{
+  "version": "1.0.0",
+  "label": "Radical II",
+  "manufacturer": "beamZ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 260,
+  "dimension_height": 235,
+  "dimension_depth": 180,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Mirror",
+  "focus_pan_max": 180,
+  "focus_tilt_max": 180,
+  "technical_power_consumption": 20,
+  "technical_dmx_connector": "3-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Laser",
+      "capabilities": [
+        {
+          "label": "No Function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Laser motor clockwise rotation（From slow to fast）",
+          "min": 10,
+          "max": 59
+        },
+        {
+          "label": "Stop",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Laser motor counter clockwise rotation（From slow to fast）",
+          "min": 70,
+          "max": 119
+        },
+        {
+          "label": "Stop",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "back and forward movement with increasing speed",
+          "min": 130,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 19,
+      "type_description": "Motor rotation",
+      "capabilities": [
+        {
+          "label": "Motor location",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "back and forward movement with increasing speed",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Colours macro",
+      "capabilities": [
+        {
+          "label": "No Fuction",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Green",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Blue",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "White",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Red + Green",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Green + Blue",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Blue + White",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Red + White",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Red + Blue",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Green + White",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Blue + Green + White",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Red + Blue + White",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Red + Green + White",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Red + Green + Blue",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "All LED on",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Rainbow Group effect 1",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Rainbow Group effect 2",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Rainbow Group effect 3",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Rainbow Group effect 4",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Rainbow Group effect 5",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Rainbow Group effect with strobe 1",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "Rainbow Group effect with strobe 2",
+          "min": 220,
+          "max": 229
+        },
+        {
+          "label": "Rainbow Group effect with strobe 3",
+          "min": 230,
+          "max": 239
+        },
+        {
+          "label": "Rainbow Group effect with strobe 4",
+          "min": 240,
+          "max": 249
+        },
+        {
+          "label": "Rainbow Group effect with strobe 5",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Auto/Sound",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Auto DMX ( From slow to fast )",
+          "min": 10,
+          "max": 119
+        },
+        {
+          "label": "Sound DMX ( From slow to fast )",
+          "min": 120,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/beamZ/beamZ-Radical-II.json",
+  "id": 207
+}

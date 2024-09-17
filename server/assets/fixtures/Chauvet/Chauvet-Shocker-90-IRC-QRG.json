@@ -1,0 +1,372 @@
+{
+  "version": "1.0.0",
+  "label": "Shocker 90 IRC\nQRG",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 194,
+  "dimension_height": 170,
+  "dimension_depth": 84,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 44,
+  "technical_dmx_connector": "3-pin",
+  "type": 12,
+  "channels": [
+    {
+      "index": 0,
+      "type": 22,
+      "type_description": "Zone 1",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Strobe rate (slow to fast)",
+          "min": 6,
+          "max": 249
+        },
+        {
+          "label": "Continuous on (blinder effect)",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 22,
+      "type_description": "Zone 2",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Strobe rate (slow to fast)",
+          "min": 6,
+          "max": 249
+        },
+        {
+          "label": "Continuous on (blinder effect)",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Zone 3",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Strobe rate (slow to fast)",
+          "min": 6,
+          "max": 249
+        },
+        {
+          "label": "Continuous on (blinder effect)",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 22,
+      "type_description": "Zone 4",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Strobe rate (slow to fast)",
+          "min": 6,
+          "max": 249
+        },
+        {
+          "label": "Continuous on (blinder effect)",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Auto/Sound-Active Programs",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Auto program 0",
+          "min": 21,
+          "max": 40
+        },
+        {
+          "label": "Auto program 1",
+          "min": 41,
+          "max": 60
+        },
+        {
+          "label": "Auto program 2",
+          "min": 61,
+          "max": 80
+        },
+        {
+          "label": "Auto program 3",
+          "min": 81,
+          "max": 100
+        },
+        {
+          "label": "Auto program 4",
+          "min": 101,
+          "max": 120
+        },
+        {
+          "label": "Auto program 5",
+          "min": 121,
+          "max": 140
+        },
+        {
+          "label": "Auto program 6",
+          "min": 141,
+          "max": 160
+        },
+        {
+          "label": "Auto program 7",
+          "min": 161,
+          "max": 180
+        },
+        {
+          "label": "Sound-active mode 1",
+          "min": 181,
+          "max": 225
+        },
+        {
+          "label": "Sound-active mode 2",
+          "min": 226,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 22,
+      "type_description": "Auto Speed / Sound Sensitivity",
+      "capabilities": [
+        {
+          "label": "Auto program speed (Slow to fast) - No function when ch5 >> 181-255",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Auto program speed (Slow to fast) - Sound Sensitivity when ch5 >> 181-255",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 22,
+      "type_description": "Strobe All Zones",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Strobe Rate (Slow to fast)",
+          "min": 6,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 5,
+      "type_description": "Dimmer (5ch mode)",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "0-100%",
+          "min": 6,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 22,
+      "type_description": "Strobe Speed (5ch mode)",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Strobe Speed (slow to fast)",
+          "min": 6,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 21,
+      "type_description": "Shutter (5ch mode) - When ch2 >> 006-255",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Pulse speed (slow to fast)",
+          "min": 6,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 3,
+      "type_description": "Strobe Effects (5ch mode) - When ch2 >> 006-255",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Ramp up",
+          "min": 6,
+          "max": 42
+        },
+        {
+          "label": "Ramp down",
+          "min": 43,
+          "max": 85
+        },
+        {
+          "label": "Ramp up - ramp down",
+          "min": 86,
+          "max": 128
+        },
+        {
+          "label": "Random",
+          "min": 129,
+          "max": 171
+        },
+        {
+          "label": "Lightning",
+          "min": 172,
+          "max": 214
+        },
+        {
+          "label": "Spikes",
+          "min": 215,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 3,
+      "type_description": "Zone Strobe Macros",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Macro 1 (slow to fast)",
+          "min": 6,
+          "max": 42
+        },
+        {
+          "label": "Macro 2 (slow to fast)",
+          "min": 43,
+          "max": 85
+        },
+        {
+          "label": "Macro 3 (slow to fast)",
+          "min": 86,
+          "max": 128
+        },
+        {
+          "label": "Macro 4 (slow to fast)",
+          "min": 129,
+          "max": 171
+        },
+        {
+          "label": "Macro 5 (slow to fast)",
+          "min": 172,
+          "max": 214
+        },
+        {
+          "label": "Macro 6 (slow to fast)",
+          "min": 215,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 22,
+      "type_description": "Strobe Speed (2ch mode)",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "label": "Strobe speed (slow to fast)",
+          "min": 2,
+          "max": 249
+        },
+        {
+          "label": "Continuous on (blinder effect)",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-Shocker-90-IRC-QRG.json",
+  "id": 527
+}

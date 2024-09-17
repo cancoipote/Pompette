@@ -1,0 +1,339 @@
+{
+  "version": "1.0.0",
+  "label": "ProWash 250 LX",
+  "manufacturer": "Coemar",
+  "bulb_type": "MSD 250W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 8500,
+  "dimension_weight": 23,
+  "dimension_width": 377,
+  "dimension_height": 535,
+  "dimension_depth": 350,
+  "lens_label": "Other",
+  "lens_degree_min": 6,
+  "lens_degree_max": 31,
+  "focus_type": "Head",
+  "focus_pan_max": 530,
+  "focus_tilt_max": 284,
+  "technical_power_consumption": 460,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan Coarse",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt Coarse",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Movement Speed",
+      "capabilities": [
+        {
+          "label": "Standard (fast)",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Ultra fast (best for programming position)",
+          "min": 11,
+          "max": 25
+        },
+        {
+          "label": "Vector mode from fast to slow",
+          "min": 26,
+          "max": 127
+        },
+        {
+          "label": "Tracking mode (fast to slow)",
+          "min": 128,
+          "max": 247
+        },
+        {
+          "label": "Tracking mode (slow)",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 5,
+      "type_description": "Dimmer",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Dimmer",
+          "min": 8,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe (slow to fast)",
+          "min": 10,
+          "max": 66
+        },
+        {
+          "label": "Open",
+          "min": 67,
+          "max": 68
+        },
+        {
+          "label": "Pulse out (slow to fast)",
+          "min": 69,
+          "max": 125
+        },
+        {
+          "label": "Open",
+          "min": 126,
+          "max": 127
+        },
+        {
+          "label": "Pulse in (fast to slow)",
+          "min": 128,
+          "max": 184
+        },
+        {
+          "label": "Open",
+          "min": 185,
+          "max": 187
+        },
+        {
+          "label": "Random strobe (slow to fast)",
+          "min": 188,
+          "max": 244
+        },
+        {
+          "label": "Open",
+          "min": 245,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Black-out while moving",
+      "capabilities": [
+        {
+          "label": "No effect",
+          "min": 0,
+          "max": 249
+        },
+        {
+          "label": "Blackout while moving or color changes",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 1,
+      "type_description": "Beam",
+      "capabilities": [
+        {
+          "label": "Zoom",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Shaped beam angle (0° - 180°)",
+          "min": 10,
+          "max": 230
+        },
+        {
+          "label": "Wide angle",
+          "min": 231,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Colour wheel",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "CTO",
+          "min": 6,
+          "max": 14
+        },
+        {
+          "label": "Green",
+          "min": 15,
+          "max": 23
+        },
+        {
+          "label": "Magenta",
+          "min": 24,
+          "max": 32
+        },
+        {
+          "label": "Orange",
+          "min": 33,
+          "max": 41
+        },
+        {
+          "label": "Red",
+          "min": 42,
+          "max": 50
+        },
+        {
+          "label": "Blue",
+          "min": 51,
+          "max": 60
+        },
+        {
+          "label": "Colour wheel angle (0° - 360°)",
+          "min": 61,
+          "max": 127
+        },
+        {
+          "label": "Forwards rotation (fast to slow)",
+          "min": 128,
+          "max": 190
+        },
+        {
+          "label": "No rotation",
+          "min": 191,
+          "max": 192
+        },
+        {
+          "label": "Backwards rotation (slow to fast)",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 5,
+      "type_description": "Cyan",
+      "capabilities": [
+        {
+          "label": "White/clear",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Cyan",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 5,
+      "type_description": "Magenta",
+      "capabilities": [
+        {
+          "label": "White/clear",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Magenta",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 5,
+      "type_description": "Yellow",
+      "capabilities": [
+        {
+          "label": "White/clear",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Yellow",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 17,
+      "type_description": "Lamp/Reset (at DMX change hold for 6 sec)",
+      "capabilities": [
+        {
+          "label": "Lamp OFF",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "No function",
+          "min": 20,
+          "max": 100
+        },
+        {
+          "label": "Effects reset (only once)",
+          "min": 101,
+          "max": 170
+        },
+        {
+          "label": "All motor reset",
+          "min": 171,
+          "max": 200
+        },
+        {
+          "label": "Silent fans",
+          "min": 201,
+          "max": 240
+        },
+        {
+          "label": "Lamp ON",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Coemar/Coemar-ProWash-250-LX.json",
+  "id": 390
+}

@@ -1,0 +1,152 @@
+{
+  "version": "1.0.0",
+  "label": "LED 3W Mini Moving Head",
+  "manufacturer": "Star-Lights",
+  "bulb_type": "LED",
+  "bulb_lumens": 1600,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 6,
+  "dimension_width": 350,
+  "dimension_height": 450,
+  "dimension_depth": 350,
+  "lens_label": "Other",
+  "lens_degree_min": 45,
+  "lens_degree_max": 45,
+  "focus_type": "Fixed",
+  "focus_pan_max": 450,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 150,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Pan fine 16 bit",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine 16 bit",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "XY-Speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Flash",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Flash from Fast to Slow",
+          "min": 8,
+          "max": 215
+        },
+        {
+          "label": "Off",
+          "min": 216,
+          "max": 231
+        },
+        {
+          "label": "Semi On",
+          "min": 232,
+          "max": 247
+        },
+        {
+          "label": "On",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Color Mixing",
+      "capabilities": [
+        {
+          "label": "R. G. B. color mixing",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Color Mixing Speed",
+      "capabilities": [
+        {
+          "label": "Speed Adjustable from Fast to Slow",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 17,
+      "type_description": "Reset Channel",
+      "capabilities": [
+        {
+          "label": "Without reposition",
+          "min": 0,
+          "max": 247
+        },
+        {
+          "label": "Hold for 5 seconds to reset",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Star-Lights/Star-Lights-mini-Wash-Moving-Head.json",
+  "id": 1353
+}

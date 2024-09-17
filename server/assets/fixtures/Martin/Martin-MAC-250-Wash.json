@@ -1,0 +1,478 @@
+{
+  "version": "1.0.0",
+  "label": "MAC 250 Wash",
+  "manufacturer": "Martin",
+  "bulb_type": "MSD 250W",
+  "bulb_lumens": 7700,
+  "bulb_color_temperature": 8500,
+  "dimension_weight": 22,
+  "dimension_width": 393,
+  "dimension_height": 538,
+  "dimension_depth": 375,
+  "lens_label": "PC",
+  "lens_degree_min": 25,
+  "lens_degree_max": 25,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 326,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Shutter, Strobe, Reset, Lamp On/Off",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Shutter open",
+          "min": 20,
+          "max": 49
+        },
+        {
+          "label": "Strobe, fast -> slow",
+          "min": 50,
+          "max": 72
+        },
+        {
+          "label": "Shutter open",
+          "min": 73,
+          "max": 79
+        },
+        {
+          "label": "Opening pulse, fast -> slow",
+          "min": 80,
+          "max": 99
+        },
+        {
+          "label": "Closing pulse, fast -> slow",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "Shutter open",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Random strobe, fast",
+          "min": 128,
+          "max": 147
+        },
+        {
+          "label": "Random strobe, medium",
+          "min": 148,
+          "max": 167
+        },
+        {
+          "label": "Random strobe, slow",
+          "min": 168,
+          "max": 187
+        },
+        {
+          "label": "Shutter open",
+          "min": 188,
+          "max": 190
+        },
+        {
+          "label": "Random opening pulse, fast",
+          "min": 191,
+          "max": 193
+        },
+        {
+          "label": "Random opening pulse, slow",
+          "min": 194,
+          "max": 196
+        },
+        {
+          "label": "Random closing pulse, fast",
+          "min": 197,
+          "max": 199
+        },
+        {
+          "label": "Random closing pulse, slow",
+          "min": 200,
+          "max": 202
+        },
+        {
+          "label": "Shutter open",
+          "min": 203,
+          "max": 207
+        },
+        {
+          "label": "Reset fixture",
+          "min": 208,
+          "max": 217
+        },
+        {
+          "label": "Shutter open",
+          "min": 218,
+          "max": 227
+        },
+        {
+          "label": "Lamp on",
+          "min": 228,
+          "max": 237
+        },
+        {
+          "label": "Shutter open",
+          "min": 238,
+          "max": 247
+        },
+        {
+          "label": "Lamp off",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Color Wheel Scrolling and Rotation, Random CMY",
+      "capabilities": [
+        {
+          "label": "White (open)",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "White -> CTC 5500-2900K",
+          "min": 1,
+          "max": 26
+        },
+        {
+          "label": "CTC 5500-2900K -> pink 312",
+          "min": 27,
+          "max": 51
+        },
+        {
+          "label": "Pink 312 -> UV",
+          "min": 52,
+          "max": 77
+        },
+        {
+          "label": "UV -> red 308",
+          "min": 78,
+          "max": 102
+        },
+        {
+          "label": "Red 308 -> green 206",
+          "min": 103,
+          "max": 128
+        },
+        {
+          "label": "Green 206 -> blue 108",
+          "min": 129,
+          "max": 152
+        },
+        {
+          "label": "Blue 108 -> white (open)",
+          "min": 153,
+          "max": 179
+        },
+        {
+          "label": "Blue 108",
+          "min": 180,
+          "max": 183
+        },
+        {
+          "label": "Green 206",
+          "min": 184,
+          "max": 187
+        },
+        {
+          "label": "Red 308",
+          "min": 188,
+          "max": 191
+        },
+        {
+          "label": "UV",
+          "min": 192,
+          "max": 195
+        },
+        {
+          "label": "Pink 312",
+          "min": 196,
+          "max": 199
+        },
+        {
+          "label": "CTC 5500-2900K",
+          "min": 200,
+          "max": 203
+        },
+        {
+          "label": "White (open)",
+          "min": 204,
+          "max": 207
+        },
+        {
+          "label": "Continuous rotation CW, fast -> slow",
+          "min": 208,
+          "max": 226
+        },
+        {
+          "label": "Continuous rotation CCW, slow -> fast",
+          "min": 227,
+          "max": 245
+        },
+        {
+          "label": "Random color, fast",
+          "min": 246,
+          "max": 248
+        },
+        {
+          "label": "Random color, medium",
+          "min": 249,
+          "max": 251
+        },
+        {
+          "label": "Random color, slow",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Pan Fine (Least Significant Bit)",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Tilt Fine (Least Significant Bit)",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 22,
+      "type_description": "Pan/tilt Speed",
+      "capabilities": [
+        {
+          "label": "Tracking",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Fast -> slow",
+          "min": 3,
+          "max": 242
+        },
+        {
+          "label": "Tracking, PTSP = SLOW (overrides control menu)",
+          "min": 243,
+          "max": 245
+        },
+        {
+          "label": "Tracking, PTSP = NORM (overrides control menu)",
+          "min": 246,
+          "max": 248
+        },
+        {
+          "label": "Tracking, PTSP = FAST (overrides control menu)",
+          "min": 249,
+          "max": 251
+        },
+        {
+          "label": "Blackout while moving",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 22,
+      "type_description": "Effects Speed",
+      "capabilities": [
+        {
+          "label": "Tracking mode",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Vector speed fast -> slow",
+          "min": 3,
+          "max": 245
+        },
+        {
+          "label": "Tracking, SCUT OFF (overrides control menu)/Tracking",
+          "min": 246,
+          "max": 248
+        },
+        {
+          "label": "Tracking, SCUT ON (overrides control menu)/Tracking",
+          "min": 249,
+          "max": 251
+        },
+        {
+          "label": "Vector speed, fast/Blackout while moving",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Dimmer fine (Least Significant Byte)",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Color Fine (Least Significant Byte)",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 5,
+      "type_description": "Cyan/Random CMY",
+      "capabilities": [
+        {
+          "label": "White -> full cyan/Normal",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "White -> full cyan/Minimum cyan setting",
+          "min": 1,
+          "max": 127
+        },
+        {
+          "label": "White -> full cyan/Maximum cyan setting",
+          "min": 128,
+          "max": 254
+        },
+        {
+          "label": "White -> full cyan/Normal",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Cyan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 5,
+      "type_description": "Magenta/Random CMY",
+      "capabilities": [
+        {
+          "label": "White -> full magenta/Normal",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "White -> full magenta/Minimum magenta setting",
+          "min": 1,
+          "max": 127
+        },
+        {
+          "label": "White -> full magenta/Maximum magenta setting",
+          "min": 128,
+          "max": 254
+        },
+        {
+          "label": "White -> full magenta/Normal",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Magenta Fine",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 5,
+      "type_description": "Yellow/Random CMY",
+      "capabilities": [
+        {
+          "label": "White -> full yellow/Normal",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "White -> full yellow/Minimum yellow setting",
+          "min": 1,
+          "max": 127
+        },
+        {
+          "label": "White -> full yellow/Maximum yellow setting",
+          "min": 128,
+          "max": 254
+        },
+        {
+          "label": "White -> full yellow/Normal",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Yellow Fine",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 1,
+      "type_description": "Frost Filter",
+      "capabilities": [
+        {
+          "label": "Open (off) -> full",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 1,
+      "type_description": "Frost Filter Fine (Least Significant Bit)",
+      "capabilities": [
+        {
+          "label": "0 - 100%",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Martin/Martin-MAC-250-Wash.json",
+  "id": 1055
+}

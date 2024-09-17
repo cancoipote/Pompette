@@ -1,0 +1,82 @@
+{
+  "version": "1.0.0",
+  "label": "LED RGB PAR56 9x3W",
+  "manufacturer": "Cameo",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 250,
+  "dimension_height": 230,
+  "dimension_depth": 250,
+  "lens_label": "Other",
+  "lens_degree_min": 25,
+  "lens_degree_max": 25,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 40,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "RED",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "GREEN",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "BLUE",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Color Change",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Color micro",
+          "min": 5,
+          "max": 84
+        },
+        {
+          "label": "Color jump",
+          "min": 85,
+          "max": 169
+        },
+        {
+          "label": "Color fade",
+          "min": 170,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Cameo/Cameo-LED-RGB-PAR56-9x3W.json",
+  "id": 306
+}

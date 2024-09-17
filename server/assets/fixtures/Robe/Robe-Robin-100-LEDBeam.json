@@ -1,0 +1,797 @@
+{
+  "version": "1.0.0",
+  "label": "Robin 100 LEDBeam",
+  "manufacturer": "Robe",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 233,
+  "dimension_height": 314,
+  "dimension_depth": 149,
+  "lens_label": "Other",
+  "lens_degree_min": 7,
+  "lens_degree_max": 40,
+  "focus_type": "Head",
+  "focus_pan_max": 450,
+  "focus_tilt_max": 300,
+  "technical_power_consumption": 200,
+  "technical_dmx_connector": "5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Pan/Tilt speed, Pan/Tilt time",
+      "capabilities": [
+        {
+          "label": "Max. speed (tracking mode)",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Speed from max. to min. (vector mode)",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 17,
+      "type_description": "Special functions",
+      "capabilities": [
+        {
+          "label": "Reserved",
+          "min": 0,
+          "max": 29
+        },
+        {
+          "label": "RGBW colour mixing mode",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "CMY colour mixing mode",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Pan/Tilt speed mode",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Pan/Tilt time mode",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Blackout while pan/tilt moving",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Disabled blackout while pan/tilt moving",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Reserved",
+          "min": 90,
+          "max": 109
+        },
+        {
+          "label": "Colour calibration mode On",
+          "min": 110,
+          "max": 114
+        },
+        {
+          "label": "Colour calibration mode Off",
+          "min": 115,
+          "max": 119
+        },
+        {
+          "label": "Tilt movement reduction On",
+          "min": 120,
+          "max": 124
+        },
+        {
+          "label": "Tilt movement reduction Off",
+          "min": 125,
+          "max": 129
+        },
+        {
+          "label": "Reserved",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Pan/Tilt reset",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Reserved",
+          "min": 150,
+          "max": 199
+        },
+        {
+          "label": "Total reset",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Reserved",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Red - all zones",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Red fine - all zones",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Green - all zones",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Green fine - all zones",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Blue - all zones",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Blue fine - all zones",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "White - all zones",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "White fine - all zones",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Red - zone 1",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Red fine - zone 1",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Green - zone 1",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Green fine - zone 1",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Blue - zone 1",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Blue fine - zone 1",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "White - zone 1",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "White fine - zone 1",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Red - zone 2",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Red fine - zone 2",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Green - zone 2",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Green fine - zone 2",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Blue - zone 2",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Blue fine - zone 2",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "White - zone 2",
+      "capabilities": []
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "White fine - zone 2",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 0,
+      "type_description": "Red - zone 3",
+      "capabilities": []
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "Red fine - zone 3",
+      "capabilities": []
+    },
+    {
+      "index": 32,
+      "type": 0,
+      "type_description": "Green - zone 3",
+      "capabilities": []
+    },
+    {
+      "index": 33,
+      "type": 0,
+      "type_description": "Green fine - zone 3",
+      "capabilities": []
+    },
+    {
+      "index": 34,
+      "type": 0,
+      "type_description": "Blue - zone 3",
+      "capabilities": []
+    },
+    {
+      "index": 35,
+      "type": 0,
+      "type_description": "Blue fine - zone 3",
+      "capabilities": []
+    },
+    {
+      "index": 36,
+      "type": 0,
+      "type_description": "White - zone 3",
+      "capabilities": []
+    },
+    {
+      "index": 37,
+      "type": 0,
+      "type_description": "White fine - zone 3",
+      "capabilities": []
+    },
+    {
+      "index": 38,
+      "type": 0,
+      "type_description": "CTC",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Colour temperature correction from 19000K to 2700K",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "type": 0,
+      "type_description": "Virtual Colour Wheel",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "White 2700 K",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "label": "White 2700 K (Halogen lamp mode*)",
+          "min": 3,
+          "max": 3
+        },
+        {
+          "label": "White 3200 K",
+          "min": 4,
+          "max": 5
+        },
+        {
+          "label": "White 3200 K (Halogen lamp mode*)",
+          "min": 6,
+          "max": 6
+        },
+        {
+          "label": "White 4200 K",
+          "min": 7,
+          "max": 9
+        },
+        {
+          "label": "White 5600 K",
+          "min": 10,
+          "max": 12
+        },
+        {
+          "label": "White 8000 K",
+          "min": 13,
+          "max": 15
+        },
+        {
+          "label": "Blue (Blue=full, Red+Green+White=0)",
+          "min": 16,
+          "max": 16
+        },
+        {
+          "label": "Red=0, Green->up,Blue =full, White=0",
+          "min": 17,
+          "max": 55
+        },
+        {
+          "label": "Light Blue (Red=0, Green=full, Blue =full, White=0)",
+          "min": 56,
+          "max": 56
+        },
+        {
+          "label": "Red=0, Green=full, Blue->down, White=0",
+          "min": 57,
+          "max": 95
+        },
+        {
+          "label": "Green (Red=0, Green=full, Blue =0, White=0)",
+          "min": 96,
+          "max": 96
+        },
+        {
+          "label": "Red->up, Green=full, Blue=0, White=0",
+          "min": 97,
+          "max": 134
+        },
+        {
+          "label": "Yellow (Red=full, Green=full, Blue=0, White=0)",
+          "min": 135,
+          "max": 135
+        },
+        {
+          "label": "Red=full, Green->down, Blue=0, White=0",
+          "min": 136,
+          "max": 174
+        },
+        {
+          "label": "Red(Red=full, Green=0, Blue=0, White=0)",
+          "min": 175,
+          "max": 175
+        },
+        {
+          "label": "Red=full, Green=0, Blue->up, White=0",
+          "min": 176,
+          "max": 214
+        },
+        {
+          "label": "Magenta (Red=full, Green=0, Blue=full, White=0)",
+          "min": 215,
+          "max": 215
+        },
+        {
+          "label": "Red -> down, Green=0, Blue=full, White=0",
+          "min": 216,
+          "max": 246
+        },
+        {
+          "label": "Blue (Red=0, Green=0, Blue=full, White=0)",
+          "min": 247,
+          "max": 247
+        },
+        {
+          "label": "Rainbow effect (with fade time)",
+          "min": 248,
+          "max": 248
+        },
+        {
+          "label": "Rainbow effect",
+          "min": 249,
+          "max": 249
+        },
+        {
+          "label": "Zone effect 1",
+          "min": 250,
+          "max": 250
+        },
+        {
+          "label": "Zone effect 2",
+          "min": 251,
+          "max": 251
+        },
+        {
+          "label": "Zone effect 3",
+          "min": 252,
+          "max": 252
+        },
+        {
+          "label": "Zone effect 4",
+          "min": 253,
+          "max": 253
+        },
+        {
+          "label": "Zone effect 5",
+          "min": 254,
+          "max": 254
+        },
+        {
+          "label": "Zone effect 6",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "type": 0,
+      "type_description": "No function 1",
+      "capabilities": []
+    },
+    {
+      "index": 41,
+      "type": 0,
+      "type_description": "No function 2",
+      "capabilities": []
+    },
+    {
+      "index": 42,
+      "type": 21,
+      "type_description": "Shutter/Strobe 1",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Strobe effect from slow--> fast (zones 2,3 only)",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe effect from slow--> fast (All zones together)",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Zone effects+rainbow effects speed control, slow--> fast",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Zone effects+rainbow effects speed control, fast--> slow",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Opening pulses in sequences from slow--> fast (All zones together)",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Closing pulses in sequences from fast--> slow (All zones together)",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Random strobe effect from slow--> fast (random zone)",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Random strobe effect from slow--> fast (random zone + random strobe)",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Random strobe effect from slow --> fast (All zones together)",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Shutter open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 44,
+      "type": 0,
+      "type_description": "Dimmer Fine",
+      "capabilities": []
+    },
+    {
+      "index": 45,
+      "type": 0,
+      "type_description": "Cyan - all zones",
+      "capabilities": []
+    },
+    {
+      "index": 46,
+      "type": 0,
+      "type_description": "Cyan fine - all zones",
+      "capabilities": []
+    },
+    {
+      "index": 47,
+      "type": 0,
+      "type_description": "Magenta - all zones",
+      "capabilities": []
+    },
+    {
+      "index": 48,
+      "type": 0,
+      "type_description": "Magenta fine - all zones",
+      "capabilities": []
+    },
+    {
+      "index": 49,
+      "type": 0,
+      "type_description": "Yellow - all zones",
+      "capabilities": []
+    },
+    {
+      "index": 50,
+      "type": 0,
+      "type_description": "Yellow fine - all zones",
+      "capabilities": []
+    },
+    {
+      "index": 51,
+      "type": 0,
+      "type_description": "No function - all zones",
+      "capabilities": []
+    },
+    {
+      "index": 52,
+      "type": 0,
+      "type_description": "No function bis - all zones",
+      "capabilities": []
+    },
+    {
+      "index": 53,
+      "type": 0,
+      "type_description": "Cyan - zone 1",
+      "capabilities": []
+    },
+    {
+      "index": 54,
+      "type": 0,
+      "type_description": "Cyan fine - zone 1",
+      "capabilities": []
+    },
+    {
+      "index": 55,
+      "type": 0,
+      "type_description": "Magenta - zone 1",
+      "capabilities": []
+    },
+    {
+      "index": 56,
+      "type": 0,
+      "type_description": "Magenta fine - zone 1",
+      "capabilities": []
+    },
+    {
+      "index": 57,
+      "type": 0,
+      "type_description": "Yellow - zone 1",
+      "capabilities": []
+    },
+    {
+      "index": 58,
+      "type": 0,
+      "type_description": "Yellow fine - zone 1",
+      "capabilities": []
+    },
+    {
+      "index": 59,
+      "type": 0,
+      "type_description": "No function - zone 1",
+      "capabilities": []
+    },
+    {
+      "index": 60,
+      "type": 0,
+      "type_description": "No function bis - zone 1",
+      "capabilities": []
+    },
+    {
+      "index": 61,
+      "type": 0,
+      "type_description": "Cyan - zone 2",
+      "capabilities": []
+    },
+    {
+      "index": 62,
+      "type": 0,
+      "type_description": "Cyan fine - zone 2",
+      "capabilities": []
+    },
+    {
+      "index": 63,
+      "type": 0,
+      "type_description": "Magenta - zone 2",
+      "capabilities": []
+    },
+    {
+      "index": 64,
+      "type": 0,
+      "type_description": "Magenta fine - zone 2",
+      "capabilities": []
+    },
+    {
+      "index": 65,
+      "type": 0,
+      "type_description": "Yellow - zone 2",
+      "capabilities": []
+    },
+    {
+      "index": 66,
+      "type": 0,
+      "type_description": "Yellow fine - zone 2",
+      "capabilities": []
+    },
+    {
+      "index": 67,
+      "type": 0,
+      "type_description": "No function - zone 2",
+      "capabilities": []
+    },
+    {
+      "index": 68,
+      "type": 0,
+      "type_description": "No function bis - zone 2",
+      "capabilities": []
+    },
+    {
+      "index": 69,
+      "type": 0,
+      "type_description": "Cyan - zone 3",
+      "capabilities": []
+    },
+    {
+      "index": 70,
+      "type": 0,
+      "type_description": "Cyan fine - zone 3",
+      "capabilities": []
+    },
+    {
+      "index": 71,
+      "type": 0,
+      "type_description": "Magenta - zone 3",
+      "capabilities": []
+    },
+    {
+      "index": 72,
+      "type": 0,
+      "type_description": "Magenta fine - zone 3",
+      "capabilities": []
+    },
+    {
+      "index": 73,
+      "type": 0,
+      "type_description": "Yellow - zone 3",
+      "capabilities": []
+    },
+    {
+      "index": 74,
+      "type": 0,
+      "type_description": "Yellow fine - zone 3",
+      "capabilities": []
+    },
+    {
+      "index": 75,
+      "type": 0,
+      "type_description": "No function - zone 3",
+      "capabilities": []
+    },
+    {
+      "index": 76,
+      "type": 0,
+      "type_description": "No function bis - zone 3",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Robe/Robe-Robin-100-LEDBeam.json",
+  "id": 1208
+}

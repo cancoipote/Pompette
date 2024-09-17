@@ -1,0 +1,111 @@
+{
+  "version": "1.0.0",
+  "label": "LED PARty Hybrid Spot",
+  "manufacturer": "Eurolite",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 0,
+  "dimension_width": 152,
+  "dimension_height": 1700,
+  "dimension_depth": 120,
+  "lens_label": "Other",
+  "lens_degree_min": 22,
+  "lens_degree_max": 22,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 16,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Strobe effect",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Strobe effect with increasing speed",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Functions",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 50
+        },
+        {
+          "label": "Color change ''switching'', with increasing speed",
+          "min": 51,
+          "max": 100
+        },
+        {
+          "label": "Color change ''fading'', with increasing speed",
+          "min": 101,
+          "max": 200
+        },
+        {
+          "label": "Sound control",
+          "min": 201,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 22,
+      "type_description": "Channel 7 Speed",
+      "capabilities": [
+        {
+          "label": "Speed (slow-fast) Channel 7",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-LED-PARty-Hybrid-spot.json",
+  "id": 703
+}

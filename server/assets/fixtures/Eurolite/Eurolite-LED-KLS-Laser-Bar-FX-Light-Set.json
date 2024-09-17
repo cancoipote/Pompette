@@ -1,0 +1,682 @@
+{
+  "version": "1.0.0",
+  "label": "LED KLS Laser Bar FX Light Set",
+  "manufacturer": "Eurolite",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 7,
+  "dimension_width": 1320,
+  "dimension_height": 320,
+  "dimension_depth": 145,
+  "lens_label": "Other",
+  "lens_degree_min": 8,
+  "lens_degree_max": 15,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 50,
+  "technical_dmx_connector": "3-pin",
+  "type": 3,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Blackout, Automatic Mode and Sound-Controlled Mode",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Automatic mode spots and derbies (APxx)",
+          "min": 10,
+          "max": 31
+        },
+        {
+          "label": "Automatic mode laser (AL0x)",
+          "min": 32,
+          "max": 65
+        },
+        {
+          "label": "Automatic mode strobe LEDs (AFxx)",
+          "min": 66,
+          "max": 95
+        },
+        {
+          "label": "Automatic mode derbies, spots, laser and strobe LEDs (AM0x)",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Sound-controlled mode spots and derbies (SPxx)",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Sound-controlled mode laser (SL0x)",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Sound-controlled mode strobe LEDs (SFxx)",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Sound-controlled mode derbies, spots, laser and strobe LEDs (SM0x)",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Program Selection for Channel 1",
+      "capabilities": [
+        {
+          "label": "xP01/xL01/xF01/xM01",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "xP02/xL01/xF01/xM01",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "xP02/xL01/xF02/xM01",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "xP03/xL01/xF02/xM02",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "xP04/xL01/xF03/xM02",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "xP05/xL02/xF03/xM03",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "xP05/xL02/xF04/xM03",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "xP06/xL02/xF04/xM03",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "xP07/xL02/xF05/xM03",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "xP08/xL02/xF05/xM03",
+          "min": 70,
+          "max": 74
+        },
+        {
+          "label": "xP08/xL02/xF06/xM03",
+          "min": 75,
+          "max": 79
+        },
+        {
+          "label": "xP09/xL03/xF06/xM03",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "xP10/xL03/xF07/xM03",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "xP11/xL03/xF07/xM03",
+          "min": 100,
+          "max": 104
+        },
+        {
+          "label": "xP11/xL03/xF08/xM03",
+          "min": 105,
+          "max": 109
+        },
+        {
+          "label": "xP12/xL03/xF08/xM03",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "xP13/xL04/xF09/xM03",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "xP14/xL04/xF09/xM03",
+          "min": 130,
+          "max": 134
+        },
+        {
+          "label": "xP14/xL04/xF10/xM03",
+          "min": 135,
+          "max": 139
+        },
+        {
+          "label": "xP15/xL05/xF10/xM03",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "xP16/xL05/xF10/xM03",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "xP17/xL06/xF10/xM03",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "xP18/xL06/xF10/xM03",
+          "min": 170,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Running Speed (for Channel 1: 010-127)",
+      "capabilities": [
+        {
+          "label": "Running speed slow → fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Derbies and Spots: Red",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Derbies and Spots: Green",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Derbies and Spots: Blue",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Derbies and Spots: Dimmer/ Strobe",
+      "capabilities": [
+        {
+          "label": "Master dimmer 0-100 %",
+          "min": 0,
+          "max": 191
+        },
+        {
+          "label": "Sound-controlled strobe effect",
+          "min": 192,
+          "max": 200
+        },
+        {
+          "label": "Strobe effect slow → fast (30 Hz)",
+          "min": 201,
+          "max": 249
+        },
+        {
+          "label": "All colors on",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Derbies and Spots: Rotation",
+      "capabilities": [
+        {
+          "label": "No rotation",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Clockwise rotation slow → fast",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "No rotation",
+          "min": 128,
+          "max": 133
+        },
+        {
+          "label": "Anti-clockwise rotation slow → fast",
+          "min": 134,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Laser: Red",
+      "capabilities": [
+        {
+          "label": "Red laser off",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Red laser on",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "Red laser strobe effect slow → fast",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Laser: Green",
+      "capabilities": [
+        {
+          "label": "Green laser off",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Green laser on",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "Green laser strobe effect slow → fast",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Laser: Rotation",
+      "capabilities": [
+        {
+          "label": "No rotation",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Clockwise rotation slow → fast",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "No rotation",
+          "min": 128,
+          "max": 133
+        },
+        {
+          "label": "Anti-clockwise rotation slow → fast",
+          "min": 134,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 21,
+      "type_description": "Strobe LEDs",
+      "capabilities": [
+        {
+          "label": "Strobe LEDs off",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Strobe LEDs on",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "Strobe effect slow → fast",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Derby 1: Red",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Derby 1: Green",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Derby 1: Blue",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 3,
+      "type_description": "Derby 1: Brightness/Sound-Control",
+      "capabilities": [
+        {
+          "label": "Brightness red, green and blue 0-100 %",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Sound-controlled strobe effect",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 3,
+      "type_description": "Derby 1: Strobe/Rotation",
+      "capabilities": [
+        {
+          "label": "Strobe effect slow → fast (30 Hz)",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "All colors on",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "No rotation",
+          "min": 128,
+          "max": 133
+        },
+        {
+          "label": "Clockwise rotation slow → fast",
+          "min": 134,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Spot 2: Red",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Spot 2: Green",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Spot 2: Blue",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 21,
+      "type_description": "Spot 2: Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe effect slow → fast (30 Hz)",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "type": 3,
+      "type_description": "Spot 2: Non/Rotation",
+      "capabilities": [
+        {
+          "label": "No function for spots or rotation when operating a derby at this position",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Spot 3: Red",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Spot 3: Green",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Spot 3: Blue",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 21,
+      "type_description": "Spot 3: Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe effect slow → fast (30 Hz)",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "type": 3,
+      "type_description": "Spot 3: Non/Rotation",
+      "capabilities": [
+        {
+          "label": "No function for spots or rotation when operating a derby at this position",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Derby 4: Red",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "Derby 4: Green",
+      "capabilities": []
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "Derby 4: Blue",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 3,
+      "type_description": "Derby 4: Brightness/Sound-Control",
+      "capabilities": [
+        {
+          "label": "Brightness red, green and blue 0-100 %",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Sound-controlled strobe effect",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "type": 3,
+      "type_description": "Derby 4: Strobe/Rotation",
+      "capabilities": [
+        {
+          "label": "Strobe effect slow → fast (30 Hz)",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "All colors on",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "No rotation",
+          "min": 128,
+          "max": 133
+        },
+        {
+          "label": "Clockwise rotation slow → fast",
+          "min": 134,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "type": 21,
+      "type_description": "Strobe LED 1",
+      "capabilities": [
+        {
+          "label": "Strobe LED off",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Strobe LED on",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "Strobe effect slow → fast",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "type": 21,
+      "type_description": "Strobe LED 2",
+      "capabilities": [
+        {
+          "label": "Strobe LED off",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Strobe LED on",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "Strobe effect slow → fast",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "type": 21,
+      "type_description": "Strobe LED 3",
+      "capabilities": [
+        {
+          "label": "Strobe LED off",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Strobe LED on",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "Strobe effect slow → fast",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "type": 21,
+      "type_description": "Strobe LED 4",
+      "capabilities": [
+        {
+          "label": "Strobe LED off",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Strobe LED on",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "Strobe effect slow → fast",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-LED-KLS-Laser-Bar-FX-Light-Set.json",
+  "id": 693
+}

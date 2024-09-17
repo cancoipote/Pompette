@@ -1,0 +1,322 @@
+{
+  "version": "1.0.0",
+  "label": "SBL3000",
+  "manufacturer": "Involight",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 10,
+  "dimension_width": 845,
+  "dimension_height": 335,
+  "dimension_depth": 69,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 156,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "Dimmer Mode",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Automatic Mode",
+          "min": 10,
+          "max": 249
+        },
+        {
+          "label": "Sound Mode",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Program Speed",
+      "capabilities": [
+        {
+          "label": "Program Speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe (Slow to Fast)",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Sensitivity",
+      "capabilities": [
+        {
+          "label": "Sensitivity",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Red 1",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Green 1",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Blue 1",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Red 2",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Green 2",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Blue 2",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Red 3",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Green 3",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Blue 3",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Red 4",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Green 4",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Blue 4",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Yellow",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Green",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Cyan",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Blue",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Violet",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "White",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Pr. 1",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Pr. 2",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Pr. 3",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Pr. 4",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Pr. 5",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Pr. 6",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Pr. 7",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Pr. 8",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Pr. 9",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Pr. 10",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Pr. 11",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Pr. 12",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Pr. 13",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Pr. 14",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "Pr. 15",
+          "min": 220,
+          "max": 229
+        },
+        {
+          "label": "Pr. 16",
+          "min": 230,
+          "max": 239
+        },
+        {
+          "label": "Sound Mode",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Strobe Linear",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Involight/Involight-SBL3000.json",
+  "id": 901
+}

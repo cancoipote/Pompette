@@ -1,0 +1,135 @@
+{
+  "version": "1.0.0",
+  "label": "Performer 18 Quad Zoom",
+  "manufacturer": "Ledj",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 270,
+  "dimension_height": 255,
+  "dimension_depth": 290,
+  "lens_label": "Other",
+  "lens_degree_min": 25,
+  "lens_degree_max": 75,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 148,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Programs",
+      "capabilities": [
+        {
+          "label": "DMX control",
+          "min": 0,
+          "max": 40
+        },
+        {
+          "label": "Colour change",
+          "min": 41,
+          "max": 60
+        },
+        {
+          "label": "Colour fade in/out",
+          "min": 61,
+          "max": 80
+        },
+        {
+          "label": "Colour fade",
+          "min": 81,
+          "max": 100
+        },
+        {
+          "label": "Sound active",
+          "min": 101,
+          "max": 120
+        },
+        {
+          "label": "Sound active (blackout when no sound)",
+          "min": 121,
+          "max": 140
+        },
+        {
+          "label": "Colour change with zoom movement",
+          "min": 141,
+          "max": 160
+        },
+        {
+          "label": "Colour fade with zoom movement",
+          "min": 161,
+          "max": 180
+        },
+        {
+          "label": "Colour fade in/out with zoom movement",
+          "min": 181,
+          "max": 200
+        },
+        {
+          "label": "Sound active with zoom movement",
+          "min": 201,
+          "max": 220
+        },
+        {
+          "label": "Sound active with zoom movement",
+          "min": 221,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 22,
+      "type_description": "Chase/fade speed",
+      "capabilities": [
+        {
+          "label": "Slow to fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Ledj/Ledj-Performer-18-Quad-Zoom.json",
+  "id": 968
+}

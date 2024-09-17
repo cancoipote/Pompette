@@ -1,0 +1,420 @@
+{
+  "version": "1.0.0",
+  "label": "Dotz Flood",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 7,
+  "dimension_width": 251,
+  "dimension_height": 182,
+  "dimension_depth": 389,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 60,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 120,
+  "technical_dmx_connector": "5-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Color Macros",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Bastard amber",
+          "min": 1,
+          "max": 7
+        },
+        {
+          "label": "Medium amber",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Pale amber gold",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Gallo gold",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Golden amber",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Light red",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Medium red",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Medium pink",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Broadway pink",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Follies pink",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Light lavender",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Special lavender",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Lavender",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Indigo",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Hemsley blue",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Tipton blue",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Light steel blue",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Light sky blue",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Sky blue",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Brilliant blue",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Light green blue",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Bright blue",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Primary blue",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Congo blue",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Pale yellow green",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Moss green",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Primary green",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Double CTB",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Full red",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Full green",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Full blue",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "White",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Red 1",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Green 1",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Blue 1",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Strobing",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Strobing (Slow to fast)",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Dimmer curves",
+      "capabilities": [
+        {
+          "label": "Default to unit curve setting",
+          "min": 0,
+          "max": 40
+        },
+        {
+          "label": "Standard",
+          "min": 41,
+          "max": 61
+        },
+        {
+          "label": "Stage",
+          "min": 62,
+          "max": 82
+        },
+        {
+          "label": "TV",
+          "min": 83,
+          "max": 103
+        },
+        {
+          "label": "Architectural",
+          "min": 104,
+          "max": 124
+        },
+        {
+          "label": "Theatre",
+          "min": 125,
+          "max": 145
+        },
+        {
+          "label": "Nothing",
+          "min": 146,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Red 2",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Green 2",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Blue 2",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Red 3",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Green 3",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Blue 3",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 3,
+      "type_description": "Chase effect",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Chase 1",
+          "min": 1,
+          "max": 17
+        },
+        {
+          "label": "Chase 2",
+          "min": 18,
+          "max": 34
+        },
+        {
+          "label": "Chase 3",
+          "min": 35,
+          "max": 51
+        },
+        {
+          "label": "Chase 4",
+          "min": 52,
+          "max": 68
+        },
+        {
+          "label": "Chase 5",
+          "min": 69,
+          "max": 85
+        },
+        {
+          "label": "Chase 6",
+          "min": 86,
+          "max": 102
+        },
+        {
+          "label": "Chase 7",
+          "min": 103,
+          "max": 119
+        },
+        {
+          "label": "Chase 8",
+          "min": 120,
+          "max": 136
+        },
+        {
+          "label": "Chase 9",
+          "min": 137,
+          "max": 153
+        },
+        {
+          "label": "Chase 10",
+          "min": 154,
+          "max": 170
+        },
+        {
+          "label": "Chase 11",
+          "min": 171,
+          "max": 187
+        },
+        {
+          "label": "Chase 12",
+          "min": 188,
+          "max": 204
+        },
+        {
+          "label": "Chase 13",
+          "min": 205,
+          "max": 221
+        },
+        {
+          "label": "Chase 14",
+          "min": 222,
+          "max": 238
+        },
+        {
+          "label": "Chase 15",
+          "min": 239,
+          "max": 249
+        },
+        {
+          "label": "Sound active",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 22,
+      "type_description": "Chase speed",
+      "capabilities": [
+        {
+          "label": "chase speed (Slow to fast)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Dotz-Flood.json",
+  "id": 45
+}

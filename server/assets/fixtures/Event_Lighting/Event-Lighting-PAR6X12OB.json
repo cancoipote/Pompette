@@ -1,0 +1,197 @@
+{
+  "version": "1.0.0",
+  "label": "PAR6x12OB",
+  "manufacturer": "Event Lighting",
+  "bulb_type": "LED",
+  "bulb_lumens": 1600,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 240,
+  "dimension_height": 165,
+  "dimension_depth": 210,
+  "lens_label": "Other",
+  "lens_degree_min": 40,
+  "lens_degree_max": 40,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 72,
+  "technical_dmx_connector": "3-pin IP65",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "UV",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Color macro/Auto Run Speed",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "R",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "G",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "R+G",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "B",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "B+R+UV",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "G+B",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "R+G+B+A+UV",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "W",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "R+W",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "G+W",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "R+A",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "B+W+UV",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "R+B+W+UV",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "G+B+W",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "R+G+B+W+A+UV",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Auto Run Mode",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 50
+        },
+        {
+          "label": "Select 15 Static colour mode (CL), colour have been controlled by ch10",
+          "min": 51,
+          "max": 100
+        },
+        {
+          "label": "Select Auto colour switching modes (CC), program speed have been controlled by ch10",
+          "min": 101,
+          "max": 150
+        },
+        {
+          "label": "Select Auto colour fade mode (dE), program speed have been controlled by ch10",
+          "min": 151,
+          "max": 200
+        },
+        {
+          "label": "Select Auto colour pulse mode (CP), program speed have been controlled by ch10",
+          "min": 201,
+          "max": 250
+        },
+        {
+          "label": "Select Sound active mode (SU), sound sensitivity level have been controlled by ch10",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Event_Lighting/Event-Lighting-PAR6X12OB.json",
+  "id": 658
+}

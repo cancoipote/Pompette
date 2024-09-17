@@ -1,0 +1,819 @@
+{
+  "version": "1.0.0",
+  "label": "Varyscan P4",
+  "manufacturer": "JB-Lighting",
+  "bulb_type": "Osram Sirus 280W HRI",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 17,
+  "dimension_width": 380,
+  "dimension_height": 580,
+  "dimension_depth": 264,
+  "lens_label": "Other",
+  "lens_degree_min": 5,
+  "lens_degree_max": 20,
+  "focus_type": "Fixed",
+  "focus_pan_max": 433,
+  "focus_tilt_max": 280,
+  "technical_power_consumption": 430,
+  "technical_dmx_connector": "5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 17,
+      "type_description": "Control",
+      "capabilities": [
+        {
+          "label": "Safe",
+          "min": 0,
+          "max": 231
+        },
+        {
+          "label": "Lamp off (after 3 seconds)",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Reset (after 1 second)",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Lamp on",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Open",
+          "min": 16,
+          "max": 111
+        },
+        {
+          "label": "Fade effect with dimmer (slow to fast)",
+          "min": 112,
+          "max": 125
+        },
+        {
+          "label": "Open",
+          "min": 126,
+          "max": 126
+        },
+        {
+          "label": "Closed",
+          "min": 127,
+          "max": 127
+        },
+        {
+          "label": "Periodic pulse opening",
+          "min": 128,
+          "max": 142
+        },
+        {
+          "label": "Open",
+          "min": 143,
+          "max": 143
+        },
+        {
+          "label": "Periodic pulse closing",
+          "min": 144,
+          "max": 158
+        },
+        {
+          "label": "Closed",
+          "min": 159,
+          "max": 159
+        },
+        {
+          "label": "Periodic snap open/ramp shut (slow to fast)",
+          "min": 160,
+          "max": 174
+        },
+        {
+          "label": "Open",
+          "min": 175,
+          "max": 175
+        },
+        {
+          "label": "Periodic ramp open/snap shut (slow to fast)",
+          "min": 176,
+          "max": 190
+        },
+        {
+          "label": "Closed",
+          "min": 191,
+          "max": 191
+        },
+        {
+          "label": "Random opening pulse (slow to fast)",
+          "min": 192,
+          "max": 206
+        },
+        {
+          "label": "Open",
+          "min": 207,
+          "max": 207
+        },
+        {
+          "label": "Random closing pulse (slow to fast)",
+          "min": 208,
+          "max": 222
+        },
+        {
+          "label": "Closed",
+          "min": 223,
+          "max": 223
+        },
+        {
+          "label": "Random snap open/ramp shut (slow to fast)",
+          "min": 224,
+          "max": 238
+        },
+        {
+          "label": "Open",
+          "min": 239,
+          "max": 239
+        },
+        {
+          "label": "Random ramp open/snap shut (slow to fast)",
+          "min": 240,
+          "max": 254
+        },
+        {
+          "label": "Open",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 4,
+      "type_description": "Gobo Wheel 1",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Gobo 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Gobo 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Gobo 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Gobo 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Gobo 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Gobo 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Gobo 7",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Gobo 8",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Gobo 9",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Gobo 10",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Gobo 11",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Gobo 12",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Gobo 13",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Gobo 14 (offen)",
+          "min": 112,
+          "max": 191
+        },
+        {
+          "label": "Gobo wheel spin clockwise (fast - slow)",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Gobo wheel spin counterclockwise (slow - fast)",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 4,
+      "type_description": "Gobo Wheel 2",
+      "capabilities": [
+        {
+          "label": "Gobo wheel 2 active / gobo wheel 2 blocked",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Gobo 0 (open - 12mm )",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "Gobo 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Gobo 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Gobo 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Gobo 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Gobo 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Gobo 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Gobo 7",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Gobo 8",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Gobo 9",
+          "min": 72,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 4,
+      "type_description": "Gobo 2 rotation",
+      "capabilities": [
+        {
+          "label": "Positioning",
+          "min": 0,
+          "max": 191
+        },
+        {
+          "label": "Rotation clockwise",
+          "min": 192,
+          "max": 222
+        },
+        {
+          "label": "Stop",
+          "min": 223,
+          "max": 224
+        },
+        {
+          "label": "Rotation counterclockwise",
+          "min": 225,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Colour Wheel",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "White/red",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "Red",
+          "min": 8,
+          "max": 11
+        },
+        {
+          "label": "Red/yellow",
+          "min": 12,
+          "max": 15
+        },
+        {
+          "label": "Yellow",
+          "min": 16,
+          "max": 19
+        },
+        {
+          "label": "Yellow/magenta",
+          "min": 20,
+          "max": 23
+        },
+        {
+          "label": "Magenta",
+          "min": 24,
+          "max": 27
+        },
+        {
+          "label": "Magenta/green",
+          "min": 28,
+          "max": 31
+        },
+        {
+          "label": "Green",
+          "min": 32,
+          "max": 35
+        },
+        {
+          "label": "Green/orange",
+          "min": 36,
+          "max": 39
+        },
+        {
+          "label": "Orange",
+          "min": 40,
+          "max": 43
+        },
+        {
+          "label": "Orange/blue",
+          "min": 44,
+          "max": 47
+        },
+        {
+          "label": "Blue",
+          "min": 48,
+          "max": 51
+        },
+        {
+          "label": "Blue/cyan",
+          "min": 52,
+          "max": 55
+        },
+        {
+          "label": "Cyan",
+          "min": 56,
+          "max": 59
+        },
+        {
+          "label": "Cyan/white",
+          "min": 60,
+          "max": 63
+        },
+        {
+          "label": "colour position",
+          "min": 64,
+          "max": 191
+        },
+        {
+          "label": "Rotation clockwise",
+          "min": 192,
+          "max": 222
+        },
+        {
+          "label": "Rotation stop",
+          "min": 223,
+          "max": 224
+        },
+        {
+          "label": "Rotation anticlockwise",
+          "min": 225,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 20,
+      "type_description": "Prism 1",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 8
+        },
+        {
+          "label": "Prism",
+          "min": 9,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 20,
+      "type_description": "Prism 1 rotation",
+      "capabilities": [
+        {
+          "label": "Positioning",
+          "min": 0,
+          "max": 191
+        },
+        {
+          "label": "Rotation clockwise (fast to slow)",
+          "min": 192,
+          "max": 222
+        },
+        {
+          "label": "Stop",
+          "min": 223,
+          "max": 224
+        },
+        {
+          "label": "Rotation anticlockwise (slow to fast)",
+          "min": 225,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 22,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": [
+        {
+          "label": "Moves real time",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Moving delayed (fast to slow)",
+          "min": 4,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 22,
+      "type_description": "Effect Speed",
+      "capabilities": [
+        {
+          "label": "Effects in real time",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Effects delayed (fast to slow)",
+          "min": 4,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 17,
+      "type_description": "Blackout Move",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 95
+        },
+        {
+          "label": "Blackout at pan/tilt",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Blackout at gobo, color, prism",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Blackout at gobo, color, prism, focus",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Blackout at gobo, color, prism, pan/tilt",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Blackout at gobo, color, prism, focus, pan/tilt",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 1,
+      "type_description": "Zoom",
+      "capabilities": [
+        {
+          "label": "0-100% (weit - nah))",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 1,
+      "type_description": "Beam shape",
+      "capabilities": [
+        {
+          "label": "Frost",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Lense",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Open (will work only without glass gobo)",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Frost",
+          "min": 24,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 20,
+      "type_description": "Prism 2",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 8
+        },
+        {
+          "label": "Prism",
+          "min": 9,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 20,
+      "type_description": "Prism 2 rotation",
+      "capabilities": [
+        {
+          "label": "Positioning",
+          "min": 0,
+          "max": 191
+        },
+        {
+          "label": "Rotation clockwise (fast to slow)",
+          "min": 192,
+          "max": 222
+        },
+        {
+          "label": "Stop",
+          "min": 223,
+          "max": 224
+        },
+        {
+          "label": "Rotation anticlockwise (slow to fast)",
+          "min": 225,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "type": 1,
+      "type_description": "Frost",
+      "capabilities": [
+        {
+          "label": "Frost 0-100%",
+          "min": 0,
+          "max": 126
+        },
+        {
+          "label": "Frost 100%",
+          "min": 127,
+          "max": 127
+        },
+        {
+          "label": "Frost periodic opening pulse (fast to slow)",
+          "min": 128,
+          "max": 142
+        },
+        {
+          "label": "Frost 0%",
+          "min": 143,
+          "max": 143
+        },
+        {
+          "label": "Frost periodic closing pulse (fast to slow)",
+          "min": 144,
+          "max": 158
+        },
+        {
+          "label": "Frost 100%",
+          "min": 159,
+          "max": 159
+        },
+        {
+          "label": "Frost periodic ramp in / snap out (slow to fast)",
+          "min": 160,
+          "max": 174
+        },
+        {
+          "label": "Frost 0%",
+          "min": 175,
+          "max": 175
+        },
+        {
+          "label": "Frost periodic snap in / ramp out (slow to fast))",
+          "min": 176,
+          "max": 190
+        },
+        {
+          "label": "Frost 100%",
+          "min": 191,
+          "max": 191
+        },
+        {
+          "label": "Frost random opening pulse (slow to fast)",
+          "min": 192,
+          "max": 206
+        },
+        {
+          "label": "Frost 0%",
+          "min": 207,
+          "max": 207
+        },
+        {
+          "label": "Frost random closing pulse (slow to fast)",
+          "min": 208,
+          "max": 222
+        },
+        {
+          "label": "Frost 100%",
+          "min": 223,
+          "max": 223
+        },
+        {
+          "label": "Frost random ramp in / snap out (slow to fast)",
+          "min": 224,
+          "max": 238
+        },
+        {
+          "label": "Frost 0%",
+          "min": 239,
+          "max": 239
+        },
+        {
+          "label": "Frost random snap in / ramp out (slow to fast)",
+          "min": 240,
+          "max": 254
+        },
+        {
+          "label": "Frost 100%",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "type": 4,
+      "type_description": "Gobo 2 rotation fine",
+      "capabilities": [
+        {
+          "label": "Gobo wheel 2 fine positioning",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "type": 20,
+      "type_description": "Prism 1 rotation fine",
+      "capabilities": [
+        {
+          "label": "Prism 1 positioning / rotation fine",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "type": 20,
+      "type_description": "Prism 2 rotation fine",
+      "capabilities": [
+        {
+          "label": "Prism 2 positioning / rotation fine",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/JB-Lighting/JB-Lighting-Varyscan-P4.json",
+  "id": 915
+}

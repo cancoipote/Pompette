@@ -1,0 +1,421 @@
+{
+  "version": "1.0.0",
+  "label": "YPOC Color 575",
+  "manufacturer": "GLP",
+  "bulb_type": "HTI 575W",
+  "bulb_lumens": 43000,
+  "bulb_color_temperature": 7500,
+  "dimension_weight": 19,
+  "dimension_width": 380,
+  "dimension_height": 520,
+  "dimension_depth": 390,
+  "lens_label": "Fresnel",
+  "lens_degree_min": 8,
+  "lens_degree_max": 22,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 280,
+  "technical_power_consumption": 780,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan coarse",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt coarse",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "White (fast)",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Brilliant blue (fast)",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "Blue (fast)",
+          "min": 8,
+          "max": 11
+        },
+        {
+          "label": "Purple (fast)",
+          "min": 12,
+          "max": 15
+        },
+        {
+          "label": "Pink (fast)",
+          "min": 16,
+          "max": 19
+        },
+        {
+          "label": "Orange (fast)",
+          "min": 20,
+          "max": 23
+        },
+        {
+          "label": "Italian blue (fast)",
+          "min": 24,
+          "max": 27
+        },
+        {
+          "label": "Turquoise (fast)",
+          "min": 28,
+          "max": 31
+        },
+        {
+          "label": "Jade (fast)",
+          "min": 32,
+          "max": 35
+        },
+        {
+          "label": "CTB 001 (fast)",
+          "min": 36,
+          "max": 39
+        },
+        {
+          "label": "CTO 02 (fast)",
+          "min": 40,
+          "max": 43
+        },
+        {
+          "label": "Red (fast)",
+          "min": 44,
+          "max": 47
+        },
+        {
+          "label": "White (fast)",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "White (slow)",
+          "min": 64,
+          "max": 67
+        },
+        {
+          "label": "Brilliant blue (slow)",
+          "min": 68,
+          "max": 71
+        },
+        {
+          "label": "Blue (slow)",
+          "min": 72,
+          "max": 75
+        },
+        {
+          "label": "Purple (slow)",
+          "min": 76,
+          "max": 79
+        },
+        {
+          "label": "Pink (slow)",
+          "min": 80,
+          "max": 83
+        },
+        {
+          "label": "Orange (slow)",
+          "min": 84,
+          "max": 87
+        },
+        {
+          "label": "Italian blue (slow)",
+          "min": 88,
+          "max": 91
+        },
+        {
+          "label": "Turquoise (slow)",
+          "min": 92,
+          "max": 95
+        },
+        {
+          "label": "Jade (slow)",
+          "min": 96,
+          "max": 99
+        },
+        {
+          "label": "CTB 001 (slow)",
+          "min": 100,
+          "max": 103
+        },
+        {
+          "label": "CTO 02 (slow)",
+          "min": 104,
+          "max": 107
+        },
+        {
+          "label": "Red (slow)",
+          "min": 108,
+          "max": 111
+        },
+        {
+          "label": "White (slow)",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "CW rotation slow to fast",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "CCW rotation fast to slow",
+          "min": 192,
+          "max": 253
+        },
+        {
+          "label": "Color chase slow",
+          "min": 254,
+          "max": 254
+        },
+        {
+          "label": "Color chase fast",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Random strobe",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Strobe pulse slow to fast",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Strobe slow to fast",
+          "min": 48,
+          "max": 239
+        },
+        {
+          "label": "Open",
+          "min": 240,
+          "max": 253
+        },
+        {
+          "label": "Lamp ON",
+          "min": 254,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 17,
+      "type_description": "Special",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Audio CMY chaser fast",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Rotating color chaser",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Color chaser C/C+1 slow to fast",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Color chaser C/C+2 slow to fast",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Pan/Tilt chaser slow",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Pan/Tilt chaser fast",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "No function",
+          "min": 128,
+          "max": 229
+        },
+        {
+          "label": "Lamp OFF (when shutter closed)",
+          "min": 230,
+          "max": 249
+        },
+        {
+          "label": "Reset",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Movement",
+      "capabilities": [
+        {
+          "label": "No movement",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Pan effects",
+          "min": 1,
+          "max": 31
+        },
+        {
+          "label": "Tilt effects",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Pan/Tilt effects",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Inverse pan/tilt effects",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Circle effects",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Inverse circle effects",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Lying eight effects",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Random movement effects",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 22,
+      "type_description": "Movement speed",
+      "capabilities": [
+        {
+          "label": "Relative movement",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Slow to fast",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Cyan",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Magenta",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Yellow",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 1,
+      "type_description": "Beam shape",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Shaper",
+          "min": 16,
+          "max": 239
+        },
+        {
+          "label": "Frost",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/GLP/GLP-YPOCColor575.json",
+  "id": 864
+}

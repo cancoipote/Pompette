@@ -1,0 +1,1015 @@
+{
+  "version": "1.0.0",
+  "label": "Sharpy Plus",
+  "manufacturer": "Clay Paky",
+  "bulb_type": "OSRAM 330W X8 HRI Sirius",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 23,
+  "dimension_width": 375,
+  "dimension_height": 635,
+  "dimension_depth": 307,
+  "lens_label": "Other",
+  "lens_degree_min": 3,
+  "lens_degree_max": 36,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 500,
+  "technical_dmx_connector": "5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Cyan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Magenta",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Yellow",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Colour Wheel 1",
+      "capabilities": [
+        {
+          "label": "Empty position",
+          "min": 0,
+          "max": 23
+        },
+        {
+          "label": "Empty + UV filter",
+          "min": 24,
+          "max": 46
+        },
+        {
+          "label": "UV Filter",
+          "min": 47,
+          "max": 69
+        },
+        {
+          "label": "UV Filter + Lavender",
+          "min": 70,
+          "max": 92
+        },
+        {
+          "label": "Lavender",
+          "min": 93,
+          "max": 115
+        },
+        {
+          "label": "Lavender + CTO 3200K",
+          "min": 116,
+          "max": 139
+        },
+        {
+          "label": "CTO 3200K",
+          "min": 140,
+          "max": 162
+        },
+        {
+          "label": "CTO 3200K + CTO 2500K",
+          "min": 163,
+          "max": 185
+        },
+        {
+          "label": "CTO 2500K",
+          "min": 186,
+          "max": 208
+        },
+        {
+          "label": "CTO 2500K + Blue Wood",
+          "min": 209,
+          "max": 231
+        },
+        {
+          "label": "Blue Wood",
+          "min": 232,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Colour Wheel 2",
+      "capabilities": [
+        {
+          "label": "Empty position",
+          "min": 0,
+          "max": 23
+        },
+        {
+          "label": "Empty + Dark Green",
+          "min": 24,
+          "max": 46
+        },
+        {
+          "label": "Dark Green",
+          "min": 47,
+          "max": 69
+        },
+        {
+          "label": "Dark Green + CTB",
+          "min": 70,
+          "max": 92
+        },
+        {
+          "label": "CTB",
+          "min": 93,
+          "max": 115
+        },
+        {
+          "label": "CTB + Dark Blue",
+          "min": 116,
+          "max": 139
+        },
+        {
+          "label": "Dark Blue",
+          "min": 140,
+          "max": 162
+        },
+        {
+          "label": "Dark Blue + H.M. Green",
+          "min": 163,
+          "max": 185
+        },
+        {
+          "label": "H.M. Green",
+          "min": 186,
+          "max": 208
+        },
+        {
+          "label": "H.M. Green + Dark Red",
+          "min": 209,
+          "max": 231
+        },
+        {
+          "label": "Dark Red",
+          "min": 232,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Colour Wheel 3",
+      "capabilities": [
+        {
+          "label": "Empty position",
+          "min": 0,
+          "max": 23
+        },
+        {
+          "label": "Empty + Light Green",
+          "min": 24,
+          "max": 46
+        },
+        {
+          "label": "Light Green",
+          "min": 47,
+          "max": 69
+        },
+        {
+          "label": "Light Green + Pink",
+          "min": 70,
+          "max": 92
+        },
+        {
+          "label": "Pink",
+          "min": 93,
+          "max": 115
+        },
+        {
+          "label": "Pink - Aquamarine",
+          "min": 116,
+          "max": 139
+        },
+        {
+          "label": "Aquamarine",
+          "min": 140,
+          "max": 162
+        },
+        {
+          "label": "Aquamarine + Dark Orange",
+          "min": 163,
+          "max": 185
+        },
+        {
+          "label": "Dark Orange",
+          "min": 186,
+          "max": 208
+        },
+        {
+          "label": "Dark Orange + Light Orange",
+          "min": 209,
+          "max": 231
+        },
+        {
+          "label": "Light Orange",
+          "min": 232,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Light OFF",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Stobe (slow to fast)",
+          "min": 4,
+          "max": 103
+        },
+        {
+          "label": "Light ON",
+          "min": 104,
+          "max": 107
+        },
+        {
+          "label": "Pulsation (slow to fast)",
+          "min": 108,
+          "max": 207
+        },
+        {
+          "label": "Light ON",
+          "min": 208,
+          "max": 212
+        },
+        {
+          "label": "Random Strobe at low frequency",
+          "min": 213,
+          "max": 225
+        },
+        {
+          "label": "Random Strobe at medium frequency",
+          "min": 226,
+          "max": 238
+        },
+        {
+          "label": "Random Strobe at high frequency",
+          "min": 239,
+          "max": 251
+        },
+        {
+          "label": "Light ON",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Dimmer fine",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 4,
+      "type_description": "Fixed Gobo",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Gobo 1",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "Gobo 2",
+          "min": 8,
+          "max": 11
+        },
+        {
+          "label": "Gobo 3",
+          "min": 12,
+          "max": 14
+        },
+        {
+          "label": "Gobo 4",
+          "min": 15,
+          "max": 18
+        },
+        {
+          "label": "Gobo 5",
+          "min": 19,
+          "max": 22
+        },
+        {
+          "label": "Gobo 6",
+          "min": 23,
+          "max": 26
+        },
+        {
+          "label": "Gobo 7",
+          "min": 27,
+          "max": 29
+        },
+        {
+          "label": "Gobo 8",
+          "min": 30,
+          "max": 33
+        },
+        {
+          "label": "Gobo 9",
+          "min": 34,
+          "max": 37
+        },
+        {
+          "label": "Gobo 10",
+          "min": 38,
+          "max": 41
+        },
+        {
+          "label": "Gobo 11",
+          "min": 42,
+          "max": 44
+        },
+        {
+          "label": "Gobo 12",
+          "min": 45,
+          "max": 48
+        },
+        {
+          "label": "Gobo 13",
+          "min": 49,
+          "max": 52
+        },
+        {
+          "label": "Gobo 14",
+          "min": 53,
+          "max": 56
+        },
+        {
+          "label": "Gobo 15",
+          "min": 57,
+          "max": 59
+        },
+        {
+          "label": "Gobo 16",
+          "min": 60,
+          "max": 63
+        },
+        {
+          "label": "Gobo 17",
+          "min": 64,
+          "max": 67
+        },
+        {
+          "label": "Gobo 18",
+          "min": 68,
+          "max": 71
+        },
+        {
+          "label": "Gobo wheel rotation CCW (fast to slow)",
+          "min": 72,
+          "max": 113
+        },
+        {
+          "label": "Stop rotation",
+          "min": 114,
+          "max": 117
+        },
+        {
+          "label": "Gobo wheel rotation CW (slow to fast)",
+          "min": 118,
+          "max": 159
+        },
+        {
+          "label": "Gobo 1 shake",
+          "min": 160,
+          "max": 165
+        },
+        {
+          "label": "Gobo 2 shake",
+          "min": 166,
+          "max": 170
+        },
+        {
+          "label": "Gobo 3 shake",
+          "min": 171,
+          "max": 175
+        },
+        {
+          "label": "Gobo 4 shake",
+          "min": 176,
+          "max": 181
+        },
+        {
+          "label": "Gobo 5 shake",
+          "min": 182,
+          "max": 186
+        },
+        {
+          "label": "Gobo 6 shake",
+          "min": 187,
+          "max": 191
+        },
+        {
+          "label": "Gobo 7 shake",
+          "min": 192,
+          "max": 196
+        },
+        {
+          "label": "Gobo 8 shake",
+          "min": 197,
+          "max": 202
+        },
+        {
+          "label": "Gobo 9 shake",
+          "min": 203,
+          "max": 207
+        },
+        {
+          "label": "Gobo 10 shake",
+          "min": 208,
+          "max": 212
+        },
+        {
+          "label": "Gobo 11 shake",
+          "min": 213,
+          "max": 218
+        },
+        {
+          "label": "Gobo 12 shake",
+          "min": 219,
+          "max": 223
+        },
+        {
+          "label": "Gobo 13 shake",
+          "min": 224,
+          "max": 228
+        },
+        {
+          "label": "Gobo 14 shake",
+          "min": 229,
+          "max": 233
+        },
+        {
+          "label": "Gobo 15 shake",
+          "min": 234,
+          "max": 239
+        },
+        {
+          "label": "Gobo 16 shake",
+          "min": 240,
+          "max": 244
+        },
+        {
+          "label": "Gobo 17 shake",
+          "min": 245,
+          "max": 249
+        },
+        {
+          "label": "Gobo 18 shake",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Animation disk insertion",
+      "capabilities": [
+        {
+          "label": "Linear Animation disk insertion",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 3,
+      "type_description": "Animation Disk Rotation",
+      "capabilities": [
+        {
+          "label": "Stop rotation",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Animation disk CCW rotation (slow to fast)",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "Stop rotation",
+          "min": 128,
+          "max": 132
+        },
+        {
+          "label": "Animation disk CW rotation (slow to fast)",
+          "min": 133,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 4,
+      "type_description": "Rotating Gobo Select",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Gobo 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Gobo 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Gobo 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Gobo 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Gobo 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Gobo 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Gobo 7",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Gobo 8",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Continuous gobo wheel CCW Rotation (fast to slow)",
+          "min": 72,
+          "max": 113
+        },
+        {
+          "label": "Stop rotation",
+          "min": 114,
+          "max": 117
+        },
+        {
+          "label": "Continuous gobo wheel CW Rotation (slow to fast)",
+          "min": 118,
+          "max": 159
+        },
+        {
+          "label": "Gobo 1 shake",
+          "min": 160,
+          "max": 171
+        },
+        {
+          "label": "Gobo 2 shake",
+          "min": 172,
+          "max": 183
+        },
+        {
+          "label": "Gobo 3 shake",
+          "min": 184,
+          "max": 195
+        },
+        {
+          "label": "Gobo 4 shake",
+          "min": 196,
+          "max": 207
+        },
+        {
+          "label": "Gobo 5 shake",
+          "min": 208,
+          "max": 219
+        },
+        {
+          "label": "Gobo 6 shake",
+          "min": 220,
+          "max": 231
+        },
+        {
+          "label": "Gobo 7 shake",
+          "min": 232,
+          "max": 243
+        },
+        {
+          "label": "Gobo 8 shake",
+          "min": 244,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 4,
+      "type_description": "Gobo Rotation",
+      "capabilities": [
+        {
+          "label": "Gobo Indexing CW: 0° - 90° range",
+          "min": 0,
+          "max": 21
+        },
+        {
+          "label": "Gobo Indexing CW: 90° - 180° range",
+          "min": 22,
+          "max": 42
+        },
+        {
+          "label": "Gobo Indexing CW: 180° - 270° range",
+          "min": 43,
+          "max": 63
+        },
+        {
+          "label": "Gobo Indexing CW: 270° - 360° range",
+          "min": 64,
+          "max": 84
+        },
+        {
+          "label": "Gobo Indexing CW: 360° - 450° range",
+          "min": 85,
+          "max": 105
+        },
+        {
+          "label": "Gobo Indexing CW: 450° - 540° range",
+          "min": 106,
+          "max": 127
+        },
+        {
+          "label": "Continuous gobo CW rotation (fast to slow)",
+          "min": 128,
+          "max": 190
+        },
+        {
+          "label": "Stop rotation",
+          "min": 191,
+          "max": 192
+        },
+        {
+          "label": "Continuous gobo CCW rotation (slow to fast)",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 4,
+      "type_description": "Gobo Rotation Fine",
+      "capabilities": [
+        {
+          "label": "Fine gobo indexing CW",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 20,
+      "type_description": "4 Facet Prism Insertion",
+      "capabilities": [
+        {
+          "label": "Prism out",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "4-facet prism into the light beam",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 20,
+      "type_description": "4 Facet Prism Rotation",
+      "capabilities": [
+        {
+          "label": "Prism Indexing CW: 0° - 90° range",
+          "min": 0,
+          "max": 21
+        },
+        {
+          "label": "Prism Indexing CW: 90° - 180° range",
+          "min": 22,
+          "max": 42
+        },
+        {
+          "label": "Prism Indexing CW: 180° - 270° range",
+          "min": 43,
+          "max": 63
+        },
+        {
+          "label": "Prism Indexing CW: 270° - 360° range",
+          "min": 64,
+          "max": 84
+        },
+        {
+          "label": "Prism Indexing CW: 360° - 450° range",
+          "min": 85,
+          "max": 105
+        },
+        {
+          "label": "Prism Indexing CW: 450° - 540° range",
+          "min": 106,
+          "max": 127
+        },
+        {
+          "label": "Continuous prism CW rotation (fast to slow)",
+          "min": 128,
+          "max": 190
+        },
+        {
+          "label": "Stop rotation",
+          "min": 191,
+          "max": 192
+        },
+        {
+          "label": "Continuous prism CCW rotation (slow to fast)",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 20,
+      "type_description": "8 Facet Prism Insertion",
+      "capabilities": [
+        {
+          "label": "Prism out",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "8-facet prism into the light beam",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 20,
+      "type_description": "8 Facet Prism Rotation",
+      "capabilities": [
+        {
+          "label": "Prism Indexing CW: 0° - 90° range",
+          "min": 0,
+          "max": 21
+        },
+        {
+          "label": "Prism Indexing CW: 90° - 180° range",
+          "min": 22,
+          "max": 42
+        },
+        {
+          "label": "Prism Indexing CW: 180° - 270° range",
+          "min": 43,
+          "max": 63
+        },
+        {
+          "label": "Prism Indexing CW: 270° - 360° range",
+          "min": 64,
+          "max": 84
+        },
+        {
+          "label": "Prism Indexing CW: 360° - 450° range",
+          "min": 85,
+          "max": 105
+        },
+        {
+          "label": "Prism Indexing CW: 450° - 540° range",
+          "min": 106,
+          "max": 127
+        },
+        {
+          "label": "Continuous prism CW rotation (fast to slow)",
+          "min": 128,
+          "max": 190
+        },
+        {
+          "label": "Stop rotation",
+          "min": 191,
+          "max": 192
+        },
+        {
+          "label": "Continuous prism CCW rotation (slow to fast)",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 1,
+      "type_description": "Frost",
+      "capabilities": [
+        {
+          "label": "Frost blades move linearly from no-diffusion to maximum diffusion",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Focus fine",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 1,
+      "type_description": "Beam Mode",
+      "capabilities": [
+        {
+          "label": "Spot Mode",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Beam Mode",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 17,
+      "type_description": "Function",
+      "capabilities": [
+        {
+          "label": "Free",
+          "min": 0,
+          "max": 110
+        },
+        {
+          "label": "Standard CMY speed",
+          "min": 111,
+          "max": 120
+        },
+        {
+          "label": "Fast CMY speed",
+          "min": 121,
+          "max": 130
+        },
+        {
+          "label": "Dimmer Curve 1",
+          "min": 131,
+          "max": 140
+        },
+        {
+          "label": "Dimmer Curve 2",
+          "min": 141,
+          "max": 150
+        },
+        {
+          "label": "Display OFF",
+          "min": 151,
+          "max": 160
+        },
+        {
+          "label": "Display ON",
+          "min": 161,
+          "max": 170
+        },
+        {
+          "label": "Free",
+          "min": 171,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "type": 17,
+      "type_description": "Reset",
+      "capabilities": [
+        {
+          "label": "Free",
+          "min": 0,
+          "max": 25
+        },
+        {
+          "label": "Effects Reset",
+          "min": 26,
+          "max": 76
+        },
+        {
+          "label": "Pan-Tilt Reset",
+          "min": 77,
+          "max": 127
+        },
+        {
+          "label": "Complete Reset",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "type": 5,
+      "type_description": "Lamp Control",
+      "capabilities": [
+        {
+          "label": "Free",
+          "min": 0,
+          "max": 25
+        },
+        {
+          "label": "Lamp OFF",
+          "min": 26,
+          "max": 100
+        },
+        {
+          "label": "Lamp ON",
+          "min": 101,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Clay_Paky/Clay-Paky-Sharpy-Plus.json",
+  "id": 372
+}

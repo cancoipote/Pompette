@@ -1,0 +1,1677 @@
+{
+  "version": "1.0.0",
+  "label": "HydraBeam 4000",
+  "manufacturer": "Cameo",
+  "bulb_type": "LED",
+  "bulb_lumens": 67200,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 12,
+  "dimension_width": 1000,
+  "dimension_height": 270,
+  "dimension_depth": 90,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 220,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No Strobe",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Strobe Slow to Fast",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 3,
+      "type_description": "Show Mode",
+      "capabilities": [
+        {
+          "label": "No Movement",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Show 1",
+          "min": 8,
+          "max": 22
+        },
+        {
+          "label": "Show 2",
+          "min": 23,
+          "max": 37
+        },
+        {
+          "label": "Show 3",
+          "min": 38,
+          "max": 52
+        },
+        {
+          "label": "Show 4",
+          "min": 53,
+          "max": 67
+        },
+        {
+          "label": "Show 5",
+          "min": 68,
+          "max": 82
+        },
+        {
+          "label": "Show 6",
+          "min": 83,
+          "max": 97
+        },
+        {
+          "label": "Show 7",
+          "min": 98,
+          "max": 112
+        },
+        {
+          "label": "Show 8",
+          "min": 113,
+          "max": 127
+        },
+        {
+          "label": "Show 9",
+          "min": 128,
+          "max": 142
+        },
+        {
+          "label": "Show 10",
+          "min": 143,
+          "max": 157
+        },
+        {
+          "label": "Show 11",
+          "min": 158,
+          "max": 172
+        },
+        {
+          "label": "Show 12",
+          "min": 173,
+          "max": 187
+        },
+        {
+          "label": "Show 13",
+          "min": 188,
+          "max": 202
+        },
+        {
+          "label": "Show 14",
+          "min": 203,
+          "max": 217
+        },
+        {
+          "label": "Show 15",
+          "min": 218,
+          "max": 232
+        },
+        {
+          "label": "Show 16",
+          "min": 233,
+          "max": 247
+        },
+        {
+          "label": "Sound Control Mode",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 22,
+      "type_description": "Show Mode Speed",
+      "capabilities": [
+        {
+          "label": "Show Mode Speed (Slow to Fast) / Sound Sensitivity",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "Automatic Colour Change",
+          "min": 0,
+          "max": 30
+        },
+        {
+          "label": "Red",
+          "min": 31,
+          "max": 45
+        },
+        {
+          "label": "Green",
+          "min": 46,
+          "max": 60
+        },
+        {
+          "label": "Blue",
+          "min": 61,
+          "max": 75
+        },
+        {
+          "label": "White",
+          "min": 76,
+          "max": 90
+        },
+        {
+          "label": "Red+Green",
+          "min": 91,
+          "max": 105
+        },
+        {
+          "label": "Red+Blue",
+          "min": 106,
+          "max": 120
+        },
+        {
+          "label": "Red+White",
+          "min": 121,
+          "max": 135
+        },
+        {
+          "label": "Green+Blue",
+          "min": 136,
+          "max": 150
+        },
+        {
+          "label": "Green+White",
+          "min": 151,
+          "max": 165
+        },
+        {
+          "label": "Blue+White",
+          "min": 166,
+          "max": 180
+        },
+        {
+          "label": "Red+Green+Blue",
+          "min": 181,
+          "max": 195
+        },
+        {
+          "label": "Red+Green+White",
+          "min": 196,
+          "max": 210
+        },
+        {
+          "label": "Red+Blue+White",
+          "min": 211,
+          "max": 225
+        },
+        {
+          "label": "Green+Blue+White",
+          "min": 226,
+          "max": 240
+        },
+        {
+          "label": "Red+Green+Blue+White",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 22,
+      "type_description": "Automatic Colour Change Speed",
+      "capabilities": [
+        {
+          "label": "Automatic Colour Change Speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Pan All",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Tilt All",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Pan Fine All",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Tilt Fine All",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Pan 1",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Tilt 1",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Dimmer 1",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Pan 2",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Tilt 2",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Dimmer 2",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Pan 3",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Tilt 3",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Dimmer 3",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Pan 4",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Tilt 4",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Dimmer 4",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Head Speed",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Pan Fine 1",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "Pan Fine 2",
+      "capabilities": []
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "Pan Fine 3",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 0,
+      "type_description": "Pan Fine 4",
+      "capabilities": []
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "Tilt Fine 1",
+      "capabilities": []
+    },
+    {
+      "index": 32,
+      "type": 0,
+      "type_description": "Tilt Fine 2",
+      "capabilities": []
+    },
+    {
+      "index": 33,
+      "type": 0,
+      "type_description": "Tilt Fine 3",
+      "capabilities": []
+    },
+    {
+      "index": 34,
+      "type": 0,
+      "type_description": "Tilt Fine 4",
+      "capabilities": []
+    },
+    {
+      "index": 35,
+      "type": 22,
+      "type_description": "Head Speed 1 32-CH",
+      "capabilities": [
+        {
+          "label": "Fastest",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Fast to Slow",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "type": 22,
+      "type_description": "Head Speed 2 32-CH",
+      "capabilities": [
+        {
+          "label": "Same as Channel 7",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Fast to Slow",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "type": 22,
+      "type_description": "Head Speed 3 32-CH",
+      "capabilities": [
+        {
+          "label": "Same as Channel 7",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Fast to Slow",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "type": 22,
+      "type_description": "Head Speed 4 32-CH",
+      "capabilities": [
+        {
+          "label": "Same as Channel 7",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Fast to Slow",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "type": 0,
+      "type_description": "Head Colour 1 32-CH",
+      "capabilities": [
+        {
+          "label": "Channel 29-32",
+          "min": 0,
+          "max": 30
+        },
+        {
+          "label": "Red",
+          "min": 31,
+          "max": 45
+        },
+        {
+          "label": "Green",
+          "min": 46,
+          "max": 60
+        },
+        {
+          "label": "Blue",
+          "min": 61,
+          "max": 75
+        },
+        {
+          "label": "White",
+          "min": 76,
+          "max": 90
+        },
+        {
+          "label": "Red+Green",
+          "min": 91,
+          "max": 105
+        },
+        {
+          "label": "Red+Blue",
+          "min": 106,
+          "max": 120
+        },
+        {
+          "label": "Red+White",
+          "min": 121,
+          "max": 135
+        },
+        {
+          "label": "Green+Blue",
+          "min": 136,
+          "max": 150
+        },
+        {
+          "label": "Green+White",
+          "min": 151,
+          "max": 165
+        },
+        {
+          "label": "Blue+White",
+          "min": 166,
+          "max": 180
+        },
+        {
+          "label": "Red+Green+Blue",
+          "min": 181,
+          "max": 195
+        },
+        {
+          "label": "Red+Green+White",
+          "min": 196,
+          "max": 210
+        },
+        {
+          "label": "Red+Blue+White",
+          "min": 211,
+          "max": 225
+        },
+        {
+          "label": "Green+Blue+White",
+          "min": 226,
+          "max": 240
+        },
+        {
+          "label": "Red+Green+Blue+White",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "type": 0,
+      "type_description": "Head Colour 2 32-CH",
+      "capabilities": [
+        {
+          "label": "Channel 29-32",
+          "min": 0,
+          "max": 30
+        },
+        {
+          "label": "Red",
+          "min": 31,
+          "max": 45
+        },
+        {
+          "label": "Green",
+          "min": 46,
+          "max": 60
+        },
+        {
+          "label": "Blue",
+          "min": 61,
+          "max": 75
+        },
+        {
+          "label": "White",
+          "min": 76,
+          "max": 90
+        },
+        {
+          "label": "Red+Green",
+          "min": 91,
+          "max": 105
+        },
+        {
+          "label": "Red+Blue",
+          "min": 106,
+          "max": 120
+        },
+        {
+          "label": "Red+White",
+          "min": 121,
+          "max": 135
+        },
+        {
+          "label": "Green+Blue",
+          "min": 136,
+          "max": 150
+        },
+        {
+          "label": "Green+White",
+          "min": 151,
+          "max": 165
+        },
+        {
+          "label": "Blue+White",
+          "min": 166,
+          "max": 180
+        },
+        {
+          "label": "Red+Green+Blue",
+          "min": 181,
+          "max": 195
+        },
+        {
+          "label": "Red+Green+White",
+          "min": 196,
+          "max": 210
+        },
+        {
+          "label": "Red+Blue+White",
+          "min": 211,
+          "max": 225
+        },
+        {
+          "label": "Green+Blue+White",
+          "min": 226,
+          "max": 240
+        },
+        {
+          "label": "Red+Green+Blue+White",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "type": 0,
+      "type_description": "Head Colour 3 32-CH",
+      "capabilities": [
+        {
+          "label": "Channel 29-32",
+          "min": 0,
+          "max": 30
+        },
+        {
+          "label": "Red",
+          "min": 31,
+          "max": 45
+        },
+        {
+          "label": "Green",
+          "min": 46,
+          "max": 60
+        },
+        {
+          "label": "Blue",
+          "min": 61,
+          "max": 75
+        },
+        {
+          "label": "White",
+          "min": 76,
+          "max": 90
+        },
+        {
+          "label": "Red+Green",
+          "min": 91,
+          "max": 105
+        },
+        {
+          "label": "Red+Blue",
+          "min": 106,
+          "max": 120
+        },
+        {
+          "label": "Red+White",
+          "min": 121,
+          "max": 135
+        },
+        {
+          "label": "Green+Blue",
+          "min": 136,
+          "max": 150
+        },
+        {
+          "label": "Green+White",
+          "min": 151,
+          "max": 165
+        },
+        {
+          "label": "Blue+White",
+          "min": 166,
+          "max": 180
+        },
+        {
+          "label": "Red+Green+Blue",
+          "min": 181,
+          "max": 195
+        },
+        {
+          "label": "Red+Green+White",
+          "min": 196,
+          "max": 210
+        },
+        {
+          "label": "Red+Blue+White",
+          "min": 211,
+          "max": 225
+        },
+        {
+          "label": "Green+Blue+White",
+          "min": 226,
+          "max": 240
+        },
+        {
+          "label": "Red+Green+Blue+White",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "type": 0,
+      "type_description": "Head Colour 4 32-CH",
+      "capabilities": [
+        {
+          "label": "Channel 29-32",
+          "min": 0,
+          "max": 30
+        },
+        {
+          "label": "Red",
+          "min": 31,
+          "max": 45
+        },
+        {
+          "label": "Green",
+          "min": 46,
+          "max": 60
+        },
+        {
+          "label": "Blue",
+          "min": 61,
+          "max": 75
+        },
+        {
+          "label": "White",
+          "min": 76,
+          "max": 90
+        },
+        {
+          "label": "Red+Green",
+          "min": 91,
+          "max": 105
+        },
+        {
+          "label": "Red+Blue",
+          "min": 106,
+          "max": 120
+        },
+        {
+          "label": "Red+White",
+          "min": 121,
+          "max": 135
+        },
+        {
+          "label": "Green+Blue",
+          "min": 136,
+          "max": 150
+        },
+        {
+          "label": "Green+White",
+          "min": 151,
+          "max": 165
+        },
+        {
+          "label": "Blue+White",
+          "min": 166,
+          "max": 180
+        },
+        {
+          "label": "Red+Green+Blue",
+          "min": 181,
+          "max": 195
+        },
+        {
+          "label": "Red+Green+White",
+          "min": 196,
+          "max": 210
+        },
+        {
+          "label": "Red+Blue+White",
+          "min": 211,
+          "max": 225
+        },
+        {
+          "label": "Green+Blue+White",
+          "min": 226,
+          "max": 240
+        },
+        {
+          "label": "Red+Green+Blue+White",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "type": 17,
+      "type_description": "Sound Mode / Reset",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 199
+        },
+        {
+          "label": "Reset",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "No function",
+          "min": 210,
+          "max": 240
+        },
+        {
+          "label": "Sound Control Mode",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "type": 17,
+      "type_description": "Sound Sensitivity",
+      "capabilities": [
+        {
+          "label": "Sound Sensitivity in Sound Mode",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "type": 0,
+      "type_description": "Head Speed 1 56-CH",
+      "capabilities": []
+    },
+    {
+      "index": 46,
+      "type": 0,
+      "type_description": "Head Speed 2 56-CH",
+      "capabilities": []
+    },
+    {
+      "index": 47,
+      "type": 0,
+      "type_description": "Head Speed 3 56-CH",
+      "capabilities": []
+    },
+    {
+      "index": 48,
+      "type": 0,
+      "type_description": "Head Speed 4 56-CH",
+      "capabilities": []
+    },
+    {
+      "index": 49,
+      "type": 21,
+      "type_description": "Strobe 1 56-CH",
+      "capabilities": [
+        {
+          "label": "No Strobe",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Strobe Slow to Fast",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "type": 21,
+      "type_description": "Strobe 2 56-CH",
+      "capabilities": [
+        {
+          "label": "No Strobe",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Strobe Slow to Fast",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "type": 21,
+      "type_description": "Strobe 3 56-CH",
+      "capabilities": [
+        {
+          "label": "No Strobe",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Strobe Slow to Fast",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "type": 21,
+      "type_description": "Strobe 4 56-CH",
+      "capabilities": [
+        {
+          "label": "No Strobe",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Strobe Slow to Fast",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "type": 0,
+      "type_description": "Head Colour 1 56-CH",
+      "capabilities": [
+        {
+          "label": "Channel 11-14",
+          "min": 0,
+          "max": 30
+        },
+        {
+          "label": "Red",
+          "min": 31,
+          "max": 45
+        },
+        {
+          "label": "Green",
+          "min": 46,
+          "max": 60
+        },
+        {
+          "label": "Blue",
+          "min": 61,
+          "max": 75
+        },
+        {
+          "label": "White",
+          "min": 76,
+          "max": 90
+        },
+        {
+          "label": "Red+Green",
+          "min": 91,
+          "max": 105
+        },
+        {
+          "label": "Red+Blue",
+          "min": 106,
+          "max": 120
+        },
+        {
+          "label": "Red+White",
+          "min": 121,
+          "max": 135
+        },
+        {
+          "label": "Green+Blue",
+          "min": 136,
+          "max": 150
+        },
+        {
+          "label": "Green+White",
+          "min": 151,
+          "max": 165
+        },
+        {
+          "label": "Blue+White",
+          "min": 166,
+          "max": 180
+        },
+        {
+          "label": "Red+Green+Blue",
+          "min": 181,
+          "max": 195
+        },
+        {
+          "label": "Red+Green+White",
+          "min": 196,
+          "max": 210
+        },
+        {
+          "label": "Red+Blue+White",
+          "min": 211,
+          "max": 225
+        },
+        {
+          "label": "Green+Blue+White",
+          "min": 226,
+          "max": 240
+        },
+        {
+          "label": "Red+Green+Blue+White",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "type": 0,
+      "type_description": "Head Colour 2 56-CH",
+      "capabilities": [
+        {
+          "label": "Channel 25-28",
+          "min": 0,
+          "max": 30
+        },
+        {
+          "label": "Red",
+          "min": 31,
+          "max": 45
+        },
+        {
+          "label": "Green",
+          "min": 46,
+          "max": 60
+        },
+        {
+          "label": "Blue",
+          "min": 61,
+          "max": 75
+        },
+        {
+          "label": "White",
+          "min": 76,
+          "max": 90
+        },
+        {
+          "label": "Red+Green",
+          "min": 91,
+          "max": 105
+        },
+        {
+          "label": "Red+Blue",
+          "min": 106,
+          "max": 120
+        },
+        {
+          "label": "Red+White",
+          "min": 121,
+          "max": 135
+        },
+        {
+          "label": "Green+Blue",
+          "min": 136,
+          "max": 150
+        },
+        {
+          "label": "Green+White",
+          "min": 151,
+          "max": 165
+        },
+        {
+          "label": "Blue+White",
+          "min": 166,
+          "max": 180
+        },
+        {
+          "label": "Red+Green+Blue",
+          "min": 181,
+          "max": 195
+        },
+        {
+          "label": "Red+Green+White",
+          "min": 196,
+          "max": 210
+        },
+        {
+          "label": "Red+Blue+White",
+          "min": 211,
+          "max": 225
+        },
+        {
+          "label": "Green+Blue+White",
+          "min": 226,
+          "max": 240
+        },
+        {
+          "label": "Red+Green+Blue+White",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "type": 0,
+      "type_description": "Head Colour 3 56-CH",
+      "capabilities": [
+        {
+          "label": "Channel 39-42",
+          "min": 0,
+          "max": 30
+        },
+        {
+          "label": "Red",
+          "min": 31,
+          "max": 45
+        },
+        {
+          "label": "Green",
+          "min": 46,
+          "max": 60
+        },
+        {
+          "label": "Blue",
+          "min": 61,
+          "max": 75
+        },
+        {
+          "label": "White",
+          "min": 76,
+          "max": 90
+        },
+        {
+          "label": "Red+Green",
+          "min": 91,
+          "max": 105
+        },
+        {
+          "label": "Red+Blue",
+          "min": 106,
+          "max": 120
+        },
+        {
+          "label": "Red+White",
+          "min": 121,
+          "max": 135
+        },
+        {
+          "label": "Green+Blue",
+          "min": 136,
+          "max": 150
+        },
+        {
+          "label": "Green+White",
+          "min": 151,
+          "max": 165
+        },
+        {
+          "label": "Blue+White",
+          "min": 166,
+          "max": 180
+        },
+        {
+          "label": "Red+Green+Blue",
+          "min": 181,
+          "max": 195
+        },
+        {
+          "label": "Red+Green+White",
+          "min": 196,
+          "max": 210
+        },
+        {
+          "label": "Red+Blue+White",
+          "min": 211,
+          "max": 225
+        },
+        {
+          "label": "Green+Blue+White",
+          "min": 226,
+          "max": 240
+        },
+        {
+          "label": "Red+Green+Blue+White",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "type": 0,
+      "type_description": "Head Colour 4 56-CH",
+      "capabilities": [
+        {
+          "label": "Channel 53-56",
+          "min": 0,
+          "max": 30
+        },
+        {
+          "label": "Red",
+          "min": 31,
+          "max": 45
+        },
+        {
+          "label": "Green",
+          "min": 46,
+          "max": 60
+        },
+        {
+          "label": "Blue",
+          "min": 61,
+          "max": 75
+        },
+        {
+          "label": "White",
+          "min": 76,
+          "max": 90
+        },
+        {
+          "label": "Red+Green",
+          "min": 91,
+          "max": 105
+        },
+        {
+          "label": "Red+Blue",
+          "min": 106,
+          "max": 120
+        },
+        {
+          "label": "Red+White",
+          "min": 121,
+          "max": 135
+        },
+        {
+          "label": "Green+Blue",
+          "min": 136,
+          "max": 150
+        },
+        {
+          "label": "Green+White",
+          "min": 151,
+          "max": 165
+        },
+        {
+          "label": "Blue+White",
+          "min": 166,
+          "max": 180
+        },
+        {
+          "label": "Red+Green+Blue",
+          "min": 181,
+          "max": 195
+        },
+        {
+          "label": "Red+Green+White",
+          "min": 196,
+          "max": 210
+        },
+        {
+          "label": "Red+Blue+White",
+          "min": 211,
+          "max": 225
+        },
+        {
+          "label": "Green+Blue+White",
+          "min": 226,
+          "max": 240
+        },
+        {
+          "label": "Red+Green+Blue+White",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "type": 0,
+      "type_description": "Red 1 56-CH",
+      "capabilities": []
+    },
+    {
+      "index": 58,
+      "type": 0,
+      "type_description": "Red 2 56-CH",
+      "capabilities": []
+    },
+    {
+      "index": 59,
+      "type": 0,
+      "type_description": "Red 3 56-CH",
+      "capabilities": []
+    },
+    {
+      "index": 60,
+      "type": 0,
+      "type_description": "Red 4 56-CH",
+      "capabilities": []
+    },
+    {
+      "index": 61,
+      "type": 0,
+      "type_description": "Green 1 56-CH",
+      "capabilities": []
+    },
+    {
+      "index": 62,
+      "type": 0,
+      "type_description": "Green 2 56-CH",
+      "capabilities": []
+    },
+    {
+      "index": 63,
+      "type": 0,
+      "type_description": "Green 3 56-CH",
+      "capabilities": []
+    },
+    {
+      "index": 64,
+      "type": 0,
+      "type_description": "Green 4 56-CH",
+      "capabilities": []
+    },
+    {
+      "index": 65,
+      "type": 0,
+      "type_description": "Blue 1 56-CH",
+      "capabilities": []
+    },
+    {
+      "index": 66,
+      "type": 0,
+      "type_description": "Blue 2 56-CH",
+      "capabilities": []
+    },
+    {
+      "index": 67,
+      "type": 0,
+      "type_description": "Blue 3 56-CH",
+      "capabilities": []
+    },
+    {
+      "index": 68,
+      "type": 0,
+      "type_description": "Blue 4 56-CH",
+      "capabilities": []
+    },
+    {
+      "index": 69,
+      "type": 0,
+      "type_description": "White 1 56-CH",
+      "capabilities": []
+    },
+    {
+      "index": 70,
+      "type": 0,
+      "type_description": "White 2 56-CH",
+      "capabilities": []
+    },
+    {
+      "index": 71,
+      "type": 0,
+      "type_description": "White 3 56-CH",
+      "capabilities": []
+    },
+    {
+      "index": 72,
+      "type": 0,
+      "type_description": "White 4 56-CH",
+      "capabilities": []
+    },
+    {
+      "index": 73,
+      "type": 3,
+      "type_description": "Auto Mode / Sound Mode / Reset Head 1 56-CH",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Show 1",
+          "min": 8,
+          "max": 30
+        },
+        {
+          "label": "Show 2",
+          "min": 31,
+          "max": 53
+        },
+        {
+          "label": "Show 3",
+          "min": 54,
+          "max": 76
+        },
+        {
+          "label": "Show 4",
+          "min": 77,
+          "max": 99
+        },
+        {
+          "label": "Sound Mode",
+          "min": 100,
+          "max": 122
+        },
+        {
+          "label": "No function",
+          "min": 123,
+          "max": 199
+        },
+        {
+          "label": "Reset",
+          "min": 200,
+          "max": 224
+        },
+        {
+          "label": "No function",
+          "min": 225,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 74,
+      "type": 3,
+      "type_description": "Auto Mode / Sound Mode / Reset Head 2 56-CH",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Show 1",
+          "min": 8,
+          "max": 30
+        },
+        {
+          "label": "Show 2",
+          "min": 31,
+          "max": 53
+        },
+        {
+          "label": "Show 3",
+          "min": 54,
+          "max": 76
+        },
+        {
+          "label": "Show 4",
+          "min": 77,
+          "max": 99
+        },
+        {
+          "label": "Sound Mode",
+          "min": 100,
+          "max": 122
+        },
+        {
+          "label": "No function",
+          "min": 123,
+          "max": 199
+        },
+        {
+          "label": "Reset",
+          "min": 200,
+          "max": 224
+        },
+        {
+          "label": "No function",
+          "min": 225,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 75,
+      "type": 3,
+      "type_description": "Auto Mode / Sound Mode / Reset Head 3 56-CH",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Show 1",
+          "min": 8,
+          "max": 30
+        },
+        {
+          "label": "Show 2",
+          "min": 31,
+          "max": 53
+        },
+        {
+          "label": "Show 3",
+          "min": 54,
+          "max": 76
+        },
+        {
+          "label": "Show 4",
+          "min": 77,
+          "max": 99
+        },
+        {
+          "label": "Sound Mode",
+          "min": 100,
+          "max": 122
+        },
+        {
+          "label": "No function",
+          "min": 123,
+          "max": 199
+        },
+        {
+          "label": "Reset",
+          "min": 200,
+          "max": 224
+        },
+        {
+          "label": "No function",
+          "min": 225,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 76,
+      "type": 3,
+      "type_description": "Auto Mode / Sound Mode / Reset Head 4 56-CH",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Show 1",
+          "min": 8,
+          "max": 30
+        },
+        {
+          "label": "Show 2",
+          "min": 31,
+          "max": 53
+        },
+        {
+          "label": "Show 3",
+          "min": 54,
+          "max": 76
+        },
+        {
+          "label": "Show 4",
+          "min": 77,
+          "max": 99
+        },
+        {
+          "label": "Sound Mode",
+          "min": 100,
+          "max": 122
+        },
+        {
+          "label": "No function",
+          "min": 123,
+          "max": 199
+        },
+        {
+          "label": "Reset",
+          "min": 200,
+          "max": 224
+        },
+        {
+          "label": "No function",
+          "min": 225,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 77,
+      "type": 3,
+      "type_description": "Sound Sensitivity / Auto Mode Speed 1 56-CH",
+      "capabilities": [
+        {
+          "label": "Sensitivity",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 78,
+      "type": 3,
+      "type_description": "Sound Sensitivity / Auto Mode Speed 2 56-CH",
+      "capabilities": [
+        {
+          "label": "Sensitivity",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 79,
+      "type": 3,
+      "type_description": "Sound Sensitivity / Auto Mode Speed 3 56-CH",
+      "capabilities": [
+        {
+          "label": "Sensitivity",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 80,
+      "type": 3,
+      "type_description": "Sound Sensitivity / Auto Mode Speed 4 56-CH",
+      "capabilities": [
+        {
+          "label": "Sensitivity",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Cameo/Cameo-HydraBeam-4000.json",
+  "id": 303
+}

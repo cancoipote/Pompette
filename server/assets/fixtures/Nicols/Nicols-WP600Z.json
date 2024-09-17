@@ -1,0 +1,169 @@
+{
+  "version": "1.0.0",
+  "label": "WP600Z",
+  "manufacturer": "Nicols",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 9,
+  "dimension_width": 325,
+  "dimension_height": 396,
+  "dimension_depth": 188,
+  "lens_label": "Other",
+  "lens_degree_min": 5,
+  "lens_degree_max": 40,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 320,
+  "technical_dmx_connector": "5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Color macro",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Pan/Tilt speed",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 3,
+      "type_description": "Program",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 49
+        },
+        {
+          "label": "Auto program 1",
+          "min": 50,
+          "max": 99
+        },
+        {
+          "label": "Auto program 2",
+          "min": 100,
+          "max": 149
+        },
+        {
+          "label": "Auto program 3",
+          "min": 150,
+          "max": 199
+        },
+        {
+          "label": "Auto program 4",
+          "min": 200,
+          "max": 249
+        },
+        {
+          "label": "Sound activation mode",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 22,
+      "type_description": "Auto program speed",
+      "capabilities": [
+        {
+          "label": "Slow to fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 17,
+      "type_description": "Reset",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 249
+        },
+        {
+          "label": "5s for reset",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Nicols/Nicols-WP600Z.json",
+  "id": 1113
+}

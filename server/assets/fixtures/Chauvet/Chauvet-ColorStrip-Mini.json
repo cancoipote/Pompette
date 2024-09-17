@@ -1,0 +1,198 @@
+{
+  "version": "1.0.0",
+  "label": "ColorStrip Mini",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 820,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 484,
+  "dimension_height": 130,
+  "dimension_depth": 97,
+  "lens_label": "Other",
+  "lens_degree_min": 33,
+  "lens_degree_max": 37,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 23,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Static Colors/Color Effects/RGB Color Mix/Sound-Active",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Green",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Blue",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Yellow",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Magenta",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Cyan",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "White",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Color change 1",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Color change 2",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Color change 3",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Color change 4",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Color change 5",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Color change 6",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Color chase 1",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Color chase 2",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Color chase 3",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Color chase 4",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Color chase 5",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Color chase 6",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Color chase 7",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "RGB color mix",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "Color fade",
+          "min": 220,
+          "max": 229
+        },
+        {
+          "label": "Sound active (auto run)",
+          "min": 230,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Run Speed/Red/Fade Speed",
+      "capabilities": [
+        {
+          "label": "Slow to fast/Red 0-50%/Fade Speed 0-50%",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Sound active/Red 50-100%/Fade Speed 50-100%",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 3,
+      "type_description": "Strobe/Green",
+      "capabilities": [
+        {
+          "label": "Strobe slow to fast/Green 0~98%",
+          "min": 0,
+          "max": 249
+        },
+        {
+          "label": "Sound active/Green 98~100%",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 5,
+      "type_description": "Blue",
+      "capabilities": [
+        {
+          "label": "0~100%",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-ColorStrip-Mini.json",
+  "id": 428
+}

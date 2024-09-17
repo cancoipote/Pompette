@@ -1,0 +1,822 @@
+{
+  "version": "1.0.0",
+  "label": "Multi FX Bar",
+  "manufacturer": "Cameo",
+  "bulb_type": "LED RGB+UV + Laser",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 6,
+  "dimension_width": 1111,
+  "dimension_height": 270,
+  "dimension_depth": 60,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 130,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Derby 1 Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Derby 1 Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Derby 1 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 21,
+      "type_description": "Derby 1 Strobe",
+      "capabilities": [
+        {
+          "label": "Strobe open",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Strobe speed slow-> fast",
+          "min": 6,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Derby 1 Rotate",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Rotate clockwise slow -> fast",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "Stop",
+          "min": 128,
+          "max": 133
+        },
+        {
+          "label": "Rotate anticlockwise slow -> fast",
+          "min": 134,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Derby 2 Red",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Derby 2 Green",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Derby 2 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 21,
+      "type_description": "Derby 2 Strobe",
+      "capabilities": [
+        {
+          "label": "Strobe open",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Strobe speed slow-> fast",
+          "min": 6,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 22,
+      "type_description": "Derby 2 Rotate",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Rotate clockwise slow -> fast",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "Stop",
+          "min": 128,
+          "max": 133
+        },
+        {
+          "label": "Rotate anticlockwise slow -> fast",
+          "min": 134,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Par 1 Red",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Par 1 Green",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Par 1 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Par 1 UV",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Par 2 Red",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Par 2 Green",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Par 2 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Par 2 UV",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 21,
+      "type_description": "Laser Red Strobe",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Strobe open",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Strobe speed slow-> fast",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 21,
+      "type_description": "Laser Green Strobe",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Strobe open",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Strobe speed slow-> fast",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 20,
+      "type_description": "Laser Rotation",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Rotate clockwise slow -> fast",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "Stop",
+          "min": 128,
+          "max": 133
+        },
+        {
+          "label": "Rotate anticlockwise slow -> fast",
+          "min": 134,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "type": 21,
+      "type_description": "Flash Light 1",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Strobe open",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Strobe speed slow-> fast",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "type": 21,
+      "type_description": "Flash Light 2",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Strobe open",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Strobe speed slow-> fast",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "type": 21,
+      "type_description": "Flash Light 3",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Strobe open",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Strobe speed slow-> fast",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "type": 21,
+      "type_description": "Flash Light 4",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Strobe open",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Strobe speed slow-> fast",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "type": 3,
+      "type_description": "Auto Program",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Auto Mix 1",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Auto Mix 2",
+          "min": 11,
+          "max": 15
+        },
+        {
+          "label": "Auto Mix 3",
+          "min": 16,
+          "max": 20
+        },
+        {
+          "label": "Auto Mix 4",
+          "min": 21,
+          "max": 25
+        },
+        {
+          "label": "Auto Mix 5",
+          "min": 26,
+          "max": 30
+        },
+        {
+          "label": "Auto Mix 6",
+          "min": 31,
+          "max": 35
+        },
+        {
+          "label": "Auto Mix 7",
+          "min": 36,
+          "max": 40
+        },
+        {
+          "label": "Auto Mix 8",
+          "min": 41,
+          "max": 45
+        },
+        {
+          "label": "Auto Mix 9",
+          "min": 46,
+          "max": 50
+        },
+        {
+          "label": "Auto Mix 10",
+          "min": 51,
+          "max": 55
+        },
+        {
+          "label": "Auto Par 1",
+          "min": 56,
+          "max": 60
+        },
+        {
+          "label": "Auto Par 2",
+          "min": 61,
+          "max": 65
+        },
+        {
+          "label": "Auto Par 3",
+          "min": 66,
+          "max": 70
+        },
+        {
+          "label": "Auto Par 4",
+          "min": 71,
+          "max": 75
+        },
+        {
+          "label": "Auto Par 5",
+          "min": 76,
+          "max": 80
+        },
+        {
+          "label": "Auto Derby 1",
+          "min": 81,
+          "max": 85
+        },
+        {
+          "label": "Auto Derby 2",
+          "min": 86,
+          "max": 90
+        },
+        {
+          "label": "Auto Derby 3",
+          "min": 91,
+          "max": 95
+        },
+        {
+          "label": "Auto Derby 4",
+          "min": 96,
+          "max": 100
+        },
+        {
+          "label": "Auto Derby 5",
+          "min": 101,
+          "max": 105
+        },
+        {
+          "label": "Auto Par & Derby 1",
+          "min": 106,
+          "max": 110
+        },
+        {
+          "label": "Auto Par & Derby 2",
+          "min": 111,
+          "max": 115
+        },
+        {
+          "label": "Auto Par & Derby 3",
+          "min": 116,
+          "max": 120
+        },
+        {
+          "label": "Auto Par & Derby 4",
+          "min": 121,
+          "max": 125
+        },
+        {
+          "label": "Auto Par & Derby 5",
+          "min": 126,
+          "max": 130
+        },
+        {
+          "label": "Auto Par & Derby 6",
+          "min": 131,
+          "max": 135
+        },
+        {
+          "label": "Auto Par & Derby 7",
+          "min": 136,
+          "max": 140
+        },
+        {
+          "label": "Auto Par & Derby 8",
+          "min": 141,
+          "max": 145
+        },
+        {
+          "label": "Auto Par & Derby 9",
+          "min": 146,
+          "max": 150
+        },
+        {
+          "label": "Auto Par & Derby 10",
+          "min": 151,
+          "max": 155
+        },
+        {
+          "label": "Auto Flash Lights 1",
+          "min": 156,
+          "max": 160
+        },
+        {
+          "label": "Auto Flash Lights 2",
+          "min": 161,
+          "max": 165
+        },
+        {
+          "label": "Auto Flash Lights 3",
+          "min": 166,
+          "max": 170
+        },
+        {
+          "label": "Auto Flash Lights 4",
+          "min": 171,
+          "max": 175
+        },
+        {
+          "label": "Auto Flash Lights 5",
+          "min": 176,
+          "max": 180
+        },
+        {
+          "label": "Auto Flash Lights 6",
+          "min": 181,
+          "max": 185
+        },
+        {
+          "label": "Auto Flash Lights 7",
+          "min": 186,
+          "max": 190
+        },
+        {
+          "label": "Auto Flash Lights 8",
+          "min": 191,
+          "max": 195
+        },
+        {
+          "label": "Auto Flash Lights 9",
+          "min": 196,
+          "max": 200
+        },
+        {
+          "label": "Auto Flash Lights 10",
+          "min": 201,
+          "max": 205
+        },
+        {
+          "label": "Auto Laser 1",
+          "min": 206,
+          "max": 210
+        },
+        {
+          "label": "Auto Laser 2",
+          "min": 211,
+          "max": 215
+        },
+        {
+          "label": "Auto Laser 3",
+          "min": 216,
+          "max": 220
+        },
+        {
+          "label": "Auto Laser 4",
+          "min": 221,
+          "max": 225
+        },
+        {
+          "label": "Auto Laser 5",
+          "min": 226,
+          "max": 230
+        },
+        {
+          "label": "Auto Laser 6",
+          "min": 231,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "type": 3,
+      "type_description": "Auto Program Speed/Sound",
+      "capabilities": [
+        {
+          "label": "Program Speed slow -> fast",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Sound Control",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "type": 21,
+      "type_description": "Par 1 Strobe",
+      "capabilities": [
+        {
+          "label": "Strobe open",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Strobe speed slow-> fast",
+          "min": 6,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "type": 21,
+      "type_description": "Par 2 Strobe",
+      "capabilities": [
+        {
+          "label": "Strobe open",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Strobe speed slow-> fast",
+          "min": 6,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "type": 3,
+      "type_description": "Auto Program LED Par",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Auto Par 1",
+          "min": 6,
+          "max": 56
+        },
+        {
+          "label": "Auto Par 2",
+          "min": 57,
+          "max": 107
+        },
+        {
+          "label": "Auto Par 3",
+          "min": 108,
+          "max": 158
+        },
+        {
+          "label": "Auto Par 4",
+          "min": 159,
+          "max": 209
+        },
+        {
+          "label": "Auto Par 5",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "type": 3,
+      "type_description": "Auto Program Derby",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Auto Derby 1",
+          "min": 6,
+          "max": 56
+        },
+        {
+          "label": "Auto Derby 2",
+          "min": 57,
+          "max": 107
+        },
+        {
+          "label": "Auto Derby 3",
+          "min": 108,
+          "max": 158
+        },
+        {
+          "label": "Auto Derby 4",
+          "min": 159,
+          "max": 209
+        },
+        {
+          "label": "Auto Derby 5",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "type": 3,
+      "type_description": "Auto Program Flash Lights",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Auto Flash Lights 1",
+          "min": 6,
+          "max": 25
+        },
+        {
+          "label": "Auto Flash Lights 2",
+          "min": 26,
+          "max": 50
+        },
+        {
+          "label": "Auto Flash Lights 3",
+          "min": 51,
+          "max": 75
+        },
+        {
+          "label": "Auto Flash Lights 4",
+          "min": 76,
+          "max": 100
+        },
+        {
+          "label": "Auto Flash Lights 5",
+          "min": 101,
+          "max": 125
+        },
+        {
+          "label": "Auto Flash Lights 7",
+          "min": 126,
+          "max": 175
+        },
+        {
+          "label": "Auto Flash Lights 8",
+          "min": 176,
+          "max": 200
+        },
+        {
+          "label": "Auto Flash Lights 9",
+          "min": 201,
+          "max": 225
+        },
+        {
+          "label": "Auto Flash Lights 10",
+          "min": 226,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "type": 3,
+      "type_description": "Auto Program Laser",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Auto Laser 1",
+          "min": 6,
+          "max": 46
+        },
+        {
+          "label": "Auto Laser 2",
+          "min": 47,
+          "max": 80
+        },
+        {
+          "label": "Auto Laser 3",
+          "min": 81,
+          "max": 120
+        },
+        {
+          "label": "Auto Laser 4",
+          "min": 121,
+          "max": 140
+        },
+        {
+          "label": "Auto Laser 5",
+          "min": 141,
+          "max": 180
+        },
+        {
+          "label": "Auto Laser 6",
+          "min": 181,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Cameo/Cameo-Multi-FX-Bar.json",
+  "id": 312
+}

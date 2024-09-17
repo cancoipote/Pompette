@@ -1,0 +1,266 @@
+{
+  "version": "1.0.0",
+  "label": "LeaderScan Roto",
+  "manufacturer": "StageTech",
+  "bulb_type": "HTI 150W",
+  "bulb_lumens": 9500,
+  "bulb_color_temperature": 6900,
+  "dimension_weight": 12,
+  "dimension_width": 250,
+  "dimension_height": 550,
+  "dimension_depth": 150,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Mirror",
+  "focus_pan_max": 180,
+  "focus_tilt_max": 70,
+  "technical_power_consumption": 250,
+  "technical_dmx_connector": "3-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Opened",
+          "min": 21,
+          "max": 40
+        },
+        {
+          "label": "Strobe",
+          "min": 41,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Triangle",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Holes",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Phone",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Clouds",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Turbine",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Sun",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Bar",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 11
+        },
+        {
+          "label": "White / Mauve",
+          "min": 12,
+          "max": 22
+        },
+        {
+          "label": "Mauve",
+          "min": 23,
+          "max": 33
+        },
+        {
+          "label": "Mauve / Dark Cyan",
+          "min": 34,
+          "max": 44
+        },
+        {
+          "label": "Dark Cyan",
+          "min": 45,
+          "max": 55
+        },
+        {
+          "label": "Dark Cyan / Green",
+          "min": 56,
+          "max": 66
+        },
+        {
+          "label": "Green",
+          "min": 67,
+          "max": 77
+        },
+        {
+          "label": "Green / Amber",
+          "min": 78,
+          "max": 88
+        },
+        {
+          "label": "Amber",
+          "min": 89,
+          "max": 99
+        },
+        {
+          "label": "Amber / UV Blue",
+          "min": 100,
+          "max": 110
+        },
+        {
+          "label": "UV Blue",
+          "min": 111,
+          "max": 121
+        },
+        {
+          "label": "UV Blue / Red",
+          "min": 122,
+          "max": 133
+        },
+        {
+          "label": "Red",
+          "min": 134,
+          "max": 144
+        },
+        {
+          "label": "Red / Yellow",
+          "min": 145,
+          "max": 155
+        },
+        {
+          "label": "Yellow",
+          "min": 156,
+          "max": 166
+        },
+        {
+          "label": "Yellow / Cyan",
+          "min": 167,
+          "max": 177
+        },
+        {
+          "label": "Cyan",
+          "min": 178,
+          "max": 188
+        },
+        {
+          "label": "Cyan / Pink",
+          "min": 189,
+          "max": 199
+        },
+        {
+          "label": "Pink",
+          "min": 200,
+          "max": 210
+        },
+        {
+          "label": "Pink / Light green",
+          "min": 211,
+          "max": 221
+        },
+        {
+          "label": "Light green",
+          "min": 222,
+          "max": 232
+        },
+        {
+          "label": "Light green / Orange",
+          "min": 233,
+          "max": 243
+        },
+        {
+          "label": "Orange",
+          "min": 244,
+          "max": 250
+        },
+        {
+          "label": "Rainbow 1",
+          "min": 251,
+          "max": 253
+        },
+        {
+          "label": "Rainbow 2",
+          "min": 254,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Movement Speed",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 22,
+      "type_description": "Rotation speed",
+      "capabilities": [
+        {
+          "label": "Clockwise",
+          "min": 0,
+          "max": 122
+        },
+        {
+          "label": "Stationary",
+          "min": 123,
+          "max": 132
+        },
+        {
+          "label": "Counter clockwise",
+          "min": 133,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/StageTech/StageTech-LeaderScan-Roto.json",
+  "id": 1270
+}

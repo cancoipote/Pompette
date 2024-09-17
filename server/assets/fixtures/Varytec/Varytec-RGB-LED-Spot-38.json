@@ -1,0 +1,55 @@
+{
+  "version": "1.0.0",
+  "label": "RGB LED Spot 38",
+  "manufacturer": "Varytec",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 140,
+  "dimension_height": 140,
+  "dimension_depth": 195,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 10,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Dimmer/Strobe",
+      "capabilities": [
+        {
+          "label": "Dimmer/Strobe",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Varytec/Varytec-RGB-LED-Spot-38.json",
+  "id": 1516
+}

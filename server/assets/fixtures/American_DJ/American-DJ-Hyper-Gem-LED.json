@@ -1,0 +1,4505 @@
+{
+  "version": "1.0.0",
+  "label": "Hyper Gem LED",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 5,
+  "dimension_width": 526,
+  "dimension_height": 243,
+  "dimension_depth": 319,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 32,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Function",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Sync. show",
+          "min": 10,
+          "max": 85
+        },
+        {
+          "label": "2-light show",
+          "min": 86,
+          "max": 160
+        },
+        {
+          "label": "4-light show",
+          "min": 161,
+          "max": 239
+        },
+        {
+          "label": "Sound atcive",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Chase",
+      "capabilities": [
+        {
+          "label": 1,
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": 2,
+          "min": 21,
+          "max": 43
+        },
+        {
+          "label": 3,
+          "min": 44,
+          "max": 65
+        },
+        {
+          "label": 4,
+          "min": 66,
+          "max": 87
+        },
+        {
+          "label": 5,
+          "min": 88,
+          "max": 108
+        },
+        {
+          "label": 6,
+          "min": 109,
+          "max": 129
+        },
+        {
+          "label": 7,
+          "min": 130,
+          "max": 151
+        },
+        {
+          "label": 8,
+          "min": 152,
+          "max": 172
+        },
+        {
+          "label": 9,
+          "min": 173,
+          "max": 193
+        },
+        {
+          "label": 10,
+          "min": 194,
+          "max": 214
+        },
+        {
+          "label": 11,
+          "min": 215,
+          "max": 235
+        },
+        {
+          "label": 12,
+          "min": 236,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Speed",
+      "capabilities": [
+        {
+          "label": "Slow - fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "On",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Slow - fast",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 5,
+      "type_description": "Red 1",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 5,
+      "type_description": "Red 2",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 5,
+      "type_description": "Red 3",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 5,
+      "type_description": "Red 4",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 5,
+      "type_description": "Red 5",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 5,
+      "type_description": "Red 6",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 5,
+      "type_description": "Red 7",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 5,
+      "type_description": "Red 8",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 5,
+      "type_description": "Red 9",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 5,
+      "type_description": "Red 10",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 5,
+      "type_description": "Red 11",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 5,
+      "type_description": "Red 12",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 5,
+      "type_description": "Red 13",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 5,
+      "type_description": "Red 14",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 5,
+      "type_description": "Red 15",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 5,
+      "type_description": "Red 16",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 5,
+      "type_description": "Red 17",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "type": 5,
+      "type_description": "Red 18",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "type": 5,
+      "type_description": "Red 19",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "type": 5,
+      "type_description": "Red 20",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "type": 5,
+      "type_description": "Red 21",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "type": 5,
+      "type_description": "Red 22",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "type": 5,
+      "type_description": "Red 23",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "type": 5,
+      "type_description": "Red 24",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "type": 5,
+      "type_description": "Red 25",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "type": 5,
+      "type_description": "Red 26",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "type": 5,
+      "type_description": "Red 27",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "type": 5,
+      "type_description": "Red 28",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "type": 5,
+      "type_description": "Red 29",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "type": 5,
+      "type_description": "Red 30",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "type": 5,
+      "type_description": "Red 31",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "type": 5,
+      "type_description": "Red 32",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "type": 5,
+      "type_description": "Red 33",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "type": 5,
+      "type_description": "Red 34",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "type": 5,
+      "type_description": "Red 35",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "type": 5,
+      "type_description": "Red 36",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "type": 5,
+      "type_description": "Red 37",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "type": 5,
+      "type_description": "Red 38",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "type": 5,
+      "type_description": "Red 39",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "type": 5,
+      "type_description": "Red 40",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "type": 5,
+      "type_description": "Red 41",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "type": 5,
+      "type_description": "Red 42",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "type": 5,
+      "type_description": "Red 43",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "type": 5,
+      "type_description": "Red 44",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "type": 5,
+      "type_description": "Red 45",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "type": 5,
+      "type_description": "Red 46",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "type": 5,
+      "type_description": "Red 47",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "type": 5,
+      "type_description": "Red 48",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "type": 5,
+      "type_description": "Red 49",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "type": 5,
+      "type_description": "Red 50",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "type": 5,
+      "type_description": "Red 51",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "type": 5,
+      "type_description": "Red 52",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "type": 5,
+      "type_description": "Red 53",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "type": 5,
+      "type_description": "Red 54",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "type": 5,
+      "type_description": "Red 55",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "type": 5,
+      "type_description": "Red 56",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "type": 5,
+      "type_description": "Red 57",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "type": 5,
+      "type_description": "Red 58",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "type": 5,
+      "type_description": "Red 59",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "type": 5,
+      "type_description": "Red 60",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "type": 5,
+      "type_description": "Red 61",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "type": 5,
+      "type_description": "Red 62",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "type": 5,
+      "type_description": "Red 63",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "type": 5,
+      "type_description": "Red 64",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 68,
+      "type": 5,
+      "type_description": "Green 1",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "type": 5,
+      "type_description": "Green 2",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 70,
+      "type": 5,
+      "type_description": "Green 3",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 71,
+      "type": 5,
+      "type_description": "Green 4",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 72,
+      "type": 5,
+      "type_description": "Green 5",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 73,
+      "type": 5,
+      "type_description": "Green 6",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 74,
+      "type": 5,
+      "type_description": "Green 7",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 75,
+      "type": 5,
+      "type_description": "Green 8",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 76,
+      "type": 5,
+      "type_description": "Green 9",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 77,
+      "type": 5,
+      "type_description": "Green 10",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 78,
+      "type": 5,
+      "type_description": "Green 11",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 79,
+      "type": 5,
+      "type_description": "Green 12",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 80,
+      "type": 5,
+      "type_description": "Green 13",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 81,
+      "type": 5,
+      "type_description": "Green 14",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 82,
+      "type": 5,
+      "type_description": "Green 15",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 83,
+      "type": 5,
+      "type_description": "Green 16",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 84,
+      "type": 5,
+      "type_description": "Green 17",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 85,
+      "type": 5,
+      "type_description": "Green 18",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 86,
+      "type": 5,
+      "type_description": "Green 19",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 87,
+      "type": 5,
+      "type_description": "Green 20",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 88,
+      "type": 5,
+      "type_description": "Green 21",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 89,
+      "type": 5,
+      "type_description": "Green 22",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 90,
+      "type": 5,
+      "type_description": "Green 23",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 91,
+      "type": 5,
+      "type_description": "Green 24",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 92,
+      "type": 5,
+      "type_description": "Green 25",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 93,
+      "type": 5,
+      "type_description": "Green 26",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 94,
+      "type": 5,
+      "type_description": "Green 27",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 95,
+      "type": 5,
+      "type_description": "Green 28",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 96,
+      "type": 5,
+      "type_description": "Green 29",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 97,
+      "type": 5,
+      "type_description": "Green 30",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 98,
+      "type": 5,
+      "type_description": "Green 31",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 99,
+      "type": 5,
+      "type_description": "Green 32",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 100,
+      "type": 5,
+      "type_description": "Green 33",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 101,
+      "type": 5,
+      "type_description": "Green 34",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 102,
+      "type": 5,
+      "type_description": "Green 35",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 103,
+      "type": 5,
+      "type_description": "Green 36",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 104,
+      "type": 5,
+      "type_description": "Green 37",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 105,
+      "type": 5,
+      "type_description": "Green 38",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 106,
+      "type": 5,
+      "type_description": "Green 39",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 107,
+      "type": 5,
+      "type_description": "Green 40",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 108,
+      "type": 5,
+      "type_description": "Green 41",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 109,
+      "type": 5,
+      "type_description": "Green 42",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 110,
+      "type": 5,
+      "type_description": "Green 43",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 111,
+      "type": 5,
+      "type_description": "Green 44",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 112,
+      "type": 5,
+      "type_description": "Green 45",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 113,
+      "type": 5,
+      "type_description": "Green 46",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 114,
+      "type": 5,
+      "type_description": "Green 47",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 115,
+      "type": 5,
+      "type_description": "Green 48",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 116,
+      "type": 5,
+      "type_description": "Green 49",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 117,
+      "type": 5,
+      "type_description": "Green 50",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 118,
+      "type": 5,
+      "type_description": "Green 51",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 119,
+      "type": 5,
+      "type_description": "Green 52",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 120,
+      "type": 5,
+      "type_description": "Green 53",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 121,
+      "type": 5,
+      "type_description": "Green 54",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 122,
+      "type": 5,
+      "type_description": "Green 55",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 123,
+      "type": 5,
+      "type_description": "Green 56",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 124,
+      "type": 5,
+      "type_description": "Green 57",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 125,
+      "type": 5,
+      "type_description": "Green 58",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 126,
+      "type": 5,
+      "type_description": "Green 59",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 127,
+      "type": 5,
+      "type_description": "Green 60",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 128,
+      "type": 5,
+      "type_description": "Green 61",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 129,
+      "type": 5,
+      "type_description": "Green 62",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 130,
+      "type": 5,
+      "type_description": "Green 63",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 131,
+      "type": 5,
+      "type_description": "Green 64",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 132,
+      "type": 5,
+      "type_description": "Blue 1",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 133,
+      "type": 5,
+      "type_description": "Blue 2",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 134,
+      "type": 5,
+      "type_description": "Blue 3",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 135,
+      "type": 5,
+      "type_description": "Blue 4",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 136,
+      "type": 5,
+      "type_description": "Blue 5",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 137,
+      "type": 5,
+      "type_description": "Blue 6",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 138,
+      "type": 5,
+      "type_description": "Blue 7",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 139,
+      "type": 5,
+      "type_description": "Blue 8",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 140,
+      "type": 5,
+      "type_description": "Blue 9",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 141,
+      "type": 5,
+      "type_description": "Blue 10",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 142,
+      "type": 5,
+      "type_description": "Blue 11",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 143,
+      "type": 5,
+      "type_description": "Blue 12",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 144,
+      "type": 5,
+      "type_description": "Blue 13",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 145,
+      "type": 5,
+      "type_description": "Blue 14",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 146,
+      "type": 5,
+      "type_description": "Blue 15",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 147,
+      "type": 5,
+      "type_description": "Blue 16",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 148,
+      "type": 5,
+      "type_description": "Blue 17",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 149,
+      "type": 5,
+      "type_description": "Blue 18",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 150,
+      "type": 5,
+      "type_description": "Blue 19",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 151,
+      "type": 5,
+      "type_description": "Blue 20",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 152,
+      "type": 5,
+      "type_description": "Blue 21",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 153,
+      "type": 5,
+      "type_description": "Blue 22",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 154,
+      "type": 5,
+      "type_description": "Blue 23",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 155,
+      "type": 5,
+      "type_description": "Blue 24",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 156,
+      "type": 5,
+      "type_description": "Blue 25",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 157,
+      "type": 5,
+      "type_description": "Blue 26",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 158,
+      "type": 5,
+      "type_description": "Blue 27",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 159,
+      "type": 5,
+      "type_description": "Blue 28",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 160,
+      "type": 5,
+      "type_description": "Blue 29",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 161,
+      "type": 5,
+      "type_description": "Blue 30",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 162,
+      "type": 5,
+      "type_description": "Blue 31",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 163,
+      "type": 5,
+      "type_description": "Blue 32",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 164,
+      "type": 5,
+      "type_description": "Blue 33",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 165,
+      "type": 5,
+      "type_description": "Blue 34",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 166,
+      "type": 5,
+      "type_description": "Blue 35",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 167,
+      "type": 5,
+      "type_description": "Blue 36",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 168,
+      "type": 5,
+      "type_description": "Blue 37",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 169,
+      "type": 5,
+      "type_description": "Blue 38",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 170,
+      "type": 5,
+      "type_description": "Blue 39",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 171,
+      "type": 5,
+      "type_description": "Blue 40",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 172,
+      "type": 5,
+      "type_description": "Blue 41",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 173,
+      "type": 5,
+      "type_description": "Blue 42",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 174,
+      "type": 5,
+      "type_description": "Blue 43",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 175,
+      "type": 5,
+      "type_description": "Blue 44",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 176,
+      "type": 5,
+      "type_description": "Blue 45",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 177,
+      "type": 5,
+      "type_description": "Blue 46",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 178,
+      "type": 5,
+      "type_description": "Blue 47",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 179,
+      "type": 5,
+      "type_description": "Blue 48",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 180,
+      "type": 5,
+      "type_description": "Blue 49",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 181,
+      "type": 5,
+      "type_description": "Blue 50",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 182,
+      "type": 5,
+      "type_description": "Blue 51",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 183,
+      "type": 5,
+      "type_description": "Blue 52",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 184,
+      "type": 5,
+      "type_description": "Blue 53",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 185,
+      "type": 5,
+      "type_description": "Blue 54",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 186,
+      "type": 5,
+      "type_description": "Blue 55",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 187,
+      "type": 5,
+      "type_description": "Blue 56",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 188,
+      "type": 5,
+      "type_description": "Blue 57",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 189,
+      "type": 5,
+      "type_description": "Blue 58",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 190,
+      "type": 5,
+      "type_description": "Blue 59",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 191,
+      "type": 5,
+      "type_description": "Blue 60",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 192,
+      "type": 5,
+      "type_description": "Blue 61",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 193,
+      "type": 5,
+      "type_description": "Blue 62",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 194,
+      "type": 5,
+      "type_description": "Blue 63",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 195,
+      "type": 5,
+      "type_description": "Blue 64",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 196,
+      "type": 5,
+      "type_description": "White 1",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 197,
+      "type": 5,
+      "type_description": "White 2",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 198,
+      "type": 5,
+      "type_description": "White 3",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 199,
+      "type": 5,
+      "type_description": "White 4",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 200,
+      "type": 5,
+      "type_description": "White 5",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 201,
+      "type": 5,
+      "type_description": "White 6",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 202,
+      "type": 5,
+      "type_description": "White 7",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 203,
+      "type": 5,
+      "type_description": "White 8",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 204,
+      "type": 5,
+      "type_description": "White 9",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 205,
+      "type": 5,
+      "type_description": "White 10",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 206,
+      "type": 5,
+      "type_description": "White 11",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 207,
+      "type": 5,
+      "type_description": "White 12",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 208,
+      "type": 5,
+      "type_description": "White 13",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 209,
+      "type": 5,
+      "type_description": "White 14",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 210,
+      "type": 5,
+      "type_description": "White 15",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 211,
+      "type": 5,
+      "type_description": "White 16",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 212,
+      "type": 5,
+      "type_description": "White 17",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 213,
+      "type": 5,
+      "type_description": "White 18",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 214,
+      "type": 5,
+      "type_description": "White 19",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 215,
+      "type": 5,
+      "type_description": "White 20",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 216,
+      "type": 5,
+      "type_description": "White 21",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 217,
+      "type": 5,
+      "type_description": "White 22",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 218,
+      "type": 5,
+      "type_description": "White 23",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 219,
+      "type": 5,
+      "type_description": "White 24",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 220,
+      "type": 5,
+      "type_description": "White 25",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 221,
+      "type": 5,
+      "type_description": "White 26",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 222,
+      "type": 5,
+      "type_description": "White 27",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 223,
+      "type": 5,
+      "type_description": "White 28",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 224,
+      "type": 5,
+      "type_description": "White 29",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 225,
+      "type": 5,
+      "type_description": "White 30",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 226,
+      "type": 5,
+      "type_description": "White 31",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 227,
+      "type": 5,
+      "type_description": "White 32",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 228,
+      "type": 5,
+      "type_description": "White 33",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 229,
+      "type": 5,
+      "type_description": "White 34",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 230,
+      "type": 5,
+      "type_description": "White 35",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 231,
+      "type": 5,
+      "type_description": "White 36",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 232,
+      "type": 5,
+      "type_description": "White 37",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 233,
+      "type": 5,
+      "type_description": "White 38",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 234,
+      "type": 5,
+      "type_description": "White 39",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 235,
+      "type": 5,
+      "type_description": "White 40",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 236,
+      "type": 5,
+      "type_description": "White 41",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 237,
+      "type": 5,
+      "type_description": "White 42",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 238,
+      "type": 5,
+      "type_description": "White 43",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 239,
+      "type": 5,
+      "type_description": "White 44",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 240,
+      "type": 5,
+      "type_description": "White 45",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 241,
+      "type": 5,
+      "type_description": "White 46",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 242,
+      "type": 5,
+      "type_description": "White 47",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 243,
+      "type": 5,
+      "type_description": "White 48",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 244,
+      "type": 5,
+      "type_description": "White 49",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 245,
+      "type": 5,
+      "type_description": "White 50",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 246,
+      "type": 5,
+      "type_description": "White 51",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 247,
+      "type": 5,
+      "type_description": "White 52",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 248,
+      "type": 5,
+      "type_description": "White 53",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 249,
+      "type": 5,
+      "type_description": "White 54",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 250,
+      "type": 5,
+      "type_description": "White 55",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 251,
+      "type": 5,
+      "type_description": "White 56",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 252,
+      "type": 5,
+      "type_description": "White 57",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 253,
+      "type": 5,
+      "type_description": "White 58",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 254,
+      "type": 5,
+      "type_description": "White 59",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 255,
+      "type": 5,
+      "type_description": "White 60",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 256,
+      "type": 5,
+      "type_description": "White 61",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 257,
+      "type": 5,
+      "type_description": "White 62",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 258,
+      "type": 5,
+      "type_description": "White 63",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 259,
+      "type": 5,
+      "type_description": "White 64",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Hyper-Gem-LED.json",
+  "id": 86
+}

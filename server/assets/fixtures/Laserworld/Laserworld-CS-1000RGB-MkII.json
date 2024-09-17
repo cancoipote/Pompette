@@ -1,0 +1,297 @@
+{
+  "version": "1.0.0",
+  "label": "CS-1000RGB Mk II",
+  "manufacturer": "Laserworld",
+  "bulb_type": "RGB Laser",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 7,
+  "dimension_width": 330,
+  "dimension_height": 170,
+  "dimension_depth": 310,
+  "lens_label": "Other",
+  "lens_degree_min": 40,
+  "lens_degree_max": 40,
+  "focus_type": "Mirror",
+  "focus_pan_max": 40,
+  "focus_tilt_max": 40,
+  "technical_power_consumption": 50,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 17,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "Laser off",
+          "min": 0,
+          "max": 49
+        },
+        {
+          "label": "Music mode",
+          "min": 50,
+          "max": 99
+        },
+        {
+          "label": "Automatic mode",
+          "min": 100,
+          "max": 149
+        },
+        {
+          "label": "Patterns/DMX",
+          "min": 150,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Patterns",
+      "capabilities": [
+        {
+          "label": "128 patterns (change every even value)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 1,
+      "type_description": "Circular Movement",
+      "capabilities": [
+        {
+          "label": "Indexing",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "CW slow to fast",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "CCW slow to fast",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 1,
+      "type_description": "Y Rotation",
+      "capabilities": [
+        {
+          "label": "Indexing",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Morphing slow to fast",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Rotating slow to fast",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 1,
+      "type_description": "X Rotation",
+      "capabilities": [
+        {
+          "label": "Indexing",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Morphing slow to fast",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Rotating slow to fast",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 1,
+      "type_description": "Horizontal movement",
+      "capabilities": [
+        {
+          "label": "No movement",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Manual from left to right",
+          "min": 1,
+          "max": 127
+        },
+        {
+          "label": "CW slow to fast",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "CCW slow to fast",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 1,
+      "type_description": "Vertical movement",
+      "capabilities": [
+        {
+          "label": "No movement",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Manual from up to down",
+          "min": 1,
+          "max": 127
+        },
+        {
+          "label": "CW slow to fast",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "CCW slow to fast",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 1,
+      "type_description": "Zoom",
+      "capabilities": [
+        {
+          "label": "Max size to min size",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "Auto zooming max-min slow to fast",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Auto zooming min-max slow to fast",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Continuosly min-max-min slow to fast",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Pattern Buildup (drawing)",
+      "capabilities": [
+        {
+          "label": "Off, original pattern",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Auto drawing slow to fast",
+          "min": 1,
+          "max": 127
+        },
+        {
+          "label": "Auto drawing (incl. \"de-drawing\") slow to fast",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 21,
+      "type_description": "Dot Effect with Strobe",
+      "capabilities": [
+        {
+          "label": "From original pattern to max dots with strobe",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Color Seletion",
+      "capabilities": [
+        {
+          "label": "Pattern color",
+          "min": 0,
+          "max": 24
+        },
+        {
+          "label": "White",
+          "min": 25,
+          "max": 49
+        },
+        {
+          "label": "Red",
+          "min": 50,
+          "max": 74
+        },
+        {
+          "label": "Green",
+          "min": 75,
+          "max": 99
+        },
+        {
+          "label": "Yellow",
+          "min": 100,
+          "max": 124
+        },
+        {
+          "label": "Cyan",
+          "min": 125,
+          "max": 149
+        },
+        {
+          "label": "Blue",
+          "min": 150,
+          "max": 174
+        },
+        {
+          "label": "Magenta",
+          "min": 175,
+          "max": 199
+        },
+        {
+          "label": "RGB fade",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Laserworld/Laserworld-CS-1000RGB-MkII.json",
+  "id": 954
+}

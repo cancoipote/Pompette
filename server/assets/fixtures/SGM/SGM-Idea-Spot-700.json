@@ -1,0 +1,992 @@
+{
+  "version": "1.0.0",
+  "label": "Idea Spot 700",
+  "manufacturer": "SGM",
+  "bulb_type": "MSR 700W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 7200,
+  "dimension_weight": 38,
+  "dimension_width": 500,
+  "dimension_height": 390,
+  "dimension_depth": 500,
+  "lens_label": "Other",
+  "lens_degree_min": 14,
+  "lens_degree_max": 30,
+  "focus_type": "Fixed",
+  "focus_pan_max": 630,
+  "focus_tilt_max": 265,
+  "technical_power_consumption": 780,
+  "technical_dmx_connector": "5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Speed pan/tilt",
+      "capabilities": [
+        {
+          "label": "Max to min speed",
+          "min": 0,
+          "max": 225
+        },
+        {
+          "label": "Blackout by movement",
+          "min": 226,
+          "max": 235
+        },
+        {
+          "label": "Blackout by all wheel changing",
+          "min": 236,
+          "max": 245
+        },
+        {
+          "label": "No function",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Color Wheel",
+      "capabilities": [
+        {
+          "label": "Open / white",
+          "min": 0,
+          "max": 13
+        },
+        {
+          "label": "Color 1",
+          "min": 14,
+          "max": 27
+        },
+        {
+          "label": "Color 2",
+          "min": 28,
+          "max": 41
+        },
+        {
+          "label": "Color 3",
+          "min": 42,
+          "max": 55
+        },
+        {
+          "label": "Color 4",
+          "min": 56,
+          "max": 69
+        },
+        {
+          "label": "Color 5",
+          "min": 70,
+          "max": 83
+        },
+        {
+          "label": "Color 6",
+          "min": 84,
+          "max": 97
+        },
+        {
+          "label": "Color 7",
+          "min": 98,
+          "max": 111
+        },
+        {
+          "label": "Color 8",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Forwards rainbow effect (fast to slow)",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "No rotation",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Backwards rainbow effect (slow to fast)",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 4,
+      "type_description": "Rotating gobos, cont. rotation 1",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Rot. Gobo 1",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Rot. Gobo 2",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Rot. Gobo 3",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Rot. Gobo 4",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Rot. Gobo 5",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Rot. Gobo 6",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Gobo 1 shake slow to fast",
+          "min": 70,
+          "max": 89
+        },
+        {
+          "label": "Gobo 2 shake slow to fast",
+          "min": 90,
+          "max": 109
+        },
+        {
+          "label": "Gobo 3 shake slow to fast",
+          "min": 110,
+          "max": 129
+        },
+        {
+          "label": "Gobo 4 shake slow to fast",
+          "min": 130,
+          "max": 149
+        },
+        {
+          "label": "Gobo 5 shake slow to fast",
+          "min": 150,
+          "max": 169
+        },
+        {
+          "label": "Gobo 6 shake slow to fast",
+          "min": 170,
+          "max": 189
+        },
+        {
+          "label": "Rot. Gobo wheel cont. rotation slow to fast",
+          "min": 190,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 21,
+      "type_description": "Shutter, Strobe",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "No function (shutter open)",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe effect slow to fast",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "No function (shutter open)",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse-effect in sequences",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "No function (shutter open)",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random strobe effect slow to fast",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "No function (shutter open)",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 4,
+      "type_description": "Rotating gobo index,rotating gobo rotation 1",
+      "capabilities": [
+        {
+          "label": "Gobo indexing",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Forwards gobo rotation (fast to slow)",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "No rotation",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Backwards gobo rotation (slow to fast)",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Colour macros - CMY and colour wheel",
+      "capabilities": [
+        {
+          "label": "OFF",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Macro 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Macro 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Macro 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Macro 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Macro 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Macro 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Macro 7",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Macro 8",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Macro 9",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Macro 10",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Macro 11",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Macro 12",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Macro 13",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Macro 14",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Macro 15",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Macro 16",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Macro 17",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Macro 18",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Macro 19",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Macro 20",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Macro 21",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Macro 22",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Macro 23",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Macro 24",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Macro 25",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Macro 26",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Macro 27",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Macro 28",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Macro 29",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Macro 30",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Random CMY",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 21,
+      "type_description": "Iris",
+      "capabilities": [
+        {
+          "label": "Max. diameter to Min. diameter",
+          "min": 0,
+          "max": 191
+        },
+        {
+          "label": "Pulse opening fast to slow",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Pulse closing slow to fast",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 17,
+      "type_description": "Lamp on/off, Reset, Internal programs",
+      "capabilities": [
+        {
+          "label": "colour & gobo change normal",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "colour change to any position",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "colour & gobo change to any position",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Lamp ON",
+          "min": 40,
+          "max": 59
+        },
+        {
+          "label": "Lamp switch OFF",
+          "min": 60,
+          "max": 79
+        },
+        {
+          "label": "All Motor reset",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "Scan Motor reset",
+          "min": 85,
+          "max": 87
+        },
+        {
+          "label": "Color Motor reset",
+          "min": 88,
+          "max": 90
+        },
+        {
+          "label": "Gobo motor reset",
+          "min": 91,
+          "max": 93
+        },
+        {
+          "label": "Shutter & Dimmer motor reset",
+          "min": 94,
+          "max": 96
+        },
+        {
+          "label": "Other motor reset",
+          "min": 97,
+          "max": 99
+        },
+        {
+          "label": "Internal program 1",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "Internal program 2",
+          "min": 120,
+          "max": 139
+        },
+        {
+          "label": "Internal program 3",
+          "min": 140,
+          "max": 159
+        },
+        {
+          "label": "Internal program 4",
+          "min": 160,
+          "max": 179
+        },
+        {
+          "label": "Internal program 5",
+          "min": 180,
+          "max": 199
+        },
+        {
+          "label": "Internal program 6",
+          "min": 200,
+          "max": 219
+        },
+        {
+          "label": "Internal program 7",
+          "min": 220,
+          "max": 239
+        },
+        {
+          "label": "Music Control (scene of Program 1)",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 3,
+      "type_description": "Frost",
+      "capabilities": [
+        {
+          "label": "Frost (0 to 100%)",
+          "min": 0,
+          "max": 191
+        },
+        {
+          "label": "Pulse closing (fast to slow)",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Pulse opening (slow to fast)",
+          "min": 224,
+          "max": 254
+        },
+        {
+          "label": "100% Frost",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 22,
+      "type_description": "Pan/Tilt movement Mode",
+      "capabilities": [
+        {
+          "label": "Quick",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Smooth",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "No function",
+          "min": 64,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Color Wheel Fine",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Cyan Color",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Cyan Color Fine",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Magenta Color",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Magenta Color Fine",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Yellow Color",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Yellow Color Fine",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 4,
+      "type_description": "Rotating gobo index,rotating gobo rotation 2",
+      "capabilities": [
+        {
+          "label": "Gobo indexing",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Forwards gobo rotation (fast to slow)",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "No rotation",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Backwards gobo rotation (slow to fast)",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "type": 4,
+      "type_description": "Rotating gobos, cont. rotation 2",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Rot. Gobo 1",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Rot. Gobo 2",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Rot. Gobo 3",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Rot. Gobo 4",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Rot. Gobo 5",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Rot. Gobo 6",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Gobo 1 shake slow to fast",
+          "min": 70,
+          "max": 89
+        },
+        {
+          "label": "Gobo 2 shake slow to fast",
+          "min": 90,
+          "max": 109
+        },
+        {
+          "label": "Gobo 3 shake slow to fast",
+          "min": 110,
+          "max": 129
+        },
+        {
+          "label": "Gobo 4 shake slow to fast",
+          "min": 130,
+          "max": 149
+        },
+        {
+          "label": "Gobo 5 shake slow to fast",
+          "min": 150,
+          "max": 169
+        },
+        {
+          "label": "Gobo 6 shake slow to fast",
+          "min": 170,
+          "max": 189
+        },
+        {
+          "label": "Rot. Gobo wheel cont. rotation slow to fast",
+          "min": 190,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Rotating gobo indexing Fine 1",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Rotating gobo indexing Fine 2",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 20,
+      "type_description": "Rotating prism, Prism / Gobo macros",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Forwards rotation from fast to slow",
+          "min": 4,
+          "max": 63
+        },
+        {
+          "label": "No rotation",
+          "min": 64,
+          "max": 67
+        },
+        {
+          "label": "Backwards rotation from slow to fast",
+          "min": 68,
+          "max": 127
+        },
+        {
+          "label": "Macro 1",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Macro 2",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Macro 3",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Macro 4",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Macro 5",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Macro 6",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Macro 7",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Macro 8",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Macro 9",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Macro 10",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Macro 11",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Macro 12",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Macro 13",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Macro 14",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Macro 15",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Macro 16",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "type": 1,
+      "type_description": "Focus Fine",
+      "capabilities": [
+        {
+          "label": "Continuous adjustment Fine",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "Motorized Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 1,
+      "type_description": "Motorized Zoom Fine",
+      "capabilities": [
+        {
+          "label": "Zoom adjustment Fine",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "Fine Dimmer intensity",
+      "capabilities": []
+    },
+    {
+      "index": 32,
+      "type": 0,
+      "type_description": "Iris Fine",
+      "capabilities": []
+    },
+    {
+      "index": 33,
+      "type": 3,
+      "type_description": "Animation wheel",
+      "capabilities": [
+        {
+          "label": "open",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Forwards rotation from fast to slow",
+          "min": 8,
+          "max": 127
+        },
+        {
+          "label": "No rotation",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Backwards rotation from slow to fast",
+          "min": 136,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "type": 22,
+      "type_description": "Speed Of CMY & Colour macro Speed",
+      "capabilities": [
+        {
+          "label": "Speed Max ->Min",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/SGM/SGM-Idea-Spot-700.json",
+  "id": 1258
+}

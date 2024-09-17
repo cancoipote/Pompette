@@ -1,0 +1,347 @@
+{
+  "version": "1.0.0",
+  "label": "Zenit B60",
+  "manufacturer": "Cameo",
+  "bulb_type": "LED",
+  "bulb_lumens": 1900,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 5,
+  "dimension_width": 187,
+  "dimension_height": 187,
+  "dimension_depth": 164,
+  "lens_label": "Other",
+  "lens_degree_min": 11,
+  "lens_degree_max": 11,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 100,
+  "technical_dmx_connector": "5-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Dimmer Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Red Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Green Fine",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Blue Fine",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "White Fine",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 21,
+      "type_description": "Strobe functions",
+      "capabilities": [
+        {
+          "label": "Strobe open",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Strobe closed",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Pulse random, slow -> fast",
+          "min": 11,
+          "max": 33
+        },
+        {
+          "label": "Ramp up random, slow -> fast",
+          "min": 34,
+          "max": 56
+        },
+        {
+          "label": "Ramp down random, slow -> fast",
+          "min": 57,
+          "max": 79
+        },
+        {
+          "label": "Random strobe effect, slow -> fast",
+          "min": 80,
+          "max": 102
+        },
+        {
+          "label": "Strobe break effect, 5s ... 1s (Short burst with break)",
+          "min": 103,
+          "max": 127
+        },
+        {
+          "label": "Strobe slow -> fast <1Hz - 20Hz",
+          "min": 128,
+          "max": 250
+        },
+        {
+          "label": "Strobe open",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Color Macro",
+      "capabilities": [
+        {
+          "label": "Color off",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Red",
+          "min": 6,
+          "max": 13
+        },
+        {
+          "label": "Amber",
+          "min": 14,
+          "max": 21
+        },
+        {
+          "label": "Yellow Warm",
+          "min": 22,
+          "max": 29
+        },
+        {
+          "label": "Yellow",
+          "min": 30,
+          "max": 37
+        },
+        {
+          "label": "Green",
+          "min": 38,
+          "max": 45
+        },
+        {
+          "label": "Turquoise",
+          "min": 46,
+          "max": 53
+        },
+        {
+          "label": "Cyan",
+          "min": 54,
+          "max": 61
+        },
+        {
+          "label": "Blue",
+          "min": 62,
+          "max": 69
+        },
+        {
+          "label": "Lavender",
+          "min": 70,
+          "max": 77
+        },
+        {
+          "label": "Mauve",
+          "min": 78,
+          "max": 85
+        },
+        {
+          "label": "Magenta",
+          "min": 86,
+          "max": 93
+        },
+        {
+          "label": "Pink",
+          "min": 94,
+          "max": 101
+        },
+        {
+          "label": "Warm White",
+          "min": 102,
+          "max": 109
+        },
+        {
+          "label": "White",
+          "min": 110,
+          "max": 117
+        },
+        {
+          "label": "Cold White",
+          "min": 118,
+          "max": 125
+        },
+        {
+          "label": "Color Jumping Stop",
+          "min": 126,
+          "max": 127
+        },
+        {
+          "label": "Color Jumping Speed slow -> fast / Color 1 -> 12",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Color Fading Speed slow -> fast / Color 1 -> 12",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Color Temperature 1",
+      "capabilities": [
+        {
+          "label": "7200K - 3200K @ Full on",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Color Temperature 2",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "7200K - 3200K @ Full on, Affects colors too",
+          "min": 6,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 17,
+      "type_description": "Dimmer Curve",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Linear dimmer curve",
+          "min": 6,
+          "max": 63
+        },
+        {
+          "label": "Exponentiall dimmer curve",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Logarithmic dimmer curve",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "S-Curve dimmer curve",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 17,
+      "type_description": "Device Settings",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Dimmer Response LED (hold 5s)",
+          "min": 6,
+          "max": 127
+        },
+        {
+          "label": "Dimmer Response Halogen (hold 5s)",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "No Runtime / Full LED Power (hold 5s)",
+          "min": 192,
+          "max": 211
+        },
+        {
+          "label": "Set Runtime 8h (hold 5s)",
+          "min": 212,
+          "max": 221
+        },
+        {
+          "label": "Set Runtime 12h (hold 5s)",
+          "min": 222,
+          "max": 231
+        },
+        {
+          "label": "Set Runtime 16h (hold 5s)",
+          "min": 232,
+          "max": 241
+        },
+        {
+          "label": "Set Runtime 20h (hold 5s)",
+          "min": 242,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Cameo/Cameo-Zenit-B60.json",
+  "id": 340
+}

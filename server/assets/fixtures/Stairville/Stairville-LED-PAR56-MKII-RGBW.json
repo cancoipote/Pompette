@@ -1,0 +1,335 @@
+{
+  "version": "1.0.0",
+  "label": "LED Par56 MKII RGBW",
+  "manufacturer": "Stairville",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 220,
+  "dimension_height": 205,
+  "dimension_depth": 210,
+  "lens_label": "Other",
+  "lens_degree_min": 45,
+  "lens_degree_max": 45,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 21,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "RGBA",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "Chase 7 colors",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Chase 12 Colors",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Chase 4 colors",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 22,
+      "type_description": "Chase",
+      "capabilities": [
+        {
+          "label": "None",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Fast to slow",
+          "min": 11,
+          "max": 100
+        },
+        {
+          "label": "None",
+          "min": 101,
+          "max": 150
+        },
+        {
+          "label": "Random",
+          "min": 151,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Macros",
+      "capabilities": [
+        {
+          "label": "None",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Macro 1",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Macro 2",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Macro 3",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Macro 4",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Macro 5",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Macro 6",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Macro 7",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Macro 8",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Macro 9",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Macro 10",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Macro 11",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Macro 12",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Macro 13",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Macro 14",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Macro 15",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Macro 16",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Macro 17",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Macro 18",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Macro 19",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Macro 20",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Macro 21",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Macro 22",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Macro 23",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Macro 24",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Macro 25",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Macro 26",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Macro 27",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Macro 28",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Macro 29",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Macro 30",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 22,
+      "type_description": "Strobe / Fade speed",
+      "capabilities": [
+        {
+          "label": "None",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Slow to fast",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 17,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "RGBA",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Fade out",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Fade in",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Fade in-out",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Auto-mix",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Chase 4-color",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Chase 12-color",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Music",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Master",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Stairville/Stairville-LED-PAR56-MKII-RGBW.json",
+  "id": 1408
+}

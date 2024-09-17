@@ -1,0 +1,354 @@
+{
+  "version": "1.0.0",
+  "label": "Street Bar",
+  "manufacturer": "Varytec",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 5,
+  "dimension_width": 1005,
+  "dimension_height": 160,
+  "dimension_depth": 130,
+  "lens_label": "Other",
+  "lens_degree_min": 30,
+  "lens_degree_max": 30,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 60,
+  "technical_dmx_connector": "3-pin",
+  "type": 13,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Dimming",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "LED Main",
+      "capabilities": [
+        {
+          "label": "Dimmer",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Slow full bar fade",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Mode2",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Mode3",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Colors Slow Scroll RL",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Christmas Disco",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Colors wipe to center",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Single Color LED Chase RL",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Color Trailing LED Chase RL",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Bouncing Color Swap",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Racing Color Blocks RL",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Racing Color Blocks LR",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Colors Fill and Empty RL",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "RGB Alternating Blocks RL",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Colors wipe to Center (2)",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Colors wipe from Center outwards",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Single Color blocks flicker-scroll LR",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Single Color blocks flicker-scroll RL",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Bouncing Halves",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Drop in Fill up and Drop out",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Stretch up and down",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "Auto 1",
+          "min": 220,
+          "max": 229
+        },
+        {
+          "label": "Auto 2",
+          "min": 230,
+          "max": 239
+        },
+        {
+          "label": "Auto 3",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 22,
+      "type_description": "Speed",
+      "capabilities": [
+        {
+          "label": "Slow - Fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Strobo",
+      "capabilities": [
+        {
+          "label": "No Strobing",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Slow - Fast",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Red 2",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Green 2",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Blue 2",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Red 3",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Green 3",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Blue 3",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Red 4",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Green 4",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Blue 4",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Red 5",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Green 5",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Blue 5",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Red 6",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Green 6",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Blue 6",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Red 7",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Green 7",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Blue 7",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Red 8",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Green 8",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Blue 8",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "Red 9",
+      "capabilities": []
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "Green 9",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 0,
+      "type_description": "Blue 9",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Varytec/Varytec-Street-Bar.json",
+  "id": 1517
+}

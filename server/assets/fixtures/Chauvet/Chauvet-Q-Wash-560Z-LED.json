@@ -1,0 +1,333 @@
+{
+  "version": "1.0.0",
+  "label": "Q-Wash 560Z-LED",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 13100,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 9,
+  "dimension_width": 339,
+  "dimension_height": 361,
+  "dimension_depth": 232,
+  "lens_label": "Other",
+  "lens_degree_min": 6,
+  "lens_degree_max": 32,
+  "focus_type": "Fixed",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 300,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Power/Colour Macro",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "High Power",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Red:100% Green:Up Blue:0%",
+          "min": 11,
+          "max": 30
+        },
+        {
+          "label": "Red:Down Green:100% Blue:0%",
+          "min": 31,
+          "max": 50
+        },
+        {
+          "label": "Red:0% Green:100% Blue:Up",
+          "min": 51,
+          "max": 70
+        },
+        {
+          "label": "Red:0% Green:Down Blue:100%",
+          "min": 71,
+          "max": 90
+        },
+        {
+          "label": "Red:Up Green:0% Blue:100%",
+          "min": 91,
+          "max": 110
+        },
+        {
+          "label": "Red:100% Green:0% Blue:Down",
+          "min": 111,
+          "max": 130
+        },
+        {
+          "label": "Red:100% Green:Up Blue:Up",
+          "min": 131,
+          "max": 150
+        },
+        {
+          "label": "Red:Down Green:Down Blue:100%",
+          "min": 151,
+          "max": 170
+        },
+        {
+          "label": "Red:100% Green:100% Blue:100%",
+          "min": 171,
+          "max": 200
+        },
+        {
+          "label": "White 1: 3200 K",
+          "min": 201,
+          "max": 205
+        },
+        {
+          "label": "White 2: 3400 K",
+          "min": 206,
+          "max": 210
+        },
+        {
+          "label": "White 3: 4200 K",
+          "min": 211,
+          "max": 215
+        },
+        {
+          "label": "White 4: 4900 K",
+          "min": 216,
+          "max": 220
+        },
+        {
+          "label": "White 5: 5600 K",
+          "min": 221,
+          "max": 225
+        },
+        {
+          "label": "White 6: 5900 K",
+          "min": 226,
+          "max": 230
+        },
+        {
+          "label": "White 7: 6500 K",
+          "min": 231,
+          "max": 235
+        },
+        {
+          "label": "White 8: 7200 K",
+          "min": 236,
+          "max": 240
+        },
+        {
+          "label": "White 9: 8000 K",
+          "min": 241,
+          "max": 245
+        },
+        {
+          "label": "White 10: 8500 K",
+          "min": 246,
+          "max": 250
+        },
+        {
+          "label": "White 11: 10,000 K",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "1 - 20 Hz",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 17,
+      "type_description": "Control",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Pan/Tilt Black Activation",
+          "min": 20,
+          "max": 39
+        },
+        {
+          "label": "Pan/Tilt Black Deactivation",
+          "min": 40,
+          "max": 59
+        },
+        {
+          "label": "Automatic Fan Speed",
+          "min": 60,
+          "max": 79
+        },
+        {
+          "label": "Slow Fan Speed",
+          "min": 80,
+          "max": 99
+        },
+        {
+          "label": "Normal Fan Speed",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "High Fan Speed",
+          "min": 120,
+          "max": 139
+        },
+        {
+          "label": "Auto Program 1",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Auto Program 2",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Test",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Custom Program",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "No function",
+          "min": 180,
+          "max": 199
+        },
+        {
+          "label": "Reset",
+          "min": 200,
+          "max": 219
+        },
+        {
+          "label": "No function",
+          "min": 220,
+          "max": 235
+        },
+        {
+          "label": "DIM0",
+          "min": 236,
+          "max": 239
+        },
+        {
+          "label": "DIM1",
+          "min": 240,
+          "max": 243
+        },
+        {
+          "label": "DIM2",
+          "min": 244,
+          "max": 247
+        },
+        {
+          "label": "DIM3",
+          "min": 248,
+          "max": 251
+        },
+        {
+          "label": "DIM4",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-Q-Wash-560Z-LED.json",
+  "id": 513
+}

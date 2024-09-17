@@ -1,0 +1,723 @@
+{
+  "version": "1.0.0",
+  "label": "Alpha Spot HPE 575",
+  "manufacturer": "Clay Paky",
+  "bulb_type": "HMI 575W",
+  "bulb_lumens": 49000,
+  "bulb_color_temperature": 6000,
+  "dimension_weight": 33,
+  "dimension_width": 432,
+  "dimension_height": 710,
+  "dimension_depth": 427,
+  "lens_label": "Other",
+  "lens_degree_min": 10,
+  "lens_degree_max": 40,
+  "focus_type": "Head",
+  "focus_pan_max": 450,
+  "focus_tilt_max": 252,
+  "technical_power_consumption": 950,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Cyan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Magenta",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Yellow",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "CTO",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Colour wheel",
+      "capabilities": [
+        {
+          "label": "white",
+          "min": 0,
+          "max": 35
+        },
+        {
+          "label": "red",
+          "min": 36,
+          "max": 71
+        },
+        {
+          "label": "yellow",
+          "min": 72,
+          "max": 107
+        },
+        {
+          "label": "violet",
+          "min": 108,
+          "max": 143
+        },
+        {
+          "label": "green",
+          "min": 144,
+          "max": 179
+        },
+        {
+          "label": "orange",
+          "min": 180,
+          "max": 215
+        },
+        {
+          "label": "blue",
+          "min": 216,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Stop/strobe",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Slow to fast",
+          "min": 4,
+          "max": 103
+        },
+        {
+          "label": "Open",
+          "min": 104,
+          "max": 107
+        },
+        {
+          "label": "Slow to fast pulse",
+          "min": 108,
+          "max": 207
+        },
+        {
+          "label": "Open",
+          "min": 208,
+          "max": 212
+        },
+        {
+          "label": "Random slow strob",
+          "min": 213,
+          "max": 225
+        },
+        {
+          "label": "Random medium strob",
+          "min": 226,
+          "max": 238
+        },
+        {
+          "label": "Random fast strob",
+          "min": 239,
+          "max": 251
+        },
+        {
+          "label": "Open",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 17,
+      "type_description": "Reset",
+      "capabilities": [
+        {
+          "label": "Unused range",
+          "min": 0,
+          "max": 25
+        },
+        {
+          "label": "Effects reset",
+          "min": 26,
+          "max": 76
+        },
+        {
+          "label": "Pan/tilt reset",
+          "min": 77,
+          "max": 127
+        },
+        {
+          "label": "Complete reset",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 17,
+      "type_description": "Lamp control",
+      "capabilities": [
+        {
+          "label": "Unused range",
+          "min": 0,
+          "max": 25
+        },
+        {
+          "label": "Lamp off",
+          "min": 26,
+          "max": 100
+        },
+        {
+          "label": "Lamp on (half power)",
+          "min": 101,
+          "max": 179
+        },
+        {
+          "label": "Lamp on (full power)",
+          "min": 180,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 3,
+      "type_description": "Pan - Tilt time",
+      "capabilities": [
+        {
+          "label": "Full",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "0.2s - 310s",
+          "min": 1,
+          "max": 254
+        },
+        {
+          "label": "Follow data cue",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 3,
+      "type_description": "Colour time",
+      "capabilities": [
+        {
+          "label": "Full",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "0.2s - 310s",
+          "min": 1,
+          "max": 254
+        },
+        {
+          "label": "Follow cue data",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 3,
+      "type_description": "Beam time",
+      "capabilities": [
+        {
+          "label": "Full",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "0.2s - 310s",
+          "min": 1,
+          "max": 254
+        },
+        {
+          "label": "Follow cue data",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 1,
+      "type_description": "Iris",
+      "capabilities": [
+        {
+          "label": "Minimum aperture",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Maximum aperture",
+          "min": 128,
+          "max": 131
+        },
+        {
+          "label": "Slow to fast pulse",
+          "min": 132,
+          "max": 171
+        },
+        {
+          "label": "Slow to fast pulse Fast opening",
+          "min": 172,
+          "max": 211
+        },
+        {
+          "label": "Slow to fast pulse Fast closing",
+          "min": 212,
+          "max": 251
+        },
+        {
+          "label": "Maximum aperture",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 4,
+      "type_description": "Fixed gobo change",
+      "capabilities": [
+        {
+          "label": "No gobo",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Gobo 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Gobo 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Gobo 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Gobo 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Gobo 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Gobo 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Gobo 7",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Gobo 8",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Fast to slow rotation",
+          "min": 72,
+          "max": 113
+        },
+        {
+          "label": "Stop rotation",
+          "min": 114,
+          "max": 117
+        },
+        {
+          "label": "Slow to fast rotation",
+          "min": 118,
+          "max": 159
+        },
+        {
+          "label": "Gobos shake",
+          "min": 160,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 4,
+      "type_description": "Rotating Gobo 1 change",
+      "capabilities": [
+        {
+          "label": "No gobo",
+          "min": 0,
+          "max": 17
+        },
+        {
+          "label": "Gobo 1",
+          "min": 18,
+          "max": 35
+        },
+        {
+          "label": "Gobo 2",
+          "min": 36,
+          "max": 53
+        },
+        {
+          "label": "Gobo 3",
+          "min": 54,
+          "max": 71
+        },
+        {
+          "label": "Gobo 4",
+          "min": 72,
+          "max": 89
+        },
+        {
+          "label": "Gobo 5",
+          "min": 90,
+          "max": 107
+        },
+        {
+          "label": "Gobo 6",
+          "min": 108,
+          "max": 129
+        },
+        {
+          "label": "Gobo shake",
+          "min": 130,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 4,
+      "type_description": "Gobo 1 rotation",
+      "capabilities": [
+        {
+          "label": "Fixed position",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Fast to slow rotation",
+          "min": 128,
+          "max": 190
+        },
+        {
+          "label": "Stop rotation",
+          "min": 191,
+          "max": 192
+        },
+        {
+          "label": "Slow to fast rotation",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "type": 3,
+      "type_description": "Graphic disk insert",
+      "capabilities": [
+        {
+          "label": "Disk excluded to disk inserted",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "type": 3,
+      "type_description": "Graphic disk rotation",
+      "capabilities": [
+        {
+          "label": "Fast to slow rotation",
+          "min": 0,
+          "max": 124
+        },
+        {
+          "label": "Stop rotation",
+          "min": 125,
+          "max": 130
+        },
+        {
+          "label": "Slow to fast rotation",
+          "min": 131,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "type": 3,
+      "type_description": "Prisms lens change",
+      "capabilities": [
+        {
+          "label": "No prism",
+          "min": 0,
+          "max": 62
+        },
+        {
+          "label": "2 Faces",
+          "min": 63,
+          "max": 125
+        },
+        {
+          "label": "Lens",
+          "min": 126,
+          "max": 188
+        },
+        {
+          "label": "5 Faces",
+          "min": 189,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "type": 3,
+      "type_description": "Frost",
+      "capabilities": [
+        {
+          "label": "No frost",
+          "min": 0,
+          "max": 62
+        },
+        {
+          "label": "Light frost",
+          "min": 63,
+          "max": 125
+        },
+        {
+          "label": "Medium frost",
+          "min": 126,
+          "max": 188
+        },
+        {
+          "label": "Heavy frost",
+          "min": 189,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 4,
+      "type_description": "Gobo 1 fine",
+      "capabilities": [
+        {
+          "label": "Rotation fine",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "type": 4,
+      "type_description": "Gobo 2 fine",
+      "capabilities": [
+        {
+          "label": "Rotation fine",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "type": 4,
+      "type_description": "Gobo 2 rotation",
+      "capabilities": [
+        {
+          "label": "Fixed position",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Fast to slow rotation",
+          "min": 128,
+          "max": 190
+        },
+        {
+          "label": "Stop rotation",
+          "min": 191,
+          "max": 192
+        },
+        {
+          "label": "Slow to fast rotation",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "type": 3,
+      "type_description": "Prism rotation",
+      "capabilities": [
+        {
+          "label": "Fixed position",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Fast to slow rotation",
+          "min": 128,
+          "max": 190
+        },
+        {
+          "label": "Stop rotation",
+          "min": 191,
+          "max": 192
+        },
+        {
+          "label": "Slow to fast rotation",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "type": 4,
+      "type_description": "Rotating Gobo 2 change",
+      "capabilities": [
+        {
+          "label": "No gobo",
+          "min": 0,
+          "max": 17
+        },
+        {
+          "label": "Gobo 1",
+          "min": 18,
+          "max": 35
+        },
+        {
+          "label": "Gobo 2",
+          "min": 36,
+          "max": 53
+        },
+        {
+          "label": "Gobo 3",
+          "min": 54,
+          "max": 71
+        },
+        {
+          "label": "Gobo 4",
+          "min": 72,
+          "max": 89
+        },
+        {
+          "label": "Gobo 5",
+          "min": 90,
+          "max": 107
+        },
+        {
+          "label": "Gobo 6",
+          "min": 108,
+          "max": 129
+        },
+        {
+          "label": "Gobo shake",
+          "min": 130,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "type": 3,
+      "type_description": "Gobo time",
+      "capabilities": [
+        {
+          "label": "Full",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "0.2s - 310s",
+          "min": 1,
+          "max": 254
+        },
+        {
+          "label": "Follow cue data",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Clay_Paky/Clay-Paky-Alpha-Spot-575-HPE.json",
+  "id": 350
+}

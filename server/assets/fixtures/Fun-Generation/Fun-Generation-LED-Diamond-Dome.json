@@ -1,0 +1,322 @@
+{
+  "version": "1.0.0",
+  "label": "LED Diamond Dome",
+  "manufacturer": "Fun-Generation",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 0,
+  "dimension_width": 182,
+  "dimension_height": 162,
+  "dimension_depth": 182,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 25,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "RGBW",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Intensity red (from 0% to 100%)",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Intensity green (from 0% to 100%)",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Intensity blue (from 0% to 100%)",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Intensity white (from 0% to 100%)",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Intensity red/green (from 0% to 100%)",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Intensity red/blue (from 0% to 100%)",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Intensity red/white (from 0% to 100%)",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Intensity green/blue (from 0% to 100%)",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Intensity green/white (from 0% to 100%)",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Intensity blue/white (from 0% to 100%)",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Intensity red/green/blue (from 0% to 100%)",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Intensity red/green/white (from 0% to 100%)",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Intensity red/blue/white (from 0% to 100%)",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Intensity green/blue/white (from 0% to 100%)",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "All colours (from 0% to 100%)",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Auto Operation",
+          "min": 160,
+          "max": 229
+        },
+        {
+          "label": "Sound-Controlled Operations",
+          "min": 230,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Stroboscope effect - channel 1 from 10 to 229",
+      "capabilities": [
+        {
+          "label": "Stroboscope Effect off",
+          "min": 0,
+          "max": 8
+        },
+        {
+          "label": "Stoboscope effect on, increasing speed",
+          "min": 9,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Program Speed - channel 1 from 160 to 229",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 8
+        },
+        {
+          "label": "Program speed increasing to 100%",
+          "min": 9,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 22,
+      "type_description": "Rotation Speed - channel 1 from 10 to 229",
+      "capabilities": [
+        {
+          "label": "Rotation speed increasing to 100%",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "UV",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "LED 2",
+          "min": 10,
+          "max": 24
+        },
+        {
+          "label": "LED 1",
+          "min": 25,
+          "max": 49
+        },
+        {
+          "label": "LED 3",
+          "min": 50,
+          "max": 74
+        },
+        {
+          "label": "LED 1 / LED 2",
+          "min": 75,
+          "max": 99
+        },
+        {
+          "label": "LED 2 / LED 3",
+          "min": 100,
+          "max": 124
+        },
+        {
+          "label": "LED 1 / LED 3",
+          "min": 125,
+          "max": 149
+        },
+        {
+          "label": "LED 1 / LED 2 / LED 3",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Auto operation",
+          "min": 160,
+          "max": 229
+        },
+        {
+          "label": "Sound-controlled operation",
+          "min": 230,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "RGBWA",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Green",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Blue",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "White",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Amber",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "UV light",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Red / White",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Red / UV",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Green / Blue",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Green / White",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Blue / White",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Red / Green / Amber",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Red / Blue / UV",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Red / Green / White / Amber",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "All colors",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Auto operation",
+          "min": 160,
+          "max": 229
+        },
+        {
+          "label": "Sound-controlled operation",
+          "min": 230,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Fun-Generation/Fun-Generation-LED-Diamond-Dome.json",
+  "id": 783
+}

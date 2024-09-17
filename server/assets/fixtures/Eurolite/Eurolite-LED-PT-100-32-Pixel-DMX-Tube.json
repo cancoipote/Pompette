@@ -1,0 +1,1198 @@
+{
+  "version": "1.0.0",
+  "label": "LED PT-100/32 Pixel DMX Tube",
+  "manufacturer": "Eurolite",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 999,
+  "dimension_height": 153,
+  "dimension_depth": 59,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 30,
+  "technical_dmx_connector": "3-pin",
+  "type": 14,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 17,
+      "type_description": "Function",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Sound control",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "label": "No function",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Strobe with increasing speed",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Strobe effect",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe effect with increasing speed",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Preset colors",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Green",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Blue",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Yellow",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Magenta",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Cyan",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Dark orange",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Green yellow",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Salmon",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Turquoise",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Light green",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Orange",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Lavender",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Light blue",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Dark blue",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Pink",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "No function",
+          "min": 170,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 17,
+      "type_description": "Internal programs",
+      "capabilities": [
+        {
+          "label": "Bo function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Auto program 1",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Auto program 2",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Auto program 3",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Auto program 4",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Auto program 5",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Auto program 6",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Auto program 7",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Auto program 8",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Auto program 9",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Auto program 10",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Auto program 11",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Auto program 12",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Sound program 1",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Sound program 2",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Sound program 3",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Sound program 4",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Sound program 5",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Sound program 6",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Sound program 7",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Sound program 8",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Sound program 9",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "Sound program 10",
+          "min": 220,
+          "max": 229
+        },
+        {
+          "label": "Sound program 11",
+          "min": 230,
+          "max": 239
+        },
+        {
+          "label": "Sound program 12",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 22,
+      "type_description": "Running speed for Auto - and Sound program",
+      "capabilities": [
+        {
+          "label": "Auto and Sound program speed slow > fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Pixel 1-2 Red",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Pixel 1-2 Green",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Pixel 1-2 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Pixel 3-4 Red",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Pixel 3-4 Green",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Pixel 3-4 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Pixel 5-6 Red",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Pixel 5-6 Green",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Pixel 5-6 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Pixel 7-8 Red",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Pixel 7-8 Green",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Pixel 7-8 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Pixel 9-10 Red",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Pixel 9-10 Green",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Pixel 9-10 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Pixel 11-12 Red",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Pixel 11-12 Green",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Pixel 11-12 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Pixel 13-14 Red",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "Pixel 13-14 Green",
+      "capabilities": []
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "Pixel 13-14 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 0,
+      "type_description": "Pixel 15-16 Red",
+      "capabilities": []
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "Pixel 15-16 Green",
+      "capabilities": []
+    },
+    {
+      "index": 32,
+      "type": 0,
+      "type_description": "Pixel 15-16 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 33,
+      "type": 0,
+      "type_description": "Pixel 17-18 Red",
+      "capabilities": []
+    },
+    {
+      "index": 34,
+      "type": 0,
+      "type_description": "Pixel 17-18 Green",
+      "capabilities": []
+    },
+    {
+      "index": 35,
+      "type": 0,
+      "type_description": "Pixel 17-18 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 36,
+      "type": 0,
+      "type_description": "Pixel 19-20 Red",
+      "capabilities": []
+    },
+    {
+      "index": 37,
+      "type": 0,
+      "type_description": "Pixel 19-20 Green",
+      "capabilities": []
+    },
+    {
+      "index": 38,
+      "type": 0,
+      "type_description": "Pixel 19-20 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 39,
+      "type": 0,
+      "type_description": "Pixel 21-22 Red",
+      "capabilities": []
+    },
+    {
+      "index": 40,
+      "type": 0,
+      "type_description": "Pixel 21-22 Green",
+      "capabilities": []
+    },
+    {
+      "index": 41,
+      "type": 0,
+      "type_description": "Pixel 21-22 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 42,
+      "type": 0,
+      "type_description": "Pixel 23-24 Red",
+      "capabilities": []
+    },
+    {
+      "index": 43,
+      "type": 0,
+      "type_description": "Pixel 23-24 Green",
+      "capabilities": []
+    },
+    {
+      "index": 44,
+      "type": 0,
+      "type_description": "Pixel 23-24 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 45,
+      "type": 0,
+      "type_description": "Pixel 25-26 Red",
+      "capabilities": []
+    },
+    {
+      "index": 46,
+      "type": 0,
+      "type_description": "Pixel 25-26 Green",
+      "capabilities": []
+    },
+    {
+      "index": 47,
+      "type": 0,
+      "type_description": "Pixel 25-26 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 48,
+      "type": 0,
+      "type_description": "Pixel 27-28 Red",
+      "capabilities": []
+    },
+    {
+      "index": 49,
+      "type": 0,
+      "type_description": "Pixel 27-28 Green",
+      "capabilities": []
+    },
+    {
+      "index": 50,
+      "type": 0,
+      "type_description": "Pixel 27-28 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 51,
+      "type": 0,
+      "type_description": "Pixel 29-30 Red",
+      "capabilities": []
+    },
+    {
+      "index": 52,
+      "type": 0,
+      "type_description": "Pixel 29-30 Green",
+      "capabilities": []
+    },
+    {
+      "index": 53,
+      "type": 0,
+      "type_description": "Pixel 29-30 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 54,
+      "type": 0,
+      "type_description": "Pixel 31-32 Red",
+      "capabilities": []
+    },
+    {
+      "index": 55,
+      "type": 0,
+      "type_description": "Pixel 31-32 Green",
+      "capabilities": []
+    },
+    {
+      "index": 56,
+      "type": 0,
+      "type_description": "Pixel 31-32 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 57,
+      "type": 0,
+      "type_description": "Pixel 1 Red",
+      "capabilities": []
+    },
+    {
+      "index": 58,
+      "type": 0,
+      "type_description": "Pixel 1 Green",
+      "capabilities": []
+    },
+    {
+      "index": 59,
+      "type": 0,
+      "type_description": "Pixel 1 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 60,
+      "type": 0,
+      "type_description": "Pixel 2 Red",
+      "capabilities": []
+    },
+    {
+      "index": 61,
+      "type": 0,
+      "type_description": "Pixel 2 Green",
+      "capabilities": []
+    },
+    {
+      "index": 62,
+      "type": 0,
+      "type_description": "Pixel 2 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 63,
+      "type": 0,
+      "type_description": "Pixel 3 Red",
+      "capabilities": []
+    },
+    {
+      "index": 64,
+      "type": 0,
+      "type_description": "Pixel 3 Green",
+      "capabilities": []
+    },
+    {
+      "index": 65,
+      "type": 0,
+      "type_description": "Pixel 3 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 66,
+      "type": 0,
+      "type_description": "Pixel 4 Red",
+      "capabilities": []
+    },
+    {
+      "index": 67,
+      "type": 0,
+      "type_description": "Pixel 4 Green",
+      "capabilities": []
+    },
+    {
+      "index": 68,
+      "type": 0,
+      "type_description": "Pixel 4 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 69,
+      "type": 0,
+      "type_description": "Pixel 5 Red",
+      "capabilities": []
+    },
+    {
+      "index": 70,
+      "type": 0,
+      "type_description": "Pixel 5 Green",
+      "capabilities": []
+    },
+    {
+      "index": 71,
+      "type": 0,
+      "type_description": "Pixel 5 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 72,
+      "type": 0,
+      "type_description": "Pixel 6 Red",
+      "capabilities": []
+    },
+    {
+      "index": 73,
+      "type": 0,
+      "type_description": "Pixel 6 Green",
+      "capabilities": []
+    },
+    {
+      "index": 74,
+      "type": 0,
+      "type_description": "Pixel 6 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 75,
+      "type": 0,
+      "type_description": "Pixel 7 Red",
+      "capabilities": []
+    },
+    {
+      "index": 76,
+      "type": 0,
+      "type_description": "Pixel 7 Green",
+      "capabilities": []
+    },
+    {
+      "index": 77,
+      "type": 0,
+      "type_description": "Pixel 7 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 78,
+      "type": 0,
+      "type_description": "Pixel 8 Red",
+      "capabilities": []
+    },
+    {
+      "index": 79,
+      "type": 0,
+      "type_description": "Pixel 8 Green",
+      "capabilities": []
+    },
+    {
+      "index": 80,
+      "type": 0,
+      "type_description": "Pixel 8 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 81,
+      "type": 0,
+      "type_description": "Pixel 9 Red",
+      "capabilities": []
+    },
+    {
+      "index": 82,
+      "type": 0,
+      "type_description": "Pixel 9 Green",
+      "capabilities": []
+    },
+    {
+      "index": 83,
+      "type": 0,
+      "type_description": "Pixel 9 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 84,
+      "type": 0,
+      "type_description": "Pixel 10 Red",
+      "capabilities": []
+    },
+    {
+      "index": 85,
+      "type": 0,
+      "type_description": "Pixel 10 Green",
+      "capabilities": []
+    },
+    {
+      "index": 86,
+      "type": 0,
+      "type_description": "Pixel 10 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 87,
+      "type": 0,
+      "type_description": "Pixel 11 Red",
+      "capabilities": []
+    },
+    {
+      "index": 88,
+      "type": 0,
+      "type_description": "Pixel 11 Green",
+      "capabilities": []
+    },
+    {
+      "index": 89,
+      "type": 0,
+      "type_description": "Pixel 11 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 90,
+      "type": 0,
+      "type_description": "Pixel 12 Red",
+      "capabilities": []
+    },
+    {
+      "index": 91,
+      "type": 0,
+      "type_description": "Pixel 12 Green",
+      "capabilities": []
+    },
+    {
+      "index": 92,
+      "type": 0,
+      "type_description": "Pixel 12 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 93,
+      "type": 0,
+      "type_description": "Pixel 13 Red",
+      "capabilities": []
+    },
+    {
+      "index": 94,
+      "type": 0,
+      "type_description": "Pixel 13 Green",
+      "capabilities": []
+    },
+    {
+      "index": 95,
+      "type": 0,
+      "type_description": "Pixel 13 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 96,
+      "type": 0,
+      "type_description": "Pixel 14 Red",
+      "capabilities": []
+    },
+    {
+      "index": 97,
+      "type": 0,
+      "type_description": "Pixel 14 Green",
+      "capabilities": []
+    },
+    {
+      "index": 98,
+      "type": 0,
+      "type_description": "Pixel 14 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 99,
+      "type": 0,
+      "type_description": "Pixel 15 Red",
+      "capabilities": []
+    },
+    {
+      "index": 100,
+      "type": 0,
+      "type_description": "Pixel 15 Green",
+      "capabilities": []
+    },
+    {
+      "index": 101,
+      "type": 0,
+      "type_description": "Pixel 15 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 102,
+      "type": 0,
+      "type_description": "Pixel 16 Red",
+      "capabilities": []
+    },
+    {
+      "index": 103,
+      "type": 0,
+      "type_description": "Pixel 16 Green",
+      "capabilities": []
+    },
+    {
+      "index": 104,
+      "type": 0,
+      "type_description": "Pixel 16 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 105,
+      "type": 0,
+      "type_description": "Pixel 17 Red",
+      "capabilities": []
+    },
+    {
+      "index": 106,
+      "type": 0,
+      "type_description": "Pixel 17 Green",
+      "capabilities": []
+    },
+    {
+      "index": 107,
+      "type": 0,
+      "type_description": "Pixel 17 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 108,
+      "type": 0,
+      "type_description": "Pixel 18 Red",
+      "capabilities": []
+    },
+    {
+      "index": 109,
+      "type": 0,
+      "type_description": "Pixel 18 Green",
+      "capabilities": []
+    },
+    {
+      "index": 110,
+      "type": 0,
+      "type_description": "Pixel 18 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 111,
+      "type": 0,
+      "type_description": "Pixel 19 Red",
+      "capabilities": []
+    },
+    {
+      "index": 112,
+      "type": 0,
+      "type_description": "Pixel 19 Green",
+      "capabilities": []
+    },
+    {
+      "index": 113,
+      "type": 0,
+      "type_description": "Pixel 19 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 114,
+      "type": 0,
+      "type_description": "Pixel 20 Red",
+      "capabilities": []
+    },
+    {
+      "index": 115,
+      "type": 0,
+      "type_description": "Pixel 20 Green",
+      "capabilities": []
+    },
+    {
+      "index": 116,
+      "type": 0,
+      "type_description": "Pixel 20 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 117,
+      "type": 0,
+      "type_description": "Pixel 21 Red",
+      "capabilities": []
+    },
+    {
+      "index": 118,
+      "type": 0,
+      "type_description": "Pixel 21 Green",
+      "capabilities": []
+    },
+    {
+      "index": 119,
+      "type": 0,
+      "type_description": "Pixel 21 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 120,
+      "type": 0,
+      "type_description": "Pixel 22 Red",
+      "capabilities": []
+    },
+    {
+      "index": 121,
+      "type": 0,
+      "type_description": "Pixel 22 Green",
+      "capabilities": []
+    },
+    {
+      "index": 122,
+      "type": 0,
+      "type_description": "Pixel 22 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 123,
+      "type": 0,
+      "type_description": "Pixel 23 Red",
+      "capabilities": []
+    },
+    {
+      "index": 124,
+      "type": 0,
+      "type_description": "Pixel 23 Green",
+      "capabilities": []
+    },
+    {
+      "index": 125,
+      "type": 0,
+      "type_description": "Pixel 23 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 126,
+      "type": 0,
+      "type_description": "Pixel 24 Red",
+      "capabilities": []
+    },
+    {
+      "index": 127,
+      "type": 0,
+      "type_description": "Pixel 24 Green",
+      "capabilities": []
+    },
+    {
+      "index": 128,
+      "type": 0,
+      "type_description": "Pixel 24 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 129,
+      "type": 0,
+      "type_description": "Pixel 25 Red",
+      "capabilities": []
+    },
+    {
+      "index": 130,
+      "type": 0,
+      "type_description": "Pixel 25 Green",
+      "capabilities": []
+    },
+    {
+      "index": 131,
+      "type": 0,
+      "type_description": "Pixel 25 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 132,
+      "type": 0,
+      "type_description": "Pixel 26 Red",
+      "capabilities": []
+    },
+    {
+      "index": 133,
+      "type": 0,
+      "type_description": "Pixel 26 Green",
+      "capabilities": []
+    },
+    {
+      "index": 134,
+      "type": 0,
+      "type_description": "Pixel 26 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 135,
+      "type": 0,
+      "type_description": "Pixel 27 Red",
+      "capabilities": []
+    },
+    {
+      "index": 136,
+      "type": 0,
+      "type_description": "Pixel 27 Green",
+      "capabilities": []
+    },
+    {
+      "index": 137,
+      "type": 0,
+      "type_description": "Pixel 27 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 138,
+      "type": 0,
+      "type_description": "Pixel 28 Red",
+      "capabilities": []
+    },
+    {
+      "index": 139,
+      "type": 0,
+      "type_description": "Pixel 28 Green",
+      "capabilities": []
+    },
+    {
+      "index": 140,
+      "type": 0,
+      "type_description": "Pixel 28 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 141,
+      "type": 0,
+      "type_description": "Pixel 29 Red",
+      "capabilities": []
+    },
+    {
+      "index": 142,
+      "type": 0,
+      "type_description": "Pixel 29 Green",
+      "capabilities": []
+    },
+    {
+      "index": 143,
+      "type": 0,
+      "type_description": "Pixel 29 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 144,
+      "type": 0,
+      "type_description": "Pixel 30 Red",
+      "capabilities": []
+    },
+    {
+      "index": 145,
+      "type": 0,
+      "type_description": "Pixel 30 Green",
+      "capabilities": []
+    },
+    {
+      "index": 146,
+      "type": 0,
+      "type_description": "Pixel 30 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 147,
+      "type": 0,
+      "type_description": "Pixel 31 Red",
+      "capabilities": []
+    },
+    {
+      "index": 148,
+      "type": 0,
+      "type_description": "Pixel 31 Green",
+      "capabilities": []
+    },
+    {
+      "index": 149,
+      "type": 0,
+      "type_description": "Pixel 31 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 150,
+      "type": 0,
+      "type_description": "Pixel 32 Red",
+      "capabilities": []
+    },
+    {
+      "index": 151,
+      "type": 0,
+      "type_description": "Pixel 32 Green",
+      "capabilities": []
+    },
+    {
+      "index": 152,
+      "type": 0,
+      "type_description": "Pixel 32 Blue",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-LED-PT-100-32-Pixel-DMX-Tube.json",
+  "id": 711
+}

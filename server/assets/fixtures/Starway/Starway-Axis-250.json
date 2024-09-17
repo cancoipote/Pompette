@@ -1,0 +1,386 @@
+{
+  "version": "1.0.0",
+  "label": "Axis 250",
+  "manufacturer": "Starway",
+  "bulb_type": "MSD 250W",
+  "bulb_lumens": 18000,
+  "bulb_color_temperature": 8300,
+  "dimension_weight": 10,
+  "dimension_width": 380,
+  "dimension_height": 450,
+  "dimension_depth": 380,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Head",
+  "focus_pan_max": 630,
+  "focus_tilt_max": 265,
+  "technical_power_consumption": 400,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Speed Pan/Tilt",
+      "capabilities": [
+        {
+          "label": "Max Speed",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Undef Range 1",
+          "min": 3,
+          "max": 4
+        },
+        {
+          "label": "Level speed",
+          "min": 5,
+          "max": 225
+        },
+        {
+          "label": "Auto (GRP0)",
+          "min": 226,
+          "max": 235
+        },
+        {
+          "label": "Blackout all",
+          "min": 236,
+          "max": 245
+        },
+        {
+          "label": "No function",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 12
+        },
+        {
+          "label": "Light Blue",
+          "min": 13,
+          "max": 25
+        },
+        {
+          "label": "Pink",
+          "min": 26,
+          "max": 38
+        },
+        {
+          "label": "Green",
+          "min": 39,
+          "max": 51
+        },
+        {
+          "label": "Yellow",
+          "min": 52,
+          "max": 64
+        },
+        {
+          "label": "Magenta",
+          "min": 65,
+          "max": 77
+        },
+        {
+          "label": "Light Yellow",
+          "min": 78,
+          "max": 90
+        },
+        {
+          "label": "Dark Green",
+          "min": 91,
+          "max": 103
+        },
+        {
+          "label": "Dark Blue",
+          "min": 104,
+          "max": 116
+        },
+        {
+          "label": "Red",
+          "min": 117,
+          "max": 127
+        },
+        {
+          "label": "Loop Color Fast>Slow",
+          "min": 128,
+          "max": 187
+        },
+        {
+          "label": "No Rotation",
+          "min": 188,
+          "max": 193
+        },
+        {
+          "label": "Loop color Slow<Fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 13
+        },
+        {
+          "label": "Gobo 1",
+          "min": 14,
+          "max": 27
+        },
+        {
+          "label": "Gobo 2",
+          "min": 28,
+          "max": 41
+        },
+        {
+          "label": "Gobo 3",
+          "min": 42,
+          "max": 55
+        },
+        {
+          "label": "Gobo 4",
+          "min": 56,
+          "max": 69
+        },
+        {
+          "label": "Gobo 5",
+          "min": 70,
+          "max": 83
+        },
+        {
+          "label": "Gobo 6",
+          "min": 84,
+          "max": 97
+        },
+        {
+          "label": "Gobo 7",
+          "min": 98,
+          "max": 115
+        },
+        {
+          "label": "Gobo 1 Shake",
+          "min": 116,
+          "max": 135
+        },
+        {
+          "label": "Gobo 2 Shake",
+          "min": 136,
+          "max": 155
+        },
+        {
+          "label": "Gobo 3 Shake",
+          "min": 156,
+          "max": 175
+        },
+        {
+          "label": "Gobo 4 Shake",
+          "min": 176,
+          "max": 195
+        },
+        {
+          "label": "Gobo 5 Shake",
+          "min": 196,
+          "max": 215
+        },
+        {
+          "label": "Gobo 6 Shake",
+          "min": 216,
+          "max": 235
+        },
+        {
+          "label": "Gobo 7 Shake",
+          "min": 236,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 4,
+      "type_description": "Gobo Rotation",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "RLoop Min>Max",
+          "min": 8,
+          "max": 127
+        },
+        {
+          "label": "Off",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Lloop Max<Min",
+          "min": 136,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 21,
+      "type_description": "Shutter Strobe",
+      "capabilities": [
+        {
+          "label": "Close",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Intensity",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe Min>Max",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Strobe Flash",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 17,
+      "type_description": "Lamp / Reset / Macros",
+      "capabilities": [
+        {
+          "label": "Color Change Normal",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Color Change All position",
+          "min": 20,
+          "max": 39
+        },
+        {
+          "label": "Lampe On",
+          "min": 40,
+          "max": 59
+        },
+        {
+          "label": "Lampe Off",
+          "min": 60,
+          "max": 79
+        },
+        {
+          "label": "Reset",
+          "min": 80,
+          "max": 99
+        },
+        {
+          "label": "Macros 1",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "Macros 2",
+          "min": 120,
+          "max": 139
+        },
+        {
+          "label": "Macros 3",
+          "min": 140,
+          "max": 159
+        },
+        {
+          "label": "Macros 4",
+          "min": 160,
+          "max": 179
+        },
+        {
+          "label": "Macros 5",
+          "min": 180,
+          "max": 199
+        },
+        {
+          "label": "Macros 6",
+          "min": 200,
+          "max": 219
+        },
+        {
+          "label": "Macros 7",
+          "min": 220,
+          "max": 239
+        },
+        {
+          "label": "Macros 8",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Starway/Starway-Axis-250.json",
+  "id": 1355
+}

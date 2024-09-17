@@ -1,0 +1,356 @@
+{
+  "version": "1.0.0",
+  "label": "Scena LED 200",
+  "manufacturer": "DTS",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 3200,
+  "dimension_weight": 8,
+  "dimension_width": 237,
+  "dimension_height": 221,
+  "dimension_depth": 397,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 200,
+  "technical_dmx_connector": "5-pin",
+  "type": 12,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Black-out",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Open",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Black-out",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Strobe (from 3,27 s to 30 ms)",
+          "min": 30,
+          "max": 119
+        },
+        {
+          "label": "Pulse up (from 42,6 to 120 ms)",
+          "min": 120,
+          "max": 149
+        },
+        {
+          "label": "Pulse down (from 42,6 to 120 ms)",
+          "min": 150,
+          "max": 179
+        },
+        {
+          "label": "Random strobe",
+          "min": 180,
+          "max": 229
+        },
+        {
+          "label": "Single flash 30 ms",
+          "min": 230,
+          "max": 235
+        },
+        {
+          "label": "Open",
+          "min": 236,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Dimmer Fine",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 17,
+      "type_description": "Functions",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 14
+        },
+        {
+          "label": "SMOOTH OFF",
+          "min": 15,
+          "max": 24
+        },
+        {
+          "label": "SMOOTH 1 (25 ms)",
+          "min": 25,
+          "max": 26
+        },
+        {
+          "label": "SMOOTH 2 (50 ms)",
+          "min": 27,
+          "max": 28
+        },
+        {
+          "label": "SMOOTH 3 (75 ms)",
+          "min": 29,
+          "max": 30
+        },
+        {
+          "label": "SMOOTH 4 (100 ms) - DEFAULT",
+          "min": 31,
+          "max": 32
+        },
+        {
+          "label": "SMOOTH 5 (125 ms)",
+          "min": 33,
+          "max": 34
+        },
+        {
+          "label": "SMOOTH 6 (150 ms)",
+          "min": 35,
+          "max": 36
+        },
+        {
+          "label": "SMOOTH 7 (175 ms)",
+          "min": 37,
+          "max": 38
+        },
+        {
+          "label": "SMOOTH 8 (200 ms)",
+          "min": 39,
+          "max": 40
+        },
+        {
+          "label": "SMOOTH 9 (225 ms)",
+          "min": 41,
+          "max": 42
+        },
+        {
+          "label": "SMOOTH 10 (250 ms)",
+          "min": 43,
+          "max": 44
+        },
+        {
+          "label": "SMOOTH 11 (275 ms)",
+          "min": 45,
+          "max": 46
+        },
+        {
+          "label": "SMOOTH 12 (300 ms)",
+          "min": 47,
+          "max": 48
+        },
+        {
+          "label": "SMOOTH 13 (325 ms)",
+          "min": 49,
+          "max": 50
+        },
+        {
+          "label": "SMOOTH 14 (350 ms)",
+          "min": 51,
+          "max": 52
+        },
+        {
+          "label": "SMOOTH 15 (375 ms)",
+          "min": 53,
+          "max": 54
+        },
+        {
+          "label": "SMOOTH 16 (400 ms)",
+          "min": 55,
+          "max": 56
+        },
+        {
+          "label": "SMOOTH 17 (425 ms)",
+          "min": 57,
+          "max": 58
+        },
+        {
+          "label": "SMOOTH 18 (450 ms)",
+          "min": 59,
+          "max": 60
+        },
+        {
+          "label": "SMOOTH 19 (475 ms)",
+          "min": 61,
+          "max": 62
+        },
+        {
+          "label": "SMOOTH 20 (500 ms)",
+          "min": 63,
+          "max": 64
+        },
+        {
+          "label": "GAMMA CORRECTION QUADRATIC - DEFAULT",
+          "min": 65,
+          "max": 74
+        },
+        {
+          "label": "GAMMA CORRECTION LINEAR",
+          "min": 75,
+          "max": 84
+        },
+        {
+          "label": "OUTPUT FREQUENCY 610 Hz - DEFAULT",
+          "min": 85,
+          "max": 104
+        },
+        {
+          "label": "OUTPUT FREQUENCY 800 Hz",
+          "min": 105,
+          "max": 105
+        },
+        {
+          "label": "OUTPUT FREQUENCY 1000 Hz",
+          "min": 106,
+          "max": 106
+        },
+        {
+          "label": "OUTPUT FREQUENCY 1500 Hz",
+          "min": 107,
+          "max": 107
+        },
+        {
+          "label": "OUTPUT FREQUENCY 2000 Hz",
+          "min": 108,
+          "max": 108
+        },
+        {
+          "label": "OUTPUT FREQUENCY 2500 Hz",
+          "min": 109,
+          "max": 109
+        },
+        {
+          "label": "OUTPUT FREQUENCY 3000 Hz",
+          "min": 110,
+          "max": 110
+        },
+        {
+          "label": "OUTPUT FREQUENCY 3500 Hz",
+          "min": 111,
+          "max": 111
+        },
+        {
+          "label": "OUTPUT FREQUENCY 4000 Hz",
+          "min": 112,
+          "max": 112
+        },
+        {
+          "label": "OUTPUT FREQUENCY 4500 Hz",
+          "min": 113,
+          "max": 113
+        },
+        {
+          "label": "OUTPUT FREQUENCY 5000 Hz",
+          "min": 114,
+          "max": 114
+        },
+        {
+          "label": "RESERVED",
+          "min": 115,
+          "max": 134
+        },
+        {
+          "label": "BOOST ON - DEFAULT",
+          "min": 135,
+          "max": 144
+        },
+        {
+          "label": "BOOST OFF",
+          "min": 145,
+          "max": 154
+        },
+        {
+          "label": "DISPLAY STAND-BY OFF - DEFAULT",
+          "min": 155,
+          "max": 164
+        },
+        {
+          "label": "DISPLAY STAND-BY ON",
+          "min": 165,
+          "max": 174
+        },
+        {
+          "label": "NO DMX ACTION - KEEP LAST DEMX - DEFAULT",
+          "min": 175,
+          "max": 176
+        },
+        {
+          "label": "NO DMX ACTION - Black-out",
+          "min": 177,
+          "max": 178
+        },
+        {
+          "label": "NO DMX ACTION - LED ON @ 100%",
+          "min": 179,
+          "max": 180
+        },
+        {
+          "label": "NO DMX ACTION - LED ON @ 60%",
+          "min": 181,
+          "max": 182
+        },
+        {
+          "label": "NO DMX ACTION - CUSTOM",
+          "min": 183,
+          "max": 184
+        },
+        {
+          "label": "RESERVED",
+          "min": 185,
+          "max": 194
+        },
+        {
+          "label": "RESERVED",
+          "min": 195,
+          "max": 204
+        },
+        {
+          "label": "RESERVED",
+          "min": 205,
+          "max": 214
+        },
+        {
+          "label": "RESERVED",
+          "min": 215,
+          "max": 224
+        },
+        {
+          "label": "RESERVED",
+          "min": 225,
+          "max": 234
+        },
+        {
+          "label": "FAN STANDARD MODE",
+          "min": 235,
+          "max": 244
+        },
+        {
+          "label": "FAN SILENT MODE - DEFAULT",
+          "min": 245,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/DTS/DTS-Scena-LED-200.json",
+  "id": 585
+}

@@ -1,0 +1,487 @@
+{
+  "version": "1.0.0",
+  "label": "Varyscan 4 Compact Plus",
+  "manufacturer": "JB-Lighting",
+  "bulb_type": "HMI 575W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 19,
+  "dimension_width": 270,
+  "dimension_height": 650,
+  "dimension_depth": 290,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Head",
+  "focus_pan_max": 170,
+  "focus_tilt_max": 110,
+  "technical_power_consumption": 0,
+  "technical_dmx_connector": "",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Gobo 1",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Gobo 2",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Gobo 3",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Gobo 4",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Gobo 5",
+          "min": 160,
+          "max": 254
+        },
+        {
+          "label": "Reset",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "Colour 1 White",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Colour 2",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Colour 3 Red",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Colour 4",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Colour 5 Yellow",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Colour 6",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Colour 7 Pink",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Colour 8",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Colour 9 Green",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Colour 10",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Colour 11 Orange",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Colour 12",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Colour 13 Blue",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Colour 14",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Colour 15 Dark Green",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Colour 16",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Rainbow",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 5,
+      "type_description": "Dimmer/Shutter",
+      "capabilities": [
+        {
+          "label": "Dimmer intensity",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Open",
+          "min": 128,
+          "max": 137
+        },
+        {
+          "label": "Closed",
+          "min": 138,
+          "max": 139
+        },
+        {
+          "label": "Strobe speed 1-11/sec",
+          "min": 140,
+          "max": 243
+        },
+        {
+          "label": "Open",
+          "min": 244,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Iris",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 4,
+      "type_description": "Gobo rotation",
+      "capabilities": [
+        {
+          "label": "0-540 degrees",
+          "min": 0,
+          "max": 191
+        },
+        {
+          "label": "Rotation speed CCW",
+          "min": 192,
+          "max": 222
+        },
+        {
+          "label": "No rotation",
+          "min": 223,
+          "max": 224
+        },
+        {
+          "label": "Rotation speed CW",
+          "min": 225,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Effect",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Artificial light filter",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Daylight filter",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Prism",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Prism rotation speed slow to fast",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Floodfilter",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Flood to open",
+          "min": 160,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 4,
+      "type_description": "Gobo & Effect",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 8
+        },
+        {
+          "label": "Artificial light filter",
+          "min": 9,
+          "max": 17
+        },
+        {
+          "label": "Daylight filter",
+          "min": 18,
+          "max": 26
+        },
+        {
+          "label": "Prism",
+          "min": 27,
+          "max": 35
+        },
+        {
+          "label": "Flood filter",
+          "min": 36,
+          "max": 44
+        },
+        {
+          "label": "Gobo 1 White",
+          "min": 45,
+          "max": 53
+        },
+        {
+          "label": "Gobo 1 Artificial light filter",
+          "min": 54,
+          "max": 62
+        },
+        {
+          "label": "Gobo 1 Daylight filter",
+          "min": 63,
+          "max": 71
+        },
+        {
+          "label": "Gobo 1 Prism",
+          "min": 72,
+          "max": 80
+        },
+        {
+          "label": "Gobo 2 White",
+          "min": 81,
+          "max": 89
+        },
+        {
+          "label": "Gobo 2 Artificial light filter",
+          "min": 90,
+          "max": 98
+        },
+        {
+          "label": "Gobo 2 Daylight filter",
+          "min": 99,
+          "max": 107
+        },
+        {
+          "label": "Gobo 2 Prism",
+          "min": 108,
+          "max": 116
+        },
+        {
+          "label": "Gobo 3 white",
+          "min": 117,
+          "max": 125
+        },
+        {
+          "label": "Gobo 3 Artificial light filter",
+          "min": 126,
+          "max": 134
+        },
+        {
+          "label": "Gobo 3 Daylight filter",
+          "min": 135,
+          "max": 143
+        },
+        {
+          "label": "Gobo 3 Prism",
+          "min": 144,
+          "max": 152
+        },
+        {
+          "label": "Gobo 4 White",
+          "min": 153,
+          "max": 161
+        },
+        {
+          "label": "Gobo 4 Artificial light filter",
+          "min": 162,
+          "max": 170
+        },
+        {
+          "label": "Gobo 4 Daylight filter",
+          "min": 171,
+          "max": 179
+        },
+        {
+          "label": "Gobo 4 Prism",
+          "min": 180,
+          "max": 188
+        },
+        {
+          "label": "Gobo 5 White",
+          "min": 189,
+          "max": 197
+        },
+        {
+          "label": "Gobo 5 Artificial light filter",
+          "min": 198,
+          "max": 206
+        },
+        {
+          "label": "Gobo 5 Daylight filter",
+          "min": 207,
+          "max": 215
+        },
+        {
+          "label": "Gobo 5 Prism",
+          "min": 216,
+          "max": 254
+        },
+        {
+          "label": "Reset",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Iris & Gobo rotation",
+      "capabilities": [
+        {
+          "label": "Iris with gobo 1",
+          "min": 0,
+          "max": 64
+        },
+        {
+          "label": "Gobo 2",
+          "min": 65,
+          "max": 65
+        },
+        {
+          "label": "Gobo 3",
+          "min": 66,
+          "max": 66
+        },
+        {
+          "label": "Gobo at 0 degrees",
+          "min": 67,
+          "max": 67
+        },
+        {
+          "label": "Gobo 1 - 179 degrees",
+          "min": 68,
+          "max": 105
+        },
+        {
+          "label": "Gobo at 180 degrees",
+          "min": 106,
+          "max": 106
+        },
+        {
+          "label": "Gobo 181 - 359 degrees",
+          "min": 107,
+          "max": 147
+        },
+        {
+          "label": "Gobo at 360 degrees",
+          "min": 148,
+          "max": 148
+        },
+        {
+          "label": "Gobo 361 - 539 degrees",
+          "min": 149,
+          "max": 190
+        },
+        {
+          "label": "Gobo at 540 degrees",
+          "min": 191,
+          "max": 191
+        },
+        {
+          "label": "Gobo CCW rotation fast to slow",
+          "min": 192,
+          "max": 222
+        },
+        {
+          "label": "No gobo rotation",
+          "min": 223,
+          "max": 224
+        },
+        {
+          "label": "Gobo CW rotation slow to fast",
+          "min": 225,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/JB-Lighting/JB-Lighting-Varyscan-4-Compact-Plus.json",
+  "id": 927
+}

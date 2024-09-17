@@ -1,0 +1,195 @@
+{
+  "version": "1.0.0",
+  "label": "LED PAR 14x8W",
+  "manufacturer": "Varytec",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 5,
+  "dimension_width": 248,
+  "dimension_height": 203,
+  "dimension_depth": 290,
+  "lens_label": "Other",
+  "lens_degree_min": 25,
+  "lens_degree_max": 25,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 90,
+  "technical_dmx_connector": "3-pin IP65",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Colour selection",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Pure white",
+          "min": 1,
+          "max": 14
+        },
+        {
+          "label": "White",
+          "min": 15,
+          "max": 29
+        },
+        {
+          "label": "Light blue",
+          "min": 30,
+          "max": 44
+        },
+        {
+          "label": "Blue",
+          "min": 45,
+          "max": 59
+        },
+        {
+          "label": "White / blue",
+          "min": 60,
+          "max": 75
+        },
+        {
+          "label": "White / pink",
+          "min": 76,
+          "max": 89
+        },
+        {
+          "label": "Pink",
+          "min": 90,
+          "max": 104
+        },
+        {
+          "label": "Pink",
+          "min": 105,
+          "max": 119
+        },
+        {
+          "label": "Pink / red",
+          "min": 120,
+          "max": 134
+        },
+        {
+          "label": "Magenta",
+          "min": 135,
+          "max": 149
+        },
+        {
+          "label": "Red",
+          "min": 150,
+          "max": 164
+        },
+        {
+          "label": "Yellow",
+          "min": 165,
+          "max": 179
+        },
+        {
+          "label": "Lime green",
+          "min": 180,
+          "max": 194
+        },
+        {
+          "label": "Light green",
+          "min": 195,
+          "max": 209
+        },
+        {
+          "label": "Green",
+          "min": 210,
+          "max": 224
+        },
+        {
+          "label": "Blue green",
+          "min": 225,
+          "max": 239
+        },
+        {
+          "label": "Cyan",
+          "min": 240,
+          "max": 254
+        },
+        {
+          "label": "Blackout",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Stroboscope",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Auto colour",
+      "capabilities": [
+        {
+          "label": "Constant colour, settings with channel 1 … 7",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "No function",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "label": "Colour fade, increasing speed",
+          "min": 6,
+          "max": 240
+        },
+        {
+          "label": "Colour change, increasing speed",
+          "min": 241,
+          "max": 254
+        },
+        {
+          "label": "Blackout",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Varytec/Varytec-LED-PAR-14x8W.json",
+  "id": 1512
+}

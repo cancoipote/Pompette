@@ -1,0 +1,172 @@
+{
+  "version": "1.0.0",
+  "label": "LED PAR56",
+  "manufacturer": "Varytec",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 210,
+  "dimension_height": 210,
+  "dimension_depth": 300,
+  "lens_label": "Other",
+  "lens_degree_min": 30,
+  "lens_degree_max": 30,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 20,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 5,
+      "type_description": "Red",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Dimmer/off (channel 6>31 and <128)",
+          "min": 1,
+          "max": 15
+        },
+        {
+          "label": "Dimmer/on (channel 6>31 and <128)",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Macro",
+      "capabilities": [
+        {
+          "label": "Macro Off",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Macro On",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Speed/Strobe",
+      "capabilities": [
+        {
+          "label": "Strobe off/Speed slow - fast (channel 6>31 and <224)",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Strobe with 16 adjustable speeds/Speed slow - fast (channel 6>31 and <224)",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "Color Setting",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Lightness decreasing (Fade Out)",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Lightness increasing (Fade In)",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Fade Out and In mode",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Mix color automatically",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "3-Color flash in turn (Chasing)",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "7-Color flash in turn (Chasing)",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Sound Action",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 5,
+      "type_description": "Green",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Dimmer/off (channel 6>31 and <128)",
+          "min": 1,
+          "max": 15
+        },
+        {
+          "label": "Dimmer/on (channel 6>31 and <128)",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 5,
+      "type_description": "Blue",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Dimmer/off (channel 6>31 and <128)",
+          "min": 1,
+          "max": 15
+        },
+        {
+          "label": "Dimmer/on (channel 6>31 and <128)",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Varytec/Varytec-LED-PAR56.json",
+  "id": 1514
+}

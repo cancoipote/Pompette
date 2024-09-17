@@ -1,0 +1,208 @@
+{
+  "version": "1.0.0",
+  "label": "MH-110 Wash",
+  "manufacturer": "Stairville",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 260,
+  "dimension_height": 310,
+  "dimension_depth": 148,
+  "lens_label": "Other",
+  "lens_degree_min": 15,
+  "lens_degree_max": 15,
+  "focus_type": "Head",
+  "focus_pan_max": 630,
+  "focus_tilt_max": 220,
+  "technical_power_consumption": 100,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan / Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "CTO",
+      "capabilities": [
+        {
+          "label": "Blackout, all LEDs off",
+          "min": 0,
+          "max": 35
+        },
+        {
+          "label": "3200K",
+          "min": 36,
+          "max": 55
+        },
+        {
+          "label": "3400K",
+          "min": 56,
+          "max": 75
+        },
+        {
+          "label": "4200K",
+          "min": 76,
+          "max": 95
+        },
+        {
+          "label": "4900K",
+          "min": 96,
+          "max": 115
+        },
+        {
+          "label": "5600K",
+          "min": 116,
+          "max": 135
+        },
+        {
+          "label": "6500K",
+          "min": 136,
+          "max": 175
+        },
+        {
+          "label": "7200K",
+          "min": 176,
+          "max": 195
+        },
+        {
+          "label": "8000K",
+          "min": 196,
+          "max": 215
+        },
+        {
+          "label": "8500K",
+          "min": 216,
+          "max": 235
+        },
+        {
+          "label": "10000K",
+          "min": 236,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Colour Macro",
+      "capabilities": [
+        {
+          "label": "Blackout, all LEDs off",
+          "min": 0,
+          "max": 14
+        },
+        {
+          "label": "One of 28 preprogrammed colours",
+          "min": 15,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 21,
+      "type_description": "Strobe effect",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe, Increasing speed",
+          "min": 10,
+          "max": 140
+        },
+        {
+          "label": "Strobe, Random speed",
+          "min": 141,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 17,
+      "type_description": "Special functions",
+      "capabilities": [
+        {
+          "label": "Without function",
+          "min": 0,
+          "max": 99
+        },
+        {
+          "label": "Automatic sound",
+          "min": 100,
+          "max": 199
+        },
+        {
+          "label": "Reset",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Stairville/Stairville-MH-110-Wash.json",
+  "id": 1416
+}

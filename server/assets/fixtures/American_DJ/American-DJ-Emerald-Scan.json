@@ -1,0 +1,146 @@
+{
+  "version": "1.0.0",
+  "label": "Emerald Scan",
+  "manufacturer": "American DJ",
+  "bulb_type": "Green Lazer Diode",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 203,
+  "dimension_height": 407,
+  "dimension_depth": 140,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Head",
+  "focus_pan_max": 150,
+  "focus_tilt_max": 90,
+  "technical_power_consumption": 240,
+  "technical_dmx_connector": "3-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 3,
+      "type_description": "Pattern",
+      "capabilities": [
+        {
+          "label": "Circle CW",
+          "min": 0,
+          "max": 14
+        },
+        {
+          "label": "Rings/Target",
+          "min": 15,
+          "max": 29
+        },
+        {
+          "label": "3 Rolling Rings CW",
+          "min": 30,
+          "max": 44
+        },
+        {
+          "label": "Rolling Ring CCW",
+          "min": 45,
+          "max": 59
+        },
+        {
+          "label": "Barrel",
+          "min": 60,
+          "max": 74
+        },
+        {
+          "label": "Tri-Ring CW",
+          "min": 75,
+          "max": 89
+        },
+        {
+          "label": "Tri-Ring CCW",
+          "min": 90,
+          "max": 104
+        },
+        {
+          "label": "Intersecting Rings 1",
+          "min": 105,
+          "max": 119
+        },
+        {
+          "label": "Intersecting Rings 2",
+          "min": 120,
+          "max": 134
+        },
+        {
+          "label": "Intersecting Rings 3",
+          "min": 135,
+          "max": 149
+        },
+        {
+          "label": "Line CCW Slow",
+          "min": 150,
+          "max": 164
+        },
+        {
+          "label": "Tri-Blade",
+          "min": 165,
+          "max": 179
+        },
+        {
+          "label": "Tri-Blade CW",
+          "min": 180,
+          "max": 194
+        },
+        {
+          "label": "Tri-Blade CCW",
+          "min": 195,
+          "max": 209
+        },
+        {
+          "label": "Line CW Fast",
+          "min": 210,
+          "max": 224
+        },
+        {
+          "label": "Line CCW Fast",
+          "min": 225,
+          "max": 239
+        },
+        {
+          "label": "Quad-Blade",
+          "min": 240,
+          "max": 254
+        },
+        {
+          "label": "Circle CCW",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 1,
+      "type_description": "Lazer Glitter",
+      "capabilities": [
+        {
+          "label": "This increases and decreases the lazer line size and the gap size in the patterns",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Emerald-Scan.json",
+  "id": 51
+}

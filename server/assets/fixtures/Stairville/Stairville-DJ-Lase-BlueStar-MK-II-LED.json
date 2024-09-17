@@ -1,0 +1,209 @@
+{
+  "version": "1.0.0",
+  "label": "DJ Lase BlueStar MK-II LED",
+  "manufacturer": "Stairville",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 200,
+  "dimension_height": 92,
+  "dimension_depth": 175,
+  "lens_label": "Other",
+  "lens_degree_min": 160,
+  "lens_degree_max": 160,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 15,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Operating mode selection",
+      "capabilities": [
+        {
+          "label": "Laser off",
+          "min": 0,
+          "max": 51
+        },
+        {
+          "label": "Automatic show in random order, fast",
+          "min": 52,
+          "max": 102
+        },
+        {
+          "label": "Automatic show in random order, slow",
+          "min": 103,
+          "max": 154
+        },
+        {
+          "label": "Sound controlled automatic show in random order",
+          "min": 155,
+          "max": 206
+        },
+        {
+          "label": "DMX mode This setting enables the function of the other DMX channels",
+          "min": 207,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Red laser",
+      "capabilities": [
+        {
+          "label": "Laser off",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Laser is constantly on",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "Strobe effect (flashing), decreasing speed",
+          "min": 128,
+          "max": 254
+        },
+        {
+          "label": "Sound controlled strobe effect (flashing)",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 3,
+      "type_description": "Green laser",
+      "capabilities": [
+        {
+          "label": "Laser off",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Laser is constantly on",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "Strobe effect (flashing), decreasing speed",
+          "min": 128,
+          "max": 254
+        },
+        {
+          "label": "Sound controlled strobe effect (flashing)",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Rotation of the red and green laser around the Z-axis (rolling)",
+      "capabilities": [
+        {
+          "label": "No rotation",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Clockwise rotating effect, speed increasing from slow to fast",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "No rotation",
+          "min": 128,
+          "max": 133
+        },
+        {
+          "label": "Anti-clockwise rotating effect, speed increasing from slow to fast",
+          "min": 134,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Rotation of the blue LED background illumination around the Z-axis (rolling)",
+      "capabilities": [
+        {
+          "label": "No rotation",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Clockwise rotating effect, speed increasing from slow to fast",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "No rotation",
+          "min": 128,
+          "max": 133
+        },
+        {
+          "label": "Anti-clockwise rotating effect, speed increasing from slow to fast",
+          "min": 134,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 5,
+      "type_description": "Intensity of the blue LED background illumination",
+      "capabilities": [
+        {
+          "label": "Background illumination off",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Increasing brightness (0 %...100 %)",
+          "min": 5,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Strobe effect (flashing) of the blue LED background illumination",
+      "capabilities": [
+        {
+          "label": "Background illumination off",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Background illumination is constantly on",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "Strobe effect (flashing), decreasing speed",
+          "min": 128,
+          "max": 254
+        },
+        {
+          "label": "Sound controlled strobe effect (flashing)",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Stairville/Stairville-DJ-Lase-BlueStar-MK-II-LED.json",
+  "id": 1391
+}

@@ -1,0 +1,506 @@
+{
+  "version": "1.0.0",
+  "label": "Phantom 250",
+  "manufacturer": "Showtec",
+  "bulb_type": "MSD 250W",
+  "bulb_lumens": 8000,
+  "bulb_color_temperature": 5500,
+  "dimension_weight": 25,
+  "dimension_width": 400,
+  "dimension_height": 476,
+  "dimension_depth": 400,
+  "lens_label": "PC",
+  "lens_degree_min": 8,
+  "lens_degree_max": 22,
+  "focus_type": "Head",
+  "focus_pan_max": 530,
+  "focus_tilt_max": 280,
+  "technical_power_consumption": 500,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Pan 16bit",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt 16bit",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "open",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "blue",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "red",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "pink",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "green",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "yellow",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "magenta",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "UV",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Forward Rainbow fast - slow",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 4,
+      "type_description": "Gobo1",
+      "capabilities": [
+        {
+          "label": "open",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Gobo 1",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Gobo 2",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Gobo 3",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Gobo 4",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Gobo 5",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Gobo 6",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Gobo 7",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "shaking Gobo 1",
+          "min": 80,
+          "max": 99
+        },
+        {
+          "label": "shaking Gobo 2",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "shaking Gobo 3",
+          "min": 120,
+          "max": 139
+        },
+        {
+          "label": "shaking Gobo 4",
+          "min": 140,
+          "max": 159
+        },
+        {
+          "label": "shaking Gobo 5",
+          "min": 160,
+          "max": 179
+        },
+        {
+          "label": "shaking Gobo 6",
+          "min": 180,
+          "max": 199
+        },
+        {
+          "label": "shaking Gobo 7",
+          "min": 200,
+          "max": 219
+        },
+        {
+          "label": "Clockwise Rotation slow - fast",
+          "min": 220,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 4,
+      "type_description": "Gobo Rotation",
+      "capabilities": [
+        {
+          "label": "Gobo indexing",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Forwards Rotation fast - slow",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Backwards Rotation slow - fast",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "closed",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "open",
+          "min": 8,
+          "max": 22
+        },
+        {
+          "label": "strobe effect slow - fast",
+          "min": 23,
+          "max": 85
+        },
+        {
+          "label": "open",
+          "min": 86,
+          "max": 100
+        },
+        {
+          "label": "pulse effect slow - fast",
+          "min": 101,
+          "max": 165
+        },
+        {
+          "label": "open",
+          "min": 166,
+          "max": 180
+        },
+        {
+          "label": "random effect slow - fast",
+          "min": 181,
+          "max": 245
+        },
+        {
+          "label": "open",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Function",
+      "capabilities": [
+        {
+          "label": "no function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "moving blackout",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "no function",
+          "min": 20,
+          "max": 99
+        },
+        {
+          "label": "reset",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "no function",
+          "min": 110,
+          "max": 129
+        },
+        {
+          "label": "auto1",
+          "min": 130,
+          "max": 145
+        },
+        {
+          "label": "auto2",
+          "min": 146,
+          "max": 161
+        },
+        {
+          "label": "auto3",
+          "min": 162,
+          "max": 177
+        },
+        {
+          "label": "auto4",
+          "min": 178,
+          "max": 193
+        },
+        {
+          "label": "sound control 1",
+          "min": 194,
+          "max": 209
+        },
+        {
+          "label": "sound control 2",
+          "min": 210,
+          "max": 225
+        },
+        {
+          "label": "sound control 3",
+          "min": 226,
+          "max": 241
+        },
+        {
+          "label": "sound contorl 4",
+          "min": 242,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 3,
+      "type_description": "Effect",
+      "capabilities": [
+        {
+          "label": "no function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "effect1",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "effect2",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "effect3",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "effect4",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "effect5",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "effect6",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "effect7",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "effect8",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "effect9",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "effect10",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "effect11",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "effect12",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "effect13",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "effect14",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "effect15",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "effect16",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "effect17",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "effect18",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "effect19",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "effect20",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "effect21",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "effect22",
+          "min": 220,
+          "max": 229
+        },
+        {
+          "label": "effect23",
+          "min": 230,
+          "max": 239
+        },
+        {
+          "label": "effect24",
+          "min": 240,
+          "max": 249
+        },
+        {
+          "label": "effect25",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 20,
+      "type_description": "Prism Rotation",
+      "capabilities": [
+        {
+          "label": "no rotation",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "backwards rotation fast - slow",
+          "min": 16,
+          "max": 239
+        },
+        {
+          "label": "prism",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Showtec/Showtec-Phantom-250.json",
+  "id": 1319
+}

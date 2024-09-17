@@ -1,0 +1,921 @@
+{
+  "version": "1.0.0",
+  "label": "GalaxyJet Waterproof IP65 380W 19R Beam Moving Head",
+  "manufacturer": "Shehds",
+  "bulb_type": "HMI 310W",
+  "bulb_lumens": 475000,
+  "bulb_color_temperature": 7000,
+  "dimension_weight": 21,
+  "dimension_width": 390,
+  "dimension_height": 300,
+  "dimension_depth": 600,
+  "lens_label": "Other",
+  "lens_degree_min": 1,
+  "lens_degree_max": 9,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 450,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Color wheel",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "White+Red",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "Red+Green",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "Green",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "Green+Blue",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "Blue",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "Blue+Orange",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "Orange",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "Orange+Light red",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "Light red",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "Light red+Pink",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "Pink",
+          "min": 60,
+          "max": 64
+        },
+        {
+          "label": "Pink+Magenta",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "Magenta",
+          "min": 70,
+          "max": 74
+        },
+        {
+          "label": "Magenta+Light green",
+          "min": 75,
+          "max": 79
+        },
+        {
+          "label": "Light green",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "Light green+Cyan",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "Cyan",
+          "min": 90,
+          "max": 94
+        },
+        {
+          "label": "Cyan+Yellow",
+          "min": 95,
+          "max": 99
+        },
+        {
+          "label": "Yellow",
+          "min": 100,
+          "max": 104
+        },
+        {
+          "label": "Yellow+Dark pink",
+          "min": 105,
+          "max": 109
+        },
+        {
+          "label": "Dark pink",
+          "min": 110,
+          "max": 114
+        },
+        {
+          "label": "Dark pink+Dark blue",
+          "min": 115,
+          "max": 119
+        },
+        {
+          "label": "Dark blue",
+          "min": 120,
+          "max": 124
+        },
+        {
+          "label": "Dark blue+Bright blue",
+          "min": 125,
+          "max": 129
+        },
+        {
+          "label": "Bright blue",
+          "min": 130,
+          "max": 134
+        },
+        {
+          "label": "Bright blue+Light blue",
+          "min": 135,
+          "max": 139
+        },
+        {
+          "label": "Light blue",
+          "min": 140,
+          "max": 144
+        },
+        {
+          "label": "Light blue+White",
+          "min": 145,
+          "max": 149
+        },
+        {
+          "label": "ClockwiseRotation",
+          "min": 150,
+          "max": 200
+        },
+        {
+          "label": "AntiClockwiseRotation",
+          "min": 201,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Shutter slow - fast",
+          "min": 4,
+          "max": 103
+        },
+        {
+          "label": "Open",
+          "min": 104,
+          "max": 107
+        },
+        {
+          "label": "Shutter slow -fast",
+          "min": 108,
+          "max": 207
+        },
+        {
+          "label": "Open",
+          "min": 208,
+          "max": 212
+        },
+        {
+          "label": "Random shutter slow - fast",
+          "min": 213,
+          "max": 251
+        },
+        {
+          "label": "Open",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 4,
+      "type_description": "Gobo wheel",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Gobo 1",
+          "min": 4,
+          "max": 6
+        },
+        {
+          "label": "Gobo 2",
+          "min": 7,
+          "max": 9
+        },
+        {
+          "label": "Gobo 3",
+          "min": 10,
+          "max": 12
+        },
+        {
+          "label": "Gobo 4",
+          "min": 13,
+          "max": 15
+        },
+        {
+          "label": "Gobo 5",
+          "min": 16,
+          "max": 18
+        },
+        {
+          "label": "Gobo 6",
+          "min": 19,
+          "max": 21
+        },
+        {
+          "label": "Gobo 7",
+          "min": 22,
+          "max": 24
+        },
+        {
+          "label": "Gobo 8",
+          "min": 25,
+          "max": 27
+        },
+        {
+          "label": "Gobo 9",
+          "min": 28,
+          "max": 30
+        },
+        {
+          "label": "Gobo 10",
+          "min": 31,
+          "max": 33
+        },
+        {
+          "label": "Gobo 11",
+          "min": 34,
+          "max": 36
+        },
+        {
+          "label": "Gobo 12",
+          "min": 37,
+          "max": 39
+        },
+        {
+          "label": "Gobo 13",
+          "min": 40,
+          "max": 42
+        },
+        {
+          "label": "Gobo 14",
+          "min": 43,
+          "max": 45
+        },
+        {
+          "label": "Gobo 15",
+          "min": 46,
+          "max": 48
+        },
+        {
+          "label": "Gobo 16",
+          "min": 49,
+          "max": 51
+        },
+        {
+          "label": "Gobo 17",
+          "min": 52,
+          "max": 54
+        },
+        {
+          "label": "Open",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "Gobo 1 shake",
+          "min": 60,
+          "max": 63
+        },
+        {
+          "label": "Gobo 2 shake",
+          "min": 64,
+          "max": 67
+        },
+        {
+          "label": "Gobo 3 shake",
+          "min": 68,
+          "max": 71
+        },
+        {
+          "label": "Gobo 4 shake",
+          "min": 72,
+          "max": 75
+        },
+        {
+          "label": "Gobo 5 shake",
+          "min": 76,
+          "max": 79
+        },
+        {
+          "label": "Gobo 6 shake",
+          "min": 80,
+          "max": 83
+        },
+        {
+          "label": "Gobo 7 shake",
+          "min": 84,
+          "max": 87
+        },
+        {
+          "label": "Gobo 8 shake",
+          "min": 88,
+          "max": 91
+        },
+        {
+          "label": "Gobo 9 shake",
+          "min": 92,
+          "max": 95
+        },
+        {
+          "label": "Gobo 10 shake",
+          "min": 96,
+          "max": 99
+        },
+        {
+          "label": "Gobo 11 shake",
+          "min": 100,
+          "max": 103
+        },
+        {
+          "label": "Gobo 12 shake",
+          "min": 104,
+          "max": 107
+        },
+        {
+          "label": "Gobo 13 shake",
+          "min": 108,
+          "max": 111
+        },
+        {
+          "label": "Gobo 14 shake",
+          "min": 112,
+          "max": 115
+        },
+        {
+          "label": "Gobo 15 shake",
+          "min": 116,
+          "max": 119
+        },
+        {
+          "label": "Gobo 16 shake",
+          "min": 120,
+          "max": 123
+        },
+        {
+          "label": "Gobo 17 shake",
+          "min": 124,
+          "max": 127
+        },
+        {
+          "label": "Clockwise rotation",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Anti clockweise rotation",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 20,
+      "type_description": "Prism 1",
+      "capabilities": [
+        {
+          "label": "No Prism",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Prism On",
+          "min": 32,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 20,
+      "type_description": "Prism1 rotation",
+      "capabilities": [
+        {
+          "label": "Prism rotation (0-360 degrees)",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Clockwise Rotation",
+          "min": 128,
+          "max": 190
+        },
+        {
+          "label": "Stop",
+          "min": 191,
+          "max": 192
+        },
+        {
+          "label": "Anti clockwise rotation",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 20,
+      "type_description": "Prism 2",
+      "capabilities": [
+        {
+          "label": "No Prism",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Prism On",
+          "min": 32,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 20,
+      "type_description": "Prism2 rotation",
+      "capabilities": [
+        {
+          "label": "Prism rotation (0-360 degrees)",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Clockwise Rotation",
+          "min": 128,
+          "max": 190
+        },
+        {
+          "label": "Stop",
+          "min": 191,
+          "max": 192
+        },
+        {
+          "label": "Anti clockweise rotation",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Pan/Tilt speed",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 1,
+      "type_description": "Frost & Rainbow",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Frost",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Rianbow",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 3,
+      "type_description": "Lamp",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 99
+        },
+        {
+          "label": "Bulb Off",
+          "min": 100,
+          "max": 105
+        },
+        {
+          "label": "No Function",
+          "min": 106,
+          "max": 199
+        },
+        {
+          "label": "Bulb On",
+          "min": 200,
+          "max": 205
+        },
+        {
+          "label": "No function",
+          "min": 206,
+          "max": 249
+        },
+        {
+          "label": "Reset after 5s",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 21,
+      "type_description": "Ring strobe",
+      "capabilities": [
+        {
+          "label": "Ring strobe",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Ring effect",
+      "capabilities": [
+        {
+          "label": "R",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "G",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "B",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "Y",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "P",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "LB",
+          "min": 25,
+          "max": 28
+        },
+        {
+          "label": "LG",
+          "min": 29,
+          "max": 33
+        },
+        {
+          "label": "W",
+          "min": 34,
+          "max": 39
+        },
+        {
+          "label": "Color change mode",
+          "min": 40,
+          "max": 48
+        },
+        {
+          "label": "CMYW mode",
+          "min": 49,
+          "max": 53
+        },
+        {
+          "label": "Green mode",
+          "min": 54,
+          "max": 57
+        },
+        {
+          "label": "Red mode",
+          "min": 58,
+          "max": 62
+        },
+        {
+          "label": "Blue mode",
+          "min": 63,
+          "max": 67
+        },
+        {
+          "label": "Yellow mode",
+          "min": 68,
+          "max": 72
+        },
+        {
+          "label": "Pink mode",
+          "min": 73,
+          "max": 77
+        },
+        {
+          "label": "Light blue mode",
+          "min": 78,
+          "max": 82
+        },
+        {
+          "label": "White mode",
+          "min": 83,
+          "max": 86
+        },
+        {
+          "label": "Green mode",
+          "min": 87,
+          "max": 91
+        },
+        {
+          "label": "Red mode",
+          "min": 92,
+          "max": 96
+        },
+        {
+          "label": "Blue mode",
+          "min": 97,
+          "max": 101
+        },
+        {
+          "label": "Yellow mode",
+          "min": 102,
+          "max": 106
+        },
+        {
+          "label": "Pink mode",
+          "min": 107,
+          "max": 111
+        },
+        {
+          "label": "Light blue mode",
+          "min": 112,
+          "max": 115
+        },
+        {
+          "label": "White mode",
+          "min": 116,
+          "max": 120
+        },
+        {
+          "label": "Green mode",
+          "min": 121,
+          "max": 125
+        },
+        {
+          "label": "Red mode",
+          "min": 126,
+          "max": 130
+        },
+        {
+          "label": "Blue mode",
+          "min": 131,
+          "max": 135
+        },
+        {
+          "label": "Yellow mode",
+          "min": 136,
+          "max": 140
+        },
+        {
+          "label": "Pink mode",
+          "min": 141,
+          "max": 144
+        },
+        {
+          "label": "Light blue mode",
+          "min": 145,
+          "max": 149
+        },
+        {
+          "label": "White mode",
+          "min": 150,
+          "max": 154
+        },
+        {
+          "label": "RGB mode",
+          "min": 155,
+          "max": 159
+        },
+        {
+          "label": "CMY mode",
+          "min": 160,
+          "max": 164
+        },
+        {
+          "label": "White green mode",
+          "min": 165,
+          "max": 169
+        },
+        {
+          "label": "White red mode",
+          "min": 170,
+          "max": 174
+        },
+        {
+          "label": "White blue mode",
+          "min": 175,
+          "max": 178
+        },
+        {
+          "label": "White yellow mode",
+          "min": 179,
+          "max": 183
+        },
+        {
+          "label": "WHite pink mode",
+          "min": 184,
+          "max": 188
+        },
+        {
+          "label": "White light blue mode",
+          "min": 189,
+          "max": 193
+        },
+        {
+          "label": "White light green mode",
+          "min": 194,
+          "max": 198
+        },
+        {
+          "label": "White red mode",
+          "min": 199,
+          "max": 202
+        },
+        {
+          "label": "White blue mode",
+          "min": 203,
+          "max": 207
+        },
+        {
+          "label": "White yellow mode",
+          "min": 208,
+          "max": 212
+        },
+        {
+          "label": "White pink mode",
+          "min": 213,
+          "max": 217
+        },
+        {
+          "label": "White light blue mode",
+          "min": 218,
+          "max": 222
+        },
+        {
+          "label": "Blue pink mode",
+          "min": 223,
+          "max": 227
+        },
+        {
+          "label": "Green blue mode",
+          "min": 228,
+          "max": 231
+        },
+        {
+          "label": "White mode",
+          "min": 232,
+          "max": 236
+        },
+        {
+          "label": "RGBCMY mode",
+          "min": 237,
+          "max": 241
+        },
+        {
+          "label": "RGBWCMY mode",
+          "min": 242,
+          "max": 246
+        },
+        {
+          "label": "RGB mode",
+          "min": 247,
+          "max": 251
+        },
+        {
+          "label": "RGB fad mode",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 3,
+      "type_description": "Ring rotation",
+      "capabilities": [
+        {
+          "label": "Clockwise Rotation",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Anti clockwise Rotation",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Shehds/Shehds-GalaxyJet-Waterproof-IP65-380W-19R-Beam-Moving-Head.json",
+  "id": 1267
+}

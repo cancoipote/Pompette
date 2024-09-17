@@ -1,0 +1,198 @@
+{
+  "version": "1.0.0",
+  "label": "EVO-7",
+  "manufacturer": "Futurelight",
+  "bulb_type": "HSD 250W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 10,
+  "dimension_width": 300,
+  "dimension_height": 290,
+  "dimension_depth": 360,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 375,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "Color/gobo indexing",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Rainbow forward slow to fast",
+          "min": 128,
+          "max": 187
+        },
+        {
+          "label": "No rotation",
+          "min": 188,
+          "max": 193
+        },
+        {
+          "label": "Rainbow backward slow to fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 20,
+      "type_description": "Prism rotation",
+      "capabilities": [
+        {
+          "label": "No rotation",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Forward speed",
+          "min": 8,
+          "max": 127
+        },
+        {
+          "label": "No rotation",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Backward speed",
+          "min": 136,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 5,
+      "type_description": "Shutter, strobe",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Shutter closed, reset",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "Shutter closed",
+          "min": 8,
+          "max": 31
+        },
+        {
+          "label": "Dimmer",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe speed",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Shutter open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse sequence",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Shutter open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random strobe speed",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Shutter open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Auto program",
+      "capabilities": [
+        {
+          "label": "Normal",
+          "min": 0,
+          "max": 23
+        },
+        {
+          "label": "Program 1",
+          "min": 24,
+          "max": 47
+        },
+        {
+          "label": "Program 2",
+          "min": 48,
+          "max": 71
+        },
+        {
+          "label": "Program 3",
+          "min": 72,
+          "max": 95
+        },
+        {
+          "label": "Program 4",
+          "min": 96,
+          "max": 119
+        },
+        {
+          "label": "Program 5",
+          "min": 120,
+          "max": 143
+        },
+        {
+          "label": "Program 6",
+          "min": 144,
+          "max": 167
+        },
+        {
+          "label": "Program 7",
+          "min": 168,
+          "max": 191
+        },
+        {
+          "label": "Program 8",
+          "min": 192,
+          "max": 215
+        },
+        {
+          "label": "Program 9",
+          "min": 216,
+          "max": 239
+        },
+        {
+          "label": "Program 10",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Futurelight/Futurelight-EVO-7.json",
+  "id": 804
+}

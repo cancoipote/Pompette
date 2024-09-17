@@ -1,0 +1,508 @@
+{
+  "version": "1.0.0",
+  "label": "LED FE-1500",
+  "manufacturer": "Eurolite",
+  "bulb_type": "LED/laser",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 246,
+  "dimension_height": 315,
+  "dimension_depth": 313,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 40,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Operating mode",
+      "capabilities": [
+        {
+          "label": "Blackout (all light beams off)",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Aut0: Laser + RGBWA LEDs + white LEDs",
+          "min": 10,
+          "max": 24
+        },
+        {
+          "label": "Aut1: Laser + RGBWA LEDs",
+          "min": 25,
+          "max": 39
+        },
+        {
+          "label": "Aut2: Laser + white LEDs",
+          "min": 40,
+          "max": 54
+        },
+        {
+          "label": "Aut3: RGBWA LEDs + white LEDs",
+          "min": 55,
+          "max": 69
+        },
+        {
+          "label": "Aut4: RGBWA LEDs",
+          "min": 70,
+          "max": 84
+        },
+        {
+          "label": "Aut5: Laser",
+          "min": 85,
+          "max": 99
+        },
+        {
+          "label": "Aut6: white LEDs",
+          "min": 100,
+          "max": 114
+        },
+        {
+          "label": "Sou0: Laser + RGBWA LEDs + white LEDs",
+          "min": 115,
+          "max": 129
+        },
+        {
+          "label": "Sou1: Laser + RGBWA LEDs",
+          "min": 130,
+          "max": 144
+        },
+        {
+          "label": "Sou2: Laser + white LEDs",
+          "min": 145,
+          "max": 159
+        },
+        {
+          "label": "Sou3: RGBWA LEDs + white LEDs",
+          "min": 160,
+          "max": 174
+        },
+        {
+          "label": "Sou4: RGBWA LEDs",
+          "min": 175,
+          "max": 189
+        },
+        {
+          "label": "Sou5: Laser",
+          "min": 190,
+          "max": 204
+        },
+        {
+          "label": "Sou6: white LEDs",
+          "min": 205,
+          "max": 219
+        },
+        {
+          "label": "DMX mode: This setting enables the functions of the other DMX channels.",
+          "min": 220,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "RGBWA LEDs",
+      "capabilities": [
+        {
+          "label": "Blackout (all light beams off)",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "Green",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "Blue",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "Amber",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "White",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "White + red",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "Red + green",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "Green + blue",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "Blue + amber",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "Amber + white",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "White + green",
+          "min": 60,
+          "max": 64
+        },
+        {
+          "label": "Green + amber",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "Amber + red",
+          "min": 70,
+          "max": 74
+        },
+        {
+          "label": "Red + blue",
+          "min": 75,
+          "max": 79
+        },
+        {
+          "label": "Blue + white",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "Red + green + blue",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "Red + green + amber",
+          "min": 90,
+          "max": 94
+        },
+        {
+          "label": "Red + green + white",
+          "min": 95,
+          "max": 99
+        },
+        {
+          "label": "Red + amber + blue",
+          "min": 100,
+          "max": 104
+        },
+        {
+          "label": "Red + white + blue",
+          "min": 105,
+          "max": 109
+        },
+        {
+          "label": "Red + amber + white",
+          "min": 110,
+          "max": 114
+        },
+        {
+          "label": "Amber + green + blue",
+          "min": 115,
+          "max": 119
+        },
+        {
+          "label": "Blue + green + white",
+          "min": 120,
+          "max": 124
+        },
+        {
+          "label": "Amber + green + white",
+          "min": 125,
+          "max": 129
+        },
+        {
+          "label": "Amber + white + blue",
+          "min": 130,
+          "max": 134
+        },
+        {
+          "label": "Red + green + blue + amber",
+          "min": 135,
+          "max": 139
+        },
+        {
+          "label": "Red + green + blue + white",
+          "min": 140,
+          "max": 144
+        },
+        {
+          "label": "Blue + green + white + amber",
+          "min": 145,
+          "max": 149
+        },
+        {
+          "label": "Red + green + amber + white",
+          "min": 150,
+          "max": 154
+        },
+        {
+          "label": "White + red + blue + amber",
+          "min": 155,
+          "max": 159
+        },
+        {
+          "label": "Red + green + blue + amber + white",
+          "min": 160,
+          "max": 164
+        },
+        {
+          "label": "Automatic color change (one color)",
+          "min": 165,
+          "max": 209
+        },
+        {
+          "label": "Automatic color change (two colors)",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Color change speed",
+      "capabilities": [
+        {
+          "label": "slow -> fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 21,
+      "type_description": "Strobe effect of the RGBWA LEDs",
+      "capabilities": [
+        {
+          "label": "No strobe effect",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Strobe effect fast -> slow",
+          "min": 5,
+          "max": 254
+        },
+        {
+          "label": "Sound-controlled strobe effect",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "White strobe LEDs",
+      "capabilities": [
+        {
+          "label": "Blackout (all strobe LEDs off)",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Running light pattern 1 fast -> slow",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Running light pattern 2 fast -> slow",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Running light pattern 3 fast -> slow",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Running light pattern 4 fast -> slow",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Running light pattern 5 fast -> slow",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Running light pattern 6 fast -> slow",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Running light pattern 7 fast -> slow",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Running light pattern 8 fast -> slow",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Running light pattern 9 fast -> slow",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Running light pattern 10 fast -> slow",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "All strobe LEDs constantly on",
+          "min": 110,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Laser",
+      "capabilities": [
+        {
+          "label": "Blackout (laser off)",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red on",
+          "min": 10,
+          "max": 49
+        },
+        {
+          "label": "Green on",
+          "min": 50,
+          "max": 89
+        },
+        {
+          "label": "Change green and red",
+          "min": 90,
+          "max": 129
+        },
+        {
+          "label": "Red on + green strobe",
+          "min": 130,
+          "max": 169
+        },
+        {
+          "label": "Green on + red strobe",
+          "min": 170,
+          "max": 209
+        },
+        {
+          "label": "Red strobe + green strobe",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Strobe effect lasers",
+      "capabilities": [
+        {
+          "label": "No strobe effect",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Strobe effect fast -> slow",
+          "min": 5,
+          "max": 254
+        },
+        {
+          "label": "Sound-controlled strobe effect",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Rotation of the RGBWA LEDs",
+      "capabilities": [
+        {
+          "label": "No rotation",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Clockwise rotation slow -> fast",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "No rotation",
+          "min": 128,
+          "max": 133
+        },
+        {
+          "label": "Anticlockwise rotation slow -> fast",
+          "min": 134,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Rotation of the lasers",
+      "capabilities": [
+        {
+          "label": "No rotation",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Clockwise rotation slow -> fast",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "No rotation",
+          "min": 128,
+          "max": 133
+        },
+        {
+          "label": "Anticlockwise rotation slow -> fast",
+          "min": 134,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-LED-FE-1500.json",
+  "id": 683
+}

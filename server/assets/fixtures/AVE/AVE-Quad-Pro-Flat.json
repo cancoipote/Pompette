@@ -1,0 +1,131 @@
+{
+  "version": "1.0.0",
+  "label": "Quad Pro Flat",
+  "manufacturer": "AVE",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 230,
+  "dimension_height": 240,
+  "dimension_depth": 80,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 112,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Slow To Fast",
+          "min": 8,
+          "max": 99
+        },
+        {
+          "label": "Fast to slow",
+          "min": 100,
+          "max": 149
+        },
+        {
+          "label": "Slow 1",
+          "min": 150,
+          "max": 199
+        },
+        {
+          "label": "Med 2",
+          "min": 200,
+          "max": 245
+        },
+        {
+          "label": "Fastest 3",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 22,
+      "type_description": "Sound Control",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Color auto speed",
+          "min": 8,
+          "max": 199
+        },
+        {
+          "label": "Sound Control",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Colour Walking",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Color Auto",
+          "min": 8,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/AVE/AVE-Quad-Pro-Flat.json",
+  "id": 178
+}

@@ -1,0 +1,77 @@
+{
+  "version": "1.0.0",
+  "label": "SpectraConnecT5",
+  "manufacturer": "LDDE",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 8,
+  "dimension_width": 1488,
+  "dimension_height": 116,
+  "dimension_depth": 80,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 175,
+  "technical_dmx_connector": "Other",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No strobe",
+          "min": 0,
+          "max": 25
+        },
+        {
+          "label": "Strobe speed",
+          "min": 26,
+          "max": 228
+        },
+        {
+          "label": "No strobe",
+          "min": 229,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/LDDE/LDDE-SpectraConnecT5.json",
+  "id": 999
+}

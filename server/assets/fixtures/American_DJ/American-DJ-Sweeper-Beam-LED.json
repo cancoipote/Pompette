@@ -1,0 +1,407 @@
+{
+  "version": "1.0.0",
+  "label": "Sweeper Beam LED",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 6,
+  "dimension_width": 973,
+  "dimension_height": 132,
+  "dimension_depth": 73,
+  "lens_label": "Other",
+  "lens_degree_min": 3,
+  "lens_degree_max": 3,
+  "focus_type": "Head",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 210,
+  "technical_power_consumption": 47,
+  "technical_dmx_connector": "3-pin",
+  "type": 13,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Shows",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Show 1",
+          "min": 8,
+          "max": 22
+        },
+        {
+          "label": "Show 2",
+          "min": 23,
+          "max": 37
+        },
+        {
+          "label": "Show 3",
+          "min": 38,
+          "max": 52
+        },
+        {
+          "label": "Show 4",
+          "min": 53,
+          "max": 67
+        },
+        {
+          "label": "Show 5",
+          "min": 68,
+          "max": 82
+        },
+        {
+          "label": "Show 6",
+          "min": 83,
+          "max": 97
+        },
+        {
+          "label": "Show 7",
+          "min": 98,
+          "max": 112
+        },
+        {
+          "label": "Show 8",
+          "min": 113,
+          "max": 127
+        },
+        {
+          "label": "Show 9",
+          "min": 128,
+          "max": 142
+        },
+        {
+          "label": "Show 10",
+          "min": 143,
+          "max": 157
+        },
+        {
+          "label": "Show 11",
+          "min": 158,
+          "max": 172
+        },
+        {
+          "label": "Show 12",
+          "min": 173,
+          "max": 187
+        },
+        {
+          "label": "Show 13",
+          "min": 188,
+          "max": 202
+        },
+        {
+          "label": "Show 14",
+          "min": 203,
+          "max": 217
+        },
+        {
+          "label": "Show 15",
+          "min": 218,
+          "max": 232
+        },
+        {
+          "label": "Show 16",
+          "min": 233,
+          "max": 247
+        },
+        {
+          "label": "Random Show",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 3,
+      "type_description": "Tilt Movement Macro",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "60º - 120º",
+          "min": 8,
+          "max": 43
+        },
+        {
+          "label": "45º - 135º",
+          "min": 44,
+          "max": 79
+        },
+        {
+          "label": "30º - 150º",
+          "min": 80,
+          "max": 115
+        },
+        {
+          "label": "0º - 180º",
+          "min": 116,
+          "max": 151
+        },
+        {
+          "label": "-30º - 210º",
+          "min": 152,
+          "max": 187
+        },
+        {
+          "label": "0º - 90º",
+          "min": 188,
+          "max": 223
+        },
+        {
+          "label": "90º - 180º",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 22,
+      "type_description": "Tilt Movement Macro Speed",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Slow -> Fast",
+          "min": 8,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Chases",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Chase 1",
+          "min": 8,
+          "max": 22
+        },
+        {
+          "label": "Chase 2",
+          "min": 23,
+          "max": 37
+        },
+        {
+          "label": "Chase 3",
+          "min": 38,
+          "max": 52
+        },
+        {
+          "label": "Chase 4",
+          "min": 53,
+          "max": 67
+        },
+        {
+          "label": "Chase 5",
+          "min": 68,
+          "max": 82
+        },
+        {
+          "label": "Chase 6",
+          "min": 83,
+          "max": 97
+        },
+        {
+          "label": "Chase 7",
+          "min": 98,
+          "max": 112
+        },
+        {
+          "label": "Chase 8",
+          "min": 113,
+          "max": 127
+        },
+        {
+          "label": "Chase 9",
+          "min": 128,
+          "max": 142
+        },
+        {
+          "label": "Chase 10",
+          "min": 143,
+          "max": 157
+        },
+        {
+          "label": "Chase 11",
+          "min": 158,
+          "max": 172
+        },
+        {
+          "label": "Chase 12",
+          "min": 173,
+          "max": 187
+        },
+        {
+          "label": "Chase 13",
+          "min": 188,
+          "max": 202
+        },
+        {
+          "label": "Chase 14",
+          "min": 203,
+          "max": 217
+        },
+        {
+          "label": "Chase 15",
+          "min": 218,
+          "max": 232
+        },
+        {
+          "label": "Chase 16",
+          "min": 233,
+          "max": 247
+        },
+        {
+          "label": "Full On",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 22,
+      "type_description": "Chase Speed",
+      "capabilities": [
+        {
+          "label": "Slow -> Fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 21,
+      "type_description": "Strobing",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Strobing (Slow -> Fast)",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "No function",
+          "min": 132,
+          "max": 139
+        },
+        {
+          "label": "Slow Open - Fast Close",
+          "min": 140,
+          "max": 181
+        },
+        {
+          "label": "No function",
+          "min": 182,
+          "max": 189
+        },
+        {
+          "label": "Slow Close - Fast Open",
+          "min": 190,
+          "max": 231
+        },
+        {
+          "label": "No function",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Random Strobing",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "No function",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Dimmer (Lens 1)",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Dimmer (Lens 2)",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Dimmer (Lens 3)",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Dimmer (Lens 4)",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Dimmer (Lens 5)",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Dimmer (Lens 6)",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Dimmer (Lens 7)",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Dimmer (Lens 8)",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Sweeper-Beam-LED.json",
+  "id": 143
+}

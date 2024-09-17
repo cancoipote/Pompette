@@ -1,0 +1,265 @@
+{
+  "version": "1.0.0",
+  "label": "Inno Pocket Roll",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 132,
+  "dimension_height": 165,
+  "dimension_depth": 329,
+  "lens_label": "Other",
+  "lens_degree_min": 14,
+  "lens_degree_max": 14,
+  "focus_type": "Barrel",
+  "focus_pan_max": 180,
+  "focus_tilt_max": 360,
+  "technical_power_consumption": 36,
+  "technical_dmx_connector": "3-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 23,
+      "type_description": "Tilt",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Clockwise roll fast - slow",
+          "min": 10,
+          "max": 120
+        },
+        {
+          "label": "Stop",
+          "min": 121,
+          "max": 134
+        },
+        {
+          "label": "Counterclockwise slow - fast",
+          "min": 135,
+          "max": 245
+        },
+        {
+          "label": "Stop",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Open",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Slow - fast",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "Open",
+          "min": 132,
+          "max": 139
+        },
+        {
+          "label": "Slow open - fast close",
+          "min": 140,
+          "max": 181
+        },
+        {
+          "label": "Open",
+          "min": 182,
+          "max": 189
+        },
+        {
+          "label": "Fast open - slow close",
+          "min": 190,
+          "max": 231
+        },
+        {
+          "label": "Open",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Random",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Color + Gobo",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Gobo 1 yellow",
+          "min": 8,
+          "max": 14
+        },
+        {
+          "label": "Gobo 2 red",
+          "min": 15,
+          "max": 21
+        },
+        {
+          "label": "Gobo 3 green",
+          "min": 22,
+          "max": 28
+        },
+        {
+          "label": "Gobo 4 blue",
+          "min": 29,
+          "max": 35
+        },
+        {
+          "label": "Gobo 5 RGB",
+          "min": 36,
+          "max": 42
+        },
+        {
+          "label": "Gobo 6 UV",
+          "min": 43,
+          "max": 49
+        },
+        {
+          "label": "Gobo 7 light blue",
+          "min": 50,
+          "max": 56
+        },
+        {
+          "label": "Gobo 8 UV & light blue",
+          "min": 57,
+          "max": 63
+        },
+        {
+          "label": "Open Shake",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Gobo 1 yellow shake",
+          "min": 72,
+          "max": 78
+        },
+        {
+          "label": "Gobo 2 red shake",
+          "min": 79,
+          "max": 85
+        },
+        {
+          "label": "Gobo 3 green shake",
+          "min": 86,
+          "max": 92
+        },
+        {
+          "label": "Gobo 4 blue shake",
+          "min": 93,
+          "max": 99
+        },
+        {
+          "label": "Gobo 5 RGB shake",
+          "min": 100,
+          "max": 106
+        },
+        {
+          "label": "Gobo 6 UV shake",
+          "min": 107,
+          "max": 113
+        },
+        {
+          "label": "Gobo 7 light blue shake",
+          "min": 114,
+          "max": 120
+        },
+        {
+          "label": "Gobo 8 UV & light blue shake",
+          "min": 121,
+          "max": 127
+        },
+        {
+          "label": "Gobo wheel rotation slow - fast",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 17,
+      "type_description": "Dimmer Mode",
+      "capabilities": [
+        {
+          "label": "Standard",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Stage",
+          "min": 21,
+          "max": 40
+        },
+        {
+          "label": "TV",
+          "min": 41,
+          "max": 60
+        },
+        {
+          "label": "Architectural",
+          "min": 61,
+          "max": 80
+        },
+        {
+          "label": "Theatre",
+          "min": 81,
+          "max": 100
+        },
+        {
+          "label": "Default dimmer setting",
+          "min": 101,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Inno-Pocket-Roll.json",
+  "id": 85
+}

@@ -1,0 +1,301 @@
+{
+  "version": "1.0.0",
+  "label": "400 RGB",
+  "manufacturer": "Ibiza",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 210,
+  "dimension_height": 135,
+  "dimension_depth": 80,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 25,
+  "technical_dmx_connector": "5-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Control Mode",
+      "capabilities": [
+        {
+          "label": "Shut off",
+          "min": 0,
+          "max": 69
+        },
+        {
+          "label": "Sound control",
+          "min": 70,
+          "max": 139
+        },
+        {
+          "label": "Auto play",
+          "min": 140,
+          "max": 209
+        },
+        {
+          "label": "DMX control",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Pattern Selection",
+      "capabilities": [
+        {
+          "label": "Static pattern for manual control",
+          "min": 0,
+          "max": 34
+        },
+        {
+          "label": "Dynamic Geometric pattern",
+          "min": 35,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No Strobe",
+          "min": 0,
+          "max": 30
+        },
+        {
+          "label": "8 grade speed (0-255) / 30 = 0 - 8 do",
+          "min": 31,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Pattern display",
+      "capabilities": [
+        {
+          "label": "Smooth",
+          "min": 0,
+          "max": 69
+        },
+        {
+          "label": "Spot and Line",
+          "min": 70,
+          "max": 139
+        },
+        {
+          "label": "Line",
+          "min": 140,
+          "max": 209
+        },
+        {
+          "label": "Spot",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Horizontal Move",
+      "capabilities": [
+        {
+          "label": "Manual",
+          "min": 0,
+          "max": 160
+        },
+        {
+          "label": "From left to right move",
+          "min": 161,
+          "max": 190
+        },
+        {
+          "label": "From right to left move",
+          "min": 191,
+          "max": 220
+        },
+        {
+          "label": "Right and left in-phase move",
+          "min": 221,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Vertical Move",
+      "capabilities": [
+        {
+          "label": "Manual",
+          "min": 0,
+          "max": 160
+        },
+        {
+          "label": "From down to up",
+          "min": 161,
+          "max": 190
+        },
+        {
+          "label": "From up to down",
+          "min": 191,
+          "max": 220
+        },
+        {
+          "label": "Up and down in-phase move",
+          "min": 221,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Zoom(+/-) pattern size",
+      "capabilities": [
+        {
+          "label": "Pattern size change / zoom in or out",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Color macro",
+      "capabilities": [
+        {
+          "label": "RGB",
+          "min": 0,
+          "max": 17
+        },
+        {
+          "label": "Red",
+          "min": 18,
+          "max": 35
+        },
+        {
+          "label": "Red + Green (Yellow)",
+          "min": 36,
+          "max": 53
+        },
+        {
+          "label": "Green",
+          "min": 54,
+          "max": 71
+        },
+        {
+          "label": "Green + Blue (cyan)",
+          "min": 72,
+          "max": 89
+        },
+        {
+          "label": "Blue",
+          "min": 90,
+          "max": 107
+        },
+        {
+          "label": "Blue + Red (pink)",
+          "min": 108,
+          "max": 120
+        },
+        {
+          "label": "7 colors in section",
+          "min": 121,
+          "max": 137
+        },
+        {
+          "label": "7 colors in section + flowing",
+          "min": 138,
+          "max": 199
+        },
+        {
+          "label": "Color changing by sound",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Colors Moving",
+      "capabilities": [
+        {
+          "label": "From slow to fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Axis Y rotation",
+      "capabilities": [
+        {
+          "label": "Axis Y rotation",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Axis X Rotation",
+      "capabilities": [
+        {
+          "label": "Axis X rotation",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 3,
+      "type_description": "Axis Z rotation",
+      "capabilities": [
+        {
+          "label": "Axis Z rotation",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 17,
+      "type_description": "Motor Resetting",
+      "capabilities": [
+        {
+          "label": "No resetting",
+          "min": 0,
+          "max": 199
+        },
+        {
+          "label": "XY motor resetting",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Ibiza/Ibiza-400-RGB.json",
+  "id": 874
+}

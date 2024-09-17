@@ -1,0 +1,53 @@
+{
+  "version": "1.0.0",
+  "label": "LED PAR64 White",
+  "manufacturer": "Eurolite",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 6000,
+  "dimension_weight": 3,
+  "dimension_width": 240,
+  "dimension_height": 340,
+  "dimension_depth": 265,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 32,
+  "technical_dmx_connector": "5-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Open",
+          "min": 11,
+          "max": 20
+        },
+        {
+          "label": "Strobe slow to fast",
+          "min": 21,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-LED-PAR64-White.json",
+  "id": 701
+}

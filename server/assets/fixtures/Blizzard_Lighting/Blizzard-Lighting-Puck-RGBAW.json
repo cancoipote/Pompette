@@ -1,0 +1,341 @@
+{
+  "version": "1.0.0",
+  "label": "Puck RGBAW",
+  "manufacturer": "Blizzard Lighting",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 210,
+  "dimension_height": 211,
+  "dimension_depth": 63,
+  "lens_label": "Other",
+  "lens_degree_min": 25,
+  "lens_degree_max": 25,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 20,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 5,
+      "type_description": "Dimmer",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "On, Dim -> Bright",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Strobe off (open)",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Strobe speed Slow -> Fast",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "Red",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Green",
+          "min": 5,
+          "max": 8
+        },
+        {
+          "label": "Blue",
+          "min": 9,
+          "max": 12
+        },
+        {
+          "label": "Amber",
+          "min": 13,
+          "max": 16
+        },
+        {
+          "label": "White",
+          "min": 17,
+          "max": 20
+        },
+        {
+          "label": "Red+Green",
+          "min": 21,
+          "max": 24
+        },
+        {
+          "label": "Red+Blue",
+          "min": 25,
+          "max": 28
+        },
+        {
+          "label": "Red+Amber",
+          "min": 29,
+          "max": 31
+        },
+        {
+          "label": "Red+White",
+          "min": 32,
+          "max": 35
+        },
+        {
+          "label": "Green+Blue",
+          "min": 36,
+          "max": 39
+        },
+        {
+          "label": "Green+Amber",
+          "min": 40,
+          "max": 43
+        },
+        {
+          "label": "Green+White",
+          "min": 44,
+          "max": 47
+        },
+        {
+          "label": "Blue+Amber",
+          "min": 48,
+          "max": 51
+        },
+        {
+          "label": "Blue+White",
+          "min": 52,
+          "max": 55
+        },
+        {
+          "label": "Amber+White",
+          "min": 56,
+          "max": 59
+        },
+        {
+          "label": "Blue+Amber+White",
+          "min": 60,
+          "max": 62
+        },
+        {
+          "label": "Green+Amber+White",
+          "min": 63,
+          "max": 66
+        },
+        {
+          "label": "Green+Blue+White",
+          "min": 67,
+          "max": 70
+        },
+        {
+          "label": "Green+Blue+Amber",
+          "min": 71,
+          "max": 74
+        },
+        {
+          "label": "Red+Amber+White",
+          "min": 75,
+          "max": 78
+        },
+        {
+          "label": "Red+Blue+White",
+          "min": 79,
+          "max": 82
+        },
+        {
+          "label": "Red+Blue+Amber",
+          "min": 83,
+          "max": 86
+        },
+        {
+          "label": "Red+Green+White",
+          "min": 87,
+          "max": 90
+        },
+        {
+          "label": "Red+Green+Amber",
+          "min": 91,
+          "max": 93
+        },
+        {
+          "label": "Red+Green+Blue",
+          "min": 94,
+          "max": 97
+        },
+        {
+          "label": "Red+Green+Blue+Amber",
+          "min": 98,
+          "max": 101
+        },
+        {
+          "label": "Red+Green+Blue+White",
+          "min": 102,
+          "max": 105
+        },
+        {
+          "label": "Red+Green+Amber+White",
+          "min": 106,
+          "max": 109
+        },
+        {
+          "label": "Red+Blue+Amber+White",
+          "min": 110,
+          "max": 113
+        },
+        {
+          "label": "Green+Blue+Amber+White",
+          "min": 114,
+          "max": 117
+        },
+        {
+          "label": "Red+Green+Blue+Amber+White",
+          "min": 118,
+          "max": 120
+        },
+        {
+          "label": "Chase Slow -> Fast",
+          "min": 121,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Color Snap",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "label": "No function",
+          "min": 2,
+          "max": 253
+        },
+        {
+          "label": "On",
+          "min": 254,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Snap Speed",
+      "capabilities": [
+        {
+          "label": "Snap Slow -> Fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Color Fade",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "label": "No function",
+          "min": 2,
+          "max": 253
+        },
+        {
+          "label": "On",
+          "min": 254,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 3,
+      "type_description": "Fade Speed",
+      "capabilities": [
+        {
+          "label": "Fade Slow -> Fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 3,
+      "type_description": "Sound Active",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Sound Active",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Blizzard_Lighting/Blizzard-Lighting-Puck-RGBAW.json",
+  "id": 222
+}

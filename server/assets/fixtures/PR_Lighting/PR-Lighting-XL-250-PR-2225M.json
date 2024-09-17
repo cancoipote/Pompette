@@ -1,0 +1,604 @@
+{
+  "version": "1.0.0",
+  "label": "XL 250 PR-2225M",
+  "manufacturer": "PR Lighting",
+  "bulb_type": "Various",
+  "bulb_lumens": 6441,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 23,
+  "dimension_width": 363,
+  "dimension_height": 564,
+  "dimension_depth": 386,
+  "lens_label": "Other",
+  "lens_degree_min": 14,
+  "lens_degree_max": 22,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 410,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Black",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Open",
+          "min": 10,
+          "max": 20
+        },
+        {
+          "label": "Strobe speed from slow to fast",
+          "min": 21,
+          "max": 244
+        },
+        {
+          "label": "Open",
+          "min": 245,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Colour Wheel",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Colour 1 (red)",
+          "min": 21,
+          "max": 28
+        },
+        {
+          "label": "Colour 2 (green)",
+          "min": 29,
+          "max": 37
+        },
+        {
+          "label": "Colour 3 (blue)",
+          "min": 38,
+          "max": 45
+        },
+        {
+          "label": "Colour 4 (light blue)",
+          "min": 46,
+          "max": 54
+        },
+        {
+          "label": "Colour 5 (yellow)",
+          "min": 55,
+          "max": 62
+        },
+        {
+          "label": "Colour 6 (magenta)",
+          "min": 63,
+          "max": 71
+        },
+        {
+          "label": "Colour 7 (orange)",
+          "min": 72,
+          "max": 80
+        },
+        {
+          "label": "Colour 8 (mint)",
+          "min": 81,
+          "max": 88
+        },
+        {
+          "label": "Colour 9 (ocean)",
+          "min": 89,
+          "max": 97
+        },
+        {
+          "label": "Colour 10 (violet)",
+          "min": 98,
+          "max": 105
+        },
+        {
+          "label": "Colour 11 (moonlight)",
+          "min": 106,
+          "max": 114
+        },
+        {
+          "label": "Colour 12 (light gray)",
+          "min": 115,
+          "max": 123
+        },
+        {
+          "label": "White",
+          "min": 124,
+          "max": 127
+        },
+        {
+          "label": "Rainbow rotation from slow to fast",
+          "min": 128,
+          "max": 187
+        },
+        {
+          "label": "Stop in current position",
+          "min": 188,
+          "max": 195
+        },
+        {
+          "label": "Rainbow reverse rotation from slow to fast",
+          "min": 196,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 4,
+      "type_description": "Fixed Gobo Wheel",
+      "capabilities": [
+        {
+          "label": "Clear",
+          "min": 0,
+          "max": 11
+        },
+        {
+          "label": "Gobo 1 (73 bubbles)",
+          "min": 12,
+          "max": 23
+        },
+        {
+          "label": "Gobo 2 (paintball splash)",
+          "min": 24,
+          "max": 34
+        },
+        {
+          "label": "Gobo 3 (virus microscope)",
+          "min": 35,
+          "max": 46
+        },
+        {
+          "label": "Gobo 4 (shutter)",
+          "min": 47,
+          "max": 57
+        },
+        {
+          "label": "Gobo 5 (stars)",
+          "min": 58,
+          "max": 69
+        },
+        {
+          "label": "Gobo 6 (waves)",
+          "min": 70,
+          "max": 80
+        },
+        {
+          "label": "Gobo 7 (splash)",
+          "min": 81,
+          "max": 92
+        },
+        {
+          "label": "Gobo 8 (18 bubbles)",
+          "min": 93,
+          "max": 103
+        },
+        {
+          "label": "Gobo 9 (Hawaii)",
+          "min": 104,
+          "max": 115
+        },
+        {
+          "label": "Gobo 10 (pistoy)",
+          "min": 116,
+          "max": 127
+        },
+        {
+          "label": "Rotation from slow to fast",
+          "min": 128,
+          "max": 150
+        },
+        {
+          "label": "Reverse rotation from slow to fast",
+          "min": 151,
+          "max": 171
+        },
+        {
+          "label": "Gobo shake 1 from slow to fast",
+          "min": 172,
+          "max": 183
+        },
+        {
+          "label": "Gobo shake 2 from slow to fast",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Gobo shake 3 from slow to fast",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Gobo shake 4 from slow to fast",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Gobo shake 5 from slow to fast",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Gobo shake 6 from slow to fast",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Gobo shake 7 from slow to fast",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Gobo shake 8 from slow to fast",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Gobo shake 9 from slow to fast",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Gobo shake 10 from slow to fast",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 4,
+      "type_description": "Rotating Gobo Wheel",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 16
+        },
+        {
+          "label": "Gobo 1 (spiral)",
+          "min": 17,
+          "max": 32
+        },
+        {
+          "label": "Gobo 2 (bacteria)",
+          "min": 33,
+          "max": 48
+        },
+        {
+          "label": "Gobo 3 (flowers)",
+          "min": 49,
+          "max": 64
+        },
+        {
+          "label": "Gobo 4 (banzai)",
+          "min": 65,
+          "max": 80
+        },
+        {
+          "label": "Gobo 5 (stamina)",
+          "min": 81,
+          "max": 96
+        },
+        {
+          "label": "Gobo 6 (sun)",
+          "min": 97,
+          "max": 112
+        },
+        {
+          "label": "Gobo 7 (gear)",
+          "min": 113,
+          "max": 127
+        },
+        {
+          "label": "Rotation speed from slow to fast",
+          "min": 128,
+          "max": 150
+        },
+        {
+          "label": "Reverse rotation from slow to fast",
+          "min": 151,
+          "max": 171
+        },
+        {
+          "label": "Gobo shake 1 from slow to fast",
+          "min": 172,
+          "max": 183
+        },
+        {
+          "label": "Gobo shake 2 from slow to fast",
+          "min": 184,
+          "max": 195
+        },
+        {
+          "label": "Gobo shake 3 from slow to fast",
+          "min": 196,
+          "max": 207
+        },
+        {
+          "label": "Gobo shake 4 from slow to fast",
+          "min": 208,
+          "max": 219
+        },
+        {
+          "label": "Gobo shake 5 from slow to fast",
+          "min": 220,
+          "max": 231
+        },
+        {
+          "label": "Gobo shake 6 from slow to fast",
+          "min": 232,
+          "max": 243
+        },
+        {
+          "label": "Gobo shake 7 from slow to fast",
+          "min": 244,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 4,
+      "type_description": "Gobo Rotation",
+      "capabilities": [
+        {
+          "label": "0~540° index",
+          "min": 0,
+          "max": 159
+        },
+        {
+          "label": "Rotation from slow to fast",
+          "min": 160,
+          "max": 188
+        },
+        {
+          "label": "Stop",
+          "min": 189,
+          "max": 229
+        },
+        {
+          "label": "Reverse rotation from slow to fast",
+          "min": 230,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 20,
+      "type_description": "Prism/Frost",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Prism",
+          "min": 21,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 20,
+      "type_description": "Prism rotation",
+      "capabilities": [
+        {
+          "label": "Stop rotating",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Rotation from slow to fast",
+          "min": 10,
+          "max": 127
+        },
+        {
+          "label": "Stop rotating",
+          "min": 128,
+          "max": 136
+        },
+        {
+          "label": "Reverse rotation from slow to fast",
+          "min": 137,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 17,
+      "type_description": "Control",
+      "capabilities": [
+        {
+          "label": "Reserved",
+          "min": 0,
+          "max": 48
+        },
+        {
+          "label": "Reset",
+          "min": 49,
+          "max": 80
+        },
+        {
+          "label": "Reserved",
+          "min": 81,
+          "max": 112
+        },
+        {
+          "label": "Lamp off (stop in DMX value for 10s)",
+          "min": 113,
+          "max": 144
+        },
+        {
+          "label": "Reserved",
+          "min": 145,
+          "max": 168
+        },
+        {
+          "label": "Lamp power reduced to 50%",
+          "min": 169,
+          "max": 200
+        },
+        {
+          "label": "Reserved",
+          "min": 201,
+          "max": 223
+        },
+        {
+          "label": "Lamp on",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Dimmer Fine",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 1,
+      "type_description": "Iris",
+      "capabilities": [
+        {
+          "label": "Iris from large to small (0-100%)",
+          "min": 0,
+          "max": 135
+        },
+        {
+          "label": "Macro 1",
+          "min": 136,
+          "max": 167
+        },
+        {
+          "label": "Macro 2",
+          "min": 168,
+          "max": 199
+        },
+        {
+          "label": "Macro 3",
+          "min": 200,
+          "max": 231
+        },
+        {
+          "label": "Minimal",
+          "min": 232,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 4,
+      "type_description": "Gobo Rotation Fine",
+      "capabilities": [
+        {
+          "label": "Gobo rotation in 16-bit precision",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 1,
+      "type_description": "Focus Fine",
+      "capabilities": [
+        {
+          "label": "Focus in 16-bit precision",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 1,
+      "type_description": "Zoom Fine",
+      "capabilities": [
+        {
+          "label": "Zoom in 16-bit precision",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Pan and Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Iris Fine",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/PR_Lighting/PR-Lighting-XL-250-PR-2225M.json",
+  "id": 1166
+}

@@ -1,0 +1,837 @@
+{
+  "version": "1.0.0",
+  "label": "A12 Tunable White",
+  "manufacturer": "JB-Lighting",
+  "bulb_type": "LED",
+  "bulb_lumens": 13884,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 15,
+  "dimension_width": 437,
+  "dimension_height": 536,
+  "dimension_depth": 308,
+  "lens_label": "Other",
+  "lens_degree_min": 8,
+  "lens_degree_max": 48,
+  "focus_type": "Fixed",
+  "focus_pan_max": 433,
+  "focus_tilt_max": 333,
+  "technical_power_consumption": 830,
+  "technical_dmx_connector": "5-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Control - Fade Out With Fader (Slow - Fast)",
+      "capabilities": [
+        {
+          "label": "Full output power on LEDs - desk mode 1",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Basic adjustment CW/WW - desk mode 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "White balance (same white as fixed colors color 0) - desk mode 1",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "White balance (linear curve) - desk mode 1",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Full output power on LEDs - desk mode 2",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Basic adjustment CW/WW - desk mode 2",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "White balance (same white as fixed colors color 0) - desk mode 2",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "White balance (linear curve) - desk mode 2",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Full output power on LEDs - desk mode 3",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Basic adjustment CW/WW - desk mode 3",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "White balance (same white as fixed colors color 0) - desk mode 3",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "White balance (linear curve) - desk mode 3",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Full output power on LEDs - desk mode 4",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Basic adjustment CW/WW - desk mode 4",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "White balance (same white as fixed colors color 0) - desk mode 4",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "White balance (linear curve) - desk mode 4",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Full output power on LEDs - desk mode 5",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Basic adjustment CW/WW - desk mode 5",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "White balance (same white as fixed colors color 0) - desk mode 5",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "White balance (linear curve) - desk mode 5",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Safe",
+          "min": 160,
+          "max": 207
+        },
+        {
+          "label": "Camera mode, 50Hz (after 2 seconds)",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Camera mode, 60Hz (after 2 seconds)",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Camera mode, FLEX (after 2 seconds)",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Safe",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Reset (after 2 seconds)",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Safe",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Open",
+          "min": 16,
+          "max": 95
+        },
+        {
+          "label": "Pulse opening >10Hz (0.6 sec. - 4.8 sec.)",
+          "min": 96,
+          "max": 110
+        },
+        {
+          "label": "Open",
+          "min": 111,
+          "max": 111
+        },
+        {
+          "label": "Fade effect with dimmer (slow - fast)",
+          "min": 112,
+          "max": 125
+        },
+        {
+          "label": "Open",
+          "min": 126,
+          "max": 126
+        },
+        {
+          "label": "Closed",
+          "min": 127,
+          "max": 127
+        },
+        {
+          "label": "Pulse opening <10Hz (0.6 sec. - 4.8 sec.)",
+          "min": 128,
+          "max": 142
+        },
+        {
+          "label": "Open",
+          "min": 143,
+          "max": 143
+        },
+        {
+          "label": "Pulse closing (0.6 sec. - 4.8 sec.)",
+          "min": 144,
+          "max": 158
+        },
+        {
+          "label": "Closed",
+          "min": 159,
+          "max": 159
+        },
+        {
+          "label": "Fade, 0% (0.6 sec. - 4.8 sec.)",
+          "min": 160,
+          "max": 174
+        },
+        {
+          "label": "Open",
+          "min": 175,
+          "max": 175
+        },
+        {
+          "label": "Fade, 100% (0.6 sec. - 4.8 sec.)",
+          "min": 176,
+          "max": 190
+        },
+        {
+          "label": "Closed",
+          "min": 191,
+          "max": 191
+        },
+        {
+          "label": "Random, 100% (0.6 sec. - 4.8 sec.)",
+          "min": 192,
+          "max": 206
+        },
+        {
+          "label": "Open",
+          "min": 207,
+          "max": 207
+        },
+        {
+          "label": "Random, 0% (0.6 sec. - 4.8 sec.)",
+          "min": 208,
+          "max": 222
+        },
+        {
+          "label": "Closed",
+          "min": 223,
+          "max": 223
+        },
+        {
+          "label": "Random fade, 0% (0.6 sec. - 4.8 sec.)",
+          "min": 224,
+          "max": 238
+        },
+        {
+          "label": "Open",
+          "min": 239,
+          "max": 239
+        },
+        {
+          "label": "Random fade, 100% (0.6 sec. - 4.8 sec.)",
+          "min": 240,
+          "max": 254
+        },
+        {
+          "label": "Open",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Pattern",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Pattern 1 (0.1 sec. - 5 sec.)",
+          "min": 1,
+          "max": 15
+        },
+        {
+          "label": "Off",
+          "min": 16,
+          "max": 16
+        },
+        {
+          "label": "Pattern 1 fade (0.1 sec. - 5 sec.)",
+          "min": 17,
+          "max": 31
+        },
+        {
+          "label": "Off",
+          "min": 32,
+          "max": 32
+        },
+        {
+          "label": "Pattern 2 (0.1 sec. - 5 sec.)",
+          "min": 33,
+          "max": 47
+        },
+        {
+          "label": "Off",
+          "min": 48,
+          "max": 48
+        },
+        {
+          "label": "Pattern 2 fade (0.1 sec. - 5 sec.)",
+          "min": 49,
+          "max": 63
+        },
+        {
+          "label": "Off",
+          "min": 64,
+          "max": 64
+        },
+        {
+          "label": "Pattern 3 (0.1 sec. - 5 sec.)",
+          "min": 65,
+          "max": 79
+        },
+        {
+          "label": "Off",
+          "min": 80,
+          "max": 80
+        },
+        {
+          "label": "Pattern 3 fade (0.1 sec. - 5 sec.)",
+          "min": 81,
+          "max": 95
+        },
+        {
+          "label": "Off",
+          "min": 96,
+          "max": 96
+        },
+        {
+          "label": "Pattern 4 (0.1 sec. - 5 sec.)",
+          "min": 97,
+          "max": 111
+        },
+        {
+          "label": "Off",
+          "min": 112,
+          "max": 112
+        },
+        {
+          "label": "Pattern 4 fade (0.1 sec. - 5 sec.)",
+          "min": 113,
+          "max": 127
+        },
+        {
+          "label": "Off",
+          "min": 128,
+          "max": 128
+        },
+        {
+          "label": "Pattern 5 (0.1 sec. - 5 sec.)",
+          "min": 129,
+          "max": 143
+        },
+        {
+          "label": "Off",
+          "min": 144,
+          "max": 144
+        },
+        {
+          "label": "Pattern 5 fade (0.1 sec. - 5 sec.)",
+          "min": 145,
+          "max": 159
+        },
+        {
+          "label": "Off",
+          "min": 160,
+          "max": 160
+        },
+        {
+          "label": "Pattern 6 (0.1 sec. - 5 sec.)",
+          "min": 161,
+          "max": 175
+        },
+        {
+          "label": "Off",
+          "min": 176,
+          "max": 176
+        },
+        {
+          "label": "Pattern 6 fade (0.1 sec. - 5 sec.)",
+          "min": 177,
+          "max": 191
+        },
+        {
+          "label": "Off",
+          "min": 192,
+          "max": 192
+        },
+        {
+          "label": "Pattern 7 (0.1 sec. - 5 sec.)",
+          "min": 193,
+          "max": 207
+        },
+        {
+          "label": "Off",
+          "min": 208,
+          "max": 208
+        },
+        {
+          "label": "Pattern 7 fade (0.1 sec. - 5 sec.)",
+          "min": 209,
+          "max": 223
+        },
+        {
+          "label": "Off",
+          "min": 224,
+          "max": 224
+        },
+        {
+          "label": "Pattern 8 (0.1 sec. - 5 sec.)",
+          "min": 225,
+          "max": 239
+        },
+        {
+          "label": "Off",
+          "min": 240,
+          "max": 240
+        },
+        {
+          "label": "Pattern 8 fade (0.1 sec. - 5 sec.)",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Preprogrammed Color Temperatures/White Tone",
+      "capabilities": [
+        {
+          "label": "Inactive",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "White of inner ring is taken to all rings",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "label": "Color temperature 1 - 5400°K",
+          "min": 2,
+          "max": 3
+        },
+        {
+          "label": "Color temperature 2 - 4660°K",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "Color temperature 3 - 3830°K",
+          "min": 8,
+          "max": 11
+        },
+        {
+          "label": "Color temperature 4 - 3350°K",
+          "min": 12,
+          "max": 15
+        },
+        {
+          "label": "Color temperature 5 - 2800°K",
+          "min": 16,
+          "max": 19
+        },
+        {
+          "label": "Color temperature 6 - 3870°K",
+          "min": 20,
+          "max": 23
+        },
+        {
+          "label": "Color temperature 7 - 4680°K",
+          "min": 24,
+          "max": 27
+        },
+        {
+          "label": "Color temperature 8 - 4050°K",
+          "min": 28,
+          "max": 31
+        },
+        {
+          "label": "Color temperature 9 - 3230°K",
+          "min": 32,
+          "max": 35
+        },
+        {
+          "label": "Color temperature 10 - 5300°K",
+          "min": 36,
+          "max": 39
+        },
+        {
+          "label": "Color temperature 11 - 8700°K",
+          "min": 40,
+          "max": 43
+        },
+        {
+          "label": "Color temperature 12 - 6950°K",
+          "min": 44,
+          "max": 47
+        },
+        {
+          "label": "Color temperature 13 - 6000°K",
+          "min": 48,
+          "max": 51
+        },
+        {
+          "label": "Color temperature 14 - 4950°K",
+          "min": 52,
+          "max": 55
+        },
+        {
+          "label": "Color temperature 15 - 4000°K",
+          "min": 56,
+          "max": 59
+        },
+        {
+          "label": "Color temperature 16 - 4780°K",
+          "min": 60,
+          "max": 63
+        },
+        {
+          "label": "Not used",
+          "min": 64,
+          "max": 191
+        },
+        {
+          "label": "White change effect (fast - slow)",
+          "min": 192,
+          "max": 222
+        },
+        {
+          "label": "White change effect stop",
+          "min": 223,
+          "max": 224
+        },
+        {
+          "label": "White change effect (slow - fast)",
+          "min": 225,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 22,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": [
+        {
+          "label": "Movement in real time",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Movement delayed (fast - slow)",
+          "min": 4,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 22,
+      "type_description": "Effect Speed",
+      "capabilities": [
+        {
+          "label": "Effects in real time",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Effects delayed (fast - slow)",
+          "min": 4,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 3,
+      "type_description": "Blackout Move",
+      "capabilities": [
+        {
+          "label": "Not used",
+          "min": 0,
+          "max": 95
+        },
+        {
+          "label": "Dimmer 0% at movement P/T",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Dimmer 0% at change of white tone",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Not used",
+          "min": 160,
+          "max": 223
+        },
+        {
+          "label": "Dimmer 0% at change of white tone and P/T, fade time slow - max.",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Cold White",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Cold White Fine",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Warm White",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Warm White Fine",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "CTC",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Cold White - 1. Ring (LED Middle - A)",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Cold White - 2. Ring (B)",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Cold White - 3. Ring (Upper Half Ring - C)",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Cold White - 3. Ring (Lower Half Ring - D)",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Cold White - 4. Ring (Left Half Ring - E)",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Cold White - 4. Ring (Right Half Ring - F)",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Free 10",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Free 1",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Free 2",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Free 3",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "Free 4",
+      "capabilities": []
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "Free 5",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 0,
+      "type_description": "Free 6",
+      "capabilities": []
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "Free 7",
+      "capabilities": []
+    },
+    {
+      "index": 32,
+      "type": 0,
+      "type_description": "Free 8",
+      "capabilities": []
+    },
+    {
+      "index": 33,
+      "type": 0,
+      "type_description": "Free 9",
+      "capabilities": []
+    },
+    {
+      "index": 34,
+      "type": 0,
+      "type_description": "Warm White - 1. Ring (LED Middle - A)",
+      "capabilities": []
+    },
+    {
+      "index": 35,
+      "type": 0,
+      "type_description": "Warm White - 2. Ring (B)",
+      "capabilities": []
+    },
+    {
+      "index": 36,
+      "type": 0,
+      "type_description": "Warm White - 3. Ring (Upper Half Ring - C)",
+      "capabilities": []
+    },
+    {
+      "index": 37,
+      "type": 0,
+      "type_description": "Warm White - 3. Ring (Lower Half Ring - D)",
+      "capabilities": []
+    },
+    {
+      "index": 38,
+      "type": 0,
+      "type_description": "Warm White - 4. Ring (Left Half Ring - E)",
+      "capabilities": []
+    },
+    {
+      "index": 39,
+      "type": 0,
+      "type_description": "Warm White - 4. Ring (Right Half Ring - F)",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/JB-Lighting/JB-Lighting-A12-Tunable-White.json",
+  "id": 906
+}

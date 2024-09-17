@@ -1,0 +1,302 @@
+{
+  "version": "1.0.0",
+  "label": "novaWash Quad LED",
+  "manufacturer": "Stairville",
+  "bulb_type": "LED",
+  "bulb_lumens": 50000,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 9,
+  "dimension_width": 335,
+  "dimension_height": 404,
+  "dimension_depth": 236,
+  "lens_label": "Other",
+  "lens_degree_min": 20,
+  "lens_degree_max": 20,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 300,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Strobe Increasing Speed",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "Open",
+          "min": 132,
+          "max": 139
+        },
+        {
+          "label": "Slow Open to Fast Close",
+          "min": 140,
+          "max": 181
+        },
+        {
+          "label": "Open",
+          "min": 182,
+          "max": 189
+        },
+        {
+          "label": "Slow Close to Fast Open",
+          "min": 190,
+          "max": 231
+        },
+        {
+          "label": "Open",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Random Strobe",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Special Function",
+      "capabilities": [
+        {
+          "label": "Nothing",
+          "min": 0,
+          "max": 69
+        },
+        {
+          "label": "Blackout during Pan or Tilt",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "No Blackout during Pan or Tilt",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Nothing",
+          "min": 90,
+          "max": 199
+        },
+        {
+          "label": "Reset",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Nothing",
+          "min": 210,
+          "max": 239
+        },
+        {
+          "label": "Standalone",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 3,
+      "type_description": "Pan/Tilt Macro",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Macro 1",
+          "min": 16,
+          "max": 35
+        },
+        {
+          "label": "Macro 2",
+          "min": 36,
+          "max": 55
+        },
+        {
+          "label": "Macro 3",
+          "min": 56,
+          "max": 75
+        },
+        {
+          "label": "Macro 4",
+          "min": 76,
+          "max": 95
+        },
+        {
+          "label": "Macro 5",
+          "min": 96,
+          "max": 115
+        },
+        {
+          "label": "Macro 6",
+          "min": 116,
+          "max": 135
+        },
+        {
+          "label": "Macro 7",
+          "min": 136,
+          "max": 155
+        },
+        {
+          "label": "Macro 8",
+          "min": 156,
+          "max": 175
+        },
+        {
+          "label": "Macro 9",
+          "min": 176,
+          "max": 195
+        },
+        {
+          "label": "Macro 10",
+          "min": 196,
+          "max": 215
+        },
+        {
+          "label": "Macro 11",
+          "min": 216,
+          "max": 235
+        },
+        {
+          "label": "Macro 12",
+          "min": 236,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 22,
+      "type_description": "Macro Speed",
+      "capabilities": [
+        {
+          "label": "Fast to Slow",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "Normal",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Colour 1-32",
+          "min": 8,
+          "max": 127
+        },
+        {
+          "label": "Macro 1-16",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Colour Fade 1-16",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 22,
+      "type_description": "Fade Speed",
+      "capabilities": [
+        {
+          "label": "Slow to Fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Stairville/Stairville-novaWash-Quad-LED.json",
+  "id": 1431
+}

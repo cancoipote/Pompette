@@ -1,0 +1,174 @@
+{
+  "version": "1.0.0",
+  "label": "Rocklite RGBAW",
+  "manufacturer": "Blizzard Lighting",
+  "bulb_type": "LED",
+  "bulb_lumens": 1090,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 197,
+  "dimension_height": 197,
+  "dimension_depth": 254,
+  "lens_label": "Other",
+  "lens_degree_min": 25,
+  "lens_degree_max": 25,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 160,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Amber Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "White Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Dimming",
+          "min": 0,
+          "max": 14
+        },
+        {
+          "label": "Strobe (slow <--> fast)",
+          "min": 15,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Fade, Color Change, Sound Active",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Fade in (ch. 9 controls speed)",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Fade out (ch. 9 controls speed)",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Fade in / fade out (ch. 9 controls speed)",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Multicolor fade (ch. 9 controls speed)",
+          "min": 128,
+          "max": 164
+        },
+        {
+          "label": "Fade in / fade out, auto run",
+          "min": 165,
+          "max": 191
+        },
+        {
+          "label": "Color jump (ch. 9 controls speed)",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Sound active, multicolor (ch. 9 controls speed)",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 22,
+      "type_description": "Fade Speed",
+      "capabilities": [
+        {
+          "label": "Slow <--> fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 18,
+      "type_description": "32-Bit Dimmer",
+      "capabilities": [
+        {
+          "label": "As set in the control menu display",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Mode 0 = 8-bit, 256 dimming steps",
+          "min": 6,
+          "max": 55
+        },
+        {
+          "label": "Mode 1 = 32-bit, 0-25% intensity range",
+          "min": 56,
+          "max": 105
+        },
+        {
+          "label": "Mode 2 = 32-bit, 0-50% intensity range",
+          "min": 106,
+          "max": 155
+        },
+        {
+          "label": "Mode 3 = 32-bit, 0-75% intensity range",
+          "min": 156,
+          "max": 205
+        },
+        {
+          "label": "Mode 4 = 32-bit, full intensity dimming",
+          "min": 206,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Blizzard_Lighting/Blizzard-Lighting-Rocklite-RGBAW.json",
+  "id": 221
+}

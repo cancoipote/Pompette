@@ -1,0 +1,105 @@
+{
+  "version": "1.0.0",
+  "label": "Followspot 120ST",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 6,
+  "dimension_width": 279,
+  "dimension_height": 341,
+  "dimension_depth": 582,
+  "lens_label": "Other",
+  "lens_degree_min": 14,
+  "lens_degree_max": 20,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 185,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "Cool White",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Warm White",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Yellow",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Purple",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Green",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Red",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Light Blue",
+          "min": 192,
+          "max": 233
+        },
+        {
+          "label": "Orange",
+          "min": 234,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No Function",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Open",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "Strobe, slow to fast",
+          "min": 8,
+          "max": 215
+        },
+        {
+          "label": "Open",
+          "min": 216,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-Followspot-120ST.json",
+  "id": 441
+}

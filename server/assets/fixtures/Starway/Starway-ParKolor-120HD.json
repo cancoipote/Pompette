@@ -1,0 +1,179 @@
+{
+  "version": "1.0.0",
+  "label": "ParKolor 120HD",
+  "manufacturer": "Starway",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 7,
+  "dimension_width": 350,
+  "dimension_height": 240,
+  "dimension_depth": 400,
+  "lens_label": "PC",
+  "lens_degree_min": 7,
+  "lens_degree_max": 39,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 145,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Shutter OFF or ON depending on the firmware (see manual)",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Strobe slow to fast",
+          "min": 11,
+          "max": 90
+        },
+        {
+          "label": "Random strobe slow to fast",
+          "min": 91,
+          "max": 170
+        },
+        {
+          "label": "Random strobe slow to fast (synchronised with other pars)",
+          "min": 171,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Color macro",
+      "capabilities": [
+        {
+          "label": "White cold to warm",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Red yellow green blue purple red",
+          "min": 11,
+          "max": 251
+        },
+        {
+          "label": "Color wheel rotation",
+          "min": 252,
+          "max": 253
+        },
+        {
+          "label": "Color wheel counter-rotation",
+          "min": 254,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 22,
+      "type_description": "Color time",
+      "capabilities": [
+        {
+          "label": "Fade time or color wheel rotation speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 17,
+      "type_description": "Control",
+      "capabilities": [
+        {
+          "label": "Idle",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Zoom reset",
+          "min": 11,
+          "max": 20
+        },
+        {
+          "label": "Idle",
+          "min": 21,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Red fine",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Green fine",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Blue fine",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Dimmer fine",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "White fine",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Starway/Starway-ParKolor-120HD.json",
+  "id": 1361
+}

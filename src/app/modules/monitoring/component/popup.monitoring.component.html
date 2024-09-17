@@ -1,0 +1,30 @@
+<div    class="popup-header popup-header-draggable" 
+        cdkDrag
+        cdkDragRootElement=".cdk-overlay-pane" 
+        cdkDragHandle>
+        <div class="header" >
+            Monitoring
+            <div class="header-separator"></div>
+            <button  mat-icon-button (click)="onClose()">
+                <mat-icon>close</mat-icon>
+              </button>
+        </div>
+        
+</div>
+<mat-divider></mat-divider>
+<div class="popup-content" >
+    <div class="content-list">
+        <div class="dmx-container" >
+            <div *ngFor="let dmx of appService.dmx_buffer; index as i" >
+                <div class="dmx-thumb" [ngStyle]="{'background-color': getBackgoundColor(dmx)}">
+                    <div class="dmx-thumb-label" >
+                        {{i}}
+                    </div>
+                    <div class="dmx-thumb-value" >
+                        {{dmx}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

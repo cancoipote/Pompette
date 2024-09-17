@@ -1,0 +1,148 @@
+{
+  "version": "1.0.0",
+  "label": "Delirium",
+  "manufacturer": "Contest",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 310,
+  "dimension_height": 205,
+  "dimension_depth": 310,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 40,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Functions",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Synchronous show",
+          "min": 10,
+          "max": 129
+        },
+        {
+          "label": "Asynchronous show",
+          "min": 130,
+          "max": 249
+        },
+        {
+          "label": "Musical Mode",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Combos",
+      "capabilities": [
+        {
+          "label": "Combo 1",
+          "min": 0,
+          "max": 21
+        },
+        {
+          "label": "Combo 2",
+          "min": 22,
+          "max": 42
+        },
+        {
+          "label": "Combo 3",
+          "min": 43,
+          "max": 63
+        },
+        {
+          "label": "Combo 4",
+          "min": 64,
+          "max": 85
+        },
+        {
+          "label": "Combo 5",
+          "min": 86,
+          "max": 106
+        },
+        {
+          "label": "Combo 6",
+          "min": 107,
+          "max": 127
+        },
+        {
+          "label": "Combo 7",
+          "min": 128,
+          "max": 149
+        },
+        {
+          "label": "Combo 8",
+          "min": 150,
+          "max": 170
+        },
+        {
+          "label": "Combo 9",
+          "min": 171,
+          "max": 191
+        },
+        {
+          "label": "Combo 10",
+          "min": 192,
+          "max": 213
+        },
+        {
+          "label": "Combo 11",
+          "min": 214,
+          "max": 234
+        },
+        {
+          "label": "Combo 12",
+          "min": 235,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Speed",
+      "capabilities": [
+        {
+          "label": "From slow to fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "On",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "From slow to fast",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Contest/Contest-Delirium.json",
+  "id": 565
+}

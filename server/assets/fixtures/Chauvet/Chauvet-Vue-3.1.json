@@ -1,0 +1,923 @@
+{
+  "version": "1.0.0",
+  "label": "Vue 3.1",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 273,
+  "dimension_height": 271,
+  "dimension_depth": 312,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 30,
+  "technical_dmx_connector": "3-pin",
+  "type": 3,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Control / Operating Mode",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Auto programs speed (all clusters)",
+          "min": 11,
+          "max": 239
+        },
+        {
+          "label": "Auto mode",
+          "min": 240,
+          "max": 249
+        },
+        {
+          "label": "Sound mode",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Cluster 1",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red 1",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Green 1",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Red 2",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Blue 3",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Red 3",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Blue 1, Red 3",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Red 2, Red 3",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Green 1, Red 3",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Red 2, Blue 1",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Blue 1, Green 1",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Green 1, Red 2",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Red 2, Blue 1, Red 3",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Green 1, Blue 1, Red 3",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Green 1, Red 2, Blue 1",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Red 1, Red 3",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Red 1, Green 1, Red 2, Blue 1, Red 3",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Auto mode 1",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Auto mode 2",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Auto mode 3",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Auto mode 4",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Auto mode 5",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "Auto mode 6",
+          "min": 220,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Cluster 2",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red 1",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Green 1",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Red 2",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Blue 3",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Red 3",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Blue 1, Red 3",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Red 2, Red 3",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Green 1, Red 3",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Red 2, Blue 1",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Blue 1, Green 1",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Green 1, Red 2",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Red 2, Blue 1, Red 3",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Green 1, Blue 1, Red 3",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Green 1, Red 2, Blue 1",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Red 1, Red 3",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Red 1, Green 1, Red 2, Blue 1, Red 3",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Auto mode 1",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Auto mode 2",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Auto mode 3",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Auto mode 4",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Auto mode 5",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "Auto mode 6",
+          "min": 220,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Cluster 3",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red 1",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Green 1",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Red 2",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Blue 3",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Red 3",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Blue 1, Red 3",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Red 2, Red 3",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Green 1, Red 3",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Red 2, Blue 1",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Blue 1, Green 1",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Green 1, Red 2",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Red 2, Blue 1, Red 3",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Green 1, Blue 1, Red 3",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Green 1, Red 2, Blue 1",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Red 1, Red 3",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Red 1, Green 1, Red 2, Blue 1, Red 3",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Auto mode 1",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Auto mode 2",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Auto mode 3",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Auto mode 4",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Auto mode 5",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "Auto mode 6",
+          "min": 220,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Cluster 4",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red 1",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Green 1",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Red 2",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Blue 3",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Red 3",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Blue 1, Red 3",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Red 2, Red 3",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Green 1, Red 3",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Red 2, Blue 1",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Blue 1, Green 1",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Green 1, Red 2",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Red 2, Blue 1, Red 3",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Green 1, Blue 1, Red 3",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Green 1, Red 2, Blue 1",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Red 1, Red 3",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Red 1, Green 1, Red 2, Blue 1, Red 3",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Auto mode 1",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Auto mode 2",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Auto mode 3",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Auto mode 4",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Auto mode 5",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "Auto mode 6",
+          "min": 220,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Cluster 5",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red 1",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Green 1",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Red 2",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Blue 3",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Red 3",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Blue 1, Red 3",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Red 2, Red 3",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Green 1, Red 3",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Red 2, Blue 1",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Blue 1, Green 1",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Green 1, Red 2",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Red 2, Blue 1, Red 3",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Green 1, Blue 1, Red 3",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Green 1, Red 2, Blue 1",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Red 1, Red 3",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Red 1, Green 1, Red 2, Blue 1, Red 3",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Auto mode 1",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Auto mode 2",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Auto mode 3",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Auto mode 4",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Auto mode 5",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "Auto mode 6",
+          "min": 220,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Cluster 6",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red 1",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Green 1",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Red 2",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Blue 3",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Red 3",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Blue 1, Red 3",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Red 2, Red 3",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Green 1, Red 3",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Red 2, Blue 1",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Blue 1, Green 1",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Green 1, Red 2",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Red 2, Blue 1, Red 3",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Green 1, Blue 1, Red 3",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Green 1, Red 2, Blue 1",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Red 1, Red 3",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Red 1, Green 1, Red 2, Blue 1, Red 3",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Auto mode 1",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Auto mode 2",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Auto mode 3",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Auto mode 4",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Auto mode 5",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "Auto mode 6",
+          "min": 220,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Cluster 7",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red 1",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Green 1",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Red 2",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Blue 3",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Red 3",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Blue 1, Red 3",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Red 2, Red 3",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Green 1, Red 3",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Red 2, Blue 1",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Blue 1, Green 1",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Green 1, Red 2",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Red 2, Blue 1, Red 3",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Green 1, Blue 1, Red 3",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Green 1, Red 2, Blue 1",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Red 1, Red 3",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Red 1, Green 1, Red 2, Blue 1, Red 3",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Auto mode 1",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Auto mode 2",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Auto mode 3",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Auto mode 4",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Auto mode 5",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "Auto mode 6",
+          "min": 220,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 22,
+      "type_description": "Run / Strobe Speed",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "label": "Slow -> Fast",
+          "min": 2,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-Vue-3.1.json",
+  "id": 559
+}

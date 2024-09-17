@@ -1,0 +1,306 @@
+{
+  "version": "1.0.0",
+  "label": "Stealth Wash Zoom",
+  "manufacturer": "Eliminator Lighting",
+  "bulb_type": "LED",
+  "bulb_lumens": 786,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 239,
+  "dimension_height": 321,
+  "dimension_depth": 170,
+  "lens_label": "Other",
+  "lens_degree_min": 4,
+  "lens_degree_max": 45,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 190,
+  "technical_power_consumption": 95,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Colors",
+      "capabilities": [
+        {
+          "label": "Nothing",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Red",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Green",
+          "min": 11,
+          "max": 15
+        },
+        {
+          "label": "Blue",
+          "min": 16,
+          "max": 20
+        },
+        {
+          "label": "White",
+          "min": 21,
+          "max": 25
+        },
+        {
+          "label": "Red + Green",
+          "min": 26,
+          "max": 30
+        },
+        {
+          "label": "Green + Blue",
+          "min": 31,
+          "max": 35
+        },
+        {
+          "label": "Blue + White",
+          "min": 36,
+          "max": 40
+        },
+        {
+          "label": "Red + Blue",
+          "min": 41,
+          "max": 45
+        },
+        {
+          "label": "Green + White",
+          "min": 46,
+          "max": 50
+        },
+        {
+          "label": "Red + White",
+          "min": 51,
+          "max": 55
+        },
+        {
+          "label": "Red + Green + Blue",
+          "min": 56,
+          "max": 60
+        },
+        {
+          "label": "Red + Green + White",
+          "min": 61,
+          "max": 65
+        },
+        {
+          "label": "Green + Blue + White",
+          "min": 66,
+          "max": 70
+        },
+        {
+          "label": "Red + Green + Blue + White",
+          "min": 71,
+          "max": 75
+        },
+        {
+          "label": "Color Change - Slow to Fast",
+          "min": 76,
+          "max": 127
+        },
+        {
+          "label": "Nothing",
+          "min": 128,
+          "max": 133
+        },
+        {
+          "label": "Color fade - Slow to Fast",
+          "min": 134,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Internal Programs",
+      "capabilities": [
+        {
+          "label": "Nothing",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Program 1",
+          "min": 21,
+          "max": 40
+        },
+        {
+          "label": "Program 2",
+          "min": 41,
+          "max": 60
+        },
+        {
+          "label": "Program 3",
+          "min": 61,
+          "max": 80
+        },
+        {
+          "label": "Program 4",
+          "min": 81,
+          "max": 100
+        },
+        {
+          "label": "Program 5",
+          "min": 101,
+          "max": 120
+        },
+        {
+          "label": "Program 6",
+          "min": 121,
+          "max": 140
+        },
+        {
+          "label": "Program 7",
+          "min": 141,
+          "max": 160
+        },
+        {
+          "label": "Program 8",
+          "min": 161,
+          "max": 180
+        },
+        {
+          "label": "Nothing",
+          "min": 181,
+          "max": 200
+        },
+        {
+          "label": "Motor Reset",
+          "min": 201,
+          "max": 225
+        },
+        {
+          "label": "Nothing",
+          "min": 226,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 21,
+      "type_description": "Shutter/Strobing",
+      "capabilities": [
+        {
+          "label": "Shutter Closed",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobing - Slow to Fast",
+          "min": 10,
+          "max": 245
+        },
+        {
+          "label": "Shutter Open",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Color Temperatures",
+      "capabilities": [
+        {
+          "label": "Color Temperatures",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 22,
+      "type_description": "Color Fade",
+      "capabilities": [
+        {
+          "label": "Nothing",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Color fade - slow to fast",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Eliminator_Lighting/Eliminator-Lighting-Stealth-Wash-Zoom.json",
+  "id": 625
+}

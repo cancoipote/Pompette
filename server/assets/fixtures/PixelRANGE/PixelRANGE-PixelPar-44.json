@@ -1,0 +1,473 @@
+{
+  "version": "1.0.0",
+  "label": "PixelPar 44",
+  "manufacturer": "PixelRANGE",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 6,
+  "dimension_width": 275,
+  "dimension_height": 317,
+  "dimension_depth": 181,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 127,
+  "technical_dmx_connector": "5-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Master Int",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "C 1 Effect",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Rainbow chase forward",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Rainbow chase reverse",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "10/90 duty cycle strobe white",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "10/90 duty cycle strobe white",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "10/90 duty cycle strobe white",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "50/50 duty cycle strobe white",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "50/50 duty cycle strobe red",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "50/50 duty cycle strobe blue",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "50/50 duty cycle strobe yellow",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "50/50 duty cycle strobe green",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Pulse strobe white",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Pulse strobe blue",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Pulse strobe rainbow",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Pulse strobe red/green/blue",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Primary/secondary chase",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Red/green/blue chase",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Yellow/blue chase",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Rainbow chase",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Yellow/blue chase",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Red/blue chase",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Red/yellow chase",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Red/green/blue chase",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Green/purple chase",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Red/green/blue chase",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Static orange",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Static yellow",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Static light blue",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Static purple",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Static red",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Static green",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Static blue",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "C 1 Speed",
+      "capabilities": [
+        {
+          "label": "C 1 Speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "C 1 Xfade",
+      "capabilities": [
+        {
+          "label": "C 1 Xfade",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "C 2 Effect",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Rainbow chase forward",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Rainbow chase reverse",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "10/90 duty cycle strobe white",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "10/90 duty cycle strobe white",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "10/90 duty cycle strobe white",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "50/50 duty cycle strobe white",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "50/50 duty cycle strobe red",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "50/50 duty cycle strobe blue",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "50/50 duty cycle strobe yellow",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "50/50 duty cycle strobe green",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Pulse strobe white",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Pulse strobe blue",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Pulse strobe rainbow",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Pulse strobe red/green/blue",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Primary/secondary chase",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Red/green/blue chase",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Yellow/blue chase",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Rainbow chase",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Yellow/blue chase",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Red/blue chase",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Red/yellow chase",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Red/green/blue chase",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Green/purple chase",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Red/green/blue chase",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Static orange",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Static yellow",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Static light blue",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Static purple",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Static red",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Static green",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Static blue",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "C 2 Speed",
+      "capabilities": [
+        {
+          "label": "C 2 Speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "C 2 Xfade",
+      "capabilities": [
+        {
+          "label": "C 2 Xfade",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Red (fine)",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Green (fine)",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Blue (fine)",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Amber (fine)",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Red + Amber",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Red + Amber (fine)",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/PixelRANGE/PixelRANGE-PixelPar-44.json",
+  "id": 1120
+}

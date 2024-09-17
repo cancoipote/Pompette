@@ -1,0 +1,1304 @@
+{
+  "version": "1.0.0",
+  "label": "Studio Beam",
+  "manufacturer": "High End Systems",
+  "bulb_type": "MSR 700W",
+  "bulb_lumens": 18000,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 21,
+  "dimension_width": 485,
+  "dimension_height": 600,
+  "dimension_depth": 295,
+  "lens_label": "PC",
+  "lens_degree_min": 15,
+  "lens_degree_max": 26,
+  "focus_type": "Aspheric",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 256,
+  "technical_power_consumption": 1000,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan Coarse",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt Coarse",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Dim",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Shutter (Normal/Lamp Assisted)",
+      "capabilities": [
+        {
+          "label": "Closed/Closed",
+          "min": 0,
+          "max": 23
+        },
+        {
+          "label": "Periodic strobe/Periodic lamp strobe",
+          "min": 24,
+          "max": 49
+        },
+        {
+          "label": "Random strobe/Random lamp strobes",
+          "min": 50,
+          "max": 75
+        },
+        {
+          "label": "Synchronous random strobe/Synchronous random lamp pulses",
+          "min": 76,
+          "max": 101
+        },
+        {
+          "label": "Ramp open, snap shut/Boost lamp 1.0 second, black",
+          "min": 102,
+          "max": 105
+        },
+        {
+          "label": "Ramp open, snap shut/Boost lamp .75 second, black",
+          "min": 106,
+          "max": 109
+        },
+        {
+          "label": "Ramp open, snap shut/Boost lamp .66 second, black",
+          "min": 110,
+          "max": 113
+        },
+        {
+          "label": "Ramp open, snap shut/Boost lamp .5 second, black",
+          "min": 114,
+          "max": 117
+        },
+        {
+          "label": "Ramp open, snap shut/Boost lamp .33 second, black",
+          "min": 118,
+          "max": 121
+        },
+        {
+          "label": "Ramp open, snap shut/Boost lamp .25 second, black",
+          "min": 122,
+          "max": 127
+        },
+        {
+          "label": "Snap open, ramp shut/Boost lamp 1.0 second, white",
+          "min": 128,
+          "max": 131
+        },
+        {
+          "label": "Snap open, ramp shut/Boost lamp .75 second, white",
+          "min": 132,
+          "max": 135
+        },
+        {
+          "label": "Snap open, ramp shut/Boost lamp .66 second, white",
+          "min": 136,
+          "max": 139
+        },
+        {
+          "label": "Snap open, ramp shut/Boost lamp .5 second, white",
+          "min": 140,
+          "max": 143
+        },
+        {
+          "label": "Snap open, ramp shut/Boost lamp .33 second, white",
+          "min": 144,
+          "max": 147
+        },
+        {
+          "label": "Snap open, ramp shut/Boost lamp .25 second, white",
+          "min": 148,
+          "max": 153
+        },
+        {
+          "label": "Ramp open, ramp shut/Lightning strike 1",
+          "min": 154,
+          "max": 157
+        },
+        {
+          "label": "Ramp open, ramp shut/Lightning strike 2",
+          "min": 158,
+          "max": 161
+        },
+        {
+          "label": "Ramp open, ramp shut/Lightning strike 3",
+          "min": 162,
+          "max": 165
+        },
+        {
+          "label": "Ramp open, ramp shut/Lightning strike 4",
+          "min": 166,
+          "max": 169
+        },
+        {
+          "label": "Ramp open, ramp shut/Lightning strike 5",
+          "min": 170,
+          "max": 173
+        },
+        {
+          "label": "Ramp open, ramp shut/Lightning strike 6",
+          "min": 174,
+          "max": 179
+        },
+        {
+          "label": "Random ramp open, snap shut/To be determined",
+          "min": 180,
+          "max": 205
+        },
+        {
+          "label": "Random snap open, ramp shut/To be determined",
+          "min": 206,
+          "max": 231
+        },
+        {
+          "label": "Open/Open",
+          "min": 232,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 5,
+      "type_description": "Cyan",
+      "capabilities": [
+        {
+          "label": "Open white",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Cyan (0% to 100% saturation)",
+          "min": 1,
+          "max": 128
+        },
+        {
+          "label": "Discrete color (deep red position)",
+          "min": 129,
+          "max": 129
+        },
+        {
+          "label": "Open white",
+          "min": 130,
+          "max": 130
+        },
+        {
+          "label": "Media scan",
+          "min": 131,
+          "max": 172
+        },
+        {
+          "label": "Reverse spin (fast to slow)",
+          "min": 173,
+          "max": 213
+        },
+        {
+          "label": "Spin stop",
+          "min": 214,
+          "max": 214
+        },
+        {
+          "label": "Forward spin (slow to fast)",
+          "min": 215,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 5,
+      "type_description": "Magenta",
+      "capabilities": [
+        {
+          "label": "Open white",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Magenta (0% to 100% saturation)",
+          "min": 1,
+          "max": 128
+        },
+        {
+          "label": "Discrete color (CTO position)",
+          "min": 129,
+          "max": 129
+        },
+        {
+          "label": "Open white",
+          "min": 130,
+          "max": 130
+        },
+        {
+          "label": "Media scan",
+          "min": 131,
+          "max": 172
+        },
+        {
+          "label": "Reverse spin (fast to slow)",
+          "min": 173,
+          "max": 213
+        },
+        {
+          "label": "Spin stop",
+          "min": 214,
+          "max": 214
+        },
+        {
+          "label": "Forward spin (slow to fast)",
+          "min": 215,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 5,
+      "type_description": "Yellow",
+      "capabilities": [
+        {
+          "label": "Open white",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Yellow (0% to 100% saturation)",
+          "min": 1,
+          "max": 128
+        },
+        {
+          "label": "Discrete color (deep blue position)",
+          "min": 129,
+          "max": 129
+        },
+        {
+          "label": "Open white",
+          "min": 130,
+          "max": 130
+        },
+        {
+          "label": "Media scan",
+          "min": 131,
+          "max": 172
+        },
+        {
+          "label": "Reverse spin (fast to slow)",
+          "min": 173,
+          "max": 213
+        },
+        {
+          "label": "Spin stop",
+          "min": 214,
+          "max": 214
+        },
+        {
+          "label": "Forward spin (slow to fast)",
+          "min": 215,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Color Function Flat",
+      "capabilities": [
+        {
+          "label": "Safe (disables all control settings)",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Blink (continuous to discrete)",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "label": "Color cycle (uses only the color mixing portion of all color wheels to cycle factory determined colors at variable speeds (slow to fast)",
+          "min": 2,
+          "max": 65
+        },
+        {
+          "label": "Random (uses only the color mixing portion of all color wheels to cycle facotry determined colors at variable speeds (slow to fast)",
+          "min": 66,
+          "max": 129
+        },
+        {
+          "label": "To be determined, defaults to safe",
+          "min": 130,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 1,
+      "type_description": "Beam Shaping Standard (Default/Audio Modulation Mode)",
+      "capabilities": [
+        {
+          "label": "Continuous positioning/Forward, slow decay",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Continuous positioning/Forward, medium decay",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Continuous positioning/Forward, fast decay",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Continuous positionng/Reverse, fast decay",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Continuous positioning/Reverse, medium decay",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Continuous positioning/Reverse, slow decay",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Continuous positioning/Forward",
+          "min": 48,
+          "max": 79
+        },
+        {
+          "label": "Continuous positioning/Reverse",
+          "min": 80,
+          "max": 111
+        },
+        {
+          "label": "Continuous positioning/To de determined",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Spin reverse (fastest to slowest)/To be determined",
+          "min": 128,
+          "max": 187
+        },
+        {
+          "label": "Spin stop/To be determined",
+          "min": 188,
+          "max": 195
+        },
+        {
+          "label": "Spin forward (slowest to fastest)/To be determined",
+          "min": 196,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 3,
+      "type_description": "Frost Standard (Default/Audio Modulation Mode)",
+      "capabilities": [
+        {
+          "label": "Continuous positioning (open to closed/No frost to frost, slow decay",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Continuous positioning (open to closed/No frost to frost, medium decay",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Continuous positioning (open to closed/No frost to frost, fast decay",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Continuous positioning (open to closed/Frost to no frost, fast decay",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Continuous positioning (open to closed/Frost to no frost, medium decay",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Continuous positioning (open to closed/Frost to no frost, slow decay",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Continuous positioning (open to closed/No frost to frost. No movement to full movement",
+          "min": 48,
+          "max": 79
+        },
+        {
+          "label": "Continuous positioning (open to closed/Frost to no frost. Full movement to no movement",
+          "min": 80,
+          "max": 111
+        },
+        {
+          "label": "Continuous positioning (open to closed)/To be determined",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Closed/To be determined",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Periodic strobe/To be determined",
+          "min": 136,
+          "max": 151
+        },
+        {
+          "label": "Random strobe/To be determined",
+          "min": 152,
+          "max": 167
+        },
+        {
+          "label": "Ramp open, snap shut/To be determined",
+          "min": 168,
+          "max": 183
+        },
+        {
+          "label": "Snap open, ramp shut/To be determined",
+          "min": 184,
+          "max": 199
+        },
+        {
+          "label": "Ramp open, ramp shut/To be determined",
+          "min": 200,
+          "max": 215
+        },
+        {
+          "label": "Random ramp open, snap shut/To be determined",
+          "min": 216,
+          "max": 231
+        },
+        {
+          "label": "Random snap open, ramp shut/To be determined",
+          "min": 232,
+          "max": 247
+        },
+        {
+          "label": "Open/To be determined",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 17,
+      "type_description": "Control Flat",
+      "capabilities": [
+        {
+          "label": "Safe",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "No function",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Display off",
+          "min": 20,
+          "max": 28
+        },
+        {
+          "label": "No function",
+          "min": 29,
+          "max": 29
+        },
+        {
+          "label": "Display dim",
+          "min": 30,
+          "max": 38
+        },
+        {
+          "label": "No function",
+          "min": 39,
+          "max": 39
+        },
+        {
+          "label": "Display bright",
+          "min": 40,
+          "max": 48
+        },
+        {
+          "label": "No function",
+          "min": 49,
+          "max": 59
+        },
+        {
+          "label": "Home",
+          "min": 60,
+          "max": 68
+        },
+        {
+          "label": "No function",
+          "min": 69,
+          "max": 79
+        },
+        {
+          "label": "Lamp on",
+          "min": 80,
+          "max": 88
+        },
+        {
+          "label": "No function",
+          "min": 89,
+          "max": 89
+        },
+        {
+          "label": "Lamp off",
+          "min": 90,
+          "max": 98
+        },
+        {
+          "label": "No function",
+          "min": 99,
+          "max": 109
+        },
+        {
+          "label": "Lock",
+          "min": 110,
+          "max": 118
+        },
+        {
+          "label": "No function",
+          "min": 119,
+          "max": 119
+        },
+        {
+          "label": "Fixture shutdown",
+          "min": 120,
+          "max": 130
+        },
+        {
+          "label": "No function",
+          "min": 131,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 3,
+      "type_description": "Color Function Standard",
+      "capabilities": [
+        {
+          "label": "Full Speed Control - Continuous",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Full Speed Control - Indexed",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Full Speed Control - Pure mix",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Full Speed Control - Spin",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Full Speed Control - Cycle (speed is set by the cyan channel)",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Full Speed Control - Color scan (speed or fixed position set individually on cyan, magenta, and yellow channels)",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Full Speed Control - Random (speed is set by the cyan channel)",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Full Speed Control - Blink continuous",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "MSpeed Controlled - Continuous",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "MSpeed Controlled - Indexed",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "MSpeed Controlled - Pure mix",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "MSpeed Controlled - Spin",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "MSpeed Controlled - Cycle (speed is set by the cyan channel)",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "MSpeed Controlled - Color scan (speed or fixed position set individually on cyan, magenta, and yellow channels)",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "MSpeed Controlled - Random (speed is set by the cyan channel)",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "MSpeed Controlled - Blink continuous",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 3,
+      "type_description": "Cyan Color Wheel",
+      "capabilities": [
+        {
+          "label": "See manual",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 3,
+      "type_description": "Magenta Color Wheel",
+      "capabilities": [
+        {
+          "label": "See manual",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 3,
+      "type_description": "Yellow Color Wheel",
+      "capabilities": [
+        {
+          "label": "See manual",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 17,
+      "type_description": "MSpeed",
+      "capabilities": [
+        {
+          "label": "Disable",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Longest (252.7 sec.) to shortest (0.15 sec.)",
+          "min": 4,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 3,
+      "type_description": "Macro",
+      "capabilities": [
+        {
+          "label": "Macro off",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Pan sweep, small to large angle",
+          "min": 6,
+          "max": 62
+        },
+        {
+          "label": "Macro off",
+          "min": 63,
+          "max": 65
+        },
+        {
+          "label": "Tilt sweep, small to large angle",
+          "min": 66,
+          "max": 122
+        },
+        {
+          "label": "Macro off",
+          "min": 123,
+          "max": 125
+        },
+        {
+          "label": "Clockwise circle, small to large",
+          "min": 126,
+          "max": 160
+        },
+        {
+          "label": "Macro off",
+          "min": 161,
+          "max": 163
+        },
+        {
+          "label": "Counterclockwise circle, small to large",
+          "min": 164,
+          "max": 198
+        },
+        {
+          "label": "Reserved",
+          "min": 199,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 17,
+      "type_description": "Control Standard",
+      "capabilities": [
+        {
+          "label": "Safe (disables all control settings)",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Pan & Tilt MSpeed off",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Display off",
+          "min": 20,
+          "max": 28
+        },
+        {
+          "label": "No function",
+          "min": 29,
+          "max": 29
+        },
+        {
+          "label": "Display dim",
+          "min": 30,
+          "max": 38
+        },
+        {
+          "label": "No function",
+          "min": 39,
+          "max": 39
+        },
+        {
+          "label": "Display bright",
+          "min": 40,
+          "max": 48
+        },
+        {
+          "label": "No function",
+          "min": 49,
+          "max": 59
+        },
+        {
+          "label": "Home",
+          "min": 60,
+          "max": 68
+        },
+        {
+          "label": "No function",
+          "min": 69,
+          "max": 79
+        },
+        {
+          "label": "Lamp on",
+          "min": 80,
+          "max": 88
+        },
+        {
+          "label": "No function",
+          "min": 89,
+          "max": 89
+        },
+        {
+          "label": "Lamp off",
+          "min": 90,
+          "max": 98
+        },
+        {
+          "label": "No function",
+          "min": 99,
+          "max": 109
+        },
+        {
+          "label": "Lock (send for 5 seconds)",
+          "min": 110,
+          "max": 118
+        },
+        {
+          "label": "No function",
+          "min": 119,
+          "max": 119
+        },
+        {
+          "label": "Shutdown (send for 5 seconds)",
+          "min": 120,
+          "max": 130
+        },
+        {
+          "label": "No function",
+          "min": 131,
+          "max": 133
+        },
+        {
+          "label": "Lamp assisted strobes (periodic and random strobe functions are lamp assisted, ramp functions are not lamp assisted)",
+          "min": 134,
+          "max": 137
+        },
+        {
+          "label": "Lamp functions (modifies the shutter channel)",
+          "min": 138,
+          "max": 141
+        },
+        {
+          "label": "Lamp/mechanical dimmings (lamp output will vary from a minimum to 700 Watts as the mechanical dimming ranges from 0-100%)",
+          "min": 142,
+          "max": 145
+        },
+        {
+          "label": "Lamp only dimming (electronic dimming only from a minimum to 700 Watts)",
+          "min": 146,
+          "max": 149
+        },
+        {
+          "label": "To be determined",
+          "min": 150,
+          "max": 169
+        },
+        {
+          "label": "Cyan modulation",
+          "min": 170,
+          "max": 173
+        },
+        {
+          "label": "Magenta modulation",
+          "min": 174,
+          "max": 177
+        },
+        {
+          "label": "Yellow modulation",
+          "min": 178,
+          "max": 181
+        },
+        {
+          "label": "Cyan & yagenta modulation",
+          "min": 182,
+          "max": 185
+        },
+        {
+          "label": "Cyan & yellow modulation",
+          "min": 186,
+          "max": 189
+        },
+        {
+          "label": "Magenta & yellow modulation",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Modulate all colors",
+          "min": 194,
+          "max": 197
+        },
+        {
+          "label": "Frost modulation",
+          "min": 198,
+          "max": 201
+        },
+        {
+          "label": "Beam shaping modulation",
+          "min": 202,
+          "max": 205
+        },
+        {
+          "label": "Dim modulation",
+          "min": 206,
+          "max": 209
+        },
+        {
+          "label": "Lamp and dim modulation",
+          "min": 210,
+          "max": 213
+        },
+        {
+          "label": "Lamp modulation (long sustain)",
+          "min": 214,
+          "max": 217
+        },
+        {
+          "label": "Lamp modulation (medium sustain)",
+          "min": 218,
+          "max": 221
+        },
+        {
+          "label": "Lamp modulation (short sustain)",
+          "min": 222,
+          "max": 225
+        },
+        {
+          "label": "To be determined",
+          "min": 226,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "type": 21,
+      "type_description": "Shutter Flat",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Periodic",
+          "min": 1,
+          "max": 26
+        },
+        {
+          "label": "Random/Random",
+          "min": 27,
+          "max": 52
+        },
+        {
+          "label": "Random/Synchronous",
+          "min": 53,
+          "max": 78
+        },
+        {
+          "label": "Ramp open, ramp shut",
+          "min": 79,
+          "max": 104
+        },
+        {
+          "label": "Snap open, ramp shut",
+          "min": 105,
+          "max": 120
+        },
+        {
+          "label": "Ramp open, ramp shut",
+          "min": 121,
+          "max": 146
+        },
+        {
+          "label": "Random ramp open, snap shut",
+          "min": 147,
+          "max": 172
+        },
+        {
+          "label": "Random snap open, ramp shut",
+          "min": 173,
+          "max": 198
+        },
+        {
+          "label": "To be determined, defaults open",
+          "min": 199,
+          "max": 250
+        },
+        {
+          "label": "Closed",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "type": 3,
+      "type_description": "Lamp Control Flat",
+      "capabilities": [
+        {
+          "label": "Lamp full power",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Lamp dim (full to dim)",
+          "min": 1,
+          "max": 128
+        },
+        {
+          "label": "Lamp assists shutter strobes",
+          "min": 129,
+          "max": 129
+        },
+        {
+          "label": "Lamp/mechanical dimming",
+          "min": 130,
+          "max": 130
+        },
+        {
+          "label": "Periodic lamp strobe",
+          "min": 131,
+          "max": 156
+        },
+        {
+          "label": "Random lamp strobe",
+          "min": 157,
+          "max": 172
+        },
+        {
+          "label": "Synchronous random strobe",
+          "min": 173,
+          "max": 198
+        },
+        {
+          "label": "Boost lamp 1.0 second, black",
+          "min": 199,
+          "max": 199
+        },
+        {
+          "label": "Boost lamp .75 second, black",
+          "min": 200,
+          "max": 200
+        },
+        {
+          "label": "Boost lamp .66 second, black",
+          "min": 201,
+          "max": 201
+        },
+        {
+          "label": "Boost lamp .5 second, black",
+          "min": 202,
+          "max": 202
+        },
+        {
+          "label": "Boost lamp .33 second, black",
+          "min": 203,
+          "max": 203
+        },
+        {
+          "label": "Boost lamp .25 second, black",
+          "min": 204,
+          "max": 204
+        },
+        {
+          "label": "Boost lamp 1.0 second, white",
+          "min": 205,
+          "max": 205
+        },
+        {
+          "label": "Boost lamp .75 second, white",
+          "min": 206,
+          "max": 206
+        },
+        {
+          "label": "Boost lamp .66 second, white",
+          "min": 207,
+          "max": 207
+        },
+        {
+          "label": "Boost lamp .5 second, white",
+          "min": 208,
+          "max": 208
+        },
+        {
+          "label": "Boost lamp .33 second, white",
+          "min": 209,
+          "max": 209
+        },
+        {
+          "label": "Boost lamp .25 second, white",
+          "min": 210,
+          "max": 210
+        },
+        {
+          "label": "Lightning strike 1",
+          "min": 211,
+          "max": 211
+        },
+        {
+          "label": "Lightning strike 2",
+          "min": 212,
+          "max": 212
+        },
+        {
+          "label": "Lightning strike 3",
+          "min": 213,
+          "max": 213
+        },
+        {
+          "label": "Lightning strike 4",
+          "min": 214,
+          "max": 214
+        },
+        {
+          "label": "Lightning strike 5",
+          "min": 215,
+          "max": 215
+        },
+        {
+          "label": "Lightning strike 6",
+          "min": 216,
+          "max": 216
+        },
+        {
+          "label": "To be determined",
+          "min": 217,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "type": 1,
+      "type_description": "Beam Shaping Flat",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Continuous positioning",
+          "min": 1,
+          "max": 127
+        },
+        {
+          "label": "Reverse spin (fast to slow)",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Spin stop",
+          "min": 192,
+          "max": 192
+        },
+        {
+          "label": "Forward spin (slow to fast)",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "type": 3,
+      "type_description": "Frost Flat",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Continuous positioning (closed to open)",
+          "min": 1,
+          "max": 127
+        },
+        {
+          "label": "Periodic strobe",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Random strobe",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Ramp open, snap shut",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Snap open, ramp shut",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Ramp open, ramp shut",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "Random ramp open, snap shut",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "Random snap open, ramp shut",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "Open",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/High_End_Systems/High-End-Systems-Studio-Beam.json",
+  "id": 867
+}

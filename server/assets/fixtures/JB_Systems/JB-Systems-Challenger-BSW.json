@@ -1,0 +1,893 @@
+{
+  "version": "1.0.0",
+  "label": "Challenger BSW",
+  "manufacturer": "JB Systems",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 12,
+  "dimension_width": 452,
+  "dimension_height": 256,
+  "dimension_depth": 29,
+  "lens_label": "Other",
+  "lens_degree_min": 2,
+  "lens_degree_max": 28,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 189,
+  "technical_dmx_connector": "5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Random Strobe",
+          "min": 8,
+          "max": 37
+        },
+        {
+          "label": "Sound Strobe",
+          "min": 38,
+          "max": 67
+        },
+        {
+          "label": "Strobe slow -> fast",
+          "min": 68,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Colours",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Red",
+          "min": 8,
+          "max": 37
+        },
+        {
+          "label": "Orange",
+          "min": 38,
+          "max": 67
+        },
+        {
+          "label": "Yellow",
+          "min": 68,
+          "max": 97
+        },
+        {
+          "label": "Green",
+          "min": 98,
+          "max": 127
+        },
+        {
+          "label": "Blue (dark)",
+          "min": 128,
+          "max": 157
+        },
+        {
+          "label": "Magenta",
+          "min": 158,
+          "max": 187
+        },
+        {
+          "label": "Cyan",
+          "min": 188,
+          "max": 217
+        },
+        {
+          "label": "Pink",
+          "min": 218,
+          "max": 248
+        },
+        {
+          "label": "Original colors",
+          "min": 249,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "No gobo",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Gobo 1",
+          "min": 8,
+          "max": 37
+        },
+        {
+          "label": "Gobo 2",
+          "min": 38,
+          "max": 67
+        },
+        {
+          "label": "Gobo 3",
+          "min": 68,
+          "max": 97
+        },
+        {
+          "label": "Gobo 4",
+          "min": 98,
+          "max": 127
+        },
+        {
+          "label": "Gobo 5",
+          "min": 128,
+          "max": 157
+        },
+        {
+          "label": "Gobo 6",
+          "min": 158,
+          "max": 187
+        },
+        {
+          "label": "Gobo 7",
+          "min": 188,
+          "max": 217
+        },
+        {
+          "label": "Gobo 8",
+          "min": 218,
+          "max": 247
+        },
+        {
+          "label": "Original gobos",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 17,
+      "type_description": "Pan/Tilt sound controll",
+      "capabilities": [
+        {
+          "label": "HOLD (Freeze)",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Pan/Tilt sound control",
+          "min": 8,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Pan/Tilt speed",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Special Show",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Show 1",
+          "min": 16,
+          "max": 63
+        },
+        {
+          "label": "Show 2",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Show 3",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Show 4",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Pan/Tilt Macros",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Macro 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Macro 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Macro 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Macro 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Macro 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Macro 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Macro 7",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Macro 8",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Macro 9",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Macro 10",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Macro 11",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Macro 12",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Macro 13",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Macro 14",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Macro 15",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Macro 16",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Macro 17",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Macro 18",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Macro 19",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Macro 20",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Macro 21",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Macro 22",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Macro 23",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Macro 24",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Macro 25",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Macro 26",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Macro 27",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Macro 28",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Macro 29",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Macro 30",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Macro 31",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Pan/Tilt speed Macro",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Colours 1",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Red/White",
+          "min": 16,
+          "max": 18
+        },
+        {
+          "label": "Red",
+          "min": 19,
+          "max": 21
+        },
+        {
+          "label": "Orange/Red",
+          "min": 22,
+          "max": 24
+        },
+        {
+          "label": "Orange",
+          "min": 25,
+          "max": 27
+        },
+        {
+          "label": "Yellow/Orange",
+          "min": 28,
+          "max": 30
+        },
+        {
+          "label": "Yellow",
+          "min": 31,
+          "max": 33
+        },
+        {
+          "label": "Green/Yellow",
+          "min": 34,
+          "max": 36
+        },
+        {
+          "label": "Green",
+          "min": 37,
+          "max": 39
+        },
+        {
+          "label": "Blue (Dark)/Green",
+          "min": 40,
+          "max": 42
+        },
+        {
+          "label": "Blue (Dark)",
+          "min": 43,
+          "max": 45
+        },
+        {
+          "label": "Magenta/Blue (Dark)",
+          "min": 46,
+          "max": 48
+        },
+        {
+          "label": "Magenta",
+          "min": 49,
+          "max": 51
+        },
+        {
+          "label": "Blue (Light)/Magenta",
+          "min": 52,
+          "max": 54
+        },
+        {
+          "label": "Blue (Light)",
+          "min": 55,
+          "max": 57
+        },
+        {
+          "label": "Pink/Blue (Light)",
+          "min": 58,
+          "max": 60
+        },
+        {
+          "label": "Pink",
+          "min": 61,
+          "max": 63
+        },
+        {
+          "label": "Positioning colors",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Rainbow effect CCW (Fast->slow)",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Rainbow effect CW (Slow->fast)",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 4,
+      "type_description": "Fixed Gobos",
+      "capabilities": [
+        {
+          "label": "Open (fixed gobos)",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Gobo 1 very narrow beam",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Gobo 2 narrow beam",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Gobo 3 medium beam",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Gobo 4 large beam",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Gobo 5 wide beam",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Gobo 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Gobo 7",
+          "min": 56,
+          "max": 62
+        },
+        {
+          "label": "Gobo 1-7 shaking",
+          "min": 63,
+          "max": 127
+        },
+        {
+          "label": "Gobo wheel rotation CCW (Fast->slow)",
+          "min": 128,
+          "max": 190
+        },
+        {
+          "label": "Stop",
+          "min": 191,
+          "max": 192
+        },
+        {
+          "label": "Gobo wheel rotation CW (Slow->fast)",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 4,
+      "type_description": "Gobo Rotation",
+      "capabilities": [
+        {
+          "label": "Gobo rotation step by step",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "CW (Fast->slow)",
+          "min": 128,
+          "max": 190
+        },
+        {
+          "label": "Stop",
+          "min": 191,
+          "max": 192
+        },
+        {
+          "label": "CCW (Slow->fast)",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Beam",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Prism",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 20,
+      "type_description": "Prism rotation",
+      "capabilities": [
+        {
+          "label": "Prism rotating Step by step",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "CCW (Fast->slow)",
+          "min": 128,
+          "max": 190
+        },
+        {
+          "label": "Stop",
+          "min": 191,
+          "max": 192
+        },
+        {
+          "label": "CW (Slow->fast)",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 21,
+      "type_description": "Shutter/Strobe",
+      "capabilities": [
+        {
+          "label": "Shutter/strobe off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "ON",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Strobe",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "Open",
+          "min": 132,
+          "max": 139
+        },
+        {
+          "label": "Open/close",
+          "min": 140,
+          "max": 181
+        },
+        {
+          "label": "Open",
+          "min": 182,
+          "max": 189
+        },
+        {
+          "label": "Close/open",
+          "min": 190,
+          "max": 231
+        },
+        {
+          "label": "Open",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Random strobe",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Dimmer fine",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 17,
+      "type_description": "Maintenance Functions 1",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 69
+        },
+        {
+          "label": "Pan/Tilt Blackout enabled",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Pan/Tilt Blackout disabled",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Color changing Blackout enabled",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Color changing Blackout disabled",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Gobo changing Blackout enabled",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Gobo changing Blackout disabled",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "No function",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Pan/Tilt RESET",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Effect RESET",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "No function",
+          "min": 160,
+          "max": 199
+        },
+        {
+          "label": "RESET all functions",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Pan/Tilt/Color/Gobo Blackout enabled",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "Pan/Tilt/Color/Gobo Blackout disabled",
+          "min": 220,
+          "max": 229
+        },
+        {
+          "label": "No function",
+          "min": 230,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "type": 4,
+      "type_description": "Rotating Gobos",
+      "capabilities": [
+        {
+          "label": "Open Rotating Gobos",
+          "min": 0,
+          "max": 8
+        },
+        {
+          "label": "Gobo 1",
+          "min": 9,
+          "max": 17
+        },
+        {
+          "label": "Gobo 2",
+          "min": 18,
+          "max": 26
+        },
+        {
+          "label": "Gobo 3",
+          "min": 27,
+          "max": 35
+        },
+        {
+          "label": "Gobo 4",
+          "min": 36,
+          "max": 44
+        },
+        {
+          "label": "Gobo 5",
+          "min": 45,
+          "max": 53
+        },
+        {
+          "label": "Gobo 6",
+          "min": 54,
+          "max": 63
+        },
+        {
+          "label": "Gobo 1-6 shaking",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "CCW (Fast->slow)",
+          "min": 128,
+          "max": 190
+        },
+        {
+          "label": "Stop",
+          "min": 191,
+          "max": 192
+        },
+        {
+          "label": "CW (Slow->fast)",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/JB_Systems/JB-Systems-Challenger-BSW.json",
+  "id": 919
+}

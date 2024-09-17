@@ -1,0 +1,386 @@
+{
+  "version": "1.0.0",
+  "label": "Gigabar",
+  "manufacturer": "Equinox",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 7,
+  "dimension_width": 1000,
+  "dimension_height": 320,
+  "dimension_depth": 82,
+  "lens_label": "Fresnel",
+  "lens_degree_min": 25,
+  "lens_degree_max": 90,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 135,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "1-Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "1-Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "1-Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "2-Red",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "2-Green",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "2-Blue",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "3-Red",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "3-Green",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "3-Blue",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "4-Red",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "4-Green",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "4-Blue",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Flash Speed",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 3,
+      "type_description": "Power 1",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "ON",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 3,
+      "type_description": "Power 2",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "ON",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 3,
+      "type_description": "Program",
+      "capabilities": [
+        {
+          "label": "Built in programs",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 5,
+      "type_description": "Sound sensitivity / Flash",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Sound sensitivity - 1 (lowest) to 5 (highest)",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "label": "No function",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Flash Speed (11 slowest 255 highest)",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "R1 R2",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "G1 G2",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "B1 B2",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "R3 R4",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "G3 G4",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "B3 B4",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 5,
+      "type_description": "CH1",
+      "capabilities": [
+        {
+          "label": "R",
+          "min": 0,
+          "max": 36
+        },
+        {
+          "label": "G",
+          "min": 37,
+          "max": 73
+        },
+        {
+          "label": "B",
+          "min": 74,
+          "max": 110
+        },
+        {
+          "label": "RG : Yellow",
+          "min": 111,
+          "max": 147
+        },
+        {
+          "label": "RB : Violet",
+          "min": 148,
+          "max": 184
+        },
+        {
+          "label": "GB : Cyan",
+          "min": 185,
+          "max": 221
+        },
+        {
+          "label": "RGB : White",
+          "min": 222,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "type": 5,
+      "type_description": "CH2",
+      "capabilities": [
+        {
+          "label": "R",
+          "min": 0,
+          "max": 36
+        },
+        {
+          "label": "G",
+          "min": 37,
+          "max": 73
+        },
+        {
+          "label": "B",
+          "min": 74,
+          "max": 110
+        },
+        {
+          "label": "RG : Yellow",
+          "min": 111,
+          "max": 147
+        },
+        {
+          "label": "RB : Violet",
+          "min": 148,
+          "max": 184
+        },
+        {
+          "label": "GB : Cyan",
+          "min": 185,
+          "max": 221
+        },
+        {
+          "label": "RGB : White",
+          "min": 222,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "type": 5,
+      "type_description": "CH3",
+      "capabilities": [
+        {
+          "label": "R",
+          "min": 0,
+          "max": 36
+        },
+        {
+          "label": "G",
+          "min": 37,
+          "max": 73
+        },
+        {
+          "label": "B",
+          "min": 74,
+          "max": 110
+        },
+        {
+          "label": "RG : Yellow",
+          "min": 111,
+          "max": 147
+        },
+        {
+          "label": "RB : Violet",
+          "min": 148,
+          "max": 184
+        },
+        {
+          "label": "GB : Cyan",
+          "min": 185,
+          "max": 221
+        },
+        {
+          "label": "RGB : White",
+          "min": 222,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "type": 5,
+      "type_description": "CH4",
+      "capabilities": [
+        {
+          "label": "R",
+          "min": 0,
+          "max": 36
+        },
+        {
+          "label": "G",
+          "min": 37,
+          "max": 73
+        },
+        {
+          "label": "B",
+          "min": 74,
+          "max": 110
+        },
+        {
+          "label": "RG : Yellow",
+          "min": 111,
+          "max": 147
+        },
+        {
+          "label": "RB : Violet",
+          "min": 148,
+          "max": 184
+        },
+        {
+          "label": "GB : Cyan",
+          "min": 185,
+          "max": 221
+        },
+        {
+          "label": "RGB : White",
+          "min": 222,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Equinox/Equinox-Gigabar.json",
+  "id": 651
+}

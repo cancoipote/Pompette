@@ -1,0 +1,69 @@
+{
+  "version": "1.0.0",
+  "label": "MB DMX II",
+  "manufacturer": "American DJ",
+  "bulb_type": "",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 286,
+  "dimension_height": 318,
+  "dimension_depth": 216,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 10,
+  "technical_dmx_connector": "3-pin",
+  "type": 9,
+  "channels": [
+    {
+      "index": 0,
+      "type": 5,
+      "type_description": "Dimmer",
+      "capabilities": [
+        {
+          "label": "Lamp Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Lamp On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 22,
+      "type_description": "Rotation",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "CW Speed 5rpm (1) - 0.5rpm (127)",
+          "min": 1,
+          "max": 127
+        },
+        {
+          "label": "Stop",
+          "min": 128,
+          "max": 128
+        },
+        {
+          "label": "CCW Speed 0.5rpm (129) - 5rpm (255)",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-MB-DMX-II.json",
+  "id": 98
+}

@@ -1,0 +1,422 @@
+{
+  "version": "1.0.0",
+  "label": "MX-4",
+  "manufacturer": "Martin",
+  "bulb_type": "CDM 150W",
+  "bulb_lumens": 1030,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 9,
+  "dimension_width": 269,
+  "dimension_height": 537,
+  "dimension_depth": 263,
+  "lens_label": "Other",
+  "lens_degree_min": 16,
+  "lens_degree_max": 16,
+  "focus_type": "Mirror",
+  "focus_pan_max": 230,
+  "focus_tilt_max": 77,
+  "technical_power_consumption": 200,
+  "technical_dmx_connector": "3-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 5,
+      "type_description": "Dimmer, strobe, reset",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Lamp on",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Shutter open",
+          "min": 20,
+          "max": 99
+        },
+        {
+          "label": "Strobe speed",
+          "min": 100,
+          "max": 159
+        },
+        {
+          "label": "Shutter closed",
+          "min": 160,
+          "max": 179
+        },
+        {
+          "label": "Remote stand-alone, music trigger",
+          "min": 180,
+          "max": 204
+        },
+        {
+          "label": "Remote stand-alone, auto trigger",
+          "min": 205,
+          "max": 229
+        },
+        {
+          "label": "Shutter closed",
+          "min": 230,
+          "max": 239
+        },
+        {
+          "label": "Reset",
+          "min": 240,
+          "max": 249
+        },
+        {
+          "label": "Lamp off",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Color wheel",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "White / Light blue 101",
+          "min": 6,
+          "max": 11
+        },
+        {
+          "label": "Light blue 101",
+          "min": 12,
+          "max": 17
+        },
+        {
+          "label": "Light blue 101 / Fern green 205",
+          "min": 18,
+          "max": 23
+        },
+        {
+          "label": "Fern green 205",
+          "min": 24,
+          "max": 29
+        },
+        {
+          "label": "Fern green 205 / Red 304",
+          "min": 30,
+          "max": 35
+        },
+        {
+          "label": "Red 304",
+          "min": 36,
+          "max": 41
+        },
+        {
+          "label": "Red 304 / Yellow 603",
+          "min": 42,
+          "max": 47
+        },
+        {
+          "label": "Yellow 603",
+          "min": 48,
+          "max": 53
+        },
+        {
+          "label": "Yellow 603 / Magenta 507",
+          "min": 54,
+          "max": 59
+        },
+        {
+          "label": "Magenta 507",
+          "min": 60,
+          "max": 65
+        },
+        {
+          "label": "Magenta 507 / Medium blue 108",
+          "min": 66,
+          "max": 71
+        },
+        {
+          "label": "Medium blue 108",
+          "min": 72,
+          "max": 77
+        },
+        {
+          "label": "Medium blue 108 / Deep orange 302",
+          "min": 78,
+          "max": 83
+        },
+        {
+          "label": "Deep orange 302",
+          "min": 84,
+          "max": 89
+        },
+        {
+          "label": "Deep orange 302 / Light green 204",
+          "min": 90,
+          "max": 95
+        },
+        {
+          "label": "Light green 204",
+          "min": 96,
+          "max": 101
+        },
+        {
+          "label": "Light green 204 / Cyan 104",
+          "min": 102,
+          "max": 107
+        },
+        {
+          "label": "Cyan 104",
+          "min": 108,
+          "max": 113
+        },
+        {
+          "label": "Cyan 104 / Pink 312",
+          "min": 114,
+          "max": 119
+        },
+        {
+          "label": "Pink 312",
+          "min": 120,
+          "max": 125
+        },
+        {
+          "label": "Pink 312 / Blue 111",
+          "min": 126,
+          "max": 131
+        },
+        {
+          "label": "Blue 111",
+          "min": 132,
+          "max": 137
+        },
+        {
+          "label": "Blue 111 / Amber 604",
+          "min": 138,
+          "max": 143
+        },
+        {
+          "label": "Amber 604",
+          "min": 144,
+          "max": 149
+        },
+        {
+          "label": "Amber 604 / Primary red 308",
+          "min": 150,
+          "max": 155
+        },
+        {
+          "label": "Primary red 308",
+          "min": 156,
+          "max": 161
+        },
+        {
+          "label": "Primary red 308 / Primary green 206",
+          "min": 162,
+          "max": 167
+        },
+        {
+          "label": "Primary green 206",
+          "min": 168,
+          "max": 173
+        },
+        {
+          "label": "Primary green 206 / Orange 306",
+          "min": 174,
+          "max": 179
+        },
+        {
+          "label": "Orange 306",
+          "min": 180,
+          "max": 185
+        },
+        {
+          "label": "Orange 306 / Split-color 1",
+          "min": 186,
+          "max": 191
+        },
+        {
+          "label": "Split-color 1",
+          "min": 192,
+          "max": 197
+        },
+        {
+          "label": "Split-color 1 / Split-color 2",
+          "min": 198,
+          "max": 203
+        },
+        {
+          "label": "Split-color 2",
+          "min": 204,
+          "max": 209
+        },
+        {
+          "label": "Remote stand-alone",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 4,
+      "type_description": "Gobo Wheel",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 11
+        },
+        {
+          "label": "Worms 2",
+          "min": 12,
+          "max": 23
+        },
+        {
+          "label": "Web",
+          "min": 24,
+          "max": 35
+        },
+        {
+          "label": "Petals",
+          "min": 36,
+          "max": 47
+        },
+        {
+          "label": "Spokes",
+          "min": 48,
+          "max": 59
+        },
+        {
+          "label": "Cone 2",
+          "min": 60,
+          "max": 71
+        },
+        {
+          "label": "Maze",
+          "min": 72,
+          "max": 83
+        },
+        {
+          "label": "Crater",
+          "min": 84,
+          "max": 95
+        },
+        {
+          "label": "Holes 2",
+          "min": 96,
+          "max": 107
+        },
+        {
+          "label": "Cross 2",
+          "min": 108,
+          "max": 119
+        },
+        {
+          "label": "Jagged cross",
+          "min": 120,
+          "max": 131
+        },
+        {
+          "label": "Atomic",
+          "min": 132,
+          "max": 143
+        },
+        {
+          "label": "Dot circle",
+          "min": 144,
+          "max": 155
+        },
+        {
+          "label": "Nordic",
+          "min": 156,
+          "max": 167
+        },
+        {
+          "label": "Aim",
+          "min": 168,
+          "max": 179
+        },
+        {
+          "label": "Spokes 2",
+          "min": 180,
+          "max": 191
+        },
+        {
+          "label": "Tie",
+          "min": 192,
+          "max": 203
+        },
+        {
+          "label": "Nova",
+          "min": 204,
+          "max": 215
+        },
+        {
+          "label": "Triple beam",
+          "min": 216,
+          "max": 227
+        },
+        {
+          "label": "Dot 2",
+          "min": 228,
+          "max": 239
+        },
+        {
+          "label": "Random, stand-alone",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 22,
+      "type_description": "Pan/tilt speed",
+      "capabilities": [
+        {
+          "label": "Tracking mode",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Vector mode speed fast to slow",
+          "min": 3,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 22,
+      "type_description": "Color/gobo speed",
+      "capabilities": [
+        {
+          "label": "Fast to slow",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Martin/Martin-MX-4.json",
+  "id": 1083
+}

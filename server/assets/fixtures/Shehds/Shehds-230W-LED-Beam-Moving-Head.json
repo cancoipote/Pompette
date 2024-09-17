@@ -1,0 +1,483 @@
+{
+  "version": "1.0.0",
+  "label": "LED 230W Beam Moving Head",
+  "manufacturer": "Shehds",
+  "bulb_type": "LED",
+  "bulb_lumens": 20000,
+  "bulb_color_temperature": 7500,
+  "dimension_weight": 12,
+  "dimension_width": 343,
+  "dimension_height": 537,
+  "dimension_depth": 239,
+  "lens_label": "Other",
+  "lens_degree_min": 8,
+  "lens_degree_max": 23,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 260,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan/Tilt speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Strobe from slow to fast",
+          "min": 5,
+          "max": 250
+        },
+        {
+          "label": "Open light",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "Color macro presets",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "White",
+          "min": 5,
+          "max": 13
+        },
+        {
+          "label": "White / Red",
+          "min": 14,
+          "max": 22
+        },
+        {
+          "label": "Red",
+          "min": 23,
+          "max": 31
+        },
+        {
+          "label": "Red / Yellow",
+          "min": 32,
+          "max": 40
+        },
+        {
+          "label": "Yellow",
+          "min": 41,
+          "max": 49
+        },
+        {
+          "label": "Yellow / Green",
+          "min": 50,
+          "max": 58
+        },
+        {
+          "label": "Green",
+          "min": 59,
+          "max": 67
+        },
+        {
+          "label": "Green / Blue",
+          "min": 68,
+          "max": 76
+        },
+        {
+          "label": "Blue / Lemon yellow",
+          "min": 77,
+          "max": 85
+        },
+        {
+          "label": "Lemon yellow",
+          "min": 86,
+          "max": 94
+        },
+        {
+          "label": "Lemon yellow / Sky blue",
+          "min": 95,
+          "max": 103
+        },
+        {
+          "label": "Sky blue",
+          "min": 104,
+          "max": 112
+        },
+        {
+          "label": "Sky blue / Pink",
+          "min": 113,
+          "max": 121
+        },
+        {
+          "label": "Pink",
+          "min": 122,
+          "max": 130
+        },
+        {
+          "label": "White",
+          "min": 131,
+          "max": 139
+        },
+        {
+          "label": "Clockwise from slow to fast",
+          "min": 140,
+          "max": 195
+        },
+        {
+          "label": "Counter-clockwise from slow to fast",
+          "min": 196,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 4,
+      "type_description": "Gobo 1",
+      "capabilities": [
+        {
+          "label": "Solid",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Wave",
+          "min": 8,
+          "max": 17
+        },
+        {
+          "label": "Woven square",
+          "min": 18,
+          "max": 27
+        },
+        {
+          "label": "Circle",
+          "min": 28,
+          "max": 37
+        },
+        {
+          "label": "Darts",
+          "min": 38,
+          "max": 47
+        },
+        {
+          "label": "Circular",
+          "min": 48,
+          "max": 57
+        },
+        {
+          "label": "Weaving circle",
+          "min": 58,
+          "max": 67
+        },
+        {
+          "label": "Snowflake",
+          "min": 68,
+          "max": 77
+        },
+        {
+          "label": "Wave shaking",
+          "min": 78,
+          "max": 87
+        },
+        {
+          "label": "Woven square shaking",
+          "min": 88,
+          "max": 97
+        },
+        {
+          "label": "Circle shaking",
+          "min": 98,
+          "max": 107
+        },
+        {
+          "label": "Darts shaking",
+          "min": 108,
+          "max": 117
+        },
+        {
+          "label": "Circular shaking",
+          "min": 118,
+          "max": 127
+        },
+        {
+          "label": "Weaving circle shaking",
+          "min": 128,
+          "max": 137
+        },
+        {
+          "label": "Snowflake shaking",
+          "min": 138,
+          "max": 147
+        },
+        {
+          "label": "Clockwise from slow to fast",
+          "min": 148,
+          "max": 200
+        },
+        {
+          "label": "Counter-clockwise from slow to fast",
+          "min": 201,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 4,
+      "type_description": "Gobo 2",
+      "capabilities": [
+        {
+          "label": "Solid",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Knot",
+          "min": 8,
+          "max": 17
+        },
+        {
+          "label": "Machete",
+          "min": 18,
+          "max": 27
+        },
+        {
+          "label": "Sunshine",
+          "min": 28,
+          "max": 37
+        },
+        {
+          "label": "Star",
+          "min": 38,
+          "max": 47
+        },
+        {
+          "label": "Bar circle",
+          "min": 48,
+          "max": 57
+        },
+        {
+          "label": "Darts",
+          "min": 58,
+          "max": 67
+        },
+        {
+          "label": "Lollipop",
+          "min": 68,
+          "max": 77
+        },
+        {
+          "label": "Knot shaking",
+          "min": 78,
+          "max": 87
+        },
+        {
+          "label": "Machete shaking",
+          "min": 88,
+          "max": 97
+        },
+        {
+          "label": "Sunshine shaking",
+          "min": 98,
+          "max": 107
+        },
+        {
+          "label": "Star shaking",
+          "min": 108,
+          "max": 117
+        },
+        {
+          "label": "Bar circle shaking",
+          "min": 118,
+          "max": 127
+        },
+        {
+          "label": "Darts shaking",
+          "min": 128,
+          "max": 137
+        },
+        {
+          "label": "Lollipop shaking",
+          "min": 138,
+          "max": 147
+        },
+        {
+          "label": "Forward rotate",
+          "min": 148,
+          "max": 199
+        },
+        {
+          "label": "Reverse rotate",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 4,
+      "type_description": "Gobo 2 rotation",
+      "capabilities": [
+        {
+          "label": "Forward flow",
+          "min": 0,
+          "max": 130
+        },
+        {
+          "label": "Reverse flow",
+          "min": 131,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Insert circular prism",
+          "min": 8,
+          "max": 99
+        },
+        {
+          "label": "Insert bar prism",
+          "min": 100,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 20,
+      "type_description": "Prism rotate",
+      "capabilities": [
+        {
+          "label": "Slow to fast",
+          "min": 0,
+          "max": 129
+        },
+        {
+          "label": "Reverse fast to slow",
+          "min": 130,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Macro function",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Macro gobo and color auto run",
+          "min": 8,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 3,
+      "type_description": "Motor auto",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Macro motor ato run",
+          "min": 8,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 17,
+      "type_description": "Reset",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 249
+        },
+        {
+          "label": "Reset system",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Shehds/Shehds-230W-LED-Beam-Moving-Head.json",
+  "id": 1259
+}

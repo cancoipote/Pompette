@@ -1,0 +1,100 @@
+{
+  "version": "1.0.0",
+  "label": "THA-100F COB",
+  "manufacturer": "Eurolite",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 3200,
+  "dimension_weight": 5,
+  "dimension_width": 305,
+  "dimension_height": 370,
+  "dimension_depth": 387,
+  "lens_label": "Fresnel",
+  "lens_degree_min": 10,
+  "lens_degree_max": 50,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 120,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Strobe-effect with increasing speed",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 3,
+      "type_description": "Dimmer Curve",
+      "capabilities": [
+        {
+          "label": "Inverse square dimmer curve, response characteristics of LED",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Linear dimmer curve, response characteristics of halogen lamp",
+          "min": 16,
+          "max": 45
+        },
+        {
+          "label": "Square dimmer curve, response characteristics of halogen lamp",
+          "min": 46,
+          "max": 75
+        },
+        {
+          "label": "Inverse square dimmer curve, response characteristics of halogen lamp",
+          "min": 76,
+          "max": 105
+        },
+        {
+          "label": "S-shaped dimmer curve, response characteristics of halogen lamp",
+          "min": 106,
+          "max": 135
+        },
+        {
+          "label": "Linear dimmer curve, response characteristics of LED",
+          "min": 136,
+          "max": 165
+        },
+        {
+          "label": "Square dimmer curve, response characteristics of LED",
+          "min": 166,
+          "max": 195
+        },
+        {
+          "label": "Inverse square dimmer curve, response characteristics of LED",
+          "min": 196,
+          "max": 225
+        },
+        {
+          "label": "S-shaped dimmer curve, response characteristics of LED",
+          "min": 226,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-THA-100F-COB.json",
+  "id": 751
+}

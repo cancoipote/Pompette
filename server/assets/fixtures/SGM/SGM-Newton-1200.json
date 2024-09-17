@@ -1,0 +1,194 @@
+{
+  "version": "1.0.0",
+  "label": "Newton 1200",
+  "manufacturer": "SGM",
+  "bulb_type": "HMI 1200W",
+  "bulb_lumens": 110000,
+  "bulb_color_temperature": 6000,
+  "dimension_weight": 4,
+  "dimension_width": 270,
+  "dimension_height": 270,
+  "dimension_depth": 390,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 1500,
+  "technical_dmx_connector": "5-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Strobe - 0.5 fps",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Strobe - 1.42 fps",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Strobe - 1.7 fps",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Strobe - 2.0 fps",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Strobe - 2.42 fps",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Strobe - 2.9 fps",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Strobe - 3.46 fps",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Strobe - 4.15 fps",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Strobe - 4.89 fps",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Strobe - 5.93 fps",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Strobe - 6.91 fps",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Strobe - 8.29 fps",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "Strobe - 9.95 fps",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "Strobe - 11.83 fps",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "Shutter open",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 1,
+      "type_description": "Iris",
+      "capabilities": [
+        {
+          "label": "scale 0% to 100%",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "White | White+Yellow",
+          "min": 0,
+          "max": 35
+        },
+        {
+          "label": "Yellow | Yellow+Magenta",
+          "min": 36,
+          "max": 71
+        },
+        {
+          "label": "Magenta | Mgenta+Cyan",
+          "min": 72,
+          "max": 107
+        },
+        {
+          "label": "Cyan | Cyan+Green",
+          "min": 108,
+          "max": 143
+        },
+        {
+          "label": "Green | Green+Blue",
+          "min": 144,
+          "max": 179
+        },
+        {
+          "label": "Blue | Blue+Red",
+          "min": 180,
+          "max": 215
+        },
+        {
+          "label": "Red | Red + White",
+          "min": 216,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Colour Mode",
+      "capabilities": [
+        {
+          "label": "One Colour",
+          "min": 0,
+          "max": 62
+        },
+        {
+          "label": "Two Colours",
+          "min": 63,
+          "max": 128
+        },
+        {
+          "label": "Adjustable speed Rainbow effect",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/SGM/SGM-Newton-1200.json",
+  "id": 1254
+}

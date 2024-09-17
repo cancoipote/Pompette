@@ -1,0 +1,105 @@
+{
+  "version": "1.0.0",
+  "label": "59 7Q5 RGBW",
+  "manufacturer": "Ledj",
+  "bulb_type": "LED",
+  "bulb_lumens": 1293,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 224,
+  "dimension_height": 202,
+  "dimension_depth": 99,
+  "lens_label": "Other",
+  "lens_degree_min": 25,
+  "lens_degree_max": 25,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 45,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Master Dimmer/Strobe",
+      "capabilities": [
+        {
+          "label": "Master dimmer (0-100%)",
+          "min": 0,
+          "max": 240
+        },
+        {
+          "label": "Strobe",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Colours",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Colour macro",
+          "min": 5,
+          "max": 80
+        },
+        {
+          "label": "Colour change",
+          "min": 81,
+          "max": 150
+        },
+        {
+          "label": "Colour fade",
+          "min": 151,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Ledj/Ledj-59-7Q5-RGBW.json",
+  "id": 965
+}

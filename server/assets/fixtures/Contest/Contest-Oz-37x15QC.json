@@ -1,0 +1,433 @@
+{
+  "version": "1.0.0",
+  "label": "Oz-37x15QC",
+  "manufacturer": "Contest",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 22,
+  "dimension_width": 498,
+  "dimension_height": 594,
+  "dimension_depth": 330,
+  "lens_label": "Other",
+  "lens_degree_min": 16,
+  "lens_degree_max": 56,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 265,
+  "technical_power_consumption": 650,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan movement",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt movement",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Pan/Tilt movement speed",
+      "capabilities": [
+        {
+          "label": "Fast to slow speed settings",
+          "min": 0,
+          "max": 225
+        },
+        {
+          "label": "Black out during movements",
+          "min": 226,
+          "max": 235
+        },
+        {
+          "label": "No function, max speed",
+          "min": 236,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 21,
+      "type_description": "Shutter & Strobe",
+      "capabilities": [
+        {
+          "label": "LEDs off",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "No function, LEDs on",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Slow to fast strobe",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "No function, LEDs on",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Slow to fast pulse effect",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "No function, LEDs on",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Slow to fast random strobe",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "No function, LEDs off",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "All LEDs Red",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "All LEDs Green",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "All LEDs Blue",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "All LEDs White",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Colour macros",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "From red to yellow",
+          "min": 8,
+          "max": 39
+        },
+        {
+          "label": "From yellow to green",
+          "min": 40,
+          "max": 71
+        },
+        {
+          "label": "From green to cyan",
+          "min": 72,
+          "max": 103
+        },
+        {
+          "label": "From cyan to blue",
+          "min": 104,
+          "max": 135
+        },
+        {
+          "label": "From blue to magenta",
+          "min": 136,
+          "max": 167
+        },
+        {
+          "label": "From magenta to red",
+          "min": 168,
+          "max": 199
+        },
+        {
+          "label": "From red to white",
+          "min": 200,
+          "max": 231
+        },
+        {
+          "label": "Slow to fast rainbow effect",
+          "min": 232,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Preset colours",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "White 2700K",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "White 3200K",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "White 4300K",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "White 5600K",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "White 6500K",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "White 8000K",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "Red",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "Green",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "Blue",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "Cold white",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "Warm white",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "Yellow",
+          "min": 60,
+          "max": 64
+        },
+        {
+          "label": "Magenta",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "Cyan",
+          "min": 70,
+          "max": 75
+        },
+        {
+          "label": "Colour palette",
+          "min": 76,
+          "max": 114
+        },
+        {
+          "label": "Red/White",
+          "min": 115,
+          "max": 119
+        },
+        {
+          "label": "Green/White",
+          "min": 120,
+          "max": 124
+        },
+        {
+          "label": "Blue/Red",
+          "min": 125,
+          "max": 129
+        },
+        {
+          "label": "White/Red",
+          "min": 130,
+          "max": 134
+        },
+        {
+          "label": "White/Pink",
+          "min": 135,
+          "max": 139
+        },
+        {
+          "label": "White/Turquoise",
+          "min": 140,
+          "max": 144
+        },
+        {
+          "label": "Light red/White",
+          "min": 145,
+          "max": 149
+        },
+        {
+          "label": "Slow to fast rainbow effect",
+          "min": 150,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 5,
+      "type_description": "Preset colour dimmer",
+      "capabilities": [
+        {
+          "label": "100% - 0%",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 3,
+      "type_description": "Patterns sequencing",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 14
+        },
+        {
+          "label": "Sequences",
+          "min": 15,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 22,
+      "type_description": "Patterns sequencing speed",
+      "capabilities": [
+        {
+          "label": "From fast to slow",
+          "min": 0,
+          "max": 125
+        },
+        {
+          "label": "Stop",
+          "min": 126,
+          "max": 130
+        },
+        {
+          "label": "From slow to fast",
+          "min": 131,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 17,
+      "type_description": "Patterns sequencing fader",
+      "capabilities": [
+        {
+          "label": "Fast to slow fader",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 17,
+      "type_description": "White balance",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 189
+        },
+        {
+          "label": "New white balance",
+          "min": 190,
+          "max": 254
+        },
+        {
+          "label": "Save new balance",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 17,
+      "type_description": "Internal programs and options",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 79
+        },
+        {
+          "label": "Resets",
+          "min": 80,
+          "max": 99
+        },
+        {
+          "label": "Internal program 1-7",
+          "min": 100,
+          "max": 230
+        },
+        {
+          "label": "Music sensitive program",
+          "min": 231,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Contest/Contest-Oz-37x15QC.json",
+  "id": 575
+}

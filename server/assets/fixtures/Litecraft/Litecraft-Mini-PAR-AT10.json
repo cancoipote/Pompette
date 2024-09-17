@@ -1,0 +1,211 @@
+{
+  "version": "1.0.0",
+  "label": "Mini PAR AT10",
+  "manufacturer": "Litecraft",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 145,
+  "dimension_height": 185,
+  "dimension_depth": 250,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 70,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Macro Color",
+      "capabilities": [
+        {
+          "label": "no macro",
+          "min": 0,
+          "max": 13
+        },
+        {
+          "label": "pre-programmed colors",
+          "min": 14,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "no strobe",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Strobe 1",
+          "min": 16,
+          "max": 30
+        },
+        {
+          "label": "Strobe 2",
+          "min": 31,
+          "max": 45
+        },
+        {
+          "label": "Strobe 3",
+          "min": 46,
+          "max": 60
+        },
+        {
+          "label": "Strobe 4",
+          "min": 61,
+          "max": 75
+        },
+        {
+          "label": "Strobe 5",
+          "min": 76,
+          "max": 90
+        },
+        {
+          "label": "Strobe 6",
+          "min": 91,
+          "max": 105
+        },
+        {
+          "label": "Strobe 7",
+          "min": 106,
+          "max": 120
+        },
+        {
+          "label": "Strobe 8",
+          "min": 121,
+          "max": 135
+        },
+        {
+          "label": "Strobe 9",
+          "min": 136,
+          "max": 150
+        },
+        {
+          "label": "Strobe 10",
+          "min": 151,
+          "max": 165
+        },
+        {
+          "label": "Strobe 11",
+          "min": 166,
+          "max": 180
+        },
+        {
+          "label": "Strobe 12",
+          "min": 181,
+          "max": 195
+        },
+        {
+          "label": "Strobe 13",
+          "min": 196,
+          "max": 210
+        },
+        {
+          "label": "Strobe 14",
+          "min": 211,
+          "max": 225
+        },
+        {
+          "label": "Strobe 15",
+          "min": 226,
+          "max": 240
+        },
+        {
+          "label": "Strobe 16",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "no function",
+          "min": 0,
+          "max": 35
+        },
+        {
+          "label": "automatic ramp up (speed Ch 6, color Ch 1-4)",
+          "min": 36,
+          "max": 71
+        },
+        {
+          "label": "automatic ramp down (speed Ch 6, color Ch 1-4)",
+          "min": 72,
+          "max": 107
+        },
+        {
+          "label": "automatic ramp up/down (speed Ch 6, color Ch 1-4)",
+          "min": 108,
+          "max": 143
+        },
+        {
+          "label": "automatic color mix mode",
+          "min": 144,
+          "max": 179
+        },
+        {
+          "label": "random 3-colors (color Ch 1-4)",
+          "min": 180,
+          "max": 215
+        },
+        {
+          "label": "random 7-colors (color Ch 1-4)",
+          "min": 216,
+          "max": 251
+        },
+        {
+          "label": "Audio mode",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Litecraft/Litecraft-Mini-PAR-AT10.json",
+  "id": 1003
+}

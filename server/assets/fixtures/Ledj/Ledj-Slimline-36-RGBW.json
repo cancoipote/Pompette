@@ -1,0 +1,105 @@
+{
+  "version": "1.0.0",
+  "label": "Slimline 36 RGBW",
+  "manufacturer": "Ledj",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 312,
+  "dimension_height": 336,
+  "dimension_depth": 96,
+  "lens_label": "Other",
+  "lens_degree_min": 25,
+  "lens_degree_max": 25,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 120,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 5,
+      "type_description": "Master dimmer 2",
+      "capabilities": [
+        {
+          "label": "Master dimmer (0-100%)",
+          "min": 0,
+          "max": 240
+        },
+        {
+          "label": "Strobe (slow to fast)",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Colour Macro",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Colour macro",
+          "min": 5,
+          "max": 80
+        },
+        {
+          "label": "Colour change",
+          "min": 81,
+          "max": 150
+        },
+        {
+          "label": "Colour fade",
+          "min": 151,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Ledj/Ledj-Slimline-36-RGBW.json",
+  "id": 974
+}

@@ -1,0 +1,1014 @@
+{
+  "version": "1.0.0",
+  "label": "Rush MH3",
+  "manufacturer": "Martin",
+  "bulb_type": "MSD Platinum 5R",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 8000,
+  "dimension_weight": 20,
+  "dimension_width": 418,
+  "dimension_height": 321,
+  "dimension_depth": 489,
+  "lens_label": "Other",
+  "lens_degree_min": 1,
+  "lens_degree_max": 3,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 348,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan-Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Funtions",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 29
+        },
+        {
+          "label": "Dimmer Conventional",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Dimmer Linear",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Pan tilt Fast",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Pan Tilt Normal",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Blackout during pan / tilt",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Disable blackout during pan/tilt",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Color Change",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Disable blackout during color change",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Blackout during globo change",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Disable Blackout during globo change",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Lamp On",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Pan Tilt Reset",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Color Reset",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Gobo Reset",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Shutter/prism/rotating prism reset",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "No function",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Frost/focus/zoom reset",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Reset All",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Blackout during pan/tilt or color/gobo change",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "Disable blackout during pan/tilt or color/gobo change",
+          "min": 220,
+          "max": 229
+        },
+        {
+          "label": "Lamp Off",
+          "min": 230,
+          "max": 239
+        },
+        {
+          "label": "No function",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Pan - Tilt Macros",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Macro 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Macro 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Macro 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Macro 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Macro 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Macro 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Macro 7",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Macro 8",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Macro 9",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Macro 10",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Macro 11",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Macro 12",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Macro 13",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Macro 14",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Macro 15",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Macro 16",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Macro 17",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Macro 18",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Macro 19",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Macro 20",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Macro 21",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Macro 22",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Macro 23",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Macro 24",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Macro 25",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Macro 26",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Macro 27",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Macro 28",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Macro 29",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Macro 30",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Macro 31",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 22,
+      "type_description": "Pan - Tilt Macro Speed Fast-Slow",
+      "capabilities": [
+        {
+          "label": "Pan - Tilt Macro Speed Fast-Slow",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Split Color",
+          "min": 3,
+          "max": 4
+        },
+        {
+          "label": "Red",
+          "min": 5,
+          "max": 6
+        },
+        {
+          "label": "Split Color",
+          "min": 7,
+          "max": 8
+        },
+        {
+          "label": "Yellow",
+          "min": 9,
+          "max": 10
+        },
+        {
+          "label": "Split Color",
+          "min": 11,
+          "max": 12
+        },
+        {
+          "label": "Blue",
+          "min": 13,
+          "max": 14
+        },
+        {
+          "label": "Split Color",
+          "min": 15,
+          "max": 16
+        },
+        {
+          "label": "Blue Green",
+          "min": 17,
+          "max": 18
+        },
+        {
+          "label": "Split Color",
+          "min": 19,
+          "max": 21
+        },
+        {
+          "label": "Green",
+          "min": 22,
+          "max": 23
+        },
+        {
+          "label": "Split Color",
+          "min": 24,
+          "max": 25
+        },
+        {
+          "label": "Light Blue",
+          "min": 26,
+          "max": 27
+        },
+        {
+          "label": "Split Color",
+          "min": 28,
+          "max": 29
+        },
+        {
+          "label": "Light Pink",
+          "min": 30,
+          "max": 31
+        },
+        {
+          "label": "Split Color",
+          "min": 32,
+          "max": 33
+        },
+        {
+          "label": "Yellow Green",
+          "min": 34,
+          "max": 35
+        },
+        {
+          "label": "Split Color",
+          "min": 36,
+          "max": 37
+        },
+        {
+          "label": "Dark Pink",
+          "min": 38,
+          "max": 39
+        },
+        {
+          "label": "Split Color",
+          "min": 40,
+          "max": 42
+        },
+        {
+          "label": "Blue",
+          "min": 43,
+          "max": 44
+        },
+        {
+          "label": "Split Color",
+          "min": 45,
+          "max": 46
+        },
+        {
+          "label": "Light Yellow",
+          "min": 47,
+          "max": 48
+        },
+        {
+          "label": "Split Color",
+          "min": 49,
+          "max": 50
+        },
+        {
+          "label": "Off White",
+          "min": 51,
+          "max": 52
+        },
+        {
+          "label": "Split Color",
+          "min": 53,
+          "max": 54
+        },
+        {
+          "label": "Light Blue",
+          "min": 55,
+          "max": 56
+        },
+        {
+          "label": "Split Color",
+          "min": 57,
+          "max": 58
+        },
+        {
+          "label": "Dark Blue",
+          "min": 59,
+          "max": 60
+        },
+        {
+          "label": "Split color (with open)",
+          "min": 61,
+          "max": 63
+        },
+        {
+          "label": "Color wheel indexing",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Clockwise rotation, fast-slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Counter-clockwise rotation, slow-fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 4,
+      "type_description": "Gobos",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Gobo 1",
+          "min": 4,
+          "max": 6
+        },
+        {
+          "label": "Gobo 2",
+          "min": 7,
+          "max": 9
+        },
+        {
+          "label": "Gobo 3",
+          "min": 10,
+          "max": 12
+        },
+        {
+          "label": "Gobo 4",
+          "min": 13,
+          "max": 15
+        },
+        {
+          "label": "Gobo 5",
+          "min": 16,
+          "max": 18
+        },
+        {
+          "label": "Gobo 6",
+          "min": 19,
+          "max": 21
+        },
+        {
+          "label": "Gobo 7",
+          "min": 22,
+          "max": 24
+        },
+        {
+          "label": "Gobo 8",
+          "min": 25,
+          "max": 27
+        },
+        {
+          "label": "Gobo 9",
+          "min": 28,
+          "max": 30
+        },
+        {
+          "label": "Gobo 10",
+          "min": 31,
+          "max": 33
+        },
+        {
+          "label": "Gobo 11",
+          "min": 34,
+          "max": 36
+        },
+        {
+          "label": "Gobo 12",
+          "min": 37,
+          "max": 39
+        },
+        {
+          "label": "Gobo 13",
+          "min": 40,
+          "max": 42
+        },
+        {
+          "label": "Gobo 14",
+          "min": 43,
+          "max": 45
+        },
+        {
+          "label": "Gobo 15",
+          "min": 46,
+          "max": 48
+        },
+        {
+          "label": "Gobo 16",
+          "min": 49,
+          "max": 51
+        },
+        {
+          "label": "Gobo 17",
+          "min": 52,
+          "max": 55
+        },
+        {
+          "label": "Open gobo shake",
+          "min": 56,
+          "max": 59
+        },
+        {
+          "label": "Gobo Shake 1",
+          "min": 60,
+          "max": 63
+        },
+        {
+          "label": "Gobo Shake 2",
+          "min": 64,
+          "max": 67
+        },
+        {
+          "label": "Gobo Shake 3",
+          "min": 68,
+          "max": 71
+        },
+        {
+          "label": "Gobo Shake 4",
+          "min": 72,
+          "max": 75
+        },
+        {
+          "label": "Gobo Shake 5",
+          "min": 76,
+          "max": 79
+        },
+        {
+          "label": "Gobo Shake 6",
+          "min": 80,
+          "max": 83
+        },
+        {
+          "label": "Gobo Shake 7",
+          "min": 84,
+          "max": 87
+        },
+        {
+          "label": "Gobo Shake 8",
+          "min": 88,
+          "max": 91
+        },
+        {
+          "label": "Gobo Shake 9",
+          "min": 92,
+          "max": 95
+        },
+        {
+          "label": "Gobo Shake 10",
+          "min": 96,
+          "max": 99
+        },
+        {
+          "label": "Gobo Shake 11",
+          "min": 100,
+          "max": 103
+        },
+        {
+          "label": "Gobo Shake 12",
+          "min": 104,
+          "max": 107
+        },
+        {
+          "label": "Gobo Shake 13",
+          "min": 108,
+          "max": 111
+        },
+        {
+          "label": "Gobo Shake 14",
+          "min": 112,
+          "max": 115
+        },
+        {
+          "label": "Gobo Shake 15",
+          "min": 116,
+          "max": 119
+        },
+        {
+          "label": "Gobo Shake 16",
+          "min": 120,
+          "max": 123
+        },
+        {
+          "label": "Gobo Shake 17",
+          "min": 124,
+          "max": 127
+        },
+        {
+          "label": "Wheel rotation, counter-clockwise, fast-slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Wheel rotation, clockwise, slow-fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 20,
+      "type_description": "Prism Effects",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Prism Effect",
+          "min": 8,
+          "max": 127
+        },
+        {
+          "label": "Prism Rotation Effects 1",
+          "min": 128,
+          "max": 132
+        },
+        {
+          "label": "Prism Rotation Effects 2",
+          "min": 133,
+          "max": 137
+        },
+        {
+          "label": "Prism Rotation Effects 3",
+          "min": 138,
+          "max": 141
+        },
+        {
+          "label": "Prism Rotation Effects 4",
+          "min": 142,
+          "max": 146
+        },
+        {
+          "label": "Prism Rotation Effects 5",
+          "min": 147,
+          "max": 150
+        },
+        {
+          "label": "Prism Rotation Effects 6",
+          "min": 151,
+          "max": 155
+        },
+        {
+          "label": "Prism Rotation Effects 7",
+          "min": 156,
+          "max": 159
+        },
+        {
+          "label": "Prism Rotation Effects 8",
+          "min": 160,
+          "max": 164
+        },
+        {
+          "label": "Prism Rotation Effects 9",
+          "min": 165,
+          "max": 168
+        },
+        {
+          "label": "Prism Rotation Effects 10",
+          "min": 169,
+          "max": 173
+        },
+        {
+          "label": "Prism Rotation Effects 11",
+          "min": 174,
+          "max": 177
+        },
+        {
+          "label": "Prism Rotation Effects 12",
+          "min": 178,
+          "max": 182
+        },
+        {
+          "label": "Prism rotation effects 13",
+          "min": 183,
+          "max": 187
+        },
+        {
+          "label": "Prism rotation effects 14",
+          "min": 188,
+          "max": 191
+        },
+        {
+          "label": "Prism rotation effects 15",
+          "min": 192,
+          "max": 196
+        },
+        {
+          "label": "Prism rotation effects 16",
+          "min": 197,
+          "max": 200
+        },
+        {
+          "label": "Prism rotation effects 17",
+          "min": 201,
+          "max": 205
+        },
+        {
+          "label": "Prism rotation effects 18",
+          "min": 206,
+          "max": 209
+        },
+        {
+          "label": "Prism rotation effects 19",
+          "min": 210,
+          "max": 214
+        },
+        {
+          "label": "Prism rotation effects 20",
+          "min": 215,
+          "max": 218
+        },
+        {
+          "label": "Prism rotation effects 21",
+          "min": 219,
+          "max": 223
+        },
+        {
+          "label": "Prism rotation effects 22",
+          "min": 224,
+          "max": 227
+        },
+        {
+          "label": "Prism rotation effects 23",
+          "min": 228,
+          "max": 232
+        },
+        {
+          "label": "Prism rotation effects 24",
+          "min": 233,
+          "max": 236
+        },
+        {
+          "label": "Prism rotation effects 25",
+          "min": 237,
+          "max": 241
+        },
+        {
+          "label": "Prism rotation effects 26",
+          "min": 242,
+          "max": 246
+        },
+        {
+          "label": "Prism rotation effects 27",
+          "min": 247,
+          "max": 250
+        },
+        {
+          "label": "Prism rotation effects 28",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 20,
+      "type_description": "Prism Rotation Course",
+      "capabilities": [
+        {
+          "label": "Indexing",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Prism Rotation Clockwise Fast slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Prism Rotation Counter Clockwise",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 20,
+      "type_description": "Prism Rotation Fine Control",
+      "capabilities": [
+        {
+          "label": "Prism Rotation Fine Control",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Focus Near - Far",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 3,
+      "type_description": "Frost",
+      "capabilities": [
+        {
+          "label": "Frost",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Open",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Shutter strobe effect, slow-fast",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "Fast close, slow open",
+          "min": 132,
+          "max": 167
+        },
+        {
+          "label": "Slow close, fast open",
+          "min": 168,
+          "max": 203
+        },
+        {
+          "label": "Pulse open and close",
+          "min": 204,
+          "max": 239
+        },
+        {
+          "label": "Random shutter",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Dimmer Coarse",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Dimmer Fine",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Martin/Martin-Rush-MH3.json",
+  "id": 1095
+}

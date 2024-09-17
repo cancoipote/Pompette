@@ -1,0 +1,191 @@
+{
+  "version": "1.0.0",
+  "label": "SlimPAR Pro W USB",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 98,
+  "dimension_height": 290,
+  "dimension_depth": 253,
+  "lens_label": "Other",
+  "lens_degree_min": 33,
+  "lens_degree_max": 33,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 59,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 5,
+      "type_description": "Warm White",
+      "capabilities": [
+        {
+          "label": "Warm White intensity (0 - 100%)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 5,
+      "type_description": "Cool White",
+      "capabilities": [
+        {
+          "label": "Cool White (0 - 100%)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Color macro",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Color macros",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Strobe, Slow to Fast",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Automatic/Sound-Active Programs",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Pulse strobe (0 - 100%) When CH 2 - 4 Active",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Pulse strobe (100 - 0%) When CH 2 - 4 Active",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Pulse strobe (0 - 100 - 0%) When CH 2 - 4 Active",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Auto fade transition",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Auto snap transition (3-color)",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Auto snap transition (7-color)",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Sound-active mode (3 colors)",
+          "min": 224,
+          "max": 249
+        },
+        {
+          "label": "Sound-active mode (7 colors)",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Auto Speed/Sound Sensitivity (CH 7 Value Dependent)",
+      "capabilities": [
+        {
+          "label": "See User Manual",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 22,
+      "type_description": "Dimmer Speed Mode",
+      "capabilities": [
+        {
+          "label": "Dimmer speed set from display",
+          "min": 0,
+          "max": 51
+        },
+        {
+          "label": "Dimmer speed mode off",
+          "min": 52,
+          "max": 101
+        },
+        {
+          "label": "Dimmer speed mode 1 (fast)",
+          "min": 102,
+          "max": 152
+        },
+        {
+          "label": "Dimmer speed mode 2 (medium)",
+          "min": 153,
+          "max": 203
+        },
+        {
+          "label": "Dimmer speed mode 3 (slow)",
+          "min": 204,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-SlimPAR-Pro-W-USB.json",
+  "id": 539
+}

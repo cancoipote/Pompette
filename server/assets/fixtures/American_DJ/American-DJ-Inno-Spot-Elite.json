@@ -1,0 +1,438 @@
+{
+  "version": "1.0.0",
+  "label": "Inno Spot Elite",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 3903,
+  "bulb_color_temperature": 8000,
+  "dimension_weight": 13,
+  "dimension_width": 328,
+  "dimension_height": 526,
+  "dimension_depth": 333,
+  "lens_label": "Other",
+  "lens_degree_min": 19,
+  "lens_degree_max": 19,
+  "focus_type": "Fixed",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 197,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Colors",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Red",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Orange",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Yellow",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Green",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Blue",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Magenta",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Light blue",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Color mixing",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "CW rotation fast - slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "CCW rotation fast - slow",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 4,
+      "type_description": "Gobo Wheel",
+      "capabilities": [
+        {
+          "label": "Spot",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Gobo 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Gobo 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Gobo 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Gobo 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Gobo 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Gobo 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Gobo 7",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Gobo 1 shake",
+          "min": 64,
+          "max": 73
+        },
+        {
+          "label": "Gobo 2 shake",
+          "min": 74,
+          "max": 82
+        },
+        {
+          "label": "Gobo 3 shake",
+          "min": 83,
+          "max": 91
+        },
+        {
+          "label": "Gobo 4 shake",
+          "min": 92,
+          "max": 100
+        },
+        {
+          "label": "Gobo 5 shake",
+          "min": 101,
+          "max": 109
+        },
+        {
+          "label": "Gobo 6 shake",
+          "min": 110,
+          "max": 118
+        },
+        {
+          "label": "Gobo 7 shake",
+          "min": 119,
+          "max": 127
+        },
+        {
+          "label": "Wheel rotation fast-slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Wheel rotation slow-fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 4,
+      "type_description": "Gobo Rotation",
+      "capabilities": [
+        {
+          "label": "Counter-clockwise index 0° - 360°",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Counter-clockwise fast - slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Clockwise slow - fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "No prism",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Prism effect",
+          "min": 8,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 20,
+      "type_description": "Prism Rotation",
+      "capabilities": [
+        {
+          "label": "Counter-clockwise index 0° - 360°",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Counter-clockwise fast - slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Counter-clockwise slow - fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 1,
+      "type_description": "Iris",
+      "capabilities": [
+        {
+          "label": "Max. diameter - min. diameter",
+          "min": 0,
+          "max": 191
+        },
+        {
+          "label": "Pulse close fast - slow",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Pulse open slow - fast",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 21,
+      "type_description": "Shutter/Strobe",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Open",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Strobing slow - fast",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "Open",
+          "min": 132,
+          "max": 139
+        },
+        {
+          "label": "Slow open - fast close",
+          "min": 140,
+          "max": 181
+        },
+        {
+          "label": "Open",
+          "min": 182,
+          "max": 189
+        },
+        {
+          "label": "Slow close - fast open",
+          "min": 190,
+          "max": 231
+        },
+        {
+          "label": "Open",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Random strobe",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Movement speed",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 17,
+      "type_description": "Blackout/Reset",
+      "capabilities": [
+        {
+          "label": "Nothing",
+          "min": 0,
+          "max": 69
+        },
+        {
+          "label": "Blackout w/ pan/tilt movement",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "No blackout w/ pan/tilt movement",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Blackout w/ color change",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "No blackout w/ color change",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Blackout w/ gobo change",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "No blackout w/ gobo change",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Nothing",
+          "min": 130,
+          "max": 199
+        },
+        {
+          "label": "Reset all",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Nothing",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Inno-Spot-Elite.json",
+  "id": 91
+}

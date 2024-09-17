@@ -1,0 +1,510 @@
+{
+  "version": "1.0.0",
+  "label": "Phantom 50",
+  "manufacturer": "Showtec",
+  "bulb_type": "LED",
+  "bulb_lumens": 18500,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 5,
+  "dimension_width": 204,
+  "dimension_height": 340,
+  "dimension_depth": 210,
+  "lens_label": "",
+  "lens_degree_min": 17,
+  "lens_degree_max": 17,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 50,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Colourwheel",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 6
+        },
+        {
+          "label": "Yellow",
+          "min": 7,
+          "max": 13
+        },
+        {
+          "label": "Magenta",
+          "min": 14,
+          "max": 20
+        },
+        {
+          "label": "Green",
+          "min": 21,
+          "max": 27
+        },
+        {
+          "label": "Red",
+          "min": 28,
+          "max": 34
+        },
+        {
+          "label": "Cyan",
+          "min": 35,
+          "max": 41
+        },
+        {
+          "label": "Light green",
+          "min": 42,
+          "max": 48
+        },
+        {
+          "label": "Orange",
+          "min": 49,
+          "max": 55
+        },
+        {
+          "label": "Blue",
+          "min": 56,
+          "max": 64
+        },
+        {
+          "label": "Yellow/White",
+          "min": 65,
+          "max": 71
+        },
+        {
+          "label": "Magenta/Yellow",
+          "min": 72,
+          "max": 78
+        },
+        {
+          "label": "Green/Magenta",
+          "min": 79,
+          "max": 85
+        },
+        {
+          "label": "Red/Green",
+          "min": 86,
+          "max": 92
+        },
+        {
+          "label": "Cyan/Red",
+          "min": 93,
+          "max": 99
+        },
+        {
+          "label": "Light green/Cyan",
+          "min": 100,
+          "max": 106
+        },
+        {
+          "label": "Orange/Light green",
+          "min": 107,
+          "max": 113
+        },
+        {
+          "label": "Blue/Orange",
+          "min": 114,
+          "max": 120
+        },
+        {
+          "label": "White/Blue",
+          "min": 121,
+          "max": 127
+        },
+        {
+          "label": "Rainbow CW",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Rainbow CCW",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Shutter/Strobe",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Shutter open",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "Strobe (slow -> fast)",
+          "min": 8,
+          "max": 215
+        },
+        {
+          "label": "Shutter open",
+          "min": 216,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Dimmer intensity",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 4,
+      "type_description": "Gobowheel",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Gobo 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Gobo 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Gobo 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Gobo 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Gobo 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Gobo 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Gobo 7",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Gobo 7 with Shake",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Gobo 6 with Shake",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Gobo 5 with Shake",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Gobo 4 with Shake",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Gobo 3 with Shake",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Gobo 2 with Shake",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Gobo 1 with Shake",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Open",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Rotate wheel CW",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Rotate wheel CCW",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Gobo Rotation",
+      "capabilities": [
+        {
+          "label": "No Rotation",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "CW Slow -> Fast",
+          "min": 8,
+          "max": 119
+        },
+        {
+          "label": "CCW Slow -> Fast",
+          "min": 120,
+          "max": 231
+        },
+        {
+          "label": "Gobo Bounce",
+          "min": 232,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "No Prism",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "3-Facet Prism",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 1,
+      "type_description": "Control",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Blackout during Pan/Tilt",
+          "min": 8,
+          "max": 27
+        },
+        {
+          "label": "Blackout during Gobowheel movement",
+          "min": 28,
+          "max": 47
+        },
+        {
+          "label": "Disabled blackout during Pan/Tilt/Gobowheel",
+          "min": 48,
+          "max": 67
+        },
+        {
+          "label": "Blackout during Colourwheel movement",
+          "min": 68,
+          "max": 87
+        },
+        {
+          "label": "Disabled blackout during Pan/Tilt/Colorwheel",
+          "min": 88,
+          "max": 107
+        },
+        {
+          "label": "Disabled blackout during Gobowheel/Colorwheel",
+          "min": 108,
+          "max": 127
+        },
+        {
+          "label": "Disabled blackout during Pan/Tilt/Gobo-/Colorwheel",
+          "min": 128,
+          "max": 147
+        },
+        {
+          "label": "Reset Pan after 5 sec.",
+          "min": 148,
+          "max": 157
+        },
+        {
+          "label": "Reset Tilt after 5 sec.",
+          "min": 158,
+          "max": 167
+        },
+        {
+          "label": "Reset Colorwheel after 5 sec.",
+          "min": 168,
+          "max": 177
+        },
+        {
+          "label": "Reset Gobowheel after 5 sec.",
+          "min": 178,
+          "max": 187
+        },
+        {
+          "label": "Reset Prism after 5 sec.",
+          "min": 188,
+          "max": 197
+        },
+        {
+          "label": "Reset all channels after 5 sec.",
+          "min": 198,
+          "max": 207
+        },
+        {
+          "label": "No function",
+          "min": 208,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 1,
+      "type_description": "Built-In Programs",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Auto Program 1",
+          "min": 8,
+          "max": 23
+        },
+        {
+          "label": "Auto Program 2",
+          "min": 24,
+          "max": 39
+        },
+        {
+          "label": "Auto Program 3",
+          "min": 40,
+          "max": 55
+        },
+        {
+          "label": "Auto Program 4",
+          "min": 56,
+          "max": 71
+        },
+        {
+          "label": "Auto Program 5",
+          "min": 72,
+          "max": 87
+        },
+        {
+          "label": "Auto Program 6",
+          "min": 88,
+          "max": 103
+        },
+        {
+          "label": "Auto Program 7",
+          "min": 104,
+          "max": 119
+        },
+        {
+          "label": "Auto Program 8",
+          "min": 120,
+          "max": 135
+        },
+        {
+          "label": "Sound Control 1",
+          "min": 136,
+          "max": 151
+        },
+        {
+          "label": "Sound Control 2",
+          "min": 152,
+          "max": 167
+        },
+        {
+          "label": "Sound Control 3",
+          "min": 168,
+          "max": 183
+        },
+        {
+          "label": "Sound Control 4",
+          "min": 184,
+          "max": 199
+        },
+        {
+          "label": "Sound Control 5",
+          "min": 200,
+          "max": 215
+        },
+        {
+          "label": "Sound Control 6",
+          "min": 216,
+          "max": 231
+        },
+        {
+          "label": "Sound Control 7",
+          "min": 232,
+          "max": 247
+        },
+        {
+          "label": "Sound Control 8",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Showtec/Showtec-Phantom-50.json",
+  "id": 1318
+}

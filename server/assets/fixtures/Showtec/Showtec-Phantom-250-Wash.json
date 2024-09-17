@@ -1,0 +1,358 @@
+{
+  "version": "1.0.0",
+  "label": "Phantom 250 Wash",
+  "manufacturer": "Showtec",
+  "bulb_type": "MSD 250W",
+  "bulb_lumens": 8000,
+  "bulb_color_temperature": 5500,
+  "dimension_weight": 19,
+  "dimension_width": 420,
+  "dimension_height": 420,
+  "dimension_depth": 410,
+  "lens_label": "Fresnel",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 500,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Pan 16bit",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt 16bit",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Cyan",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Magenta",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Yellow",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "CMY Macro",
+      "capabilities": [
+        {
+          "label": "Preset Colors",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 22,
+      "type_description": "CMY Speed",
+      "capabilities": [
+        {
+          "label": "Gradual adjustment color change speed (fast to slow)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 21,
+      "type_description": "Shutter/Strobe",
+      "capabilities": [
+        {
+          "label": "Shutter closed / Blackout",
+          "min": 0,
+          "max": 14
+        },
+        {
+          "label": "Dimmer 0-100%",
+          "min": 15,
+          "max": 85
+        },
+        {
+          "label": "Shutter open",
+          "min": 86,
+          "max": 99
+        },
+        {
+          "label": "Strobe, slow-fast",
+          "min": 100,
+          "max": 140
+        },
+        {
+          "label": "Shutter open",
+          "min": 141,
+          "max": 151
+        },
+        {
+          "label": "Pulse, slow-fast",
+          "min": 152,
+          "max": 195
+        },
+        {
+          "label": "Shutter open",
+          "min": 196,
+          "max": 203
+        },
+        {
+          "label": "Random strobe, slow-fast",
+          "min": 204,
+          "max": 244
+        },
+        {
+          "label": "Shutter open",
+          "min": 245,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 3,
+      "type_description": "Lamp Effect",
+      "capabilities": [
+        {
+          "label": "no function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "moving blackout",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "no function",
+          "min": 20,
+          "max": 99
+        },
+        {
+          "label": "reset",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "no function",
+          "min": 110,
+          "max": 129
+        },
+        {
+          "label": "Auto Program 1",
+          "min": 130,
+          "max": 145
+        },
+        {
+          "label": "Auto Program 2",
+          "min": 146,
+          "max": 161
+        },
+        {
+          "label": "Auto Program 3",
+          "min": 162,
+          "max": 177
+        },
+        {
+          "label": "Auto Program 4",
+          "min": 178,
+          "max": 193
+        },
+        {
+          "label": "sound control 1",
+          "min": 194,
+          "max": 209
+        },
+        {
+          "label": "sound control 2",
+          "min": 210,
+          "max": 225
+        },
+        {
+          "label": "sound control 3",
+          "min": 226,
+          "max": 241
+        },
+        {
+          "label": "sound contorl 4",
+          "min": 242,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 3,
+      "type_description": "Effect",
+      "capabilities": [
+        {
+          "label": "no function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "effect1",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "effect2",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "effect3",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "effect4",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "effect5",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "effect6",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "effect7",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "effect8",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "effect9",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "effect10",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "effect11",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "effect12",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "effect13",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "effect14",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "effect15",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "effect16",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "effect17",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "effect18",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "effect19",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "effect20",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "effect21",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "effect22",
+          "min": 220,
+          "max": 229
+        },
+        {
+          "label": "effect23",
+          "min": 230,
+          "max": 239
+        },
+        {
+          "label": "effect24",
+          "min": 240,
+          "max": 249
+        },
+        {
+          "label": "effect25",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Showtec/Showtec-Phantom-250-Wash.json",
+  "id": 1316
+}

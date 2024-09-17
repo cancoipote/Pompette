@@ -1,0 +1,147 @@
+{
+  "version": "1.0.0",
+  "label": "Lucid 1.2",
+  "manufacturer": "beamZ",
+  "bulb_type": "COB LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 240,
+  "dimension_height": 108,
+  "dimension_depth": 150,
+  "lens_label": "Other",
+  "lens_degree_min": 42,
+  "lens_degree_max": 42,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 24,
+  "technical_dmx_connector": "5-pin",
+  "type": 13,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Strobe (with Sound Active)",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Slow to Fast",
+          "min": 10,
+          "max": 119
+        },
+        {
+          "label": "Strobe sound program",
+          "min": 120,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "LED 1 Red",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "LED 1 Green",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "LED 1 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "LED 2 Red",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "LED 2 Green",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "LED 2 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 17,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Auto program",
+          "min": 10,
+          "max": 119
+        },
+        {
+          "label": "Sound program",
+          "min": 120,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 22,
+      "type_description": "Speed",
+      "capabilities": [
+        {
+          "label": "Speed for sound program, From slow to fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/beamZ/beamZ-Lucid-1.2.json",
+  "id": 203
+}

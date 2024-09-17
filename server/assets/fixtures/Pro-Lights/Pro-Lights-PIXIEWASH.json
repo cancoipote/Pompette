@@ -1,0 +1,301 @@
+{
+  "version": "1.0.0",
+  "label": "PIXIEWASH",
+  "manufacturer": "Pro-Lights",
+  "bulb_type": "LED",
+  "bulb_lumens": 705,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 7,
+  "dimension_width": 253,
+  "dimension_height": 192,
+  "dimension_depth": 365,
+  "lens_label": "Other",
+  "lens_degree_min": 6,
+  "lens_degree_max": 50,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 255,
+  "technical_power_consumption": 113,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Special Function",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 49
+        },
+        {
+          "label": "Pan & Tilt Reset (Hold 3 second)",
+          "min": 50,
+          "max": 99
+        },
+        {
+          "label": "No function",
+          "min": 100,
+          "max": 149
+        },
+        {
+          "label": "Zoom Reset (Hold 3 seconds)",
+          "min": 150,
+          "max": 199
+        },
+        {
+          "label": "No function",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Shutter Closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "No function (Shutter Open)",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe Effect (Slow to Fast)",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "No function (Shutter Open)",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse - Effect in sequence",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "No function (Shutter Open)",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random Strobe Effect (Slow to Fast)",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "No function (Shutter Open)",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 3,
+      "type_description": "Color Function",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "CTC function on channel 14 (2000K to 8000K)",
+          "min": 20,
+          "max": 39
+        },
+        {
+          "label": "Forward Spin on channel 14 (slow to fast)",
+          "min": 40,
+          "max": 59
+        },
+        {
+          "label": "Reverse Spin on channel 14 (slow to fast)",
+          "min": 60,
+          "max": 79
+        },
+        {
+          "label": "Continuos color on channel 14",
+          "min": 80,
+          "max": 99
+        },
+        {
+          "label": "TBD",
+          "min": 100,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Color control",
+      "capabilities": [
+        {
+          "label": "Black",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Red",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "label": "Green",
+          "min": 2,
+          "max": 2
+        },
+        {
+          "label": "Blue",
+          "min": 3,
+          "max": 3
+        },
+        {
+          "label": "White",
+          "min": 4,
+          "max": 4
+        },
+        {
+          "label": "Red=0;Green->Up;Blue=Full;White=0",
+          "min": 5,
+          "max": 46
+        },
+        {
+          "label": "Red=0;Green=Full;Blue->Down;White=0",
+          "min": 47,
+          "max": 88
+        },
+        {
+          "label": "Red->Up;Green=Full;Blue=0;White=0",
+          "min": 89,
+          "max": 130
+        },
+        {
+          "label": "Red=Full;Green->Down;Blue=0;White=0",
+          "min": 131,
+          "max": 172
+        },
+        {
+          "label": "Red=Full;Green=0;Blue->Up;White=0",
+          "min": 173,
+          "max": 214
+        },
+        {
+          "label": "Red->Down;Green=0;Blue=Full;White=0",
+          "min": 215,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 3,
+      "type_description": "Dimmer Mode",
+      "capabilities": [
+        {
+          "label": "Preset Dimmer Speed from Display Menù",
+          "min": 0,
+          "max": 51
+        },
+        {
+          "label": "Dimmer Speed Mode Off",
+          "min": 52,
+          "max": 101
+        },
+        {
+          "label": "Dimmer Speed Mode 1 (Fast Speed)",
+          "min": 102,
+          "max": 152
+        },
+        {
+          "label": "Dimmer Speed Mode 2 (Middle Speed)",
+          "min": 153,
+          "max": 203
+        },
+        {
+          "label": "Dimmer Speed Mode 3 (Slow Speed)",
+          "min": 204,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Pro-Lights/Pro-Lights-PIXIEWASH.json",
+  "id": 1144
+}

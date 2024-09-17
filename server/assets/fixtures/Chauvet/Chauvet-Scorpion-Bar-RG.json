@@ -1,0 +1,505 @@
+{
+  "version": "1.0.0",
+  "label": "Scorpion Bar RG",
+  "manufacturer": "Chauvet",
+  "bulb_type": "Laser",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 5,
+  "dimension_width": 537,
+  "dimension_height": 268,
+  "dimension_depth": 170,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Mirror",
+  "focus_pan_max": 26,
+  "focus_tilt_max": 26,
+  "technical_power_consumption": 53,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Auto Program",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Auto show 1",
+          "min": 16,
+          "max": 35
+        },
+        {
+          "label": "Auto show 2",
+          "min": 36,
+          "max": 55
+        },
+        {
+          "label": "Auto show 3",
+          "min": 56,
+          "max": 75
+        },
+        {
+          "label": "Auto show 4",
+          "min": 76,
+          "max": 95
+        },
+        {
+          "label": "Auto show 5",
+          "min": 96,
+          "max": 115
+        },
+        {
+          "label": "Auto show 6",
+          "min": 116,
+          "max": 135
+        },
+        {
+          "label": "Auto show 7",
+          "min": 136,
+          "max": 155
+        },
+        {
+          "label": "Auto show 8",
+          "min": 156,
+          "max": 175
+        },
+        {
+          "label": "Auto show 9",
+          "min": 176,
+          "max": 195
+        },
+        {
+          "label": "Auto show 10",
+          "min": 196,
+          "max": 215
+        },
+        {
+          "label": "Auto show 11",
+          "min": 216,
+          "max": 235
+        },
+        {
+          "label": "Auto show 12",
+          "min": 236,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Program Speed",
+      "capabilities": [
+        {
+          "label": "Slow to fast",
+          "min": 0,
+          "max": 200
+        },
+        {
+          "label": "Sound-active sensitivity",
+          "min": 201,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 3,
+      "type_description": "Laser Mode",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "R - - -",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "- G - -",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "R G - -",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "- - R -",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "R - R -",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "- G R -",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "R G R -",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "- - - G",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "R - - G",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "- G - G",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "R G - G",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "- - R G",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "R - R G",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "- G R G",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "R G R G",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Pattern",
+      "capabilities": [
+        {
+          "label": "Circle",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Dashed Circle",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Triangle",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Square",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Dashed Square",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Pulse Square",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Cross",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Star",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "\"L\"",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Hourglass",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Spiral",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Half Circles",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Comma",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Parens",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Bjarken Rune",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Zig Zag",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Angle",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Double Angle (M)",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Square Wave",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Line",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Dashed Line",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Line 2",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "2 Lines",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Crossed Lines",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Offset Lines (Pong)",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Four Corners",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Offeset Boxes",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Four Boxes",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Small Circle",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Dotted Line",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Dotted Half Circle",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "2 Dots (Top/Bottom)",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 1,
+      "type_description": "Zoom",
+      "capabilities": [
+        {
+          "label": "Indexing (100%-5%)",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Zoom out (slow to fast)",
+          "min": 128,
+          "max": 169
+        },
+        {
+          "label": "Zoom in (slow-to fast)",
+          "min": 170,
+          "max": 209
+        },
+        {
+          "label": "In and out (slow to fast)",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 23,
+      "type_description": "Rolling X-axis",
+      "capabilities": [
+        {
+          "label": "Fixed position (0-359°)",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Clockwise rolling (slow to fast)",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Counter-clockwise rolling (slow to fast)",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 23,
+      "type_description": "Rolling Y-axis",
+      "capabilities": [
+        {
+          "label": "Fixed position (0-359°)",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Clockwise rolling (slow to fast)",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Counter-clockwise rolling (slow to fast)",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 23,
+      "type_description": "Rolling Z-axis",
+      "capabilities": [
+        {
+          "label": "Fixed position (0-359°)",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Clockwise rolling (slow to fast)",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Counter-clockwise rolling (slow to fast)",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 19,
+      "type_description": "Moving X-axis",
+      "capabilities": [
+        {
+          "label": "Fixed position (128 horizontal points)",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Clockwise movement (slow to fast)",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Counter-clockwise movement (slow to fast)",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 19,
+      "type_description": "Moving Y-axis",
+      "capabilities": [
+        {
+          "label": "Fixed position (128 vertical points)",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Clockwise movement (slow to fast)",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Counter-clockwise movement (slow to fast)",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-Scorpion-Bar-RG.json",
+  "id": 522
+}

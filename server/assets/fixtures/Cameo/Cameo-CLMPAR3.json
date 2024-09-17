@@ -1,0 +1,935 @@
+{
+  "version": "1.0.0",
+  "label": "CLMPAR3",
+  "manufacturer": "Cameo",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 97,
+  "dimension_width": 1030,
+  "dimension_height": 100,
+  "dimension_depth": 290,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 210,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Color Macro (Mode 9)",
+      "capabilities": [
+        {
+          "label": "Color Mixing channel 4-7",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Red",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Green",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Blue",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "White",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Red Green",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Green Blue",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Blue White",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Red White",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Green White",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Red Blue",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Red green Blue",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Green Blue whie",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Red Green White",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Red Blue white",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Red Green Blue White",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Dream Effect",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Meteor Effect",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Color Fade Effect",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Color Change Effect",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Flow1 Effect",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Flow2 Effect",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Flow3 Effect",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Flow4 Effect",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Flow5 Effect",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Flow6 Effect",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Flow7 Effect",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Flow8 Effect",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Flow9 Effect",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Music control",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 5,
+      "type_description": "Dimmer Light1 external",
+      "capabilities": [
+        {
+          "label": "Light1 Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Light1 On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 5,
+      "type_description": "Dimmer Light2 external",
+      "capabilities": [
+        {
+          "label": "Light2 Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Light2 On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Color Macro (Mode 21)",
+      "capabilities": [
+        {
+          "label": "Color Mixing channel 4-19",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Red",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Green",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Blue",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "White",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Red Green",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Green Blue",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Blue White",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Red White",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Green White",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Red Blue",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Red green Blue",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Green Blue whie",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Red Green White",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Red Blue white",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Red Green Blue White",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Dream Effect",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Meteor Effect",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Color Fade Effect",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Color Change Effect",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Flow1 Effect",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Flow2 Effect",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Flow3 Effect",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Flow4 Effect",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Flow5 Effect",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Flow6 Effect",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Flow7 Effect",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Flow8 Effect",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Flow9 Effect",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Music control",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 5,
+      "type_description": "Function channel 6 mode 6",
+      "capabilities": [
+        {
+          "label": "Pres-set colour In channel 1-4",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Music control (microphone sensivity 0-100%)",
+          "min": 1,
+          "max": 128
+        },
+        {
+          "label": "Strob",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Red Light 1+2",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Red Light 3+4",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Green Light 1+2",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Green Light 3+4",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Blue Light 1+2",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Blue Light 3+4",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "White Light 1+2",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "White Light 3+4",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Master dimmer Mode 9",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Master dimmer Mode 21",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Red Light 1",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Red Light 2",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Red Light 3",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Red Light 4",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Green Light 1",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Green Light 2",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Green Light 3",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "Green Light 4",
+      "capabilities": []
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "Blue Light 1",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 0,
+      "type_description": "Blue Light 2",
+      "capabilities": []
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "Blue Light 3",
+      "capabilities": []
+    },
+    {
+      "index": 32,
+      "type": 0,
+      "type_description": "Blue Light 4",
+      "capabilities": []
+    },
+    {
+      "index": 33,
+      "type": 0,
+      "type_description": "White Light 1",
+      "capabilities": []
+    },
+    {
+      "index": 34,
+      "type": 0,
+      "type_description": "White Light 2",
+      "capabilities": []
+    },
+    {
+      "index": 35,
+      "type": 0,
+      "type_description": "White Light 3",
+      "capabilities": []
+    },
+    {
+      "index": 36,
+      "type": 0,
+      "type_description": "White Light 4",
+      "capabilities": []
+    },
+    {
+      "index": 37,
+      "type": 0,
+      "type_description": "Color Macro 1",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 17
+        },
+        {
+          "label": "Red",
+          "min": 18,
+          "max": 33
+        },
+        {
+          "label": "Green",
+          "min": 34,
+          "max": 50
+        },
+        {
+          "label": "Blue",
+          "min": 51,
+          "max": 67
+        },
+        {
+          "label": "White",
+          "min": 68,
+          "max": 84
+        },
+        {
+          "label": "Yellow",
+          "min": 85,
+          "max": 101
+        },
+        {
+          "label": "Cyan bright",
+          "min": 102,
+          "max": 118
+        },
+        {
+          "label": "Violet bright",
+          "min": 119,
+          "max": 135
+        },
+        {
+          "label": "Pink bright",
+          "min": 136,
+          "max": 152
+        },
+        {
+          "label": "Bright green",
+          "min": 153,
+          "max": 169
+        },
+        {
+          "label": "Magenta",
+          "min": 170,
+          "max": 186
+        },
+        {
+          "label": "Warm white",
+          "min": 187,
+          "max": 203
+        },
+        {
+          "label": "Cold white",
+          "min": 204,
+          "max": 220
+        },
+        {
+          "label": "Yellow bright",
+          "min": 221,
+          "max": 237
+        },
+        {
+          "label": "Magenta bright",
+          "min": 238,
+          "max": 254
+        },
+        {
+          "label": "White",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "type": 0,
+      "type_description": "Color Macro 2",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 17
+        },
+        {
+          "label": "Red",
+          "min": 18,
+          "max": 33
+        },
+        {
+          "label": "Green",
+          "min": 34,
+          "max": 50
+        },
+        {
+          "label": "Blue",
+          "min": 51,
+          "max": 67
+        },
+        {
+          "label": "White",
+          "min": 68,
+          "max": 84
+        },
+        {
+          "label": "Yellow",
+          "min": 85,
+          "max": 101
+        },
+        {
+          "label": "Cyan bright",
+          "min": 102,
+          "max": 118
+        },
+        {
+          "label": "Violet bright",
+          "min": 119,
+          "max": 135
+        },
+        {
+          "label": "Pink bright",
+          "min": 136,
+          "max": 152
+        },
+        {
+          "label": "Bright green",
+          "min": 153,
+          "max": 169
+        },
+        {
+          "label": "Magenta",
+          "min": 170,
+          "max": 186
+        },
+        {
+          "label": "Warm white",
+          "min": 187,
+          "max": 203
+        },
+        {
+          "label": "Cold white",
+          "min": 204,
+          "max": 220
+        },
+        {
+          "label": "Yellow bright",
+          "min": 221,
+          "max": 237
+        },
+        {
+          "label": "Magenta bright",
+          "min": 238,
+          "max": 254
+        },
+        {
+          "label": "White",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "type": 0,
+      "type_description": "Color Macro 3",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 17
+        },
+        {
+          "label": "Red",
+          "min": 18,
+          "max": 33
+        },
+        {
+          "label": "Green",
+          "min": 34,
+          "max": 50
+        },
+        {
+          "label": "Blue",
+          "min": 51,
+          "max": 67
+        },
+        {
+          "label": "White",
+          "min": 68,
+          "max": 84
+        },
+        {
+          "label": "Yellow",
+          "min": 85,
+          "max": 101
+        },
+        {
+          "label": "Cyan bright",
+          "min": 102,
+          "max": 118
+        },
+        {
+          "label": "Violet bright",
+          "min": 119,
+          "max": 135
+        },
+        {
+          "label": "Pink bright",
+          "min": 136,
+          "max": 152
+        },
+        {
+          "label": "Bright green",
+          "min": 153,
+          "max": 169
+        },
+        {
+          "label": "Magenta",
+          "min": 170,
+          "max": 186
+        },
+        {
+          "label": "Warm white",
+          "min": 187,
+          "max": 203
+        },
+        {
+          "label": "Cold white",
+          "min": 204,
+          "max": 220
+        },
+        {
+          "label": "Yellow bright",
+          "min": 221,
+          "max": 237
+        },
+        {
+          "label": "Magenta bright",
+          "min": 238,
+          "max": 254
+        },
+        {
+          "label": "White",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "type": 0,
+      "type_description": "Color Macro 4",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 17
+        },
+        {
+          "label": "Red",
+          "min": 18,
+          "max": 33
+        },
+        {
+          "label": "Green",
+          "min": 34,
+          "max": 50
+        },
+        {
+          "label": "Blue",
+          "min": 51,
+          "max": 67
+        },
+        {
+          "label": "White",
+          "min": 68,
+          "max": 84
+        },
+        {
+          "label": "Yellow",
+          "min": 85,
+          "max": 101
+        },
+        {
+          "label": "Cyan bright",
+          "min": 102,
+          "max": 118
+        },
+        {
+          "label": "Violet bright",
+          "min": 119,
+          "max": 135
+        },
+        {
+          "label": "Pink bright",
+          "min": 136,
+          "max": 152
+        },
+        {
+          "label": "Bright green",
+          "min": 153,
+          "max": 169
+        },
+        {
+          "label": "Magenta",
+          "min": 170,
+          "max": 186
+        },
+        {
+          "label": "Warm white",
+          "min": 187,
+          "max": 203
+        },
+        {
+          "label": "Cold white",
+          "min": 204,
+          "max": 220
+        },
+        {
+          "label": "Yellow bright",
+          "min": 221,
+          "max": 237
+        },
+        {
+          "label": "Magenta bright",
+          "min": 238,
+          "max": 254
+        },
+        {
+          "label": "White",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Cameo/Cameo-CLMPAR3.json",
+  "id": 284
+}

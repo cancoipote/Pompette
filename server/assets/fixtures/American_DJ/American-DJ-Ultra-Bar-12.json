@@ -1,0 +1,710 @@
+{
+  "version": "1.0.0",
+  "label": "Ultra Bar 12",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 1060,
+  "dimension_height": 90,
+  "dimension_depth": 63,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 43,
+  "technical_dmx_connector": "3-pin",
+  "type": 13,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 21,
+      "type_description": "Strobing",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Strobing (slow to fast)",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Color macros",
+      "capabilities": [
+        {
+          "label": "Bastard amber",
+          "min": 0,
+          "max": 6
+        },
+        {
+          "label": "Medium amber",
+          "min": 7,
+          "max": 13
+        },
+        {
+          "label": "Pale amber gold",
+          "min": 14,
+          "max": 20
+        },
+        {
+          "label": "Gallo gold",
+          "min": 21,
+          "max": 27
+        },
+        {
+          "label": "Golden amber",
+          "min": 28,
+          "max": 34
+        },
+        {
+          "label": "Light red",
+          "min": 35,
+          "max": 42
+        },
+        {
+          "label": "Medium red",
+          "min": 43,
+          "max": 49
+        },
+        {
+          "label": "Medium pink",
+          "min": 50,
+          "max": 56
+        },
+        {
+          "label": "Broadway pink",
+          "min": 57,
+          "max": 63
+        },
+        {
+          "label": "Follies pink",
+          "min": 64,
+          "max": 70
+        },
+        {
+          "label": "Light lavender",
+          "min": 71,
+          "max": 77
+        },
+        {
+          "label": "Special lavender",
+          "min": 78,
+          "max": 84
+        },
+        {
+          "label": "Lavender",
+          "min": 85,
+          "max": 91
+        },
+        {
+          "label": "Indigo",
+          "min": 92,
+          "max": 98
+        },
+        {
+          "label": "Hemsley blue",
+          "min": 99,
+          "max": 105
+        },
+        {
+          "label": "Tipton blue",
+          "min": 106,
+          "max": 112
+        },
+        {
+          "label": "Light steel blue",
+          "min": 113,
+          "max": 119
+        },
+        {
+          "label": "Light sky blue",
+          "min": 120,
+          "max": 126
+        },
+        {
+          "label": "Sky blue",
+          "min": 127,
+          "max": 133
+        },
+        {
+          "label": "Brilliant blue",
+          "min": 134,
+          "max": 140
+        },
+        {
+          "label": "Light green blue",
+          "min": 141,
+          "max": 147
+        },
+        {
+          "label": "Bright blue",
+          "min": 148,
+          "max": 154
+        },
+        {
+          "label": "Primary blue",
+          "min": 155,
+          "max": 161
+        },
+        {
+          "label": "Congo blue",
+          "min": 162,
+          "max": 168
+        },
+        {
+          "label": "Pale yellow green",
+          "min": 169,
+          "max": 175
+        },
+        {
+          "label": "Moss green",
+          "min": 176,
+          "max": 182
+        },
+        {
+          "label": "Primary green",
+          "min": 183,
+          "max": 189
+        },
+        {
+          "label": "Double CTB",
+          "min": 190,
+          "max": 196
+        },
+        {
+          "label": "Full CTB",
+          "min": 197,
+          "max": 203
+        },
+        {
+          "label": "Half CTB",
+          "min": 204,
+          "max": 210
+        },
+        {
+          "label": "Dark blue",
+          "min": 211,
+          "max": 217
+        },
+        {
+          "label": "White",
+          "min": 218,
+          "max": 224
+        },
+        {
+          "label": "Full red",
+          "min": 225,
+          "max": 231
+        },
+        {
+          "label": "Full green",
+          "min": 232,
+          "max": 238
+        },
+        {
+          "label": "Full blue",
+          "min": 239,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Dimming/Color macro/Program mode/Sound active",
+      "capabilities": [
+        {
+          "label": "Dimmer mode",
+          "min": 0,
+          "max": 51
+        },
+        {
+          "label": "Color macro mode",
+          "min": 52,
+          "max": 102
+        },
+        {
+          "label": "Program mode",
+          "min": 103,
+          "max": 204
+        },
+        {
+          "label": "Sound active mode",
+          "min": 205,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Strobing/Program speed/Sound sensitivity",
+      "capabilities": [
+        {
+          "label": "Strobing / Program speed / Sound sensitivity (min to max)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Programs",
+      "capabilities": [
+        {
+          "label": "Program 1",
+          "min": 0,
+          "max": 24
+        },
+        {
+          "label": "Program 2",
+          "min": 25,
+          "max": 35
+        },
+        {
+          "label": "Program 3",
+          "min": 36,
+          "max": 46
+        },
+        {
+          "label": "Program 4",
+          "min": 47,
+          "max": 57
+        },
+        {
+          "label": "Program 5",
+          "min": 58,
+          "max": 68
+        },
+        {
+          "label": "Program 6",
+          "min": 69,
+          "max": 79
+        },
+        {
+          "label": "Program 7",
+          "min": 80,
+          "max": 90
+        },
+        {
+          "label": "Program 8",
+          "min": 91,
+          "max": 101
+        },
+        {
+          "label": "Program 9",
+          "min": 102,
+          "max": 112
+        },
+        {
+          "label": "Program 10",
+          "min": 113,
+          "max": 123
+        },
+        {
+          "label": "Program 11",
+          "min": 124,
+          "max": 134
+        },
+        {
+          "label": "Program 12",
+          "min": 135,
+          "max": 145
+        },
+        {
+          "label": "Program 13",
+          "min": 146,
+          "max": 156
+        },
+        {
+          "label": "Program 14",
+          "min": 157,
+          "max": 167
+        },
+        {
+          "label": "Program 15",
+          "min": 168,
+          "max": 178
+        },
+        {
+          "label": "Program 16",
+          "min": 179,
+          "max": 189
+        },
+        {
+          "label": "Program 17",
+          "min": 190,
+          "max": 200
+        },
+        {
+          "label": "Program 18",
+          "min": 201,
+          "max": 211
+        },
+        {
+          "label": "Program 19",
+          "min": 212,
+          "max": 222
+        },
+        {
+          "label": "Program 20",
+          "min": 223,
+          "max": 233
+        },
+        {
+          "label": "Program 21",
+          "min": 234,
+          "max": 244
+        },
+        {
+          "label": "Program 22",
+          "min": 245,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Programs 2",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Program 1",
+          "min": 16,
+          "max": 25
+        },
+        {
+          "label": "Program 2",
+          "min": 26,
+          "max": 35
+        },
+        {
+          "label": "Program 3",
+          "min": 36,
+          "max": 45
+        },
+        {
+          "label": "Program 4",
+          "min": 46,
+          "max": 55
+        },
+        {
+          "label": "Program 5",
+          "min": 56,
+          "max": 65
+        },
+        {
+          "label": "Program 6",
+          "min": 66,
+          "max": 75
+        },
+        {
+          "label": "Program 7",
+          "min": 76,
+          "max": 85
+        },
+        {
+          "label": "Program 8",
+          "min": 86,
+          "max": 95
+        },
+        {
+          "label": "Program 9",
+          "min": 96,
+          "max": 105
+        },
+        {
+          "label": "Program 10",
+          "min": 106,
+          "max": 115
+        },
+        {
+          "label": "Program 11",
+          "min": 116,
+          "max": 125
+        },
+        {
+          "label": "Program 12",
+          "min": 126,
+          "max": 135
+        },
+        {
+          "label": "Program 13",
+          "min": 136,
+          "max": 145
+        },
+        {
+          "label": "Program 14",
+          "min": 146,
+          "max": 155
+        },
+        {
+          "label": "Program 15",
+          "min": 156,
+          "max": 165
+        },
+        {
+          "label": "Program 16",
+          "min": 166,
+          "max": 175
+        },
+        {
+          "label": "Program 17",
+          "min": 176,
+          "max": 185
+        },
+        {
+          "label": "Program 18",
+          "min": 186,
+          "max": 195
+        },
+        {
+          "label": "Program 19",
+          "min": 196,
+          "max": 205
+        },
+        {
+          "label": "Program 20",
+          "min": 206,
+          "max": 215
+        },
+        {
+          "label": "Program 21",
+          "min": 216,
+          "max": 225
+        },
+        {
+          "label": "Program 22",
+          "min": 226,
+          "max": 235
+        },
+        {
+          "label": "Auto run",
+          "min": 236,
+          "max": 245
+        },
+        {
+          "label": "Sound active",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Red 1-4",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Green 1-4",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Blue 1-4",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Red 5-8",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Green 5-8",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Blue 5-8",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Red 9-12",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Green 9-12",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Blue 9-12",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 3,
+      "type_description": "Program speed / Sound sensitive",
+      "capabilities": [
+        {
+          "label": "Program speed / Sound sensitive (min to max)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Red 1-2",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Green 1-2",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Blue 1-2",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Red 3-4",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Green 3-4",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Blue 3-4",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Red 5-6",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Green 5-6",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "Blue 5-6",
+      "capabilities": []
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "Red 7-8",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 0,
+      "type_description": "Green 7-8",
+      "capabilities": []
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "Blue 7-8",
+      "capabilities": []
+    },
+    {
+      "index": 32,
+      "type": 0,
+      "type_description": "Red 9-10",
+      "capabilities": []
+    },
+    {
+      "index": 33,
+      "type": 0,
+      "type_description": "Green 9-10",
+      "capabilities": []
+    },
+    {
+      "index": 34,
+      "type": 0,
+      "type_description": "Blue 9-10",
+      "capabilities": []
+    },
+    {
+      "index": 35,
+      "type": 0,
+      "type_description": "Red 11-12",
+      "capabilities": []
+    },
+    {
+      "index": 36,
+      "type": 0,
+      "type_description": "Green 11-12",
+      "capabilities": []
+    },
+    {
+      "index": 37,
+      "type": 0,
+      "type_description": "Blue 11-12",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Ultra-Bar-12.json",
+  "id": 150
+}

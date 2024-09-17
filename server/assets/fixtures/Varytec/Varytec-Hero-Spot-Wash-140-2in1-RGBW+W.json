@@ -1,0 +1,803 @@
+{
+  "version": "1.0.0",
+  "label": "Hero Spot Wash 140 2in1 RGBW+W",
+  "manufacturer": "Varytec",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 8,
+  "dimension_width": 255,
+  "dimension_height": 187,
+  "dimension_depth": 380,
+  "lens_label": "Other",
+  "lens_degree_min": 18,
+  "lens_degree_max": 18,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 190,
+  "technical_power_consumption": 170,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan/Tilt speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Spot: Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Spot: Stroboscope",
+      "capabilities": [
+        {
+          "label": "Spot: Stroboscope open",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Spot: Stroboscope, increasing speed",
+          "min": 10,
+          "max": 250
+        },
+        {
+          "label": "Spot: Stroboscope open",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Color wheel",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "White, red",
+          "min": 5,
+          "max": 13
+        },
+        {
+          "label": "Red",
+          "min": 14,
+          "max": 22
+        },
+        {
+          "label": "Red, orange",
+          "min": 23,
+          "max": 31
+        },
+        {
+          "label": "Orange",
+          "min": 32,
+          "max": 40
+        },
+        {
+          "label": "Orange, green",
+          "min": 41,
+          "max": 49
+        },
+        {
+          "label": "Green",
+          "min": 50,
+          "max": 58
+        },
+        {
+          "label": "Green, blue",
+          "min": 59,
+          "max": 67
+        },
+        {
+          "label": "Blue",
+          "min": 68,
+          "max": 76
+        },
+        {
+          "label": "Blue, yellow",
+          "min": 77,
+          "max": 85
+        },
+        {
+          "label": "Yellow",
+          "min": 86,
+          "max": 94
+        },
+        {
+          "label": "Yellow, light blue",
+          "min": 95,
+          "max": 103
+        },
+        {
+          "label": "Light blue",
+          "min": 104,
+          "max": 112
+        },
+        {
+          "label": "Light blue, purple",
+          "min": 113,
+          "max": 121
+        },
+        {
+          "label": "Purple",
+          "min": 122,
+          "max": 130
+        },
+        {
+          "label": "White",
+          "min": 131,
+          "max": 139
+        },
+        {
+          "label": "Counter-clockwise rotation, speed decreasing",
+          "min": 140,
+          "max": 195
+        },
+        {
+          "label": "Rotation stop",
+          "min": 196,
+          "max": 199
+        },
+        {
+          "label": "Clockwise rotation, speed increasing",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 4,
+      "type_description": "Static gobo",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Gobo 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Gobo 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Gobo 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Gobo 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Gobo 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Gobo 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Gobo 7",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Gobo 8",
+          "min": 64,
+          "max": 77
+        },
+        {
+          "label": "Gobo 1 shake, increasing speed",
+          "min": 78,
+          "max": 85
+        },
+        {
+          "label": "Gobo 2 shake, increasing speed",
+          "min": 86,
+          "max": 93
+        },
+        {
+          "label": "Gobo 3 shake, increasing speed",
+          "min": 94,
+          "max": 101
+        },
+        {
+          "label": "Gobo 4 shake, increasing speed",
+          "min": 102,
+          "max": 109
+        },
+        {
+          "label": "Gobo 5 shake, increasing speed",
+          "min": 110,
+          "max": 117
+        },
+        {
+          "label": "Gobo 6 shake, increasing speed",
+          "min": 118,
+          "max": 125
+        },
+        {
+          "label": "Gobo 7 shake, increasing speed",
+          "min": 126,
+          "max": 133
+        },
+        {
+          "label": "Gobo 8 shake, increasing speed",
+          "min": 134,
+          "max": 147
+        },
+        {
+          "label": "Clockwise rotation, speed decreasing",
+          "min": 148,
+          "max": 199
+        },
+        {
+          "label": "Rotation stop",
+          "min": 200,
+          "max": 203
+        },
+        {
+          "label": "Counter-clockwise rotation, speed increasing",
+          "min": 204,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 4,
+      "type_description": "Gobo wheel",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Gobo 1",
+          "min": 8,
+          "max": 17
+        },
+        {
+          "label": "Gobo 2",
+          "min": 18,
+          "max": 27
+        },
+        {
+          "label": "Gobo 3",
+          "min": 28,
+          "max": 37
+        },
+        {
+          "label": "Gobo 4",
+          "min": 38,
+          "max": 47
+        },
+        {
+          "label": "Gobo 5",
+          "min": 48,
+          "max": 57
+        },
+        {
+          "label": "Gobo 6",
+          "min": 58,
+          "max": 67
+        },
+        {
+          "label": "Gobo 7",
+          "min": 68,
+          "max": 77
+        },
+        {
+          "label": "Gobo 1 Shake",
+          "min": 78,
+          "max": 87
+        },
+        {
+          "label": "Gobo 2 Shake",
+          "min": 88,
+          "max": 97
+        },
+        {
+          "label": "Gobo 3 Shake",
+          "min": 98,
+          "max": 107
+        },
+        {
+          "label": "Gobo 4 Shake",
+          "min": 108,
+          "max": 117
+        },
+        {
+          "label": "Gobo 5 Shake",
+          "min": 118,
+          "max": 127
+        },
+        {
+          "label": "Gobo 6 Shake",
+          "min": 128,
+          "max": 137
+        },
+        {
+          "label": "Gobo 7 Shake",
+          "min": 138,
+          "max": 147
+        },
+        {
+          "label": "Clockwise rotation, speed decreasing",
+          "min": 148,
+          "max": 199
+        },
+        {
+          "label": "Rotation stop",
+          "min": 200,
+          "max": 203
+        },
+        {
+          "label": "Counter-clockwise rotation, speed increasing",
+          "min": 204,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 4,
+      "type_description": "Gobo rotation",
+      "capabilities": [
+        {
+          "label": "Rotation stop",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Gobo 2: Clockwise rotation, speed increasing",
+          "min": 8,
+          "max": 129
+        },
+        {
+          "label": "Rotation stop",
+          "min": 130,
+          "max": 133
+        },
+        {
+          "label": "Gobo 2: Counter-clockwise rotation, speed decreasing",
+          "min": 134,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "White (open)",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Prism",
+          "min": 8,
+          "max": 130
+        },
+        {
+          "label": "Prism: Clockwise rotation, speed increasing",
+          "min": 131,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Wash: Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 21,
+      "type_description": "Wash: Stroboscope",
+      "capabilities": [
+        {
+          "label": "Wash: Stroboscope open",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Wash: Stroboscope, increasing speed",
+          "min": 10,
+          "max": 250
+        },
+        {
+          "label": "Wash: Stroboscope open",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 5,
+      "type_description": "Colour temperature",
+      "capabilities": [
+        {
+          "label": "Colour temperature",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Color macro",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Red",
+          "min": 11,
+          "max": 20
+        },
+        {
+          "label": "Green",
+          "min": 21,
+          "max": 30
+        },
+        {
+          "label": "Blue",
+          "min": 31,
+          "max": 40
+        },
+        {
+          "label": "White",
+          "min": 41,
+          "max": 50
+        },
+        {
+          "label": "Red, White",
+          "min": 51,
+          "max": 60
+        },
+        {
+          "label": "Green, White",
+          "min": 61,
+          "max": 70
+        },
+        {
+          "label": "Blue, White",
+          "min": 71,
+          "max": 80
+        },
+        {
+          "label": "Red, Green",
+          "min": 81,
+          "max": 90
+        },
+        {
+          "label": "Green, Blue",
+          "min": 91,
+          "max": 100
+        },
+        {
+          "label": "Red, Blue",
+          "min": 101,
+          "max": 110
+        },
+        {
+          "label": "Red, green, white",
+          "min": 111,
+          "max": 120
+        },
+        {
+          "label": "Green, blue, white",
+          "min": 121,
+          "max": 130
+        },
+        {
+          "label": "Red, blue, white",
+          "min": 131,
+          "max": 140
+        },
+        {
+          "label": "Red, green, blue, white",
+          "min": 141,
+          "max": 150
+        },
+        {
+          "label": "Colour change, increasing speed",
+          "min": 151,
+          "max": 200
+        },
+        {
+          "label": "Colour transition, increasing speed",
+          "min": 201,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Colour Sequences",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 24
+        },
+        {
+          "label": "Automatic colour sequence 1",
+          "min": 25,
+          "max": 50
+        },
+        {
+          "label": "Automatic colour sequence 2",
+          "min": 51,
+          "max": 75
+        },
+        {
+          "label": "Automatic colour sequence 3",
+          "min": 76,
+          "max": 100
+        },
+        {
+          "label": "Automatic colour sequence 4",
+          "min": 101,
+          "max": 125
+        },
+        {
+          "label": "Automatic colour sequence 5",
+          "min": 126,
+          "max": 150
+        },
+        {
+          "label": "Automatic colour sequence 6",
+          "min": 151,
+          "max": 175
+        },
+        {
+          "label": "Automatic colour sequence 7",
+          "min": 176,
+          "max": 200
+        },
+        {
+          "label": "Automatic colour sequence, gobo (sound control, from sound control to high microphone sensitivity)",
+          "min": 201,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "type": 3,
+      "type_description": "Automatic Shows & Reset",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "preprogrammed automatic show 1",
+          "min": 11,
+          "max": 20
+        },
+        {
+          "label": "preprogrammed automatic show 2",
+          "min": 21,
+          "max": 30
+        },
+        {
+          "label": "preprogrammed automatic show 3",
+          "min": 31,
+          "max": 40
+        },
+        {
+          "label": "preprogrammed automatic show 4",
+          "min": 41,
+          "max": 50
+        },
+        {
+          "label": "preprogrammed automatic show 5",
+          "min": 51,
+          "max": 60
+        },
+        {
+          "label": "preprogrammed automatic show 6",
+          "min": 61,
+          "max": 70
+        },
+        {
+          "label": "preprogrammed automatic show 7",
+          "min": 71,
+          "max": 80
+        },
+        {
+          "label": "preprogrammed automatic show 8",
+          "min": 81,
+          "max": 90
+        },
+        {
+          "label": "Sound control, from sound control off to high microphone sensitivity",
+          "min": 91,
+          "max": 230
+        },
+        {
+          "label": "Reset after 3 seconds",
+          "min": 231,
+          "max": 240
+        },
+        {
+          "label": "No function",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "type": 3,
+      "type_description": "Automatic Shows",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "preprogrammed automatic show 1",
+          "min": 11,
+          "max": 20
+        },
+        {
+          "label": "preprogrammed automatic show 2",
+          "min": 21,
+          "max": 30
+        },
+        {
+          "label": "preprogrammed automatic show 3",
+          "min": 31,
+          "max": 40
+        },
+        {
+          "label": "preprogrammed automatic show 4",
+          "min": 41,
+          "max": 50
+        },
+        {
+          "label": "preprogrammed automatic show 5",
+          "min": 51,
+          "max": 60
+        },
+        {
+          "label": "preprogrammed automatic show 6",
+          "min": 61,
+          "max": 70
+        },
+        {
+          "label": "preprogrammed automatic show 7",
+          "min": 71,
+          "max": 80
+        },
+        {
+          "label": "preprogrammed automatic show 8",
+          "min": 81,
+          "max": 90
+        },
+        {
+          "label": "Sound control, from sound control off to high microphone sensitivity",
+          "min": 91,
+          "max": 230
+        },
+        {
+          "label": "No function",
+          "min": 231,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "type": 17,
+      "type_description": "Reset",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 229
+        },
+        {
+          "label": "Reset after 3 seconds",
+          "min": 230,
+          "max": 240
+        },
+        {
+          "label": "No function",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Varytec/Varytec-Hero-Spot-Wash-140-2in1-RGBW+W.json",
+  "id": 1500
+}

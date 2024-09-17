@@ -1,0 +1,165 @@
+{
+  "version": "1.0.0",
+  "label": "Tiger Scan HMI 1200",
+  "manufacturer": "Clay Paky",
+  "bulb_type": "HMI 1200W",
+  "bulb_lumens": 49000,
+  "bulb_color_temperature": 6000,
+  "dimension_weight": 35,
+  "dimension_width": 1230,
+  "dimension_height": 445,
+  "dimension_depth": 435,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Mirror",
+  "focus_pan_max": 150,
+  "focus_tilt_max": 110,
+  "technical_power_consumption": 1300,
+  "technical_dmx_connector": "5-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 4,
+      "type_description": "Gobo Rotation",
+      "capabilities": [
+        {
+          "label": "Rotation [0-540°]",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Left Gobo Rotation [Fast-Slow]",
+          "min": 128,
+          "max": 190
+        },
+        {
+          "label": "Stop",
+          "min": 191,
+          "max": 192
+        },
+        {
+          "label": "Right Gobo Rotation [Slow-Fast]",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Color Wheel",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Red",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Yellow",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Violet",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Green",
+          "min": 64,
+          "max": 76
+        },
+        {
+          "label": "Orange",
+          "min": 77,
+          "max": 95
+        },
+        {
+          "label": "Blue",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Pink",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Rainbow Rotation [0-300 rpm]",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 4,
+      "type_description": "Gobo Selection",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 51
+        },
+        {
+          "label": "Gobo 1",
+          "min": 52,
+          "max": 102
+        },
+        {
+          "label": "Gobo 2",
+          "min": 103,
+          "max": 153
+        },
+        {
+          "label": "Gobo 3",
+          "min": 154,
+          "max": 204
+        },
+        {
+          "label": "Gobo 4",
+          "min": 205,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 21,
+      "type_description": "Dimmer / Strobe",
+      "capabilities": [
+        {
+          "label": "Dimmer[min-max]",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Strobe [1-7 flashes/sec]",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Clay_Paky/Clay-Paky-Tiger-Scan-HMI-1200.json",
+  "id": 379
+}

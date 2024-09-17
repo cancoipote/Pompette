@@ -1,0 +1,536 @@
+{
+  "version": "1.0.0",
+  "label": "MAC 101",
+  "manufacturer": "Martin",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 2800,
+  "dimension_weight": 3,
+  "dimension_width": 241,
+  "dimension_height": 304,
+  "dimension_depth": 241,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 123,
+  "technical_dmx_connector": "5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Shutter open",
+          "min": 20,
+          "max": 49
+        },
+        {
+          "label": "Strobe 1 (Fast -> Slow)",
+          "min": 50,
+          "max": 64
+        },
+        {
+          "label": "Shutter open",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "Strobe 2: opening pulse (Fast -> Slow)",
+          "min": 70,
+          "max": 84
+        },
+        {
+          "label": "Shutter open",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "Strobe 3: closing pulse (Fast -> Slow)",
+          "min": 90,
+          "max": 104
+        },
+        {
+          "label": "Shutter open",
+          "min": 105,
+          "max": 109
+        },
+        {
+          "label": "Strobe 4: random strobe (Fast -> Slow)",
+          "min": 110,
+          "max": 124
+        },
+        {
+          "label": "Shutter open",
+          "min": 125,
+          "max": 129
+        },
+        {
+          "label": "Strobe 5: random opening pulse (Fast -> Slow)",
+          "min": 130,
+          "max": 144
+        },
+        {
+          "label": "Shutter open",
+          "min": 145,
+          "max": 149
+        },
+        {
+          "label": "Strobe 6: random closing pulse (fast -> Slow)",
+          "min": 150,
+          "max": 164
+        },
+        {
+          "label": "Shutter open",
+          "min": 165,
+          "max": 169
+        },
+        {
+          "label": "Strobe 7: burst pulse (Fast -> Slow)",
+          "min": 170,
+          "max": 184
+        },
+        {
+          "label": "Shutter open",
+          "min": 185,
+          "max": 189
+        },
+        {
+          "label": "Strobe 8: random burst pulse (Fast -> Slow)",
+          "min": 190,
+          "max": 204
+        },
+        {
+          "label": "Shutter open",
+          "min": 205,
+          "max": 209
+        },
+        {
+          "label": "Strobe 9: sine wave (Fast -> Slow)",
+          "min": 210,
+          "max": 224
+        },
+        {
+          "label": "Shutter open",
+          "min": 225,
+          "max": 229
+        },
+        {
+          "label": "Strobe 10: burst (Fast -> Slow)",
+          "min": 230,
+          "max": 244
+        },
+        {
+          "label": "Shutter open",
+          "min": 245,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 17,
+      "type_description": "Fixture Control",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Reset entire fixture",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "No function",
+          "min": 15,
+          "max": 39
+        },
+        {
+          "label": "PTSP = NORM",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "PTSP = FAST",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "PTSP = SLOW",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "No function",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "Fan mode FULL",
+          "min": 60,
+          "max": 64
+        },
+        {
+          "label": "No function",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "Fan mode Regulated",
+          "min": 70,
+          "max": 74
+        },
+        {
+          "label": "No function",
+          "min": 75,
+          "max": 89
+        },
+        {
+          "label": "RGB control mode (calibrated RGB)",
+          "min": 90,
+          "max": 94
+        },
+        {
+          "label": "No function",
+          "min": 95,
+          "max": 99
+        },
+        {
+          "label": "RAW control mode (uncalibrated RGB)",
+          "min": 100,
+          "max": 104
+        },
+        {
+          "label": "No function",
+          "min": 105,
+          "max": 109
+        },
+        {
+          "label": "Fast dimming, speed of changes unrestricted",
+          "min": 110,
+          "max": 114
+        },
+        {
+          "label": "No function",
+          "min": 115,
+          "max": 119
+        },
+        {
+          "label": "Smooth dimming, speed of changes restricted slightly",
+          "min": 120,
+          "max": 124
+        },
+        {
+          "label": "No function",
+          "min": 125,
+          "max": 249
+        },
+        {
+          "label": "Illuminate display",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Color Wheel Effect",
+      "capabilities": [
+        {
+          "label": "Open, RGB Colour Mixing Enabled if the fixture is set to RAW or RGB modes",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Moroccan pink",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "Pink",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "Special rose pink",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "Follies pink",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "Fuchsia pink",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "Surprise pink",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "Congo blue",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "Tokyo blue",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "Deep blue",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "Just blue",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "Medium blue",
+          "min": 60,
+          "max": 64
+        },
+        {
+          "label": "Double CT blue",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "Slate blue",
+          "min": 70,
+          "max": 74
+        },
+        {
+          "label": "Full CT blue",
+          "min": 75,
+          "max": 79
+        },
+        {
+          "label": "Half CT blue",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "Steel blue",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "Lighter blue",
+          "min": 90,
+          "max": 94
+        },
+        {
+          "label": "Light blue",
+          "min": 95,
+          "max": 99
+        },
+        {
+          "label": "Medium blue green",
+          "min": 100,
+          "max": 104
+        },
+        {
+          "label": "Dark green",
+          "min": 105,
+          "max": 109
+        },
+        {
+          "label": "Primary green",
+          "min": 110,
+          "max": 114
+        },
+        {
+          "label": "Moss green",
+          "min": 115,
+          "max": 119
+        },
+        {
+          "label": "Fern green",
+          "min": 120,
+          "max": 124
+        },
+        {
+          "label": "JAS green",
+          "min": 125,
+          "max": 129
+        },
+        {
+          "label": "Lime green",
+          "min": 130,
+          "max": 134
+        },
+        {
+          "label": "Spring yellow",
+          "min": 135,
+          "max": 139
+        },
+        {
+          "label": "Deep amber",
+          "min": 140,
+          "max": 144
+        },
+        {
+          "label": "Chrome orange",
+          "min": 145,
+          "max": 149
+        },
+        {
+          "label": "Orange",
+          "min": 150,
+          "max": 154
+        },
+        {
+          "label": "Gold amber",
+          "min": 155,
+          "max": 159
+        },
+        {
+          "label": "Millennium gold",
+          "min": 160,
+          "max": 164
+        },
+        {
+          "label": "Deep golden amber",
+          "min": 165,
+          "max": 169
+        },
+        {
+          "label": "Flame red",
+          "min": 170,
+          "max": 174
+        },
+        {
+          "label": "Open",
+          "min": 175,
+          "max": 179
+        },
+        {
+          "label": "Rotation clockwise (Fast -> Slow)",
+          "min": 180,
+          "max": 201
+        },
+        {
+          "label": "Rotation stop",
+          "min": 202,
+          "max": 207
+        },
+        {
+          "label": "Rotation counter-clockwise (Slow -> Fast)",
+          "min": 208,
+          "max": 229
+        },
+        {
+          "label": "Open",
+          "min": 230,
+          "max": 234
+        },
+        {
+          "label": "Random color fast",
+          "min": 235,
+          "max": 239
+        },
+        {
+          "label": "Random color medium",
+          "min": 240,
+          "max": 244
+        },
+        {
+          "label": "Random color slow",
+          "min": 245,
+          "max": 249
+        },
+        {
+          "label": "Open",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Colour Temp Control",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "CTC 10000K -> 2500K",
+          "min": 20,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Martin/Martin-MAC-101.json",
+  "id": 1053
+}

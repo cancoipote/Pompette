@@ -1,0 +1,718 @@
+{
+  "version": "1.0.0",
+  "label": "Show Batten 100",
+  "manufacturer": "Clay Paky",
+  "bulb_type": "LED",
+  "bulb_lumens": 2800,
+  "bulb_color_temperature": 6000,
+  "dimension_weight": 10,
+  "dimension_width": 1000,
+  "dimension_height": 100,
+  "dimension_depth": 186,
+  "lens_label": "Other",
+  "lens_degree_min": 10,
+  "lens_degree_max": 48,
+  "focus_type": "Head",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 240,
+  "technical_power_consumption": 170,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 13,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 5,
+      "type_description": "CTO",
+      "capabilities": [
+        {
+          "label": "Unused range",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "CTO Min< Max",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Light on",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Strobe Min < Max",
+          "min": 4,
+          "max": 69
+        },
+        {
+          "label": "Light on",
+          "min": 70,
+          "max": 74
+        },
+        {
+          "label": "Pulse Min < Max",
+          "min": 75,
+          "max": 140
+        },
+        {
+          "label": "Pulse Max > Min",
+          "min": 141,
+          "max": 206
+        },
+        {
+          "label": "Light on",
+          "min": 207,
+          "max": 211
+        },
+        {
+          "label": "Random Strobe Low",
+          "min": 212,
+          "max": 224
+        },
+        {
+          "label": "Random Strobe Medium",
+          "min": 225,
+          "max": 237
+        },
+        {
+          "label": "Random Strobe Fast",
+          "min": 238,
+          "max": 250
+        },
+        {
+          "label": "Light on",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Macro Color",
+      "capabilities": [
+        {
+          "label": "Unused range",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 10
+        },
+        {
+          "label": "Green",
+          "min": 11,
+          "max": 11
+        },
+        {
+          "label": "Blue",
+          "min": 12,
+          "max": 12
+        },
+        {
+          "label": "Cyan",
+          "min": 13,
+          "max": 13
+        },
+        {
+          "label": "Yellow",
+          "min": 14,
+          "max": 14
+        },
+        {
+          "label": "Magenta",
+          "min": 15,
+          "max": 15
+        },
+        {
+          "label": "White 7000K",
+          "min": 16,
+          "max": 16
+        },
+        {
+          "label": "White 3700K",
+          "min": 17,
+          "max": 17
+        },
+        {
+          "label": "White 5000K",
+          "min": 18,
+          "max": 18
+        },
+        {
+          "label": "Black",
+          "min": 19,
+          "max": 19
+        },
+        {
+          "label": "Medium Yellow",
+          "min": 20,
+          "max": 22
+        },
+        {
+          "label": "Straw Tint",
+          "min": 23,
+          "max": 26
+        },
+        {
+          "label": "Surprise Peach",
+          "min": 27,
+          "max": 28
+        },
+        {
+          "label": "Fire",
+          "min": 29,
+          "max": 29
+        },
+        {
+          "label": "Medium Amber",
+          "min": 30,
+          "max": 30
+        },
+        {
+          "label": "Gold Amber",
+          "min": 31,
+          "max": 31
+        },
+        {
+          "label": "Dark Amber",
+          "min": 32,
+          "max": 34
+        },
+        {
+          "label": "Sunrise Red",
+          "min": 35,
+          "max": 44
+        },
+        {
+          "label": "Light Pink",
+          "min": 45,
+          "max": 45
+        },
+        {
+          "label": "Medium Pink",
+          "min": 46,
+          "max": 48
+        },
+        {
+          "label": "Pink Camation",
+          "min": 49,
+          "max": 61
+        },
+        {
+          "label": "Light Lavender",
+          "min": 62,
+          "max": 67
+        },
+        {
+          "label": "Lavender",
+          "min": 68,
+          "max": 77
+        },
+        {
+          "label": "Sky Blue",
+          "min": 78,
+          "max": 88
+        },
+        {
+          "label": "Just Blue",
+          "min": 89,
+          "max": 99
+        },
+        {
+          "label": "Dark Yellow Green",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Spring Yellow",
+          "min": 110,
+          "max": 111
+        },
+        {
+          "label": "Light Amber",
+          "min": 112,
+          "max": 112
+        },
+        {
+          "label": "Straw",
+          "min": 113,
+          "max": 113
+        },
+        {
+          "label": "Deep Amber",
+          "min": 114,
+          "max": 114
+        },
+        {
+          "label": "Orange",
+          "min": 115,
+          "max": 116
+        },
+        {
+          "label": "Light Rose",
+          "min": 117,
+          "max": 117
+        },
+        {
+          "label": "English Rose",
+          "min": 118,
+          "max": 118
+        },
+        {
+          "label": "Light Salmon",
+          "min": 119,
+          "max": 119
+        },
+        {
+          "label": "Middle Rose",
+          "min": 120,
+          "max": 120
+        },
+        {
+          "label": "Dark Pink",
+          "min": 121,
+          "max": 122
+        },
+        {
+          "label": "Magenta",
+          "min": 123,
+          "max": 124
+        },
+        {
+          "label": "Peacock Blue",
+          "min": 125,
+          "max": 125
+        },
+        {
+          "label": "Med Blue Green",
+          "min": 126,
+          "max": 126
+        },
+        {
+          "label": "Steel Blue",
+          "min": 127,
+          "max": 127
+        },
+        {
+          "label": "Light Blue",
+          "min": 128,
+          "max": 128
+        },
+        {
+          "label": "Dark Blue",
+          "min": 129,
+          "max": 130
+        },
+        {
+          "label": "Leaf Green",
+          "min": 131,
+          "max": 133
+        },
+        {
+          "label": "Dark Green",
+          "min": 134,
+          "max": 135
+        },
+        {
+          "label": "Mauve",
+          "min": 136,
+          "max": 137
+        },
+        {
+          "label": "Bright Pink",
+          "min": 138,
+          "max": 141
+        },
+        {
+          "label": "Medium Blue",
+          "min": 142,
+          "max": 144
+        },
+        {
+          "label": "Deep Golden Amber",
+          "min": 145,
+          "max": 145
+        },
+        {
+          "label": "Pale Lavender",
+          "min": 146,
+          "max": 146
+        },
+        {
+          "label": "Special Lavender",
+          "min": 147,
+          "max": 148
+        },
+        {
+          "label": "Primary Green",
+          "min": 149,
+          "max": 150
+        },
+        {
+          "label": "Bright Blue",
+          "min": 151,
+          "max": 156
+        },
+        {
+          "label": "Apricot",
+          "min": 157,
+          "max": 161
+        },
+        {
+          "label": "Pale Gold",
+          "min": 162,
+          "max": 167
+        },
+        {
+          "label": "Deep Orange",
+          "min": 168,
+          "max": 171
+        },
+        {
+          "label": "Bastard Amber",
+          "min": 172,
+          "max": 173
+        },
+        {
+          "label": "Flame Red",
+          "min": 174,
+          "max": 174
+        },
+        {
+          "label": "Daylight Blue",
+          "min": 175,
+          "max": 178
+        },
+        {
+          "label": "Lilac Tint",
+          "min": 179,
+          "max": 179
+        },
+        {
+          "label": "Deep Lavender",
+          "min": 180,
+          "max": 183
+        },
+        {
+          "label": "Dark Steel Blue",
+          "min": 184,
+          "max": 190
+        },
+        {
+          "label": "Congo Blue",
+          "min": 191,
+          "max": 206
+        },
+        {
+          "label": "Alice Blue",
+          "min": 207,
+          "max": 207
+        },
+        {
+          "label": "Dirty White",
+          "min": 208,
+          "max": 208
+        },
+        {
+          "label": "White",
+          "min": 209,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Red 1",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Green 1",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Blue 1",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "White 1",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Red 2",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Green 2",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Blue 2",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "White 2",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Red 3",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Green 3",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Blue 3",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "White 3",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Red 4",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Green 4",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Blue 4",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "White 4",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Red 5",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Green 5",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "Blue 5",
+      "capabilities": []
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "White 5",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 0,
+      "type_description": "Red 6",
+      "capabilities": []
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "Green 6",
+      "capabilities": []
+    },
+    {
+      "index": 32,
+      "type": 0,
+      "type_description": "Blue 6",
+      "capabilities": []
+    },
+    {
+      "index": 33,
+      "type": 0,
+      "type_description": "White 6",
+      "capabilities": []
+    },
+    {
+      "index": 34,
+      "type": 0,
+      "type_description": "Red 7",
+      "capabilities": []
+    },
+    {
+      "index": 35,
+      "type": 0,
+      "type_description": "Green 7",
+      "capabilities": []
+    },
+    {
+      "index": 36,
+      "type": 0,
+      "type_description": "Blue 7",
+      "capabilities": []
+    },
+    {
+      "index": 37,
+      "type": 0,
+      "type_description": "White 7",
+      "capabilities": []
+    },
+    {
+      "index": 38,
+      "type": 0,
+      "type_description": "Red 8",
+      "capabilities": []
+    },
+    {
+      "index": 39,
+      "type": 0,
+      "type_description": "Green 8",
+      "capabilities": []
+    },
+    {
+      "index": 40,
+      "type": 0,
+      "type_description": "Blue 8",
+      "capabilities": []
+    },
+    {
+      "index": 41,
+      "type": 0,
+      "type_description": "White 8",
+      "capabilities": []
+    },
+    {
+      "index": 42,
+      "type": 0,
+      "type_description": "Red 9",
+      "capabilities": []
+    },
+    {
+      "index": 43,
+      "type": 0,
+      "type_description": "Green 9",
+      "capabilities": []
+    },
+    {
+      "index": 44,
+      "type": 0,
+      "type_description": "Blue 9",
+      "capabilities": []
+    },
+    {
+      "index": 45,
+      "type": 0,
+      "type_description": "White 9",
+      "capabilities": []
+    },
+    {
+      "index": 46,
+      "type": 0,
+      "type_description": "Red 10",
+      "capabilities": []
+    },
+    {
+      "index": 47,
+      "type": 0,
+      "type_description": "Green 10",
+      "capabilities": []
+    },
+    {
+      "index": 48,
+      "type": 0,
+      "type_description": "Blue 10",
+      "capabilities": []
+    },
+    {
+      "index": 49,
+      "type": 0,
+      "type_description": "White 10",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Clay_Paky/Clay-Paky-Show-Batten-100.json",
+  "id": 376
+}

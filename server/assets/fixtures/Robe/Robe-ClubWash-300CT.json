@@ -1,0 +1,443 @@
+{
+  "version": "1.0.0",
+  "label": "ClubWash 300 CT",
+  "manufacturer": "Robe",
+  "bulb_type": "HSD 250W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 20,
+  "dimension_width": 417,
+  "dimension_height": 520,
+  "dimension_depth": 398,
+  "lens_label": "",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Head",
+  "focus_pan_max": 530,
+  "focus_tilt_max": 280,
+  "technical_power_consumption": 500,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": [
+        {
+          "label": "Tracking",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Speed",
+          "min": 1,
+          "max": 249
+        },
+        {
+          "label": "BO during Col/Pan/Tilt",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 22,
+      "type_description": "Control",
+      "capabilities": [
+        {
+          "label": "Speed",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Lamp On",
+          "min": 128,
+          "max": 139
+        },
+        {
+          "label": "Safe",
+          "min": 140,
+          "max": 229
+        },
+        {
+          "label": "Lamp Off",
+          "min": 230,
+          "max": 239
+        },
+        {
+          "label": "Safe",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 17
+        },
+        {
+          "label": "Red",
+          "min": 18,
+          "max": 35
+        },
+        {
+          "label": "Blue",
+          "min": 36,
+          "max": 53
+        },
+        {
+          "label": "Green",
+          "min": 54,
+          "max": 72
+        },
+        {
+          "label": "3200K",
+          "min": 73,
+          "max": 90
+        },
+        {
+          "label": "5600K",
+          "min": 91,
+          "max": 108
+        },
+        {
+          "label": "UV",
+          "min": 109,
+          "max": 127
+        },
+        {
+          "label": "Scroll CW",
+          "min": 128,
+          "max": 190
+        },
+        {
+          "label": "No Scroll",
+          "min": 191,
+          "max": 192
+        },
+        {
+          "label": "Scroll CCW",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Cyan",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Magenta",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Yellow",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 22,
+      "type_description": "CMY Speed",
+      "capabilities": [
+        {
+          "label": "Speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Colour Macros",
+      "capabilities": [
+        {
+          "label": "Safe",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Macro 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Macro 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Macro 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Macro 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Macro 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Macro 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Macro 7",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Macro 8",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Macro 9",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Macro 10",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Macro 11",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Macro 12",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Macro 13",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Macro 14",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Macro 15",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Macro 16",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Macro 17",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Macro 18",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Macro 19",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Macro 20",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Macro 21",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Macro 22",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Macro 23",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Macro 24",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Macro 25",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Macro 26",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Macro 27",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Macro 28",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Macro 29",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Macro 30",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Macro 31",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 1,
+      "type_description": "Effect",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 70
+        },
+        {
+          "label": "Shape",
+          "min": 71,
+          "max": 180
+        },
+        {
+          "label": "Frost",
+          "min": 181,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Reserved",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Open",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe Speed",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Close Pulse",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Open Pulse",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random Strobe",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Robe/Robe-ClubWash-300CT.json",
+  "id": 1193
+}

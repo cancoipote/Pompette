@@ -1,0 +1,713 @@
+{
+  "version": "1.0.0",
+  "label": "Robin ParFect 150",
+  "manufacturer": "Robe",
+  "bulb_type": "LED",
+  "bulb_lumens": 2842,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 5,
+  "dimension_width": 240,
+  "dimension_height": 4980,
+  "dimension_depth": 193,
+  "lens_label": "Other",
+  "lens_degree_min": 3,
+  "lens_degree_max": 60,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 220,
+  "technical_dmx_connector": "5-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 17,
+      "type_description": "Power/Special functions",
+      "capabilities": [
+        {
+          "label": "reserved",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "display ON",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "display OFF",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "RGBW color mixing mode",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "CMY color mixing mode",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "reserved",
+          "min": 40,
+          "max": 59
+        },
+        {
+          "label": "Dimmer SQUARE LAW",
+          "min": 60,
+          "max": 64
+        },
+        {
+          "label": "Dimmer LINEAR",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "FAN MODE AUTO",
+          "min": 70,
+          "max": 74
+        },
+        {
+          "label": "FAN MODE HIGH",
+          "min": 75,
+          "max": 79
+        },
+        {
+          "label": "White 8000K ON",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "White 8000K OFF",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "FAN MODE QUIET",
+          "min": 90,
+          "max": 94
+        },
+        {
+          "label": "reserved",
+          "min": 95,
+          "max": 129
+        },
+        {
+          "label": "reserved",
+          "min": 130,
+          "max": 149
+        },
+        {
+          "label": "Zoom reset",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "reserved",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "750W simulation",
+          "min": 170,
+          "max": 171
+        },
+        {
+          "label": "1000W simulation",
+          "min": 172,
+          "max": 173
+        },
+        {
+          "label": "1200W simulation",
+          "min": 174,
+          "max": 175
+        },
+        {
+          "label": "2000W simulation",
+          "min": 176,
+          "max": 177
+        },
+        {
+          "label": "2500W simulation",
+          "min": 178,
+          "max": 179
+        },
+        {
+          "label": "simulation OFF",
+          "min": 180,
+          "max": 181
+        },
+        {
+          "label": "reserved",
+          "min": 182,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Virtual Color Wheel",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Filter 4 (Medium Bastard Amber)",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "label": "Filter 25 (Sunset Red)",
+          "min": 3,
+          "max": 4
+        },
+        {
+          "label": "Filter 19 (Fire)",
+          "min": 5,
+          "max": 6
+        },
+        {
+          "label": "Filter 26 (Bright Red)",
+          "min": 7,
+          "max": 8
+        },
+        {
+          "label": "Filter 58 (Lavender)",
+          "min": 9,
+          "max": 10
+        },
+        {
+          "label": "Filter 68 (Sky Blue)",
+          "min": 11,
+          "max": 12
+        },
+        {
+          "label": "Filter 36 (Medium Pink)",
+          "min": 13,
+          "max": 14
+        },
+        {
+          "label": "Filter 89 (Moss Green)",
+          "min": 15,
+          "max": 16
+        },
+        {
+          "label": "Filter 88 (Lime Green)",
+          "min": 17,
+          "max": 18
+        },
+        {
+          "label": "Filter 90 (Dark Yellow Green)",
+          "min": 19,
+          "max": 20
+        },
+        {
+          "label": "Filter 49 (Medium Purple)",
+          "min": 21,
+          "max": 22
+        },
+        {
+          "label": "Filter 52 (Light Lavender)",
+          "min": 23,
+          "max": 24
+        },
+        {
+          "label": "Filter 102 (Light Amber)",
+          "min": 25,
+          "max": 26
+        },
+        {
+          "label": "Filter 103 (Straw)",
+          "min": 27,
+          "max": 28
+        },
+        {
+          "label": "Filter 140 (Summer Blue)",
+          "min": 29,
+          "max": 30
+        },
+        {
+          "label": "Filter 124 (Dark Green)",
+          "min": 31,
+          "max": 32
+        },
+        {
+          "label": "Filter 106 (Primary Red)",
+          "min": 33,
+          "max": 34
+        },
+        {
+          "label": "Filter 111 (Dark Pink)",
+          "min": 35,
+          "max": 36
+        },
+        {
+          "label": "Filter 115 (Peacock Blue)",
+          "min": 37,
+          "max": 38
+        },
+        {
+          "label": "Filter 126 (Mauve)",
+          "min": 39,
+          "max": 40
+        },
+        {
+          "label": "Filter 117 (Steel Blue)",
+          "min": 41,
+          "max": 42
+        },
+        {
+          "label": "Filter 118 (Light Blue)",
+          "min": 43,
+          "max": 44
+        },
+        {
+          "label": "Filter 122 (Fern Green)",
+          "min": 45,
+          "max": 46
+        },
+        {
+          "label": "Filter 182 (Light Red)",
+          "min": 47,
+          "max": 48
+        },
+        {
+          "label": "Filter 121 (Filter Green)",
+          "min": 49,
+          "max": 50
+        },
+        {
+          "label": "Filter 128 (Bright Pink)",
+          "min": 51,
+          "max": 52
+        },
+        {
+          "label": "Filter 131 (Marine Blue)",
+          "min": 53,
+          "max": 54
+        },
+        {
+          "label": "Filter 132 (Medium Blue)",
+          "min": 55,
+          "max": 56
+        },
+        {
+          "label": "Filter 134 (Golden Amber)",
+          "min": 57,
+          "max": 58
+        },
+        {
+          "label": "Filter 135 (Deep Golden Amber)",
+          "min": 59,
+          "max": 60
+        },
+        {
+          "label": "Filter 136 (Pale Lavender)",
+          "min": 61,
+          "max": 62
+        },
+        {
+          "label": "Filter 137 (Special Lavender)",
+          "min": 63,
+          "max": 64
+        },
+        {
+          "label": "Filter 138 (Pale Green)",
+          "min": 65,
+          "max": 66
+        },
+        {
+          "label": "Filter 798 (Chrysalis Pink)",
+          "min": 67,
+          "max": 68
+        },
+        {
+          "label": "Filter 141 (Bright Blue)",
+          "min": 69,
+          "max": 70
+        },
+        {
+          "label": "Filter 147 (Apricot)",
+          "min": 71,
+          "max": 72
+        },
+        {
+          "label": "Filter 148 (Bright Rose)",
+          "min": 73,
+          "max": 74
+        },
+        {
+          "label": "Filter 152 (Pale Gold)",
+          "min": 75,
+          "max": 76
+        },
+        {
+          "label": "Filter 154 (Pale Rose)",
+          "min": 77,
+          "max": 78
+        },
+        {
+          "label": "Filter 157 (Pink)",
+          "min": 79,
+          "max": 80
+        },
+        {
+          "label": "Filter 143 (Pale Navy Blue)",
+          "min": 81,
+          "max": 82
+        },
+        {
+          "label": "Filter 162 (Bastard Amber)",
+          "min": 83,
+          "max": 84
+        },
+        {
+          "label": "Filter 164 (Flame Red)",
+          "min": 85,
+          "max": 86
+        },
+        {
+          "label": "Filter 165 (Daylight Blue)",
+          "min": 87,
+          "max": 88
+        },
+        {
+          "label": "Filter 169 (Lilac Tint)",
+          "min": 89,
+          "max": 90
+        },
+        {
+          "label": "Filter 170 (Deep Lavender)",
+          "min": 91,
+          "max": 92
+        },
+        {
+          "label": "Filter 172 (Lagoon Blue)",
+          "min": 93,
+          "max": 94
+        },
+        {
+          "label": "Filter 194 (Surprise Pink)",
+          "min": 95,
+          "max": 96
+        },
+        {
+          "label": "Filter 180 (Dark Lavender)",
+          "min": 97,
+          "max": 98
+        },
+        {
+          "label": "Filter 181 (Congo Blue)",
+          "min": 99,
+          "max": 100
+        },
+        {
+          "label": "Filter 197 (Alice Blue)",
+          "min": 101,
+          "max": 102
+        },
+        {
+          "label": "Filter 201 (Full C.T. Blue)",
+          "min": 103,
+          "max": 104
+        },
+        {
+          "label": "Filter 202 (Half C.T. Blue)",
+          "min": 105,
+          "max": 106
+        },
+        {
+          "label": "Filter 203 (Quarter C.T. Blue)",
+          "min": 107,
+          "max": 108
+        },
+        {
+          "label": "Filter 204 (Full C.T. Orange)",
+          "min": 109,
+          "max": 110
+        },
+        {
+          "label": "Filter 219 (Fluorescent Green)",
+          "min": 111,
+          "max": 112
+        },
+        {
+          "label": "Filter 206 (Quarter C.T. Orange)",
+          "min": 113,
+          "max": 114
+        },
+        {
+          "label": "Filter 247 (Filter Minus Green)",
+          "min": 115,
+          "max": 116
+        },
+        {
+          "label": "Filter 248 (Half Minus Green)",
+          "min": 117,
+          "max": 118
+        },
+        {
+          "label": "Filter 281 (Three Quarter C.T. Blue)",
+          "min": 119,
+          "max": 120
+        },
+        {
+          "label": "Filter 285 (Three Quarter C.T. Orange)",
+          "min": 121,
+          "max": 122
+        },
+        {
+          "label": "Filter 352 (Glacier Blue)",
+          "min": 123,
+          "max": 124
+        },
+        {
+          "label": "Filter 353 (Lighter Blue)",
+          "min": 125,
+          "max": 126
+        },
+        {
+          "label": "Filter 507 (Madge)",
+          "min": 127,
+          "max": 128
+        },
+        {
+          "label": "Filter 778 (Millennium Gold)",
+          "min": 129,
+          "max": 130
+        },
+        {
+          "label": "Filter 793 (Vanity Fair)",
+          "min": 131,
+          "max": 132
+        },
+        {
+          "label": "Raw DMX",
+          "min": 133,
+          "max": 235
+        },
+        {
+          "label": "Rainbow effect (with fade time) from slow-> fast",
+          "min": 236,
+          "max": 245
+        },
+        {
+          "label": "Rainbow effect (without fade time) from slow-> fast",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "red/cyan",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "red/cyan fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "green/magenta",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "green/magenta fine",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "blue/yellow",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "blue/yellow fine",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "white",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "white fine",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 17,
+      "type_description": "CTC",
+      "capabilities": [
+        {
+          "label": "Color temperature correction",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 17,
+      "type_description": "Color mix control",
+      "capabilities": [
+        {
+          "label": "virtual color weel has priority",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "MAX mode higest value has priority",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "LOW mode lowest value has priority",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "multiply mode",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "addition mode",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "subtraction mode",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "inverted subtraction",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "reserved",
+          "min": 70,
+          "max": 128
+        },
+        {
+          "label": "virtual has priority",
+          "min": 129,
+          "max": 129
+        },
+        {
+          "label": "crossfade mode",
+          "min": 130,
+          "max": 254
+        },
+        {
+          "label": "color has priority",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 1,
+      "type_description": "ZOOM",
+      "capabilities": [
+        {
+          "label": "128 defaut",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "ZOOM FINE",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 21,
+      "type_description": "shutter / strobe",
+      "capabilities": [
+        {
+          "label": "closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "open",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "strobe slow to fast",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "pulse slow to fast",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "pulse fast to slow",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "random strobe slow to fast",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Master dimmer fine",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Robe/Robe-ParFect-150.json",
+  "id": 1207
+}

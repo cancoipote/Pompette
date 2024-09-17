@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "label": "PS 1500 DMX",
+  "manufacturer": "Stairville",
+  "bulb_type": "XOP 1500W",
+  "bulb_lumens": 645,
+  "bulb_color_temperature": 5600,
+  "dimension_weight": 5,
+  "dimension_width": 453,
+  "dimension_height": 132,
+  "dimension_depth": 214,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 1600,
+  "technical_dmx_connector": "3-pin",
+  "type": 12,
+  "channels": [
+    {
+      "index": 0,
+      "type": 22,
+      "type_description": "Flash rate",
+      "capabilities": [
+        {
+          "label": "Flash rate slow to fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Stairville/Stairville-PS1500DMX.json",
+  "id": 1436
+}

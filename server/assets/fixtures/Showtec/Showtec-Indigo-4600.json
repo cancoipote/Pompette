@@ -1,0 +1,551 @@
+{
+  "version": "1.0.0",
+  "label": "Indigo 4600",
+  "manufacturer": "Showtec",
+  "bulb_type": "LED",
+  "bulb_lumens": 1800,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 10,
+  "dimension_width": 330,
+  "dimension_height": 473,
+  "dimension_depth": 270,
+  "lens_label": "PC",
+  "lens_degree_min": 16,
+  "lens_degree_max": 16,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 80,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Color Wheel",
+      "capabilities": [
+        {
+          "label": "Open/White",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Green",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Yellow",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Blue",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Orange",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Magenta",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Light Blue",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Light Blue -> Magenta",
+          "min": 80,
+          "max": 99
+        },
+        {
+          "label": "Magenta -> Orange",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "Orange -> Blue",
+          "min": 120,
+          "max": 139
+        },
+        {
+          "label": "Blue -> Yellow",
+          "min": 140,
+          "max": 159
+        },
+        {
+          "label": "Yellow -> Green",
+          "min": 160,
+          "max": 179
+        },
+        {
+          "label": "Green -> Red",
+          "min": 180,
+          "max": 199
+        },
+        {
+          "label": "Red -> Open/White",
+          "min": 200,
+          "max": 219
+        },
+        {
+          "label": "Forwards (CW) Rainbow slow to fast",
+          "min": 220,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 4,
+      "type_description": "Static Gobo",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Metal Gobo 1",
+          "min": 11,
+          "max": 20
+        },
+        {
+          "label": "Metal Gobo 2",
+          "min": 21,
+          "max": 30
+        },
+        {
+          "label": "Metal Gobo 3",
+          "min": 31,
+          "max": 40
+        },
+        {
+          "label": "Metal Gobo 4",
+          "min": 41,
+          "max": 50
+        },
+        {
+          "label": "Metal Gobo 5",
+          "min": 51,
+          "max": 60
+        },
+        {
+          "label": "Metal Gobo 6",
+          "min": 61,
+          "max": 70
+        },
+        {
+          "label": "Metal Gobo 7",
+          "min": 71,
+          "max": 80
+        },
+        {
+          "label": "Metal Gobo 8",
+          "min": 81,
+          "max": 90
+        },
+        {
+          "label": "Gobo Shake 8 from slow to fast",
+          "min": 91,
+          "max": 105
+        },
+        {
+          "label": "Gobo Shake 7 from slow to fast",
+          "min": 106,
+          "max": 120
+        },
+        {
+          "label": "Gobo Shake 6 from slow to fast",
+          "min": 121,
+          "max": 135
+        },
+        {
+          "label": "Gobo Shake 5 from slow to fast",
+          "min": 136,
+          "max": 150
+        },
+        {
+          "label": "Gobo Shake 4 from slow to fast",
+          "min": 151,
+          "max": 165
+        },
+        {
+          "label": "Gobo Shake 3 from slow to fast",
+          "min": 166,
+          "max": 180
+        },
+        {
+          "label": "Gobo Shake 2 from slow to fast",
+          "min": 181,
+          "max": 195
+        },
+        {
+          "label": "Gobo Shake 1 from slow to fast",
+          "min": 196,
+          "max": 210
+        },
+        {
+          "label": "Forwards (CW) rotation from slow to fast",
+          "min": 211,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 4,
+      "type_description": "Rotating Gobo",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Metal Gobo 1",
+          "min": 11,
+          "max": 20
+        },
+        {
+          "label": "Metal Gobo 2",
+          "min": 21,
+          "max": 30
+        },
+        {
+          "label": "Metal Gobo 3",
+          "min": 31,
+          "max": 40
+        },
+        {
+          "label": "Metal Gobo 4",
+          "min": 41,
+          "max": 50
+        },
+        {
+          "label": "Metal Gobo 5",
+          "min": 51,
+          "max": 60
+        },
+        {
+          "label": "Metal Gobo 6",
+          "min": 61,
+          "max": 70
+        },
+        {
+          "label": "Metal Gobo 7",
+          "min": 71,
+          "max": 80
+        },
+        {
+          "label": "Gobo Shake 7 from slow to fast",
+          "min": 81,
+          "max": 95
+        },
+        {
+          "label": "Gobo Shake 6 from slow to fast",
+          "min": 96,
+          "max": 110
+        },
+        {
+          "label": "Gobo Shake 5 from slow to fast",
+          "min": 111,
+          "max": 125
+        },
+        {
+          "label": "Gobo Shake 4 from slow to fast",
+          "min": 126,
+          "max": 140
+        },
+        {
+          "label": "Gobo Shake 3 from slow to fast",
+          "min": 141,
+          "max": 155
+        },
+        {
+          "label": "Gobo Shake 2 from slow to fast",
+          "min": 156,
+          "max": 170
+        },
+        {
+          "label": "Gobo Shake 1 from slow to fast",
+          "min": 171,
+          "max": 185
+        },
+        {
+          "label": "Forwards (CW) rotation from slow to fast",
+          "min": 186,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 4,
+      "type_description": "Gobo Rotation",
+      "capabilities": [
+        {
+          "label": "CCW indexing",
+          "min": 0,
+          "max": 60
+        },
+        {
+          "label": "CW rotation slow to fast",
+          "min": 61,
+          "max": 150
+        },
+        {
+          "label": "No function",
+          "min": 151,
+          "max": 165
+        },
+        {
+          "label": "CCW rotation slow to fast",
+          "min": 166,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "No Prism",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Prism no rotation",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "CCW rotation slow to fast",
+          "min": 10,
+          "max": 127
+        },
+        {
+          "label": "Prism no rotation",
+          "min": 128,
+          "max": 132
+        },
+        {
+          "label": "CW rotation slow to fast",
+          "min": 133,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 21,
+      "type_description": "Shutter/Strobe",
+      "capabilities": [
+        {
+          "label": "Close",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Shutter open",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe slow to fast (0-10 flashes/sec.)",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Shutter open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse slow to fast",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Shutter open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random strobe slow to fast",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Shutter open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 17,
+      "type_description": "Channel Functions",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Blackout during Pan/Tilt movement",
+          "min": 20,
+          "max": 39
+        },
+        {
+          "label": "Blackout during Pan/Tilt movement deactivated",
+          "min": 40,
+          "max": 59
+        },
+        {
+          "label": "Fan automatic",
+          "min": 60,
+          "max": 79
+        },
+        {
+          "label": "Fan slow",
+          "min": 80,
+          "max": 99
+        },
+        {
+          "label": "Fan standard",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "Fan high speed",
+          "min": 120,
+          "max": 139
+        },
+        {
+          "label": "Auto 1 (activated after 5 seconds)",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Auto 2 (activated after 5 seconds)",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Test (activated after 5 seconds)",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Custom (P/Start, F/Start)",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Sound 1 (activated after 5 seconds)",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Sound 2 (activated after 5 seconds)",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Reset (activated after 5 seconds)",
+          "min": 200,
+          "max": 219
+        },
+        {
+          "label": "No function",
+          "min": 220,
+          "max": 235
+        },
+        {
+          "label": "DIM 0 (activated after 5 seconds)",
+          "min": 236,
+          "max": 239
+        },
+        {
+          "label": "DIM 1 (activated after 5 seconds)",
+          "min": 240,
+          "max": 243
+        },
+        {
+          "label": "DIM 2 (activated after 5 seconds)",
+          "min": 244,
+          "max": 247
+        },
+        {
+          "label": "DIM 3 (activated after 5 seconds)",
+          "min": 248,
+          "max": 251
+        },
+        {
+          "label": "DIM 4 (activated after 5 seconds)",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Showtec/Showtec-Indigo-4600.json",
+  "id": 1292
+}

@@ -1,0 +1,268 @@
+{
+  "version": "1.0.0",
+  "label": "CL Superfly HP",
+  "manufacturer": "Cameo",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 6,
+  "dimension_width": 360,
+  "dimension_height": 225,
+  "dimension_depth": 300,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 145,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 50,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Mode Selection",
+      "capabilities": [
+        {
+          "label": "Music control",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Auto mode",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Mode Options",
+      "capabilities": [
+        {
+          "label": "Sensitivity/Speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Colour Selection",
+      "capabilities": [
+        {
+          "label": "Red",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Green",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Blue",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "White",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Amber",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Red/Green",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Red/Blue",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Red/White",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Red/Amber",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Green/Blue",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Green/White",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Green/Amber",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Blue/White",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Blue/Amber",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Red/Green/Blue",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Red/Green/White",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Red/Green/Amber",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Red/Blue/White",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Red/Blue/Amber",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Red/White/Amber",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Blue/White/Amber",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Green/Blue/White",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Green/Blue/Amber",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Green/White/Amber",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Red/Green/Blue/White",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Red/Blue/White/Amber",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Red/Green/White/Amber",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Red/Green/Blue/Amber",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Green/Blue/White/Amber",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Red/Green/White/Amber",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Automatic colour change",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 20,
+      "type_description": "Mirror Rotation",
+      "capabilities": [
+        {
+          "label": "No movement",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Slow to fast",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Stroboscope",
+      "capabilities": [
+        {
+          "label": "No strobe",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "label": "Slow to fast",
+          "min": 2,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 22,
+      "type_description": "Colour Change Speed",
+      "capabilities": [
+        {
+          "label": "Slow to fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Cameo/Cameo-CL-Superfly-HP.json",
+  "id": 278
+}

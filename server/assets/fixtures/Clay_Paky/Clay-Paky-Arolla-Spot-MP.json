@@ -1,0 +1,1017 @@
+{
+  "version": "1.0.0",
+  "label": "Arolla Spot MP",
+  "manufacturer": "Clay Paky",
+  "bulb_type": "LED",
+  "bulb_lumens": 22000,
+  "bulb_color_temperature": 6000,
+  "dimension_weight": 23,
+  "dimension_width": 360,
+  "dimension_height": 593,
+  "dimension_depth": 250,
+  "lens_label": "Other",
+  "lens_degree_min": 6,
+  "lens_degree_max": 48,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 740,
+  "technical_dmx_connector": "5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Cyan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Magenta",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Yellow",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "CTO",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Color Function",
+      "capabilities": [
+        {
+          "label": "Full Color",
+          "min": 0,
+          "max": 85
+        },
+        {
+          "label": "Half Color",
+          "min": 86,
+          "max": 170
+        },
+        {
+          "label": "Linear Path",
+          "min": 171,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Color Wheel",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Dark Red",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Brilliant Blue",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Deep Green",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Golden Amber",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "CRI-4",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Dark Orange",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Navy Blue",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "CW rotation from slow to fast",
+          "min": 80,
+          "max": 127
+        },
+        {
+          "label": "Linear color insertion",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Linear Strobe slow (1 flash/sec) to fast ( 25 flashes/sec)",
+          "min": 4,
+          "max": 103
+        },
+        {
+          "label": "Open",
+          "min": 104,
+          "max": 107
+        },
+        {
+          "label": "Linear Pulse slow to fast",
+          "min": 108,
+          "max": 207
+        },
+        {
+          "label": "Open",
+          "min": 208,
+          "max": 212
+        },
+        {
+          "label": "Random Strobe at low frequency",
+          "min": 213,
+          "max": 225
+        },
+        {
+          "label": "Random Strobe at medium frequency",
+          "min": 226,
+          "max": 238
+        },
+        {
+          "label": "Random Strobe at high frequency",
+          "min": 239,
+          "max": 251
+        },
+        {
+          "label": "Open",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Dimmer Fine",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 21,
+      "type_description": "Iris",
+      "capabilities": [
+        {
+          "label": "Linear Open Min to Max",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Open",
+          "min": 128,
+          "max": 131
+        },
+        {
+          "label": "Pulse slow to fast",
+          "min": 132,
+          "max": 171
+        },
+        {
+          "label": "Pulse slow to fast - instant opening",
+          "min": 172,
+          "max": 211
+        },
+        {
+          "label": "Pulse slow to fast - instant closing",
+          "min": 212,
+          "max": 251
+        },
+        {
+          "label": "Open",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 4,
+      "type_description": "Rotating Gobo 1 change",
+      "capabilities": [
+        {
+          "label": "Empty position",
+          "min": 0,
+          "max": 8
+        },
+        {
+          "label": "Gobo 1",
+          "min": 9,
+          "max": 17
+        },
+        {
+          "label": "Gobo 2",
+          "min": 18,
+          "max": 26
+        },
+        {
+          "label": "Gobo 3",
+          "min": 27,
+          "max": 35
+        },
+        {
+          "label": "Gobo 4",
+          "min": 36,
+          "max": 44
+        },
+        {
+          "label": "Gobo 5",
+          "min": 45,
+          "max": 53
+        },
+        {
+          "label": "Gobo 6",
+          "min": 54,
+          "max": 62
+        },
+        {
+          "label": "Gobo 7",
+          "min": 63,
+          "max": 71
+        },
+        {
+          "label": "Linear CCW wheel rotation from fast to slow",
+          "min": 72,
+          "max": 113
+        },
+        {
+          "label": "Stop",
+          "min": 114,
+          "max": 117
+        },
+        {
+          "label": "Linear CW wheel rotation from slow to fast",
+          "min": 118,
+          "max": 159
+        },
+        {
+          "label": "Gobo 1 shakes low to fast",
+          "min": 160,
+          "max": 173
+        },
+        {
+          "label": "Gobo 2 shakes low to fast",
+          "min": 174,
+          "max": 187
+        },
+        {
+          "label": "Gobo 3 shakes low to fast",
+          "min": 188,
+          "max": 200
+        },
+        {
+          "label": "Gobo 4 shakes low to fast",
+          "min": 201,
+          "max": 214
+        },
+        {
+          "label": "Gobo 5 shakes low to fast",
+          "min": 215,
+          "max": 227
+        },
+        {
+          "label": "Gobo 6 shakes low to fast",
+          "min": 228,
+          "max": 241
+        },
+        {
+          "label": "Gobo 7 shakes low to fast",
+          "min": 242,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 4,
+      "type_description": "Gobo 1 Rotation",
+      "capabilities": [
+        {
+          "label": "Gobo indexing: 0° to 540° range",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Linear CW fast to slow",
+          "min": 128,
+          "max": 190
+        },
+        {
+          "label": "Stop",
+          "min": 191,
+          "max": 192
+        },
+        {
+          "label": "Linear CCW slow to fast",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 4,
+      "type_description": "Fine Gobo 1 Rotation",
+      "capabilities": [
+        {
+          "label": "Fine CCW gobo indexing",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 4,
+      "type_description": "Rotating Gobo 2 Change",
+      "capabilities": [
+        {
+          "label": "Empty position",
+          "min": 0,
+          "max": 8
+        },
+        {
+          "label": "Gobo 1",
+          "min": 9,
+          "max": 17
+        },
+        {
+          "label": "Gobo 2",
+          "min": 18,
+          "max": 26
+        },
+        {
+          "label": "Gobo 3",
+          "min": 27,
+          "max": 35
+        },
+        {
+          "label": "Gobo 4",
+          "min": 36,
+          "max": 44
+        },
+        {
+          "label": "Gobo 5",
+          "min": 45,
+          "max": 53
+        },
+        {
+          "label": "Gobo 6",
+          "min": 54,
+          "max": 62
+        },
+        {
+          "label": "Gobo 7",
+          "min": 63,
+          "max": 71
+        },
+        {
+          "label": "Linear CCW fast to slow",
+          "min": 72,
+          "max": 113
+        },
+        {
+          "label": "Stop",
+          "min": 114,
+          "max": 117
+        },
+        {
+          "label": "Linear CW slow to fast",
+          "min": 118,
+          "max": 159
+        },
+        {
+          "label": "Gobo 1 shakes slow to fast",
+          "min": 160,
+          "max": 173
+        },
+        {
+          "label": "Gobo 2 shakes slow to fast",
+          "min": 174,
+          "max": 187
+        },
+        {
+          "label": "Gobo 3 shakes slow to fast",
+          "min": 188,
+          "max": 200
+        },
+        {
+          "label": "Gobo 4 shakes slow to fast",
+          "min": 201,
+          "max": 214
+        },
+        {
+          "label": "Gobo 5 shakes slow to fast",
+          "min": 215,
+          "max": 227
+        },
+        {
+          "label": "Gobo 6 shakes slow to fast",
+          "min": 228,
+          "max": 241
+        },
+        {
+          "label": "Gobo 7 shakes slow to fast",
+          "min": 242,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 4,
+      "type_description": "Gobo 2 Rotation",
+      "capabilities": [
+        {
+          "label": "Indexing: 0° to 540° range",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Linear CW fast to slow",
+          "min": 128,
+          "max": 190
+        },
+        {
+          "label": "Stop",
+          "min": 191,
+          "max": 192
+        },
+        {
+          "label": "Linear CCW slow to fast",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 4,
+      "type_description": "Fine Gobo 2 Rotation",
+      "capabilities": [
+        {
+          "label": "Fine CCW gobo indexing",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 20,
+      "type_description": "Prism Insertion",
+      "capabilities": [
+        {
+          "label": "Prism OUT",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Prism IN",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 20,
+      "type_description": "Prism rotation",
+      "capabilities": [
+        {
+          "label": "Prism indexing: 0° to 540° range",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Continuous CW fast to slow",
+          "min": 128,
+          "max": 190
+        },
+        {
+          "label": "Stop",
+          "min": 191,
+          "max": 192
+        },
+        {
+          "label": "Continuous CCW slow to fast",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 3,
+      "type_description": "Effect Wheel Insertion",
+      "capabilities": [
+        {
+          "label": "Effect wheel OUT",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Effect wheel IN",
+          "min": 8,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 3,
+      "type_description": "Effect Wheel Rotation",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "CW linear slow to fast",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "Stop",
+          "min": 128,
+          "max": 131
+        },
+        {
+          "label": "CCW linear slow to fast",
+          "min": 132,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 3,
+      "type_description": "Frost",
+      "capabilities": [
+        {
+          "label": "Linear Frost",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 17,
+      "type_description": "Reset",
+      "capabilities": [
+        {
+          "label": "Unused range",
+          "min": 0,
+          "max": 25
+        },
+        {
+          "label": "Effects Reset",
+          "min": 26,
+          "max": 76
+        },
+        {
+          "label": "Pan/Tilt Reset",
+          "min": 77,
+          "max": 127
+        },
+        {
+          "label": "Complete Fixture Reset",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "type": 3,
+      "type_description": "Function",
+      "capabilities": [
+        {
+          "label": "Unused range",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "P/T Smooth OFF",
+          "min": 21,
+          "max": 30
+        },
+        {
+          "label": "P/T Smooth ON",
+          "min": 31,
+          "max": 40
+        },
+        {
+          "label": "Dimmer Curve 1",
+          "min": 41,
+          "max": 50
+        },
+        {
+          "label": "Dimmer Curve 2",
+          "min": 51,
+          "max": 60
+        },
+        {
+          "label": "Dimmer Curve 3",
+          "min": 61,
+          "max": 70
+        },
+        {
+          "label": "Dimmer Curve 4",
+          "min": 71,
+          "max": 80
+        },
+        {
+          "label": "Fan Mode Auto",
+          "min": 81,
+          "max": 90
+        },
+        {
+          "label": "Fan Mode SLN",
+          "min": 91,
+          "max": 95
+        },
+        {
+          "label": "Fan Mode Theatre",
+          "min": 96,
+          "max": 100
+        },
+        {
+          "label": "Fan Mode RNR",
+          "min": 101,
+          "max": 105
+        },
+        {
+          "label": "Fan Mode Standard",
+          "min": 106,
+          "max": 110
+        },
+        {
+          "label": "Pan/Tilt Slow speed",
+          "min": 111,
+          "max": 120
+        },
+        {
+          "label": "Pan/Tilt Medium speed",
+          "min": 121,
+          "max": 130
+        },
+        {
+          "label": "Pan/Tilt Fast speed",
+          "min": 131,
+          "max": 140
+        },
+        {
+          "label": "CMY Normal speed",
+          "min": 141,
+          "max": 150
+        },
+        {
+          "label": "CMY Fast speed",
+          "min": 151,
+          "max": 160
+        },
+        {
+          "label": "Display OFF",
+          "min": 161,
+          "max": 170
+        },
+        {
+          "label": "Display ON",
+          "min": 171,
+          "max": 180
+        },
+        {
+          "label": "PWM Frequency 600 Hz",
+          "min": 181,
+          "max": 190
+        },
+        {
+          "label": "PWM Frequency 1200 Hz",
+          "min": 191,
+          "max": 200
+        },
+        {
+          "label": "PWM Frequency 2000 Hz",
+          "min": 201,
+          "max": 210
+        },
+        {
+          "label": "PWM Frequency 4000 Hz",
+          "min": 211,
+          "max": 220
+        },
+        {
+          "label": "PWM Frequency 6000 Hz",
+          "min": 221,
+          "max": 230
+        },
+        {
+          "label": "PWM Frequency 20000 Hz",
+          "min": 231,
+          "max": 240
+        },
+        {
+          "label": "Unused range",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "Linear Path mode",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Dark Red",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "brilliant Blue",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Deep Green",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Golden Amber",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Cri-4",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Dark Orange",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Navy Blue",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "White",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Cw rotation from slow to fast",
+          "min": 90,
+          "max": 127
+        },
+        {
+          "label": "Linear Color insertion",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "type": 0,
+      "type_description": "Half Color Mode",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "White +Dark Red",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "Dark Red",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "Dark Red + Brilliant Blue",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "Brilliant blue",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "Brilliant Blue + Deep Green",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "Deep Green",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "Deep Green + Golden Amber",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "Golden Amber",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "Golden Amber + Cri-4",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "Cri-4",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "Cri-4 + Dark Orange",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "Dark Orange",
+          "min": 60,
+          "max": 64
+        },
+        {
+          "label": "Dark Orange + Navy Blue",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "Navy Blue",
+          "min": 70,
+          "max": 74
+        },
+        {
+          "label": "Navy blue + White",
+          "min": 75,
+          "max": 79
+        },
+        {
+          "label": "CW rotation from slow to fast",
+          "min": 80,
+          "max": 127
+        },
+        {
+          "label": "Linear color insertion",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "Full Color mode",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Dark Red",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Brilliant Blue",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Deep Green",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Golden Amber",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "CRI-4",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Dark orange",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Navy Blue",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "CW rotation from slow to fast",
+          "min": 80,
+          "max": 127
+        },
+        {
+          "label": "Linear color insertion",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Clay_Paky/Clay-Paky-Arolla-Spot-MP.json",
+  "id": 356
+}

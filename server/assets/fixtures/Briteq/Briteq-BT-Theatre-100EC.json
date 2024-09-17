@@ -1,0 +1,48 @@
+{
+  "version": "1.0.0",
+  "label": "BT Theatre 100EC",
+  "manufacturer": "Briteq",
+  "bulb_type": "LED",
+  "bulb_lumens": 6800,
+  "bulb_color_temperature": 3200,
+  "dimension_weight": 6,
+  "dimension_width": 230,
+  "dimension_height": 280,
+  "dimension_depth": 305,
+  "lens_label": "Fresnel",
+  "lens_degree_min": 10,
+  "lens_degree_max": 50,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 120,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 12,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "open",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "strobe speed",
+          "min": 6,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Briteq/Briteq-BT-Theatre-100EC.json",
+  "id": 255
+}

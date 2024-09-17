@@ -1,0 +1,1124 @@
+{
+  "version": "1.0.0",
+  "label": "MAC Viper Wash DX",
+  "manufacturer": "Martin",
+  "bulb_type": "HTI 1000W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 6000,
+  "dimension_weight": 33,
+  "dimension_width": 473,
+  "dimension_height": 749,
+  "dimension_depth": 565,
+  "lens_label": "Other",
+  "lens_degree_min": 13,
+  "lens_degree_max": 59,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 268,
+  "technical_power_consumption": 1200,
+  "technical_dmx_connector": "5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Strobe/shutter",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Open",
+          "min": 20,
+          "max": 49
+        },
+        {
+          "label": "Strobe, slow → fast",
+          "min": 50,
+          "max": 200
+        },
+        {
+          "label": "Open",
+          "min": 201,
+          "max": 210
+        },
+        {
+          "label": "Random strobe, slow → fast",
+          "min": 211,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Dimmer fade",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Dimmer fade, fine",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Cyan",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Magenta",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Yellow",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 5,
+      "type_description": "CTO",
+      "capabilities": [
+        {
+          "label": "Open (6000 K) → warm (3200 K)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Color Wheel",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Open → Slot 1",
+          "min": 1,
+          "max": 14
+        },
+        {
+          "label": "Slot 1",
+          "min": 15,
+          "max": 15
+        },
+        {
+          "label": "Slot 1 → Slot 2",
+          "min": 16,
+          "max": 29
+        },
+        {
+          "label": "Slot 2",
+          "min": 30,
+          "max": 30
+        },
+        {
+          "label": "Slot 2 → Slot 3",
+          "min": 31,
+          "max": 44
+        },
+        {
+          "label": "Slot 3",
+          "min": 45,
+          "max": 45
+        },
+        {
+          "label": "Slot 3 → Slot 4",
+          "min": 46,
+          "max": 59
+        },
+        {
+          "label": "Slot 4",
+          "min": 60,
+          "max": 60
+        },
+        {
+          "label": "Slot 4 → Slot 5",
+          "min": 61,
+          "max": 74
+        },
+        {
+          "label": "Slot 5",
+          "min": 75,
+          "max": 75
+        },
+        {
+          "label": "Slot 5 → Slot 6",
+          "min": 76,
+          "max": 89
+        },
+        {
+          "label": "Slot 6",
+          "min": 90,
+          "max": 90
+        },
+        {
+          "label": "Slot 6 → Slot 7",
+          "min": 91,
+          "max": 104
+        },
+        {
+          "label": "Slot 7",
+          "min": 105,
+          "max": 105
+        },
+        {
+          "label": "Slot 7 → Open",
+          "min": 106,
+          "max": 119
+        },
+        {
+          "label": "Open",
+          "min": 120,
+          "max": 120
+        },
+        {
+          "label": "Slot 1",
+          "min": 121,
+          "max": 125
+        },
+        {
+          "label": "Slot 2",
+          "min": 126,
+          "max": 130
+        },
+        {
+          "label": "Slot 3",
+          "min": 131,
+          "max": 135
+        },
+        {
+          "label": "Slot 4",
+          "min": 136,
+          "max": 140
+        },
+        {
+          "label": "Slot 5",
+          "min": 141,
+          "max": 145
+        },
+        {
+          "label": "Slot 6",
+          "min": 146,
+          "max": 150
+        },
+        {
+          "label": "Slot 7",
+          "min": 151,
+          "max": 155
+        },
+        {
+          "label": "Open",
+          "min": 156,
+          "max": 160
+        },
+        {
+          "label": "Continuous Rotation CW, Fast → Slow",
+          "min": 161,
+          "max": 200
+        },
+        {
+          "label": "Stop Rotate",
+          "min": 201,
+          "max": 203
+        },
+        {
+          "label": "Continuous Rotation CCW, Slow → Fast",
+          "min": 204,
+          "max": 243
+        },
+        {
+          "label": "Random color Fast",
+          "min": 244,
+          "max": 247
+        },
+        {
+          "label": "Random color Medium",
+          "min": 248,
+          "max": 251
+        },
+        {
+          "label": "Random color Slow",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 4,
+      "type_description": "Gobo selection, indexing, shake, rotation",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Indexed Gobo 1",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "Indexed Gobo 2",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "Indexed Gobo 3",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "Indexed Gobo 4",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "Indexed Gobo 5",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "Continuous Gobo 1",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "Continuous Gobo 2",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "Continuous Gobo 3",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "Continuous Gobo 4",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "Continuous Gobo 5",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "Shake Gobo 1",
+          "min": 60,
+          "max": 89
+        },
+        {
+          "label": "Shake Gobo 2",
+          "min": 90,
+          "max": 119
+        },
+        {
+          "label": "Shake Gobo 3",
+          "min": 120,
+          "max": 149
+        },
+        {
+          "label": "Shake Gobo 4",
+          "min": 150,
+          "max": 179
+        },
+        {
+          "label": "Shake Gobo 5",
+          "min": 180,
+          "max": 209
+        },
+        {
+          "label": "CW gobo wheel scroll, fast → slow",
+          "min": 210,
+          "max": 232
+        },
+        {
+          "label": "CCW gobo wheel scroll, slow* → fast",
+          "min": 233,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 4,
+      "type_description": "Gobo indexing",
+      "capabilities": [
+        {
+          "label": "Gobo indexing, -197.5° → +197.5°",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 4,
+      "type_description": "Gobo Rotation",
+      "capabilities": [
+        {
+          "label": "No gobo rotation, gobo indexed at 0°",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "CW, fast → slow",
+          "min": 1,
+          "max": 126
+        },
+        {
+          "label": "Stop",
+          "min": 127,
+          "max": 127
+        },
+        {
+          "label": "CCW, slow → fast",
+          "min": 128,
+          "max": 254
+        },
+        {
+          "label": "Stop",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 3,
+      "type_description": "Animation wheel rotation",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Indexed",
+          "min": 11,
+          "max": 20
+        },
+        {
+          "label": "Open",
+          "min": 21,
+          "max": 30
+        },
+        {
+          "label": "Continuous rotation",
+          "min": 31,
+          "max": 40
+        },
+        {
+          "label": "Position 1",
+          "min": 41,
+          "max": 50
+        },
+        {
+          "label": "Position 2",
+          "min": 51,
+          "max": 60
+        },
+        {
+          "label": "Position 3",
+          "min": 61,
+          "max": 70
+        },
+        {
+          "label": "Position 4",
+          "min": 71,
+          "max": 80
+        },
+        {
+          "label": "Position 5",
+          "min": 81,
+          "max": 90
+        },
+        {
+          "label": "Position 6",
+          "min": 91,
+          "max": 100
+        },
+        {
+          "label": "Position 7",
+          "min": 101,
+          "max": 110
+        },
+        {
+          "label": "Open",
+          "min": 111,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 3,
+      "type_description": "Animation wheel indexed angle, rotation speed and direction",
+      "capabilities": [
+        {
+          "label": "Stop, indexed at 0°",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "CW rotation, fast → slow",
+          "min": 3,
+          "max": 126
+        },
+        {
+          "label": "Stop, wheel stops at its current position",
+          "min": 127,
+          "max": 129
+        },
+        {
+          "label": "CCW rotation, fast → slow",
+          "min": 130,
+          "max": 253
+        },
+        {
+          "label": "Stop, indexed at 90°",
+          "min": 254,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 1,
+      "type_description": "Internal barndoor 1",
+      "capabilities": [
+        {
+          "label": "Out->In",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 1,
+      "type_description": "Framing blade 1, angle",
+      "capabilities": [
+        {
+          "label": "Angle –",
+          "min": 0,
+          "max": 126
+        },
+        {
+          "label": "Parallel",
+          "min": 127,
+          "max": 128
+        },
+        {
+          "label": "Angle +",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 1,
+      "type_description": "Internal barndoor 2",
+      "capabilities": [
+        {
+          "label": "Out->In",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 1,
+      "type_description": "Framing blade 2, angle",
+      "capabilities": [
+        {
+          "label": "Angle –",
+          "min": 0,
+          "max": 126
+        },
+        {
+          "label": "Parallel",
+          "min": 127,
+          "max": 128
+        },
+        {
+          "label": "Angle +",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 1,
+      "type_description": "Internal barndoors rotation",
+      "capabilities": [
+        {
+          "label": "-10° → -1°",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "0°",
+          "min": 10,
+          "max": 10
+        },
+        {
+          "label": "1° → 89°",
+          "min": 11,
+          "max": 99
+        },
+        {
+          "label": "90°",
+          "min": 100,
+          "max": 100
+        },
+        {
+          "label": "91° → +179°",
+          "min": 101,
+          "max": 189
+        },
+        {
+          "label": "180°",
+          "min": 190,
+          "max": 190
+        },
+        {
+          "label": "181° → 190°",
+          "min": 191,
+          "max": 200
+        },
+        {
+          "label": "No function",
+          "min": 201,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 1,
+      "type_description": "Framing blade 3, angle",
+      "capabilities": [
+        {
+          "label": "Angle –",
+          "min": 0,
+          "max": 126
+        },
+        {
+          "label": "Parallel",
+          "min": 127,
+          "max": 128
+        },
+        {
+          "label": "Angle +",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 1,
+      "type_description": "Framing blade 4, position",
+      "capabilities": [
+        {
+          "label": "Out->In",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 1,
+      "type_description": "Framing blade 4, angle",
+      "capabilities": [
+        {
+          "label": "Angle –",
+          "min": 0,
+          "max": 126
+        },
+        {
+          "label": "Parallel",
+          "min": 127,
+          "max": 128
+        },
+        {
+          "label": "Angle +",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "type": 1,
+      "type_description": "Frame indexing angle",
+      "capabilities": [
+        {
+          "label": "Minimum (-55°)",
+          "min": 0,
+          "max": 126
+        },
+        {
+          "label": "0°",
+          "min": 127,
+          "max": 128
+        },
+        {
+          "label": "Maximum (+55°)",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "type": 1,
+      "type_description": "Frost",
+      "capabilities": [
+        {
+          "label": "No frost → Full frost",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "No Prism",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Prism indexing",
+          "min": 11,
+          "max": 138
+        },
+        {
+          "label": "Prism rotation",
+          "min": 139,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "type": 20,
+      "type_description": "Prism indexing angle, rotation speed and direction",
+      "capabilities": [
+        {
+          "label": "Prism stop, indexed at 0°",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "CW rotation, fast → slow",
+          "min": 3,
+          "max": 126
+        },
+        {
+          "label": "Prism stop at its current position",
+          "min": 127,
+          "max": 129
+        },
+        {
+          "label": "CCW rotation, slow → fast",
+          "min": 130,
+          "max": 253
+        },
+        {
+          "label": "Prism stop, indexed at 45°",
+          "min": 254,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "type": 1,
+      "type_description": "Iris",
+      "capabilities": [
+        {
+          "label": "Open → closed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 1,
+      "type_description": "Zoom Fine",
+      "capabilities": [
+        {
+          "label": "Flood → spot",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 29,
+      "type": 1,
+      "type_description": "Focus Fine",
+      "capabilities": [
+        {
+          "label": "Infinity → near",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 32,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 33,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 34,
+      "type": 17,
+      "type_description": "Control/Settings",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Reset entire fixture – 5 sec",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "Reset dimmer and shutter only – 5 sec",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "Reset CMY, CTO and color wheel only – 5 sec",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "Reset effects (gobo and animation wheels, iris, prism, frost, zoom, focus) only – 5 sec.",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "Reset pan and tilt only – 5 sec.",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "Reset framing – 5 sec",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "Lamp on",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "Lamp off – 5 sec.",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "No function",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "Enable calibration – 5 sec.",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "Linear dimming curve – 1 sec. (menu override, setting unaffected by power off/on)",
+          "min": 60,
+          "max": 64
+        },
+        {
+          "label": "Square law dimming curve – 1 sec. (menu override, factory default setting, setting unaffected by power off/on)",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "Inverse square law dimming curve – 1 sec",
+          "min": 70,
+          "max": 74
+        },
+        {
+          "label": "S-curve dimming curve– 1 sec",
+          "min": 75,
+          "max": 79
+        },
+        {
+          "label": "Normal pan and tilt speed – 1 sec",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "Fast pan and tilt speed – 1 sec",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "Slow pan and tilt speed – 1 sec",
+          "min": 90,
+          "max": 94
+        },
+        {
+          "label": "Effect shortcuts = ON – 1 sec.",
+          "min": 95,
+          "max": 99
+        },
+        {
+          "label": "Effect shortcuts = OFF – 1 sec",
+          "min": 100,
+          "max": 104
+        },
+        {
+          "label": "Disable zoom/focus linking– 1 sec.",
+          "min": 105,
+          "max": 109
+        },
+        {
+          "label": "Enable zoom/focus linking, near distance – 1 sec",
+          "min": 110,
+          "max": 114
+        },
+        {
+          "label": "Enable zoom/focus linking, medium distance (default setting) – 1 sec.",
+          "min": 115,
+          "max": 119
+        },
+        {
+          "label": "Enable zoom/focus linking, far distance – 1 sec.",
+          "min": 120,
+          "max": 124
+        },
+        {
+          "label": "Ballast output full, set to 100% (default setting)",
+          "min": 125,
+          "max": 126
+        },
+        {
+          "label": "Ballast output reduced to 90%",
+          "min": 127,
+          "max": 128
+        },
+        {
+          "label": "Ballast output reduced to 80%",
+          "min": 129,
+          "max": 130
+        },
+        {
+          "label": "Ballast output reduced to 70%",
+          "min": 131,
+          "max": 132
+        },
+        {
+          "label": "Ballast output reduced to 60%",
+          "min": 133,
+          "max": 134
+        },
+        {
+          "label": "No function",
+          "min": 135,
+          "max": 144
+        },
+        {
+          "label": "Auto blackout = ON – 1 sec",
+          "min": 145,
+          "max": 149
+        },
+        {
+          "label": "Auto blackout = OFF – 1 sec. (default setting)",
+          "min": 150,
+          "max": 154
+        },
+        {
+          "label": "Turn on display – 1 sec.",
+          "min": 155,
+          "max": 159
+        },
+        {
+          "label": "Turn off display – 1 sec.",
+          "min": 160,
+          "max": 164
+        },
+        {
+          "label": "Store pan and tilt calibration – 5 sec.",
+          "min": 165,
+          "max": 169
+        },
+        {
+          "label": "Store dimmer calibration – 5 sec.",
+          "min": 170,
+          "max": 174
+        },
+        {
+          "label": "Store cyan calibration – 5 sec.",
+          "min": 175,
+          "max": 179
+        },
+        {
+          "label": "Store magenta calibration – 5 sec.",
+          "min": 180,
+          "max": 184
+        },
+        {
+          "label": "Store yellow calibration – 5 sec.",
+          "min": 185,
+          "max": 189
+        },
+        {
+          "label": "Store CTC calibration – 5 sec.",
+          "min": 190,
+          "max": 194
+        },
+        {
+          "label": "Store all CMY and CTC calibration – 5 sec.",
+          "min": 195,
+          "max": 199
+        },
+        {
+          "label": "Store gobo wheel current slot index calibration – 5 sec.",
+          "min": 200,
+          "max": 204
+        },
+        {
+          "label": "No function",
+          "min": 205,
+          "max": 214
+        },
+        {
+          "label": "Store prism calibration – 5 sec",
+          "min": 215,
+          "max": 219
+        },
+        {
+          "label": "Store iris calibration – 5 sec.",
+          "min": 220,
+          "max": 224
+        },
+        {
+          "label": "Store focus calibration – 5 sec.",
+          "min": 225,
+          "max": 229
+        },
+        {
+          "label": "Store zoom calibration – 5 sec.",
+          "min": 230,
+          "max": 234
+        },
+        {
+          "label": "Store pan calibration – 5 sec.",
+          "min": 235,
+          "max": 239
+        },
+        {
+          "label": "Store tilt calibration – 5 sec.",
+          "min": 240,
+          "max": 244
+        },
+        {
+          "label": "Reset all calibration values to factory defaults – 5 sec.",
+          "min": 245,
+          "max": 249
+        },
+        {
+          "label": "No function",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "type": 0,
+      "type_description": "Reserved for future use",
+      "capabilities": []
+    },
+    {
+      "index": 36,
+      "type": 0,
+      "type_description": "Reserved for future use 1",
+      "capabilities": []
+    },
+    {
+      "index": 37,
+      "type": 0,
+      "type_description": "Reserved for future use 2",
+      "capabilities": []
+    },
+    {
+      "index": 38,
+      "type": 0,
+      "type_description": "Reserved for future use 3",
+      "capabilities": []
+    },
+    {
+      "index": 39,
+      "type": 0,
+      "type_description": "Reserved for future use 4",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Martin/Martin-MAC-Viper-Wash-DX.json",
+  "id": 1068
+}

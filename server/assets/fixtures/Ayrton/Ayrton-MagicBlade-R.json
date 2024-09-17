@@ -1,0 +1,834 @@
+{
+  "version": "1.0.0",
+  "label": "MagicBlade R",
+  "manufacturer": "Ayrton",
+  "bulb_type": "LED",
+  "bulb_lumens": 3200,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 11,
+  "dimension_width": 571,
+  "dimension_height": 266,
+  "dimension_depth": 184,
+  "lens_label": "Other",
+  "lens_degree_min": 4,
+  "lens_degree_max": 4,
+  "focus_type": "Head",
+  "focus_pan_max": 630,
+  "focus_tilt_max": 540,
+  "technical_power_consumption": 200,
+  "technical_dmx_connector": "5-pin",
+  "type": 13,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan Movement",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt Movement",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Speed Pan/Tilt Movement",
+      "capabilities": [
+        {
+          "label": "max to min speed",
+          "min": 0,
+          "max": 225
+        },
+        {
+          "label": "blackout by movement",
+          "min": 226,
+          "max": 235
+        },
+        {
+          "label": "no function",
+          "min": 236,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 19,
+      "type_description": "Pan motor continuous rotation",
+      "capabilities": [
+        {
+          "label": "no function",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Forward Pan rotation from fast to slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "no rotation",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Backward Tilt rotation from slow to fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 23,
+      "type_description": "Tilt motor continuous rotation",
+      "capabilities": [
+        {
+          "label": "no function",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Forward Tilt rotation from fast to slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "no rotation",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Backward Tilt rotation from slow to fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Red LED all arrays",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Green LED all arrays",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Blue LED all arrays",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "White LED all arrays",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Red LED array 1",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Red LED array 2",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Red LED array 3",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Red LED array 4",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Red LED array 5",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Red LED array 6",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Red LED array 7",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Green LED array 1",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Green LED array 2",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Green LED array 3",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Green LED array 4",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Green LED array 5",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Green LED array 6",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Green LED array 7",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Blue LED array 1",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Blue LED array 2",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Blue LED array 3",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "Blue LED array 4",
+      "capabilities": []
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "Blue LED array 5",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 0,
+      "type_description": "Blue LED array 6",
+      "capabilities": []
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "Blue LED array 7",
+      "capabilities": []
+    },
+    {
+      "index": 32,
+      "type": 0,
+      "type_description": "White LED array 1",
+      "capabilities": []
+    },
+    {
+      "index": 33,
+      "type": 0,
+      "type_description": "White LED array 2",
+      "capabilities": []
+    },
+    {
+      "index": 34,
+      "type": 0,
+      "type_description": "White LED array 3",
+      "capabilities": []
+    },
+    {
+      "index": 35,
+      "type": 0,
+      "type_description": "White LED array 4",
+      "capabilities": []
+    },
+    {
+      "index": 36,
+      "type": 0,
+      "type_description": "White LED array 5",
+      "capabilities": []
+    },
+    {
+      "index": 37,
+      "type": 0,
+      "type_description": "White LED array 6",
+      "capabilities": []
+    },
+    {
+      "index": 38,
+      "type": 0,
+      "type_description": "White LED array 7",
+      "capabilities": []
+    },
+    {
+      "index": 39,
+      "type": 21,
+      "type_description": "Shutter, Strobe",
+      "capabilities": [
+        {
+          "label": "Led turn off",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Led turn on",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe effect slow to fast",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Led turn on",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse-effect in sequence",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Led turn on",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random strobe effect slow to fast",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Led turn on",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 41,
+      "type": 0,
+      "type_description": "Color Macro",
+      "capabilities": [
+        {
+          "label": "no function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "red to yellow",
+          "min": 8,
+          "max": 39
+        },
+        {
+          "label": "yellow to green",
+          "min": 40,
+          "max": 71
+        },
+        {
+          "label": "green to cyan",
+          "min": 72,
+          "max": 103
+        },
+        {
+          "label": "cyan to blue",
+          "min": 104,
+          "max": 135
+        },
+        {
+          "label": "blue to magenta",
+          "min": 136,
+          "max": 167
+        },
+        {
+          "label": "magenta to red",
+          "min": 168,
+          "max": 199
+        },
+        {
+          "label": "red to white",
+          "min": 200,
+          "max": 231
+        },
+        {
+          "label": "Crossfading colours from slow to fast",
+          "min": 232,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "type": 0,
+      "type_description": "Color Presets",
+      "capabilities": [
+        {
+          "label": "no function",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "White 2700k",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "White 3200k",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "White 4200k",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "White 5600k",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "White 6500k",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "White 8000k",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "Yellow",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "Magenta",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "Cyan",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "Salmon",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "Turquoise",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "Light Green",
+          "min": 60,
+          "max": 64
+        },
+        {
+          "label": "Steel Blue",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "Orange",
+          "min": 70,
+          "max": 74
+        },
+        {
+          "label": "Straw",
+          "min": 75,
+          "max": 79
+        },
+        {
+          "label": "Pale Lavander",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "Pink",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "Red",
+          "min": 90,
+          "max": 94
+        },
+        {
+          "label": "Green",
+          "min": 95,
+          "max": 99
+        },
+        {
+          "label": "Blue",
+          "min": 100,
+          "max": 104
+        },
+        {
+          "label": "Rainbow1",
+          "min": 105,
+          "max": 109
+        },
+        {
+          "label": "Rainbow2",
+          "min": 110,
+          "max": 114
+        },
+        {
+          "label": "Rainbow3",
+          "min": 115,
+          "max": 119
+        },
+        {
+          "label": "Rainbow4",
+          "min": 120,
+          "max": 124
+        },
+        {
+          "label": "Rainbow5",
+          "min": 125,
+          "max": 129
+        },
+        {
+          "label": "Rainbow6",
+          "min": 130,
+          "max": 134
+        },
+        {
+          "label": "Rainbow7",
+          "min": 135,
+          "max": 139
+        },
+        {
+          "label": "Rainbow8",
+          "min": 140,
+          "max": 144
+        },
+        {
+          "label": "Rainbow9",
+          "min": 145,
+          "max": 149
+        },
+        {
+          "label": "Rainbow10",
+          "min": 150,
+          "max": 154
+        },
+        {
+          "label": "Rainbow11",
+          "min": 155,
+          "max": 159
+        },
+        {
+          "label": "Rainbow12",
+          "min": 160,
+          "max": 164
+        },
+        {
+          "label": "Rainbow13",
+          "min": 165,
+          "max": 169
+        },
+        {
+          "label": "Rainbow14",
+          "min": 170,
+          "max": 174
+        },
+        {
+          "label": "Rainbow15",
+          "min": 175,
+          "max": 179
+        },
+        {
+          "label": "Rainbow16",
+          "min": 180,
+          "max": 184
+        },
+        {
+          "label": "Rainbow17",
+          "min": 185,
+          "max": 189
+        },
+        {
+          "label": "Rainbow18",
+          "min": 190,
+          "max": 194
+        },
+        {
+          "label": "Rainbow19",
+          "min": 195,
+          "max": 199
+        },
+        {
+          "label": "reserved",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "type": 5,
+      "type_description": "Color Presets Dimmer",
+      "capabilities": [
+        {
+          "label": "Dimmer 100 to 0%",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "type": 3,
+      "type_description": "Chase Patterns",
+      "capabilities": [
+        {
+          "label": "Led turn off",
+          "min": 0,
+          "max": 14
+        },
+        {
+          "label": "Chase 1",
+          "min": 15,
+          "max": 30
+        },
+        {
+          "label": "Chase 2",
+          "min": 31,
+          "max": 46
+        },
+        {
+          "label": "Chase 3",
+          "min": 47,
+          "max": 62
+        },
+        {
+          "label": "Chase 4",
+          "min": 63,
+          "max": 78
+        },
+        {
+          "label": "Chase 5",
+          "min": 79,
+          "max": 94
+        },
+        {
+          "label": "Chase 6",
+          "min": 95,
+          "max": 110
+        },
+        {
+          "label": "Chase 7",
+          "min": 111,
+          "max": 126
+        },
+        {
+          "label": "Chase 8",
+          "min": 127,
+          "max": 142
+        },
+        {
+          "label": "Chase 9",
+          "min": 143,
+          "max": 158
+        },
+        {
+          "label": "Chase 10",
+          "min": 159,
+          "max": 174
+        },
+        {
+          "label": "Chase 11",
+          "min": 175,
+          "max": 190
+        },
+        {
+          "label": "Chase 12",
+          "min": 191,
+          "max": 206
+        },
+        {
+          "label": "Chase 13",
+          "min": 207,
+          "max": 222
+        },
+        {
+          "label": "Chase 14",
+          "min": 223,
+          "max": 238
+        },
+        {
+          "label": "Chase 15",
+          "min": 239,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "type": 22,
+      "type_description": "Chase Speed",
+      "capabilities": [
+        {
+          "label": "Fast to Slow Backward",
+          "min": 0,
+          "max": 125
+        },
+        {
+          "label": "Stop (speed=0)",
+          "min": 126,
+          "max": 130
+        },
+        {
+          "label": "Slow to Fast Forward",
+          "min": 131,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "type": 3,
+      "type_description": "Chase Fade",
+      "capabilities": [
+        {
+          "label": "Fade Chase",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "type": 17,
+      "type_description": "Reset, internal programs",
+      "capabilities": [
+        {
+          "label": "Normal",
+          "min": 0,
+          "max": 79
+        },
+        {
+          "label": "All motor reset",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "Scan motor reset",
+          "min": 85,
+          "max": 87
+        },
+        {
+          "label": "no function",
+          "min": 88,
+          "max": 99
+        },
+        {
+          "label": "Internal program 1",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "Internal program 2",
+          "min": 120,
+          "max": 139
+        },
+        {
+          "label": "Internal program 3",
+          "min": 140,
+          "max": 159
+        },
+        {
+          "label": "Internal program 4",
+          "min": 160,
+          "max": 179
+        },
+        {
+          "label": "Internal program 5",
+          "min": 180,
+          "max": 199
+        },
+        {
+          "label": "Internal program 6",
+          "min": 200,
+          "max": 219
+        },
+        {
+          "label": "Internal program 7",
+          "min": 220,
+          "max": 239
+        },
+        {
+          "label": "Music Control",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Ayrton/Ayrton-MagicBlade-R.json",
+  "id": 182
+}

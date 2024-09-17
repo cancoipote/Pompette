@@ -1,0 +1,283 @@
+{
+  "version": "1.0.0",
+  "label": "PAR19x12O",
+  "manufacturer": "Event Lighting",
+  "bulb_type": "LED",
+  "bulb_lumens": 7400,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 9,
+  "dimension_width": 370,
+  "dimension_height": 380,
+  "dimension_depth": 165,
+  "lens_label": "Other",
+  "lens_degree_min": 30,
+  "lens_degree_max": 30,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 200,
+  "technical_dmx_connector": "3-pin IP65",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "UV",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Shutter on",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Strobe slow to fast: (1-25hz)",
+          "min": 16,
+          "max": 119
+        },
+        {
+          "label": "Shutter on",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Strobe (random) slow to fast",
+          "min": 128,
+          "max": 183
+        },
+        {
+          "label": "Shutter on",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Strobe (audio) sensitivity low to high",
+          "min": 192,
+          "max": 247
+        },
+        {
+          "label": "Shutter on",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 5,
+      "type_description": "White Mode",
+      "capabilities": [
+        {
+          "label": "Shutter on",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "White 1",
+          "min": 10,
+          "max": 31
+        },
+        {
+          "label": "White 2",
+          "min": 32,
+          "max": 54
+        },
+        {
+          "label": "White 3",
+          "min": 55,
+          "max": 77
+        },
+        {
+          "label": "White 4",
+          "min": 78,
+          "max": 100
+        },
+        {
+          "label": "White 5",
+          "min": 101,
+          "max": 123
+        },
+        {
+          "label": "White 6",
+          "min": 124,
+          "max": 146
+        },
+        {
+          "label": "White 7",
+          "min": 147,
+          "max": 169
+        },
+        {
+          "label": "White 8",
+          "min": 170,
+          "max": 192
+        },
+        {
+          "label": "White 9",
+          "min": 193,
+          "max": 215
+        },
+        {
+          "label": "White 10",
+          "min": 216,
+          "max": 238
+        },
+        {
+          "label": "White 11",
+          "min": 239,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Auto Run",
+      "capabilities": [
+        {
+          "label": "Shutter on",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Auto run 1",
+          "min": 10,
+          "max": 39
+        },
+        {
+          "label": "Auto run 2",
+          "min": 40,
+          "max": 70
+        },
+        {
+          "label": "Auto run 3",
+          "min": 71,
+          "max": 101
+        },
+        {
+          "label": "Auto run 4",
+          "min": 102,
+          "max": 132
+        },
+        {
+          "label": "Auto run 5",
+          "min": 133,
+          "max": 163
+        },
+        {
+          "label": "Auto run 6",
+          "min": 164,
+          "max": 194
+        },
+        {
+          "label": "Auto run 7",
+          "min": 195,
+          "max": 224
+        },
+        {
+          "label": "Sound active",
+          "min": 225,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 22,
+      "type_description": "Auto Run Speed",
+      "capabilities": [
+        {
+          "label": "Speed of auto programs (slow ~ fast)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 3,
+      "type_description": "Dimmer Curve",
+      "capabilities": [
+        {
+          "label": "Dimmer as set in main menu",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Dimming mode 1 (Standard)",
+          "min": 10,
+          "max": 58
+        },
+        {
+          "label": "Dimming mode 2 (Stage)",
+          "min": 59,
+          "max": 108
+        },
+        {
+          "label": "Dimming mode 3 (TV)",
+          "min": 109,
+          "max": 158
+        },
+        {
+          "label": "Dimming mode 4 (Architecture)",
+          "min": 159,
+          "max": 208
+        },
+        {
+          "label": "Dimming mode 5 (Theatre)",
+          "min": 209,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Master dimmer fine",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Event_Lighting/Event-Lighting-PAR19X12O.json",
+  "id": 657
+}

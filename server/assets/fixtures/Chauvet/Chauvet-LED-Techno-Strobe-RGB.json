@@ -1,0 +1,118 @@
+{
+  "version": "1.0.0",
+  "label": "LED Techno Strobe RGB",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 192,
+  "bulb_color_temperature": 2000,
+  "dimension_weight": 2,
+  "dimension_width": 247,
+  "dimension_height": 165,
+  "dimension_depth": 20,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 24,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "RGB control",
+          "min": 0,
+          "max": 24
+        },
+        {
+          "label": "prog 1",
+          "min": 25,
+          "max": 49
+        },
+        {
+          "label": "prog 2",
+          "min": 50,
+          "max": 74
+        },
+        {
+          "label": "prog 3",
+          "min": 75,
+          "max": 99
+        },
+        {
+          "label": "prog 4",
+          "min": 100,
+          "max": 124
+        },
+        {
+          "label": "prog 5",
+          "min": 125,
+          "max": 149
+        },
+        {
+          "label": "prog 6",
+          "min": 150,
+          "max": 174
+        },
+        {
+          "label": "prog 7",
+          "min": 175,
+          "max": 199
+        },
+        {
+          "label": "prog 8",
+          "min": 200,
+          "max": 224
+        },
+        {
+          "label": "sound activation",
+          "min": 225,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Speed",
+      "capabilities": [
+        {
+          "label": "fast to slow",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-LED-Techno-Strobe-RGB.json",
+  "id": 493
+}

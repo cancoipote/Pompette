@@ -1,0 +1,250 @@
+{
+  "version": "1.0.0",
+  "label": "iRock 5C",
+  "manufacturer": "JB Systems",
+  "bulb_type": "HSD 250W",
+  "bulb_lumens": 8600,
+  "bulb_color_temperature": 7200,
+  "dimension_weight": 9,
+  "dimension_width": 340,
+  "dimension_height": 360,
+  "dimension_depth": 250,
+  "lens_label": "PC",
+  "lens_degree_min": 17,
+  "lens_degree_max": 17,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 300,
+  "technical_dmx_connector": "5-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Shutter/Shaking",
+      "capabilities": [
+        {
+          "label": "blackout",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "open",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "slow to fast shutter",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "slow to fast shaking",
+          "min": 132,
+          "max": 247
+        },
+        {
+          "label": "open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Gobo 1",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Gobo 2",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Frost",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Gobo 4",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Gobo 5",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "3200k",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "5600k",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "fastest speed gobo change",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Dark green",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Dark green/Magenta",
+          "min": 16,
+          "max": 22
+        },
+        {
+          "label": "Dark magenta",
+          "min": 23,
+          "max": 30
+        },
+        {
+          "label": "Dark magenta/Blue",
+          "min": 31,
+          "max": 37
+        },
+        {
+          "label": "Light blue",
+          "min": 38,
+          "max": 45
+        },
+        {
+          "label": "Light blue/yellow",
+          "min": 46,
+          "max": 52
+        },
+        {
+          "label": "Yellow",
+          "min": 53,
+          "max": 60
+        },
+        {
+          "label": "Orange/Yellow",
+          "min": 61,
+          "max": 67
+        },
+        {
+          "label": "Orange",
+          "min": 68,
+          "max": 75
+        },
+        {
+          "label": "Dark blue/Orange",
+          "min": 76,
+          "max": 82
+        },
+        {
+          "label": "Dark blue",
+          "min": 83,
+          "max": 90
+        },
+        {
+          "label": "Dark blue/Purple",
+          "min": 91,
+          "max": 97
+        },
+        {
+          "label": "Purple",
+          "min": 98,
+          "max": 105
+        },
+        {
+          "label": "Light green/Purple",
+          "min": 106,
+          "max": 112
+        },
+        {
+          "label": "Light green",
+          "min": 113,
+          "max": 120
+        },
+        {
+          "label": "Light magenta",
+          "min": 121,
+          "max": 127
+        },
+        {
+          "label": "Slowest speed rainbow effect",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 4,
+      "type_description": "Rotating gobo",
+      "capabilities": [
+        {
+          "label": "stopped",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "fastest to slowest counter clockwise",
+          "min": 10,
+          "max": 120
+        },
+        {
+          "label": "stoped",
+          "min": 121,
+          "max": 134
+        },
+        {
+          "label": "slowest to fastest speed clockwise",
+          "min": 135,
+          "max": 245
+        },
+        {
+          "label": "stopped",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 5,
+      "type_description": "Dimmer",
+      "capabilities": [
+        {
+          "label": "Dimmer (Bright to dark)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/JB_Systems/JB-Systems-iRock-5C.json",
+  "id": 924
+}

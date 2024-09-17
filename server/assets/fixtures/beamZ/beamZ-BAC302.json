@@ -1,0 +1,270 @@
+{
+  "version": "1.0.0",
+  "label": "BAC302",
+  "manufacturer": "beamZ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 200,
+  "dimension_height": 200,
+  "dimension_depth": 83,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 72,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "UV",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe from slow to fast",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Colour blending (rate)",
+          "min": 10,
+          "max": 69
+        },
+        {
+          "label": "Colour change (rate)",
+          "min": 70,
+          "max": 129
+        },
+        {
+          "label": "Sound colour blending (rate)",
+          "min": 130,
+          "max": 189
+        },
+        {
+          "label": "Sound colour change (rate)",
+          "min": 190,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Colour temperature",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "White 2700K",
+          "min": 10,
+          "max": 49
+        },
+        {
+          "label": "White 3200K",
+          "min": 50,
+          "max": 89
+        },
+        {
+          "label": "White 4300K",
+          "min": 90,
+          "max": 129
+        },
+        {
+          "label": "White 5600K",
+          "min": 130,
+          "max": 169
+        },
+        {
+          "label": "White 6500K",
+          "min": 170,
+          "max": 209
+        },
+        {
+          "label": "White 8000K",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Preset colours",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Green",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Blue",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "White",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Amber",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "UV",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Yellow",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Magenta",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Cyan",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Dark orange",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Green yellow",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Salmon",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Turquoise",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Light Green",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Orange",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Straw",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Lavender",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Light blue",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Dark blue",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Pink",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/beamZ/beamZ-BAC302.json",
+  "id": 192
+}

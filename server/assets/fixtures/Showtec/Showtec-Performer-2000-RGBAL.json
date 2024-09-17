@@ -1,0 +1,561 @@
+{
+  "version": "1.0.0",
+  "label": "Performer 2000 RGBAL",
+  "manufacturer": "Showtec",
+  "bulb_type": "LED",
+  "bulb_lumens": 5500,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 7,
+  "dimension_width": 455,
+  "dimension_height": 285,
+  "dimension_depth": 435,
+  "lens_label": "Other",
+  "lens_degree_min": 15,
+  "lens_degree_max": 45,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 230,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Hue",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Hue fine",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Red Saturation",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "CCT",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "2700K",
+          "min": 11,
+          "max": 30
+        },
+        {
+          "label": "3000K",
+          "min": 31,
+          "max": 50
+        },
+        {
+          "label": "3200K",
+          "min": 51,
+          "max": 70
+        },
+        {
+          "label": "3500K",
+          "min": 71,
+          "max": 90
+        },
+        {
+          "label": "4000K",
+          "min": 91,
+          "max": 110
+        },
+        {
+          "label": "4200K",
+          "min": 111,
+          "max": 130
+        },
+        {
+          "label": "4500K",
+          "min": 131,
+          "max": 150
+        },
+        {
+          "label": "5600K",
+          "min": 151,
+          "max": 170
+        },
+        {
+          "label": "6000K",
+          "min": 171,
+          "max": 190
+        },
+        {
+          "label": "6500K",
+          "min": 191,
+          "max": 210
+        },
+        {
+          "label": "7200K",
+          "min": 211,
+          "max": 230
+        },
+        {
+          "label": "8000K",
+          "min": 231,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe, from low to high frequency (0-25 Hz)",
+          "min": 10,
+          "max": 99
+        },
+        {
+          "label": "No function",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Lighting strobe, from low to high frequency (0-25 Hz)",
+          "min": 110,
+          "max": 179
+        },
+        {
+          "label": "No function",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Random strobe, from low to high frequency (0-25 Hz)",
+          "min": 190,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 22,
+      "type_description": "Dimmer Speed",
+      "capabilities": [
+        {
+          "label": "Preset dimmer speed from the device's menu",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Linear dimmer",
+          "min": 10,
+          "max": 30
+        },
+        {
+          "label": "Non-linear dimmer 1 (fastest)",
+          "min": 31,
+          "max": 69
+        },
+        {
+          "label": "Non-linear dimme 2",
+          "min": 70,
+          "max": 129
+        },
+        {
+          "label": "Non-linear dimme 3",
+          "min": 130,
+          "max": 189
+        },
+        {
+          "label": "Non-linear dimme 4 (slowest)",
+          "min": 190,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Master dimmer fine",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Red fine",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Green fine",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Blue fine",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Amber fine",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Lime",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Lime fine",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Color Presets",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "L106",
+          "min": 11,
+          "max": 20
+        },
+        {
+          "label": "R05",
+          "min": 21,
+          "max": 30
+        },
+        {
+          "label": "L164",
+          "min": 31,
+          "max": 40
+        },
+        {
+          "label": "R54",
+          "min": 41,
+          "max": 50
+        },
+        {
+          "label": "L019",
+          "min": 51,
+          "max": 60
+        },
+        {
+          "label": "R08",
+          "min": 61,
+          "max": 70
+        },
+        {
+          "label": "R89",
+          "min": 71,
+          "max": 80
+        },
+        {
+          "label": "R86",
+          "min": 81,
+          "max": 90
+        },
+        {
+          "label": "L213",
+          "min": 91,
+          "max": 100
+        },
+        {
+          "label": "R377",
+          "min": 101,
+          "max": 110
+        },
+        {
+          "label": "R80",
+          "min": 111,
+          "max": 120
+        },
+        {
+          "label": "L202",
+          "min": 121,
+          "max": 130
+        },
+        {
+          "label": "L328",
+          "min": 131,
+          "max": 140
+        },
+        {
+          "label": "R3314",
+          "min": 141,
+          "max": 150
+        },
+        {
+          "label": "L101",
+          "min": 151,
+          "max": 160
+        },
+        {
+          "label": "L768",
+          "min": 161,
+          "max": 170
+        },
+        {
+          "label": "No function",
+          "min": 171,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Color Macros",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Red 100% / Green Up / Blue 0%",
+          "min": 11,
+          "max": 30
+        },
+        {
+          "label": "Red Down / Green 100% / Blue 0%",
+          "min": 31,
+          "max": 50
+        },
+        {
+          "label": "Red 0% / Green 100% / Blue Up",
+          "min": 51,
+          "max": 70
+        },
+        {
+          "label": "Red 0% / Green Down / Blue 100%",
+          "min": 71,
+          "max": 90
+        },
+        {
+          "label": "Red Up / Green 0% / Blue 100%",
+          "min": 91,
+          "max": 110
+        },
+        {
+          "label": "Red 100% / Green 0% / Blue Down",
+          "min": 111,
+          "max": 130
+        },
+        {
+          "label": "Red 100% / Green Up / Blue Up",
+          "min": 131,
+          "max": 150
+        },
+        {
+          "label": "Red Down / Green Down / Blue 100%",
+          "min": 151,
+          "max": 170
+        },
+        {
+          "label": "Red 100% / Green 100% / Blue 100% / White 100%",
+          "min": 171,
+          "max": 195
+        },
+        {
+          "label": "2700K",
+          "min": 196,
+          "max": 200
+        },
+        {
+          "label": "3000K",
+          "min": 201,
+          "max": 205
+        },
+        {
+          "label": "3200K",
+          "min": 206,
+          "max": 210
+        },
+        {
+          "label": "3500K",
+          "min": 211,
+          "max": 215
+        },
+        {
+          "label": "4000K",
+          "min": 216,
+          "max": 220
+        },
+        {
+          "label": "4200K",
+          "min": 221,
+          "max": 225
+        },
+        {
+          "label": "4500K",
+          "min": 226,
+          "max": 230
+        },
+        {
+          "label": "5600K",
+          "min": 231,
+          "max": 235
+        },
+        {
+          "label": "6000K",
+          "min": 236,
+          "max": 240
+        },
+        {
+          "label": "6500K",
+          "min": 241,
+          "max": 245
+        },
+        {
+          "label": "7200K",
+          "min": 246,
+          "max": 250
+        },
+        {
+          "label": "8000K",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "type": 3,
+      "type_description": "Auto Programs",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 40
+        },
+        {
+          "label": "Auto 1",
+          "min": 41,
+          "max": 60
+        },
+        {
+          "label": "Auto 2",
+          "min": 61,
+          "max": 80
+        },
+        {
+          "label": "Auto 3",
+          "min": 81,
+          "max": 100
+        },
+        {
+          "label": "Auto 4",
+          "min": 101,
+          "max": 120
+        },
+        {
+          "label": "Auto 5",
+          "min": 121,
+          "max": 140
+        },
+        {
+          "label": "Auto 6",
+          "min": 141,
+          "max": 160
+        },
+        {
+          "label": "Auto 7",
+          "min": 161,
+          "max": 180
+        },
+        {
+          "label": "Auto 8",
+          "min": 181,
+          "max": 200
+        },
+        {
+          "label": "Auto 9",
+          "min": 201,
+          "max": 220
+        },
+        {
+          "label": "Auto 10",
+          "min": 221,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "type": 22,
+      "type_description": "Program Speed",
+      "capabilities": [
+        {
+          "label": "Program speed adjustement, from slow to fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Showtec/Showtec-Performer-2000-RGBAL.json",
+  "id": 1315
+}

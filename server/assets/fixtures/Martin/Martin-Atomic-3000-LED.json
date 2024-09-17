@@ -1,0 +1,1218 @@
+{
+  "version": "1.0.0",
+  "label": "Atomic 3000 LED",
+  "manufacturer": "Martin",
+  "bulb_type": "LED",
+  "bulb_lumens": 180000,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 7,
+  "dimension_width": 425,
+  "dimension_height": 240,
+  "dimension_depth": 245,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 740,
+  "technical_dmx_connector": "5-pin",
+  "type": 12,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Beam Flash Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 22,
+      "type_description": "Beam flash duration",
+      "capabilities": [
+        {
+          "label": "7→ 650 ms",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 21,
+      "type_description": "Beam flash rate",
+      "capabilities": [
+        {
+          "label": "Slow (0.289) → fast (16.67 Hz)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Beam special effects",
+      "capabilities": [
+        {
+          "label": "No effect",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Ramp up",
+          "min": 6,
+          "max": 42
+        },
+        {
+          "label": "Ramp down",
+          "min": 43,
+          "max": 85
+        },
+        {
+          "label": "Ramp up, down",
+          "min": 86,
+          "max": 128
+        },
+        {
+          "label": "Random",
+          "min": 129,
+          "max": 171
+        },
+        {
+          "label": "Lightning",
+          "min": 172,
+          "max": 214
+        },
+        {
+          "label": "Spikes (flash over low light)",
+          "min": 215,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 17,
+      "type_description": "Control / settings",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Reset entire fixture - 5 sec.",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "No function",
+          "min": 15,
+          "max": 22
+        },
+        {
+          "label": "Linear dimming curve - 1 sec. (menu override, setting unaffected by power off/on)",
+          "min": 23,
+          "max": 23
+        },
+        {
+          "label": "Square law dimming curve - 1 sec. (menu override, factory default setting, setting unaffected by power off/on)",
+          "min": 24,
+          "max": 24
+        },
+        {
+          "label": "Inverse square law dimming curve - 1 sec. (menu override, setting unaffected by power off/on)",
+          "min": 25,
+          "max": 25
+        },
+        {
+          "label": "S-curve dimming curve - 1 sec. (menu override, setting unaffected by power off/on)",
+          "min": 26,
+          "max": 26
+        },
+        {
+          "label": "No function",
+          "min": 27,
+          "max": 35
+        },
+        {
+          "label": "Enable video tracking",
+          "min": 36,
+          "max": 36
+        },
+        {
+          "label": "Disable video tracking",
+          "min": 37,
+          "max": 37
+        },
+        {
+          "label": "No function",
+          "min": 38,
+          "max": 51
+        },
+        {
+          "label": "Turn on control panel display - 1 sec.",
+          "min": 52,
+          "max": 52
+        },
+        {
+          "label": "Turn off control panel display - 1 sec.",
+          "min": 53,
+          "max": 53
+        },
+        {
+          "label": "Regulated fans speed, fixed light output intensity = full (default setting, menu override, setting unaffected by power off/on)",
+          "min": 54,
+          "max": 54
+        },
+        {
+          "label": "Fixed fan speed = full, regulated light output intensity (menu override, setting unaffected by power off/on)",
+          "min": 55,
+          "max": 55
+        },
+        {
+          "label": "Fixed fan speed = medium, regulated light output intensity (menu override, setting unaffected by power off/on)",
+          "min": 56,
+          "max": 56
+        },
+        {
+          "label": "Fixed fan speed = low, regulated light output intensity (menu override, setting unaffected by power off/on)",
+          "min": 57,
+          "max": 57
+        },
+        {
+          "label": "Fixed fan speed = ultra low, regulated light output intensity (menu override, setting unaffected by power off/on)",
+          "min": 58,
+          "max": 58
+        },
+        {
+          "label": "Strobe behavior = LED (menu override, setting unaffected by power off/on)",
+          "min": 59,
+          "max": 59
+        },
+        {
+          "label": "Strobe behavior = Xenon (menu override, setting unaffected by power off/on)",
+          "min": 60,
+          "max": 60
+        },
+        {
+          "label": "No function",
+          "min": 61,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "FX Select",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Wave (sine wave)",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "label": "Step (50/50 on/off)",
+          "min": 2,
+          "max": 2
+        },
+        {
+          "label": "Pulse",
+          "min": 3,
+          "max": 3
+        },
+        {
+          "label": "No function",
+          "min": 4,
+          "max": 5
+        },
+        {
+          "label": "Double strobe",
+          "min": 6,
+          "max": 6
+        },
+        {
+          "label": "Triple strobe",
+          "min": 7,
+          "max": 7
+        },
+        {
+          "label": "No function",
+          "min": 8,
+          "max": 10
+        },
+        {
+          "label": "Up, down, flash",
+          "min": 11,
+          "max": 11
+        },
+        {
+          "label": "Up, flash, down, flash",
+          "min": 12,
+          "max": 12
+        },
+        {
+          "label": "Random levels",
+          "min": 13,
+          "max": 13
+        },
+        {
+          "label": "No function",
+          "min": 14,
+          "max": 19
+        },
+        {
+          "label": "House light",
+          "min": 20,
+          "max": 20
+        },
+        {
+          "label": "No function",
+          "min": 21,
+          "max": 50
+        },
+        {
+          "label": "Aura pulse",
+          "min": 51,
+          "max": 51
+        },
+        {
+          "label": "No function",
+          "min": 52,
+          "max": 53
+        },
+        {
+          "label": "Aura ramp",
+          "min": 54,
+          "max": 54
+        },
+        {
+          "label": "No function",
+          "min": 55,
+          "max": 55
+        },
+        {
+          "label": "Rainbow wave",
+          "min": 56,
+          "max": 56
+        },
+        {
+          "label": "Rainbow step",
+          "min": 57,
+          "max": 57
+        },
+        {
+          "label": "Rainbow pulse",
+          "min": 58,
+          "max": 58
+        },
+        {
+          "label": "No function",
+          "min": 59,
+          "max": 60
+        },
+        {
+          "label": "RGB wave",
+          "min": 61,
+          "max": 61
+        },
+        {
+          "label": "RGB step",
+          "min": 62,
+          "max": 62
+        },
+        {
+          "label": "RGB pulse",
+          "min": 63,
+          "max": 63
+        },
+        {
+          "label": "No function",
+          "min": 64,
+          "max": 65
+        },
+        {
+          "label": "CMY wave",
+          "min": 66,
+          "max": 66
+        },
+        {
+          "label": "CMY step",
+          "min": 67,
+          "max": 67
+        },
+        {
+          "label": "CMY pulse",
+          "min": 68,
+          "max": 68
+        },
+        {
+          "label": "No function",
+          "min": 69,
+          "max": 70
+        },
+        {
+          "label": "Mix to white wave",
+          "min": 71,
+          "max": 71
+        },
+        {
+          "label": "Mix to white step",
+          "min": 72,
+          "max": 72
+        },
+        {
+          "label": "Mix to white pulse",
+          "min": 73,
+          "max": 73
+        },
+        {
+          "label": "No function",
+          "min": 74,
+          "max": 75
+        },
+        {
+          "label": "Random mix wave",
+          "min": 76,
+          "max": 76
+        },
+        {
+          "label": "Random mix step",
+          "min": 77,
+          "max": 77
+        },
+        {
+          "label": "Random mix pulse",
+          "min": 78,
+          "max": 78
+        },
+        {
+          "label": "No function",
+          "min": 79,
+          "max": 80
+        },
+        {
+          "label": "Random subtle wave",
+          "min": 81,
+          "max": 81
+        },
+        {
+          "label": "No function",
+          "min": 82,
+          "max": 83
+        },
+        {
+          "label": "Red white blue fade",
+          "min": 84,
+          "max": 84
+        },
+        {
+          "label": "Red white blue snaps",
+          "min": 85,
+          "max": 85
+        },
+        {
+          "label": "No function",
+          "min": 86,
+          "max": 95
+        },
+        {
+          "label": "Water",
+          "min": 96,
+          "max": 96
+        },
+        {
+          "label": "Fire",
+          "min": 97,
+          "max": 97
+        },
+        {
+          "label": "Ice",
+          "min": 98,
+          "max": 98
+        },
+        {
+          "label": "Hot and cold",
+          "min": 99,
+          "max": 99
+        },
+        {
+          "label": "Warm and fuzzy",
+          "min": 100,
+          "max": 100
+        },
+        {
+          "label": "Silver and gold",
+          "min": 101,
+          "max": 101
+        },
+        {
+          "label": "Gold and silver",
+          "min": 102,
+          "max": 102
+        },
+        {
+          "label": "No function",
+          "min": 103,
+          "max": 103
+        },
+        {
+          "label": "Circular chase slim",
+          "min": 104,
+          "max": 104
+        },
+        {
+          "label": "Circular chase wide",
+          "min": 105,
+          "max": 105
+        },
+        {
+          "label": "No function",
+          "min": 106,
+          "max": 107
+        },
+        {
+          "label": "Double circular chase slim",
+          "min": 108,
+          "max": 108
+        },
+        {
+          "label": "Double circular chase wide",
+          "min": 109,
+          "max": 109
+        },
+        {
+          "label": "No function",
+          "min": 110,
+          "max": 111
+        },
+        {
+          "label": "Vertical scroll",
+          "min": 112,
+          "max": 112
+        },
+        {
+          "label": "Horizontal scroll (L/R)",
+          "min": 113,
+          "max": 113
+        },
+        {
+          "label": "No function",
+          "min": 114,
+          "max": 115
+        },
+        {
+          "label": "Knight Rider slim",
+          "min": 116,
+          "max": 116
+        },
+        {
+          "label": "Knight Rider wide",
+          "min": 117,
+          "max": 117
+        },
+        {
+          "label": "Knight Rider slim with CW surface",
+          "min": 118,
+          "max": 118
+        },
+        {
+          "label": "No function",
+          "min": 119,
+          "max": 119
+        },
+        {
+          "label": "4 segments scroll",
+          "min": 120,
+          "max": 120
+        },
+        {
+          "label": "6 segments scroll",
+          "min": 121,
+          "max": 121
+        },
+        {
+          "label": "No function",
+          "min": 122,
+          "max": 123
+        },
+        {
+          "label": "Police car 1",
+          "min": 124,
+          "max": 124
+        },
+        {
+          "label": "Police car 2",
+          "min": 125,
+          "max": 125
+        },
+        {
+          "label": "Police car 3",
+          "min": 126,
+          "max": 126
+        },
+        {
+          "label": "No function",
+          "min": 127,
+          "max": 129
+        },
+        {
+          "label": "Full bumps",
+          "min": 130,
+          "max": 130
+        },
+        {
+          "label": "Split bumps CW vertical",
+          "min": 131,
+          "max": 131
+        },
+        {
+          "label": "Split bumps CW horizontal",
+          "min": 132,
+          "max": 132
+        },
+        {
+          "label": "Random split bumps CW vertical",
+          "min": 133,
+          "max": 133
+        },
+        {
+          "label": "Random split bumps CW horizontal",
+          "min": 134,
+          "max": 134
+        },
+        {
+          "label": "Color shaker CW vertical",
+          "min": 135,
+          "max": 135
+        },
+        {
+          "label": "Color shaker CW horizontal",
+          "min": 136,
+          "max": 136
+        },
+        {
+          "label": "Color shaker CW vertical and no black frame",
+          "min": 137,
+          "max": 137
+        },
+        {
+          "label": "Color shaker CW horizontal and no black frame",
+          "min": 138,
+          "max": 138
+        },
+        {
+          "label": "No function",
+          "min": 139,
+          "max": 143
+        },
+        {
+          "label": "Swimming pool",
+          "min": 144,
+          "max": 144
+        },
+        {
+          "label": "Electric arc",
+          "min": 145,
+          "max": 145
+        },
+        {
+          "label": "No function",
+          "min": 146,
+          "max": 150
+        },
+        {
+          "label": "Thunderstorm",
+          "min": 151,
+          "max": 151
+        },
+        {
+          "label": "Welding",
+          "min": 152,
+          "max": 152
+        },
+        {
+          "label": "3 Step strobe",
+          "min": 153,
+          "max": 153
+        },
+        {
+          "label": "Tick Tock",
+          "min": 154,
+          "max": 154
+        },
+        {
+          "label": "Aura ramp beam flash",
+          "min": 155,
+          "max": 155
+        },
+        {
+          "label": "Beam ramp aura flash",
+          "min": 156,
+          "max": 156
+        },
+        {
+          "label": "No function",
+          "min": 157,
+          "max": 160
+        },
+        {
+          "label": "Police Car 4",
+          "min": 161,
+          "max": 161
+        },
+        {
+          "label": "Police Car 5",
+          "min": 162,
+          "max": 162
+        },
+        {
+          "label": "Police Car 6",
+          "min": 163,
+          "max": 163
+        },
+        {
+          "label": "Police Car 7",
+          "min": 164,
+          "max": 164
+        },
+        {
+          "label": "Police Car 8",
+          "min": 165,
+          "max": 165
+        },
+        {
+          "label": "Police Car 9",
+          "min": 166,
+          "max": 166
+        },
+        {
+          "label": "No function",
+          "min": 167,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 22,
+      "type_description": "FX Adjustment",
+      "capabilities": [
+        {
+          "label": "Effect reversed fast → slow",
+          "min": 0,
+          "max": 126
+        },
+        {
+          "label": "Effect stops",
+          "min": 127,
+          "max": 128
+        },
+        {
+          "label": "Effect slow → fast",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 17,
+      "type_description": "FX synchronization",
+      "capabilities": [
+        {
+          "label": "No sync",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Offset shift 10°",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "label": "Offset shift 20°",
+          "min": 2,
+          "max": 2
+        },
+        {
+          "label": "Offset shift 30°",
+          "min": 3,
+          "max": 3
+        },
+        {
+          "label": "Offset shift 40°",
+          "min": 4,
+          "max": 4
+        },
+        {
+          "label": "Offset shift 50°",
+          "min": 5,
+          "max": 5
+        },
+        {
+          "label": "Offset shift 60°",
+          "min": 6,
+          "max": 6
+        },
+        {
+          "label": "Offset shift 70°",
+          "min": 7,
+          "max": 7
+        },
+        {
+          "label": "Offset shift 80°",
+          "min": 8,
+          "max": 8
+        },
+        {
+          "label": "Offset shift 90°",
+          "min": 9,
+          "max": 9
+        },
+        {
+          "label": "Offset shift 100°",
+          "min": 10,
+          "max": 10
+        },
+        {
+          "label": "Offset shift 110°",
+          "min": 11,
+          "max": 11
+        },
+        {
+          "label": "Offset shift 120°",
+          "min": 12,
+          "max": 12
+        },
+        {
+          "label": "Offset shift 130°",
+          "min": 13,
+          "max": 13
+        },
+        {
+          "label": "Offset shift 140°",
+          "min": 14,
+          "max": 14
+        },
+        {
+          "label": "Offset shift 150°",
+          "min": 15,
+          "max": 15
+        },
+        {
+          "label": "Offset shift 160°",
+          "min": 16,
+          "max": 16
+        },
+        {
+          "label": "Offset shift 170°",
+          "min": 17,
+          "max": 17
+        },
+        {
+          "label": "Offset shift 180°",
+          "min": 18,
+          "max": 18
+        },
+        {
+          "label": "Offset shift 190°",
+          "min": 19,
+          "max": 19
+        },
+        {
+          "label": "Offset shift 200°",
+          "min": 20,
+          "max": 20
+        },
+        {
+          "label": "Offset shift 210°",
+          "min": 21,
+          "max": 21
+        },
+        {
+          "label": "Offset shift 220°",
+          "min": 22,
+          "max": 22
+        },
+        {
+          "label": "Offset shift 230°",
+          "min": 23,
+          "max": 23
+        },
+        {
+          "label": "Offset shift 240°",
+          "min": 24,
+          "max": 24
+        },
+        {
+          "label": "Offset shift 250°",
+          "min": 25,
+          "max": 25
+        },
+        {
+          "label": "Offset shift 260°",
+          "min": 26,
+          "max": 26
+        },
+        {
+          "label": "Offset shift 270°",
+          "min": 27,
+          "max": 27
+        },
+        {
+          "label": "Offset shift 280°",
+          "min": 28,
+          "max": 28
+        },
+        {
+          "label": "Offset shift 290°",
+          "min": 29,
+          "max": 29
+        },
+        {
+          "label": "Offset shift 300°",
+          "min": 30,
+          "max": 30
+        },
+        {
+          "label": "Offset shift 310°",
+          "min": 31,
+          "max": 31
+        },
+        {
+          "label": "Offset shift 320°",
+          "min": 32,
+          "max": 32
+        },
+        {
+          "label": "Offset shift 330°",
+          "min": 33,
+          "max": 33
+        },
+        {
+          "label": "Offset shift 340°",
+          "min": 34,
+          "max": 34
+        },
+        {
+          "label": "Offset shift 350°",
+          "min": 35,
+          "max": 35
+        },
+        {
+          "label": "Synchronized: all fixtures start FX cycles at same time",
+          "min": 36,
+          "max": 36
+        },
+        {
+          "label": "No function",
+          "min": 37,
+          "max": 100
+        },
+        {
+          "label": "Random start",
+          "min": 101,
+          "max": 120
+        },
+        {
+          "label": "Random duration",
+          "min": 121,
+          "max": 140
+        },
+        {
+          "label": "No function",
+          "min": 141,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 21,
+      "type_description": "Aura strobe/shutter effect",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Shutter open",
+          "min": 20,
+          "max": 49
+        },
+        {
+          "label": "Strobe, slow → fast",
+          "min": 50,
+          "max": 200
+        },
+        {
+          "label": "Shutter open",
+          "min": 201,
+          "max": 210
+        },
+        {
+          "label": "Random strobe, slow → fast",
+          "min": 211,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Aura dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Aura Red",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Aura Green",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Aura Blue",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Aura color presets (‘color wheel’ effect)",
+      "capabilities": [
+        {
+          "label": "Open. RGB Color Mixing Enabled",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Color 1 - LEE 790 - Moroccan pink",
+          "min": 11,
+          "max": 15
+        },
+        {
+          "label": "Color 2- LEE 157 - Pink",
+          "min": 16,
+          "max": 20
+        },
+        {
+          "label": "Color 3 - LEE 332 - Special rose pink",
+          "min": 21,
+          "max": 25
+        },
+        {
+          "label": "Color 4 - LEE 328 - Follies pink",
+          "min": 26,
+          "max": 30
+        },
+        {
+          "label": "Color 5 - LEE 345 - Fuchsia pink",
+          "min": 31,
+          "max": 35
+        },
+        {
+          "label": "Color 6 - LEE 194 - Surprise pink",
+          "min": 36,
+          "max": 40
+        },
+        {
+          "label": "Color 7 - LEE 181 - Congo Blue",
+          "min": 41,
+          "max": 45
+        },
+        {
+          "label": "Color 8 - LEE 071 - Tokyo Blue",
+          "min": 46,
+          "max": 50
+        },
+        {
+          "label": "Color 9 - LEE 120 - Deep Blue",
+          "min": 51,
+          "max": 55
+        },
+        {
+          "label": "Color 10 - LEE 079 - Just Blue",
+          "min": 56,
+          "max": 60
+        },
+        {
+          "label": "Color 11 - LEE 132 - Medium Blue",
+          "min": 61,
+          "max": 65
+        },
+        {
+          "label": "Color 12 - LEE 200 - Double CT Blue",
+          "min": 66,
+          "max": 70
+        },
+        {
+          "label": "Color 13 - LEE 161 - Slate Blue",
+          "min": 71,
+          "max": 75
+        },
+        {
+          "label": "Color 14 - LEE 201 - Full CT Blue",
+          "min": 76,
+          "max": 80
+        },
+        {
+          "label": "Color 15 - LEE 202 - Half CT Blue",
+          "min": 81,
+          "max": 85
+        },
+        {
+          "label": "Color 16 - LEE 117 - Steel Blue",
+          "min": 86,
+          "max": 90
+        },
+        {
+          "label": "Color 17 - LEE 353 - Lighter Blue",
+          "min": 91,
+          "max": 95
+        },
+        {
+          "label": "Color 18 - LEE 118 - Light Blue",
+          "min": 96,
+          "max": 100
+        },
+        {
+          "label": "Color 19 - LEE 116 - Medium Blue Green",
+          "min": 101,
+          "max": 105
+        },
+        {
+          "label": "Color 20 - LEE 124 - Dark Green",
+          "min": 106,
+          "max": 110
+        },
+        {
+          "label": "Color 21 - LEE 139 - Primary Green",
+          "min": 111,
+          "max": 115
+        },
+        {
+          "label": "Color 22 - LEE 089 - Moss Green",
+          "min": 116,
+          "max": 120
+        },
+        {
+          "label": "Color 23 - LEE 122 - Fern Green",
+          "min": 121,
+          "max": 125
+        },
+        {
+          "label": "Color 24 - LEE 738 - JAS Green",
+          "min": 126,
+          "max": 130
+        },
+        {
+          "label": "Color 25 - LEE 088 - Lime Green",
+          "min": 131,
+          "max": 135
+        },
+        {
+          "label": "Color 26 - LEE 100 - Spring Yellow",
+          "min": 136,
+          "max": 140
+        },
+        {
+          "label": "Color 27 - LEE 104 - Deep Amber",
+          "min": 141,
+          "max": 145
+        },
+        {
+          "label": "Color 28 - LEE 179 - Chrome Orange",
+          "min": 146,
+          "max": 150
+        },
+        {
+          "label": "Color 29 - LEE 105 - Orange",
+          "min": 151,
+          "max": 155
+        },
+        {
+          "label": "Color 30 - LEE 021 - Gold Amber",
+          "min": 156,
+          "max": 160
+        },
+        {
+          "label": "Color 31 - LEE 778 - Millennium Gold",
+          "min": 161,
+          "max": 165
+        },
+        {
+          "label": "Color 32 - LEE 135 - Deep Golden Amber",
+          "min": 166,
+          "max": 170
+        },
+        {
+          "label": "Color 33 - LEE 164 - Flame Red",
+          "min": 171,
+          "max": 175
+        },
+        {
+          "label": "Color 34 - Magenta",
+          "min": 176,
+          "max": 180
+        },
+        {
+          "label": "Color 35 - Medium Lavender",
+          "min": 181,
+          "max": 185
+        },
+        {
+          "label": "Color 36 - White",
+          "min": 186,
+          "max": 190
+        },
+        {
+          "label": "Aura ‘color wheel rotation’ effect - Clockwise, fast → slow",
+          "min": 191,
+          "max": 214
+        },
+        {
+          "label": "Aura ‘color wheel rotation’ effect - Stop (this will stop wherever the color is at the time)",
+          "min": 215,
+          "max": 219
+        },
+        {
+          "label": "Aura ‘color wheel rotation’ effect - Counter-clockwise, slow → fast",
+          "min": 220,
+          "max": 243
+        },
+        {
+          "label": "Aura random colors - Fast",
+          "min": 244,
+          "max": 247
+        },
+        {
+          "label": "Aura random colors - Medium",
+          "min": 248,
+          "max": 251
+        },
+        {
+          "label": "Aura random colors - Slow",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Martin/Martin-Atomic-3000-LED.json",
+  "id": 1043
+}

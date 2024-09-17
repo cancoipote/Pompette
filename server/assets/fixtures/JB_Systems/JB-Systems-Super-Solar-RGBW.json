@@ -1,0 +1,203 @@
+{
+  "version": "1.0.0",
+  "label": "Super Solar RGBW",
+  "manufacturer": "JB Systems",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 220,
+  "dimension_height": 180,
+  "dimension_depth": 214,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 27,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Function",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 14
+        },
+        {
+          "label": "Clockwise rotation - fast to slow",
+          "min": 15,
+          "max": 124
+        },
+        {
+          "label": "Stop rotation",
+          "min": 125,
+          "max": 139
+        },
+        {
+          "label": "Anticlockwise rotation - slow to fast",
+          "min": 140,
+          "max": 249
+        },
+        {
+          "label": "Music mode",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 5,
+      "type_description": "Dimmer/Strobe",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Dimmer - 0% to 100%",
+          "min": 8,
+          "max": 199
+        },
+        {
+          "label": "Strobe - fast to slow",
+          "min": 200,
+          "max": 247
+        },
+        {
+          "label": "Shutter open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": 1,
+          "min": 0,
+          "max": 16
+        },
+        {
+          "label": 2,
+          "min": 17,
+          "max": 33
+        },
+        {
+          "label": 3,
+          "min": 34,
+          "max": 50
+        },
+        {
+          "label": 4,
+          "min": 51,
+          "max": 67
+        },
+        {
+          "label": 5,
+          "min": 68,
+          "max": 84
+        },
+        {
+          "label": 6,
+          "min": 85,
+          "max": 101
+        },
+        {
+          "label": 7,
+          "min": 102,
+          "max": 118
+        },
+        {
+          "label": 8,
+          "min": 119,
+          "max": 135
+        },
+        {
+          "label": 9,
+          "min": 136,
+          "max": 152
+        },
+        {
+          "label": 10,
+          "min": 153,
+          "max": 169
+        },
+        {
+          "label": 11,
+          "min": 170,
+          "max": 186
+        },
+        {
+          "label": 12,
+          "min": 187,
+          "max": 203
+        },
+        {
+          "label": 13,
+          "min": 204,
+          "max": 220
+        },
+        {
+          "label": 14,
+          "min": 221,
+          "max": 237
+        },
+        {
+          "label": 15,
+          "min": 238,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Rotation/Sound Active",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Clockwise - fast to slow",
+          "min": 10,
+          "max": 120
+        },
+        {
+          "label": "Stop",
+          "min": 121,
+          "max": 134
+        },
+        {
+          "label": "Anticlockwise - slow to fast",
+          "min": 135,
+          "max": 245
+        },
+        {
+          "label": "Stop",
+          "min": 246,
+          "max": 249
+        },
+        {
+          "label": "Sound active",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/JB_Systems/JB-Systems-Super-Solar-RGBW.json",
+  "id": 939
+}

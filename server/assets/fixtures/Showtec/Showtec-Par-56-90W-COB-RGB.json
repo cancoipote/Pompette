@@ -1,0 +1,147 @@
+{
+  "version": "1.0.0",
+  "label": "Par 56 90W COB RGB",
+  "manufacturer": "Showtec",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 260,
+  "dimension_height": 345,
+  "dimension_depth": 250,
+  "lens_label": "Other",
+  "lens_degree_min": 70,
+  "lens_degree_max": 90,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 98,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Sound Active",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Sound-controlled",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Strobe, Audio Sensitivity",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Strobe, from slow to fast",
+          "min": 20,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Sound Active with Built-in Program",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 24
+        },
+        {
+          "label": "Pr1",
+          "min": 25,
+          "max": 49
+        },
+        {
+          "label": "Pr2",
+          "min": 50,
+          "max": 74
+        },
+        {
+          "label": "Pr3",
+          "min": 75,
+          "max": 99
+        },
+        {
+          "label": "Pr4",
+          "min": 100,
+          "max": 124
+        },
+        {
+          "label": "Pr5",
+          "min": 125,
+          "max": 149
+        },
+        {
+          "label": "Pr6",
+          "min": 150,
+          "max": 174
+        },
+        {
+          "label": "Pr7",
+          "min": 175,
+          "max": 199
+        },
+        {
+          "label": "Sound-controlled",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 22,
+      "type_description": "Program Speed",
+      "capabilities": [
+        {
+          "label": "Speed from slow to fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Showtec/Showtec-Par-56-90W-COB-RGB.json",
+  "id": 1314
+}

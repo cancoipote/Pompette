@@ -1,0 +1,597 @@
+{
+  "version": "1.0.0",
+  "label": "MS-700PE",
+  "manufacturer": "Elumen8",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 17,
+  "dimension_width": 436,
+  "dimension_height": 588,
+  "dimension_depth": 344,
+  "lens_label": "Other",
+  "lens_degree_min": 13,
+  "lens_degree_max": 13,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 330,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Pan / Tilt Speed",
+      "capabilities": [
+        {
+          "label": "Speed (Fast - Slow)",
+          "min": 0,
+          "max": 254
+        },
+        {
+          "label": "Speed Fast",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Open",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Strobe (Slow - Fast)",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "Open",
+          "min": 132,
+          "max": 139
+        },
+        {
+          "label": "Fast close, Slow open",
+          "min": 140,
+          "max": 181
+        },
+        {
+          "label": "Open",
+          "min": 182,
+          "max": 189
+        },
+        {
+          "label": "Fast open, Slow close",
+          "min": 190,
+          "max": 231
+        },
+        {
+          "label": "Open",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Random Strobe",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Orange",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Blue",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Magenta",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Red",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Green",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Light Blue",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Yellow",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Index",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "CW Fast - Slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "CCW Slow - Fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 4,
+      "type_description": "Gobo 1",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Gobo 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Gobo 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Gobo 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Gobo 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Gobo 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Gobo 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Gobo 7",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Gobo 1 Shaking",
+          "min": 64,
+          "max": 73
+        },
+        {
+          "label": "Gobo 2 Shaking",
+          "min": 74,
+          "max": 82
+        },
+        {
+          "label": "Gobo 3 Shaking",
+          "min": 83,
+          "max": 91
+        },
+        {
+          "label": "Gobo 4 Shaking",
+          "min": 92,
+          "max": 100
+        },
+        {
+          "label": "Gobo 5 Shaking",
+          "min": 101,
+          "max": 109
+        },
+        {
+          "label": "Gobo 6 Shaking",
+          "min": 110,
+          "max": 118
+        },
+        {
+          "label": "Gobo 7 Shaking",
+          "min": 119,
+          "max": 127
+        },
+        {
+          "label": "CW Fast - Slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "CCW Slow - Fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 4,
+      "type_description": "Gobo 1 Rotation",
+      "capabilities": [
+        {
+          "label": "Indexed Rotation",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "CW Fast - Slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "CCW Slow - Fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 4,
+      "type_description": "Gobo 2",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Gobo 1",
+          "min": 8,
+          "max": 14
+        },
+        {
+          "label": "Gobo 2",
+          "min": 15,
+          "max": 21
+        },
+        {
+          "label": "Gobo 3",
+          "min": 22,
+          "max": 28
+        },
+        {
+          "label": "Gobo 4",
+          "min": 29,
+          "max": 35
+        },
+        {
+          "label": "Gobo 5",
+          "min": 36,
+          "max": 42
+        },
+        {
+          "label": "Gobo 6",
+          "min": 43,
+          "max": 49
+        },
+        {
+          "label": "Gobo 7",
+          "min": 50,
+          "max": 56
+        },
+        {
+          "label": "Gobo 8",
+          "min": 57,
+          "max": 63
+        },
+        {
+          "label": "Gobo 1 Shaking",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Gobo 2 Shaking",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Gobo 3 Shaking",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Gobo 4 Shaking",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Gobo 5 Shaking",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Gobo 6 Shaking",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Gobo 7 Shaking",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Gobo 8 Shaking",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "CCW Fast - Slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "CW Slow - Fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "No Effect",
+          "min": 0,
+          "max": 128
+        },
+        {
+          "label": "Prism Effect",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 20,
+      "type_description": "Prism Rotation",
+      "capabilities": [
+        {
+          "label": "Indexed",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "CW Fast - Slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "CCW Slow - Fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Iris",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 17,
+      "type_description": "Function",
+      "capabilities": [
+        {
+          "label": "Null",
+          "min": 0,
+          "max": 69
+        },
+        {
+          "label": "Enable Blackout when Moving",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Disable Blackout when Moving",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Enable Blackout when Color Change",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Disable Blackout when Color Change",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Enable Blackout when Gobo Change",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Disable Blackout when Gobo Change",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Null",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Pan / Tilt Reset",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Color Reset",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Gobo Reset",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Null",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Focus Reset",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Null",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Reset All",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Enable Blackout During Move, Color or Gobo",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "Disable Blackout During Move, Color or Gobo",
+          "min": 220,
+          "max": 229
+        },
+        {
+          "label": "Null",
+          "min": 230,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 22,
+      "type_description": "Color Speed",
+      "capabilities": [
+        {
+          "label": "Fast - Slow",
+          "min": 0,
+          "max": 254
+        },
+        {
+          "label": "Fast",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Elumen8/Elumen8-MS-700PE.json",
+  "id": 630
+}

@@ -1,0 +1,79 @@
+{
+  "version": "1.0.0",
+  "label": "Magnum Hazer",
+  "manufacturer": "Martin",
+  "bulb_type": "",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 11,
+  "dimension_width": 420,
+  "dimension_height": 246,
+  "dimension_depth": 303,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 975,
+  "technical_dmx_connector": "3-pin",
+  "type": 11,
+  "channels": [
+    {
+      "index": 0,
+      "type": 5,
+      "type_description": "Fog Level",
+      "capabilities": [
+        {
+          "label": "Zero Output",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Proportional output level control Step 20",
+          "min": 20,
+          "max": 220
+        },
+        {
+          "label": "Prime Function",
+          "min": 221,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 5,
+      "type_description": "Fan Speed",
+      "capabilities": [
+        {
+          "label": "Fan off",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Proportional speed control step 20",
+          "min": 20,
+          "max": 219
+        },
+        {
+          "label": "Auto fan mode",
+          "min": 220,
+          "max": 230
+        },
+        {
+          "label": "No function",
+          "min": 231,
+          "max": 244
+        },
+        {
+          "label": "Machine shutdown, all off",
+          "min": 245,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Martin/Martin-Magnum-Hazer.json",
+  "id": 1076
+}

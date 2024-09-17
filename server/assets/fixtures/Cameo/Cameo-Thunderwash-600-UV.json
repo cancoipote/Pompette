@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "label": "Thunderwash 600 UV",
+  "manufacturer": "Cameo",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 335,
+  "dimension_height": 93,
+  "dimension_depth": 197,
+  "lens_label": "Other",
+  "lens_degree_min": 75,
+  "lens_degree_max": 75,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 160,
+  "technical_dmx_connector": "3-pin",
+  "type": 12,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Duration",
+      "capabilities": [
+        {
+          "label": "Flash duration (1ms to 510ms)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Sound",
+      "capabilities": [
+        {
+          "label": "Sound control OFF (Mic Sensitivity)",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Sound control ON Low -> High (Mic Sensitivity)",
+          "min": 6,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Cameo/Cameo-Thunderwash-600-UV.json",
+  "id": 332
+}

@@ -1,0 +1,74 @@
+{
+  "version": "1.0.0",
+  "label": "Double Derby X",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 283,
+  "dimension_height": 264,
+  "dimension_depth": 297,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 30,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 5,
+      "type_description": "Control/Operating Mode",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 14
+        },
+        {
+          "label": "LEDs on",
+          "min": 15,
+          "max": 100
+        },
+        {
+          "label": "Auto",
+          "min": 101,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Motor Rotation",
+      "capabilities": [
+        {
+          "label": "Nothing",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Counter-clockwise motor rotation (Slow ~ Fast)",
+          "min": 1,
+          "max": 85
+        },
+        {
+          "label": "Clockwise motor rotation (Slow ~ Fast)",
+          "min": 86,
+          "max": 170
+        },
+        {
+          "label": "Motor rotation right-to-left-to-right (Slow ~ Fast)",
+          "min": 171,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-Double-Derby-X.json",
+  "id": 438
+}

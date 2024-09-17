@@ -1,0 +1,173 @@
+{
+  "version": "1.0.0",
+  "label": "XB-Wave",
+  "manufacturer": "Showtec",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 325,
+  "dimension_height": 143,
+  "dimension_depth": 305,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 30,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Colors 1",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Red",
+          "min": 20,
+          "max": 39
+        },
+        {
+          "label": "Green",
+          "min": 40,
+          "max": 59
+        },
+        {
+          "label": "Blue",
+          "min": 60,
+          "max": 79
+        },
+        {
+          "label": "Green+Blue",
+          "min": 80,
+          "max": 99
+        },
+        {
+          "label": "Red+Blue",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "Red+Green",
+          "min": 120,
+          "max": 139
+        },
+        {
+          "label": "Red+Green+Blue",
+          "min": 140,
+          "max": 159
+        },
+        {
+          "label": "3 Color Chase + Rotation",
+          "min": 160,
+          "max": 179
+        },
+        {
+          "label": "7 Color Chase + Rotation",
+          "min": 180,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Colors 2",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Red",
+          "min": 5,
+          "max": 28
+        },
+        {
+          "label": "Green",
+          "min": 29,
+          "max": 56
+        },
+        {
+          "label": "Blue",
+          "min": 57,
+          "max": 84
+        },
+        {
+          "label": "Green+Blue",
+          "min": 85,
+          "max": 112
+        },
+        {
+          "label": "Red+Blue",
+          "min": 113,
+          "max": 140
+        },
+        {
+          "label": "Red+Green",
+          "min": 141,
+          "max": 168
+        },
+        {
+          "label": "Red+Green+Blue",
+          "min": 169,
+          "max": 197
+        },
+        {
+          "label": "3 Color Chase + Rotation",
+          "min": 198,
+          "max": 224
+        },
+        {
+          "label": "7 Color Chase + Rotation",
+          "min": 225,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Static",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Strobe slow to fast",
+          "min": 5,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Rotation",
+      "capabilities": [
+        {
+          "label": "Indexing (Position)",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Rotation slow to fast",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Showtec/Showtec-XB-Wave.json",
+  "id": 1343
+}

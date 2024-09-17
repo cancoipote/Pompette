@@ -1,0 +1,282 @@
+{
+  "version": "1.0.0",
+  "label": "BAC503",
+  "manufacturer": "beamZ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 175,
+  "dimension_height": 235,
+  "dimension_depth": 90,
+  "lens_label": "Other",
+  "lens_degree_min": 18,
+  "lens_degree_max": 18,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 80,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Macro",
+      "capabilities": [
+        {
+          "label": "No Function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Green",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Blue",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Amber",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Yellow",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Magenta",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Cyan",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Dark Orange",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Green Yellow",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Salmon",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Turquoise",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Light Green",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Orange",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Straw",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Lavender",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Light Blue",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Dark Blue",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Pink",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Full On",
+          "min": 190,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "No Function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Auto Program 1",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Auto Program 2",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Auto Program 3",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Auto Program 4",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Auto Program 5",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Auto Program 6",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Auto Program 7",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Auto Program 8",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Auto Program 9",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Sound Program 1",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Sound Program 2",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Sound Program 3",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Sound Program 4",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Sound Program 5",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Sound Program 6",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Sound Program 7",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Sound Program 8",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Sound Program 9",
+          "min": 180,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Speed",
+      "capabilities": [
+        {
+          "label": "Auto or Sound program speed (Slow-fast)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/beamZ/beamZ-BAC503.json",
+  "id": 196
+}

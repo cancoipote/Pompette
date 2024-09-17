@@ -1,0 +1,178 @@
+{
+  "version": "1.0.0",
+  "label": "Spherion Tri LED",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 5,
+  "dimension_width": 190,
+  "dimension_height": 422,
+  "dimension_depth": 320,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 27,
+  "technical_dmx_connector": "3-pin",
+  "type": 3,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Shows",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Show 1",
+          "min": 8,
+          "max": 47
+        },
+        {
+          "label": "Show 2",
+          "min": 48,
+          "max": 87
+        },
+        {
+          "label": "Show 3",
+          "min": 88,
+          "max": 127
+        },
+        {
+          "label": "Show 4",
+          "min": 128,
+          "max": 167
+        },
+        {
+          "label": "Show 5",
+          "min": 168,
+          "max": 207
+        },
+        {
+          "label": "Show 6",
+          "min": 208,
+          "max": 247
+        },
+        {
+          "label": "Sound Active",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 22,
+      "type_description": "Rotation",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Clockwise [Fast > Slow]",
+          "min": 10,
+          "max": 113
+        },
+        {
+          "label": "Stop",
+          "min": 114,
+          "max": 141
+        },
+        {
+          "label": "Counter Clockwise [Fast > Slow]",
+          "min": 142,
+          "max": 245
+        },
+        {
+          "label": "Stop",
+          "min": 246,
+          "max": 247
+        },
+        {
+          "label": "Sound Active",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 5,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Dimmer [0% > 100%]",
+          "min": 8,
+          "max": 199
+        },
+        {
+          "label": "Strobe [Fast > Slow]",
+          "min": 200,
+          "max": 247
+        },
+        {
+          "label": "On",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Color Macros",
+      "capabilities": [
+        {
+          "label": "Color 1",
+          "min": 0,
+          "max": 46
+        },
+        {
+          "label": "Color 2",
+          "min": 47,
+          "max": 85
+        },
+        {
+          "label": "Color 3",
+          "min": 86,
+          "max": 124
+        },
+        {
+          "label": "Color 4",
+          "min": 125,
+          "max": 163
+        },
+        {
+          "label": "Color 5",
+          "min": 164,
+          "max": 202
+        },
+        {
+          "label": "Color 6",
+          "min": 203,
+          "max": 240
+        },
+        {
+          "label": "Color 7",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Spherion-Tri-LED.json",
+  "id": 137
+}

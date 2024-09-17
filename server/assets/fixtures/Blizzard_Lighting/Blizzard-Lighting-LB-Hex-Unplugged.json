@@ -1,0 +1,389 @@
+{
+  "version": "1.0.0",
+  "label": "LB Hex Unplugged",
+  "manufacturer": "Blizzard Lighting",
+  "bulb_type": "LED",
+  "bulb_lumens": 4319,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 141,
+  "dimension_height": 211,
+  "dimension_depth": 177,
+  "lens_label": "Other",
+  "lens_degree_min": 25,
+  "lens_degree_max": 25,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 21,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "UV",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Random",
+          "min": 6,
+          "max": 55
+        },
+        {
+          "label": "Pulse",
+          "min": 56,
+          "max": 105
+        },
+        {
+          "label": "Average",
+          "min": 106,
+          "max": 155
+        },
+        {
+          "label": "Thunder",
+          "min": 156,
+          "max": 205
+        },
+        {
+          "label": "Standard",
+          "min": 206,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Color Macros",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "label": "Red fade in",
+          "min": 2,
+          "max": 43
+        },
+        {
+          "label": "Red fade out <--> Green fade in",
+          "min": 44,
+          "max": 85
+        },
+        {
+          "label": "Green fade out <--> Blue fade in",
+          "min": 86,
+          "max": 127
+        },
+        {
+          "label": "Red fade in <--> Blue",
+          "min": 128,
+          "max": 169
+        },
+        {
+          "label": "Red <--> Green Fade in <--> Blue",
+          "min": 170,
+          "max": 211
+        },
+        {
+          "label": "White fade in",
+          "min": 212,
+          "max": 254
+        },
+        {
+          "label": "White (RGBW)",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Color Presets",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Red",
+          "min": 6,
+          "max": 15
+        },
+        {
+          "label": "Green",
+          "min": 16,
+          "max": 25
+        },
+        {
+          "label": "Blue",
+          "min": 26,
+          "max": 35
+        },
+        {
+          "label": "Lime Green",
+          "min": 36,
+          "max": 45
+        },
+        {
+          "label": "Yellow Green",
+          "min": 46,
+          "max": 55
+        },
+        {
+          "label": "Yellow",
+          "min": 56,
+          "max": 65
+        },
+        {
+          "label": "Congo Red",
+          "min": 66,
+          "max": 75
+        },
+        {
+          "label": "Light Orange",
+          "min": 76,
+          "max": 85
+        },
+        {
+          "label": "Wine Red",
+          "min": 86,
+          "max": 95
+        },
+        {
+          "label": "Pink",
+          "min": 96,
+          "max": 105
+        },
+        {
+          "label": "Pink Purple",
+          "min": 106,
+          "max": 115
+        },
+        {
+          "label": "Light Purple",
+          "min": 116,
+          "max": 125
+        },
+        {
+          "label": "Pink Blue",
+          "min": 126,
+          "max": 135
+        },
+        {
+          "label": "Light Blue",
+          "min": 136,
+          "max": 145
+        },
+        {
+          "label": "Sky Blue",
+          "min": 146,
+          "max": 155
+        },
+        {
+          "label": "Light Cyan",
+          "min": 156,
+          "max": 165
+        },
+        {
+          "label": "Cyan Green",
+          "min": 166,
+          "max": 175
+        },
+        {
+          "label": "Water Green",
+          "min": 176,
+          "max": 185
+        },
+        {
+          "label": "Light Green",
+          "min": 186,
+          "max": 195
+        },
+        {
+          "label": "Cold White",
+          "min": 196,
+          "max": 205
+        },
+        {
+          "label": "Light Cold White",
+          "min": 206,
+          "max": 215
+        },
+        {
+          "label": "Pure White",
+          "min": 216,
+          "max": 225
+        },
+        {
+          "label": "Purple White",
+          "min": 226,
+          "max": 235
+        },
+        {
+          "label": "Cream White",
+          "min": 236,
+          "max": 245
+        },
+        {
+          "label": "Warm White",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Auto / Sound Active",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "7-color fade",
+          "min": 11,
+          "max": 40
+        },
+        {
+          "label": "RGB fade",
+          "min": 41,
+          "max": 70
+        },
+        {
+          "label": "RGB fade 2 (low temp)",
+          "min": 71,
+          "max": 100
+        },
+        {
+          "label": "7-color jump",
+          "min": 101,
+          "max": 130
+        },
+        {
+          "label": "RGB jump",
+          "min": 131,
+          "max": 160
+        },
+        {
+          "label": "Yellow/Cyan/Magenta jump",
+          "min": 161,
+          "max": 190
+        },
+        {
+          "label": "Sound active strobe",
+          "min": 191,
+          "max": 220
+        },
+        {
+          "label": "Sound active jump",
+          "min": 221,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 22,
+      "type_description": "Auto Speed",
+      "capabilities": [
+        {
+          "label": "Auto speed (slow <--> fast)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 3,
+      "type_description": "Dimming Curves",
+      "capabilities": [
+        {
+          "label": "Standard Curve",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Dimming 1",
+          "min": 21,
+          "max": 40
+        },
+        {
+          "label": "Dimming 2",
+          "min": 41,
+          "max": 60
+        },
+        {
+          "label": "Dimming 3",
+          "min": 61,
+          "max": 80
+        },
+        {
+          "label": "Dimming 4",
+          "min": 81,
+          "max": 100
+        },
+        {
+          "label": "No function",
+          "min": 101,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Blizzard_Lighting/Blizzard-Lighting-LB-Hex-Unplugged.json",
+  "id": 216
+}

@@ -1,0 +1,211 @@
+{
+  "version": "1.0.0",
+  "label": "Twister 4",
+  "manufacturer": "Abstract",
+  "bulb_type": "A1/259",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 5,
+  "dimension_width": 200,
+  "dimension_height": 200,
+  "dimension_depth": 400,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 250,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Rotation",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 11
+        },
+        {
+          "label": "Fastest speed clockwise",
+          "min": 12,
+          "max": 111
+        },
+        {
+          "label": "Slowest speed clockwise",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Stop",
+          "min": 128,
+          "max": 140
+        },
+        {
+          "label": "Slowest speed a.clockwise",
+          "min": 141,
+          "max": 243
+        },
+        {
+          "label": "Fastest speed a.clockwise",
+          "min": 244,
+          "max": 254
+        },
+        {
+          "label": "Stop",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 4,
+      "type_description": "Gobo/Colour",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "White [Open]",
+          "min": 10,
+          "max": 25
+        },
+        {
+          "label": "Red [Dot Tunnel]",
+          "min": 26,
+          "max": 42
+        },
+        {
+          "label": "Blue [Slash]",
+          "min": 43,
+          "max": 58
+        },
+        {
+          "label": "Green [Segment]",
+          "min": 59,
+          "max": 74
+        },
+        {
+          "label": "Yellow [Triangle]",
+          "min": 75,
+          "max": 90
+        },
+        {
+          "label": "Cyan [Tunnel]",
+          "min": 91,
+          "max": 107
+        },
+        {
+          "label": "Orange [Bubbles]",
+          "min": 108,
+          "max": 123
+        },
+        {
+          "label": "Pink [Stars]",
+          "min": 124,
+          "max": 139
+        },
+        {
+          "label": "Multi Colour [Quadrant]",
+          "min": 140,
+          "max": 155
+        },
+        {
+          "label": "Orange [Bubbles]",
+          "min": 156,
+          "max": 172
+        },
+        {
+          "label": "Cyan [Tunnel]",
+          "min": 173,
+          "max": 188
+        },
+        {
+          "label": "Yellow [Triangle]",
+          "min": 189,
+          "max": 220
+        },
+        {
+          "label": "Blue [Slash]",
+          "min": 221,
+          "max": 237
+        },
+        {
+          "label": "Slow Strobe",
+          "min": 238,
+          "max": 253
+        },
+        {
+          "label": "Fast Strobe",
+          "min": 254,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 23
+        },
+        {
+          "label": "Open",
+          "min": 24,
+          "max": 225
+        },
+        {
+          "label": "Slow Strobe",
+          "min": 226,
+          "max": 229
+        },
+        {
+          "label": "Strobe 2",
+          "min": 230,
+          "max": 233
+        },
+        {
+          "label": "Strobe 3",
+          "min": 234,
+          "max": 237
+        },
+        {
+          "label": "Strobe 4",
+          "min": 238,
+          "max": 241
+        },
+        {
+          "label": "Strobe 5",
+          "min": 242,
+          "max": 245
+        },
+        {
+          "label": "Strobe 6",
+          "min": 246,
+          "max": 249
+        },
+        {
+          "label": "Strobe 7",
+          "min": 250,
+          "max": 253
+        },
+        {
+          "label": "Fast Strobe",
+          "min": 254,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Abstract/Abstract-Twister-4.json",
+  "id": 6
+}

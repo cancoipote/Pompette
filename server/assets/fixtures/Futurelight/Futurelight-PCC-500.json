@@ -1,0 +1,197 @@
+{
+  "version": "1.0.0",
+  "label": "PCC-500",
+  "manufacturer": "Futurelight",
+  "bulb_type": "HPL 575W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 12,
+  "dimension_width": 325,
+  "dimension_height": 350,
+  "dimension_depth": 425,
+  "lens_label": "Fresnel",
+  "lens_degree_min": 23,
+  "lens_degree_max": 23,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 585,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Colour Wheel 1",
+      "capabilities": [
+        {
+          "label": "Open / White",
+          "min": 0,
+          "max": 21
+        },
+        {
+          "label": "Red",
+          "min": 22,
+          "max": 43
+        },
+        {
+          "label": "Blue",
+          "min": 44,
+          "max": 65
+        },
+        {
+          "label": "Salmon",
+          "min": 66,
+          "max": 87
+        },
+        {
+          "label": "Dark Yellow",
+          "min": 88,
+          "max": 109
+        },
+        {
+          "label": "Light Blue",
+          "min": 110,
+          "max": 127
+        },
+        {
+          "label": "Forwards Rainbow Effect (fast to slow)",
+          "min": 128,
+          "max": 187
+        },
+        {
+          "label": "No Rotation",
+          "min": 188,
+          "max": 193
+        },
+        {
+          "label": "Backwards Rainbow Effect (slow to fast)",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Colour Wheel 2 (linear fade)",
+      "capabilities": [
+        {
+          "label": "Open / White",
+          "min": 0,
+          "max": 42
+        },
+        {
+          "label": "Purple",
+          "min": 43,
+          "max": 85
+        },
+        {
+          "label": "Green",
+          "min": 86,
+          "max": 128
+        },
+        {
+          "label": "Light Yellow",
+          "min": 129,
+          "max": 171
+        },
+        {
+          "label": "Pink",
+          "min": 172,
+          "max": 214
+        },
+        {
+          "label": "Black Out",
+          "min": 215,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Program",
+      "capabilities": [
+        {
+          "label": "Normal colour change. Search position via shortest distance",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Colour change at every position. Search position via shortest distance",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "No function",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Reset",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Program 1",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Program 2",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Program 3",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Program 4",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Program 5",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Program 6",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Program 7",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "Program 8",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "Program 9",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "Program 10",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Futurelight/Futurelight-PCC-500.json",
+  "id": 815
+}

@@ -1,0 +1,1175 @@
+{
+  "version": "1.0.0",
+  "label": "LED KLS-2500",
+  "manufacturer": "Eurolite",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 12,
+  "dimension_width": 1160,
+  "dimension_height": 320,
+  "dimension_depth": 60,
+  "lens_label": "Other",
+  "lens_degree_min": 28,
+  "lens_degree_max": 28,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 190,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Blackout / Automatic Mode Speed / Sound Control",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Slow automatic mode (program 0)",
+          "min": 16,
+          "max": 89
+        },
+        {
+          "label": "Medium-fast automatic mode (program 0)",
+          "min": 90,
+          "max": 164
+        },
+        {
+          "label": "Fast automatic mode (program 0)",
+          "min": 165,
+          "max": 240
+        },
+        {
+          "label": "Sound control",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Strobe Control",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Strobe slow → fast",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 3,
+      "type_description": "Preset Programs / Sound Control",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Program 1",
+          "min": 10,
+          "max": 29
+        },
+        {
+          "label": "Program 2",
+          "min": 30,
+          "max": 49
+        },
+        {
+          "label": "Program 3",
+          "min": 50,
+          "max": 69
+        },
+        {
+          "label": "Program 4",
+          "min": 70,
+          "max": 89
+        },
+        {
+          "label": "Program 5",
+          "min": 90,
+          "max": 109
+        },
+        {
+          "label": "Program 6",
+          "min": 110,
+          "max": 129
+        },
+        {
+          "label": "Program 7",
+          "min": 130,
+          "max": 149
+        },
+        {
+          "label": "Program 8",
+          "min": 150,
+          "max": 169
+        },
+        {
+          "label": "Program 9",
+          "min": 170,
+          "max": 189
+        },
+        {
+          "label": "Program 10",
+          "min": 190,
+          "max": 209
+        },
+        {
+          "label": "Program 11",
+          "min": 210,
+          "max": 229
+        },
+        {
+          "label": "Program 0",
+          "min": 230,
+          "max": 249
+        },
+        {
+          "label": "Sound control",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Speed (0…255) / Mic Sensitivity",
+      "capabilities": [
+        {
+          "label": "Speed / Mic sens off (if ch1=[250-255])",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Speed / Mic sens low → high (if ch1=[250-255])",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Spot 1",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "R",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "G",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "B",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "A",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "W",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "RG",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "RB",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "RA",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "RW",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "GB",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "GA",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "GW",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "BA",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "BW",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "AW",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "RGB",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "RGA",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "RGW",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "RBA",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "RBW",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "RAW",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "GBA",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "GBW",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "BAW",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "GAW",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "RGBA",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "RGBW",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "RGAW",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "RBAW",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "GBAW",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "RGBAW",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Spot 2",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "R",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "G",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "B",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "A",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "W",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "RG",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "RB",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "RA",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "RW",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "GB",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "GA",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "GW",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "BA",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "BW",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "AW",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "RGB",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "RGA",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "RGW",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "RBA",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "RBW",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "RAW",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "GBA",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "GBW",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "BAW",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "GAW",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "RGBA",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "RGBW",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "RGAW",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "RBAW",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "GBAW",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "RGBAW",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Spot 3",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "R",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "G",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "B",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "A",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "W",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "RG",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "RB",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "RA",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "RW",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "GB",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "GA",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "GW",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "BA",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "BW",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "AW",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "RGB",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "RGA",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "RGW",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "RBA",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "RBW",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "RAW",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "GBA",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "GBW",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "BAW",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "GAW",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "RGBA",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "RGBW",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "RGAW",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "RBAW",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "GBAW",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "RGBAW",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Spot 4",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "R",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "G",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "B",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "A",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "W",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "RG",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "RB",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "RA",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "RW",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "GB",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "GA",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "GW",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "BA",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "BW",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "AW",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "RGB",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "RGA",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "RGW",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "RBA",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "RBW",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "RAW",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "GBA",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "GBW",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "BAW",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "GAW",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "RGBA",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "RGBW",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "RGAW",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "RBAW",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "GBAW",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "RGBAW",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 3,
+      "type_description": "Sound Control / Strobe Control",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Sound control",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "label": "No function",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Strobe slow → fast",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Red (Spot 1)",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Red (Spot 2)",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Red (Spot 3)",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Red (Spot 4)",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Green (Spot 1)",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Green (Spot 2)",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Green (Spot 3)",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Green (Spot 4)",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Blue (Spot 1)",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Blue (Spot 2)",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Blue (Spot 3)",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Blue (Spot 4)",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Amber (Spot 1)",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "Amber (Spot 2)",
+      "capabilities": []
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "Amber (Spot 3)",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 0,
+      "type_description": "Amber (Spot 4)",
+      "capabilities": []
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "White (Spot 1)",
+      "capabilities": []
+    },
+    {
+      "index": 32,
+      "type": 0,
+      "type_description": "White (Spot 2)",
+      "capabilities": []
+    },
+    {
+      "index": 33,
+      "type": 0,
+      "type_description": "White (Spot 3)",
+      "capabilities": []
+    },
+    {
+      "index": 34,
+      "type": 0,
+      "type_description": "White (Spot 4)",
+      "capabilities": []
+    },
+    {
+      "index": 35,
+      "type": 0,
+      "type_description": "Dimmer (Spot 1)",
+      "capabilities": []
+    },
+    {
+      "index": 36,
+      "type": 0,
+      "type_description": "Dimmer (Spot 2)",
+      "capabilities": []
+    },
+    {
+      "index": 37,
+      "type": 0,
+      "type_description": "Dimmer (Spot 3)",
+      "capabilities": []
+    },
+    {
+      "index": 38,
+      "type": 0,
+      "type_description": "Dimmer (Spot 4)",
+      "capabilities": []
+    },
+    {
+      "index": 39,
+      "type": 3,
+      "type_description": "Sound Control / Strobe Control (Spot 1)",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Sound control",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "label": "No function",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Strobe slow → fast",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "type": 3,
+      "type_description": "Sound Control / Strobe Control (Spot 2)",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Sound control",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "label": "No function",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Strobe slow → fast",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "type": 3,
+      "type_description": "Sound Control / Strobe Control (Spot 3)",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Sound control",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "label": "No function",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Strobe slow → fast",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "type": 3,
+      "type_description": "Sound Control / Strobe Control (Spot 4)",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Sound control",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "label": "No function",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Strobe slow → fast",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "type": 5,
+      "type_description": "Red (Spot 1) / Running speed (if ch 1=[010-255])",
+      "capabilities": [
+        {
+          "label": "Red 0 - 100 % / slow → fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "type": 5,
+      "type_description": "Green (Spot 1) / Fade time (if ch1=[010-255])",
+      "capabilities": [
+        {
+          "label": "Green 0 - 100 % / slow → fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-LED-KLS-2500.json",
+  "id": 691
+}

@@ -1,0 +1,366 @@
+{
+  "version": "1.0.0",
+  "label": "Scorpion Storm FX RGB",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 232,
+  "dimension_height": 191,
+  "dimension_depth": 194,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Mirror",
+  "focus_pan_max": 100,
+  "focus_tilt_max": 100,
+  "technical_power_consumption": 31,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Control Functions",
+      "capabilities": [
+        {
+          "label": "DMX Mode",
+          "min": 0,
+          "max": 50
+        },
+        {
+          "label": "Auto program, fast",
+          "min": 51,
+          "max": 100
+        },
+        {
+          "label": "Auto program, slow",
+          "min": 101,
+          "max": 150
+        },
+        {
+          "label": "Sound-Active program",
+          "min": 151,
+          "max": 200
+        },
+        {
+          "label": "Random program",
+          "min": 201,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Color (Ch. 1 = 000-050)",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Red",
+          "min": 5,
+          "max": 15
+        },
+        {
+          "label": "Green",
+          "min": 16,
+          "max": 25
+        },
+        {
+          "label": "Blue",
+          "min": 26,
+          "max": 35
+        },
+        {
+          "label": "Red + Green",
+          "min": 36,
+          "max": 45
+        },
+        {
+          "label": "Green + Blue",
+          "min": 46,
+          "max": 55
+        },
+        {
+          "label": "Red + Blue",
+          "min": 56,
+          "max": 65
+        },
+        {
+          "label": "Red + Green, Blue",
+          "min": 66,
+          "max": 75
+        },
+        {
+          "label": "Red on, Green Strobing",
+          "min": 76,
+          "max": 85
+        },
+        {
+          "label": "Green on, Blue strobing",
+          "min": 86,
+          "max": 95
+        },
+        {
+          "label": "Blue on, Red strobing",
+          "min": 96,
+          "max": 105
+        },
+        {
+          "label": "Red + Green, alternate strobing",
+          "min": 106,
+          "max": 115
+        },
+        {
+          "label": "Green + Blue, alternate strobing",
+          "min": 116,
+          "max": 125
+        },
+        {
+          "label": "Blue + Red, alternate strobing",
+          "min": 126,
+          "max": 135
+        },
+        {
+          "label": "Red + Green on, Blue strobing",
+          "min": 136,
+          "max": 145
+        },
+        {
+          "label": "Blue + Green on, Red strobing",
+          "min": 146,
+          "max": 155
+        },
+        {
+          "label": "Red + Blue on, Green strobing",
+          "min": 156,
+          "max": 165
+        },
+        {
+          "label": "Blue on, Green + Red strobing",
+          "min": 166,
+          "max": 175
+        },
+        {
+          "label": "Red on, Green + Blue strobing",
+          "min": 176,
+          "max": 185
+        },
+        {
+          "label": "Green on, Red + Blue strobing",
+          "min": 186,
+          "max": 195
+        },
+        {
+          "label": "Blue on, Red + Green alternate strobing",
+          "min": 196,
+          "max": 205
+        },
+        {
+          "label": "Red on, Green + Blue alternate strobing",
+          "min": 206,
+          "max": 215
+        },
+        {
+          "label": "Green on, Red + Blue alternate strobing",
+          "min": 216,
+          "max": 225
+        },
+        {
+          "label": "Red + Green + Blue alternate strobing",
+          "min": 226,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Color selection (Ch. 1 = 051-200)",
+      "capabilities": [
+        {
+          "label": "Red",
+          "min": 0,
+          "max": 36
+        },
+        {
+          "label": "Green",
+          "min": 37,
+          "max": 72
+        },
+        {
+          "label": "Blue",
+          "min": 73,
+          "max": 108
+        },
+        {
+          "label": "Red + Green",
+          "min": 109,
+          "max": 144
+        },
+        {
+          "label": "Green + Blue",
+          "min": 145,
+          "max": 180
+        },
+        {
+          "label": "Blue + Red",
+          "min": 181,
+          "max": 216
+        },
+        {
+          "label": "Red + Green + Blue",
+          "min": 217,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Strobe, Slow to fast",
+          "min": 5,
+          "max": 254
+        },
+        {
+          "label": "Sound-Active Strobe",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Rotation (motor 1)",
+      "capabilities": [
+        {
+          "label": "No rotation",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Clockwise rotation, slow to fast",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "Stop",
+          "min": 128,
+          "max": 133
+        },
+        {
+          "label": "Counter-clockwise rotation, slow to fast",
+          "min": 134,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Stutter (motor 1)",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Mode 1, slow to fast (when ch. 4 is on)",
+          "min": 5,
+          "max": 56
+        },
+        {
+          "label": "Mode 2, Slow to fast (when Ch. 4 is on)",
+          "min": 57,
+          "max": 112
+        },
+        {
+          "label": "Mode 3, slow to fast",
+          "min": 113,
+          "max": 168
+        },
+        {
+          "label": "Mode 4, slow to fast",
+          "min": 169,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Rotation (motor 2)",
+      "capabilities": [
+        {
+          "label": "No rotation",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Clockwise rotation, slow to fast",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "Stop",
+          "min": 128,
+          "max": 133
+        },
+        {
+          "label": "Counter clockwise rotation, slow to fast",
+          "min": 134,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Stutter (motor 2)",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Mode 1, slow to fast (when Ch. 6 is on)",
+          "min": 5,
+          "max": 56
+        },
+        {
+          "label": "Mode 2, slow to fast (when Ch. 6 is on)",
+          "min": 57,
+          "max": 112
+        },
+        {
+          "label": "Mode 3, slow to fast",
+          "min": 113,
+          "max": 168
+        },
+        {
+          "label": "Mode 4, slow to fast",
+          "min": 169,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-Scorpion-Storm-FX-RGB.json",
+  "id": 525
+}

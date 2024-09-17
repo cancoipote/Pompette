@@ -1,0 +1,187 @@
+{
+  "version": "1.0.0",
+  "label": "Slim PAR 7x3W LED RGB",
+  "manufacturer": "BoomToneDJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 241,
+  "dimension_height": 247,
+  "dimension_depth": 92,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 30,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Dimmer Mode",
+          "min": 0,
+          "max": 6
+        },
+        {
+          "label": "Strobe (Slow > Fast)",
+          "min": 7,
+          "max": 65
+        },
+        {
+          "label": "None",
+          "min": 66,
+          "max": 69
+        },
+        {
+          "label": "Pulse Strobe (Slow > Fast)",
+          "min": 70,
+          "max": 128
+        },
+        {
+          "label": "None",
+          "min": 129,
+          "max": 132
+        },
+        {
+          "label": "Strobe Fadding In (Slow > Fast)",
+          "min": 133,
+          "max": 191
+        },
+        {
+          "label": "None",
+          "min": 192,
+          "max": 195
+        },
+        {
+          "label": "Strobe Fadding Out (Slow > Fast)",
+          "min": 196,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Strobe (7 Ch Mode)",
+      "capabilities": [
+        {
+          "label": "Dimmer Mode (If Ch7>=60 Program Running Speed from Slow to Fast)",
+          "min": 0,
+          "max": 6
+        },
+        {
+          "label": "Strobe (Slow > Fast)",
+          "min": 7,
+          "max": 65
+        },
+        {
+          "label": "None",
+          "min": 66,
+          "max": 69
+        },
+        {
+          "label": "Pulse Strobe (Slow > Fast)",
+          "min": 70,
+          "max": 128
+        },
+        {
+          "label": "None",
+          "min": 129,
+          "max": 132
+        },
+        {
+          "label": "Strobe Fadding In (Slow > Fast)",
+          "min": 133,
+          "max": 191
+        },
+        {
+          "label": "None",
+          "min": 192,
+          "max": 195
+        },
+        {
+          "label": "Strobe Fadding Out (Slow > Fast)",
+          "min": 196,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 17,
+      "type_description": "Static Color Select (if Ch7 60-119) or Strobe Slow to Fast (if Ch7 120-179)",
+      "capabilities": [
+        {
+          "label": "Static Color Select (if Ch7 60-119) or Strobe Slow to Fast (if Ch7 120-179)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 17,
+      "type_description": "Function Mode",
+      "capabilities": [
+        {
+          "label": "Dimmer Mode",
+          "min": 0,
+          "max": 59
+        },
+        {
+          "label": "Static Color Mode",
+          "min": 60,
+          "max": 119
+        },
+        {
+          "label": "Hop Change Mode",
+          "min": 120,
+          "max": 179
+        },
+        {
+          "label": "Gradual Change Mode",
+          "min": 180,
+          "max": 239
+        },
+        {
+          "label": "Sound Active Mode",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/BoomToneDJ/BoomToneDJ-Slim-PAR-7x3W-LED-RGB.json",
+  "id": 242
+}

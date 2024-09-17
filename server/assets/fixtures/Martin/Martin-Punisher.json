@@ -1,0 +1,259 @@
+{
+  "version": "1.0.0",
+  "label": "Punisher",
+  "manufacturer": "Martin",
+  "bulb_type": "EHJ 250W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 7,
+  "dimension_width": 265,
+  "dimension_height": 303,
+  "dimension_depth": 340,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 270,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Lamp",
+      "capabilities": [
+        {
+          "label": "Lamp OFF",
+          "min": 0,
+          "max": 11
+        },
+        {
+          "label": "Lamp ON",
+          "min": 12,
+          "max": 193
+        },
+        {
+          "label": "Gobo strobe slow to fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 17,
+      "type_description": "Trigger Mode",
+      "capabilities": [
+        {
+          "label": "OFF",
+          "min": 0,
+          "max": 11
+        },
+        {
+          "label": "Music triggered",
+          "min": 12,
+          "max": 127
+        },
+        {
+          "label": "Controller triggered when 195 crossed",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Parabol speed",
+      "capabilities": [
+        {
+          "label": "CW rotation fast to slow",
+          "min": 0,
+          "max": 91
+        },
+        {
+          "label": "STOP",
+          "min": 92,
+          "max": 98
+        },
+        {
+          "label": "CCW rotation slow to fast",
+          "min": 99,
+          "max": 189
+        },
+        {
+          "label": "Random slow (triggered)",
+          "min": 190,
+          "max": 231
+        },
+        {
+          "label": "Random fast (triggered)",
+          "min": 232,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 22,
+      "type_description": "Trigger decay",
+      "capabilities": [
+        {
+          "label": "0 seconds",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "0.2 to 9.9 seconds",
+          "min": 5,
+          "max": 252
+        },
+        {
+          "label": "Random (triggered)",
+          "min": 253,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Colour/Gobo",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Position 1",
+          "min": 6,
+          "max": 20
+        },
+        {
+          "label": "Position 2",
+          "min": 21,
+          "max": 36
+        },
+        {
+          "label": "Position 3",
+          "min": 37,
+          "max": 52
+        },
+        {
+          "label": "Position 4",
+          "min": 53,
+          "max": 68
+        },
+        {
+          "label": "Position 5",
+          "min": 69,
+          "max": 84
+        },
+        {
+          "label": "Position 6",
+          "min": 85,
+          "max": 100
+        },
+        {
+          "label": "Position 7",
+          "min": 101,
+          "max": 116
+        },
+        {
+          "label": "Position 8",
+          "min": 117,
+          "max": 132
+        },
+        {
+          "label": "Position 9",
+          "min": 133,
+          "max": 148
+        },
+        {
+          "label": "Position 10",
+          "min": 149,
+          "max": 164
+        },
+        {
+          "label": "Position 11",
+          "min": 165,
+          "max": 180
+        },
+        {
+          "label": "Position 12",
+          "min": 181,
+          "max": 196
+        },
+        {
+          "label": "No effect",
+          "min": 197,
+          "max": 244
+        },
+        {
+          "label": "Random (triggered)",
+          "min": 245,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 22,
+      "type_description": "Shake",
+      "capabilities": [
+        {
+          "label": "OFF",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Slow to fast",
+          "min": 5,
+          "max": 252
+        },
+        {
+          "label": "Random (triggered)",
+          "min": 253,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 17,
+      "type_description": "Control",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 50
+        },
+        {
+          "label": "Slow random action",
+          "min": 51,
+          "max": 101
+        },
+        {
+          "label": "Medium random action",
+          "min": 102,
+          "max": 152
+        },
+        {
+          "label": "Fast random action",
+          "min": 153,
+          "max": 203
+        },
+        {
+          "label": "Random speed and action",
+          "min": 204,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Martin/Martin-Punisher.json",
+  "id": 1084
+}

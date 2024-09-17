@@ -1,0 +1,299 @@
+{
+  "version": "1.0.0",
+  "label": "Helios-II",
+  "manufacturer": "Algam",
+  "bulb_type": "",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 0,
+  "dimension_width": 0,
+  "dimension_height": 0,
+  "dimension_depth": 0,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 0,
+  "technical_dmx_connector": "5-pin",
+  "type": {
+    "id": 12,
+    "label": "Strobe",
+    "thumb": ""
+  },
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "no",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "red",
+          "min": 6,
+          "max": 20
+        },
+        {
+          "label": "green",
+          "min": 21,
+          "max": 35
+        },
+        {
+          "label": "blue",
+          "min": 36,
+          "max": 50
+        },
+        {
+          "label": "white",
+          "min": 51,
+          "max": 65
+        },
+        {
+          "label": "red / green",
+          "min": 66,
+          "max": 80
+        },
+        {
+          "label": "red / blue",
+          "min": 81,
+          "max": 95
+        },
+        {
+          "label": "red / white",
+          "min": 96,
+          "max": 110
+        },
+        {
+          "label": "green / blue",
+          "min": 111,
+          "max": 125
+        },
+        {
+          "label": "green / white",
+          "min": 126,
+          "max": 140
+        },
+        {
+          "label": "blue / white",
+          "min": 141,
+          "max": 155
+        },
+        {
+          "label": "red / green / blue",
+          "min": 156,
+          "max": 170
+        },
+        {
+          "label": "red / green / white",
+          "min": 171,
+          "max": 185
+        },
+        {
+          "label": "green / blue / white",
+          "min": 186,
+          "max": 200
+        },
+        {
+          "label": "red / green / blue / white",
+          "min": 201,
+          "max": 215
+        },
+        {
+          "label": "auto - 4 colors",
+          "min": 216,
+          "max": 230
+        },
+        {
+          "label": "auto - uni color / multi color",
+          "min": 231,
+          "max": 255
+        }
+      ],
+      "value": 0,
+      "capability": {
+        "label": "no",
+        "min": 0,
+        "max": 5
+      }
+    },
+    {
+      "index": 1,
+      "type": {
+        "id": 5,
+        "label": "Intensity",
+        "thumb": ""
+      },
+      "type_description": "Strobe Channel",
+      "capabilities": [
+        {
+          "label": "no",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "dimmer",
+          "min": 6,
+          "max": 255
+        }
+      ],
+      "value": 0,
+      "capability": {
+        "label": "no",
+        "min": 0,
+        "max": 5
+      }
+    },
+    {
+      "index": 2,
+      "type": {
+        "id": 19,
+        "label": "Pan",
+        "thumb": ""
+      },
+      "type_description": "Rotation",
+      "capabilities": [
+        {
+          "label": "no",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "motor index",
+          "min": 1,
+          "max": 127
+        },
+        {
+          "label": "motor speed",
+          "min": 128,
+          "max": 255
+        }
+      ],
+      "value": 0,
+      "capability": {
+        "label": "no",
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "index": 3,
+      "type": {
+        "id": 5,
+        "label": "Intensity",
+        "thumb": ""
+      },
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "no",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Speed 1",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Speed 2",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Speed 3",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Speed 4",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Speed 5",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Speed 6",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Speed 7",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Speed 8",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Speed 9",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Speed 10",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Speed 11",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Speed 12",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Speed 13",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Speed 14",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Speed 15",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Speed 16",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Speed 17",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Speed 18",
+          "min": 180,
+          "max": 255
+        }
+      ],
+      "value": 0,
+      "capability": {
+        "label": "no",
+        "min": 0,
+        "max": 9
+      }
+    }
+  ],
+  "filePath": "./assets/fixtures/Kylii-Kids/Kylii-Kids-Helios-II-4ch.json",
+  "id": 944,
+  "index": 0
+}

@@ -1,0 +1,448 @@
+{
+  "version": "1.0.0",
+  "label": "Spot G60",
+  "manufacturer": "MFL",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 147,
+  "dimension_height": 265,
+  "dimension_depth": 159,
+  "lens_label": "Other",
+  "lens_degree_min": 13,
+  "lens_degree_max": 13,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 230,
+  "technical_power_consumption": 100,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan Position",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt Position",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Fast Strobe From Slow To Fast",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "Open",
+          "min": 132,
+          "max": 139
+        },
+        {
+          "label": "Fast Close Slow Open",
+          "min": 140,
+          "max": 181
+        },
+        {
+          "label": "Open",
+          "min": 182,
+          "max": 189
+        },
+        {
+          "label": "Slow Close Fast Open",
+          "min": 190,
+          "max": 231
+        },
+        {
+          "label": "Open",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Random",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Color Wheel",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Open+Color1 (White+Red)",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Color1 (Red)",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Color1+Color2 (Red+Green)",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Color2 (Green)",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Color2+Color3 (Green+Blue)",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Color3 (Blue)",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Color3+Color4 (Blue+Yellow)",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Color4 (Yellow)",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Color4+Color5 (Yellow+Magenta)",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Color5 (Magenta)",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Color5+Color6 (Magenta+Cyan)",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Color6 (Cyan)",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Color6+Color7 (Cyan+Amber)",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Color7 (Amber)",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Color7+Open (Amber+White)",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "From Fast to Slow Clockwise Rotation",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "From Slow to Fast Counter Clockwise Rotation",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 4,
+      "type_description": "Pattern Plate",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 8
+        },
+        {
+          "label": "Gobo 1",
+          "min": 9,
+          "max": 17
+        },
+        {
+          "label": "Gobo 2",
+          "min": 18,
+          "max": 25
+        },
+        {
+          "label": "Gobo 3",
+          "min": 26,
+          "max": 34
+        },
+        {
+          "label": "Gobo 4",
+          "min": 35,
+          "max": 42
+        },
+        {
+          "label": "Gobo 5",
+          "min": 43,
+          "max": 51
+        },
+        {
+          "label": "Gobo 6",
+          "min": 52,
+          "max": 59
+        },
+        {
+          "label": "Gobo 7",
+          "min": 60,
+          "max": 68
+        },
+        {
+          "label": "Gobo 7 Shake",
+          "min": 69,
+          "max": 76
+        },
+        {
+          "label": "Gobo 6 Shake",
+          "min": 77,
+          "max": 85
+        },
+        {
+          "label": "Gobo 5 Shake",
+          "min": 86,
+          "max": 93
+        },
+        {
+          "label": "Gobo 4 Shake",
+          "min": 94,
+          "max": 102
+        },
+        {
+          "label": "Gobo 3 Shake",
+          "min": 103,
+          "max": 110
+        },
+        {
+          "label": "Gobo 2 Shake",
+          "min": 111,
+          "max": 119
+        },
+        {
+          "label": "Gobo 1 Shake",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "From Fast to Slow Clockwise Rotation",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "From Slow to Fast Counter Clockwise Rotation",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 17,
+      "type_description": "Function",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 70
+        },
+        {
+          "label": "Enable Blackout White Pan/Tilt Move",
+          "min": 71,
+          "max": 89
+        },
+        {
+          "label": "Disable Blackout While Pan/Tilt Move",
+          "min": 90,
+          "max": 109
+        },
+        {
+          "label": "Enable Blackout While Color Wheel Move",
+          "min": 110,
+          "max": 129
+        },
+        {
+          "label": "Disable Blacout While Color Wheel Move",
+          "min": 130,
+          "max": 149
+        },
+        {
+          "label": "Enable Blackout While Pattern Plate Move",
+          "min": 150,
+          "max": 169
+        },
+        {
+          "label": "Disable Blackout While Pattern Plate Move",
+          "min": 170,
+          "max": 189
+        },
+        {
+          "label": "No function",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Reset All",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "No function",
+          "min": 210,
+          "max": 249
+        },
+        {
+          "label": "Stand Alone",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Pan/Tilt Macro",
+      "capabilities": [
+        {
+          "label": "No Effect",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Effect 1",
+          "min": 16,
+          "max": 35
+        },
+        {
+          "label": "Effect 2",
+          "min": 36,
+          "max": 55
+        },
+        {
+          "label": "Effect 3",
+          "min": 56,
+          "max": 75
+        },
+        {
+          "label": "Effect 4",
+          "min": 76,
+          "max": 95
+        },
+        {
+          "label": "Effect 5",
+          "min": 96,
+          "max": 115
+        },
+        {
+          "label": "Effect 6",
+          "min": 116,
+          "max": 135
+        },
+        {
+          "label": "Effect 7",
+          "min": 136,
+          "max": 155
+        },
+        {
+          "label": "Effect 8",
+          "min": 156,
+          "max": 175
+        },
+        {
+          "label": "Effect 9",
+          "min": 176,
+          "max": 195
+        },
+        {
+          "label": "Effect 10",
+          "min": 196,
+          "max": 215
+        },
+        {
+          "label": "Effect 11",
+          "min": 216,
+          "max": 235
+        },
+        {
+          "label": "Effect 12",
+          "min": 236,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 22,
+      "type_description": "Pan/Tilt Macro Speed",
+      "capabilities": [
+        {
+          "label": "Fast to Slow",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/MFL/MFL-Spot-G60.json",
+  "id": 1029
+}

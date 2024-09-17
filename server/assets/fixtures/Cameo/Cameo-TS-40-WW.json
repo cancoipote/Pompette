@@ -1,0 +1,113 @@
+{
+  "version": "1.0.0",
+  "label": "TS 40 WW",
+  "manufacturer": "Cameo",
+  "bulb_type": "LED",
+  "bulb_lumens": 1567,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 145,
+  "dimension_height": 205,
+  "dimension_depth": 240,
+  "lens_label": "Other",
+  "lens_degree_min": 15,
+  "lens_degree_max": 38,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 40,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Dimmer Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Strobe open",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Strobe slow -> fast < 1 Hz - 20 Hz",
+          "min": 6,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Set Dimmer Curve",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Linear dimmer curve",
+          "min": 6,
+          "max": 63
+        },
+        {
+          "label": "Exponential dimmer curve",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Logarythmic dimmer curve",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "S-curve dimmer curve",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 17,
+      "type_description": "Device Settings",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Dimmer response LED (hold 3s)",
+          "min": 6,
+          "max": 63
+        },
+        {
+          "label": "Dimmer response halogen (hold 3s)",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "No function",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Cameo/Cameo-TS-40-WW.json",
+  "id": 334
+}

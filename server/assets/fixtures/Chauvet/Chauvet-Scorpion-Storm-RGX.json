@@ -1,0 +1,193 @@
+{
+  "version": "1.0.0",
+  "label": "Scorpion Storm RGX",
+  "manufacturer": "Chauvet",
+  "bulb_type": "Laser",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 235,
+  "dimension_height": 216,
+  "dimension_depth": 276,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 11,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Control Mode",
+      "capabilities": [
+        {
+          "label": "DMX Mode",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Automatic fast (red)",
+          "min": 20,
+          "max": 39
+        },
+        {
+          "label": "Automatic slow (red)",
+          "min": 40,
+          "max": 59
+        },
+        {
+          "label": "Automatic fast (green)",
+          "min": 60,
+          "max": 79
+        },
+        {
+          "label": "Automatic slow (green)",
+          "min": 80,
+          "max": 99
+        },
+        {
+          "label": "Automatic fast (red & green)",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "Automatic slow (red & green)",
+          "min": 120,
+          "max": 139
+        },
+        {
+          "label": "Sound (red)",
+          "min": 140,
+          "max": 159
+        },
+        {
+          "label": "Sound (green)",
+          "min": 160,
+          "max": 179
+        },
+        {
+          "label": "Sound (red & green)",
+          "min": 180,
+          "max": 199
+        },
+        {
+          "label": "Random",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Color selection",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Red",
+          "min": 5,
+          "max": 28
+        },
+        {
+          "label": "Green",
+          "min": 29,
+          "max": 56
+        },
+        {
+          "label": "Red & Green",
+          "min": 57,
+          "max": 84
+        },
+        {
+          "label": "Green strobing",
+          "min": 85,
+          "max": 112
+        },
+        {
+          "label": "Red strobing",
+          "min": 113,
+          "max": 140
+        },
+        {
+          "label": "Red on & Green strobing",
+          "min": 141,
+          "max": 168
+        },
+        {
+          "label": "Green on & Red strobing",
+          "min": 169,
+          "max": 197
+        },
+        {
+          "label": "Red & Green strobing",
+          "min": 198,
+          "max": 224
+        },
+        {
+          "label": "Red & green (alternate strobing)",
+          "min": 225,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Strobe (slow <=> fast)",
+          "min": 5,
+          "max": 254
+        },
+        {
+          "label": "Strobe to sound",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 20,
+      "type_description": "Rotation",
+      "capabilities": [
+        {
+          "label": "No Rotation",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Clockwise rotation (slow <=> fast)",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "Stop",
+          "min": 128,
+          "max": 133
+        },
+        {
+          "label": "Counterclockwise rotation (slow <=> fast)",
+          "min": 134,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-Scorpion-Storm-RGX.json",
+  "id": 526
+}

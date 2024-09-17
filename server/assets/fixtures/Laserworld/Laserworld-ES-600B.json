@@ -1,0 +1,247 @@
+{
+  "version": "1.0.0",
+  "label": "ES-600B",
+  "manufacturer": "Laserworld",
+  "bulb_type": "Laser",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 270,
+  "dimension_height": 160,
+  "dimension_depth": 230,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 40,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "Laser off",
+          "min": 0,
+          "max": 69
+        },
+        {
+          "label": "Sound mode",
+          "min": 70,
+          "max": 139
+        },
+        {
+          "label": "Automatic mode",
+          "min": 140,
+          "max": 209
+        },
+        {
+          "label": "DMX mode",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Patterns/Animations",
+      "capabilities": [
+        {
+          "label": "Patterns/Animations",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Point Speed",
+      "capabilities": [
+        {
+          "label": "Point Speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Movement X",
+      "capabilities": [
+        {
+          "label": "Manual",
+          "min": 0,
+          "max": 160
+        },
+        {
+          "label": "Auto right to left",
+          "min": 161,
+          "max": 189
+        },
+        {
+          "label": "Auto left to right",
+          "min": 190,
+          "max": 219
+        },
+        {
+          "label": "Auto changing",
+          "min": 220,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Movement Y",
+      "capabilities": [
+        {
+          "label": "Manual",
+          "min": 0,
+          "max": 160
+        },
+        {
+          "label": "Auto top to bottom",
+          "min": 161,
+          "max": 189
+        },
+        {
+          "label": "Auto bottom to top",
+          "min": 190,
+          "max": 219
+        },
+        {
+          "label": "Auto changing",
+          "min": 220,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Zoom",
+      "capabilities": [
+        {
+          "label": "No effect",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Increasing size",
+          "min": 11,
+          "max": 92
+        },
+        {
+          "label": "Automatic small to large",
+          "min": 93,
+          "max": 146
+        },
+        {
+          "label": "Automatic large to small",
+          "min": 147,
+          "max": 200
+        },
+        {
+          "label": "Automatic small to large to small...",
+          "min": 201,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "No function",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 17,
+      "type_description": "Reset",
+      "capabilities": [
+        {
+          "label": "no function",
+          "min": 0,
+          "max": 199
+        },
+        {
+          "label": "Reset over 200",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Rotation Y (Height)",
+      "capabilities": [
+        {
+          "label": "manual",
+          "min": 0,
+          "max": 150
+        },
+        {
+          "label": "auto",
+          "min": 151,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Rotation Z",
+      "capabilities": [
+        {
+          "label": "manual",
+          "min": 0,
+          "max": 180
+        },
+        {
+          "label": "auto CW",
+          "min": 181,
+          "max": 217
+        },
+        {
+          "label": "auto CCW",
+          "min": 218,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 3,
+      "type_description": "Rotation X (Width)",
+      "capabilities": [
+        {
+          "label": "Static rotation",
+          "min": 0,
+          "max": 150
+        },
+        {
+          "label": "Automatic rotation",
+          "min": 151,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Laserworld/Laserworld-ES-600B.json",
+  "id": 969
+}

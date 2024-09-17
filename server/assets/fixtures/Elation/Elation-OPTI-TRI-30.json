@@ -1,0 +1,125 @@
+{
+  "version": "1.0.0",
+  "label": "OPTI TRI 30",
+  "manufacturer": "Elation",
+  "bulb_type": "LED",
+  "bulb_lumens": 325,
+  "bulb_color_temperature": 2800,
+  "dimension_weight": 2,
+  "dimension_width": 191,
+  "dimension_height": 140,
+  "dimension_depth": 254,
+  "lens_label": "Other",
+  "lens_degree_min": 10,
+  "lens_degree_max": 10,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 30,
+  "technical_dmx_connector": "5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimming",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Color Macro",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Nothing",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Strobing/macro Speed",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 17,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "RGB using channels 1,2,3",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Dim - bright",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Bright -dim",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Dim - bright - dim",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "color mixing",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "3 color change",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "7 color change",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Sound active",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Elation/Elation-OPTI-TRI-30.json",
+  "id": 604
+}

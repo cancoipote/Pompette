@@ -1,0 +1,82 @@
+{
+  "version": "1.0.0",
+  "label": "Omni Tri-9",
+  "manufacturer": "Pro-Lights",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 6,
+  "dimension_width": 183,
+  "dimension_height": 306,
+  "dimension_depth": 330,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 78,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Effects",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Colour Macro",
+          "min": 5,
+          "max": 84
+        },
+        {
+          "label": "Colour Change",
+          "min": 85,
+          "max": 169
+        },
+        {
+          "label": "Colour Fade",
+          "min": 170,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Pro-Lights/Pro-Lights-Omni-Tri-9.json",
+  "id": 1142
+}

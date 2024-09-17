@@ -1,0 +1,597 @@
+{
+  "version": "1.0.0",
+  "label": "LB230",
+  "manufacturer": "Betopper",
+  "bulb_type": "HTI 250W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 8000,
+  "dimension_weight": 17,
+  "dimension_width": 228,
+  "dimension_height": 297,
+  "dimension_depth": 170,
+  "lens_label": "Other",
+  "lens_degree_min": 8,
+  "lens_degree_max": 8,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 400,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "White + Red",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "label": "Red",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Red + Yellow",
+          "min": 11,
+          "max": 15
+        },
+        {
+          "label": "Yellow",
+          "min": 16,
+          "max": 20
+        },
+        {
+          "label": "Yellow + Rose Red",
+          "min": 21,
+          "max": 25
+        },
+        {
+          "label": "Rose Red",
+          "min": 26,
+          "max": 30
+        },
+        {
+          "label": "Rose Red + Green",
+          "min": 31,
+          "max": 35
+        },
+        {
+          "label": "Green",
+          "min": 36,
+          "max": 40
+        },
+        {
+          "label": "Green + Blue",
+          "min": 41,
+          "max": 45
+        },
+        {
+          "label": "Blue",
+          "min": 46,
+          "max": 50
+        },
+        {
+          "label": "Blue + Gold",
+          "min": 51,
+          "max": 55
+        },
+        {
+          "label": "Gold",
+          "min": 56,
+          "max": 60
+        },
+        {
+          "label": "Gold Color + Light Blue Purple",
+          "min": 61,
+          "max": 65
+        },
+        {
+          "label": "Light Blue Purple",
+          "min": 66,
+          "max": 70
+        },
+        {
+          "label": "Light Blue Purple + Brown",
+          "min": 71,
+          "max": 75
+        },
+        {
+          "label": "Brown",
+          "min": 76,
+          "max": 80
+        },
+        {
+          "label": "Brown + Dark Yellow",
+          "min": 81,
+          "max": 85
+        },
+        {
+          "label": "Dark Yellow",
+          "min": 86,
+          "max": 90
+        },
+        {
+          "label": "Dark Yellow + Fluorescence",
+          "min": 91,
+          "max": 95
+        },
+        {
+          "label": "Fluorescence",
+          "min": 96,
+          "max": 100
+        },
+        {
+          "label": "Fluorescence + Blue Green",
+          "min": 101,
+          "max": 105
+        },
+        {
+          "label": "Blue Green",
+          "min": 106,
+          "max": 110
+        },
+        {
+          "label": "Blue Green + Clay Bank",
+          "min": 111,
+          "max": 115
+        },
+        {
+          "label": "Clay Bank",
+          "min": 116,
+          "max": 120
+        },
+        {
+          "label": "Clay Bank + Light Yellow",
+          "min": 121,
+          "max": 125
+        },
+        {
+          "label": "Light Yellow",
+          "min": 126,
+          "max": 130
+        },
+        {
+          "label": "Light Yellow + Amaranth",
+          "min": 131,
+          "max": 135
+        },
+        {
+          "label": "Amaranth",
+          "min": 136,
+          "max": 140
+        },
+        {
+          "label": "Amaranth +White",
+          "min": 141,
+          "max": 145
+        },
+        {
+          "label": "Slow Rotation",
+          "min": 146,
+          "max": 150
+        },
+        {
+          "label": "Fast Rotation",
+          "min": 151,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Fast Sequence",
+          "min": 4,
+          "max": 207
+        },
+        {
+          "label": "Open Light",
+          "min": 208,
+          "max": 212
+        },
+        {
+          "label": "Strobe Accidental",
+          "min": 213,
+          "max": 251
+        },
+        {
+          "label": "Open Light",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Gobo 1",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "label": "Gobo 2",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Gobo 3",
+          "min": 11,
+          "max": 15
+        },
+        {
+          "label": "Gobo 4",
+          "min": 16,
+          "max": 20
+        },
+        {
+          "label": "Gobo 5",
+          "min": 21,
+          "max": 25
+        },
+        {
+          "label": "Gobo 6",
+          "min": 26,
+          "max": 30
+        },
+        {
+          "label": "Gobo 7",
+          "min": 31,
+          "max": 35
+        },
+        {
+          "label": "Gobo 8",
+          "min": 36,
+          "max": 40
+        },
+        {
+          "label": "Gobo 9",
+          "min": 41,
+          "max": 45
+        },
+        {
+          "label": "Gobo 10",
+          "min": 46,
+          "max": 50
+        },
+        {
+          "label": "Gobo 11",
+          "min": 51,
+          "max": 55
+        },
+        {
+          "label": "Gobo 12",
+          "min": 56,
+          "max": 60
+        },
+        {
+          "label": "Gobo 13",
+          "min": 61,
+          "max": 65
+        },
+        {
+          "label": "Gobo 14",
+          "min": 66,
+          "max": 70
+        },
+        {
+          "label": "Gobo 15",
+          "min": 71,
+          "max": 75
+        },
+        {
+          "label": "Gobo 16",
+          "min": 76,
+          "max": 80
+        },
+        {
+          "label": "Gobo 17",
+          "min": 81,
+          "max": 85
+        },
+        {
+          "label": "Fast Alternation",
+          "min": 86,
+          "max": 90
+        },
+        {
+          "label": "Slow Alternation",
+          "min": 91,
+          "max": 129
+        },
+        {
+          "label": "Stop",
+          "min": 130,
+          "max": 134
+        },
+        {
+          "label": "Slow Alternation",
+          "min": 135,
+          "max": 135
+        },
+        {
+          "label": "Fast Alternation",
+          "min": 136,
+          "max": 170
+        },
+        {
+          "label": "Gobo 1 Slow Swining",
+          "min": 171,
+          "max": 171
+        },
+        {
+          "label": "Gobo 1 Fast Swining",
+          "min": 172,
+          "max": 175
+        },
+        {
+          "label": "Gobo 2 Slow Swining",
+          "min": 176,
+          "max": 176
+        },
+        {
+          "label": "Gobo 2 Fast Swining",
+          "min": 177,
+          "max": 180
+        },
+        {
+          "label": "No Function",
+          "min": 181,
+          "max": 245
+        },
+        {
+          "label": "Gobo 16 Slow Swining",
+          "min": 246,
+          "max": 249
+        },
+        {
+          "label": "Gobo 16 Fast Swining",
+          "min": 250,
+          "max": 250
+        },
+        {
+          "label": "Gobo 17 Slow Swining",
+          "min": 251,
+          "max": 251
+        },
+        {
+          "label": "Gobo 17 Fast Swinig",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "Prism Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Prism On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 20,
+      "type_description": "Prism rotation",
+      "capabilities": [
+        {
+          "label": "Angle Adjustment",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "Hourly Rotation",
+          "min": 64,
+          "max": 129
+        },
+        {
+          "label": "Against Rotation",
+          "min": 130,
+          "max": 190
+        },
+        {
+          "label": "Prism Slow to fast",
+          "min": 191,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "No function",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 1,
+      "type_description": "Frost",
+      "capabilities": [
+        {
+          "label": "Frost Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Frost On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 3,
+      "type_description": "Macro",
+      "capabilities": [
+        {
+          "label": "Macros",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 17,
+      "type_description": "Reset",
+      "capabilities": [
+        {
+          "label": "No Function",
+          "min": 0,
+          "max": 25
+        },
+        {
+          "label": "Reset Effect",
+          "min": 26,
+          "max": 76
+        },
+        {
+          "label": "Reset Pan/Tilt",
+          "min": 77,
+          "max": 127
+        },
+        {
+          "label": "Reset All",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 17,
+      "type_description": "Lamp Control",
+      "capabilities": [
+        {
+          "label": "No Function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Lamp Off",
+          "min": 10,
+          "max": 100
+        },
+        {
+          "label": "Lamp On",
+          "min": 101,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Pan speed",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 22,
+      "type_description": "Color Time",
+      "capabilities": [
+        {
+          "label": "Color Time",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 22,
+      "type_description": "Beam Speed",
+      "capabilities": [
+        {
+          "label": "Beam Speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 22,
+      "type_description": "Gobo Time",
+      "capabilities": [
+        {
+          "label": "Gobo Time",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Betopper/Betopper-LB230.json",
+  "id": 183
+}

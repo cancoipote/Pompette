@@ -1,0 +1,534 @@
+{
+  "version": "1.0.0",
+  "label": "Fuze 75B Beam",
+  "manufacturer": "beamZ",
+  "bulb_type": "LED",
+  "bulb_lumens": 2,
+  "bulb_color_temperature": 8000,
+  "dimension_weight": 6,
+  "dimension_width": 250,
+  "dimension_height": 350,
+  "dimension_depth": 150,
+  "lens_label": "Other",
+  "lens_degree_min": 4,
+  "lens_degree_max": 4,
+  "focus_type": "Head",
+  "focus_pan_max": 630,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 75,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan Mode",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt Mode",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Blue",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Green",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Light Yellow",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Magenta",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Snowy white",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Light Blue",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Orange",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Light Green",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Light Pink",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Warm Yellow",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Blue",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Color Wheel Rotation slow to fast CW",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Colour wheel rotation stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Colour wheel rotation, slow to fast CCW",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 4,
+      "type_description": "Gobo wheel",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Gobo 1",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "Gobo 2",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "Gobo 3",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "Gobo 4",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "Gobo 5",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "Gobo 6",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "Gobo 7",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "Gobo 8",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "Gobo 9",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "Gobo 10",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "Gobo 11",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "Gobo 12",
+          "min": 60,
+          "max": 64
+        },
+        {
+          "label": "Gobo 13",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "Gobo 14",
+          "min": 70,
+          "max": 74
+        },
+        {
+          "label": "Gobo 15",
+          "min": 75,
+          "max": 79
+        },
+        {
+          "label": "Gobo 16",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "Gobo 17",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "Gobo 1 shake, slow-fast",
+          "min": 90,
+          "max": 97
+        },
+        {
+          "label": "Gobo 2 shake, slot-fast",
+          "min": 98,
+          "max": 105
+        },
+        {
+          "label": "Gobo 3 shake, slow to fast",
+          "min": 106,
+          "max": 113
+        },
+        {
+          "label": "Gobo 4 shake, slow to fast",
+          "min": 114,
+          "max": 121
+        },
+        {
+          "label": "Gobo 5 shake, slow to fast",
+          "min": 122,
+          "max": 129
+        },
+        {
+          "label": "Gobo 6 shake, slow to fast",
+          "min": 130,
+          "max": 137
+        },
+        {
+          "label": "Gobo 7 shake, slow to fast",
+          "min": 138,
+          "max": 145
+        },
+        {
+          "label": "Gobo 8 shake, slow to fast",
+          "min": 146,
+          "max": 153
+        },
+        {
+          "label": "Gobo 9 shake, slow to fast",
+          "min": 154,
+          "max": 161
+        },
+        {
+          "label": "Gobo 10 shake, slow to fast",
+          "min": 162,
+          "max": 169
+        },
+        {
+          "label": "Gobo 11 shake, slow to fast",
+          "min": 170,
+          "max": 177
+        },
+        {
+          "label": "Gobo 12 shake, slow to fast",
+          "min": 178,
+          "max": 185
+        },
+        {
+          "label": "Gobo 13 shake, slow to fast",
+          "min": 186,
+          "max": 193
+        },
+        {
+          "label": "Gobo 14 shake, slow to fast",
+          "min": 194,
+          "max": 201
+        },
+        {
+          "label": "Gobo 15 shake, slow to fast",
+          "min": 202,
+          "max": 209
+        },
+        {
+          "label": "Gobo 16 shake, slow to fast",
+          "min": 210,
+          "max": 217
+        },
+        {
+          "label": "Gobo 17 shake, slow to fast",
+          "min": 218,
+          "max": 225
+        },
+        {
+          "label": "Gobo wheel rotation slow to fast",
+          "min": 226,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Shutter open",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe effect, slow to fast",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Shutter open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse-effect, slow to fast",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Shutter open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Strobe random, slow to fast",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Shutter open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 20,
+      "type_description": "Prism rotation",
+      "capabilities": [
+        {
+          "label": "Prism ON",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Prism OFF",
+          "min": 6,
+          "max": 127
+        },
+        {
+          "label": "Prism rotating, fast to slow CCW",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "STOP",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Prism rotating, slow to fast CW",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 1,
+      "type_description": "Frost",
+      "capabilities": [
+        {
+          "label": "Frost OUT",
+          "min": 0,
+          "max": 199
+        },
+        {
+          "label": "Frost IN",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 22,
+      "type_description": "Pan/Tilt speed",
+      "capabilities": [
+        {
+          "label": "Speed, fast to slow",
+          "min": 0,
+          "max": 225
+        },
+        {
+          "label": "Blackout by movement",
+          "min": 226,
+          "max": 235
+        },
+        {
+          "label": "Blackout by wheel changing",
+          "min": 236,
+          "max": 245
+        },
+        {
+          "label": "no function",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Specials",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 79
+        },
+        {
+          "label": "Reset all",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "Reset Pan/Tilt",
+          "min": 85,
+          "max": 87
+        },
+        {
+          "label": "Reset colour wheel",
+          "min": 88,
+          "max": 90
+        },
+        {
+          "label": "Reset gobo wheel",
+          "min": 91,
+          "max": 93
+        },
+        {
+          "label": "No function",
+          "min": 94,
+          "max": 96
+        },
+        {
+          "label": "Reset others",
+          "min": 97,
+          "max": 99
+        },
+        {
+          "label": "Program 1",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "Program 2",
+          "min": 120,
+          "max": 139
+        },
+        {
+          "label": "Program 3",
+          "min": 140,
+          "max": 159
+        },
+        {
+          "label": "Program 4",
+          "min": 160,
+          "max": 179
+        },
+        {
+          "label": "Program 5",
+          "min": 180,
+          "max": 199
+        },
+        {
+          "label": "Program 6",
+          "min": 200,
+          "max": 219
+        },
+        {
+          "label": "Program 7",
+          "min": 220,
+          "max": 239
+        },
+        {
+          "label": "Program SOUND",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/beamZ/beamZ-Fuze-75B-Beam.json",
+  "id": 197
+}

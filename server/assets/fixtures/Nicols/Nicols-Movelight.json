@@ -1,0 +1,174 @@
+{
+  "version": "1.0.0",
+  "label": "Movelight",
+  "manufacturer": "Nicols",
+  "bulb_type": "LED",
+  "bulb_lumens": 450,
+  "bulb_color_temperature": 6000,
+  "dimension_weight": 2,
+  "dimension_width": 289,
+  "dimension_height": 299,
+  "dimension_depth": 105,
+  "lens_label": "Fresnel",
+  "lens_degree_min": 30,
+  "lens_degree_max": 30,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 30,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Color macros",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Yellow",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Green",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Cyan",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Blue",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Purple",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Pink",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "White",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Program 02",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Program 03",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Program 04",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Program 05",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Program 06",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Program 07",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Program 08",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Program 09",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Sound sensitivity",
+          "min": 170,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 22,
+      "type_description": "Program/Speed/Sensitivity",
+      "capabilities": [
+        {
+          "label": "Program",
+          "min": 0,
+          "max": 89
+        },
+        {
+          "label": "Speed (slow to fast)",
+          "min": 90,
+          "max": 169
+        },
+        {
+          "label": "Sensitivity 0-255",
+          "min": 170,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Nicols/Nicols-Movelight.json",
+  "id": 1111
+}

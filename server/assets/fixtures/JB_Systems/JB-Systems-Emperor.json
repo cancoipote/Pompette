@@ -1,0 +1,413 @@
+{
+  "version": "1.0.0",
+  "label": "Emperor",
+  "manufacturer": "JB Systems",
+  "bulb_type": "MSD 250W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 19,
+  "dimension_width": 400,
+  "dimension_height": 510,
+  "dimension_depth": 360,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Head",
+  "focus_pan_max": 570,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 350,
+  "technical_dmx_connector": "5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Speed",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Lamp",
+          "min": 0,
+          "max": 135
+        },
+        {
+          "label": "Gobo Shaking",
+          "min": 136,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "white",
+          "min": 0,
+          "max": 13
+        },
+        {
+          "label": "blue",
+          "min": 14,
+          "max": 26
+        },
+        {
+          "label": "yellow",
+          "min": 27,
+          "max": 39
+        },
+        {
+          "label": "green",
+          "min": 40,
+          "max": 52
+        },
+        {
+          "label": "blu white",
+          "min": 53,
+          "max": 64
+        },
+        {
+          "label": "orange",
+          "min": 65,
+          "max": 77
+        },
+        {
+          "label": "pink",
+          "min": 78,
+          "max": 90
+        },
+        {
+          "label": "magenta",
+          "min": 91,
+          "max": 103
+        },
+        {
+          "label": "Amber",
+          "min": 104,
+          "max": 116
+        },
+        {
+          "label": "green light",
+          "min": 117,
+          "max": 128
+        },
+        {
+          "label": "Loop",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 17,
+      "type_description": "No1",
+      "capabilities": [
+        {
+          "label": "no function",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 17,
+      "type_description": "No2",
+      "capabilities": [
+        {
+          "label": "no function",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 4,
+      "type_description": "Gobos",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 16
+        },
+        {
+          "label": "Gobo1",
+          "min": 17,
+          "max": 32
+        },
+        {
+          "label": "Gobo2",
+          "min": 33,
+          "max": 47
+        },
+        {
+          "label": "Gobo7",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Gobo3",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Gobo4",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Gobo5",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Gobo6",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Loop Slow",
+          "min": 128,
+          "max": 140
+        },
+        {
+          "label": "Loop Fast",
+          "min": 141,
+          "max": 158
+        },
+        {
+          "label": "Loop Medium",
+          "min": 159,
+          "max": 160
+        },
+        {
+          "label": "No function",
+          "min": 161,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 4,
+      "type_description": "Gobos rotation",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Slow",
+          "min": 11,
+          "max": 45
+        },
+        {
+          "label": "Med",
+          "min": 46,
+          "max": 90
+        },
+        {
+          "label": "Fast",
+          "min": 91,
+          "max": 121
+        },
+        {
+          "label": "No Rotation",
+          "min": 122,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 128
+        },
+        {
+          "label": "On",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 20,
+      "type_description": "Prism Rotation",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Fast",
+          "min": 11,
+          "max": 45
+        },
+        {
+          "label": "Medium",
+          "min": 46,
+          "max": 90
+        },
+        {
+          "label": "Slow",
+          "min": 91,
+          "max": 121
+        },
+        {
+          "label": "No Rotation",
+          "min": 122,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 3,
+      "type_description": "Focus",
+      "capabilities": [
+        {
+          "label": "Focus",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 17,
+      "type_description": "Auto",
+      "capabilities": [
+        {
+          "label": "DMX 512",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Show1 High",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Show1 Medium",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Show1 Slow",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Show2 Hight",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Show2 Medium",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Show2 Slow",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Music Show 1",
+          "min": 224,
+          "max": 240
+        },
+        {
+          "label": "Music Show 2",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 17,
+      "type_description": "Auto2",
+      "capabilities": [
+        {
+          "label": "Gobo+Color",
+          "min": 0,
+          "max": 47
+        },
+        {
+          "label": "Rotating Gobo Low",
+          "min": 48,
+          "max": 95
+        },
+        {
+          "label": "Strobe",
+          "min": 96,
+          "max": 143
+        },
+        {
+          "label": "Shaking",
+          "min": 144,
+          "max": 191
+        },
+        {
+          "label": "Prism + Rot Prism Low",
+          "min": 192,
+          "max": 239
+        },
+        {
+          "label": "Mixed",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 17,
+      "type_description": "Reset",
+      "capabilities": [
+        {
+          "label": "Normal to Reset",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/JB_Systems/JB-Systems-Emperor.json",
+  "id": 926
+}

@@ -1,0 +1,265 @@
+{
+  "version": "1.0.0",
+  "label": "SC250H",
+  "manufacturer": "Stairville",
+  "bulb_type": "ELC 250W",
+  "bulb_lumens": 800,
+  "bulb_color_temperature": 3200,
+  "dimension_weight": 10,
+  "dimension_width": 270,
+  "dimension_height": 555,
+  "dimension_depth": 285,
+  "lens_label": "Other",
+  "lens_degree_min": 18,
+  "lens_degree_max": 18,
+  "focus_type": "Mirror",
+  "focus_pan_max": 180,
+  "focus_tilt_max": 90,
+  "technical_power_consumption": 300,
+  "technical_dmx_connector": "3-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 21,
+      "type_description": "Shutter/Strobe",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Open",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Strobe, slow to fast",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "Shake, slow to fast",
+          "min": 132,
+          "max": 247
+        },
+        {
+          "label": "Open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 8
+        },
+        {
+          "label": "Gobo 01",
+          "min": 9,
+          "max": 17
+        },
+        {
+          "label": "Gobo 02",
+          "min": 18,
+          "max": 25
+        },
+        {
+          "label": "Gobo 03",
+          "min": 26,
+          "max": 34
+        },
+        {
+          "label": "Gobo 04",
+          "min": 35,
+          "max": 43
+        },
+        {
+          "label": "Gobo 05",
+          "min": 44,
+          "max": 51
+        },
+        {
+          "label": "Gobo 06",
+          "min": 52,
+          "max": 59
+        },
+        {
+          "label": "Gobo 07",
+          "min": 60,
+          "max": 68
+        },
+        {
+          "label": "Gobo 08",
+          "min": 69,
+          "max": 76
+        },
+        {
+          "label": "Gobo 09",
+          "min": 77,
+          "max": 85
+        },
+        {
+          "label": "Gobo 10",
+          "min": 86,
+          "max": 93
+        },
+        {
+          "label": "Gobo 11",
+          "min": 94,
+          "max": 102
+        },
+        {
+          "label": "Gobo 12",
+          "min": 103,
+          "max": 110
+        },
+        {
+          "label": "Gobo 13",
+          "min": 111,
+          "max": 119
+        },
+        {
+          "label": "Gobo 14",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Rotate",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Green",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Green/Magenta",
+          "min": 16,
+          "max": 22
+        },
+        {
+          "label": "Magenta",
+          "min": 23,
+          "max": 30
+        },
+        {
+          "label": "Light blue",
+          "min": 31,
+          "max": 37
+        },
+        {
+          "label": "Amber",
+          "min": 38,
+          "max": 45
+        },
+        {
+          "label": "Red",
+          "min": 46,
+          "max": 52
+        },
+        {
+          "label": "Red/Blue",
+          "min": 53,
+          "max": 60
+        },
+        {
+          "label": "Blue",
+          "min": 61,
+          "max": 67
+        },
+        {
+          "label": "UV",
+          "min": 68,
+          "max": 75
+        },
+        {
+          "label": "Light green",
+          "min": 76,
+          "max": 82
+        },
+        {
+          "label": "Light green/Orange",
+          "min": 83,
+          "max": 90
+        },
+        {
+          "label": "Orange",
+          "min": 91,
+          "max": 97
+        },
+        {
+          "label": "Orange/Yellow",
+          "min": 98,
+          "max": 105
+        },
+        {
+          "label": "Yellow",
+          "min": 106,
+          "max": 112
+        },
+        {
+          "label": "Yellow/Pink",
+          "min": 113,
+          "max": 120
+        },
+        {
+          "label": "Pink",
+          "min": 121,
+          "max": 127
+        },
+        {
+          "label": "Rainbow",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "No function",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Stairville/Stairville-SC250H.json",
+  "id": 1441
+}

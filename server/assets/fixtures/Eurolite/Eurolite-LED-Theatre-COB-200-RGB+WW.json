@@ -1,0 +1,345 @@
+{
+  "version": "1.0.0",
+  "label": "LED Theatre COB 200 RGB+WW",
+  "manufacturer": "Eurolite",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 259,
+  "dimension_height": 376,
+  "dimension_depth": 200,
+  "lens_label": "Other",
+  "lens_degree_min": 17,
+  "lens_degree_max": 17,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 140,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Sound Control",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Color temperature",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "1800K",
+          "min": 10,
+          "max": 39
+        },
+        {
+          "label": "2200K",
+          "min": 40,
+          "max": 69
+        },
+        {
+          "label": "2700K",
+          "min": 70,
+          "max": 99
+        },
+        {
+          "label": "3200K",
+          "min": 100,
+          "max": 129
+        },
+        {
+          "label": "4300K",
+          "min": 130,
+          "max": 159
+        },
+        {
+          "label": "5600K",
+          "min": 160,
+          "max": 189
+        },
+        {
+          "label": "6500K",
+          "min": 190,
+          "max": 219
+        },
+        {
+          "label": "8000K",
+          "min": 220,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Preset Colors",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Green",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Blue",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Warm white",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Yellow",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Magenta",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Cyan",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Dark orange",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Green yellow",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Salmon",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Turquoise",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Light green",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Orange",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Straw",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Lavender",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Light blue",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Dark blue",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Pink",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Full on",
+          "min": 190,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Internal programs",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Auto program 1",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Auto program 2",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Auto program 3",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Auto program 4",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Auto program 5",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Auto program 6",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Auto program 7",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Auto program 8",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Auto program 9",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Sound control program 1",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Sound control program 2",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Sound control program 3",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Sound control program 4",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Sound control program 5",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Sound control program 6",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Sound control program 7",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Sound control program 8",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Sound control program 9",
+          "min": 180,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 22,
+      "type_description": "Speed Internal programs",
+      "capabilities": [
+        {
+          "label": "Speed internal programs, increasing",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-LED-Theatre-COB-200-RGB+WW.json",
+  "id": 729
+}

@@ -1,0 +1,294 @@
+{
+  "version": "1.0.0",
+  "label": "Q-Spot 250",
+  "manufacturer": "Chauvet",
+  "bulb_type": "MSD 250W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 25,
+  "dimension_width": 400,
+  "dimension_height": 476,
+  "dimension_depth": 400,
+  "lens_label": "",
+  "lens_degree_min": 21,
+  "lens_degree_max": 21,
+  "focus_type": "Head",
+  "focus_pan_max": 530,
+  "focus_tilt_max": 280,
+  "technical_power_consumption": 300,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 17,
+      "type_description": "Lamp on/off & Reset",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Lamp on after 3 seconds when lamp is off",
+          "min": 128,
+          "max": 139
+        },
+        {
+          "label": "No function",
+          "min": 140,
+          "max": 229
+        },
+        {
+          "label": "Lamp off after 3 seconds",
+          "min": 230,
+          "max": 239
+        },
+        {
+          "label": "No function",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Color Wheel",
+      "capabilities": [
+        {
+          "label": "White Open",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Cyan",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Green",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Yellow",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Magenta",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Pink",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Orange",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Dark Blue",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Rainbow effect: Fast > Slow (clockwise)",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "No rotation",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Clockwise rotation: Fast > Slow",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "No rotation",
+          "min": 128,
+          "max": 132
+        },
+        {
+          "label": "Counter-clockwise rotation: Slow > Fast",
+          "min": 133,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 4,
+      "type_description": "Rotating Gobo Wheel",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Gobo 1",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Gobo 2",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Gobo 3",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Gobo 4",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Gobo 5",
+          "min": 160,
+          "max": 223
+        },
+        {
+          "label": "Gobo Spin: Slow > Fast",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 4,
+      "type_description": "Gobo Rotation & Index",
+      "capabilities": [
+        {
+          "label": "Gobo Incremental rotation",
+          "min": 0,
+          "max": 40
+        },
+        {
+          "label": "Constant rotation",
+          "min": 41,
+          "max": 60
+        },
+        {
+          "label": "Clockwise rotation: Slow > Fast",
+          "min": 61,
+          "max": 158
+        },
+        {
+          "label": "Counter-clockwise rotation: Slow > Fast",
+          "min": 159,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 21,
+      "type_description": "Shutter/Strobe",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Open",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe: Slow > Fast (max 10fps)",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse Strobe: Slow > Fast",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random Strobe: Slow > Fast",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-Q-Spot-250.json",
+  "id": 511
+}

@@ -1,0 +1,81 @@
+{
+  "version": "1.0.0",
+  "label": "7x20W COB LED Theater PAR",
+  "manufacturer": "Stage Right",
+  "bulb_type": "LED",
+  "bulb_lumens": 2780,
+  "bulb_color_temperature": 3200,
+  "dimension_weight": 8,
+  "dimension_width": 31,
+  "dimension_height": 34,
+  "dimension_depth": 256,
+  "lens_label": "Other",
+  "lens_degree_min": 28,
+  "lens_degree_max": 70,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 160,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Strobe Speed",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Strobe speed 5-20Hz",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 22,
+      "type_description": "Dimmer speed",
+      "capabilities": [
+        {
+          "label": "Real time",
+          "min": 0,
+          "max": 64
+        },
+        {
+          "label": "Fast controlled response (Recommended for use with less expensive DMX512 controllers)",
+          "min": 65,
+          "max": 128
+        },
+        {
+          "label": "Medium controlled response",
+          "min": 129,
+          "max": 192
+        },
+        {
+          "label": "Slow controlled response",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Stage_Right/Stage-Right-7x20W-COB-LED-Theater-PAR.json",
+  "id": 1348
+}

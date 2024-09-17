@@ -1,0 +1,1863 @@
+{
+  "version": "1.0.0",
+  "label": "Robin MiniMe",
+  "manufacturer": "Robe",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 5,
+  "dimension_width": 250,
+  "dimension_height": 345,
+  "dimension_depth": 190,
+  "lens_label": "Other",
+  "lens_degree_min": 16,
+  "lens_degree_max": 16,
+  "focus_type": "Fixed",
+  "focus_pan_max": 450,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 100,
+  "technical_dmx_connector": "5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Pan/Tilt Speed, Pan/Tilt Time",
+      "capabilities": [
+        {
+          "label": "Standard mode",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Max. speed mode",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "label": "Speed from max. to min./Time from 0.2s. to 25.5s.",
+          "min": 2,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 17,
+      "type_description": "Special Functions",
+      "capabilities": [
+        {
+          "label": "Reserved",
+          "min": 0,
+          "max": 49
+        },
+        {
+          "label": "Pan/tilt speed mode",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Pan/tilt time mode",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Blackout while pan/tilt moving",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Disabled while pan/tilt moving",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Ceiling projection on",
+          "min": 90,
+          "max": 94
+        },
+        {
+          "label": "Ceiling projection off",
+          "min": 95,
+          "max": 99
+        },
+        {
+          "label": "Rear projection on",
+          "min": 100,
+          "max": 104
+        },
+        {
+          "label": "Rear projection off",
+          "min": 105,
+          "max": 109
+        },
+        {
+          "label": "Reserved",
+          "min": 110,
+          "max": 129
+        },
+        {
+          "label": "Keep aspect ratio on",
+          "min": 130,
+          "max": 134
+        },
+        {
+          "label": "Keep aspect ratio off",
+          "min": 135,
+          "max": 139
+        },
+        {
+          "label": "Pan/tilt reset",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Reserved",
+          "min": 150,
+          "max": 179
+        },
+        {
+          "label": "Focus reset",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Graphic engine reset (software update executing)",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Total reset",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Internal HDMI",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "External HDMI",
+          "min": 220,
+          "max": 229
+        },
+        {
+          "label": "Save AutoKeystoning",
+          "min": 230,
+          "max": 234
+        },
+        {
+          "label": "Reserved",
+          "min": 235,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 1,
+      "type_description": "Digital Zoom",
+      "capabilities": [
+        {
+          "label": "Zoom from min. --> real size",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Real size (default)",
+          "min": 128,
+          "max": 128
+        },
+        {
+          "label": "Zoom from real size --> max.",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 1,
+      "type_description": "Keystoning Vertical",
+      "capabilities": [
+        {
+          "label": "128 default",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 1,
+      "type_description": "Keystoning Horizontal",
+      "capabilities": [
+        {
+          "label": "128 default",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Cyan",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Magenta",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Yellow",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Virtual Colour Wheel",
+      "capabilities": [
+        {
+          "label": "White (8000K)",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Blue",
+          "min": 16,
+          "max": 16
+        },
+        {
+          "label": "Blue --> cyan",
+          "min": 17,
+          "max": 55
+        },
+        {
+          "label": "Cyan",
+          "min": 56,
+          "max": 56
+        },
+        {
+          "label": "Cyan --> green",
+          "min": 57,
+          "max": 95
+        },
+        {
+          "label": "Green",
+          "min": 96,
+          "max": 96
+        },
+        {
+          "label": "Green --> yellow",
+          "min": 97,
+          "max": 134
+        },
+        {
+          "label": "Yellow",
+          "min": 135,
+          "max": 135
+        },
+        {
+          "label": "Yellow --> red",
+          "min": 136,
+          "max": 174
+        },
+        {
+          "label": "Red",
+          "min": 175,
+          "max": 175
+        },
+        {
+          "label": "Red --> magenta",
+          "min": 176,
+          "max": 214
+        },
+        {
+          "label": "Magenta",
+          "min": 215,
+          "max": 215
+        },
+        {
+          "label": "Magenta --> blue",
+          "min": 216,
+          "max": 246
+        },
+        {
+          "label": "Blue",
+          "min": 247,
+          "max": 247
+        },
+        {
+          "label": "Reserved",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Colour Effect Wheel",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Horizontal linear shade, white --> black",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "label": "Horizontal linear shade, black --> white",
+          "min": 2,
+          "max": 2
+        },
+        {
+          "label": "Vertical linear shade, black --> white",
+          "min": 3,
+          "max": 3
+        },
+        {
+          "label": "Vertical linear shade, white --> black",
+          "min": 4,
+          "max": 4
+        },
+        {
+          "label": "Diagonal shade, white --> black",
+          "min": 5,
+          "max": 5
+        },
+        {
+          "label": "Diagonal shade, black --> white",
+          "min": 6,
+          "max": 6
+        },
+        {
+          "label": "Horizontal linear shade, white --> red",
+          "min": 7,
+          "max": 7
+        },
+        {
+          "label": "Horizontal linear shade, red --> white",
+          "min": 8,
+          "max": 8
+        },
+        {
+          "label": "Vertical linear shade, red --> white",
+          "min": 9,
+          "max": 9
+        },
+        {
+          "label": "Vertical linear shade, white --> red",
+          "min": 10,
+          "max": 10
+        },
+        {
+          "label": "Diagonal shade, white --> red",
+          "min": 11,
+          "max": 11
+        },
+        {
+          "label": "Diagonal shade, red --> white",
+          "min": 12,
+          "max": 12
+        },
+        {
+          "label": "Horizontal linear shade, white --> green",
+          "min": 13,
+          "max": 13
+        },
+        {
+          "label": "Horizontal linear shade, green --> white",
+          "min": 14,
+          "max": 14
+        },
+        {
+          "label": "Vertical linear shade, green --> white",
+          "min": 15,
+          "max": 15
+        },
+        {
+          "label": "Vertical linear shade, white --> green",
+          "min": 16,
+          "max": 16
+        },
+        {
+          "label": "Diagonal shade, white --> green",
+          "min": 17,
+          "max": 17
+        },
+        {
+          "label": "Diagonal shade, green --> white",
+          "min": 18,
+          "max": 18
+        },
+        {
+          "label": "Horizontal linear shade, white --> blue",
+          "min": 19,
+          "max": 19
+        },
+        {
+          "label": "Horizontal linear shade, blue --> white",
+          "min": 20,
+          "max": 20
+        },
+        {
+          "label": "Vertical linear shade, blue --> white",
+          "min": 21,
+          "max": 21
+        },
+        {
+          "label": "Vertical linear shade, white --> blue",
+          "min": 22,
+          "max": 22
+        },
+        {
+          "label": "Diagonal shade, white --> blue",
+          "min": 23,
+          "max": 23
+        },
+        {
+          "label": "Diagonal shade, blue --> white",
+          "min": 24,
+          "max": 24
+        },
+        {
+          "label": "Horizontal linear shade, white --> cyan",
+          "min": 25,
+          "max": 25
+        },
+        {
+          "label": "Horizontal linear shade, cyan --> white",
+          "min": 26,
+          "max": 26
+        },
+        {
+          "label": "Vertical linear shade, cyan --> white",
+          "min": 27,
+          "max": 27
+        },
+        {
+          "label": "Vertical linear shade, white --> cyan",
+          "min": 28,
+          "max": 28
+        },
+        {
+          "label": "Diagonal shade, white --> cyan",
+          "min": 29,
+          "max": 29
+        },
+        {
+          "label": "Diagonal shade, cyan --> white",
+          "min": 30,
+          "max": 30
+        },
+        {
+          "label": "Horizontal linear shade, white --> magenta",
+          "min": 31,
+          "max": 31
+        },
+        {
+          "label": "Horizontal linear shade, magent --> white",
+          "min": 32,
+          "max": 32
+        },
+        {
+          "label": "Vertical linear shade, magenta --> white",
+          "min": 33,
+          "max": 33
+        },
+        {
+          "label": "Vertical linear shade, white --> magenta",
+          "min": 34,
+          "max": 34
+        },
+        {
+          "label": "Diagonal shade, white --> magenta",
+          "min": 35,
+          "max": 35
+        },
+        {
+          "label": "Diagonal shade, magenta --> white",
+          "min": 36,
+          "max": 36
+        },
+        {
+          "label": "Horizontal linear shade, white --> yellow",
+          "min": 37,
+          "max": 37
+        },
+        {
+          "label": "Horizontal linear shade, yellow --> white",
+          "min": 38,
+          "max": 38
+        },
+        {
+          "label": "Vertical linear shade, white --> yellow",
+          "min": 39,
+          "max": 39
+        },
+        {
+          "label": "Vertical linear shade, white --> yellow",
+          "min": 40,
+          "max": 40
+        },
+        {
+          "label": "Diagonal shade, white --> yellow",
+          "min": 41,
+          "max": 41
+        },
+        {
+          "label": "Diagonal shade, yellow --> white",
+          "min": 42,
+          "max": 42
+        },
+        {
+          "label": "RGBW shades",
+          "min": 43,
+          "max": 43
+        },
+        {
+          "label": "CMYW shades",
+          "min": 44,
+          "max": 44
+        },
+        {
+          "label": "RGBY shades",
+          "min": 45,
+          "max": 45
+        },
+        {
+          "label": "RMBG shades",
+          "min": 46,
+          "max": 46
+        },
+        {
+          "label": "Reserved",
+          "min": 47,
+          "max": 49
+        },
+        {
+          "label": "Colour changing black --> white, slowly",
+          "min": 50,
+          "max": 50
+        },
+        {
+          "label": "Colour changing black --> white, fast",
+          "min": 51,
+          "max": 51
+        },
+        {
+          "label": "Colour changing red --> white, slowly",
+          "min": 52,
+          "max": 52
+        },
+        {
+          "label": "Colour changing red --> white, fast",
+          "min": 53,
+          "max": 53
+        },
+        {
+          "label": "Colour changing green --> white, slowly",
+          "min": 54,
+          "max": 54
+        },
+        {
+          "label": "Colour changing green --> white, fast",
+          "min": 55,
+          "max": 55
+        },
+        {
+          "label": "Colour changing blue --> white, slowly",
+          "min": 56,
+          "max": 56
+        },
+        {
+          "label": "Colour changing blue --> white, fast",
+          "min": 57,
+          "max": 57
+        },
+        {
+          "label": "Colour changing yellow --> white, slowly",
+          "min": 58,
+          "max": 58
+        },
+        {
+          "label": "Colour changing yellow --> white, fast",
+          "min": 59,
+          "max": 59
+        },
+        {
+          "label": "Colour changing magenta --> white, slowly",
+          "min": 60,
+          "max": 60
+        },
+        {
+          "label": "Colour changing magenta --> white, fast",
+          "min": 61,
+          "max": 61
+        },
+        {
+          "label": "Colour changing cyan --> white, slowly",
+          "min": 62,
+          "max": 62
+        },
+        {
+          "label": "Colour changing cyan --> white, fast",
+          "min": 63,
+          "max": 63
+        },
+        {
+          "label": "Colour changing (slow) red --> green --> blue --> yellow",
+          "min": 64,
+          "max": 64
+        },
+        {
+          "label": "Colour changing (fast) red --> green --> blue --> yellow",
+          "min": 65,
+          "max": 65
+        },
+        {
+          "label": "Colour changing (fastest) red --> green --> blue --> yellow",
+          "min": 66,
+          "max": 66
+        },
+        {
+          "label": "Reserved",
+          "min": 67,
+          "max": 69
+        },
+        {
+          "label": "Horizontal linear shade, white --> black and vice versa, slowly",
+          "min": 70,
+          "max": 70
+        },
+        {
+          "label": "Horizontal linear shade, white --> black and vice versa, fast",
+          "min": 71,
+          "max": 71
+        },
+        {
+          "label": "Vertical linear shade, white --> black and vice versa, slowly",
+          "min": 72,
+          "max": 72
+        },
+        {
+          "label": "Vertical linear shade, white --> black and vice versa, fast",
+          "min": 73,
+          "max": 73
+        },
+        {
+          "label": "Diagonal shade, white --> black and vice versa, slowly",
+          "min": 74,
+          "max": 74
+        },
+        {
+          "label": "Diagonal shade, white --> black and vice versa, fast",
+          "min": 75,
+          "max": 75
+        },
+        {
+          "label": "Shade black --> white, slow rotation, clockwise",
+          "min": 76,
+          "max": 76
+        },
+        {
+          "label": "Shade black --> white, fast rotation, clockwise",
+          "min": 77,
+          "max": 77
+        },
+        {
+          "label": "Shade black --> white, slow rotation, anticlockwise",
+          "min": 78,
+          "max": 78
+        },
+        {
+          "label": "Shade black --> white, fast rotation, anticlockwise",
+          "min": 79,
+          "max": 79
+        },
+        {
+          "label": "Horizontal linear shade, white --> red and vice versa, slowly",
+          "min": 80,
+          "max": 80
+        },
+        {
+          "label": "Horizontal linear shade, white --> red and vice versa, fast",
+          "min": 81,
+          "max": 81
+        },
+        {
+          "label": "Vertical linear shade, white --> red and vice versa, slowly",
+          "min": 82,
+          "max": 82
+        },
+        {
+          "label": "Vertical linear shade, white --> red and vice versa, fast",
+          "min": 83,
+          "max": 83
+        },
+        {
+          "label": "Diagonal shade, white --> red and vice versa, slowly",
+          "min": 84,
+          "max": 84
+        },
+        {
+          "label": "Diagonal shade, white --> red and vice versa, fast",
+          "min": 85,
+          "max": 85
+        },
+        {
+          "label": "Shade red --> white, slow rotation, clockwise",
+          "min": 86,
+          "max": 86
+        },
+        {
+          "label": "Shade red --> white, fast rotation, clockwise",
+          "min": 87,
+          "max": 87
+        },
+        {
+          "label": "Shade red --> white, slow rotation, anticlockwise",
+          "min": 88,
+          "max": 88
+        },
+        {
+          "label": "Shade red --> white, fast rotation, anticlockwise",
+          "min": 89,
+          "max": 89
+        },
+        {
+          "label": "Horizontal linear shade, white --> green and vice versa, slowly",
+          "min": 90,
+          "max": 90
+        },
+        {
+          "label": "Horizontal linear shade, white --> green and vice versa, fast",
+          "min": 91,
+          "max": 91
+        },
+        {
+          "label": "Vertical linear shade, white --> green and vice versa, slowly",
+          "min": 92,
+          "max": 92
+        },
+        {
+          "label": "Vertical linear shade, white --> green and vice versa, fast",
+          "min": 93,
+          "max": 93
+        },
+        {
+          "label": "Diagonal shade, white --> green and vice versa, slowly",
+          "min": 94,
+          "max": 94
+        },
+        {
+          "label": "Diagonal shade, white --> green and vice versa, fast",
+          "min": 95,
+          "max": 95
+        },
+        {
+          "label": "Shade green --> white, slow rotation, clockwise",
+          "min": 96,
+          "max": 96
+        },
+        {
+          "label": "Shade green --> white, fast rotation, clockwise",
+          "min": 97,
+          "max": 97
+        },
+        {
+          "label": "Shade green --> white, slow rotation, anticlockwise",
+          "min": 98,
+          "max": 98
+        },
+        {
+          "label": "Shade green --> white, fast rotation, anticlockwise",
+          "min": 99,
+          "max": 99
+        },
+        {
+          "label": "Horizontal linear shade, white --> blue and vice versa, slowly",
+          "min": 100,
+          "max": 100
+        },
+        {
+          "label": "Horizontal linear shade, white --> blue and vice versa, fast",
+          "min": 101,
+          "max": 101
+        },
+        {
+          "label": "Vertical linear shade, white --> blue and vice versa, slowly",
+          "min": 102,
+          "max": 102
+        },
+        {
+          "label": "Vertical linear shade, white --> blue and vice versa, fast",
+          "min": 103,
+          "max": 103
+        },
+        {
+          "label": "Diagonal shade, white --> blue and vice versa, slowly",
+          "min": 104,
+          "max": 104
+        },
+        {
+          "label": "Diagonal shade, white --> blue and vice versa, fast",
+          "min": 105,
+          "max": 105
+        },
+        {
+          "label": "Shade blue --> white, slow rotation, clockwise",
+          "min": 106,
+          "max": 106
+        },
+        {
+          "label": "Shade blue --> white, fast rotation, clockwise",
+          "min": 107,
+          "max": 107
+        },
+        {
+          "label": "Shade blue --> white, slow rotation, anticlockwise",
+          "min": 108,
+          "max": 108
+        },
+        {
+          "label": "Shade blue --> white, fast rotation, anticlockwise",
+          "min": 109,
+          "max": 109
+        },
+        {
+          "label": "Horizontal linear shade, white --> cyan and vice versa, slowly",
+          "min": 110,
+          "max": 110
+        },
+        {
+          "label": "Horizontal linear shade, white --> cyan and vice versa, fast",
+          "min": 111,
+          "max": 111
+        },
+        {
+          "label": "Vertical linear shade, white --> cyan and vice versa, slowly",
+          "min": 112,
+          "max": 112
+        },
+        {
+          "label": "Vertical linear shade, white --> cyan and vice versa, fast",
+          "min": 113,
+          "max": 113
+        },
+        {
+          "label": "Diagonal shade, white --> cyan and vice versa, slowly",
+          "min": 114,
+          "max": 114
+        },
+        {
+          "label": "Diagonal shade, white --> cyan and vice versa, fast",
+          "min": 115,
+          "max": 115
+        },
+        {
+          "label": "Shade cyan --> white, slow rotation, clockwise",
+          "min": 116,
+          "max": 116
+        },
+        {
+          "label": "Shade cyan --> white, fast rotation, clockwise",
+          "min": 117,
+          "max": 117
+        },
+        {
+          "label": "Shade cyan --> white, slow rotation, anticlockwise",
+          "min": 118,
+          "max": 118
+        },
+        {
+          "label": "Shade cyan --> white, fast rotation, anticlockwise",
+          "min": 119,
+          "max": 119
+        },
+        {
+          "label": "Horizontal linear shade, white --> magenta and vice versa, slowly",
+          "min": 120,
+          "max": 120
+        },
+        {
+          "label": "Horizontal linear shade, white --> magenta and vice versa, fast",
+          "min": 121,
+          "max": 121
+        },
+        {
+          "label": "Vertical linear shade, white --> magenta and vice versa, slowly",
+          "min": 122,
+          "max": 122
+        },
+        {
+          "label": "Vertical linear shade, white --> magenta and vice versa, fast",
+          "min": 123,
+          "max": 123
+        },
+        {
+          "label": "Diagonal shade, white --> magenta and vice versa, slowly",
+          "min": 124,
+          "max": 124
+        },
+        {
+          "label": "Diagonal shade, white --> magenta and vice versa, fast",
+          "min": 125,
+          "max": 125
+        },
+        {
+          "label": "Shade magenta --> white, slow rotation, clockwise",
+          "min": 126,
+          "max": 126
+        },
+        {
+          "label": "Shade magenta --> white, fast rotation, clockwise",
+          "min": 127,
+          "max": 127
+        },
+        {
+          "label": "Shade magenta --> white, slow rotation, anticlockwise",
+          "min": 128,
+          "max": 128
+        },
+        {
+          "label": "Shade magenta --> white, fast rotation, anticlockwise",
+          "min": 129,
+          "max": 129
+        },
+        {
+          "label": "Horizontal linear shade, white --> yellow and vice versa, slowly",
+          "min": 130,
+          "max": 130
+        },
+        {
+          "label": "Horizontal linear shade, white --> yellow and vice versa, fast",
+          "min": 131,
+          "max": 131
+        },
+        {
+          "label": "Vertical linear shade, white --> yellow and vice versa, slowly",
+          "min": 132,
+          "max": 132
+        },
+        {
+          "label": "Vertical linear shade, white --> yellow and vice versa, fast",
+          "min": 133,
+          "max": 133
+        },
+        {
+          "label": "Diagonal shade, white --> yellow and vice versa, slowly",
+          "min": 134,
+          "max": 134
+        },
+        {
+          "label": "Diagonal shade, white --> yellow and vice versa, fast",
+          "min": 135,
+          "max": 135
+        },
+        {
+          "label": "Shade yellow --> white, slow rotation, clockwise",
+          "min": 136,
+          "max": 136
+        },
+        {
+          "label": "Shade yellow --> white, fast rotation, clockwise",
+          "min": 137,
+          "max": 137
+        },
+        {
+          "label": "Shade yellow --> white, slow rotation, anticlockwise",
+          "min": 138,
+          "max": 138
+        },
+        {
+          "label": "Shade yellow --> white, fast rotation, anticlockwise",
+          "min": 139,
+          "max": 139
+        },
+        {
+          "label": "RGBW shades, slow rotation, clockwise",
+          "min": 140,
+          "max": 140
+        },
+        {
+          "label": "RGBW shades, fast rotation, clockwise",
+          "min": 141,
+          "max": 141
+        },
+        {
+          "label": "RGBW shades, slow rotation, anticlockwise",
+          "min": 142,
+          "max": 142
+        },
+        {
+          "label": "RGBW shades, fast rotation, anticlockwise",
+          "min": 143,
+          "max": 143
+        },
+        {
+          "label": "Random colours, slowly, black between colours",
+          "min": 144,
+          "max": 144
+        },
+        {
+          "label": "Random colours, fast, black between colours",
+          "min": 145,
+          "max": 145
+        },
+        {
+          "label": "Random colours, slowly, white between colours",
+          "min": 146,
+          "max": 146
+        },
+        {
+          "label": "Random colours, fast, white between colours",
+          "min": 147,
+          "max": 147
+        },
+        {
+          "label": "Random colours slowly",
+          "min": 148,
+          "max": 148
+        },
+        {
+          "label": "Random colours fast",
+          "min": 149,
+          "max": 149
+        },
+        {
+          "label": "Horizontal black shade --> random colour, slowly",
+          "min": 150,
+          "max": 150
+        },
+        {
+          "label": "Horizontal black shade --> random colour, fast",
+          "min": 151,
+          "max": 151
+        },
+        {
+          "label": "Vertical black shade --> random colour, slowly",
+          "min": 152,
+          "max": 152
+        },
+        {
+          "label": "Vertical black shade --> random colour, fast",
+          "min": 153,
+          "max": 153
+        },
+        {
+          "label": "Diagonal black shade --> random colour, slowly",
+          "min": 154,
+          "max": 154
+        },
+        {
+          "label": "Diagonal black shade --> random colour, fast",
+          "min": 155,
+          "max": 155
+        },
+        {
+          "label": "Black shade --> random colour, slow rotation, clockwise",
+          "min": 156,
+          "max": 156
+        },
+        {
+          "label": "Black shade --> random colour, fast rotation, clockwise",
+          "min": 157,
+          "max": 157
+        },
+        {
+          "label": "Black shade --> random colour, slow rotation, anticlockwise",
+          "min": 158,
+          "max": 158
+        },
+        {
+          "label": "Black shade --> random colour, fast rotation, anticlockwise",
+          "min": 159,
+          "max": 159
+        },
+        {
+          "label": "Random colour in two corners, slow rotation, clockwise",
+          "min": 160,
+          "max": 160
+        },
+        {
+          "label": "Random colour in two corners, fast rotation, clockwise",
+          "min": 161,
+          "max": 161
+        },
+        {
+          "label": "Random colour in two corners, slow rotation, anticlockwise",
+          "min": 162,
+          "max": 162
+        },
+        {
+          "label": "Random colour in two corners, fast rotation, anticlockwise",
+          "min": 163,
+          "max": 163
+        },
+        {
+          "label": "Random colour in four corners, slow rotation, clockwise",
+          "min": 164,
+          "max": 164
+        },
+        {
+          "label": "Random colour in four corners, fast rotation, clockwise",
+          "min": 165,
+          "max": 165
+        },
+        {
+          "label": "Random colour in four corners, slow rotation, anticlockwise",
+          "min": 166,
+          "max": 166
+        },
+        {
+          "label": "Random colour in four corners, fast rotation, anticlockwise",
+          "min": 167,
+          "max": 167
+        },
+        {
+          "label": "Horizontal colour transition, slowly, random",
+          "min": 168,
+          "max": 168
+        },
+        {
+          "label": "Horizontal colour transition, fast, random",
+          "min": 169,
+          "max": 169
+        },
+        {
+          "label": "Vertical colour transition, slowly, random",
+          "min": 170,
+          "max": 170
+        },
+        {
+          "label": "Vertical colour transition, fast, random",
+          "min": 171,
+          "max": 171
+        },
+        {
+          "label": "Diagonal colour transition, slowly",
+          "min": 172,
+          "max": 172
+        },
+        {
+          "label": "Diagonal colour transition, fast",
+          "min": 173,
+          "max": 173
+        },
+        {
+          "label": "Horizontal/vertical/diagonal colour transition, slowly",
+          "min": 174,
+          "max": 174
+        },
+        {
+          "label": "Horizontal/vertical/diagonal colour transition, fast",
+          "min": 175,
+          "max": 175
+        },
+        {
+          "label": "Reserved",
+          "min": 176,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 4,
+      "type_description": "Digital Gobo Wheel Selection",
+      "capabilities": [
+        {
+          "label": "Default factory digital gobo wheel",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Internal custom digital gobo wheel",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "External custom digital gobo wheel (USB memory stick)",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Reserved (for future functions)",
+          "min": 96,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 4,
+      "type_description": "Digital Gobo Wheel - Gobos/Videos (By One DMX value: 1, 2, 3...250)",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Black and white gobos (by one DMX value: 1, 2, 3...59) - factory gobos only",
+          "min": 1,
+          "max": 59
+        },
+        {
+          "label": "Colour pictures (by one DMX value: 60, 61, 62...202) - factory pictures only",
+          "min": 60,
+          "max": 202
+        },
+        {
+          "label": "Animations (by one DMX value: 203, 203, 205...216) - factory animations only",
+          "min": 203,
+          "max": 216
+        },
+        {
+          "label": "Gobos/videos (by one DMX value: 1, 2, 3...250)",
+          "min": 217,
+          "max": 250
+        },
+        {
+          "label": "Gobos presentation (gobos selected randomly)",
+          "min": 251,
+          "max": 251
+        },
+        {
+          "label": "Gobos presentation (gobos selected in alphabetic order)",
+          "min": 252,
+          "max": 252
+        },
+        {
+          "label": "Reserved",
+          "min": 253,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 3,
+      "type_description": "Video Speed Control",
+      "capabilities": [
+        {
+          "label": "Original speed",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Pause",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "label": "Speed from min. (1/4 of original speed) to original speed",
+          "min": 2,
+          "max": 127
+        },
+        {
+          "label": "Speed from original to max. (4x original speed)",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 4,
+      "type_description": "Digital Gobo Indexing and Rotation",
+      "capabilities": [
+        {
+          "label": "Gobo indexing",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Forwards gobo rotation from fast to slow",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "No rotation",
+          "min": 192,
+          "max": 193
+        },
+        {
+          "label": "Backwards gobo rotation from slow to fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Digital Gobo Indexing and Rotation Fine",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 3,
+      "type_description": "Effect wheel",
+      "capabilities": [
+        {
+          "label": "Open position (hole)",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Random transition",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "label": "Transition with blending",
+          "min": 2,
+          "max": 2
+        },
+        {
+          "label": "Transition from left --> right, horizontally",
+          "min": 3,
+          "max": 3
+        },
+        {
+          "label": "Transition from right --> left, horizontally",
+          "min": 4,
+          "max": 4
+        },
+        {
+          "label": "Stripe transition from left --> right, horizontally",
+          "min": 5,
+          "max": 5
+        },
+        {
+          "label": "Stripe transition from right --> left, horizontally",
+          "min": 6,
+          "max": 6
+        },
+        {
+          "label": "3-stripe transition from left --> right, horizontally",
+          "min": 7,
+          "max": 7
+        },
+        {
+          "label": "3-stripe transition from right --> left, horizontally",
+          "min": 8,
+          "max": 8
+        },
+        {
+          "label": "6-stripe transition from left --> right, horizontally",
+          "min": 9,
+          "max": 9
+        },
+        {
+          "label": "6-stripe transition from right --> left, horizontally",
+          "min": 10,
+          "max": 10
+        },
+        {
+          "label": "Transition up --> down, vertically",
+          "min": 11,
+          "max": 11
+        },
+        {
+          "label": "Transition down --> up, vertically",
+          "min": 12,
+          "max": 12
+        },
+        {
+          "label": "Stripe transition up --> down, vertically",
+          "min": 13,
+          "max": 13
+        },
+        {
+          "label": "Stripe transition down --> up, vertically",
+          "min": 14,
+          "max": 14
+        },
+        {
+          "label": "3-stripe transition up- --> down, vertically",
+          "min": 15,
+          "max": 15
+        },
+        {
+          "label": "3-stripe transition down --> up, vertically",
+          "min": 16,
+          "max": 16
+        },
+        {
+          "label": "6-stripe transition up --> down, vertically",
+          "min": 17,
+          "max": 17
+        },
+        {
+          "label": "6-stripe transition down --> up, vertically",
+          "min": 18,
+          "max": 18
+        },
+        {
+          "label": "Transition 2 from left --> right, vertically (diffusion edge)",
+          "min": 19,
+          "max": 19
+        },
+        {
+          "label": "Transition 2 from right --> left, horizontally (diffusion edge)",
+          "min": 20,
+          "max": 20
+        },
+        {
+          "label": "Transition 2 up --> down, vertically (diffusion edge)",
+          "min": 21,
+          "max": 21
+        },
+        {
+          "label": "Transition 2 down --> up, vertically (diffusion edge)",
+          "min": 22,
+          "max": 22
+        },
+        {
+          "label": "Iris transition out -->in",
+          "min": 23,
+          "max": 23
+        },
+        {
+          "label": "Iris transition in --> out",
+          "min": 24,
+          "max": 24
+        },
+        {
+          "label": "Iris transition out --> in (diffusion edge)",
+          "min": 25,
+          "max": 25
+        },
+        {
+          "label": "Iris transition in --> out (diffusion edge)",
+          "min": 26,
+          "max": 26
+        },
+        {
+          "label": "Iris transition 3 out --> in (more diffusion edge)",
+          "min": 27,
+          "max": 27
+        },
+        {
+          "label": "Iris transition 3 in --> out (more diffusion edge)",
+          "min": 28,
+          "max": 28
+        },
+        {
+          "label": "Moving transition from left --> right",
+          "min": 29,
+          "max": 29
+        },
+        {
+          "label": "Moving transition from right --> left",
+          "min": 30,
+          "max": 30
+        },
+        {
+          "label": "Moving transition from up --> down",
+          "min": 31,
+          "max": 31
+        },
+        {
+          "label": "Moving transition from down --> up",
+          "min": 32,
+          "max": 32
+        },
+        {
+          "label": "Drop transition",
+          "min": 33,
+          "max": 33
+        },
+        {
+          "label": "Simple transition",
+          "min": 34,
+          "max": 34
+        },
+        {
+          "label": "Pixel transition",
+          "min": 35,
+          "max": 35
+        },
+        {
+          "label": "Transition via blending",
+          "min": 36,
+          "max": 36
+        },
+        {
+          "label": "Transition with white output",
+          "min": 37,
+          "max": 37
+        },
+        {
+          "label": "Crossing transition",
+          "min": 38,
+          "max": 38
+        },
+        {
+          "label": "Picture in picture in transition",
+          "min": 39,
+          "max": 39
+        },
+        {
+          "label": "Direct transition",
+          "min": 40,
+          "max": 40
+        },
+        {
+          "label": "Transition with vertical rotation",
+          "min": 41,
+          "max": 41
+        },
+        {
+          "label": "Transition with horizontal rotation",
+          "min": 42,
+          "max": 42
+        },
+        {
+          "label": "Transition with diagonal rotation",
+          "min": 43,
+          "max": 43
+        },
+        {
+          "label": "Transition with diagonal rotation-opposite direction",
+          "min": 44,
+          "max": 44
+        },
+        {
+          "label": "Zoom out transition",
+          "min": 45,
+          "max": 45
+        },
+        {
+          "label": "Zoom in transition",
+          "min": 46,
+          "max": 46
+        },
+        {
+          "label": "Zoom transition in horizontal direction",
+          "min": 47,
+          "max": 47
+        },
+        {
+          "label": "Zoom transition in vertical direction",
+          "min": 48,
+          "max": 48
+        },
+        {
+          "label": "Reserved",
+          "min": 49,
+          "max": 79
+        },
+        {
+          "label": "Kaleidoscope 1",
+          "min": 80,
+          "max": 80
+        },
+        {
+          "label": "Kaleidoscope 2",
+          "min": 81,
+          "max": 81
+        },
+        {
+          "label": "Kaleidoscope 3",
+          "min": 82,
+          "max": 82
+        },
+        {
+          "label": "Kaleidoscope 4",
+          "min": 83,
+          "max": 83
+        },
+        {
+          "label": "Kaleidoscope 5",
+          "min": 84,
+          "max": 84
+        },
+        {
+          "label": "Sunflower kaleidoscope (coarse)",
+          "min": 85,
+          "max": 85
+        },
+        {
+          "label": "Sunflower kaleidoscope (soft)",
+          "min": 86,
+          "max": 86
+        },
+        {
+          "label": "Sunflower kaleidoscope (slow)",
+          "min": 87,
+          "max": 87
+        },
+        {
+          "label": "Sunflower kaleidoscope (faster)",
+          "min": 88,
+          "max": 88
+        },
+        {
+          "label": "Sunflower kaleidoscope (fastest)",
+          "min": 89,
+          "max": 89
+        },
+        {
+          "label": "Reserved",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Circle iris in/out",
+          "min": 100,
+          "max": 100
+        },
+        {
+          "label": "Circle iris in/out (diffusion edge)",
+          "min": 101,
+          "max": 101
+        },
+        {
+          "label": "Vertical ellipse iris in/out",
+          "min": 102,
+          "max": 102
+        },
+        {
+          "label": "Horizontal ellipse iris in/out",
+          "min": 103,
+          "max": 103
+        },
+        {
+          "label": "Reserved",
+          "min": 104,
+          "max": 104
+        },
+        {
+          "label": "Positive/negative (black and white)",
+          "min": 105,
+          "max": 105
+        },
+        {
+          "label": "White/negative (black and white)",
+          "min": 106,
+          "max": 106
+        },
+        {
+          "label": "Positive/negative (coloured)",
+          "min": 107,
+          "max": 107
+        },
+        {
+          "label": "Pixeling",
+          "min": 108,
+          "max": 108
+        },
+        {
+          "label": "Reserved",
+          "min": 109,
+          "max": 179
+        },
+        {
+          "label": "Circular iris",
+          "min": 180,
+          "max": 180
+        },
+        {
+          "label": "Elliptical iris-vertical",
+          "min": 181,
+          "max": 181
+        },
+        {
+          "label": "Elliptical iris-horizontal",
+          "min": 182,
+          "max": 182
+        },
+        {
+          "label": "Black mask",
+          "min": 183,
+          "max": 183
+        },
+        {
+          "label": "Inverse black mask",
+          "min": 184,
+          "max": 184
+        },
+        {
+          "label": "White mask",
+          "min": 185,
+          "max": 185
+        },
+        {
+          "label": "Inverse white mask",
+          "min": 186,
+          "max": 186
+        },
+        {
+          "label": "Gobo/video movement in horizontal (X) axis",
+          "min": 187,
+          "max": 187
+        },
+        {
+          "label": "Gobo/video movement in vertical (Y) axis",
+          "min": 188,
+          "max": 188
+        },
+        {
+          "label": "Reserved",
+          "min": 189,
+          "max": 189
+        },
+        {
+          "label": "Crossfade",
+          "min": 190,
+          "max": 190
+        },
+        {
+          "label": "Addition",
+          "min": 191,
+          "max": 191
+        },
+        {
+          "label": "Subtraction",
+          "min": 192,
+          "max": 192
+        },
+        {
+          "label": "Multiplication",
+          "min": 193,
+          "max": 193
+        },
+        {
+          "label": "Minimum",
+          "min": 194,
+          "max": 194
+        },
+        {
+          "label": "Maximum",
+          "min": 195,
+          "max": 195
+        },
+        {
+          "label": "Reserved",
+          "min": 196,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "type": 22,
+      "type_description": "Effect Speed/Time",
+      "capabilities": [
+        {
+          "label": "Presentation/open/continuous effect changing",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Speed/time settings depending on type of effect (1-8)",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "type": 21,
+      "type_description": "Shutter/Strobe",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Open",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe effect from slow to fast",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Opening pulse in sequences from slow to fast",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Closing pulse in sequences from fast to slow",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random strobe effect from slow to fast",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Robe/Robe-Robin-MiniMe.json",
+  "id": 1217
+}

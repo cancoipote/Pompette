@@ -1,0 +1,324 @@
+{
+  "version": "1.0.0",
+  "label": "LM70",
+  "manufacturer": "Betopper",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 176,
+  "dimension_height": 245,
+  "dimension_depth": 180,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 100,
+  "technical_dmx_connector": "5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Effects",
+      "capabilities": [
+        {
+          "label": "No Effect",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Dimming",
+          "min": 8,
+          "max": 134
+        },
+        {
+          "label": "Strobe from slow to fast",
+          "min": 135,
+          "max": 239
+        },
+        {
+          "label": "Light on",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Color Choose",
+      "capabilities": [
+        {
+          "label": "Nothing",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Yellow",
+          "min": 8,
+          "max": 21
+        },
+        {
+          "label": "Amber",
+          "min": 22,
+          "max": 34
+        },
+        {
+          "label": "Magenta",
+          "min": 35,
+          "max": 49
+        },
+        {
+          "label": "UV",
+          "min": 50,
+          "max": 63
+        },
+        {
+          "label": "Indigo",
+          "min": 64,
+          "max": 77
+        },
+        {
+          "label": "Violet",
+          "min": 78,
+          "max": 91
+        },
+        {
+          "label": "Blue",
+          "min": 92,
+          "max": 105
+        },
+        {
+          "label": "Cyan",
+          "min": 106,
+          "max": 119
+        },
+        {
+          "label": "Light blue",
+          "min": 120,
+          "max": 134
+        },
+        {
+          "label": "Lime",
+          "min": 135,
+          "max": 147
+        },
+        {
+          "label": "White",
+          "min": 148,
+          "max": 161
+        },
+        {
+          "label": "White RGB Dimming",
+          "min": 162,
+          "max": 175
+        },
+        {
+          "label": "White RGB Dimming",
+          "min": 176,
+          "max": 189
+        },
+        {
+          "label": "White RGB Dimming",
+          "min": 190,
+          "max": 203
+        },
+        {
+          "label": "Indigo White White Dimming",
+          "min": 204,
+          "max": 217
+        },
+        {
+          "label": "Indigo White White Dimming",
+          "min": 218,
+          "max": 231
+        },
+        {
+          "label": "Color Saltus",
+          "min": 232,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 22,
+      "type_description": "Color Speed",
+      "capabilities": [
+        {
+          "label": "Color Speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 3,
+      "type_description": "Movement (Auto & Effect)",
+      "capabilities": [
+        {
+          "label": "Movement (Auto & Effect)",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Auto 1 Random spin fast",
+          "min": 8,
+          "max": 22
+        },
+        {
+          "label": "Auto 2 Random spin fast",
+          "min": 23,
+          "max": 37
+        },
+        {
+          "label": "Auto 3 Random spin fast",
+          "min": 38,
+          "max": 53
+        },
+        {
+          "label": "Auto 4 Random spin fast",
+          "min": 54,
+          "max": 67
+        },
+        {
+          "label": "Auto 5 Random spin slow",
+          "min": 68,
+          "max": 82
+        },
+        {
+          "label": "Auto 6 Random spin slow",
+          "min": 83,
+          "max": 97
+        },
+        {
+          "label": "Auto 7 Random spin slow",
+          "min": 98,
+          "max": 112
+        },
+        {
+          "label": "Auto 8 Random spin slow",
+          "min": 113,
+          "max": 127
+        },
+        {
+          "label": "Auto 9 Sound Color Random",
+          "min": 128,
+          "max": 142
+        },
+        {
+          "label": "Auto 10 Sound Color Random",
+          "min": 143,
+          "max": 157
+        },
+        {
+          "label": "Auto 11 Sound Color Random",
+          "min": 158,
+          "max": 172
+        },
+        {
+          "label": "Auto 12 Sound Color Random",
+          "min": 173,
+          "max": 187
+        },
+        {
+          "label": "Auto 13 Sound Color Random spin slow",
+          "min": 188,
+          "max": 202
+        },
+        {
+          "label": "Auto 14 Sound Color Random spin slow",
+          "min": 203,
+          "max": 217
+        },
+        {
+          "label": "Auto 15 Sound Color Random spin slow",
+          "min": 218,
+          "max": 232
+        },
+        {
+          "label": "Auto 16 Sound Color Random spin slow",
+          "min": 233,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 17,
+      "type_description": "Reset",
+      "capabilities": [
+        {
+          "label": "Nothing",
+          "min": 0,
+          "max": 149
+        },
+        {
+          "label": "Reset device",
+          "min": 150,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Betopper/Betopper-LM70.json",
+  "id": 187
+}

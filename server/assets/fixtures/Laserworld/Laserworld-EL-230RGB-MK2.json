@@ -1,0 +1,163 @@
+{
+  "version": "1.0.0",
+  "label": "EL-230RGB MK2",
+  "manufacturer": "Laserworld",
+  "bulb_type": "",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 145,
+  "dimension_height": 75,
+  "dimension_depth": 205,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 30,
+  "focus_tilt_max": 30,
+  "technical_power_consumption": 30,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "Laser off",
+          "min": 0,
+          "max": 49
+        },
+        {
+          "label": "Sound mode",
+          "min": 50,
+          "max": 99
+        },
+        {
+          "label": "Automatic mode",
+          "min": 100,
+          "max": 149
+        },
+        {
+          "label": "Static pattern",
+          "min": 150,
+          "max": 199
+        },
+        {
+          "label": "Dynamic pattern",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Pattern selection",
+      "capabilities": [
+        {
+          "label": "Pattern selection",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 19,
+      "type_description": "X axis",
+      "capabilities": [
+        {
+          "label": "Center Position on X axis",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "X axis positioning",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 23,
+      "type_description": "Y axis",
+      "capabilities": [
+        {
+          "label": "Center Position on Y axis",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Y axis positioning",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Scanning speed",
+      "capabilities": [
+        {
+          "label": "Scanning speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 22,
+      "type_description": "Dynamic pattern speed",
+      "capabilities": [
+        {
+          "label": "Dynamic pattern speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 1,
+      "type_description": "Zoom / size",
+      "capabilities": [
+        {
+          "label": "Zoom / size",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "Color",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Color segment",
+      "capabilities": [
+        {
+          "label": "Color segment",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Laserworld/Laserworld-EL-230RGB-MK2.json",
+  "id": 957
+}

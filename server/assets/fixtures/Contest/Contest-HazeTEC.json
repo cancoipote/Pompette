@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "label": "HazeTEC",
+  "manufacturer": "Contest",
+  "bulb_type": "",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 11,
+  "dimension_width": 343,
+  "dimension_height": 290,
+  "dimension_depth": 364,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 900,
+  "technical_dmx_connector": "5-pin",
+  "type": 6,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Smoke Volume",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 22,
+      "type_description": "Fan Speed",
+      "capabilities": [
+        {
+          "label": "Fan Speed (0 - 100%)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Contest/Contest-HazeTEC.json",
+  "id": 568
+}

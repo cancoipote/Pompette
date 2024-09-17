@@ -1,0 +1,136 @@
+{
+  "version": "1.0.0",
+  "label": "Dynamo 250",
+  "manufacturer": "JB Systems",
+  "bulb_type": "ELC 250W",
+  "bulb_lumens": 550,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 385,
+  "dimension_height": 170,
+  "dimension_depth": 120,
+  "lens_label": "Other",
+  "lens_degree_min": 13,
+  "lens_degree_max": 13,
+  "focus_type": "Fixed",
+  "focus_pan_max": 160,
+  "focus_tilt_max": 120,
+  "technical_power_consumption": 300,
+  "technical_dmx_connector": "3-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Open",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Shutter speed (slow -> fast)",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "Shaking",
+          "min": 132,
+          "max": 247
+        },
+        {
+          "label": "Open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "White (open)",
+          "min": 0,
+          "max": 11
+        },
+        {
+          "label": "Yellow",
+          "min": 12,
+          "max": 23
+        },
+        {
+          "label": "Blue",
+          "min": 24,
+          "max": 34
+        },
+        {
+          "label": "Blue+Red+Green",
+          "min": 35,
+          "max": 46
+        },
+        {
+          "label": "Green",
+          "min": 47,
+          "max": 58
+        },
+        {
+          "label": "Pink",
+          "min": 59,
+          "max": 69
+        },
+        {
+          "label": "Red+Yellow+Green+Blue",
+          "min": 70,
+          "max": 81
+        },
+        {
+          "label": "Magenta",
+          "min": 82,
+          "max": 93
+        },
+        {
+          "label": "Red",
+          "min": 94,
+          "max": 104
+        },
+        {
+          "label": "Blue+Magenta",
+          "min": 105,
+          "max": 116
+        },
+        {
+          "label": "White (gobo)",
+          "min": 117,
+          "max": 127
+        },
+        {
+          "label": "Gobo change speed (slow -> fast)",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/JB_Systems/JB-Systems-Dynamo-250.json",
+  "id": 922
+}

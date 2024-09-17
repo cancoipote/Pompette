@@ -1,0 +1,209 @@
+{
+  "version": "1.0.0",
+  "label": "LED KLS-401",
+  "manufacturer": "Eurolite",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 8,
+  "dimension_width": 1200,
+  "dimension_height": 310,
+  "dimension_depth": 55,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 100,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Preset programs, automatic mode, sound control",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Program 1",
+          "min": 10,
+          "max": 29
+        },
+        {
+          "label": "Program 2",
+          "min": 30,
+          "max": 49
+        },
+        {
+          "label": "Program 3",
+          "min": 50,
+          "max": 69
+        },
+        {
+          "label": "Program 4",
+          "min": 70,
+          "max": 89
+        },
+        {
+          "label": "Program 5",
+          "min": 90,
+          "max": 109
+        },
+        {
+          "label": "Program 6",
+          "min": 110,
+          "max": 129
+        },
+        {
+          "label": "Program 7",
+          "min": 130,
+          "max": 149
+        },
+        {
+          "label": "Program 8",
+          "min": 150,
+          "max": 169
+        },
+        {
+          "label": "Program 9",
+          "min": 170,
+          "max": 189
+        },
+        {
+          "label": "Program 10",
+          "min": 190,
+          "max": 209
+        },
+        {
+          "label": "Program 11",
+          "min": 210,
+          "max": 229
+        },
+        {
+          "label": "Automatic mode",
+          "min": 230,
+          "max": 249
+        },
+        {
+          "label": "Sound control",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Master control",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 21,
+      "type_description": "Strobe control",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe slow -> fast",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Spot 1: Brightness red or running speed",
+      "capabilities": [
+        {
+          "label": "Dimming from 0 - 100%/running speed slow -> fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Spot 1: Brightness green or fade time",
+      "capabilities": [
+        {
+          "label": "Dimming from 0 - 100%/fade time fast -> slow",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Spot 1: Brightness blue",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Spot 2: Brightness red",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Spot 2: Brightness green",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Spot 2: Brightness blue",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Spot 3: Brightness red",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Spot 3: Brightness green",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Spot 3: Brightness blue",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Spot 4: Brightness red",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Spot 4: Brightness green",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Spot 4: Brightness blue",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-LED-KLS-401.json",
+  "id": 690
+}

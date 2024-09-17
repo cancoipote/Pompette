@@ -1,0 +1,157 @@
+{
+  "version": "1.0.0",
+  "label": "Wedge Tri",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 0,
+  "dimension_width": 108,
+  "dimension_height": 108,
+  "dimension_depth": 104,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 23,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Color macros",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Shutter / Speed",
+      "capabilities": [
+        {
+          "label": "Strobe (slow -> fast) or Auto programs speed (slow -> fast)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Auto programs",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "0 - 100%",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "100% - 0",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "100% - 0 - 100%",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Color fade",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "3-color snap",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "7-color snap",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Sound active",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Dimmer mode",
+      "capabilities": [
+        {
+          "label": "Dimmer mode manually set in Menu Options",
+          "min": 0,
+          "max": 51
+        },
+        {
+          "label": "Dimmer mode off",
+          "min": 52,
+          "max": 101
+        },
+        {
+          "label": "Dimmer mode 1, (fast speed)",
+          "min": 102,
+          "max": 152
+        },
+        {
+          "label": "Dimmer mode 2, (medium speed)",
+          "min": 153,
+          "max": 203
+        },
+        {
+          "label": "Dimmer mode 3, (slow speed)",
+          "min": 204,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-Wedge-Tri.json",
+  "id": 563
+}

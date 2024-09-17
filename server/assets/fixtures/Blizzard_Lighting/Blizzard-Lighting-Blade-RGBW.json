@@ -1,0 +1,410 @@
+{
+  "version": "1.0.0",
+  "label": "Blade RGBW",
+  "manufacturer": "Blizzard Lighting",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 5,
+  "dimension_width": 240,
+  "dimension_height": 375,
+  "dimension_depth": 340,
+  "lens_label": "Fresnel",
+  "lens_degree_min": 1,
+  "lens_degree_max": 8,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 90,
+  "technical_power_consumption": 148,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "X-Axis Trim",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Y-Axis Trim",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan/Tilt Speed (Fast-Slow)",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Red Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Green Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Blue Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "White Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 5,
+      "type_description": "Custom Color",
+      "capabilities": [
+        {
+          "label": "Color set on front panel, 0-100%",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "On (Slow-Fast)",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 3,
+      "type_description": "Programs",
+      "capabilities": [
+        {
+          "label": "256-step linear dimmming",
+          "min": 0,
+          "max": 25
+        },
+        {
+          "label": "Fade step increase",
+          "min": 26,
+          "max": 50
+        },
+        {
+          "label": "Color macros, ch 14 chooses",
+          "min": 51,
+          "max": 90
+        },
+        {
+          "label": "Color fade in/out, ch 14 speed",
+          "min": 91,
+          "max": 130
+        },
+        {
+          "label": "Color snap, ch 14 speed",
+          "min": 131,
+          "max": 170
+        },
+        {
+          "label": "Color fade, ch 14 speed",
+          "min": 171,
+          "max": 210
+        },
+        {
+          "label": "Auto (front panel settings)",
+          "min": 211,
+          "max": 250
+        },
+        {
+          "label": "Sound Active",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 3,
+      "type_description": "Effects",
+      "capabilities": [
+        {
+          "label": "Red fade to Yellow",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Yellow fade to Green",
+          "min": 21,
+          "max": 40
+        },
+        {
+          "label": "Green fade to Aqua",
+          "min": 41,
+          "max": 60
+        },
+        {
+          "label": "Aqua fade to Blue",
+          "min": 61,
+          "max": 80
+        },
+        {
+          "label": "Blue fade to Magenta",
+          "min": 81,
+          "max": 100
+        },
+        {
+          "label": "Magenta fade to Red",
+          "min": 101,
+          "max": 120
+        },
+        {
+          "label": "Red fade to White",
+          "min": 121,
+          "max": 140
+        },
+        {
+          "label": "White fade to Blue",
+          "min": 141,
+          "max": 160
+        },
+        {
+          "label": "White effect",
+          "min": 161,
+          "max": 170
+        },
+        {
+          "label": "Blackout",
+          "min": 171,
+          "max": 200
+        },
+        {
+          "label": "CTO - 3800K",
+          "min": 201,
+          "max": 205
+        },
+        {
+          "label": "CTO - 4200K",
+          "min": 206,
+          "max": 210
+        },
+        {
+          "label": "CTO - 4500K",
+          "min": 211,
+          "max": 215
+        },
+        {
+          "label": "CTO - 4800K",
+          "min": 216,
+          "max": 220
+        },
+        {
+          "label": "CTO - 5000K",
+          "min": 221,
+          "max": 225
+        },
+        {
+          "label": "CTO - 5200K",
+          "min": 226,
+          "max": 230
+        },
+        {
+          "label": "CTO - 5600K",
+          "min": 231,
+          "max": 235
+        },
+        {
+          "label": "CTO - 5800K",
+          "min": 236,
+          "max": 240
+        },
+        {
+          "label": "CTO - 6000K",
+          "min": 241,
+          "max": 245
+        },
+        {
+          "label": "CTO - 6200K",
+          "min": 246,
+          "max": 250
+        },
+        {
+          "label": "CTO - 6500K",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 17,
+      "type_description": "Fixture ID",
+      "capabilities": [
+        {
+          "label": "Any Fixture",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Fixture ID 1",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Fixture ID 2",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Fixture ID 3",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Fixture ID 4",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Fixture ID 5",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Fixture ID 6",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Fixture ID 7",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Fixture ID 8",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Fixture ID 9",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Fixture ID 10",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Fixture ID 11",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Fixture ID 12",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Fixture ID 13",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Fixture ID 14",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Fixture ID 15",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Fixture ID 16",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Fixture ID 17",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Fixture ID 18",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Fixture ID 19",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Fixture ID 20",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Fixture ID 21",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "Fixture ID 22",
+          "min": 220,
+          "max": 229
+        },
+        {
+          "label": "Fixture ID 23",
+          "min": 230,
+          "max": 239
+        },
+        {
+          "label": "Fixture ID 24",
+          "min": 240,
+          "max": 249
+        },
+        {
+          "label": "Fixture ID 25",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Blizzard_Lighting/Blizzard-Lighting-Blade-RGBW.json",
+  "id": 211
+}

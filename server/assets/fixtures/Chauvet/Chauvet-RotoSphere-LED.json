@@ -1,0 +1,138 @@
+{
+  "version": "1.0.0",
+  "label": "RotoSphere LED",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 307,
+  "dimension_height": 441,
+  "dimension_depth": 307,
+  "lens_label": "Other",
+  "lens_degree_min": 360,
+  "lens_degree_max": 360,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 35,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 22,
+      "type_description": "Motor Rotation",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Counter clockwise rotation (slow to fast).",
+          "min": 10,
+          "max": 127
+        },
+        {
+          "label": "No function",
+          "min": 128,
+          "max": 137
+        },
+        {
+          "label": "Clockwise rotation (slow to fast).",
+          "min": 138,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Colors",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Red",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Green",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Blue",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Red + green",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Red + blue",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Green + blue",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Red + green + blue",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe effect (slow to fast).",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Modes",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Automatic programs",
+          "min": 11,
+          "max": 249
+        },
+        {
+          "label": "Sound-activated mode",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-RotoSphere-LED.json",
+  "id": 518
+}

@@ -1,0 +1,508 @@
+{
+  "version": "1.0.0",
+  "label": "Swarm 5 FX",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 1,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 248,
+  "dimension_height": 298,
+  "dimension_depth": 310,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 62,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Automatic Programs/Control Mode",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Auto 1",
+          "min": 10,
+          "max": 24
+        },
+        {
+          "label": "Auto 2",
+          "min": 25,
+          "max": 39
+        },
+        {
+          "label": "Auto 3",
+          "min": 40,
+          "max": 54
+        },
+        {
+          "label": "Auto 4",
+          "min": 55,
+          "max": 69
+        },
+        {
+          "label": "Auto 5",
+          "min": 70,
+          "max": 84
+        },
+        {
+          "label": "Auto 6",
+          "min": 85,
+          "max": 99
+        },
+        {
+          "label": "Auto 7",
+          "min": 100,
+          "max": 114
+        },
+        {
+          "label": "Sound 1",
+          "min": 115,
+          "max": 129
+        },
+        {
+          "label": "Sound 2",
+          "min": 130,
+          "max": 144
+        },
+        {
+          "label": "Sound 3",
+          "min": 145,
+          "max": 159
+        },
+        {
+          "label": "Sound 4",
+          "min": 160,
+          "max": 174
+        },
+        {
+          "label": "Sound 5",
+          "min": 175,
+          "max": 189
+        },
+        {
+          "label": "Sound 6",
+          "min": 190,
+          "max": 204
+        },
+        {
+          "label": "Sound 7",
+          "min": 205,
+          "max": 219
+        },
+        {
+          "label": "DMX",
+          "min": 220,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "LED Operation",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "Green",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "Blue",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "Amber",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "White",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "White + Red",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "Red + Green",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "Green + Blue",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "Blue + Amber",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "Amber + White",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "White + Green",
+          "min": 60,
+          "max": 64
+        },
+        {
+          "label": "Green + Amber",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "Amber + Red",
+          "min": 70,
+          "max": 74
+        },
+        {
+          "label": "Red + Blue",
+          "min": 75,
+          "max": 79
+        },
+        {
+          "label": "Blue + White",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "Red + Green + Blue",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "Red + Green + Amber",
+          "min": 90,
+          "max": 94
+        },
+        {
+          "label": "Red + Green + White",
+          "min": 95,
+          "max": 99
+        },
+        {
+          "label": "Red + Amber + Blue",
+          "min": 100,
+          "max": 104
+        },
+        {
+          "label": "Red + White + Blue",
+          "min": 105,
+          "max": 109
+        },
+        {
+          "label": "Red + Amber + White",
+          "min": 110,
+          "max": 114
+        },
+        {
+          "label": "Amber + Green + Blue",
+          "min": 115,
+          "max": 119
+        },
+        {
+          "label": "Blue + Green + White",
+          "min": 120,
+          "max": 124
+        },
+        {
+          "label": "Amber + Green + White",
+          "min": 125,
+          "max": 129
+        },
+        {
+          "label": "Amber + White + Blue",
+          "min": 130,
+          "max": 134
+        },
+        {
+          "label": "Red + Green + Blue + Amber",
+          "min": 135,
+          "max": 139
+        },
+        {
+          "label": "Red + Green + Blue + White",
+          "min": 140,
+          "max": 144
+        },
+        {
+          "label": "Green + Blue + Amber + White",
+          "min": 145,
+          "max": 149
+        },
+        {
+          "label": "Red + Green + Amber + White",
+          "min": 150,
+          "max": 154
+        },
+        {
+          "label": "Red + Blue + Amber + White",
+          "min": 155,
+          "max": 159
+        },
+        {
+          "label": "Red + Green + Blue + Amber + White",
+          "min": 160,
+          "max": 164
+        },
+        {
+          "label": "Automatic (single colors only)",
+          "min": 165,
+          "max": 209
+        },
+        {
+          "label": "Automatic (two colors at a time)",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Auto Program Speed (when channel 2 is between 165-255)",
+      "capabilities": [
+        {
+          "label": "Automatic speed, slow to fast (colors only)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 21,
+      "type_description": "LED Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Strobe (fast to slow)",
+          "min": 5,
+          "max": 254
+        },
+        {
+          "label": "Sound-Active strobe",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "White LED",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Auto program 1 (fast to slow)",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Auto program 2 (fast to slow)",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Auto program 3 (fast to slow)",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Auto program 4 (fast to slow)",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Auto program 5 (fast to slow)",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Auto program 6 (fast to slow)",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Auto program 7 (fast to slow)",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Auto program 8 (fast to slow)",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Auto program 9 (fast to slow)",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Auto program 10 (fast to slow)",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "On",
+          "min": 110,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Lasers",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red on",
+          "min": 10,
+          "max": 49
+        },
+        {
+          "label": "Green on",
+          "min": 50,
+          "max": 89
+        },
+        {
+          "label": "Green + Red, alternate strobe",
+          "min": 90,
+          "max": 129
+        },
+        {
+          "label": "Red on + Green strobe",
+          "min": 130,
+          "max": 169
+        },
+        {
+          "label": "Green on + Red strobe",
+          "min": 170,
+          "max": 209
+        },
+        {
+          "label": "Red + Green strobe",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Laser Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Strobe (slow to fast)",
+          "min": 5,
+          "max": 254
+        },
+        {
+          "label": "Sound-Active strobe",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 22,
+      "type_description": "Motor LED",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Rotate clockwise (slow to fast)",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "Stop",
+          "min": 128,
+          "max": 133
+        },
+        {
+          "label": "Rotate counter-clockwise (slow to fast)",
+          "min": 134,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 22,
+      "type_description": "Motor Laser",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Rotate clock-wise",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "Stop",
+          "min": 128,
+          "max": 133
+        },
+        {
+          "label": "Rotate counter-clockwise",
+          "min": 134,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-Swarm-5-FX.json",
+  "id": 555
+}

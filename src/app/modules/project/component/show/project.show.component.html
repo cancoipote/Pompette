@@ -1,0 +1,24 @@
+<div class="shows-container">
+    <div class="shows-container-menu" *ngIf="display_menu == true">
+        <div class="shows-container-title">
+            <i class="shows-container-title-label">Shows</i>
+            <div class="shows-container-title-separator"></div>
+            <button mat-icon-button class="sequences-container-title-button" (click)="display_menu = false" >
+              <mat-icon>menu</mat-icon>
+            </button>
+        </div>
+    </div>
+    <div class="shows-container-menu-light" *ngIf="display_menu == false">
+        <button mat-icon-button class="shows-container-title-button" (click)="display_menu = true" >
+            <mat-icon>menu</mat-icon>
+        </button>
+    </div>
+    <div class="shows-container-content">
+       
+       
+        <span class="coming-soon">Coming soon...</span>
+
+
+        
+    </div>
+</div>

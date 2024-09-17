@@ -1,0 +1,365 @@
+{
+  "version": "1.0.0",
+  "label": "ClubSpot 250 CT",
+  "manufacturer": "Robe",
+  "bulb_type": "Sylvania BA 250/2 SE",
+  "bulb_lumens": 3900,
+  "bulb_color_temperature": 8500,
+  "dimension_weight": 23,
+  "dimension_width": 417,
+  "dimension_height": 498,
+  "dimension_depth": 398,
+  "lens_label": "",
+  "lens_degree_min": 15,
+  "lens_degree_max": 15,
+  "focus_type": "Fixed",
+  "focus_pan_max": 530,
+  "focus_tilt_max": 280,
+  "technical_power_consumption": 420,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Speed of Pan/Tilt Movement",
+      "capabilities": [
+        {
+          "label": "Max. speed (tracking mode)",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "From max. speed to min. speed (vector mode)",
+          "min": 1,
+          "max": 249
+        },
+        {
+          "label": "Max. speed (tracking mode), blackout while colour/gobo changes",
+          "min": 250,
+          "max": 252
+        },
+        {
+          "label": "Max. speed (vector mode), blackout while pan/tilt moving or colour/gobo changes",
+          "min": 253,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 22,
+      "type_description": "Lamp On/Off, Reset, Speed Control of Fans",
+      "capabilities": [
+        {
+          "label": "From max. speed of fans to min. speed of fans",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Lamp on, reset",
+          "min": 128,
+          "max": 139
+        },
+        {
+          "label": "No function",
+          "min": 140,
+          "max": 229
+        },
+        {
+          "label": "Lamp off after 3 sec.",
+          "min": 230,
+          "max": 239
+        },
+        {
+          "label": "No function",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Colours",
+      "capabilities": [
+        {
+          "label": "Open/white",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Turquoise",
+          "min": 10,
+          "max": 20
+        },
+        {
+          "label": "Deep Red",
+          "min": 21,
+          "max": 31
+        },
+        {
+          "label": "Cyan",
+          "min": 32,
+          "max": 41
+        },
+        {
+          "label": "UV",
+          "min": 42,
+          "max": 52
+        },
+        {
+          "label": "Magenta",
+          "min": 53,
+          "max": 63
+        },
+        {
+          "label": "Light Blue",
+          "min": 64,
+          "max": 73
+        },
+        {
+          "label": "Yellow",
+          "min": 74,
+          "max": 84
+        },
+        {
+          "label": "Green",
+          "min": 85,
+          "max": 95
+        },
+        {
+          "label": "Pink",
+          "min": 96,
+          "max": 105
+        },
+        {
+          "label": "Blue",
+          "min": 106,
+          "max": 116
+        },
+        {
+          "label": "Red",
+          "min": 117,
+          "max": 127
+        },
+        {
+          "label": "Forwards rainbow effecr from slow to fast",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "No rotation",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Backwards rainbow effect from slow to fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 4,
+      "type_description": "Gobo Wheel",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Gobo 1",
+          "min": 8,
+          "max": 19
+        },
+        {
+          "label": "Gobo 2",
+          "min": 20,
+          "max": 31
+        },
+        {
+          "label": "Gobo 3",
+          "min": 32,
+          "max": 43
+        },
+        {
+          "label": "Gobo 4",
+          "min": 44,
+          "max": 55
+        },
+        {
+          "label": "Gobo 5",
+          "min": 56,
+          "max": 67
+        },
+        {
+          "label": "Gobo 6",
+          "min": 68,
+          "max": 79
+        },
+        {
+          "label": "Gobo 7",
+          "min": 80,
+          "max": 91
+        },
+        {
+          "label": "Gobo 8",
+          "min": 92,
+          "max": 103
+        },
+        {
+          "label": "Gobo 9",
+          "min": 104,
+          "max": 115
+        },
+        {
+          "label": "Gobo 10",
+          "min": 116,
+          "max": 127
+        },
+        {
+          "label": "Shake gobo 1 from slow to fast",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Shake gobo 2 from slow to fast",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Shake gobo 3 from slow to fast",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Shake gobo 4 from slow to fast",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Shake gobo 5 from slow to fast",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Shake gobo 6 from slow to fast",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Shake gobo 7 from slow to fast",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Shake gobo 8 from slow to fast",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Shake gobo 9 from slow to fast",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Shake gobo 10 from slow to fast",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Forward rotation from slow to fast",
+          "min": 208,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 21,
+      "type_description": "Shutter, Strobe",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Open",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe effect from slow to fast",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Closing pulses from slow to fast",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Opening pulses from fast to slow",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random Strobe effects from slow to fast",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Dimmer Intensity",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Robe/Robe-ClubSpot-250CT.json",
+  "id": 1188
+}

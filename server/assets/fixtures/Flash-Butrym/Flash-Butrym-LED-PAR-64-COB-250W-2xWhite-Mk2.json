@@ -1,0 +1,270 @@
+{
+  "version": "1.0.0",
+  "label": "LED PAR 64 COB 250W 2xWhite Mk2",
+  "manufacturer": "Flash-Butrym",
+  "bulb_type": "LED",
+  "bulb_lumens": 30000,
+  "bulb_color_temperature": 3200,
+  "dimension_weight": 3,
+  "dimension_width": 270,
+  "dimension_height": 300,
+  "dimension_depth": 130,
+  "lens_label": "PC",
+  "lens_degree_min": 37,
+  "lens_degree_max": 37,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 250,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "CTC",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Dimmer 16bit",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Strobe",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Macro",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Calibrated white 2200K",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Calibrated white 2300K",
+          "min": 11,
+          "max": 15
+        },
+        {
+          "label": "Calibrated white 2400K",
+          "min": 16,
+          "max": 20
+        },
+        {
+          "label": "Calibrated white 2500K",
+          "min": 21,
+          "max": 25
+        },
+        {
+          "label": "Calibrated white 2600K",
+          "min": 26,
+          "max": 30
+        },
+        {
+          "label": "Calibrated white 2700K",
+          "min": 31,
+          "max": 35
+        },
+        {
+          "label": "Calibrated white 2800K",
+          "min": 36,
+          "max": 40
+        },
+        {
+          "label": "Calibrated white 2900K",
+          "min": 41,
+          "max": 45
+        },
+        {
+          "label": "Calibrated white 3000K",
+          "min": 46,
+          "max": 50
+        },
+        {
+          "label": "Calibrated white 3100K",
+          "min": 51,
+          "max": 55
+        },
+        {
+          "label": "Calibrated white 3200K",
+          "min": 56,
+          "max": 60
+        },
+        {
+          "label": "Calibrated white 3400K",
+          "min": 61,
+          "max": 65
+        },
+        {
+          "label": "Calibrated white 3600K",
+          "min": 66,
+          "max": 70
+        },
+        {
+          "label": "Calibrated white 3800K",
+          "min": 71,
+          "max": 75
+        },
+        {
+          "label": "Calibrated white 4000K",
+          "min": 76,
+          "max": 80
+        },
+        {
+          "label": "Calibrated white 4200K",
+          "min": 81,
+          "max": 85
+        },
+        {
+          "label": "Calibrated white 4400K",
+          "min": 86,
+          "max": 90
+        },
+        {
+          "label": "Calibrated white 4600K",
+          "min": 91,
+          "max": 95
+        },
+        {
+          "label": "Calibrated white 4800K",
+          "min": 96,
+          "max": 100
+        },
+        {
+          "label": "Calibrated white 5000K",
+          "min": 101,
+          "max": 105
+        },
+        {
+          "label": "Calibrated white 5200K",
+          "min": 106,
+          "max": 110
+        },
+        {
+          "label": "Macro 1 - change",
+          "min": 111,
+          "max": 115
+        },
+        {
+          "label": "Macro 2 - ramp",
+          "min": 116,
+          "max": 120
+        },
+        {
+          "label": "Macro 3 - fade",
+          "min": 121,
+          "max": 125
+        },
+        {
+          "label": "Macro 4 - redshift",
+          "min": 126,
+          "max": 130
+        },
+        {
+          "label": "Macro 5 - pulse",
+          "min": 131,
+          "max": 135
+        },
+        {
+          "label": "Macro 6 - CTO",
+          "min": 136,
+          "max": 140
+        },
+        {
+          "label": "Macro 7 - Flash",
+          "min": 141,
+          "max": 145
+        },
+        {
+          "label": "Macro 8 - Random",
+          "min": 146,
+          "max": 150
+        },
+        {
+          "label": "Blackout",
+          "min": 151,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 5,
+      "type_description": "2200K",
+      "capabilities": [
+        {
+          "label": "2200K",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 5,
+      "type_description": "5200K",
+      "capabilities": [
+        {
+          "label": "5200K",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 5,
+      "type_description": "2200K 16bit",
+      "capabilities": [
+        {
+          "label": "2200K 16bit",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 5,
+      "type_description": "5200K 16bit",
+      "capabilities": [
+        {
+          "label": "5200K 16bit",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Flash-Butrym/Flash-Butrym-LED-PAR-64-COB-250W-2xWhite-Mk2.json",
+  "id": 782
+}

@@ -1,0 +1,326 @@
+{
+  "version": "1.0.0",
+  "label": "Acrobat",
+  "manufacturer": "Martin",
+  "bulb_type": "ELC 250W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 8,
+  "dimension_width": 490,
+  "dimension_height": 190,
+  "dimension_depth": 165,
+  "lens_label": "",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Mirror",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 275,
+  "technical_dmx_connector": "3-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 5,
+      "type_description": "Dimmer, Strobe, Reset",
+      "capabilities": [
+        {
+          "label": "Dimmer",
+          "min": 0,
+          "max": 154
+        },
+        {
+          "label": "Open",
+          "min": 155,
+          "max": 169
+        },
+        {
+          "label": "Strobe, fast to slow",
+          "min": 170,
+          "max": 229
+        },
+        {
+          "label": "Music Trigger",
+          "min": 230,
+          "max": 239
+        },
+        {
+          "label": "Auto Trigger",
+          "min": 240,
+          "max": 249
+        },
+        {
+          "label": "Reset",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 18,
+      "type_description": "Parabolic Reflector",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "label": "CCW rotation, slow to fast",
+          "min": 2,
+          "max": 122
+        },
+        {
+          "label": "Stop",
+          "min": 123,
+          "max": 132
+        },
+        {
+          "label": "CW rotation, fast to slow",
+          "min": 133,
+          "max": 253
+        },
+        {
+          "label": "Stop",
+          "min": 254,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 4,
+      "type_description": "Color / Gobo Wheel",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 11
+        },
+        {
+          "label": "Worms",
+          "min": 12,
+          "max": 23
+        },
+        {
+          "label": "Web",
+          "min": 24,
+          "max": 35
+        },
+        {
+          "label": "Petals",
+          "min": 36,
+          "max": 47
+        },
+        {
+          "label": "Spokes",
+          "min": 48,
+          "max": 59
+        },
+        {
+          "label": "Cone",
+          "min": 60,
+          "max": 71
+        },
+        {
+          "label": "Maze",
+          "min": 72,
+          "max": 83
+        },
+        {
+          "label": "Crater",
+          "min": 84,
+          "max": 95
+        },
+        {
+          "label": "Holes",
+          "min": 96,
+          "max": 107
+        },
+        {
+          "label": "Cross",
+          "min": 108,
+          "max": 119
+        },
+        {
+          "label": "Jagged Cross",
+          "min": 120,
+          "max": 131
+        },
+        {
+          "label": "Atomic",
+          "min": 132,
+          "max": 143
+        },
+        {
+          "label": "Dot Circle",
+          "min": 144,
+          "max": 155
+        },
+        {
+          "label": "Nordic",
+          "min": 156,
+          "max": 167
+        },
+        {
+          "label": "Aim",
+          "min": 168,
+          "max": 179
+        },
+        {
+          "label": "Pie",
+          "min": 180,
+          "max": 191
+        },
+        {
+          "label": "Tie",
+          "min": 192,
+          "max": 203
+        },
+        {
+          "label": "Nova",
+          "min": 204,
+          "max": 215
+        },
+        {
+          "label": "Triple Beam",
+          "min": 216,
+          "max": 227
+        },
+        {
+          "label": "Blackout",
+          "min": 228,
+          "max": 239
+        },
+        {
+          "label": "Random",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Mirror Drum Swivel",
+      "capabilities": [
+        {
+          "label": "Index",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Mirror Drum Rotation",
+      "capabilities": [
+        {
+          "label": "No Spin",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "label": "Spin CW",
+          "min": 2,
+          "max": 122
+        },
+        {
+          "label": "No Spin",
+          "min": 123,
+          "max": 132
+        },
+        {
+          "label": "Spin CCW",
+          "min": 133,
+          "max": 253
+        },
+        {
+          "label": "No Spin",
+          "min": 254,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 22,
+      "type_description": "Mirror Swivel Speed",
+      "capabilities": [
+        {
+          "label": "Tracking",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Speed (Fast to Slow)",
+          "min": 3,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 22,
+      "type_description": "Color / Gobo Speed",
+      "capabilities": [
+        {
+          "label": "Speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Stand-alone",
+      "capabilities": [
+        {
+          "label": "Blackout (light off)",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Open (light on)",
+          "min": 11,
+          "max": 20
+        },
+        {
+          "label": "Strobe %",
+          "min": 21,
+          "max": 80
+        },
+        {
+          "label": "Stand-alone w/ Slow Music Trigger",
+          "min": 81,
+          "max": 115
+        },
+        {
+          "label": "Stand-alone w/ Medium Music Trigger",
+          "min": 116,
+          "max": 140
+        },
+        {
+          "label": "Stand-alone w/ Fast Music Trigger",
+          "min": 141,
+          "max": 175
+        },
+        {
+          "label": "Stand-alone w/ Random Music Trigger",
+          "min": 176,
+          "max": 210
+        },
+        {
+          "label": "Manual trigger area, crossover at 240 (94%)",
+          "min": 211,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Martin/Martin-Acrobat.json",
+  "id": 1036
+}

@@ -1,0 +1,156 @@
+{
+  "version": "1.0.0",
+  "label": "EVC MH",
+  "manufacturer": "Elation",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 207,
+  "dimension_height": 209,
+  "dimension_depth": 246,
+  "lens_label": "Other",
+  "lens_degree_min": 60,
+  "lens_degree_max": 60,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 36,
+  "technical_dmx_connector": "5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan Coarse",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt Coarse",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan / Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Warm White LED",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Cool White LED",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 1,
+      "type_description": "Focus Coarse",
+      "capabilities": [
+        {
+          "label": "Auto Focus",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Near - Far",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 1,
+      "type_description": "Focus Fine",
+      "capabilities": [
+        {
+          "label": "Focus fine",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 17,
+      "type_description": "Function",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 69
+        },
+        {
+          "label": "Enable Blackout while moving",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Disable Blackout while moving",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "No function",
+          "min": 90,
+          "max": 199
+        },
+        {
+          "label": "Reset All",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "No function",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "LED Color Temperature",
+      "capabilities": [
+        {
+          "label": "OFF",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Warm - Cool",
+          "min": 8,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Elation/Elation-EVC-MH.json",
+  "id": 600
+}

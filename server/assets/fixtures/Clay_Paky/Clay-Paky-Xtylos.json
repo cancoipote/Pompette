@@ -1,0 +1,1033 @@
+{
+  "version": "1.0.0",
+  "label": "Xtylos",
+  "manufacturer": "Clay Paky",
+  "bulb_type": "Laser",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 24,
+  "dimension_width": 388,
+  "dimension_height": 582,
+  "dimension_depth": 294,
+  "lens_label": "Other",
+  "lens_degree_min": 1,
+  "lens_degree_max": 7,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 250,
+  "technical_power_consumption": 400,
+  "technical_dmx_connector": "5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Green fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Blue fine",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "CTO",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Show Setup",
+      "capabilities": [
+        {
+          "label": "Unused range",
+          "min": 0,
+          "max": 11
+        },
+        {
+          "label": "Limited Output On",
+          "min": 12,
+          "max": 16
+        },
+        {
+          "label": "Limited Output Off",
+          "min": 17,
+          "max": 21
+        },
+        {
+          "label": "SOZ - HD=82ft. 25.0m. (Smart Mode only)",
+          "min": 22,
+          "max": 27
+        },
+        {
+          "label": "SOZ - HD=70ft. 21.5m. (Smart Mode only)",
+          "min": 28,
+          "max": 32
+        },
+        {
+          "label": "SOZ - HD=60ft. 18.5m. (Smart Mode only)",
+          "min": 33,
+          "max": 37
+        },
+        {
+          "label": "SOZ - HD=50ft. 15.0m. (Smart Mode only)",
+          "min": 38,
+          "max": 42
+        },
+        {
+          "label": "Check start",
+          "min": 43,
+          "max": 47
+        },
+        {
+          "label": "Check stop",
+          "min": 48,
+          "max": 52
+        },
+        {
+          "label": "BAZ - Symmetric",
+          "min": 53,
+          "max": 57
+        },
+        {
+          "label": "BAZ - Pan_180",
+          "min": 58,
+          "max": 62
+        },
+        {
+          "label": "BAZ - Custom - Tilt 1",
+          "min": 63,
+          "max": 67
+        },
+        {
+          "label": "BAZ - Custom - Pan 1",
+          "min": 68,
+          "max": 72
+        },
+        {
+          "label": "BAZ - Custom - Pan 2",
+          "min": 73,
+          "max": 78
+        },
+        {
+          "label": "BAZ - Custom - Tilt 2",
+          "min": 79,
+          "max": 83
+        },
+        {
+          "label": "Free",
+          "min": 84,
+          "max": 93
+        },
+        {
+          "label": "BAZ - Invert Off",
+          "min": 94,
+          "max": 99
+        },
+        {
+          "label": "BAZ - Invert On",
+          "min": 100,
+          "max": 104
+        },
+        {
+          "label": "BAZ - Reset",
+          "min": 105,
+          "max": 108
+        },
+        {
+          "label": "SOZ - Symmetric (Smart Mode only)",
+          "min": 109,
+          "max": 113
+        },
+        {
+          "label": "SOZ - Pan_180 (Smart Mode only)",
+          "min": 114,
+          "max": 118
+        },
+        {
+          "label": "SOZ - Custom - Tilt 1 (Smart Mode only)",
+          "min": 119,
+          "max": 123
+        },
+        {
+          "label": "SOZ - Custom - Pan 1 (Smart Mode only)",
+          "min": 124,
+          "max": 129
+        },
+        {
+          "label": "SOZ - Custom - Pan 2 (Smart Mode only)",
+          "min": 130,
+          "max": 134
+        },
+        {
+          "label": "SOZ - Custom - Tilt 2 (Smart Mode only)",
+          "min": 135,
+          "max": 139
+        },
+        {
+          "label": "Free",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "SOZ - Invert Off (Smart Mode only)",
+          "min": 150,
+          "max": 154
+        },
+        {
+          "label": "SOZ - Invert On (Smart Mode only)",
+          "min": 155,
+          "max": 159
+        },
+        {
+          "label": "SOZ - Reset (Smart Mode only)",
+          "min": 160,
+          "max": 164
+        },
+        {
+          "label": "Complete channel reset",
+          "min": 165,
+          "max": 169
+        },
+        {
+          "label": "Free",
+          "min": 170,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Dimmer fine",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Light OFF",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Variable frenìquancy (1 flash sec) To (12 flash sec)",
+          "min": 4,
+          "max": 103
+        },
+        {
+          "label": "Light ON",
+          "min": 104,
+          "max": 107
+        },
+        {
+          "label": "Pulsation slow to fast",
+          "min": 108,
+          "max": 207
+        },
+        {
+          "label": "Light ON",
+          "min": 208,
+          "max": 212
+        },
+        {
+          "label": "Random low",
+          "min": 213,
+          "max": 225
+        },
+        {
+          "label": "Random medium",
+          "min": 226,
+          "max": 238
+        },
+        {
+          "label": "Random high",
+          "min": 239,
+          "max": 251
+        },
+        {
+          "label": "Light ON",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 4,
+      "type_description": "Static Gobo Change",
+      "capabilities": [
+        {
+          "label": "Empty position",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Gobo 1",
+          "min": 6,
+          "max": 11
+        },
+        {
+          "label": "Gobo 2",
+          "min": 12,
+          "max": 17
+        },
+        {
+          "label": "Gobo 3",
+          "min": 18,
+          "max": 23
+        },
+        {
+          "label": "Gobo 4",
+          "min": 24,
+          "max": 29
+        },
+        {
+          "label": "Gobo 5",
+          "min": 30,
+          "max": 35
+        },
+        {
+          "label": "Gobo 6",
+          "min": 36,
+          "max": 41
+        },
+        {
+          "label": "Gobo 7",
+          "min": 42,
+          "max": 47
+        },
+        {
+          "label": "Gobo 8",
+          "min": 48,
+          "max": 53
+        },
+        {
+          "label": "Gobo 9",
+          "min": 54,
+          "max": 59
+        },
+        {
+          "label": "Gobo 10",
+          "min": 60,
+          "max": 65
+        },
+        {
+          "label": "Gobo 11",
+          "min": 66,
+          "max": 71
+        },
+        {
+          "label": "Continuous rotation CCW (linear fast to slow)",
+          "min": 72,
+          "max": 113
+        },
+        {
+          "label": "Stop",
+          "min": 114,
+          "max": 117
+        },
+        {
+          "label": "Continuous rotation CW (linear fast to slow)",
+          "min": 118,
+          "max": 159
+        },
+        {
+          "label": "Gobo 1 shake",
+          "min": 160,
+          "max": 168
+        },
+        {
+          "label": "Gobo 2 shake",
+          "min": 169,
+          "max": 177
+        },
+        {
+          "label": "Gobo 3 shake",
+          "min": 178,
+          "max": 186
+        },
+        {
+          "label": "Gobo 4 shake",
+          "min": 187,
+          "max": 194
+        },
+        {
+          "label": "Gobo 5 shake",
+          "min": 195,
+          "max": 203
+        },
+        {
+          "label": "Gobo 6 shake",
+          "min": 204,
+          "max": 212
+        },
+        {
+          "label": "Gobo 7 shake",
+          "min": 213,
+          "max": 221
+        },
+        {
+          "label": "Gobo 8 shake",
+          "min": 222,
+          "max": 229
+        },
+        {
+          "label": "Gobo 9 shake",
+          "min": 230,
+          "max": 238
+        },
+        {
+          "label": "Gobo 10 shake",
+          "min": 239,
+          "max": 247
+        },
+        {
+          "label": "Gobo 11 shake",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 4,
+      "type_description": "Rotating Gobo Change",
+      "capabilities": [
+        {
+          "label": "Empty position",
+          "min": 0,
+          "max": 16
+        },
+        {
+          "label": "Gobo 1",
+          "min": 17,
+          "max": 32
+        },
+        {
+          "label": "Gobo 2",
+          "min": 33,
+          "max": 48
+        },
+        {
+          "label": "Gobo 3",
+          "min": 49,
+          "max": 54
+        },
+        {
+          "label": "Gobo 4",
+          "min": 55,
+          "max": 81
+        },
+        {
+          "label": "Gobo 5",
+          "min": 82,
+          "max": 97
+        },
+        {
+          "label": "Gobo 6",
+          "min": 98,
+          "max": 113
+        },
+        {
+          "label": "Gobo 7",
+          "min": 114,
+          "max": 129
+        },
+        {
+          "label": "Gobo 1 shake",
+          "min": 130,
+          "max": 147
+        },
+        {
+          "label": "Gobo 2 shake",
+          "min": 148,
+          "max": 165
+        },
+        {
+          "label": "Gobo 3 shake",
+          "min": 166,
+          "max": 183
+        },
+        {
+          "label": "Gobo 4 shake",
+          "min": 184,
+          "max": 201
+        },
+        {
+          "label": "Gobo 5 shake",
+          "min": 202,
+          "max": 219
+        },
+        {
+          "label": "Gobo 6 shake",
+          "min": 220,
+          "max": 237
+        },
+        {
+          "label": "Gobo 7 shake",
+          "min": 238,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 4,
+      "type_description": "Gobo Rotation",
+      "capabilities": [
+        {
+          "label": "0° to 90°",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "90° to 180°",
+          "min": 21,
+          "max": 41
+        },
+        {
+          "label": "180° to 270°",
+          "min": 42,
+          "max": 62
+        },
+        {
+          "label": "270° to 360°",
+          "min": 63,
+          "max": 83
+        },
+        {
+          "label": "360° to 450°",
+          "min": 84,
+          "max": 104
+        },
+        {
+          "label": "450° to 540°",
+          "min": 105,
+          "max": 127
+        },
+        {
+          "label": "Continuous CW gobo rotation (linear fast to slow)",
+          "min": 128,
+          "max": 190
+        },
+        {
+          "label": "Stop rotation",
+          "min": 191,
+          "max": 192
+        },
+        {
+          "label": "Continuous CCW gobo rotation (linear slow to fast)",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 4,
+      "type_description": "Fine Gobo Rotation",
+      "capabilities": [
+        {
+          "label": "Fine CW Gobo Indexing",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 20,
+      "type_description": "Prisms Wheel Change",
+      "capabilities": [
+        {
+          "label": "Prisms/Frost out of the light beam",
+          "min": 0,
+          "max": 25
+        },
+        {
+          "label": "Prism 1 (6 facets)",
+          "min": 26,
+          "max": 51
+        },
+        {
+          "label": "Prism 2 (Elliptical)",
+          "min": 52,
+          "max": 77
+        },
+        {
+          "label": "Prism 3 (6 Facets pyramidal)",
+          "min": 78,
+          "max": 103
+        },
+        {
+          "label": "Frost",
+          "min": 104,
+          "max": 129
+        },
+        {
+          "label": "Prism 1 shakes at variable speed (slow to fast)",
+          "min": 130,
+          "max": 161
+        },
+        {
+          "label": "Prism 2 shakes at variable speed (slow to fast)",
+          "min": 162,
+          "max": 192
+        },
+        {
+          "label": "Prism 3 shakes at variable speed (slow to fast)",
+          "min": 193,
+          "max": 224
+        },
+        {
+          "label": "Frost shakes at variable speed (slow to fast)",
+          "min": 225,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 20,
+      "type_description": "Prisms Wheel Rotation",
+      "capabilities": [
+        {
+          "label": "Prisms/Frost indexing: 0° to 90° range",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Prisms/Frost indexing: 90° to 180° range",
+          "min": 21,
+          "max": 42
+        },
+        {
+          "label": "Prisms/Frost indexing: 180° to 270° range",
+          "min": 43,
+          "max": 62
+        },
+        {
+          "label": "Prisms/Frost indexing: 270° to 360° range",
+          "min": 63,
+          "max": 83
+        },
+        {
+          "label": "Prisms/Frost indexing: 360° to 450° range",
+          "min": 84,
+          "max": 104
+        },
+        {
+          "label": "Prisms/Frost indexing: 450° to 540° range",
+          "min": 105,
+          "max": 127
+        },
+        {
+          "label": "Continuous CCW Prisms/Frost rotation (linear fast to slow)",
+          "min": 128,
+          "max": 190
+        },
+        {
+          "label": "Stop rotation",
+          "min": 191,
+          "max": 192
+        },
+        {
+          "label": "Continuous CW Prisms/Frost rotation (linear slow to fast)",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 20,
+      "type_description": "Prism insertion",
+      "capabilities": [
+        {
+          "label": "Prism out",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Multi facets prism into the light beam",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 20,
+      "type_description": "Prism Rotation",
+      "capabilities": [
+        {
+          "label": "Prisms indexing: 0° to 90° range",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Prisms indexing: 90° to 180° range",
+          "min": 21,
+          "max": 41
+        },
+        {
+          "label": "Prisms indexing: 180° to 270° range",
+          "min": 42,
+          "max": 62
+        },
+        {
+          "label": "Prisms indexing: 270° to 360° range",
+          "min": 63,
+          "max": 83
+        },
+        {
+          "label": "Prisms indexing: 360° to 450° range",
+          "min": 84,
+          "max": 104
+        },
+        {
+          "label": "Prisms indexing: 450° to 540° range",
+          "min": 105,
+          "max": 127
+        },
+        {
+          "label": "Continuous CW Prisms/Frost rotation (linear fast to slow)",
+          "min": 128,
+          "max": 190
+        },
+        {
+          "label": "Stop rotation",
+          "min": 191,
+          "max": 192
+        },
+        {
+          "label": "Continuous CCW Prisms/Frost rotation (linear slow to fast)",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 3,
+      "type_description": "Smart Fading",
+      "capabilities": [
+        {
+          "label": "No fade",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Linear fading (SOZ only)",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 1,
+      "type_description": "Focus fine",
+      "capabilities": [
+        {
+          "label": "Fine Focus Positioning",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 3,
+      "type_description": "Function",
+      "capabilities": [
+        {
+          "label": "Unused range",
+          "min": 0,
+          "max": 11
+        },
+        {
+          "label": "Fast pan-tilt speed",
+          "min": 12,
+          "max": 24
+        },
+        {
+          "label": "Normal pan-tilt speed",
+          "min": 25,
+          "max": 37
+        },
+        {
+          "label": "Conventional dimmer curve",
+          "min": 38,
+          "max": 50
+        },
+        {
+          "label": "Standrd dimmer curve",
+          "min": 51,
+          "max": 62
+        },
+        {
+          "label": "CMY shortcut ON",
+          "min": 63,
+          "max": 75
+        },
+        {
+          "label": "CMY shortcut OFF",
+          "min": 76,
+          "max": 88
+        },
+        {
+          "label": "Slow blades speed",
+          "min": 89,
+          "max": 101
+        },
+        {
+          "label": "Fast blade speed",
+          "min": 102,
+          "max": 113
+        },
+        {
+          "label": "fast rotating gobos change",
+          "min": 114,
+          "max": 126
+        },
+        {
+          "label": "Normal rotating gobos change",
+          "min": 127,
+          "max": 139
+        },
+        {
+          "label": "Quadratic dimmer curve",
+          "min": 140,
+          "max": 152
+        },
+        {
+          "label": "TBD",
+          "min": 153,
+          "max": 164
+        },
+        {
+          "label": "TBD",
+          "min": 165,
+          "max": 177
+        },
+        {
+          "label": "TBD",
+          "min": 178,
+          "max": 190
+        },
+        {
+          "label": "TBD",
+          "min": 191,
+          "max": 203
+        },
+        {
+          "label": "TBD",
+          "min": 204,
+          "max": 215
+        },
+        {
+          "label": "Linear dimmer curve",
+          "min": 216,
+          "max": 228
+        },
+        {
+          "label": "Free",
+          "min": 229,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "type": 17,
+      "type_description": "Reset",
+      "capabilities": [
+        {
+          "label": "Unused range",
+          "min": 0,
+          "max": 25
+        },
+        {
+          "label": "Effects reset",
+          "min": 26,
+          "max": 76
+        },
+        {
+          "label": "Pan/Tilt reset",
+          "min": 77,
+          "max": 127
+        },
+        {
+          "label": "Complete reset",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "type": 3,
+      "type_description": "Function 2",
+      "capabilities": [
+        {
+          "label": "Unused range",
+          "min": 0,
+          "max": 11
+        },
+        {
+          "label": "Base frequency = 4700Hz",
+          "min": 12,
+          "max": 12
+        },
+        {
+          "label": "Base frequency = 6000Hz",
+          "min": 13,
+          "max": 13
+        },
+        {
+          "label": "Base frequency = 7300Hz",
+          "min": 14,
+          "max": 14
+        },
+        {
+          "label": "Base frequency = 8600Hz",
+          "min": 15,
+          "max": 15
+        },
+        {
+          "label": "Base frequency = 10000Hz",
+          "min": 16,
+          "max": 16
+        },
+        {
+          "label": "Base frequency = 12000Hz",
+          "min": 17,
+          "max": 17
+        },
+        {
+          "label": "Base frequency = 15000Hz",
+          "min": 18,
+          "max": 18
+        },
+        {
+          "label": "Base frequency = 17578Hz",
+          "min": 19,
+          "max": 19
+        },
+        {
+          "label": "Base frequency = 20000Hz",
+          "min": 20,
+          "max": 20
+        },
+        {
+          "label": "Base frequency = 22000Hz",
+          "min": 21,
+          "max": 21
+        },
+        {
+          "label": "Unused range",
+          "min": 22,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "type": 3,
+      "type_description": "Frequency",
+      "capabilities": [
+        {
+          "label": "Frequency",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "type": 3,
+      "type_description": "BAZ Fading",
+      "capabilities": [
+        {
+          "label": "No fade",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Linear fading (BAZ only)",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Clay_Paky/Clay-Paky-Xtylos.json",
+  "id": 387
+}

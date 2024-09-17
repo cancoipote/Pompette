@@ -1,0 +1,625 @@
+{
+  "version": "1.0.0",
+  "label": "E3 LED Spot",
+  "manufacturer": "EK",
+  "bulb_type": "LED",
+  "bulb_lumens": 1069,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 6,
+  "dimension_width": 250,
+  "dimension_height": 332,
+  "dimension_depth": 208,
+  "lens_label": "PC",
+  "lens_degree_min": 18,
+  "lens_degree_max": 18,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 118,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan/Tilt speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 17,
+      "type_description": "Reset All",
+      "capabilities": [
+        {
+          "label": "Nothing",
+          "min": 0,
+          "max": 199
+        },
+        {
+          "label": "Reset All (Hold 3 second)",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Nothing",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "Nothing",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "RED",
+          "min": 8,
+          "max": 22
+        },
+        {
+          "label": "YELLOW",
+          "min": 23,
+          "max": 37
+        },
+        {
+          "label": "GREEN",
+          "min": 38,
+          "max": 52
+        },
+        {
+          "label": "CYAN",
+          "min": 53,
+          "max": 67
+        },
+        {
+          "label": "BLUE",
+          "min": 68,
+          "max": 82
+        },
+        {
+          "label": "MAGENTA",
+          "min": 83,
+          "max": 97
+        },
+        {
+          "label": "WHITE",
+          "min": 98,
+          "max": 112
+        },
+        {
+          "label": "FULL",
+          "min": 113,
+          "max": 127
+        },
+        {
+          "label": "Left Run Fast to Slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop Run",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Right Run Slow to Fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 4,
+      "type_description": "Gobo wheel",
+      "capabilities": [
+        {
+          "label": "WHITE",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Gobo 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Gobo 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Gobo 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Gobo 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Gobo 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Gobo 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Gobo 7",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Gobo 1 Shaking",
+          "min": 64,
+          "max": 73
+        },
+        {
+          "label": "Gobo 2 Shaking",
+          "min": 74,
+          "max": 82
+        },
+        {
+          "label": "Gobo 3 Shaking",
+          "min": 83,
+          "max": 91
+        },
+        {
+          "label": "Gobo 4 Shaking",
+          "min": 92,
+          "max": 100
+        },
+        {
+          "label": "Gobo 5 Shaking",
+          "min": 101,
+          "max": 109
+        },
+        {
+          "label": "Gobo 6 Shaking",
+          "min": 110,
+          "max": 118
+        },
+        {
+          "label": "Gobo 7 Shaking",
+          "min": 119,
+          "max": 127
+        },
+        {
+          "label": "Left Rotation Fast to Slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop Rotation",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Right Rotation Slow to Fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 4,
+      "type_description": "Gobo Rotation",
+      "capabilities": [
+        {
+          "label": "Stop Rotation",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Left Rotation Fast to Slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop Rotation",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Right Rotation Slow to Fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "Prism Off",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Prism On",
+          "min": 11,
+          "max": 127
+        },
+        {
+          "label": "Left Rotation Fast to Slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop Rotation",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Right Rotation Slow to Fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 21,
+      "type_description": "Strobe (Shutter)",
+      "capabilities": [
+        {
+          "label": "Shutter Closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "No function (Open)",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe Effect Slow to Fast",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "No function (Open)",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse-Effect in sequences",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "No function (Open)",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random Strobe Effect Slow to Fast",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "No function (Open)",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Colour Macro",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "R100 G0-100 B0 W0",
+          "min": 11,
+          "max": 30
+        },
+        {
+          "label": "R100-0 G100 B0 W0",
+          "min": 31,
+          "max": 50
+        },
+        {
+          "label": "R0 G100 B100-0 W0",
+          "min": 51,
+          "max": 70
+        },
+        {
+          "label": "R0 G100-0 B100 W0",
+          "min": 71,
+          "max": 90
+        },
+        {
+          "label": "R0-100 G0 B100 W0",
+          "min": 91,
+          "max": 110
+        },
+        {
+          "label": "R100 G0 B0-100 W0",
+          "min": 111,
+          "max": 130
+        },
+        {
+          "label": "R100 G0-100 B0-100 W0",
+          "min": 131,
+          "max": 150
+        },
+        {
+          "label": "R100-0 G100-0 B100 W0",
+          "min": 151,
+          "max": 170
+        },
+        {
+          "label": "R100 G100 B100 W100",
+          "min": 171,
+          "max": 200
+        },
+        {
+          "label": "Colour 1",
+          "min": 201,
+          "max": 205
+        },
+        {
+          "label": "Colour 2",
+          "min": 206,
+          "max": 210
+        },
+        {
+          "label": "Colour 3",
+          "min": 211,
+          "max": 215
+        },
+        {
+          "label": "Colour 4",
+          "min": 216,
+          "max": 220
+        },
+        {
+          "label": "Colour 5",
+          "min": 221,
+          "max": 225
+        },
+        {
+          "label": "Colour 6",
+          "min": 226,
+          "max": 230
+        },
+        {
+          "label": "Colour 7",
+          "min": 231,
+          "max": 235
+        },
+        {
+          "label": "Colour 8",
+          "min": 236,
+          "max": 240
+        },
+        {
+          "label": "Colour 9",
+          "min": 241,
+          "max": 245
+        },
+        {
+          "label": "Colour 10",
+          "min": 246,
+          "max": 250
+        },
+        {
+          "label": "Colour 11",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Auto Program",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "4 Colours Snap",
+          "min": 11,
+          "max": 70
+        },
+        {
+          "label": "4 Colours Fade",
+          "min": 71,
+          "max": 130
+        },
+        {
+          "label": "15 Colours Snap",
+          "min": 131,
+          "max": 190
+        },
+        {
+          "label": "15 Colours Fade",
+          "min": 191,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 22,
+      "type_description": "Auto Program Speed",
+      "capabilities": [
+        {
+          "label": "Speed Slow to Fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 3,
+      "type_description": "Motor Show",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Motor Show 1",
+          "min": 11,
+          "max": 58
+        },
+        {
+          "label": "Motor Show 2",
+          "min": 59,
+          "max": 106
+        },
+        {
+          "label": "Motor Show 3",
+          "min": 107,
+          "max": 154
+        },
+        {
+          "label": "Motor Show 4",
+          "min": 155,
+          "max": 202
+        },
+        {
+          "label": "Motor Show 5 (Motor Show 1-4)",
+          "min": 203,
+          "max": 250
+        },
+        {
+          "label": "Sound Show",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "type": 22,
+      "type_description": "Motor Show Speed",
+      "capabilities": [
+        {
+          "label": "Speed Slow to Fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "type": 22,
+      "type_description": "Dimmer Speed Mode",
+      "capabilities": [
+        {
+          "label": "Preset Dimmer Speed from Display Menu",
+          "min": 0,
+          "max": 51
+        },
+        {
+          "label": "Dimmer Speed Mode OFF",
+          "min": 52,
+          "max": 101
+        },
+        {
+          "label": "Dimmer Speed Mode 1 (Fast Speed)",
+          "min": 102,
+          "max": 152
+        },
+        {
+          "label": "Dimmer Speed Mode 2 (Middle Speed)",
+          "min": 153,
+          "max": 203
+        },
+        {
+          "label": "Dimmer Speed Mode 3 (Slow Speed)",
+          "min": 204,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/EK/EK-E3-LED-Spot.json",
+  "id": 594
+}

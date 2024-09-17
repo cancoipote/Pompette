@@ -1,0 +1,990 @@
+{
+  "version": "1.0.0",
+  "label": "MAC 700 Profile",
+  "manufacturer": "Martin",
+  "bulb_type": "HTI 700W",
+  "bulb_lumens": 16700,
+  "bulb_color_temperature": 7500,
+  "dimension_weight": 34,
+  "dimension_width": 365,
+  "dimension_height": 636,
+  "dimension_depth": 450,
+  "lens_label": "Other",
+  "lens_degree_min": 16,
+  "lens_degree_max": 30,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 246,
+  "technical_power_consumption": 1019,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Shutter, Strobe, Functions",
+      "capabilities": [
+        {
+          "label": "Shutter closed (lamp switches to 400 W mode after 10 seconds while shutter is closed)",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Shutter open",
+          "min": 20,
+          "max": 49
+        },
+        {
+          "label": "Strobe, fast -> slow",
+          "min": 50,
+          "max": 72
+        },
+        {
+          "label": "Shutter open",
+          "min": 73,
+          "max": 79
+        },
+        {
+          "label": "Opening pulse, fast -> slow",
+          "min": 80,
+          "max": 99
+        },
+        {
+          "label": "Closing pulse, fast -> slow",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "Shutter open",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Random strobe, fast",
+          "min": 128,
+          "max": 147
+        },
+        {
+          "label": "Random strobe, medium",
+          "min": 148,
+          "max": 167
+        },
+        {
+          "label": "Random strobe, slow",
+          "min": 168,
+          "max": 187
+        },
+        {
+          "label": "Shutter open",
+          "min": 188,
+          "max": 190
+        },
+        {
+          "label": "Random opening pulse, fast",
+          "min": 191,
+          "max": 193
+        },
+        {
+          "label": "Random open pulse, slow",
+          "min": 194,
+          "max": 196
+        },
+        {
+          "label": "Random closing pulse, fast",
+          "min": 197,
+          "max": 199
+        },
+        {
+          "label": "Random closing pulse, slow",
+          "min": 200,
+          "max": 202
+        },
+        {
+          "label": "Shutter open",
+          "min": 203,
+          "max": 207
+        },
+        {
+          "label": "Reset fixture",
+          "min": 208,
+          "max": 217
+        },
+        {
+          "label": "Shutter open",
+          "min": 218,
+          "max": 227
+        },
+        {
+          "label": "Lamp on",
+          "min": 228,
+          "max": 237
+        },
+        {
+          "label": "400 W mode (active until 700 W value is selected)",
+          "min": 238,
+          "max": 242
+        },
+        {
+          "label": "700 W mode",
+          "min": 243,
+          "max": 247
+        },
+        {
+          "label": "Lamp off",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Dimmer (MSB)",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Dimmer, fine (LSB)",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Cyan (MSB)",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Cyan, fine (LSB)",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Magenta (MSB)",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Magenta, fine (LSB)",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Yellow (MSB)",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Yellow, fine (LSB)",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Color Wheel",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Open -> slot 1",
+          "min": 1,
+          "max": 16
+        },
+        {
+          "label": "Slot 1 (Blue 110)",
+          "min": 17,
+          "max": 17
+        },
+        {
+          "label": "Slot 1 -> Slot 2",
+          "min": 18,
+          "max": 33
+        },
+        {
+          "label": "Slot 2 (Green 206 IAD)",
+          "min": 34,
+          "max": 34
+        },
+        {
+          "label": "Slot 2 -> Slot 3",
+          "min": 35,
+          "max": 50
+        },
+        {
+          "label": "Slot 3 (Pink 312)",
+          "min": 51,
+          "max": 51
+        },
+        {
+          "label": "Slot 3 -> Slot 4",
+          "min": 52,
+          "max": 67
+        },
+        {
+          "label": "Slot 4 (Orange 306M)",
+          "min": 68,
+          "max": 68
+        },
+        {
+          "label": "Slot 4 -> Slot 5",
+          "min": 69,
+          "max": 84
+        },
+        {
+          "label": "Slot 5 (Half minus green)",
+          "min": 85,
+          "max": 85
+        },
+        {
+          "label": "Slot 5 -> Slot 6",
+          "min": 86,
+          "max": 101
+        },
+        {
+          "label": "Slot 6 (CTC 3200 - 4100K)",
+          "min": 102,
+          "max": 102
+        },
+        {
+          "label": "Slot 6 -> slot 7",
+          "min": 103,
+          "max": 118
+        },
+        {
+          "label": "Slot 7 (CTC 5500 - 2800K)",
+          "min": 119,
+          "max": 119
+        },
+        {
+          "label": "Slot 7 -> Slot 8",
+          "min": 120,
+          "max": 135
+        },
+        {
+          "label": "Slot 8 (Red 308)",
+          "min": 136,
+          "max": 136
+        },
+        {
+          "label": "Slot 8 -> Open",
+          "min": 137,
+          "max": 152
+        },
+        {
+          "label": "Open",
+          "min": 153,
+          "max": 153
+        },
+        {
+          "label": "Slot 8 (Red 308) - Stepped Scroll",
+          "min": 154,
+          "max": 158
+        },
+        {
+          "label": "Slot 7 (CTC 5500-2800K)",
+          "min": 159,
+          "max": 163
+        },
+        {
+          "label": "Slot 6 (CTC 3200-4100K)",
+          "min": 164,
+          "max": 168
+        },
+        {
+          "label": "Slot 5 (Half minus green)",
+          "min": 169,
+          "max": 173
+        },
+        {
+          "label": "Slot 4 (Orange 306M)",
+          "min": 174,
+          "max": 178
+        },
+        {
+          "label": "Slot 3 (Pink 312)",
+          "min": 179,
+          "max": 183
+        },
+        {
+          "label": "Slot 2 (Green 206 IAD)",
+          "min": 184,
+          "max": 188
+        },
+        {
+          "label": "Slot 1 (Blue 110)",
+          "min": 189,
+          "max": 193
+        },
+        {
+          "label": "Open",
+          "min": 194,
+          "max": 198
+        },
+        {
+          "label": "CW, fast -> slow",
+          "min": 199,
+          "max": 219
+        },
+        {
+          "label": "CCW, slow -> fast",
+          "min": 220,
+          "max": 240
+        },
+        {
+          "label": "Random Fast",
+          "min": 241,
+          "max": 245
+        },
+        {
+          "label": "Random Medium",
+          "min": 246,
+          "max": 250
+        },
+        {
+          "label": "Random Slow",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Color Wheel, Fine",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 4,
+      "type_description": "Gobo1",
+      "capabilities": [
+        {
+          "label": "Open - Indexed",
+          "min": 0,
+          "max": 11
+        },
+        {
+          "label": "Gobo 1 (Spiral) - Indexed",
+          "min": 12,
+          "max": 15
+        },
+        {
+          "label": "Gobo 2 (Radial Circles) - Indexed",
+          "min": 16,
+          "max": 19
+        },
+        {
+          "label": "Gobo 3 (Fused Dicro Red/Yellow) - Indexed",
+          "min": 20,
+          "max": 23
+        },
+        {
+          "label": "Gobo 4 (Milky Way)",
+          "min": 24,
+          "max": 27
+        },
+        {
+          "label": "Gobo 5 (Water) - Indexed",
+          "min": 28,
+          "max": 31
+        },
+        {
+          "label": "Gobo 6 (Flames) - Indexed",
+          "min": 32,
+          "max": 35
+        },
+        {
+          "label": "Gobo 1 (Spiral) - Continuous Rotation",
+          "min": 36,
+          "max": 39
+        },
+        {
+          "label": "Gobo 2 (Radial Circles) - Continuous Rotation",
+          "min": 40,
+          "max": 43
+        },
+        {
+          "label": "Gobo 3 (Fused Dichro Red/Yellow) - Continuous Rotation",
+          "min": 44,
+          "max": 47
+        },
+        {
+          "label": "Gobo 4 (Milky Way) - Continuous Rotation",
+          "min": 48,
+          "max": 51
+        },
+        {
+          "label": "Gobo 5 (Water) - Continuous Rotation",
+          "min": 52,
+          "max": 55
+        },
+        {
+          "label": "Gobo 6 (Flames) - Continuous Rotation",
+          "min": 56,
+          "max": 59
+        },
+        {
+          "label": "Gobo 1, slow -> fast - Indexed Shake",
+          "min": 60,
+          "max": 71
+        },
+        {
+          "label": "Gobo 2, slow -> fast - Indexed Shake",
+          "min": 72,
+          "max": 83
+        },
+        {
+          "label": "Gobo 3, slow -> fast - Indexed Shake",
+          "min": 84,
+          "max": 95
+        },
+        {
+          "label": "Gobo 4, slow -> fast - Indexed Shake",
+          "min": 96,
+          "max": 107
+        },
+        {
+          "label": "Gobo 5, slow -> fast - Indexed Shake",
+          "min": 108,
+          "max": 119
+        },
+        {
+          "label": "Gobo 6, slow -> fast - Indexed Shake",
+          "min": 120,
+          "max": 131
+        },
+        {
+          "label": "Gobo 6, slow -> fast - Cont. Rotate and Shake",
+          "min": 132,
+          "max": 143
+        },
+        {
+          "label": "Gobo 5, slow -> fast - Cont. Rotate and Shake",
+          "min": 144,
+          "max": 155
+        },
+        {
+          "label": "Gobo 4, slow -> fast - Cont. Rotate and Shake",
+          "min": 156,
+          "max": 167
+        },
+        {
+          "label": "Gobo 3, slow ->fast - Cont. Rotate and Shake",
+          "min": 168,
+          "max": 179
+        },
+        {
+          "label": "Gobo 2, slow -> fast - Cont. Rotate and Shake",
+          "min": 180,
+          "max": 191
+        },
+        {
+          "label": "Gobo 1, slow -> fast - Cont. Rotate and Shake",
+          "min": 192,
+          "max": 203
+        },
+        {
+          "label": "CW scroll, slow -> fast",
+          "min": 204,
+          "max": 229
+        },
+        {
+          "label": "CCW scroll, fast-> slow",
+          "min": 230,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 4,
+      "type_description": "Rotating Gobo: Indexing, speed",
+      "capabilities": [
+        {
+          "label": "No rotation",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "CW, slow -> fast",
+          "min": 3,
+          "max": 127
+        },
+        {
+          "label": "CCW, fast -> slow",
+          "min": 128,
+          "max": 252
+        },
+        {
+          "label": "No rotation",
+          "min": 253,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Rotating Gobo, fine indexing",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 4,
+      "type_description": "Gobo2",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Open -> slot 1",
+          "min": 1,
+          "max": 10
+        },
+        {
+          "label": "Slot 1 (Crackle)",
+          "min": 11,
+          "max": 11
+        },
+        {
+          "label": "Slot 1 -> Slot 2",
+          "min": 12,
+          "max": 21
+        },
+        {
+          "label": "Slot 2 (Triangles Small)",
+          "min": 22,
+          "max": 22
+        },
+        {
+          "label": "Slot 2 -> Slot 3",
+          "min": 23,
+          "max": 32
+        },
+        {
+          "label": "Slot 3 (Tye Dye)",
+          "min": 33,
+          "max": 33
+        },
+        {
+          "label": "Slot 3 -> Slot 4",
+          "min": 34,
+          "max": 43
+        },
+        {
+          "label": "Slot 4 (Globo)",
+          "min": 44,
+          "max": 44
+        },
+        {
+          "label": "Slot 4 -> Slot 5",
+          "min": 45,
+          "max": 54
+        },
+        {
+          "label": "Slot 5 (Worms)",
+          "min": 55,
+          "max": 55
+        },
+        {
+          "label": "Slot 5 -> Slot 6",
+          "min": 56,
+          "max": 65
+        },
+        {
+          "label": "Slot 6 (Bio)",
+          "min": 66,
+          "max": 66
+        },
+        {
+          "label": "Slot 6 -> Slot 7",
+          "min": 67,
+          "max": 76
+        },
+        {
+          "label": "Slot 7 (Leaf Breakup)",
+          "min": 77,
+          "max": 77
+        },
+        {
+          "label": "Slot 7 -> Slot 8",
+          "min": 78,
+          "max": 87
+        },
+        {
+          "label": "Slot 8 (\"Les Mis\" Whirl Pool)",
+          "min": 88,
+          "max": 88
+        },
+        {
+          "label": "Slot 8 -> Slot 9",
+          "min": 89,
+          "max": 98
+        },
+        {
+          "label": "Slot 9 (Two Tone)",
+          "min": 99,
+          "max": 99
+        },
+        {
+          "label": "Slot 9 -> Open",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Open",
+          "min": 110,
+          "max": 112
+        },
+        {
+          "label": "Slot 9 (Tow Tone)",
+          "min": 113,
+          "max": 121
+        },
+        {
+          "label": "Slot 8 (\"Les Mis\" Whirl Pool)",
+          "min": 122,
+          "max": 130
+        },
+        {
+          "label": "Slot 7 (Leaf Breakup)",
+          "min": 131,
+          "max": 139
+        },
+        {
+          "label": "Slot 6 (Bio)",
+          "min": 140,
+          "max": 148
+        },
+        {
+          "label": "Slot 5 (Worms)",
+          "min": 149,
+          "max": 157
+        },
+        {
+          "label": "Slot 4 (Globo)",
+          "min": 158,
+          "max": 166
+        },
+        {
+          "label": "Slot 3 (Tye Dye)",
+          "min": 167,
+          "max": 175
+        },
+        {
+          "label": "Slot 2 (Triangles Small)",
+          "min": 176,
+          "max": 184
+        },
+        {
+          "label": "Slot 1 (Crackle)",
+          "min": 185,
+          "max": 193
+        },
+        {
+          "label": "Open",
+          "min": 194,
+          "max": 202
+        },
+        {
+          "label": "CW, fast->slow",
+          "min": 203,
+          "max": 221
+        },
+        {
+          "label": "CCW, slow->fast",
+          "min": 222,
+          "max": 240
+        },
+        {
+          "label": "Random Fast",
+          "min": 241,
+          "max": 245
+        },
+        {
+          "label": "Random Medium",
+          "min": 246,
+          "max": 250
+        },
+        {
+          "label": "Random Slow",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 3,
+      "type_description": "Gobo/Color Macros",
+      "capabilities": [
+        {
+          "label": "No macro",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Static gobo wheel shake, slow->fast",
+          "min": 16,
+          "max": 55
+        },
+        {
+          "label": "Color wheel shake, slow->fast",
+          "min": 56,
+          "max": 95
+        },
+        {
+          "label": "Static gobo & color shake, slow->fast",
+          "min": 96,
+          "max": 135
+        },
+        {
+          "label": "Random CMY Fast",
+          "min": 136,
+          "max": 175
+        },
+        {
+          "label": "Random CMY Medium",
+          "min": 176,
+          "max": 215
+        },
+        {
+          "label": "Random CMY Slow",
+          "min": 216,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 4,
+      "type_description": "Gobo animation wheel control 1",
+      "capabilities": [
+        {
+          "label": "Gobo animation wheel: position and function",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 4,
+      "type_description": "Gobo animation wheel control 2",
+      "capabilities": [
+        {
+          "label": "Indexed angled position, rotation, direction and speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "Prism Off",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Prism on, CCW rotation, fast->slow",
+          "min": 20,
+          "max": 79
+        },
+        {
+          "label": "Prism on, No rotation",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Prism on, CW rotation, slow->fast",
+          "min": 90,
+          "max": 149
+        },
+        {
+          "label": "Prism Off",
+          "min": 150,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 1,
+      "type_description": "Iris (MSB)",
+      "capabilities": [
+        {
+          "label": "Open -> Closed",
+          "min": 0,
+          "max": 199
+        },
+        {
+          "label": "Closed",
+          "min": 200,
+          "max": 215
+        },
+        {
+          "label": "Opening pulse, fast->slow",
+          "min": 216,
+          "max": 229
+        },
+        {
+          "label": "Closing pulse, fast->slow",
+          "min": 230,
+          "max": 243
+        },
+        {
+          "label": "Random opening pulse, fast",
+          "min": 244,
+          "max": 246
+        },
+        {
+          "label": "Random opening pulse, slow",
+          "min": 247,
+          "max": 249
+        },
+        {
+          "label": "Random closing pulse, fast",
+          "min": 250,
+          "max": 252
+        },
+        {
+          "label": "Random closing pulse, slow",
+          "min": 253,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Iris, fine (LSB)",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Focus (MSB)",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 1,
+      "type_description": "Focus, fine (LSB)",
+      "capabilities": [
+        {
+          "label": "Focus fine",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Zoom (MSB)",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 1,
+      "type_description": "Zoom, fine (LSB)",
+      "capabilities": [
+        {
+          "label": "Zoom fine",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Pan (MSB)",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Pan, fine (LSB)",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Tilt (MSB)",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "Tilt, fine (LSB)",
+      "capabilities": []
+    },
+    {
+      "index": 29,
+      "type": 22,
+      "type_description": "Pan/tilt speed",
+      "capabilities": [
+        {
+          "label": "Tracking",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Fast->slow (vector control)",
+          "min": 3,
+          "max": 242
+        },
+        {
+          "label": "Tracking, PTSP = SLOW (menu override)",
+          "min": 243,
+          "max": 245
+        },
+        {
+          "label": "Tracking, PTSP = NORM (menu override)",
+          "min": 246,
+          "max": 248
+        },
+        {
+          "label": "Tracking, PTSP = FAST (menu override)",
+          "min": 249,
+          "max": 251
+        },
+        {
+          "label": "Blackout while moving",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "type": 22,
+      "type_description": "Effects Speed",
+      "capabilities": [
+        {
+          "label": "See Manual",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Martin/Martin-MAC-700-Profile.json",
+  "id": 1061
+}

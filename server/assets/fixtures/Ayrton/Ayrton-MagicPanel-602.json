@@ -1,0 +1,1760 @@
+{
+  "version": "1.0.0",
+  "label": "MagicPanel 602",
+  "manufacturer": "Ayrton",
+  "bulb_type": "LED",
+  "bulb_lumens": 15000,
+  "bulb_color_temperature": 6500,
+  "dimension_weight": 18,
+  "dimension_width": 420,
+  "dimension_height": 545,
+  "dimension_depth": 370,
+  "lens_label": "Other",
+  "lens_degree_min": 7,
+  "lens_degree_max": 7,
+  "focus_type": "Head",
+  "focus_pan_max": 630,
+  "focus_tilt_max": 540,
+  "technical_power_consumption": 600,
+  "technical_dmx_connector": "5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan Movement",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt Movement",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Speed PAN / TILT",
+      "capabilities": [
+        {
+          "label": "max to min",
+          "min": 0,
+          "max": 225
+        },
+        {
+          "label": "Blackout by movement",
+          "min": 226,
+          "max": 236
+        },
+        {
+          "label": "no function",
+          "min": 237,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 19,
+      "type_description": "PAN Motor continuous rotation",
+      "capabilities": [
+        {
+          "label": "no function",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Forwards Pan rotation from fast to slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "no function",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Backwards Pan rotation from slow to fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 23,
+      "type_description": "TILT Motor continuous rotation",
+      "capabilities": [
+        {
+          "label": "no function",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Forwards Tilt rotation from fast to slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "no function",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Backwards Tilt rotation from slow to fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Red LED -all arrays",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Green LED -all arrays",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Blue LED -all arrays",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "White LED -all arrays",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 21,
+      "type_description": "Shutter, strobe",
+      "capabilities": [
+        {
+          "label": "Led turn off",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Led turn on",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe effect slow to fast",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Led turn on",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse-effect in sequences",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Led turn on",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random strobe effect slow to fast",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Led turn on",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Dimmer Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Color Macro",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "red to yellow",
+          "min": 8,
+          "max": 39
+        },
+        {
+          "label": "yellow to green",
+          "min": 40,
+          "max": 71
+        },
+        {
+          "label": "green to cyan",
+          "min": 72,
+          "max": 103
+        },
+        {
+          "label": "cyan to blue",
+          "min": 104,
+          "max": 135
+        },
+        {
+          "label": "blue to magenta",
+          "min": 136,
+          "max": 167
+        },
+        {
+          "label": "magenta to red",
+          "min": 168,
+          "max": 199
+        },
+        {
+          "label": "red to white",
+          "min": 200,
+          "max": 231
+        },
+        {
+          "label": "Crossfading colours from slow to fast",
+          "min": 232,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Color Presets",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "White 2700k",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "White 3200k",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "White 4200k",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "White 5600k",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "White 6500k",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "White 8000k",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "Yellow",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "Magenta",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "Cyan",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "Salmon",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "Turquoise",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "Light Green",
+          "min": 60,
+          "max": 64
+        },
+        {
+          "label": "Steel Blue",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "Orange",
+          "min": 70,
+          "max": 74
+        },
+        {
+          "label": "Straw",
+          "min": 75,
+          "max": 79
+        },
+        {
+          "label": "Pale Lavander",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "Pink",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "Red",
+          "min": 90,
+          "max": 94
+        },
+        {
+          "label": "Green",
+          "min": 95,
+          "max": 99
+        },
+        {
+          "label": "Blue",
+          "min": 100,
+          "max": 104
+        },
+        {
+          "label": "Rainbow1",
+          "min": 105,
+          "max": 109
+        },
+        {
+          "label": "Rainbow2",
+          "min": 110,
+          "max": 114
+        },
+        {
+          "label": "Rainbow3",
+          "min": 115,
+          "max": 119
+        },
+        {
+          "label": "Rainbow4",
+          "min": 120,
+          "max": 124
+        },
+        {
+          "label": "Rainbow5",
+          "min": 125,
+          "max": 129
+        },
+        {
+          "label": "Rainbow6",
+          "min": 130,
+          "max": 134
+        },
+        {
+          "label": "Rainbow7",
+          "min": 135,
+          "max": 139
+        },
+        {
+          "label": "Rainbow8",
+          "min": 140,
+          "max": 144
+        },
+        {
+          "label": "Rainbow9",
+          "min": 145,
+          "max": 149
+        },
+        {
+          "label": "Rainbow10",
+          "min": 150,
+          "max": 154
+        },
+        {
+          "label": "Rainbow11",
+          "min": 155,
+          "max": 159
+        },
+        {
+          "label": "Rainbow12",
+          "min": 160,
+          "max": 164
+        },
+        {
+          "label": "Rainbow13",
+          "min": 165,
+          "max": 169
+        },
+        {
+          "label": "Rainbow14",
+          "min": 170,
+          "max": 174
+        },
+        {
+          "label": "Rainbow15",
+          "min": 175,
+          "max": 179
+        },
+        {
+          "label": "Rainbow16",
+          "min": 180,
+          "max": 184
+        },
+        {
+          "label": "Rainbow17",
+          "min": 185,
+          "max": 189
+        },
+        {
+          "label": "Rainbow18",
+          "min": 190,
+          "max": 194
+        },
+        {
+          "label": "Rainbow19",
+          "min": 195,
+          "max": 199
+        },
+        {
+          "label": "Reserved",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 5,
+      "type_description": "Color Preset Dimmer",
+      "capabilities": [
+        {
+          "label": "Dimmer 100 to 0%",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 3,
+      "type_description": "Chase Patterns",
+      "capabilities": [
+        {
+          "label": "Led Turn off",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Chase 1",
+          "min": 10,
+          "max": 13
+        },
+        {
+          "label": "Chase 2",
+          "min": 14,
+          "max": 17
+        },
+        {
+          "label": "Chase 3",
+          "min": 18,
+          "max": 21
+        },
+        {
+          "label": "Chase 4",
+          "min": 22,
+          "max": 25
+        },
+        {
+          "label": "Chase 5",
+          "min": 26,
+          "max": 29
+        },
+        {
+          "label": "Chase 6",
+          "min": 30,
+          "max": 33
+        },
+        {
+          "label": "Chase 7",
+          "min": 34,
+          "max": 37
+        },
+        {
+          "label": "Chase 8",
+          "min": 38,
+          "max": 41
+        },
+        {
+          "label": "Chase 9",
+          "min": 42,
+          "max": 45
+        },
+        {
+          "label": "Chase 10",
+          "min": 46,
+          "max": 49
+        },
+        {
+          "label": "Chase 11",
+          "min": 50,
+          "max": 53
+        },
+        {
+          "label": "Chase 12",
+          "min": 54,
+          "max": 57
+        },
+        {
+          "label": "Chase 13",
+          "min": 58,
+          "max": 61
+        },
+        {
+          "label": "Chase 14",
+          "min": 62,
+          "max": 65
+        },
+        {
+          "label": "Chase 15",
+          "min": 66,
+          "max": 69
+        },
+        {
+          "label": "Chase 16",
+          "min": 70,
+          "max": 73
+        },
+        {
+          "label": "Chase 17",
+          "min": 74,
+          "max": 77
+        },
+        {
+          "label": "Chase 18",
+          "min": 78,
+          "max": 81
+        },
+        {
+          "label": "Chase 19",
+          "min": 82,
+          "max": 85
+        },
+        {
+          "label": "Chase 20",
+          "min": 86,
+          "max": 89
+        },
+        {
+          "label": "Chase 21",
+          "min": 90,
+          "max": 93
+        },
+        {
+          "label": "Chase 22",
+          "min": 94,
+          "max": 97
+        },
+        {
+          "label": "Chase 23",
+          "min": 98,
+          "max": 101
+        },
+        {
+          "label": "Chase 24",
+          "min": 102,
+          "max": 105
+        },
+        {
+          "label": "Chase 25",
+          "min": 106,
+          "max": 109
+        },
+        {
+          "label": "Chase 26",
+          "min": 110,
+          "max": 113
+        },
+        {
+          "label": "Chase 27",
+          "min": 114,
+          "max": 117
+        },
+        {
+          "label": "Chase 28",
+          "min": 118,
+          "max": 121
+        },
+        {
+          "label": "Chase 29",
+          "min": 122,
+          "max": 125
+        },
+        {
+          "label": "Chase 30",
+          "min": 126,
+          "max": 129
+        },
+        {
+          "label": "Chase 31",
+          "min": 130,
+          "max": 133
+        },
+        {
+          "label": "Chase 32",
+          "min": 134,
+          "max": 137
+        },
+        {
+          "label": "Chase 33",
+          "min": 138,
+          "max": 141
+        },
+        {
+          "label": "Chase 34",
+          "min": 142,
+          "max": 145
+        },
+        {
+          "label": "Chase 35",
+          "min": 146,
+          "max": 149
+        },
+        {
+          "label": "Chase 36",
+          "min": 150,
+          "max": 153
+        },
+        {
+          "label": "Chase 37",
+          "min": 154,
+          "max": 157
+        },
+        {
+          "label": "Chase 38",
+          "min": 158,
+          "max": 161
+        },
+        {
+          "label": "Chase 39",
+          "min": 162,
+          "max": 165
+        },
+        {
+          "label": "Chase 40",
+          "min": 166,
+          "max": 169
+        },
+        {
+          "label": "Chase 41",
+          "min": 170,
+          "max": 173
+        },
+        {
+          "label": "Chase 42",
+          "min": 174,
+          "max": 177
+        },
+        {
+          "label": "Chase 43",
+          "min": 178,
+          "max": 181
+        },
+        {
+          "label": "Chase 44",
+          "min": 182,
+          "max": 185
+        },
+        {
+          "label": "Chase 45",
+          "min": 186,
+          "max": 189
+        },
+        {
+          "label": "Chase 46",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Chase 47",
+          "min": 194,
+          "max": 197
+        },
+        {
+          "label": "Chase 48",
+          "min": 198,
+          "max": 201
+        },
+        {
+          "label": "Chase 49",
+          "min": 202,
+          "max": 205
+        },
+        {
+          "label": "Chase 50",
+          "min": 206,
+          "max": 209
+        },
+        {
+          "label": "Chase 51",
+          "min": 210,
+          "max": 213
+        },
+        {
+          "label": "Chase 52",
+          "min": 214,
+          "max": 217
+        },
+        {
+          "label": "Chase 53",
+          "min": 218,
+          "max": 221
+        },
+        {
+          "label": "Chase 54",
+          "min": 222,
+          "max": 225
+        },
+        {
+          "label": "Chase 55",
+          "min": 226,
+          "max": 229
+        },
+        {
+          "label": "Chase 56",
+          "min": 230,
+          "max": 233
+        },
+        {
+          "label": "Chase 57",
+          "min": 234,
+          "max": 237
+        },
+        {
+          "label": "Reserved",
+          "min": 238,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 22,
+      "type_description": "Chase Speed",
+      "capabilities": [
+        {
+          "label": "Fast to Slow Backward",
+          "min": 0,
+          "max": 125
+        },
+        {
+          "label": "Stop",
+          "min": 126,
+          "max": 130
+        },
+        {
+          "label": "Slow to Fast Forward",
+          "min": 131,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 3,
+      "type_description": "Chase Fade",
+      "capabilities": [
+        {
+          "label": "Fade Chase",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 17,
+      "type_description": "Reset, Internal programs",
+      "capabilities": [
+        {
+          "label": "Normal",
+          "min": 0,
+          "max": 79
+        },
+        {
+          "label": "All motor reset",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "Scan motor reset",
+          "min": 85,
+          "max": 87
+        },
+        {
+          "label": "no function",
+          "min": 88,
+          "max": 90
+        },
+        {
+          "label": "no function",
+          "min": 91,
+          "max": 93
+        },
+        {
+          "label": "no function",
+          "min": 94,
+          "max": 96
+        },
+        {
+          "label": "Others motor reset",
+          "min": 97,
+          "max": 99
+        },
+        {
+          "label": "Internal Program 1",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "Internal Program 2",
+          "min": 120,
+          "max": 139
+        },
+        {
+          "label": "Internal Program 3",
+          "min": 140,
+          "max": 159
+        },
+        {
+          "label": "Internal Program 4",
+          "min": 160,
+          "max": 179
+        },
+        {
+          "label": "Internal Program 5",
+          "min": 180,
+          "max": 199
+        },
+        {
+          "label": "Internal Program 6",
+          "min": 200,
+          "max": 219
+        },
+        {
+          "label": "Internal Program 7",
+          "min": 220,
+          "max": 239
+        },
+        {
+          "label": "Music Control",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Red LED -array 1",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Green LED -array 1",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Blue LED -array 1",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "White LED -array 1",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Red LED -array 2",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Green LED -array 2",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Blue LED -array 2",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "White LED -array 2",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "Red LED -array 3",
+      "capabilities": []
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "Green LED -array 3",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 0,
+      "type_description": "Blue LED -array 3",
+      "capabilities": []
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "White LED -array 3",
+      "capabilities": []
+    },
+    {
+      "index": 32,
+      "type": 0,
+      "type_description": "Red LED -array 4",
+      "capabilities": []
+    },
+    {
+      "index": 33,
+      "type": 0,
+      "type_description": "Green LED -array 4",
+      "capabilities": []
+    },
+    {
+      "index": 34,
+      "type": 0,
+      "type_description": "Blue LED -array 4",
+      "capabilities": []
+    },
+    {
+      "index": 35,
+      "type": 0,
+      "type_description": "White LED -array 4",
+      "capabilities": []
+    },
+    {
+      "index": 36,
+      "type": 0,
+      "type_description": "Red LED -array 5",
+      "capabilities": []
+    },
+    {
+      "index": 37,
+      "type": 0,
+      "type_description": "Green LED -array 5",
+      "capabilities": []
+    },
+    {
+      "index": 38,
+      "type": 0,
+      "type_description": "Blue LED -array 5",
+      "capabilities": []
+    },
+    {
+      "index": 39,
+      "type": 0,
+      "type_description": "White LED -array 5",
+      "capabilities": []
+    },
+    {
+      "index": 40,
+      "type": 0,
+      "type_description": "Red LED -array 6",
+      "capabilities": []
+    },
+    {
+      "index": 41,
+      "type": 0,
+      "type_description": "Green LED -array 6",
+      "capabilities": []
+    },
+    {
+      "index": 42,
+      "type": 0,
+      "type_description": "Blue LED -array 6",
+      "capabilities": []
+    },
+    {
+      "index": 43,
+      "type": 0,
+      "type_description": "White LED -array 6",
+      "capabilities": []
+    },
+    {
+      "index": 44,
+      "type": 0,
+      "type_description": "Red LED -array 7",
+      "capabilities": []
+    },
+    {
+      "index": 45,
+      "type": 0,
+      "type_description": "Green LED -array 7",
+      "capabilities": []
+    },
+    {
+      "index": 46,
+      "type": 0,
+      "type_description": "Blue LED -array 7",
+      "capabilities": []
+    },
+    {
+      "index": 47,
+      "type": 0,
+      "type_description": "White LED -array 7",
+      "capabilities": []
+    },
+    {
+      "index": 48,
+      "type": 0,
+      "type_description": "Red LED -array 8",
+      "capabilities": []
+    },
+    {
+      "index": 49,
+      "type": 0,
+      "type_description": "Green LED -array 8",
+      "capabilities": []
+    },
+    {
+      "index": 50,
+      "type": 0,
+      "type_description": "Blue LED -array 8",
+      "capabilities": []
+    },
+    {
+      "index": 51,
+      "type": 0,
+      "type_description": "White LED -array 8",
+      "capabilities": []
+    },
+    {
+      "index": 52,
+      "type": 0,
+      "type_description": "Red LED -array 9",
+      "capabilities": []
+    },
+    {
+      "index": 53,
+      "type": 0,
+      "type_description": "Green LED -array 9",
+      "capabilities": []
+    },
+    {
+      "index": 54,
+      "type": 0,
+      "type_description": "Blue LED -array 9",
+      "capabilities": []
+    },
+    {
+      "index": 55,
+      "type": 0,
+      "type_description": "White LED -array 9",
+      "capabilities": []
+    },
+    {
+      "index": 56,
+      "type": 0,
+      "type_description": "Red LED -array 10",
+      "capabilities": []
+    },
+    {
+      "index": 57,
+      "type": 0,
+      "type_description": "Green LED -array 10",
+      "capabilities": []
+    },
+    {
+      "index": 58,
+      "type": 0,
+      "type_description": "Blue LED -array 10",
+      "capabilities": []
+    },
+    {
+      "index": 59,
+      "type": 0,
+      "type_description": "White LED -array 10",
+      "capabilities": []
+    },
+    {
+      "index": 60,
+      "type": 0,
+      "type_description": "Red LED -array 11",
+      "capabilities": []
+    },
+    {
+      "index": 61,
+      "type": 0,
+      "type_description": "Green LED -array 11",
+      "capabilities": []
+    },
+    {
+      "index": 62,
+      "type": 0,
+      "type_description": "Blue LED -array 11",
+      "capabilities": []
+    },
+    {
+      "index": 63,
+      "type": 0,
+      "type_description": "White LED -array 11",
+      "capabilities": []
+    },
+    {
+      "index": 64,
+      "type": 0,
+      "type_description": "Red LED -array 12",
+      "capabilities": []
+    },
+    {
+      "index": 65,
+      "type": 0,
+      "type_description": "Green LED -array 12",
+      "capabilities": []
+    },
+    {
+      "index": 66,
+      "type": 0,
+      "type_description": "Blue LED -array 12",
+      "capabilities": []
+    },
+    {
+      "index": 67,
+      "type": 0,
+      "type_description": "White LED -array 12",
+      "capabilities": []
+    },
+    {
+      "index": 68,
+      "type": 0,
+      "type_description": "Red LED -array 13",
+      "capabilities": []
+    },
+    {
+      "index": 69,
+      "type": 0,
+      "type_description": "Green LED -array 13",
+      "capabilities": []
+    },
+    {
+      "index": 70,
+      "type": 0,
+      "type_description": "Blue LED -array 13",
+      "capabilities": []
+    },
+    {
+      "index": 71,
+      "type": 0,
+      "type_description": "White LED -array 13",
+      "capabilities": []
+    },
+    {
+      "index": 72,
+      "type": 0,
+      "type_description": "Red LED -array 14",
+      "capabilities": []
+    },
+    {
+      "index": 73,
+      "type": 0,
+      "type_description": "Green LED -array 14",
+      "capabilities": []
+    },
+    {
+      "index": 74,
+      "type": 0,
+      "type_description": "Blue LED -array 14",
+      "capabilities": []
+    },
+    {
+      "index": 75,
+      "type": 0,
+      "type_description": "White LED -array 14",
+      "capabilities": []
+    },
+    {
+      "index": 76,
+      "type": 0,
+      "type_description": "Red LED -array 15",
+      "capabilities": []
+    },
+    {
+      "index": 77,
+      "type": 0,
+      "type_description": "Green LED -array 15",
+      "capabilities": []
+    },
+    {
+      "index": 78,
+      "type": 0,
+      "type_description": "Blue LED -array 15",
+      "capabilities": []
+    },
+    {
+      "index": 79,
+      "type": 0,
+      "type_description": "White LED -array 15",
+      "capabilities": []
+    },
+    {
+      "index": 80,
+      "type": 0,
+      "type_description": "Red LED -array 16",
+      "capabilities": []
+    },
+    {
+      "index": 81,
+      "type": 0,
+      "type_description": "Green LED -array 16",
+      "capabilities": []
+    },
+    {
+      "index": 82,
+      "type": 0,
+      "type_description": "Blue LED -array 16",
+      "capabilities": []
+    },
+    {
+      "index": 83,
+      "type": 0,
+      "type_description": "White LED -array 16",
+      "capabilities": []
+    },
+    {
+      "index": 84,
+      "type": 0,
+      "type_description": "Red LED -array 17",
+      "capabilities": []
+    },
+    {
+      "index": 85,
+      "type": 0,
+      "type_description": "Green LED -array 17",
+      "capabilities": []
+    },
+    {
+      "index": 86,
+      "type": 0,
+      "type_description": "Blue LED -array 17",
+      "capabilities": []
+    },
+    {
+      "index": 87,
+      "type": 0,
+      "type_description": "White LED -array 17",
+      "capabilities": []
+    },
+    {
+      "index": 88,
+      "type": 0,
+      "type_description": "Red LED -array 18",
+      "capabilities": []
+    },
+    {
+      "index": 89,
+      "type": 0,
+      "type_description": "Green LED -array 18",
+      "capabilities": []
+    },
+    {
+      "index": 90,
+      "type": 0,
+      "type_description": "Blue LED -array 18",
+      "capabilities": []
+    },
+    {
+      "index": 91,
+      "type": 0,
+      "type_description": "White LED -array 18",
+      "capabilities": []
+    },
+    {
+      "index": 92,
+      "type": 0,
+      "type_description": "Red LED -array 19",
+      "capabilities": []
+    },
+    {
+      "index": 93,
+      "type": 0,
+      "type_description": "Green LED -array 19",
+      "capabilities": []
+    },
+    {
+      "index": 94,
+      "type": 0,
+      "type_description": "Blue LED -array 19",
+      "capabilities": []
+    },
+    {
+      "index": 95,
+      "type": 0,
+      "type_description": "White LED -array 19",
+      "capabilities": []
+    },
+    {
+      "index": 96,
+      "type": 0,
+      "type_description": "Red LED -array 20",
+      "capabilities": []
+    },
+    {
+      "index": 97,
+      "type": 0,
+      "type_description": "Green LED -array 20",
+      "capabilities": []
+    },
+    {
+      "index": 98,
+      "type": 0,
+      "type_description": "Blue LED -array 20",
+      "capabilities": []
+    },
+    {
+      "index": 99,
+      "type": 0,
+      "type_description": "White LED -array 20",
+      "capabilities": []
+    },
+    {
+      "index": 100,
+      "type": 0,
+      "type_description": "Red LED -array 21",
+      "capabilities": []
+    },
+    {
+      "index": 101,
+      "type": 0,
+      "type_description": "Green LED -array 21",
+      "capabilities": []
+    },
+    {
+      "index": 102,
+      "type": 0,
+      "type_description": "Blue LED -array 21",
+      "capabilities": []
+    },
+    {
+      "index": 103,
+      "type": 0,
+      "type_description": "White LED -array 21",
+      "capabilities": []
+    },
+    {
+      "index": 104,
+      "type": 0,
+      "type_description": "Red LED -array 22",
+      "capabilities": []
+    },
+    {
+      "index": 105,
+      "type": 0,
+      "type_description": "Green LED -array 22",
+      "capabilities": []
+    },
+    {
+      "index": 106,
+      "type": 0,
+      "type_description": "Blue LED -array 22",
+      "capabilities": []
+    },
+    {
+      "index": 107,
+      "type": 0,
+      "type_description": "White LED -array 22",
+      "capabilities": []
+    },
+    {
+      "index": 108,
+      "type": 0,
+      "type_description": "Red LED -array 23",
+      "capabilities": []
+    },
+    {
+      "index": 109,
+      "type": 0,
+      "type_description": "Green LED -array 23",
+      "capabilities": []
+    },
+    {
+      "index": 110,
+      "type": 0,
+      "type_description": "Blue LED -array 23",
+      "capabilities": []
+    },
+    {
+      "index": 111,
+      "type": 0,
+      "type_description": "White LED -array 23",
+      "capabilities": []
+    },
+    {
+      "index": 112,
+      "type": 0,
+      "type_description": "Red LED -array 24",
+      "capabilities": []
+    },
+    {
+      "index": 113,
+      "type": 0,
+      "type_description": "Green LED -array 24",
+      "capabilities": []
+    },
+    {
+      "index": 114,
+      "type": 0,
+      "type_description": "Blue LED -array 24",
+      "capabilities": []
+    },
+    {
+      "index": 115,
+      "type": 0,
+      "type_description": "White LED -array 24",
+      "capabilities": []
+    },
+    {
+      "index": 116,
+      "type": 0,
+      "type_description": "Red LED -array 25",
+      "capabilities": []
+    },
+    {
+      "index": 117,
+      "type": 0,
+      "type_description": "Green LED -array 25",
+      "capabilities": []
+    },
+    {
+      "index": 118,
+      "type": 0,
+      "type_description": "Blue LED -array 25",
+      "capabilities": []
+    },
+    {
+      "index": 119,
+      "type": 0,
+      "type_description": "White LED -array 25",
+      "capabilities": []
+    },
+    {
+      "index": 120,
+      "type": 0,
+      "type_description": "Red LED -array 26",
+      "capabilities": []
+    },
+    {
+      "index": 121,
+      "type": 0,
+      "type_description": "Green LED -array 26",
+      "capabilities": []
+    },
+    {
+      "index": 122,
+      "type": 0,
+      "type_description": "Blue LED -array 26",
+      "capabilities": []
+    },
+    {
+      "index": 123,
+      "type": 0,
+      "type_description": "White LED -array 26",
+      "capabilities": []
+    },
+    {
+      "index": 124,
+      "type": 0,
+      "type_description": "Red LED -array 27",
+      "capabilities": []
+    },
+    {
+      "index": 125,
+      "type": 0,
+      "type_description": "Green LED -array 27",
+      "capabilities": []
+    },
+    {
+      "index": 126,
+      "type": 0,
+      "type_description": "Blue LED -array 27",
+      "capabilities": []
+    },
+    {
+      "index": 127,
+      "type": 0,
+      "type_description": "White LED -array 27",
+      "capabilities": []
+    },
+    {
+      "index": 128,
+      "type": 0,
+      "type_description": "Red LED -array 28",
+      "capabilities": []
+    },
+    {
+      "index": 129,
+      "type": 0,
+      "type_description": "Green LED -array 28",
+      "capabilities": []
+    },
+    {
+      "index": 130,
+      "type": 0,
+      "type_description": "Blue LED -array 28",
+      "capabilities": []
+    },
+    {
+      "index": 131,
+      "type": 0,
+      "type_description": "White LED -array 28",
+      "capabilities": []
+    },
+    {
+      "index": 132,
+      "type": 0,
+      "type_description": "Red LED -array 29",
+      "capabilities": []
+    },
+    {
+      "index": 133,
+      "type": 0,
+      "type_description": "Green LED -array 29",
+      "capabilities": []
+    },
+    {
+      "index": 134,
+      "type": 0,
+      "type_description": "Blue LED -array 29",
+      "capabilities": []
+    },
+    {
+      "index": 135,
+      "type": 0,
+      "type_description": "White LED -array 29",
+      "capabilities": []
+    },
+    {
+      "index": 136,
+      "type": 0,
+      "type_description": "Red LED -array 30",
+      "capabilities": []
+    },
+    {
+      "index": 137,
+      "type": 0,
+      "type_description": "Green LED -array 30",
+      "capabilities": []
+    },
+    {
+      "index": 138,
+      "type": 0,
+      "type_description": "Blue LED -array 30",
+      "capabilities": []
+    },
+    {
+      "index": 139,
+      "type": 0,
+      "type_description": "White LED -array 30",
+      "capabilities": []
+    },
+    {
+      "index": 140,
+      "type": 0,
+      "type_description": "Red LED -array 31",
+      "capabilities": []
+    },
+    {
+      "index": 141,
+      "type": 0,
+      "type_description": "Green LED -array 31",
+      "capabilities": []
+    },
+    {
+      "index": 142,
+      "type": 0,
+      "type_description": "Blue LED -array 31",
+      "capabilities": []
+    },
+    {
+      "index": 143,
+      "type": 0,
+      "type_description": "White LED -array 31",
+      "capabilities": []
+    },
+    {
+      "index": 144,
+      "type": 0,
+      "type_description": "Red LED -array 32",
+      "capabilities": []
+    },
+    {
+      "index": 145,
+      "type": 0,
+      "type_description": "Green LED -array 32",
+      "capabilities": []
+    },
+    {
+      "index": 146,
+      "type": 0,
+      "type_description": "Blue LED -array 32",
+      "capabilities": []
+    },
+    {
+      "index": 147,
+      "type": 0,
+      "type_description": "White LED -array 32",
+      "capabilities": []
+    },
+    {
+      "index": 148,
+      "type": 0,
+      "type_description": "Red LED -array 33",
+      "capabilities": []
+    },
+    {
+      "index": 149,
+      "type": 0,
+      "type_description": "Green LED -array 33",
+      "capabilities": []
+    },
+    {
+      "index": 150,
+      "type": 0,
+      "type_description": "Blue LED -array 33",
+      "capabilities": []
+    },
+    {
+      "index": 151,
+      "type": 0,
+      "type_description": "White LED -array 33",
+      "capabilities": []
+    },
+    {
+      "index": 152,
+      "type": 0,
+      "type_description": "Red LED -array 34",
+      "capabilities": []
+    },
+    {
+      "index": 153,
+      "type": 0,
+      "type_description": "Green LED -array 34",
+      "capabilities": []
+    },
+    {
+      "index": 154,
+      "type": 0,
+      "type_description": "Blue LED -array 34",
+      "capabilities": []
+    },
+    {
+      "index": 155,
+      "type": 0,
+      "type_description": "White LED -array 34",
+      "capabilities": []
+    },
+    {
+      "index": 156,
+      "type": 0,
+      "type_description": "Red LED -array 35",
+      "capabilities": []
+    },
+    {
+      "index": 157,
+      "type": 0,
+      "type_description": "Green LED -array 35",
+      "capabilities": []
+    },
+    {
+      "index": 158,
+      "type": 0,
+      "type_description": "Blue LED -array 35",
+      "capabilities": []
+    },
+    {
+      "index": 159,
+      "type": 0,
+      "type_description": "White LED -array 35",
+      "capabilities": []
+    },
+    {
+      "index": 160,
+      "type": 0,
+      "type_description": "Red LED -array 36",
+      "capabilities": []
+    },
+    {
+      "index": 161,
+      "type": 0,
+      "type_description": "Green LED -array 36",
+      "capabilities": []
+    },
+    {
+      "index": 162,
+      "type": 0,
+      "type_description": "Blue LED -array 36",
+      "capabilities": []
+    },
+    {
+      "index": 163,
+      "type": 0,
+      "type_description": "White LED -array 36",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Ayrton/Ayrton-MagicPanel-602.json",
+  "id": 185
+}

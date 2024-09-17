@@ -1,0 +1,110 @@
+{
+  "version": "1.0.0",
+  "label": "Abyss USB",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 2876,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 228,
+  "dimension_height": 246,
+  "dimension_depth": 195,
+  "lens_label": "Other",
+  "lens_degree_min": 59,
+  "lens_degree_max": 59,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 38,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Color Wheel",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 21
+        },
+        {
+          "label": "Purple",
+          "min": 22,
+          "max": 42
+        },
+        {
+          "label": "Yellow",
+          "min": 43,
+          "max": 63
+        },
+        {
+          "label": "Blue",
+          "min": 64,
+          "max": 84
+        },
+        {
+          "label": "Green",
+          "min": 85,
+          "max": 105
+        },
+        {
+          "label": "Orange",
+          "min": 106,
+          "max": 127
+        },
+        {
+          "label": "Left rotation (fast to slow)",
+          "min": 128,
+          "max": 188
+        },
+        {
+          "label": "Stop",
+          "min": 189,
+          "max": 194
+        },
+        {
+          "label": "Right rotation (slow to fast)",
+          "min": 195,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 3,
+      "type_description": "Wave Effect Wheel",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Left rotation (slow to fast)",
+          "min": 1,
+          "max": 122
+        },
+        {
+          "label": "Stop",
+          "min": 123,
+          "max": 133
+        },
+        {
+          "label": "Right rotation (fast to slow)",
+          "min": 134,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-Abyss-USB.json",
+  "id": 400
+}

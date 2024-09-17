@@ -1,0 +1,74 @@
+{
+  "version": "1.0.0",
+  "label": "ECO UV BAR DMX",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 1000,
+  "dimension_height": 115,
+  "dimension_depth": 60,
+  "lens_label": "Other",
+  "lens_degree_min": 120,
+  "lens_degree_max": 120,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 52,
+  "technical_dmx_connector": "3-pin",
+  "type": 9,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Strobing",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 5,
+      "type_description": "Dimmer curve",
+      "capabilities": [
+        {
+          "label": "No dimmer curve",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Dimmer curve 1",
+          "min": 21,
+          "max": 40
+        },
+        {
+          "label": "Dimmer curve 2",
+          "min": 41,
+          "max": 60
+        },
+        {
+          "label": "Dimmer curve 3",
+          "min": 61,
+          "max": 80
+        },
+        {
+          "label": "Dimmer curve 4",
+          "min": 81,
+          "max": 100
+        },
+        {
+          "label": "Delay mode control",
+          "min": 101,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-ECO-UV-BAR-DMX.json",
+  "id": 52
+}

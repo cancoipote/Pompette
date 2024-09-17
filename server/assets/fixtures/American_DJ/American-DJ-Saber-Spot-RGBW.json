@@ -1,0 +1,625 @@
+{
+  "version": "1.0.0",
+  "label": "Saber Spot RGBW",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 135,
+  "dimension_height": 215,
+  "dimension_depth": 170,
+  "lens_label": "Other",
+  "lens_degree_min": 4,
+  "lens_degree_max": 45,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 14,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Hue",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Saturation",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 17,
+      "type_description": "Dimmer curves",
+      "capabilities": [
+        {
+          "label": "Standard",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Stage",
+          "min": 21,
+          "max": 40
+        },
+        {
+          "label": "TV",
+          "min": 41,
+          "max": 60
+        },
+        {
+          "label": "Architectural",
+          "min": 61,
+          "max": 80
+        },
+        {
+          "label": "Theatre",
+          "min": 81,
+          "max": 100
+        },
+        {
+          "label": "Default Dimmer Setting",
+          "min": 101,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 21,
+      "type_description": "Shutter Strobe",
+      "capabilities": [
+        {
+          "label": "LED off",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "LED On",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobing Slow - Fast",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "LED On",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse Strobe Slow - Fast",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "LED On",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random Strobe Slow - Fast",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "LED On",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Master dimmer fine",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Red fine",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Green fine",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Blue fine",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "White fine",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Color Macro (RGBWmix)",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "80,255,234,80",
+          "min": 1,
+          "max": 4
+        },
+        {
+          "label": "80,255,164,80",
+          "min": 5,
+          "max": 8
+        },
+        {
+          "label": "77,255,112,77",
+          "min": 9,
+          "max": 12
+        },
+        {
+          "label": "117,255,83,83",
+          "min": 13,
+          "max": 16
+        },
+        {
+          "label": "160,255,77,77",
+          "min": 17,
+          "max": 20
+        },
+        {
+          "label": "223,255,83,83",
+          "min": 21,
+          "max": 24
+        },
+        {
+          "label": "255,243,77,77",
+          "min": 25,
+          "max": 28
+        },
+        {
+          "label": "255,200,74,74",
+          "min": 29,
+          "max": 32
+        },
+        {
+          "label": "255,166,77,77",
+          "min": 33,
+          "max": 36
+        },
+        {
+          "label": "255,125,74,74",
+          "min": 37,
+          "max": 40
+        },
+        {
+          "label": "255,97,77,74",
+          "min": 41,
+          "max": 44
+        },
+        {
+          "label": "255,71,77,71",
+          "min": 45,
+          "max": 48
+        },
+        {
+          "label": "255,83,134,83",
+          "min": 49,
+          "max": 52
+        },
+        {
+          "label": "255,93,182,93",
+          "min": 53,
+          "max": 56
+        },
+        {
+          "label": "255,96,236,96",
+          "min": 57,
+          "max": 60
+        },
+        {
+          "label": "238,93,255,93",
+          "min": 61,
+          "max": 64
+        },
+        {
+          "label": "196,87,255,87",
+          "min": 65,
+          "max": 68
+        },
+        {
+          "label": "150,90,255,90",
+          "min": 69,
+          "max": 72
+        },
+        {
+          "label": "100,77,255,77",
+          "min": 73,
+          "max": 76
+        },
+        {
+          "label": "77,100,255,77",
+          "min": 77,
+          "max": 80
+        },
+        {
+          "label": "67,148,255,67",
+          "min": 81,
+          "max": 84
+        },
+        {
+          "label": "77,195,255,77",
+          "min": 85,
+          "max": 88
+        },
+        {
+          "label": "77,234,255,77",
+          "min": 89,
+          "max": 92
+        },
+        {
+          "label": "158,255,144,144",
+          "min": 93,
+          "max": 96
+        },
+        {
+          "label": "255,251,153,153",
+          "min": 97,
+          "max": 100
+        },
+        {
+          "label": "255,175,147,147",
+          "min": 101,
+          "max": 104
+        },
+        {
+          "label": "255,138,186,138",
+          "min": 105,
+          "max": 108
+        },
+        {
+          "label": "255,147,251,147",
+          "min": 109,
+          "max": 112
+        },
+        {
+          "label": "151,138,255,138",
+          "min": 113,
+          "max": 116
+        },
+        {
+          "label": "99,0,255,100",
+          "min": 117,
+          "max": 120
+        },
+        {
+          "label": "138,169,255,138",
+          "min": 121,
+          "max": 124
+        },
+        {
+          "label": "255,255,255,255",
+          "min": 125,
+          "max": 128
+        },
+        {
+          "label": "255,206,143,0",
+          "min": 129,
+          "max": 132
+        },
+        {
+          "label": "254,177,153,0",
+          "min": 133,
+          "max": 136
+        },
+        {
+          "label": "254,192,138,0",
+          "min": 137,
+          "max": 140
+        },
+        {
+          "label": "254,165,98,0",
+          "min": 141,
+          "max": 144
+        },
+        {
+          "label": "254,121,0,0",
+          "min": 145,
+          "max": 148
+        },
+        {
+          "label": "176,17,0,0",
+          "min": 149,
+          "max": 152
+        },
+        {
+          "label": "96,0,11,0",
+          "min": 153,
+          "max": 156
+        },
+        {
+          "label": "234,139,171,0",
+          "min": 157,
+          "max": 160
+        },
+        {
+          "label": "224,5,97,0",
+          "min": 161,
+          "max": 164
+        },
+        {
+          "label": "175,77,173,0",
+          "min": 165,
+          "max": 168
+        },
+        {
+          "label": "119,130,199,0",
+          "min": 169,
+          "max": 172
+        },
+        {
+          "label": "147,164,212,0",
+          "min": 173,
+          "max": 176
+        },
+        {
+          "label": "88,2,163,0",
+          "min": 177,
+          "max": 180
+        },
+        {
+          "label": "0,38,86,0",
+          "min": 181,
+          "max": 184
+        },
+        {
+          "label": "0,142,208,0",
+          "min": 185,
+          "max": 188
+        },
+        {
+          "label": "52,148,209,0",
+          "min": 189,
+          "max": 192
+        },
+        {
+          "label": "1,134,201,0",
+          "min": 193,
+          "max": 196
+        },
+        {
+          "label": "0,145,212,0",
+          "min": 197,
+          "max": 200
+        },
+        {
+          "label": "0,121,192,0",
+          "min": 201,
+          "max": 204
+        },
+        {
+          "label": "0,129,184,0",
+          "min": 205,
+          "max": 208
+        },
+        {
+          "label": "0,83,115,0",
+          "min": 209,
+          "max": 212
+        },
+        {
+          "label": "0,97,166,0",
+          "min": 213,
+          "max": 216
+        },
+        {
+          "label": "1,100,167,0",
+          "min": 217,
+          "max": 220
+        },
+        {
+          "label": "0,40,86,0",
+          "min": 221,
+          "max": 224
+        },
+        {
+          "label": "209,219,182,0",
+          "min": 225,
+          "max": 228
+        },
+        {
+          "label": "42,165,85,0",
+          "min": 229,
+          "max": 232
+        },
+        {
+          "label": "0,46,35,0",
+          "min": 233,
+          "max": 236
+        },
+        {
+          "label": "8,107,222,0",
+          "min": 237,
+          "max": 240
+        },
+        {
+          "label": "107,156,231,0",
+          "min": 241,
+          "max": 244
+        },
+        {
+          "label": "165,198,247,0",
+          "min": 245,
+          "max": 248
+        },
+        {
+          "label": "0,0,189,0",
+          "min": 249,
+          "max": 252
+        },
+        {
+          "label": "255,255,255,0",
+          "min": 253,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 3,
+      "type_description": "Auto Programs",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Program 1",
+          "min": 1,
+          "max": 20
+        },
+        {
+          "label": "Program 2",
+          "min": 21,
+          "max": 40
+        },
+        {
+          "label": "Program 3",
+          "min": 41,
+          "max": 60
+        },
+        {
+          "label": "Program 4",
+          "min": 61,
+          "max": 80
+        },
+        {
+          "label": "Program 5",
+          "min": 81,
+          "max": 100
+        },
+        {
+          "label": "Program 6",
+          "min": 101,
+          "max": 120
+        },
+        {
+          "label": "Program 7",
+          "min": 121,
+          "max": 140
+        },
+        {
+          "label": "Program 8",
+          "min": 141,
+          "max": 160
+        },
+        {
+          "label": "Program 9",
+          "min": 161,
+          "max": 180
+        },
+        {
+          "label": "Program 10",
+          "min": 181,
+          "max": 200
+        },
+        {
+          "label": "Program 11",
+          "min": 201,
+          "max": 220
+        },
+        {
+          "label": "Program 12",
+          "min": 221,
+          "max": 240
+        },
+        {
+          "label": "Program 13",
+          "min": 241,
+          "max": 250
+        },
+        {
+          "label": "Gradient Effect",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 22,
+      "type_description": "Program speed",
+      "capabilities": [
+        {
+          "label": "slow-fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 22,
+      "type_description": "Program Fade",
+      "capabilities": [
+        {
+          "label": "fast-slow",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Saber-Spot-RGBW.json",
+  "id": 136
+}

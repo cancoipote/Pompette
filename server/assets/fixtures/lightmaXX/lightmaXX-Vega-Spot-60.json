@@ -1,0 +1,398 @@
+{
+  "version": "1.0.0",
+  "label": "Vega Spot 60",
+  "manufacturer": "lightmaXX",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 190,
+  "dimension_height": 290,
+  "dimension_depth": 195,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 210,
+  "technical_power_consumption": 80,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan/Tilt speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Strobe efffect slow to fast",
+          "min": 5,
+          "max": 250
+        },
+        {
+          "label": "Shutter open",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Color wheel",
+      "capabilities": [
+        {
+          "label": "Open (white)",
+          "min": 0,
+          "max": 13
+        },
+        {
+          "label": "Red",
+          "min": 14,
+          "max": 31
+        },
+        {
+          "label": "Yellow",
+          "min": 32,
+          "max": 49
+        },
+        {
+          "label": "Light blue",
+          "min": 50,
+          "max": 67
+        },
+        {
+          "label": "Green",
+          "min": 68,
+          "max": 85
+        },
+        {
+          "label": "Orange",
+          "min": 86,
+          "max": 103
+        },
+        {
+          "label": "Magenta",
+          "min": 104,
+          "max": 121
+        },
+        {
+          "label": "Blue",
+          "min": 122,
+          "max": 130
+        },
+        {
+          "label": "Open (white)",
+          "min": 131,
+          "max": 139
+        },
+        {
+          "label": "Forward rainbow effect from fast to slow",
+          "min": 140,
+          "max": 195
+        },
+        {
+          "label": "Rotation stop",
+          "min": 196,
+          "max": 199
+        },
+        {
+          "label": "Backward rainbow effect from slow to fast",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Open (white)",
+          "min": 0,
+          "max": 8
+        },
+        {
+          "label": "Gobo 1",
+          "min": 9,
+          "max": 33
+        },
+        {
+          "label": "Gobo 2",
+          "min": 34,
+          "max": 58
+        },
+        {
+          "label": "Gobo 3",
+          "min": 59,
+          "max": 83
+        },
+        {
+          "label": "Gobo 4",
+          "min": 84,
+          "max": 108
+        },
+        {
+          "label": "Gobo 5",
+          "min": 109,
+          "max": 133
+        },
+        {
+          "label": "Forward rainbow effect from fast to slow",
+          "min": 134,
+          "max": 194
+        },
+        {
+          "label": "Backward rainbow effect from slow to fast",
+          "min": 195,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 4,
+      "type_description": "Gobo rotation",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Forward gobo rotation fast to slow",
+          "min": 10,
+          "max": 129
+        },
+        {
+          "label": "Stop",
+          "min": 130,
+          "max": 134
+        },
+        {
+          "label": "Backward gobo rotation slow to fast",
+          "min": 135,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "Prism off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Prism on",
+          "min": 8,
+          "max": 127
+        },
+        {
+          "label": "Forward gobo rotation fast to slow with prism",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Backward gobo rotation slow to fast with prism",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 3,
+      "type_description": "Auto Play",
+      "capabilities": [
+        {
+          "label": "Empty",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Auto Play 1",
+          "min": 8,
+          "max": 47
+        },
+        {
+          "label": "Auto Play 2",
+          "min": 48,
+          "max": 87
+        },
+        {
+          "label": "Auto Play 3",
+          "min": 88,
+          "max": 127
+        },
+        {
+          "label": "Auto Play 4",
+          "min": 128,
+          "max": 167
+        },
+        {
+          "label": "Auto Play 5",
+          "min": 168,
+          "max": 207
+        },
+        {
+          "label": "Auto Play 6",
+          "min": 208,
+          "max": 247
+        },
+        {
+          "label": "Color Gobo Sound Control",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 3,
+      "type_description": "Auto Movement",
+      "capabilities": [
+        {
+          "label": "Empty",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Pan/Tilt Auto Run 1",
+          "min": 8,
+          "max": 32
+        },
+        {
+          "label": "Pan/Tilt Auto Run 2",
+          "min": 33,
+          "max": 58
+        },
+        {
+          "label": "Pan/Tilt Auto Run 3",
+          "min": 59,
+          "max": 84
+        },
+        {
+          "label": "Pan/Tilt Auto Run 4",
+          "min": 85,
+          "max": 110
+        },
+        {
+          "label": "Pan/Tilt Auto Run 5",
+          "min": 111,
+          "max": 136
+        },
+        {
+          "label": "Pan/Tilt Auto Run 6",
+          "min": 137,
+          "max": 162
+        },
+        {
+          "label": "Pan/Tilt Auto Run 7",
+          "min": 163,
+          "max": 188
+        },
+        {
+          "label": "Pan/Tilt Auto Run 8",
+          "min": 189,
+          "max": 240
+        },
+        {
+          "label": "Pan/Tilt Sound Control",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 17,
+      "type_description": "Speed/Reset",
+      "capabilities": [
+        {
+          "label": "Empty",
+          "min": 0,
+          "max": 50
+        },
+        {
+          "label": "Speed Mode to High (hold 10s)",
+          "min": 51,
+          "max": 100
+        },
+        {
+          "label": "Empty",
+          "min": 101,
+          "max": 150
+        },
+        {
+          "label": "Speed Mode to Low (hold 10s)",
+          "min": 151,
+          "max": 200
+        },
+        {
+          "label": "Empty",
+          "min": 201,
+          "max": 250
+        },
+        {
+          "label": "Reset (hold 10s)",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/lightmaXX/lightmaXX-Vega-Spot-60.json",
+  "id": 997
+}

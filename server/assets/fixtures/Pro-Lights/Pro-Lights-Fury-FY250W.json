@@ -1,0 +1,382 @@
+{
+  "version": "1.0.0",
+  "label": "Fury FY250W",
+  "manufacturer": "Pro-Lights",
+  "bulb_type": "LED",
+  "bulb_lumens": 42000,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 208,
+  "dimension_height": 225,
+  "dimension_depth": 213,
+  "lens_label": "Other",
+  "lens_degree_min": 25,
+  "lens_degree_max": 25,
+  "focus_type": "Fixed",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 67,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Speed",
+      "capabilities": [
+        {
+          "label": "Speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Dimmer 75% - 0",
+          "min": 8,
+          "max": 132
+        },
+        {
+          "label": "Closed",
+          "min": 133,
+          "max": 134
+        },
+        {
+          "label": "Strobe Slow > Fast",
+          "min": 135,
+          "max": 239
+        },
+        {
+          "label": "Open",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Led Color Saturation (Dark > Light)",
+      "capabilities": [
+        {
+          "label": "Saturation (Dark > Light)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 3,
+      "type_description": "Color Macro",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Ice",
+          "min": 8,
+          "max": 21
+        },
+        {
+          "label": "Red",
+          "min": 22,
+          "max": 35
+        },
+        {
+          "label": "Green",
+          "min": 36,
+          "max": 49
+        },
+        {
+          "label": "Blue",
+          "min": 50,
+          "max": 63
+        },
+        {
+          "label": "White",
+          "min": 64,
+          "max": 77
+        },
+        {
+          "label": "Color 1",
+          "min": 78,
+          "max": 91
+        },
+        {
+          "label": "Color 2",
+          "min": 92,
+          "max": 105
+        },
+        {
+          "label": "Color 3",
+          "min": 106,
+          "max": 119
+        },
+        {
+          "label": "Color 4",
+          "min": 120,
+          "max": 133
+        },
+        {
+          "label": "Color 5",
+          "min": 134,
+          "max": 147
+        },
+        {
+          "label": "Color 6",
+          "min": 148,
+          "max": 161
+        },
+        {
+          "label": "Color 7",
+          "min": 162,
+          "max": 175
+        },
+        {
+          "label": "Color 8",
+          "min": 176,
+          "max": 189
+        },
+        {
+          "label": "Color 9",
+          "min": 190,
+          "max": 203
+        },
+        {
+          "label": "Color 10",
+          "min": 204,
+          "max": 217
+        },
+        {
+          "label": "Color 11",
+          "min": 218,
+          "max": 231
+        },
+        {
+          "label": "Color Macro",
+          "min": 232,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 22,
+      "type_description": "Led Speed",
+      "capabilities": [
+        {
+          "label": "Led Speed Fast > Slow",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 17,
+      "type_description": "Channel Function",
+      "capabilities": [
+        {
+          "label": "Reserved",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Blackout while Pan/Tilt Moving",
+          "min": 8,
+          "max": 27
+        },
+        {
+          "label": "Retention",
+          "min": 28,
+          "max": 147
+        },
+        {
+          "label": "Reset Pan",
+          "min": 148,
+          "max": 167
+        },
+        {
+          "label": "Reset Tilt",
+          "min": 168,
+          "max": 187
+        },
+        {
+          "label": "Retention",
+          "min": 188,
+          "max": 207
+        },
+        {
+          "label": "Retention",
+          "min": 208,
+          "max": 227
+        },
+        {
+          "label": "Reset All",
+          "min": 228,
+          "max": 247
+        },
+        {
+          "label": "Reserved",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 3,
+      "type_description": "Effect",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Effect 1",
+          "min": 8,
+          "max": 23
+        },
+        {
+          "label": "Effect 2",
+          "min": 24,
+          "max": 39
+        },
+        {
+          "label": "Effect 3",
+          "min": 40,
+          "max": 55
+        },
+        {
+          "label": "Effect 4",
+          "min": 56,
+          "max": 71
+        },
+        {
+          "label": "Effect 5",
+          "min": 72,
+          "max": 87
+        },
+        {
+          "label": "Effect 6",
+          "min": 88,
+          "max": 103
+        },
+        {
+          "label": "Effect 7",
+          "min": 104,
+          "max": 119
+        },
+        {
+          "label": "Effect 8",
+          "min": 120,
+          "max": 135
+        },
+        {
+          "label": "Sound Control 1",
+          "min": 136,
+          "max": 151
+        },
+        {
+          "label": "Sound Control 2",
+          "min": 152,
+          "max": 167
+        },
+        {
+          "label": "Sound Control 3",
+          "min": 168,
+          "max": 183
+        },
+        {
+          "label": "Sound Control 4",
+          "min": 184,
+          "max": 199
+        },
+        {
+          "label": "Sound Control 5",
+          "min": 200,
+          "max": 215
+        },
+        {
+          "label": "Sound Control 6",
+          "min": 216,
+          "max": 231
+        },
+        {
+          "label": "Sound Control 7",
+          "min": 232,
+          "max": 247
+        },
+        {
+          "label": "Sound Control 8",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Pro-Lights/Pro-Lights-Fury-FY250W.json",
+  "id": 1130
+}

@@ -1,0 +1,133 @@
+{
+  "version": "1.0.0",
+  "label": "Best Strip 60",
+  "manufacturer": "Rockville",
+  "bulb_type": "LED",
+  "bulb_lumens": 1,
+  "bulb_color_temperature": 6500,
+  "dimension_weight": 4,
+  "dimension_width": 2273,
+  "dimension_height": 304,
+  "dimension_depth": 574,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 30,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 45,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "UV",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Strobe Mode (Slow to Fast)",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Color Effect",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 22,
+      "type_description": "Speed",
+      "capabilities": [
+        {
+          "label": "Effect speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Color Select/Fade - Sound Active Strobe/Color",
+      "capabilities": [
+        {
+          "label": "COLOR SELECT (CH10 Selects Color)",
+          "min": 0,
+          "max": 50
+        },
+        {
+          "label": "COLOR Scroll",
+          "min": 51,
+          "max": 100
+        },
+        {
+          "label": "COLOR Snap FADE OUT",
+          "min": 101,
+          "max": 150
+        },
+        {
+          "label": "COLOR Fade",
+          "min": 151,
+          "max": 200
+        },
+        {
+          "label": "SOUND Active (Single Color)",
+          "min": 201,
+          "max": 220
+        },
+        {
+          "label": "SOUND Active Strobe",
+          "min": 221,
+          "max": 240
+        },
+        {
+          "label": "SOUND Active/ Snap FADE OUT",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Rockville/Rockville-Best-Strip-60-RGBWAUV.json",
+  "id": 1230
+}

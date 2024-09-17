@@ -1,0 +1,355 @@
+{
+  "version": "1.0.0",
+  "label": "Hero Wash 640FX",
+  "manufacturer": "Varytec",
+  "bulb_type": "LED",
+  "bulb_lumens": 2000,
+  "bulb_color_temperature": 7000,
+  "dimension_weight": 11,
+  "dimension_width": 303,
+  "dimension_height": 425,
+  "dimension_depth": 188,
+  "lens_label": "Other",
+  "lens_degree_min": 4,
+  "lens_degree_max": 60,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 220,
+  "technical_power_consumption": 240,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan/Tilt speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Shutter close",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Costant ramp up - slow to fast rate",
+          "min": 11,
+          "max": 80
+        },
+        {
+          "label": "Costant ramp down - slow to fast rate",
+          "min": 81,
+          "max": 140
+        },
+        {
+          "label": "Pulse effect - slow to fast rate",
+          "min": 141,
+          "max": 200
+        },
+        {
+          "label": "Strobe regular - 0.5>10 Hz",
+          "min": 201,
+          "max": 250
+        },
+        {
+          "label": "Shutter open",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Color macros",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Colour macros - 1 to 46",
+          "min": 6,
+          "max": 235
+        },
+        {
+          "label": "Colour change (cut) slow to fast",
+          "min": 236,
+          "max": 245
+        },
+        {
+          "label": "Colour change (fade) slow to fast",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 3,
+      "type_description": "Auto Pan-Tilt",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Pan-Tilt auto prog 1",
+          "min": 8,
+          "max": 32
+        },
+        {
+          "label": "Pan-Tilt auto prog 2",
+          "min": 33,
+          "max": 58
+        },
+        {
+          "label": "Pan-Tilt auto prog 3",
+          "min": 59,
+          "max": 84
+        },
+        {
+          "label": "Pan-Tilt auto prog 4",
+          "min": 85,
+          "max": 110
+        },
+        {
+          "label": "Pan-Tilt auto prog 5",
+          "min": 111,
+          "max": 136
+        },
+        {
+          "label": "Pan-Tilt auto prog 6",
+          "min": 137,
+          "max": 162
+        },
+        {
+          "label": "Pan-Tilt auto prog 7",
+          "min": 163,
+          "max": 188
+        },
+        {
+          "label": "Pan-Tilt auto prog 8",
+          "min": 189,
+          "max": 214
+        },
+        {
+          "label": "Pan-Tilt auto prog 9",
+          "min": 215,
+          "max": 240
+        },
+        {
+          "label": "Sound control Pan-Tilt",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 20,
+      "type_description": "Beam deflection",
+      "capabilities": [
+        {
+          "label": "Static rotating lens position - 0>60°",
+          "min": 0,
+          "max": 99
+        },
+        {
+          "label": "FX pulse deflection - small to wide",
+          "min": 100,
+          "max": 133
+        },
+        {
+          "label": "CW rotation - fast to slow",
+          "min": 134,
+          "max": 194
+        },
+        {
+          "label": "Counter-CW - slow to fast",
+          "min": 195,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 3,
+      "type_description": "Auto zoom",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Auto zoom program - fast to slow",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 17,
+      "type_description": "Reset",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 189
+        },
+        {
+          "label": "Reset after 10 sec",
+          "min": 190,
+          "max": 210
+        },
+        {
+          "label": "No function",
+          "min": 211,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Red segment 1",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Green segment 1",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Blue segment 1",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "White segment 1",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Red segment 2",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Green segment 2",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Blue segment 2",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "White segment 2",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Red segment 3",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Green segment 3",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Blue segment 3",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "White segment 3",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Varytec/Varytec-Hero-Wash-640FX.json",
+  "id": 1502
+}

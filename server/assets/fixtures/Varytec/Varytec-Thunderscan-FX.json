@@ -1,0 +1,606 @@
+{
+  "version": "1.0.0",
+  "label": "Thunderscan FX",
+  "manufacturer": "Varytec",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 360,
+  "dimension_height": 460,
+  "dimension_depth": 190,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 30,
+  "technical_dmx_connector": "3-pin",
+  "type": 3,
+  "channels": [
+    {
+      "index": 0,
+      "type": 22,
+      "type_description": "Mirror 1 Rotation",
+      "capabilities": [
+        {
+          "label": "CCW Rotation (Slow to Fast)",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "CW Rotation (Fast to Slow)",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 22,
+      "type_description": "Mirror 2 Rotation",
+      "capabilities": [
+        {
+          "label": "CCW Rotation (Slow to Fast)",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "CW Rotation (Fast to Slow)",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 3,
+      "type_description": "Mirror 1 Pattern",
+      "capabilities": [
+        {
+          "label": "No Pattern",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Red",
+          "min": 11,
+          "max": 15
+        },
+        {
+          "label": "Green",
+          "min": 16,
+          "max": 20
+        },
+        {
+          "label": "Blue",
+          "min": 21,
+          "max": 25
+        },
+        {
+          "label": "Red+Green",
+          "min": 26,
+          "max": 30
+        },
+        {
+          "label": "Green+Blue",
+          "min": 31,
+          "max": 35
+        },
+        {
+          "label": "Red+Blue",
+          "min": 36,
+          "max": 40
+        },
+        {
+          "label": "Red+Green+Blue",
+          "min": 41,
+          "max": 45
+        },
+        {
+          "label": "Red+Green+Blue+Gray",
+          "min": 46,
+          "max": 50
+        },
+        {
+          "label": "Red+Green+Blue+Gray+Orange",
+          "min": 51,
+          "max": 55
+        },
+        {
+          "label": "intensity",
+          "min": 56,
+          "max": 60
+        },
+        {
+          "label": 1,
+          "min": 61,
+          "max": 65
+        },
+        {
+          "label": 2,
+          "min": 66,
+          "max": 70
+        },
+        {
+          "label": 3,
+          "min": 71,
+          "max": 75
+        },
+        {
+          "label": 4,
+          "min": 76,
+          "max": 80
+        },
+        {
+          "label": 5,
+          "min": 81,
+          "max": 85
+        },
+        {
+          "label": 6,
+          "min": 86,
+          "max": 90
+        },
+        {
+          "label": 7,
+          "min": 91,
+          "max": 95
+        },
+        {
+          "label": 8,
+          "min": 96,
+          "max": 100
+        },
+        {
+          "label": 9,
+          "min": 101,
+          "max": 105
+        },
+        {
+          "label": "Circle",
+          "min": 106,
+          "max": 110
+        },
+        {
+          "label": "Circle Thick",
+          "min": 111,
+          "max": 115
+        },
+        {
+          "label": "Checkmark",
+          "min": 116,
+          "max": 120
+        },
+        {
+          "label": "X",
+          "min": 121,
+          "max": 125
+        },
+        {
+          "label": "Anim: Color Lines",
+          "min": 126,
+          "max": 130
+        },
+        {
+          "label": "Anim: Fill Left to Right",
+          "min": 131,
+          "max": 135
+        },
+        {
+          "label": "Anim: Line Right to Left",
+          "min": 136,
+          "max": 140
+        },
+        {
+          "label": "Anim: Moving Cross",
+          "min": 141,
+          "max": 145
+        },
+        {
+          "label": "Anim: Moving Cross Ping Pong",
+          "min": 146,
+          "max": 150
+        },
+        {
+          "label": "Anim: Circle Expanding",
+          "min": 151,
+          "max": 155
+        },
+        {
+          "label": "Anim: Circle Expansion Ping Pong",
+          "min": 156,
+          "max": 160
+        },
+        {
+          "label": "Anim: Fill Slant",
+          "min": 161,
+          "max": 165
+        },
+        {
+          "label": "Anim: 1 Pixel Moving",
+          "min": 166,
+          "max": 170
+        },
+        {
+          "label": "Anim: 2 Pixel Moving Ping Pong",
+          "min": 171,
+          "max": 175
+        },
+        {
+          "label": "Anim: Squares",
+          "min": 176,
+          "max": 180
+        },
+        {
+          "label": "Anim: Spinning Shuriken",
+          "min": 181,
+          "max": 185
+        },
+        {
+          "label": "Anim: 1 Pixel Spiral Inwards",
+          "min": 186,
+          "max": 190
+        },
+        {
+          "label": "Anim: Snake Spiral Inwards",
+          "min": 191,
+          "max": 195
+        },
+        {
+          "label": "Anim: 4 Pixel Spiral Outwards",
+          "min": 196,
+          "max": 200
+        },
+        {
+          "label": "Anim: Clock",
+          "min": 201,
+          "max": 205
+        },
+        {
+          "label": "Anim: Fill and Empty L to R",
+          "min": 206,
+          "max": 215
+        },
+        {
+          "label": "Anim: Spiral Single+Fill Combo",
+          "min": 216,
+          "max": 225
+        },
+        {
+          "label": "Anim: 4 Pixel Circle",
+          "min": 226,
+          "max": 235
+        },
+        {
+          "label": "Anim: Lines Horisontal and Vertical",
+          "min": 236,
+          "max": 245
+        },
+        {
+          "label": "Anim: 0 to 9",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Mirror 2 Pattern",
+      "capabilities": [
+        {
+          "label": "No Pattern",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Red",
+          "min": 11,
+          "max": 15
+        },
+        {
+          "label": "Green",
+          "min": 16,
+          "max": 20
+        },
+        {
+          "label": "Blue",
+          "min": 21,
+          "max": 25
+        },
+        {
+          "label": "Red+Green",
+          "min": 26,
+          "max": 30
+        },
+        {
+          "label": "Green+Blue",
+          "min": 31,
+          "max": 35
+        },
+        {
+          "label": "Red+Blue",
+          "min": 36,
+          "max": 40
+        },
+        {
+          "label": "Red+Green+Blue",
+          "min": 41,
+          "max": 45
+        },
+        {
+          "label": "Red+Green+Blue+Gray",
+          "min": 46,
+          "max": 50
+        },
+        {
+          "label": "Red+Green+Blue+Gray+Orange",
+          "min": 51,
+          "max": 55
+        },
+        {
+          "label": "intensity",
+          "min": 56,
+          "max": 60
+        },
+        {
+          "label": 1,
+          "min": 61,
+          "max": 65
+        },
+        {
+          "label": 2,
+          "min": 66,
+          "max": 70
+        },
+        {
+          "label": 3,
+          "min": 71,
+          "max": 75
+        },
+        {
+          "label": 4,
+          "min": 76,
+          "max": 80
+        },
+        {
+          "label": 5,
+          "min": 81,
+          "max": 85
+        },
+        {
+          "label": 6,
+          "min": 86,
+          "max": 90
+        },
+        {
+          "label": 7,
+          "min": 91,
+          "max": 95
+        },
+        {
+          "label": 8,
+          "min": 96,
+          "max": 100
+        },
+        {
+          "label": 9,
+          "min": 101,
+          "max": 105
+        },
+        {
+          "label": "Circle",
+          "min": 106,
+          "max": 110
+        },
+        {
+          "label": "Circle Thick",
+          "min": 111,
+          "max": 115
+        },
+        {
+          "label": "Checkmark",
+          "min": 116,
+          "max": 120
+        },
+        {
+          "label": "X",
+          "min": 121,
+          "max": 125
+        },
+        {
+          "label": "Anim: Color Lines",
+          "min": 126,
+          "max": 130
+        },
+        {
+          "label": "Anim: Fill Left to Right",
+          "min": 131,
+          "max": 135
+        },
+        {
+          "label": "Anim: Line Right to Left",
+          "min": 136,
+          "max": 140
+        },
+        {
+          "label": "Anim: Moving Cross",
+          "min": 141,
+          "max": 145
+        },
+        {
+          "label": "Anim: Moving Cross Ping Pong",
+          "min": 146,
+          "max": 150
+        },
+        {
+          "label": "Anim: Circle Expanding",
+          "min": 151,
+          "max": 155
+        },
+        {
+          "label": "Anim: Circle Expansion Ping Pong",
+          "min": 156,
+          "max": 160
+        },
+        {
+          "label": "Anim: Fill Slant",
+          "min": 161,
+          "max": 165
+        },
+        {
+          "label": "Anim: 1 Pixel Moving",
+          "min": 166,
+          "max": 170
+        },
+        {
+          "label": "Anim: 2 Pixel Moving Ping Pong",
+          "min": 171,
+          "max": 175
+        },
+        {
+          "label": "Anim: Squares",
+          "min": 176,
+          "max": 180
+        },
+        {
+          "label": "Anim: Spinning Shuriken",
+          "min": 181,
+          "max": 185
+        },
+        {
+          "label": "Anim: 1 Pixel Spiral Inwards",
+          "min": 186,
+          "max": 190
+        },
+        {
+          "label": "Anim: Snake Spiral Inwards",
+          "min": 191,
+          "max": 195
+        },
+        {
+          "label": "Anim: 4 Pixel Spiral Outwards",
+          "min": 196,
+          "max": 200
+        },
+        {
+          "label": "Anim: Clock",
+          "min": 201,
+          "max": 205
+        },
+        {
+          "label": "Anim: Fill and Empty L to R",
+          "min": 206,
+          "max": 215
+        },
+        {
+          "label": "Anim: Spiral Single+Fill Combo",
+          "min": 216,
+          "max": 225
+        },
+        {
+          "label": "Anim: 4 Pixel Circle",
+          "min": 226,
+          "max": 235
+        },
+        {
+          "label": "Anim: Lines Horisontal and Vertical",
+          "min": 236,
+          "max": 245
+        },
+        {
+          "label": "Anim: 0 to 9",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Mirror Pattern Speed",
+      "capabilities": [
+        {
+          "label": "Slow to Fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Dimmer for White LEDs 0-100%",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Shutter for White LEDs",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Dimmer for UV LEDs 0-100%",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Shutter for UV LEDs",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Effect Combination Programs",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Mirror 1 CW, Mirror 2 CCW, Pattern Auto",
+          "min": 11,
+          "max": 45
+        },
+        {
+          "label": "Mirror 2 CCW, Mirror 2 CW, Pattern Auto",
+          "min": 46,
+          "max": 80
+        },
+        {
+          "label": "Strobe and Pattern",
+          "min": 81,
+          "max": 115
+        },
+        {
+          "label": "Thunderstorm",
+          "min": 116,
+          "max": 150
+        },
+        {
+          "label": "White and UV Fade",
+          "min": 151,
+          "max": 185
+        },
+        {
+          "label": "Mirror 1 and Mirror 2 Change",
+          "min": 186,
+          "max": 220
+        },
+        {
+          "label": "3 effect change with pattern, white + UV",
+          "min": 221,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Varytec/Varytec-Thunderscan-FX.json",
+  "id": 1519
+}

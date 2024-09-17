@@ -1,0 +1,84 @@
+{
+  "version": "1.0.0",
+  "label": "Starball LED DMX",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 210,
+  "dimension_height": 179,
+  "dimension_depth": 210,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 10,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Dimmer/Strobe",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Dimmer 0 to 100%",
+          "min": 8,
+          "max": 199
+        },
+        {
+          "label": "Strobing Slow to Fast",
+          "min": 200,
+          "max": 247
+        },
+        {
+          "label": "Open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Dome Rotation",
+      "capabilities": [
+        {
+          "label": "No Rotation",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "CW Fast to Slow",
+          "min": 10,
+          "max": 120
+        },
+        {
+          "label": "No Rotation",
+          "min": 121,
+          "max": 134
+        },
+        {
+          "label": "CCW Slow to Fast",
+          "min": 135,
+          "max": 245
+        },
+        {
+          "label": "No Rotation",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Starball-LED-DMX.json",
+  "id": 138
+}

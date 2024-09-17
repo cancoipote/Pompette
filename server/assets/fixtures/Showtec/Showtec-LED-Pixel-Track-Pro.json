@@ -1,0 +1,1539 @@
+{
+  "version": "1.0.0",
+  "label": "LED Pixel Track Pro",
+  "manufacturer": "Showtec",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 7,
+  "dimension_width": 1010,
+  "dimension_height": 200,
+  "dimension_depth": 175,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 70,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 14,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Dimmer/Strobe",
+      "capabilities": [
+        {
+          "label": "Gradual adjustment of dimmer intensity from 0 - 100%",
+          "min": 0,
+          "max": 159
+        },
+        {
+          "label": "Strobe effect from slow to fast",
+          "min": 160,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Chase/Sound-Controlled",
+      "capabilities": [
+        {
+          "label": "Chase 1",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Chase 2",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Chase 3",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Chase 4",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Chase 5",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Chase 6",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Chase 7",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Chase 8",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Chase 9",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Chase 10",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Chase 11",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Chase 12",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Chase 13",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "Chase 14",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "Chase 15",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "Chase 16 (sound controlled)",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 22,
+      "type_description": "Speed",
+      "capabilities": [
+        {
+          "label": "Gradual sdjustment from 0 - 100%",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Fade time",
+      "capabilities": [
+        {
+          "label": "Gradual adjustment from 0 - 100%",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Red - A-E",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Red - F-J",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Green - A-E",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Green - F-J",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Blue - A-E",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Blue - F-J",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Dimmer - A-E",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Dimmer - F-J",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Red - A-B",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Red - C-D",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Red - E-F",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Red - G-H",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Red - I-J",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Green - A-B",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Green - C-D",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Green - E-F",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Green - G-H",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Green - I-J",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Blue - A-B",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Blue - C-D",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Blue - E-F",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "Blue - G-H",
+      "capabilities": []
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "Blue - I-J",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 0,
+      "type_description": "Dimmer - A-B",
+      "capabilities": []
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "Dimmer - C-D",
+      "capabilities": []
+    },
+    {
+      "index": 32,
+      "type": 0,
+      "type_description": "Dimmer - E-F",
+      "capabilities": []
+    },
+    {
+      "index": 33,
+      "type": 0,
+      "type_description": "Dimmer - G-H",
+      "capabilities": []
+    },
+    {
+      "index": 34,
+      "type": 0,
+      "type_description": "Dimmer - I-J",
+      "capabilities": []
+    },
+    {
+      "index": 35,
+      "type": 0,
+      "type_description": "Red - A",
+      "capabilities": []
+    },
+    {
+      "index": 36,
+      "type": 0,
+      "type_description": "Red - B",
+      "capabilities": []
+    },
+    {
+      "index": 37,
+      "type": 0,
+      "type_description": "Red - C",
+      "capabilities": []
+    },
+    {
+      "index": 38,
+      "type": 0,
+      "type_description": "Red - D",
+      "capabilities": []
+    },
+    {
+      "index": 39,
+      "type": 0,
+      "type_description": "Red - E",
+      "capabilities": []
+    },
+    {
+      "index": 40,
+      "type": 0,
+      "type_description": "Red - F",
+      "capabilities": []
+    },
+    {
+      "index": 41,
+      "type": 0,
+      "type_description": "Red - G",
+      "capabilities": []
+    },
+    {
+      "index": 42,
+      "type": 0,
+      "type_description": "Red - H",
+      "capabilities": []
+    },
+    {
+      "index": 43,
+      "type": 0,
+      "type_description": "Red - I",
+      "capabilities": []
+    },
+    {
+      "index": 44,
+      "type": 0,
+      "type_description": "Red - J",
+      "capabilities": []
+    },
+    {
+      "index": 45,
+      "type": 0,
+      "type_description": "Green - A",
+      "capabilities": []
+    },
+    {
+      "index": 46,
+      "type": 0,
+      "type_description": "Green - B",
+      "capabilities": []
+    },
+    {
+      "index": 47,
+      "type": 0,
+      "type_description": "Green - C",
+      "capabilities": []
+    },
+    {
+      "index": 48,
+      "type": 0,
+      "type_description": "Green - D",
+      "capabilities": []
+    },
+    {
+      "index": 49,
+      "type": 0,
+      "type_description": "Green - E",
+      "capabilities": []
+    },
+    {
+      "index": 50,
+      "type": 0,
+      "type_description": "Green - F",
+      "capabilities": []
+    },
+    {
+      "index": 51,
+      "type": 0,
+      "type_description": "Green - G",
+      "capabilities": []
+    },
+    {
+      "index": 52,
+      "type": 0,
+      "type_description": "Green - H",
+      "capabilities": []
+    },
+    {
+      "index": 53,
+      "type": 0,
+      "type_description": "Green - I",
+      "capabilities": []
+    },
+    {
+      "index": 54,
+      "type": 0,
+      "type_description": "Green - J",
+      "capabilities": []
+    },
+    {
+      "index": 55,
+      "type": 0,
+      "type_description": "Blue - A",
+      "capabilities": []
+    },
+    {
+      "index": 56,
+      "type": 0,
+      "type_description": "Blue - B",
+      "capabilities": []
+    },
+    {
+      "index": 57,
+      "type": 0,
+      "type_description": "Blue - C",
+      "capabilities": []
+    },
+    {
+      "index": 58,
+      "type": 0,
+      "type_description": "Blue - D",
+      "capabilities": []
+    },
+    {
+      "index": 59,
+      "type": 0,
+      "type_description": "Blue - E",
+      "capabilities": []
+    },
+    {
+      "index": 60,
+      "type": 0,
+      "type_description": "Blue - F",
+      "capabilities": []
+    },
+    {
+      "index": 61,
+      "type": 0,
+      "type_description": "Blue - G",
+      "capabilities": []
+    },
+    {
+      "index": 62,
+      "type": 0,
+      "type_description": "Blue - H",
+      "capabilities": []
+    },
+    {
+      "index": 63,
+      "type": 0,
+      "type_description": "Blue - I",
+      "capabilities": []
+    },
+    {
+      "index": 64,
+      "type": 0,
+      "type_description": "Blue - J",
+      "capabilities": []
+    },
+    {
+      "index": 65,
+      "type": 0,
+      "type_description": "Dimmer - A",
+      "capabilities": []
+    },
+    {
+      "index": 66,
+      "type": 0,
+      "type_description": "Dimmer - B",
+      "capabilities": []
+    },
+    {
+      "index": 67,
+      "type": 0,
+      "type_description": "Dimmer - C",
+      "capabilities": []
+    },
+    {
+      "index": 68,
+      "type": 0,
+      "type_description": "Dimmer - D",
+      "capabilities": []
+    },
+    {
+      "index": 69,
+      "type": 0,
+      "type_description": "Dimmer - E",
+      "capabilities": []
+    },
+    {
+      "index": 70,
+      "type": 0,
+      "type_description": "Dimmer - F",
+      "capabilities": []
+    },
+    {
+      "index": 71,
+      "type": 0,
+      "type_description": "Dimmer - G",
+      "capabilities": []
+    },
+    {
+      "index": 72,
+      "type": 0,
+      "type_description": "Dimmer - H",
+      "capabilities": []
+    },
+    {
+      "index": 73,
+      "type": 0,
+      "type_description": "Dimmer - I",
+      "capabilities": []
+    },
+    {
+      "index": 74,
+      "type": 0,
+      "type_description": "Dimmer - J",
+      "capabilities": []
+    },
+    {
+      "index": 75,
+      "type": 0,
+      "type_description": "Red - Aa",
+      "capabilities": []
+    },
+    {
+      "index": 76,
+      "type": 0,
+      "type_description": "Red - Ab",
+      "capabilities": []
+    },
+    {
+      "index": 77,
+      "type": 0,
+      "type_description": "Red - Ac",
+      "capabilities": []
+    },
+    {
+      "index": 78,
+      "type": 0,
+      "type_description": "Red - Ad",
+      "capabilities": []
+    },
+    {
+      "index": 79,
+      "type": 0,
+      "type_description": "Red - Ba",
+      "capabilities": []
+    },
+    {
+      "index": 80,
+      "type": 0,
+      "type_description": "Red - Bb",
+      "capabilities": []
+    },
+    {
+      "index": 81,
+      "type": 0,
+      "type_description": "Red - Bc",
+      "capabilities": []
+    },
+    {
+      "index": 82,
+      "type": 0,
+      "type_description": "Red - Bd",
+      "capabilities": []
+    },
+    {
+      "index": 83,
+      "type": 0,
+      "type_description": "Red - Ca",
+      "capabilities": []
+    },
+    {
+      "index": 84,
+      "type": 0,
+      "type_description": "Red - Cb",
+      "capabilities": []
+    },
+    {
+      "index": 85,
+      "type": 0,
+      "type_description": "Red - Cc",
+      "capabilities": []
+    },
+    {
+      "index": 86,
+      "type": 0,
+      "type_description": "Red - Cd",
+      "capabilities": []
+    },
+    {
+      "index": 87,
+      "type": 0,
+      "type_description": "Red - Ea",
+      "capabilities": []
+    },
+    {
+      "index": 88,
+      "type": 0,
+      "type_description": "Red - Eb",
+      "capabilities": []
+    },
+    {
+      "index": 89,
+      "type": 0,
+      "type_description": "Red - Ec",
+      "capabilities": []
+    },
+    {
+      "index": 90,
+      "type": 0,
+      "type_description": "Red - Ed",
+      "capabilities": []
+    },
+    {
+      "index": 91,
+      "type": 0,
+      "type_description": "Red - Fa",
+      "capabilities": []
+    },
+    {
+      "index": 92,
+      "type": 0,
+      "type_description": "Red - Fb",
+      "capabilities": []
+    },
+    {
+      "index": 93,
+      "type": 0,
+      "type_description": "Red - Fc",
+      "capabilities": []
+    },
+    {
+      "index": 94,
+      "type": 0,
+      "type_description": "Red - Fd",
+      "capabilities": []
+    },
+    {
+      "index": 95,
+      "type": 0,
+      "type_description": "Red - Ga",
+      "capabilities": []
+    },
+    {
+      "index": 96,
+      "type": 0,
+      "type_description": "Red - Gb",
+      "capabilities": []
+    },
+    {
+      "index": 97,
+      "type": 0,
+      "type_description": "Red - Gc",
+      "capabilities": []
+    },
+    {
+      "index": 98,
+      "type": 0,
+      "type_description": "Red - Gd",
+      "capabilities": []
+    },
+    {
+      "index": 99,
+      "type": 0,
+      "type_description": "Red - Ha",
+      "capabilities": []
+    },
+    {
+      "index": 100,
+      "type": 0,
+      "type_description": "Red - Hb",
+      "capabilities": []
+    },
+    {
+      "index": 101,
+      "type": 0,
+      "type_description": "Red - Hc",
+      "capabilities": []
+    },
+    {
+      "index": 102,
+      "type": 0,
+      "type_description": "Red - Hd",
+      "capabilities": []
+    },
+    {
+      "index": 103,
+      "type": 0,
+      "type_description": "Red - Ia",
+      "capabilities": []
+    },
+    {
+      "index": 104,
+      "type": 0,
+      "type_description": "Red - Ib",
+      "capabilities": []
+    },
+    {
+      "index": 105,
+      "type": 0,
+      "type_description": "Red - Ic",
+      "capabilities": []
+    },
+    {
+      "index": 106,
+      "type": 0,
+      "type_description": "Red - Id",
+      "capabilities": []
+    },
+    {
+      "index": 107,
+      "type": 0,
+      "type_description": "Red - Ja",
+      "capabilities": []
+    },
+    {
+      "index": 108,
+      "type": 0,
+      "type_description": "Red - Jb",
+      "capabilities": []
+    },
+    {
+      "index": 109,
+      "type": 0,
+      "type_description": "Red - Jc",
+      "capabilities": []
+    },
+    {
+      "index": 110,
+      "type": 0,
+      "type_description": "Red - Jd",
+      "capabilities": []
+    },
+    {
+      "index": 111,
+      "type": 0,
+      "type_description": "Green - Aa",
+      "capabilities": []
+    },
+    {
+      "index": 112,
+      "type": 0,
+      "type_description": "Green - Ab",
+      "capabilities": []
+    },
+    {
+      "index": 113,
+      "type": 0,
+      "type_description": "Green - Ac",
+      "capabilities": []
+    },
+    {
+      "index": 114,
+      "type": 0,
+      "type_description": "Green - Ad",
+      "capabilities": []
+    },
+    {
+      "index": 115,
+      "type": 0,
+      "type_description": "Green - Ba",
+      "capabilities": []
+    },
+    {
+      "index": 116,
+      "type": 0,
+      "type_description": "Green - Bb",
+      "capabilities": []
+    },
+    {
+      "index": 117,
+      "type": 0,
+      "type_description": "Green - Bc",
+      "capabilities": []
+    },
+    {
+      "index": 118,
+      "type": 0,
+      "type_description": "Green - Bd",
+      "capabilities": []
+    },
+    {
+      "index": 119,
+      "type": 0,
+      "type_description": "Green - Ca",
+      "capabilities": []
+    },
+    {
+      "index": 120,
+      "type": 0,
+      "type_description": "Green - Cb",
+      "capabilities": []
+    },
+    {
+      "index": 121,
+      "type": 0,
+      "type_description": "Green - Cc",
+      "capabilities": []
+    },
+    {
+      "index": 122,
+      "type": 0,
+      "type_description": "Green - Cd",
+      "capabilities": []
+    },
+    {
+      "index": 123,
+      "type": 0,
+      "type_description": "Green - Da",
+      "capabilities": []
+    },
+    {
+      "index": 124,
+      "type": 0,
+      "type_description": "Green - Db",
+      "capabilities": []
+    },
+    {
+      "index": 125,
+      "type": 0,
+      "type_description": "Green - Dc",
+      "capabilities": []
+    },
+    {
+      "index": 126,
+      "type": 0,
+      "type_description": "Green - Dd",
+      "capabilities": []
+    },
+    {
+      "index": 127,
+      "type": 0,
+      "type_description": "Green - Ea",
+      "capabilities": []
+    },
+    {
+      "index": 128,
+      "type": 0,
+      "type_description": "Green - Eb",
+      "capabilities": []
+    },
+    {
+      "index": 129,
+      "type": 0,
+      "type_description": "Green - Ec",
+      "capabilities": []
+    },
+    {
+      "index": 130,
+      "type": 0,
+      "type_description": "Green - Ed",
+      "capabilities": []
+    },
+    {
+      "index": 131,
+      "type": 0,
+      "type_description": "Green - Fa",
+      "capabilities": []
+    },
+    {
+      "index": 132,
+      "type": 0,
+      "type_description": "Green - Fb",
+      "capabilities": []
+    },
+    {
+      "index": 133,
+      "type": 0,
+      "type_description": "Green - Fc",
+      "capabilities": []
+    },
+    {
+      "index": 134,
+      "type": 0,
+      "type_description": "Green - Fd",
+      "capabilities": []
+    },
+    {
+      "index": 135,
+      "type": 0,
+      "type_description": "Green - Ga",
+      "capabilities": []
+    },
+    {
+      "index": 136,
+      "type": 0,
+      "type_description": "Green - Gb",
+      "capabilities": []
+    },
+    {
+      "index": 137,
+      "type": 0,
+      "type_description": "Green - Gc",
+      "capabilities": []
+    },
+    {
+      "index": 138,
+      "type": 0,
+      "type_description": "Green - Gd",
+      "capabilities": []
+    },
+    {
+      "index": 139,
+      "type": 0,
+      "type_description": "Green - Ha",
+      "capabilities": []
+    },
+    {
+      "index": 140,
+      "type": 0,
+      "type_description": "Green - Hb",
+      "capabilities": []
+    },
+    {
+      "index": 141,
+      "type": 0,
+      "type_description": "Green - Hc",
+      "capabilities": []
+    },
+    {
+      "index": 142,
+      "type": 0,
+      "type_description": "Green - Hd",
+      "capabilities": []
+    },
+    {
+      "index": 143,
+      "type": 0,
+      "type_description": "Green - Ia",
+      "capabilities": []
+    },
+    {
+      "index": 144,
+      "type": 0,
+      "type_description": "Green - Ib",
+      "capabilities": []
+    },
+    {
+      "index": 145,
+      "type": 0,
+      "type_description": "Green - Ic",
+      "capabilities": []
+    },
+    {
+      "index": 146,
+      "type": 0,
+      "type_description": "Green - Id",
+      "capabilities": []
+    },
+    {
+      "index": 147,
+      "type": 0,
+      "type_description": "Green - Ja",
+      "capabilities": []
+    },
+    {
+      "index": 148,
+      "type": 0,
+      "type_description": "Green - Jb",
+      "capabilities": []
+    },
+    {
+      "index": 149,
+      "type": 0,
+      "type_description": "Green - Jc",
+      "capabilities": []
+    },
+    {
+      "index": 150,
+      "type": 0,
+      "type_description": "Green - Jd",
+      "capabilities": []
+    },
+    {
+      "index": 151,
+      "type": 0,
+      "type_description": "Blue - Aa",
+      "capabilities": []
+    },
+    {
+      "index": 152,
+      "type": 0,
+      "type_description": "Blue - Ab",
+      "capabilities": []
+    },
+    {
+      "index": 153,
+      "type": 0,
+      "type_description": "Blue - Ac",
+      "capabilities": []
+    },
+    {
+      "index": 154,
+      "type": 0,
+      "type_description": "Blue - Ad",
+      "capabilities": []
+    },
+    {
+      "index": 155,
+      "type": 0,
+      "type_description": "Blue - Ba",
+      "capabilities": []
+    },
+    {
+      "index": 156,
+      "type": 0,
+      "type_description": "Blue - Bb",
+      "capabilities": []
+    },
+    {
+      "index": 157,
+      "type": 0,
+      "type_description": "Blue - Bc",
+      "capabilities": []
+    },
+    {
+      "index": 158,
+      "type": 0,
+      "type_description": "Blue - Bd",
+      "capabilities": []
+    },
+    {
+      "index": 159,
+      "type": 0,
+      "type_description": "Blue - Ca",
+      "capabilities": []
+    },
+    {
+      "index": 160,
+      "type": 0,
+      "type_description": "Blue - Cb",
+      "capabilities": []
+    },
+    {
+      "index": 161,
+      "type": 0,
+      "type_description": "Blue - Cc",
+      "capabilities": []
+    },
+    {
+      "index": 162,
+      "type": 0,
+      "type_description": "Blue - Cd",
+      "capabilities": []
+    },
+    {
+      "index": 163,
+      "type": 0,
+      "type_description": "Blue - Da",
+      "capabilities": []
+    },
+    {
+      "index": 164,
+      "type": 0,
+      "type_description": "Blue - Db",
+      "capabilities": []
+    },
+    {
+      "index": 165,
+      "type": 0,
+      "type_description": "Blue - Dc",
+      "capabilities": []
+    },
+    {
+      "index": 166,
+      "type": 0,
+      "type_description": "Blue - Dd",
+      "capabilities": []
+    },
+    {
+      "index": 167,
+      "type": 0,
+      "type_description": "Blue - Ea",
+      "capabilities": []
+    },
+    {
+      "index": 168,
+      "type": 0,
+      "type_description": "Blue - Eb",
+      "capabilities": []
+    },
+    {
+      "index": 169,
+      "type": 0,
+      "type_description": "Blue - Ec",
+      "capabilities": []
+    },
+    {
+      "index": 170,
+      "type": 0,
+      "type_description": "Blue - Ed",
+      "capabilities": []
+    },
+    {
+      "index": 171,
+      "type": 0,
+      "type_description": "Blue - Fa",
+      "capabilities": []
+    },
+    {
+      "index": 172,
+      "type": 0,
+      "type_description": "Blue - Fb",
+      "capabilities": []
+    },
+    {
+      "index": 173,
+      "type": 0,
+      "type_description": "Blue - Fc",
+      "capabilities": []
+    },
+    {
+      "index": 174,
+      "type": 0,
+      "type_description": "Blue - Fd",
+      "capabilities": []
+    },
+    {
+      "index": 175,
+      "type": 0,
+      "type_description": "Blue - Ga",
+      "capabilities": []
+    },
+    {
+      "index": 176,
+      "type": 0,
+      "type_description": "Blue - Gb",
+      "capabilities": []
+    },
+    {
+      "index": 177,
+      "type": 0,
+      "type_description": "Blue - Gc",
+      "capabilities": []
+    },
+    {
+      "index": 178,
+      "type": 0,
+      "type_description": "Blue - Gd",
+      "capabilities": []
+    },
+    {
+      "index": 179,
+      "type": 0,
+      "type_description": "Blue - Ha",
+      "capabilities": []
+    },
+    {
+      "index": 180,
+      "type": 0,
+      "type_description": "Blue - Hb",
+      "capabilities": []
+    },
+    {
+      "index": 181,
+      "type": 0,
+      "type_description": "Blue - Hc",
+      "capabilities": []
+    },
+    {
+      "index": 182,
+      "type": 0,
+      "type_description": "Blue - Hd",
+      "capabilities": []
+    },
+    {
+      "index": 183,
+      "type": 0,
+      "type_description": "Blue - Ia",
+      "capabilities": []
+    },
+    {
+      "index": 184,
+      "type": 0,
+      "type_description": "Blue - Ib",
+      "capabilities": []
+    },
+    {
+      "index": 185,
+      "type": 0,
+      "type_description": "Blue - Ic",
+      "capabilities": []
+    },
+    {
+      "index": 186,
+      "type": 0,
+      "type_description": "Blue - Id",
+      "capabilities": []
+    },
+    {
+      "index": 187,
+      "type": 0,
+      "type_description": "Blue - Ja",
+      "capabilities": []
+    },
+    {
+      "index": 188,
+      "type": 0,
+      "type_description": "Blue - Jb",
+      "capabilities": []
+    },
+    {
+      "index": 189,
+      "type": 0,
+      "type_description": "Blue - Jc",
+      "capabilities": []
+    },
+    {
+      "index": 190,
+      "type": 0,
+      "type_description": "Blue - Jd",
+      "capabilities": []
+    },
+    {
+      "index": 191,
+      "type": 0,
+      "type_description": "Dimmer - Aa",
+      "capabilities": []
+    },
+    {
+      "index": 192,
+      "type": 0,
+      "type_description": "Dimmer - Ab",
+      "capabilities": []
+    },
+    {
+      "index": 193,
+      "type": 0,
+      "type_description": "Dimmer - Ac",
+      "capabilities": []
+    },
+    {
+      "index": 194,
+      "type": 0,
+      "type_description": "Dimmer - Ad",
+      "capabilities": []
+    },
+    {
+      "index": 195,
+      "type": 0,
+      "type_description": "Dimmer - Ba",
+      "capabilities": []
+    },
+    {
+      "index": 196,
+      "type": 0,
+      "type_description": "Dimmer - Bb",
+      "capabilities": []
+    },
+    {
+      "index": 197,
+      "type": 0,
+      "type_description": "Dimmer - Bc",
+      "capabilities": []
+    },
+    {
+      "index": 198,
+      "type": 0,
+      "type_description": "Dimmer - Bd",
+      "capabilities": []
+    },
+    {
+      "index": 199,
+      "type": 0,
+      "type_description": "Dimmer - Ca",
+      "capabilities": []
+    },
+    {
+      "index": 200,
+      "type": 0,
+      "type_description": "Dimmer - Cb",
+      "capabilities": []
+    },
+    {
+      "index": 201,
+      "type": 0,
+      "type_description": "Dimmer - Cc",
+      "capabilities": []
+    },
+    {
+      "index": 202,
+      "type": 0,
+      "type_description": "Dimmer - Cd",
+      "capabilities": []
+    },
+    {
+      "index": 203,
+      "type": 0,
+      "type_description": "Dimmer - Da",
+      "capabilities": []
+    },
+    {
+      "index": 204,
+      "type": 0,
+      "type_description": "Dimmer - Db",
+      "capabilities": []
+    },
+    {
+      "index": 205,
+      "type": 0,
+      "type_description": "Dimmer - Dc",
+      "capabilities": []
+    },
+    {
+      "index": 206,
+      "type": 0,
+      "type_description": "Dimmer - Dd",
+      "capabilities": []
+    },
+    {
+      "index": 207,
+      "type": 0,
+      "type_description": "Dimmer - Ea",
+      "capabilities": []
+    },
+    {
+      "index": 208,
+      "type": 0,
+      "type_description": "Dimmer - Eb",
+      "capabilities": []
+    },
+    {
+      "index": 209,
+      "type": 0,
+      "type_description": "Dimmer - Ec",
+      "capabilities": []
+    },
+    {
+      "index": 210,
+      "type": 0,
+      "type_description": "Dimmer - Ed",
+      "capabilities": []
+    },
+    {
+      "index": 211,
+      "type": 0,
+      "type_description": "Dimmer - Fa",
+      "capabilities": []
+    },
+    {
+      "index": 212,
+      "type": 0,
+      "type_description": "Dimmer - Fb",
+      "capabilities": []
+    },
+    {
+      "index": 213,
+      "type": 0,
+      "type_description": "Dimmer - Fc",
+      "capabilities": []
+    },
+    {
+      "index": 214,
+      "type": 0,
+      "type_description": "Dimmer - Fd",
+      "capabilities": []
+    },
+    {
+      "index": 215,
+      "type": 0,
+      "type_description": "Dimmer - Ga",
+      "capabilities": []
+    },
+    {
+      "index": 216,
+      "type": 0,
+      "type_description": "Dimmer - Gb",
+      "capabilities": []
+    },
+    {
+      "index": 217,
+      "type": 0,
+      "type_description": "Dimmer - Gc",
+      "capabilities": []
+    },
+    {
+      "index": 218,
+      "type": 0,
+      "type_description": "Dimmer - Gd",
+      "capabilities": []
+    },
+    {
+      "index": 219,
+      "type": 0,
+      "type_description": "Dimmer - Ha",
+      "capabilities": []
+    },
+    {
+      "index": 220,
+      "type": 0,
+      "type_description": "Dimmer - Hb",
+      "capabilities": []
+    },
+    {
+      "index": 221,
+      "type": 0,
+      "type_description": "Dimmer - Hc",
+      "capabilities": []
+    },
+    {
+      "index": 222,
+      "type": 0,
+      "type_description": "Dimmer - Hd",
+      "capabilities": []
+    },
+    {
+      "index": 223,
+      "type": 0,
+      "type_description": "Dimmer - Ia",
+      "capabilities": []
+    },
+    {
+      "index": 224,
+      "type": 0,
+      "type_description": "Dimmer - Ib",
+      "capabilities": []
+    },
+    {
+      "index": 225,
+      "type": 0,
+      "type_description": "Dimmer - Ic",
+      "capabilities": []
+    },
+    {
+      "index": 226,
+      "type": 0,
+      "type_description": "Dimmer - Id",
+      "capabilities": []
+    },
+    {
+      "index": 227,
+      "type": 0,
+      "type_description": "Dimmer - Ja",
+      "capabilities": []
+    },
+    {
+      "index": 228,
+      "type": 0,
+      "type_description": "Dimmer - Jb",
+      "capabilities": []
+    },
+    {
+      "index": 229,
+      "type": 0,
+      "type_description": "Dimmer - Jc",
+      "capabilities": []
+    },
+    {
+      "index": 230,
+      "type": 0,
+      "type_description": "Dimmer - Jd",
+      "capabilities": []
+    },
+    {
+      "index": 231,
+      "type": 0,
+      "type_description": "Red - Da",
+      "capabilities": []
+    },
+    {
+      "index": 232,
+      "type": 0,
+      "type_description": "Red - Db",
+      "capabilities": []
+    },
+    {
+      "index": 233,
+      "type": 0,
+      "type_description": "Red - Dc",
+      "capabilities": []
+    },
+    {
+      "index": 234,
+      "type": 0,
+      "type_description": "Red - Dd",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Showtec/Showtec-LED-Pixel-Track-Pro.json",
+  "id": 1307
+}

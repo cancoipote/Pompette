@@ -1,0 +1,514 @@
+{
+  "version": "1.0.0",
+  "label": "PHW-700",
+  "manufacturer": "Futurelight",
+  "bulb_type": "MSR 700W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 37,
+  "dimension_width": 530,
+  "dimension_height": 5700,
+  "dimension_depth": 530,
+  "lens_label": "Other",
+  "lens_degree_min": 7,
+  "lens_degree_max": 28,
+  "focus_type": "Head",
+  "focus_pan_max": 630,
+  "focus_tilt_max": 265,
+  "technical_power_consumption": 1300,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Horizontal Movement (Pan)",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Vertical Movement (Tilt)",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": [
+        {
+          "label": "Maximum speed",
+          "min": 0,
+          "max": 14
+        },
+        {
+          "label": "Decreading speed",
+          "min": 15,
+          "max": 225
+        },
+        {
+          "label": "Blackout with pan/tilt movement",
+          "min": 226,
+          "max": 235
+        },
+        {
+          "label": "Blackout with colour-change",
+          "min": 236,
+          "max": 245
+        },
+        {
+          "label": "No function",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "Open/hite",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Deep red",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Blue",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Green",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Orange",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Correction filter 3,200 K",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Correction filter 5,600 K",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "UV filter",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Forwards rainbow effect with decreasing speed",
+          "min": 128,
+          "max": 190
+        },
+        {
+          "label": "No rotation",
+          "min": 191,
+          "max": 192
+        },
+        {
+          "label": "Backward rainbow effect with increasing speed",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Cyan",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Magenta",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Yellow",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 22,
+      "type_description": "CMY and Dimmer Speed",
+      "capabilities": [
+        {
+          "label": "Adjustment max to min",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Colour Macros",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": 1,
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": 2,
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": 3,
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": 4,
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": 5,
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": 6,
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": 7,
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": 8,
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": 9,
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": 10,
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": 11,
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": 12,
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": 13,
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": 14,
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": 15,
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": 16,
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": 17,
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": 18,
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": 19,
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": 20,
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": 21,
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": 22,
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": 23,
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": 24,
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": 25,
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": 26,
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": 27,
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": 28,
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": 29,
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": 30,
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Random CMY",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Effect-Wheel",
+      "capabilities": [
+        {
+          "label": "Full beam",
+          "min": 0,
+          "max": 70
+        },
+        {
+          "label": "Beam shaper",
+          "min": 71,
+          "max": 230
+        },
+        {
+          "label": "Frost filter",
+          "min": 231,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 21,
+      "type_description": "Shutter, Strobe",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "No function (shutter open)",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe effect with increasing speed (max. 10 flashes/sec.)",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "No function (shutter open)",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse effect in sequences",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "No function (shutter open)",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random strobe effect with increasing speed",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Shutter permanently open (no dimmer control)",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Dimmer Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 17,
+      "type_description": "Lamp switch, reset, fan speed",
+      "capabilities": [
+        {
+          "label": "Normal colour change, search position via shortest distance",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Normal colour change, search position clockwise",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Colour change at every position, search position via shortest distance",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Colour change at every position, search position clockwise",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Lamp on",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Reset",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Internal program 1",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Internal program 2",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Internal program 3",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Internal program 4",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Internal program 5",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Internal program 6",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Internal program 7",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "Internal program 8",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "Lamp off",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "No function",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Not Occupied",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Futurelight/Futurelight-PHW-700.json",
+  "id": 825
+}

@@ -1,0 +1,836 @@
+{
+  "version": "1.0.0",
+  "label": "XR 230 Spot",
+  "manufacturer": "PR Lighting",
+  "bulb_type": "HRI 230W",
+  "bulb_lumens": 6111,
+  "bulb_color_temperature": 8000,
+  "dimension_weight": 22,
+  "dimension_width": 418,
+  "dimension_height": 620,
+  "dimension_depth": 425,
+  "lens_label": "Other",
+  "lens_degree_min": 3,
+  "lens_degree_max": 42,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 350,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Strobe",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Open",
+          "min": 11,
+          "max": 25
+        },
+        {
+          "label": "Strobe from slow to fast",
+          "min": 26,
+          "max": 225
+        },
+        {
+          "label": "Macro 1",
+          "min": 226,
+          "max": 239
+        },
+        {
+          "label": "Macro 2",
+          "min": 240,
+          "max": 241
+        },
+        {
+          "label": "Macro 3",
+          "min": 242,
+          "max": 246
+        },
+        {
+          "label": "Open",
+          "min": 247,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 5,
+      "type_description": "Dimmer",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "From dark to bright",
+          "min": 4,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Dimmer Fine",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "CYM Macro",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 16
+        },
+        {
+          "label": "Yellow+magenta=red",
+          "min": 17,
+          "max": 35
+        },
+        {
+          "label": "Yellow",
+          "min": 36,
+          "max": 54
+        },
+        {
+          "label": "Yellow+cyan=green",
+          "min": 55,
+          "max": 73
+        },
+        {
+          "label": "Cyan",
+          "min": 74,
+          "max": 92
+        },
+        {
+          "label": "Cyan+magenta=purple",
+          "min": 93,
+          "max": 110
+        },
+        {
+          "label": "Magenta",
+          "min": 111,
+          "max": 128
+        },
+        {
+          "label": "CYM mixing from slow to fast",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Cyan",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Cyan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Yellow",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Yellow Fine",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Magenta",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Magenta Fine",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Color wheel",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 8
+        },
+        {
+          "label": "Color 1",
+          "min": 9,
+          "max": 16
+        },
+        {
+          "label": "Color 2",
+          "min": 17,
+          "max": 24
+        },
+        {
+          "label": "Color 3",
+          "min": 25,
+          "max": 32
+        },
+        {
+          "label": "Color 4",
+          "min": 33,
+          "max": 40
+        },
+        {
+          "label": "Color 5",
+          "min": 41,
+          "max": 48
+        },
+        {
+          "label": "Color 6",
+          "min": 49,
+          "max": 56
+        },
+        {
+          "label": "Color 7",
+          "min": 57,
+          "max": 64
+        },
+        {
+          "label": "Color 8",
+          "min": 65,
+          "max": 73
+        },
+        {
+          "label": "Color 9",
+          "min": 74,
+          "max": 82
+        },
+        {
+          "label": "Color 10",
+          "min": 83,
+          "max": 91
+        },
+        {
+          "label": "Color 11",
+          "min": 92,
+          "max": 100
+        },
+        {
+          "label": "Color 12",
+          "min": 101,
+          "max": 109
+        },
+        {
+          "label": "Color 13",
+          "min": 110,
+          "max": 118
+        },
+        {
+          "label": "CTO",
+          "min": 119,
+          "max": 128
+        },
+        {
+          "label": "Forward rotation from slow to fast",
+          "min": 129,
+          "max": 191
+        },
+        {
+          "label": "Reverse rotation from slow to fast",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Iris",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Iris Fine",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 1,
+      "type_description": "Iris Macro",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Effect 1",
+          "min": 11,
+          "max": 72
+        },
+        {
+          "label": "Effect 2",
+          "min": 73,
+          "max": 136
+        },
+        {
+          "label": "Effect 3",
+          "min": 137,
+          "max": 198
+        },
+        {
+          "label": "Effect 4",
+          "min": 199,
+          "max": 214
+        },
+        {
+          "label": "Effect 5",
+          "min": 215,
+          "max": 222
+        },
+        {
+          "label": "Effect 6",
+          "min": 223,
+          "max": 230
+        },
+        {
+          "label": "Full open",
+          "min": 231,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 4,
+      "type_description": "Fixed Gobo Wheel",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Gobo 1",
+          "min": 8,
+          "max": 14
+        },
+        {
+          "label": "Gobo 2",
+          "min": 15,
+          "max": 21
+        },
+        {
+          "label": "Gobo 3",
+          "min": 22,
+          "max": 28
+        },
+        {
+          "label": "Gobo 4",
+          "min": 29,
+          "max": 35
+        },
+        {
+          "label": "Gobo 5",
+          "min": 36,
+          "max": 42
+        },
+        {
+          "label": "Gobo 6",
+          "min": 43,
+          "max": 49
+        },
+        {
+          "label": "Gobo 7",
+          "min": 50,
+          "max": 56
+        },
+        {
+          "label": "Gobo 8",
+          "min": 57,
+          "max": 63
+        },
+        {
+          "label": "Gobo 9",
+          "min": 64,
+          "max": 70
+        },
+        {
+          "label": "Gobo 10",
+          "min": 71,
+          "max": 77
+        },
+        {
+          "label": "Gobo 11",
+          "min": 78,
+          "max": 84
+        },
+        {
+          "label": "Gobo 12",
+          "min": 85,
+          "max": 92
+        },
+        {
+          "label": "Gobo 13",
+          "min": 93,
+          "max": 99
+        },
+        {
+          "label": "Gobo 14",
+          "min": 100,
+          "max": 106
+        },
+        {
+          "label": "Gobo 15",
+          "min": 107,
+          "max": 113
+        },
+        {
+          "label": "Gobo 16",
+          "min": 114,
+          "max": 120
+        },
+        {
+          "label": "Gobo 17",
+          "min": 121,
+          "max": 127
+        },
+        {
+          "label": "Forward rotation from slow to fast",
+          "min": 128,
+          "max": 146
+        },
+        {
+          "label": "Reverse rotation from slow to fast",
+          "min": 147,
+          "max": 165
+        },
+        {
+          "label": "Shake 1 from fast to slow",
+          "min": 166,
+          "max": 170
+        },
+        {
+          "label": "Shake 2 from fast to slow",
+          "min": 171,
+          "max": 175
+        },
+        {
+          "label": "Shake 3 from fast to slow",
+          "min": 176,
+          "max": 180
+        },
+        {
+          "label": "Shake 4 from fast to slow",
+          "min": 181,
+          "max": 185
+        },
+        {
+          "label": "Shake 5 from fast to slow",
+          "min": 186,
+          "max": 190
+        },
+        {
+          "label": "Shake 6 from fast to slow",
+          "min": 191,
+          "max": 195
+        },
+        {
+          "label": "Shake 7 from fast to slow",
+          "min": 196,
+          "max": 200
+        },
+        {
+          "label": "Shake 8 from fast to slow",
+          "min": 201,
+          "max": 205
+        },
+        {
+          "label": "Shake 9 from fast to slow",
+          "min": 206,
+          "max": 210
+        },
+        {
+          "label": "Shake 10 from fast to slow",
+          "min": 211,
+          "max": 215
+        },
+        {
+          "label": "Shake 11 from fast to slow",
+          "min": 216,
+          "max": 220
+        },
+        {
+          "label": "Shake 12 from fast to slow",
+          "min": 221,
+          "max": 225
+        },
+        {
+          "label": "Shake 13 from fast to slow",
+          "min": 226,
+          "max": 230
+        },
+        {
+          "label": "Shake 14 from fast to slow",
+          "min": 231,
+          "max": 240
+        },
+        {
+          "label": "Shake 15 from fast to slow",
+          "min": 241,
+          "max": 245
+        },
+        {
+          "label": "Shake 16 from fast to slow",
+          "min": 246,
+          "max": 250
+        },
+        {
+          "label": "Shake 17 from fast to slow",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 4,
+      "type_description": "Rotating Gobo Wheel",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 12
+        },
+        {
+          "label": "Gobo 1",
+          "min": 13,
+          "max": 25
+        },
+        {
+          "label": "Gobo 2",
+          "min": 26,
+          "max": 37
+        },
+        {
+          "label": "Gobo 3",
+          "min": 38,
+          "max": 50
+        },
+        {
+          "label": "Gobo 4",
+          "min": 51,
+          "max": 62
+        },
+        {
+          "label": "Gobo 5",
+          "min": 63,
+          "max": 75
+        },
+        {
+          "label": "Gobo 6",
+          "min": 76,
+          "max": 88
+        },
+        {
+          "label": "Gobo 7",
+          "min": 89,
+          "max": 101
+        },
+        {
+          "label": "Gobo 8",
+          "min": 102,
+          "max": 114
+        },
+        {
+          "label": "Gobo 9",
+          "min": 115,
+          "max": 127
+        },
+        {
+          "label": "Forward rotation from slow to fast",
+          "min": 128,
+          "max": 155
+        },
+        {
+          "label": "Reverse rotation from slow to fast",
+          "min": 156,
+          "max": 183
+        },
+        {
+          "label": "Shake 1 from fast to slow",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Shake 2 from fast to slow",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Shake 3 from fast to slow",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Shake 4 from fast to slow",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Shake 5 from fast to slow",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Shake 6 from fast to slow",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Shake 7 from fast to slow",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Shake 8 from fast to slow",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Shake 9 from fast to slow",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 4,
+      "type_description": "Gobo Rotation",
+      "capabilities": [
+        {
+          "label": "Gobo positioning from 0° to 540°",
+          "min": 0,
+          "max": 128
+        },
+        {
+          "label": "Forward rotation from slow to fast",
+          "min": 129,
+          "max": 188
+        },
+        {
+          "label": "Stop",
+          "min": 189,
+          "max": 195
+        },
+        {
+          "label": "Reverse rotation from slow to fast",
+          "min": 196,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 4,
+      "type_description": "Gobo Rotation Fine",
+      "capabilities": [
+        {
+          "label": "Gobo rotation in 16 bit precision",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 16
+        },
+        {
+          "label": "Prism",
+          "min": 17,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 20,
+      "type_description": "Prism Rotation",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 128
+        },
+        {
+          "label": "Forward rotation from slow to fast",
+          "min": 129,
+          "max": 191
+        },
+        {
+          "label": "Stop",
+          "min": 192,
+          "max": 192
+        },
+        {
+          "label": "Reverse rotation from slow to fast",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 1,
+      "type_description": "Frost",
+      "capabilities": [
+        {
+          "label": "Frost",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 1,
+      "type_description": "Focus Fine",
+      "capabilities": [
+        {
+          "label": "Focusing in 16 bit precision",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 1,
+      "type_description": "Zoom Fine",
+      "capabilities": [
+        {
+          "label": "Zooming in 16 bit precision",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "Pan & Tilt Speeds",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 17,
+      "type_description": "Control",
+      "capabilities": [
+        {
+          "label": "Reserved",
+          "min": 0,
+          "max": 47
+        },
+        {
+          "label": "Reset",
+          "min": 48,
+          "max": 80
+        },
+        {
+          "label": "Reserved",
+          "min": 81,
+          "max": 112
+        },
+        {
+          "label": "Lamp off (stop in DMX value for 3 s)",
+          "min": 113,
+          "max": 144
+        },
+        {
+          "label": "Reserved",
+          "min": 145,
+          "max": 168
+        },
+        {
+          "label": "Half power",
+          "min": 169,
+          "max": 200
+        },
+        {
+          "label": "Reserved",
+          "min": 201,
+          "max": 223
+        },
+        {
+          "label": "Full power",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/PR_Lighting/PR-Lighting-XR-230-Spot.json",
+  "id": 1173
+}

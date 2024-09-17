@@ -1,0 +1,330 @@
+{
+  "version": "1.0.0",
+  "label": "Shark Wash One",
+  "manufacturer": "Showtec",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 145,
+  "dimension_height": 300,
+  "dimension_depth": 215,
+  "lens_label": "Other",
+  "lens_degree_min": 25,
+  "lens_degree_max": 25,
+  "focus_type": "Fixed",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 100,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan fine 16 bit",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine 16 bit",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan / Tilt speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Shutter / Strobe",
+      "capabilities": [
+        {
+          "label": "Shutter open",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Linear strobe intensity, from slow to fast (0-20Hz)",
+          "min": 10,
+          "max": 250
+        },
+        {
+          "label": "Shutter open",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Red Dimmer intensity",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Green Dimmer intensity",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Blue Dimmer intensity",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "White Dimmer intensity",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Amber Dimmer intensity",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "UV Dimmer intensity",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Color Temperature",
+      "capabilities": [
+        {
+          "label": "Gradual adjustment, from 0-100%",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Color Macros",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Red + 50% White",
+          "min": 11,
+          "max": 15
+        },
+        {
+          "label": "Red",
+          "min": 16,
+          "max": 21
+        },
+        {
+          "label": "Red+Amber",
+          "min": 22,
+          "max": 27
+        },
+        {
+          "label": "Amber",
+          "min": 28,
+          "max": 33
+        },
+        {
+          "label": "Red + 75% Green + Amber",
+          "min": 34,
+          "max": 39
+        },
+        {
+          "label": "Red+Green",
+          "min": 40,
+          "max": 45
+        },
+        {
+          "label": "Green",
+          "min": 46,
+          "max": 51
+        },
+        {
+          "label": "Green + White",
+          "min": 52,
+          "max": 57
+        },
+        {
+          "label": "Green + UV",
+          "min": 58,
+          "max": 63
+        },
+        {
+          "label": "Green + Blue",
+          "min": 64,
+          "max": 69
+        },
+        {
+          "label": "Blue + UV",
+          "min": 70,
+          "max": 75
+        },
+        {
+          "label": "Blue",
+          "min": 76,
+          "max": 81
+        },
+        {
+          "label": "UV",
+          "min": 82,
+          "max": 89
+        },
+        {
+          "label": "UV + 50% Red",
+          "min": 90,
+          "max": 95
+        },
+        {
+          "label": "UV + Amber",
+          "min": 96,
+          "max": 101
+        },
+        {
+          "label": "UV + Amber + Red",
+          "min": 102,
+          "max": 107
+        },
+        {
+          "label": "UV + Red",
+          "min": 108,
+          "max": 113
+        },
+        {
+          "label": "Red + White + Amber",
+          "min": 114,
+          "max": 119
+        },
+        {
+          "label": "White + Amber",
+          "min": 120,
+          "max": 125
+        },
+        {
+          "label": "White",
+          "min": 126,
+          "max": 131
+        },
+        {
+          "label": "White + Blue",
+          "min": 132,
+          "max": 137
+        },
+        {
+          "label": "Red + Green + Blue + White + Amber + UV",
+          "min": 138,
+          "max": 143
+        },
+        {
+          "label": "Color step program increasing from slow to fast",
+          "min": 144,
+          "max": 199
+        },
+        {
+          "label": "Color fade program increasing from slow to fast",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 3,
+      "type_description": "Built-in programs",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Program 1",
+          "min": 11,
+          "max": 20
+        },
+        {
+          "label": "Program 2",
+          "min": 21,
+          "max": 30
+        },
+        {
+          "label": "Program 3",
+          "min": 31,
+          "max": 40
+        },
+        {
+          "label": "Program 4",
+          "min": 41,
+          "max": 50
+        },
+        {
+          "label": "Program 5",
+          "min": 51,
+          "max": 60
+        },
+        {
+          "label": "Program 6",
+          "min": 61,
+          "max": 70
+        },
+        {
+          "label": "Program 7",
+          "min": 71,
+          "max": 80
+        },
+        {
+          "label": "Program 8",
+          "min": 81,
+          "max": 90
+        },
+        {
+          "label": "Sound-controlled mode, from OFF to high sound sensitivity",
+          "min": 91,
+          "max": 230
+        },
+        {
+          "label": "Reset after 3 seconds",
+          "min": 231,
+          "max": 240
+        },
+        {
+          "label": "No function",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Showtec/Showtec-Shark-Wash-One.json",
+  "id": 1331
+}

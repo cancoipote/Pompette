@@ -1,0 +1,228 @@
+{
+  "version": "1.0.0",
+  "label": "TS-150",
+  "manufacturer": "Eurolite",
+  "bulb_type": "HTI 150W",
+  "bulb_lumens": 18000,
+  "bulb_color_temperature": 4500,
+  "dimension_weight": 8,
+  "dimension_width": 285,
+  "dimension_height": 555,
+  "dimension_depth": 270,
+  "lens_label": "Other",
+  "lens_degree_min": 18,
+  "lens_degree_max": 18,
+  "focus_type": "Mirror",
+  "focus_pan_max": 180,
+  "focus_tilt_max": 90,
+  "technical_power_consumption": 320,
+  "technical_dmx_connector": "3-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 17
+        },
+        {
+          "label": "Red",
+          "min": 18,
+          "max": 35
+        },
+        {
+          "label": "Yellow",
+          "min": 36,
+          "max": 53
+        },
+        {
+          "label": "Violet",
+          "min": 54,
+          "max": 71
+        },
+        {
+          "label": "Green",
+          "min": 72,
+          "max": 89
+        },
+        {
+          "label": "Orange",
+          "min": 90,
+          "max": 107
+        },
+        {
+          "label": "Blue",
+          "min": 108,
+          "max": 125
+        },
+        {
+          "label": "Pink",
+          "min": 126,
+          "max": 143
+        },
+        {
+          "label": "Light green",
+          "min": 144,
+          "max": 161
+        },
+        {
+          "label": "Light blue",
+          "min": 162,
+          "max": 179
+        },
+        {
+          "label": "Orange",
+          "min": 180,
+          "max": 197
+        },
+        {
+          "label": "Light yellow",
+          "min": 198,
+          "max": 215
+        },
+        {
+          "label": "Magenta",
+          "min": 216,
+          "max": 233
+        },
+        {
+          "label": "Red/blue",
+          "min": 234,
+          "max": 251
+        },
+        {
+          "label": "Yellow/green",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 17
+        },
+        {
+          "label": "Gobo 1",
+          "min": 18,
+          "max": 35
+        },
+        {
+          "label": "Gobo 2",
+          "min": 36,
+          "max": 53
+        },
+        {
+          "label": "Gobo 3",
+          "min": 54,
+          "max": 71
+        },
+        {
+          "label": "Gobo 4",
+          "min": 72,
+          "max": 89
+        },
+        {
+          "label": "Gobo 5",
+          "min": 90,
+          "max": 107
+        },
+        {
+          "label": "Gobo 6",
+          "min": 108,
+          "max": 125
+        },
+        {
+          "label": "Gobo 7",
+          "min": 126,
+          "max": 143
+        },
+        {
+          "label": "Gobo 8",
+          "min": 144,
+          "max": 161
+        },
+        {
+          "label": "Gobo 9",
+          "min": 162,
+          "max": 179
+        },
+        {
+          "label": "Gobo 10",
+          "min": 180,
+          "max": 197
+        },
+        {
+          "label": "Gobo 11",
+          "min": 198,
+          "max": 215
+        },
+        {
+          "label": "Gobo 12",
+          "min": 216,
+          "max": 233
+        },
+        {
+          "label": "Gobo 13",
+          "min": 234,
+          "max": 251
+        },
+        {
+          "label": "Gobo 14",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Shutter, strobe",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 14
+        },
+        {
+          "label": "Open",
+          "min": 15,
+          "max": 15
+        },
+        {
+          "label": "Strobe slow to fast",
+          "min": 16,
+          "max": 250
+        },
+        {
+          "label": "Shutter open",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-TS-150.json",
+  "id": 764
+}

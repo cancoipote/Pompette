@@ -1,0 +1,215 @@
+{
+  "version": "1.0.0",
+  "label": "Venum 12W RGBW",
+  "manufacturer": "Ghost",
+  "bulb_type": "LED 12W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 174,
+  "dimension_height": 242,
+  "dimension_depth": 162,
+  "lens_label": "Other",
+  "lens_degree_min": 13,
+  "lens_degree_max": 13,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 230,
+  "technical_power_consumption": 35,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan/Tilt speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Color wheel",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Red",
+          "min": 11,
+          "max": 21
+        },
+        {
+          "label": "Orange",
+          "min": 22,
+          "max": 32
+        },
+        {
+          "label": "Yellow",
+          "min": 33,
+          "max": 43
+        },
+        {
+          "label": "Green",
+          "min": 44,
+          "max": 54
+        },
+        {
+          "label": "Blue",
+          "min": 55,
+          "max": 65
+        },
+        {
+          "label": "Cyan",
+          "min": 66,
+          "max": 76
+        },
+        {
+          "label": "Magenta",
+          "min": 77,
+          "max": 87
+        },
+        {
+          "label": "Wheel index",
+          "min": 88,
+          "max": 176
+        },
+        {
+          "label": "Wheel rotation",
+          "min": 177,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 4,
+      "type_description": "Gobo wheel",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Gobo 1",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Gobo 2",
+          "min": 32,
+          "max": 46
+        },
+        {
+          "label": "Gobo 3",
+          "min": 47,
+          "max": 62
+        },
+        {
+          "label": "Gobo 4",
+          "min": 63,
+          "max": 78
+        },
+        {
+          "label": "Gobo 5",
+          "min": 79,
+          "max": 93
+        },
+        {
+          "label": "Gobo 6",
+          "min": 94,
+          "max": 109
+        },
+        {
+          "label": "Gobo 7",
+          "min": 110,
+          "max": 124
+        },
+        {
+          "label": "Gobo shake",
+          "min": 125,
+          "max": 249
+        },
+        {
+          "label": "CW rotation",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Shutter",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 17,
+      "type_description": "Macro",
+      "capabilities": [
+        {
+          "label": "Nothing",
+          "min": 0,
+          "max": 139
+        },
+        {
+          "label": "Auto prog",
+          "min": 140,
+          "max": 249
+        },
+        {
+          "label": "Music mode",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 22,
+      "type_description": "Macro speed",
+      "capabilities": [
+        {
+          "label": "Auto speed or mic sensitivity (Slow to fast)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Ghost/Ghost-Venum-12W-RGBW.json",
+  "id": 840
+}

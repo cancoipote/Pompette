@@ -1,0 +1,850 @@
+{
+  "version": "1.0.0",
+  "label": "Intimidator Hybrid 140SR",
+  "manufacturer": "Chauvet",
+  "bulb_type": "HRI 140W",
+  "bulb_lumens": 5414,
+  "bulb_color_temperature": 9200,
+  "dimension_weight": 15,
+  "dimension_width": 220,
+  "dimension_height": 513,
+  "dimension_depth": 322,
+  "lens_label": "Other",
+  "lens_degree_min": 3,
+  "lens_degree_max": 28,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 260,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Color Wheel",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Red",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "Yellow",
+          "min": 8,
+          "max": 11
+        },
+        {
+          "label": "Green",
+          "min": 12,
+          "max": 15
+        },
+        {
+          "label": "Sky blue",
+          "min": 16,
+          "max": 19
+        },
+        {
+          "label": "Lavender",
+          "min": 20,
+          "max": 23
+        },
+        {
+          "label": "Canary yellow",
+          "min": 24,
+          "max": 28
+        },
+        {
+          "label": "Blue",
+          "min": 29,
+          "max": 33
+        },
+        {
+          "label": "Magenta",
+          "min": 34,
+          "max": 38
+        },
+        {
+          "label": "Line green",
+          "min": 39,
+          "max": 43
+        },
+        {
+          "label": "Natural white",
+          "min": 44,
+          "max": 48
+        },
+        {
+          "label": "Cool white",
+          "min": 49,
+          "max": 53
+        },
+        {
+          "label": "Ultraviolet",
+          "min": 54,
+          "max": 59
+        },
+        {
+          "label": "Color indexing",
+          "min": 60,
+          "max": 187
+        },
+        {
+          "label": "Color cycling rainbow, fast to slow",
+          "min": 188,
+          "max": 219
+        },
+        {
+          "label": "Stop",
+          "min": 220,
+          "max": 223
+        },
+        {
+          "label": "Reverse color cycling rainbow, slow to fast",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 4,
+      "type_description": "Static Gobo Wheel",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Gobo 1",
+          "min": 3,
+          "max": 5
+        },
+        {
+          "label": "Gobo 2",
+          "min": 6,
+          "max": 8
+        },
+        {
+          "label": "Gobo 3",
+          "min": 9,
+          "max": 11
+        },
+        {
+          "label": "Gobo 4",
+          "min": 12,
+          "max": 14
+        },
+        {
+          "label": "Gobo 5",
+          "min": 15,
+          "max": 17
+        },
+        {
+          "label": "Gobo 6",
+          "min": 18,
+          "max": 20
+        },
+        {
+          "label": "Gobo 7",
+          "min": 21,
+          "max": 23
+        },
+        {
+          "label": "Gobo 8",
+          "min": 24,
+          "max": 26
+        },
+        {
+          "label": "Gobo 9",
+          "min": 27,
+          "max": 29
+        },
+        {
+          "label": "Gobo 10",
+          "min": 30,
+          "max": 32
+        },
+        {
+          "label": "Gobo 11",
+          "min": 33,
+          "max": 35
+        },
+        {
+          "label": "Gobo 12",
+          "min": 36,
+          "max": 38
+        },
+        {
+          "label": "Gobo 13",
+          "min": 39,
+          "max": 41
+        },
+        {
+          "label": "Gobo 14",
+          "min": 42,
+          "max": 44
+        },
+        {
+          "label": "Gobo 15",
+          "min": 45,
+          "max": 47
+        },
+        {
+          "label": "Gobo 16",
+          "min": 48,
+          "max": 50
+        },
+        {
+          "label": "Gobo 16 shake, slow to fast",
+          "min": 51,
+          "max": 54
+        },
+        {
+          "label": "Gobo 15 shake, slow to fast",
+          "min": 55,
+          "max": 58
+        },
+        {
+          "label": "Gobo 14 shake, slow to fast",
+          "min": 59,
+          "max": 62
+        },
+        {
+          "label": "Gobo 13 shake, slow to fast",
+          "min": 63,
+          "max": 66
+        },
+        {
+          "label": "Gobo 12 shake, slow to fast",
+          "min": 67,
+          "max": 70
+        },
+        {
+          "label": "Gobo 11 shake, slow to fast",
+          "min": 71,
+          "max": 74
+        },
+        {
+          "label": "Gobo 10 shake, slow to fast",
+          "min": 75,
+          "max": 78
+        },
+        {
+          "label": "Gobo 9 shake, slow to fast",
+          "min": 79,
+          "max": 82
+        },
+        {
+          "label": "Gobo 8 shake, slow to fast",
+          "min": 83,
+          "max": 86
+        },
+        {
+          "label": "Gobo 7 shake, slow to fast",
+          "min": 87,
+          "max": 90
+        },
+        {
+          "label": "Gobo 6 shake, slow to fast",
+          "min": 91,
+          "max": 94
+        },
+        {
+          "label": "Gobo 5 shake, slow to fast",
+          "min": 95,
+          "max": 98
+        },
+        {
+          "label": "Gobo 4 shake, slow to fast",
+          "min": 99,
+          "max": 102
+        },
+        {
+          "label": "Gobo 3 shake, slow to fast",
+          "min": 103,
+          "max": 106
+        },
+        {
+          "label": "Gobo 2 shake, slow to fast",
+          "min": 107,
+          "max": 110
+        },
+        {
+          "label": "Gobo 1 shake, slow to fast",
+          "min": 111,
+          "max": 114
+        },
+        {
+          "label": "Open",
+          "min": 115,
+          "max": 127
+        },
+        {
+          "label": "Cycle effect, fast to slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Reverse cycle effect, slow to fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 4,
+      "type_description": "Gobo Rotation",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Rotation, fast to slow",
+          "min": 6,
+          "max": 116
+        },
+        {
+          "label": "Stop",
+          "min": 117,
+          "max": 120
+        },
+        {
+          "label": "Reverse rotation, slow to fast",
+          "min": 121,
+          "max": 231
+        },
+        {
+          "label": "Bounce, slow to fast",
+          "min": 232,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Open",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Strobe, slow to fast",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "Slow open, fast close, slow to fast",
+          "min": 132,
+          "max": 167
+        },
+        {
+          "label": "Fast open, fast close, slow to fast",
+          "min": 168,
+          "max": 203
+        },
+        {
+          "label": "Pulse strobe, slow to fast",
+          "min": 204,
+          "max": 239
+        },
+        {
+          "label": "Random strobe, slow to fast",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 17,
+      "type_description": "Function",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Blackout on pan/tilt movement",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Blackout on color wheel movement",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Blackout on gobo wheel movement",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Blackout on pan/tilt/color wheel movement",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Blackout on pan/tilt/gobo wheel movement",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Blackout on pan/tilt/color/gobo wheel movement",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "No function",
+          "min": 56,
+          "max": 87
+        },
+        {
+          "label": "Lamp on",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Pan reset",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Tilt reset",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Color wheel reset",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Gobo wheels reset",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Frost reset",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Prism reset",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Focus and zoom reset",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "All reset",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Shutter reset",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "No function",
+          "min": 168,
+          "max": 231
+        },
+        {
+          "label": "Lamp off",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "No function",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 17,
+      "type_description": "Movement Macros",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": 1,
+          "min": 8,
+          "max": 23
+        },
+        {
+          "label": 2,
+          "min": 24,
+          "max": 39
+        },
+        {
+          "label": 3,
+          "min": 40,
+          "max": 55
+        },
+        {
+          "label": 4,
+          "min": 56,
+          "max": 71
+        },
+        {
+          "label": 5,
+          "min": 72,
+          "max": 87
+        },
+        {
+          "label": 6,
+          "min": 88,
+          "max": 103
+        },
+        {
+          "label": 7,
+          "min": 104,
+          "max": 119
+        },
+        {
+          "label": 8,
+          "min": 120,
+          "max": 135
+        },
+        {
+          "label": "Sound-active 1",
+          "min": 136,
+          "max": 151
+        },
+        {
+          "label": "Sound-active 2",
+          "min": 152,
+          "max": 167
+        },
+        {
+          "label": "Sound-active 3",
+          "min": 168,
+          "max": 183
+        },
+        {
+          "label": "Sound-active 4",
+          "min": 184,
+          "max": 199
+        },
+        {
+          "label": "Sound-active 5",
+          "min": 200,
+          "max": 215
+        },
+        {
+          "label": "Sound-active 6",
+          "min": 216,
+          "max": 231
+        },
+        {
+          "label": "Sound-active 7",
+          "min": 232,
+          "max": 247
+        },
+        {
+          "label": "Sound-active 8",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 20,
+      "type_description": "Prism 1",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "7-facet prism",
+          "min": 8,
+          "max": 12
+        },
+        {
+          "label": "Rotation, slow to fast",
+          "min": 13,
+          "max": 130
+        },
+        {
+          "label": "Reverse rotation, slow to fast",
+          "min": 131,
+          "max": 247
+        },
+        {
+          "label": "7-facet prism",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 4,
+      "type_description": "Rotating Gobo Wheel",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 11
+        },
+        {
+          "label": "Gobo 1",
+          "min": 12,
+          "max": 17
+        },
+        {
+          "label": "Gobo 2",
+          "min": 18,
+          "max": 23
+        },
+        {
+          "label": "Gobo 3",
+          "min": 24,
+          "max": 29
+        },
+        {
+          "label": "Gobo 4",
+          "min": 30,
+          "max": 35
+        },
+        {
+          "label": "Gobo 5",
+          "min": 36,
+          "max": 41
+        },
+        {
+          "label": "Gobo 6",
+          "min": 42,
+          "max": 47
+        },
+        {
+          "label": "Gobo 7",
+          "min": 48,
+          "max": 53
+        },
+        {
+          "label": "Gobo 8",
+          "min": 54,
+          "max": 63
+        },
+        {
+          "label": "Gobo 8 shake, slow to fast",
+          "min": 64,
+          "max": 73
+        },
+        {
+          "label": "Gobo 7 shake, slow to fast",
+          "min": 74,
+          "max": 79
+        },
+        {
+          "label": "Gobo 6 shake, slow to fast",
+          "min": 80,
+          "max": 85
+        },
+        {
+          "label": "Gobo 5 shake, slow to fast",
+          "min": 86,
+          "max": 91
+        },
+        {
+          "label": "Gobo 4 shake, slow to fast",
+          "min": 92,
+          "max": 97
+        },
+        {
+          "label": "Gobo 3 shake, slow to fast",
+          "min": 98,
+          "max": 103
+        },
+        {
+          "label": "Gobo 2 shake, slow to fast",
+          "min": 104,
+          "max": 109
+        },
+        {
+          "label": "Gobo 1 shake, slow to fast",
+          "min": 110,
+          "max": 115
+        },
+        {
+          "label": "Open",
+          "min": 116,
+          "max": 127
+        },
+        {
+          "label": "Cycle effect, fast to slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Reverse cycle effect, slow to fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 20,
+      "type_description": "Prism 2",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "6-facet prism",
+          "min": 8,
+          "max": 12
+        },
+        {
+          "label": "Rotation, slow to fast",
+          "min": 13,
+          "max": 130
+        },
+        {
+          "label": "Reverse rotation, slow to fast",
+          "min": 131,
+          "max": 247
+        },
+        {
+          "label": "6-facet prism",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 1,
+      "type_description": "Auto Focus",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Auto focus gobo 1",
+          "min": 11,
+          "max": 127
+        },
+        {
+          "label": "Auto focus gobo 2",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 3,
+      "type_description": "Frost",
+      "capabilities": [
+        {
+          "label": "0-100%",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-Intimidator-Hybrid-140SR.json",
+  "id": 463
+}

@@ -1,0 +1,57 @@
+<div class="popup-header">
+    Export project <i>{{appService.project.label}}</i>
+</div>
+<div class="popup-content" >
+    <mat-tab-group animationDuration="0">
+        <mat-tab label="Fixtures">
+            <div class="title" >Fixtures</div>
+            <div class="sub-title" >Select the fixture(s) to export</div>
+
+            <button mat-button (click)="selectUnselectedAllFixtures()"  color="accent">Select / Unseect all fixtures</button>
+            <div class="content-list" [ngStyle]="{'height.px': popup_height}">
+                <mat-list>
+                    <mat-list-item *ngFor="let fixture of fixtures" class="popup-export-menu-list-item" (click)="fixture.isSelectedForExport = !fixture.isSelectedForExport">
+                        <mat-icon *ngIf="fixture.isSelectedForExport == false" matListItemIcon>check_box_outline_blank</mat-icon>
+                        <mat-icon *ngIf="fixture.isSelectedForExport == true" color="accent" matListItemIcon>check_box</mat-icon>
+                        <div matListItemTitle>{{fixture.label}} - {{fixture.reference}} ({{fixture.index}})</div>
+                    </mat-list-item>
+                </mat-list>        
+            </div>
+        </mat-tab>
+        <mat-tab label="Sequences">
+                <div class="title" >Sequences</div>
+                <div class="sub-title" >Select the sequence(s) to export</div>
+
+                <button mat-button (click)="selectUnselectedAllSequences()"  color="accent">Select / Unseect all sequences</button>
+                <div class="content-list" [ngStyle]="{'height.px': popup_height}">
+                    <mat-list>
+                        <mat-list-item *ngFor="let sequence of sequences" class="popup-export-menu-list-item" (click)="sequence.isSelectedForExport = !sequence.isSelectedForExport">
+                            <mat-icon *ngIf="sequence.isSelectedForExport == false" matListItemIcon>check_box_outline_blank</mat-icon>
+                            <mat-icon *ngIf="sequence.isSelectedForExport == true" color="accent" matListItemIcon>check_box</mat-icon>
+                            <div matListItemTitle>{{sequence.label}}</div>
+                        </mat-list-item>
+                    </mat-list>        
+                </div>
+        </mat-tab>
+        <mat-tab label="Effects">
+            <div class="title" >Effects</div>
+            <div class="sub-title" >Select the effect(s) to export</div>
+
+            <button mat-button (click)="selectUnselectedAllEffects()"  color="accent">Select / Unseect all effects</button>
+            <div class="content-list" [ngStyle]="{'height.px': popup_height}">
+                <mat-list>
+                    <mat-list-item *ngFor="let effect of effects" class="popup-export-menu-list-item" (click)="effect.isSelectedForExport = !effect.isSelectedForExport">
+                        <mat-icon *ngIf="effect.isSelectedForExport == false" matListItemIcon>check_box_outline_blank</mat-icon>
+                        <mat-icon *ngIf="effect.isSelectedForExport == true" color="accent" matListItemIcon>check_box</mat-icon>
+                        <div matListItemTitle>{{effect.label}}</div>
+                    </mat-list-item>
+                </mat-list>       
+            </div>
+        </mat-tab>
+    </mat-tab-group>
+</div>
+<mat-divider></mat-divider>
+<div class="popup-footer" >   
+    <button (click)="onClose()" mat-button>Close</button>
+    <button (click)="onExport()" mat-button color="accent">Export</button>
+</div>

@@ -1,0 +1,132 @@
+{
+  "version": "1.0.0",
+  "label": "Rockwedge LED",
+  "manufacturer": "Rockville",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 170,
+  "dimension_height": 225,
+  "dimension_depth": 170,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 25,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "UV",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Strobe Mode (Slow to Fast)",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 8
+        },
+        {
+          "label": "Color Selection",
+          "min": 9,
+          "max": 50
+        },
+        {
+          "label": "Auto Color",
+          "min": 51,
+          "max": 100
+        },
+        {
+          "label": "Auto Sudden",
+          "min": 101,
+          "max": 150
+        },
+        {
+          "label": "Auto Fade",
+          "min": 151,
+          "max": 200
+        },
+        {
+          "label": "Sound Mode 1",
+          "min": 201,
+          "max": 220
+        },
+        {
+          "label": "Sound Mode 2",
+          "min": 221,
+          "max": 240
+        },
+        {
+          "label": "Sound Mode 3",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 22,
+      "type_description": "Speed",
+      "capabilities": [
+        {
+          "label": "Effect speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Rockville/Rockville-Rockwedge-LED.json",
+  "id": 1232
+}

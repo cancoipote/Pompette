@@ -1,0 +1,1044 @@
+{
+  "version": "1.0.0",
+  "label": "Impression X4 S",
+  "manufacturer": "GLP",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 5600,
+  "dimension_weight": 5,
+  "dimension_width": 224,
+  "dimension_height": 323,
+  "dimension_depth": 165,
+  "lens_label": "Other",
+  "lens_degree_min": 7,
+  "lens_degree_max": 50,
+  "focus_type": "Head",
+  "focus_pan_max": 630,
+  "focus_tilt_max": 220,
+  "technical_power_consumption": 200,
+  "technical_dmx_connector": "5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan coarse",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt coarse",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Color (fixed)",
+      "capabilities": [
+        {
+          "label": "Colors adjustable via RGBW",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Color 01 - Red",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Color 02 - Amber",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Color 03 - Warm Yellow",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Color 04 - Yellow",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Color 05 - Green",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Color 06 - Turquoise",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Color 07 - Cyan",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Color 08 - Blue",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Color 09 - Lavender",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Color 10 - Malve (Mauve)",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Color 11 - Magenta",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Color 12 - Pink",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "White - CTO (3200K)",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "White (5600K)",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "White - CTB (7200K)",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Rainbow Effect Stop",
+          "min": 128,
+          "max": 128
+        },
+        {
+          "label": "Rainbow Effect (slow - fast)",
+          "min": 129,
+          "max": 223
+        },
+        {
+          "label": "Random colors (slow - fast)",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Shutter pulse random",
+          "min": 16,
+          "max": 47
+        },
+        {
+          "label": "Up-dimming then Shutter closing (random patterns)",
+          "min": 48,
+          "max": 79
+        },
+        {
+          "label": "Shutter open then down-dimming (random patterns)",
+          "min": 80,
+          "max": 111
+        },
+        {
+          "label": "Up-dimming then down-dimming (random patterns)",
+          "min": 112,
+          "max": 143
+        },
+        {
+          "label": "Strobe Effect Pause (5s - 1s)",
+          "min": 144,
+          "max": 199
+        },
+        {
+          "label": "Strobe Effect slow - fast (1Hz to 10Hz)",
+          "min": 200,
+          "max": 239
+        },
+        {
+          "label": "Shutter Open",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 17,
+      "type_description": "CTO",
+      "capabilities": [
+        {
+          "label": "No CTO",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Continuous color temperature correction",
+          "min": 8,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 17,
+      "type_description": "Special",
+      "capabilities": [
+        {
+          "label": "Pattern Block 1 -> channel 17",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "No function",
+          "min": 4,
+          "max": 99
+        },
+        {
+          "label": "Change PWM frequency",
+          "min": 100,
+          "max": 200
+        },
+        {
+          "label": "No function",
+          "min": 201,
+          "max": 249
+        },
+        {
+          "label": "RESET",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 22,
+      "type_description": "Speed Pan / Tilt",
+      "capabilities": [
+        {
+          "label": "Pan / Tilt movement speed from controller",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "label": "Pan / Tilt (slow - fast)",
+          "min": 2,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 3,
+      "type_description": "Movement",
+      "capabilities": [
+        {
+          "label": "No movement",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "PAN Size=1 Phase=0",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "label": "PAN Size=1 Phase=90",
+          "min": 2,
+          "max": 3
+        },
+        {
+          "label": "PAN Size=1 Phase=180",
+          "min": 4,
+          "max": 5
+        },
+        {
+          "label": "PAN Size=1 Phase=270",
+          "min": 6,
+          "max": 7
+        },
+        {
+          "label": "PAN Size=2 Phase=0",
+          "min": 8,
+          "max": 9
+        },
+        {
+          "label": "PAN Size=2 Phase=90",
+          "min": 10,
+          "max": 11
+        },
+        {
+          "label": "PAN Size=2 Phase=180",
+          "min": 12,
+          "max": 13
+        },
+        {
+          "label": "PAN Size=2 Phase=270",
+          "min": 14,
+          "max": 15
+        },
+        {
+          "label": "PAN Size=3 Phase=0",
+          "min": 16,
+          "max": 17
+        },
+        {
+          "label": "PAN Size=3 Phase=90",
+          "min": 18,
+          "max": 19
+        },
+        {
+          "label": "PAN Size=3 Phase=180",
+          "min": 20,
+          "max": 21
+        },
+        {
+          "label": "PAN Size=3 Phase=270",
+          "min": 22,
+          "max": 23
+        },
+        {
+          "label": "PAN Size=4 Phase=0",
+          "min": 24,
+          "max": 25
+        },
+        {
+          "label": "PAN Size=4 Phase=90",
+          "min": 26,
+          "max": 27
+        },
+        {
+          "label": "PAN Size=4 Phase=180",
+          "min": 28,
+          "max": 29
+        },
+        {
+          "label": "PAN Size=4 Phase=270",
+          "min": 30,
+          "max": 31
+        },
+        {
+          "label": "TILT Size=1 Phase=0",
+          "min": 32,
+          "max": 33
+        },
+        {
+          "label": "TILT Size=1 Phase=90",
+          "min": 34,
+          "max": 35
+        },
+        {
+          "label": "TILT Size=1 Phase=180",
+          "min": 36,
+          "max": 37
+        },
+        {
+          "label": "TILT Size=1 Phase=270",
+          "min": 38,
+          "max": 39
+        },
+        {
+          "label": "TILT Size=2 Phase=0",
+          "min": 40,
+          "max": 41
+        },
+        {
+          "label": "TILT Size=2 Phase=90",
+          "min": 42,
+          "max": 43
+        },
+        {
+          "label": "TILT Size=2 Phase=180",
+          "min": 44,
+          "max": 45
+        },
+        {
+          "label": "TILT Size=2 Phase=270",
+          "min": 46,
+          "max": 47
+        },
+        {
+          "label": "TILT Size=3 Phase=0",
+          "min": 48,
+          "max": 49
+        },
+        {
+          "label": "TILT Size=3 Phase=90",
+          "min": 50,
+          "max": 51
+        },
+        {
+          "label": "TILT Size=3 Phase=180",
+          "min": 52,
+          "max": 53
+        },
+        {
+          "label": "TILT Size=3 Phase=270",
+          "min": 54,
+          "max": 55
+        },
+        {
+          "label": "TILT Size=4 Phase=0",
+          "min": 56,
+          "max": 57
+        },
+        {
+          "label": "TILT Size=4 Phase=90",
+          "min": 58,
+          "max": 59
+        },
+        {
+          "label": "TILT Size=4 Phase=180",
+          "min": 60,
+          "max": 61
+        },
+        {
+          "label": "TILT Size=4 Phase=270",
+          "min": 62,
+          "max": 63
+        },
+        {
+          "label": "PAN/TILT Size=1 Phase=0",
+          "min": 64,
+          "max": 65
+        },
+        {
+          "label": "PAN/TILT Size=1 Phase=90",
+          "min": 66,
+          "max": 67
+        },
+        {
+          "label": "PAN/TILT Size=1 Phase=180",
+          "min": 68,
+          "max": 69
+        },
+        {
+          "label": "PAN/TILT Size=1 Phase=270",
+          "min": 70,
+          "max": 71
+        },
+        {
+          "label": "PAN/TILT Size=2 Phase=0",
+          "min": 72,
+          "max": 73
+        },
+        {
+          "label": "PAN/TILT Size=2 Phase=90",
+          "min": 74,
+          "max": 75
+        },
+        {
+          "label": "PAN/TILT Size=2 Phase=180",
+          "min": 76,
+          "max": 77
+        },
+        {
+          "label": "PAN/TILT Size=2 Phase=270",
+          "min": 78,
+          "max": 79
+        },
+        {
+          "label": "PAN/TILT Size=3 Phase=0",
+          "min": 80,
+          "max": 81
+        },
+        {
+          "label": "PAN/TILT Size=3 Phase=90",
+          "min": 82,
+          "max": 83
+        },
+        {
+          "label": "PAN/TILT Size=3 Phase=180",
+          "min": 84,
+          "max": 85
+        },
+        {
+          "label": "PAN/TILT Size=3 Phase=270",
+          "min": 86,
+          "max": 87
+        },
+        {
+          "label": "PAN/TILT Size=4 Phase=0",
+          "min": 88,
+          "max": 89
+        },
+        {
+          "label": "PAN/TILT Size=4 Phase=90",
+          "min": 90,
+          "max": 91
+        },
+        {
+          "label": "PAN/TILT Size=4 Phase=180",
+          "min": 92,
+          "max": 93
+        },
+        {
+          "label": "PAN/TILT Size=4 Phase=270",
+          "min": 94,
+          "max": 95
+        },
+        {
+          "label": "PAN/TILT inverse Size=1 Phase=0",
+          "min": 96,
+          "max": 97
+        },
+        {
+          "label": "PAN/TILT inverse Size=1 Phase=90",
+          "min": 98,
+          "max": 99
+        },
+        {
+          "label": "PAN/TILT inverse Size=1 Phase=180",
+          "min": 100,
+          "max": 101
+        },
+        {
+          "label": "PAN/TILT inverse Size=1 Phase=270",
+          "min": 102,
+          "max": 103
+        },
+        {
+          "label": "PAN/TILT inverse Size=2 Phase=0",
+          "min": 104,
+          "max": 105
+        },
+        {
+          "label": "PAN/TILT inverse Size=2 Phase=90",
+          "min": 106,
+          "max": 107
+        },
+        {
+          "label": "PAN/TILT inverse Size=2 Phase=180",
+          "min": 108,
+          "max": 109
+        },
+        {
+          "label": "PAN/TILT inverse Size=2 Phase=270",
+          "min": 110,
+          "max": 111
+        },
+        {
+          "label": "PAN/TILT inverse Size=3 Phase=0",
+          "min": 112,
+          "max": 113
+        },
+        {
+          "label": "PAN/TILT inverse Size=3 Phase=90",
+          "min": 114,
+          "max": 115
+        },
+        {
+          "label": "PAN/TILT inverse Size=3 Phase=180",
+          "min": 116,
+          "max": 117
+        },
+        {
+          "label": "PAN/TILT inverse Size=3 Phase=270",
+          "min": 118,
+          "max": 119
+        },
+        {
+          "label": "PAN/TILT inverse Size=4 Phase=0",
+          "min": 120,
+          "max": 121
+        },
+        {
+          "label": "PAN/TILT inverse Size=4 Phase=90",
+          "min": 122,
+          "max": 123
+        },
+        {
+          "label": "PAN/TILT inverse Size=4 Phase=180",
+          "min": 124,
+          "max": 125
+        },
+        {
+          "label": "PAN/TILT inverse Size=4 Phase=270",
+          "min": 126,
+          "max": 127
+        },
+        {
+          "label": "CIRCLE Size=1 Phase=0",
+          "min": 128,
+          "max": 129
+        },
+        {
+          "label": "CIRCLE Size=1 Phase=90",
+          "min": 130,
+          "max": 131
+        },
+        {
+          "label": "CIRCLE Size=1 Phase=180",
+          "min": 132,
+          "max": 133
+        },
+        {
+          "label": "CIRCLE Size=1 Phase=270",
+          "min": 134,
+          "max": 135
+        },
+        {
+          "label": "CIRCLE Size=2 Phase=0",
+          "min": 136,
+          "max": 137
+        },
+        {
+          "label": "CIRCLE Size=2 Phase=90",
+          "min": 138,
+          "max": 139
+        },
+        {
+          "label": "CIRCLE Size=2 Phase=180",
+          "min": 140,
+          "max": 141
+        },
+        {
+          "label": "CIRCLE Size=2 Phase=270",
+          "min": 142,
+          "max": 143
+        },
+        {
+          "label": "CIRCLE Size=3 Phase=0",
+          "min": 144,
+          "max": 145
+        },
+        {
+          "label": "CIRCLE Size=3 Phase=90",
+          "min": 146,
+          "max": 147
+        },
+        {
+          "label": "CIRCLE Size=3 Phase=180",
+          "min": 148,
+          "max": 149
+        },
+        {
+          "label": "CIRCLE Size=3 Phase=270",
+          "min": 150,
+          "max": 151
+        },
+        {
+          "label": "CIRCLE Size=4 Phase=0",
+          "min": 152,
+          "max": 153
+        },
+        {
+          "label": "CIRCLE Size=4 Phase=90",
+          "min": 154,
+          "max": 155
+        },
+        {
+          "label": "CIRCLE Size=4 Phase=180",
+          "min": 156,
+          "max": 157
+        },
+        {
+          "label": "CIRCLE Size=4 Phase=270",
+          "min": 158,
+          "max": 159
+        },
+        {
+          "label": "CIRCLE inverse Size=1 Phase=0",
+          "min": 160,
+          "max": 161
+        },
+        {
+          "label": "CIRCLE inverse Size=1 Phase=90",
+          "min": 162,
+          "max": 163
+        },
+        {
+          "label": "CIRCLE inverse Size=1 Phase=180",
+          "min": 164,
+          "max": 165
+        },
+        {
+          "label": "CIRCLE inverse Size=1 Phase=270",
+          "min": 166,
+          "max": 167
+        },
+        {
+          "label": "CIRCLE inverse Size=2 Phase=0",
+          "min": 168,
+          "max": 169
+        },
+        {
+          "label": "CIRCLE inverse Size=2 Phase=90",
+          "min": 170,
+          "max": 171
+        },
+        {
+          "label": "CIRCLE inverse Size=2 Phase=180",
+          "min": 172,
+          "max": 173
+        },
+        {
+          "label": "CIRCLE inverse Size=2 Phase=270",
+          "min": 174,
+          "max": 175
+        },
+        {
+          "label": "CIRCLE inverse Size=3 Phase=0",
+          "min": 176,
+          "max": 177
+        },
+        {
+          "label": "CIRCLE inverse Size=3 Phase=90",
+          "min": 178,
+          "max": 179
+        },
+        {
+          "label": "CIRCLE inverse Size=3 Phase=180",
+          "min": 180,
+          "max": 181
+        },
+        {
+          "label": "CIRCLE inverse Size=3 Phase=270",
+          "min": 182,
+          "max": 183
+        },
+        {
+          "label": "CIRCLE inverse Size=4 Phase=0",
+          "min": 184,
+          "max": 185
+        },
+        {
+          "label": "CIRCLE inverse Size=4 Phase=90",
+          "min": 186,
+          "max": 187
+        },
+        {
+          "label": "CIRCLE inverse Size=4 Phase=180",
+          "min": 188,
+          "max": 189
+        },
+        {
+          "label": "CIRCLE inverse Size=4 Phase=270",
+          "min": 190,
+          "max": 191
+        },
+        {
+          "label": "LYING EIGHT Size=1 Phase=0",
+          "min": 192,
+          "max": 193
+        },
+        {
+          "label": "LYING EIGHT Size=1 Phase=90",
+          "min": 194,
+          "max": 195
+        },
+        {
+          "label": "LYING EIGHT Size=1 Phase=180",
+          "min": 196,
+          "max": 197
+        },
+        {
+          "label": "LYING EIGHT Size=1 Phase=270",
+          "min": 198,
+          "max": 199
+        },
+        {
+          "label": "LYING EIGHT Size=2 Phase=0",
+          "min": 200,
+          "max": 201
+        },
+        {
+          "label": "LYING EIGHT Size=2 Phase=90",
+          "min": 202,
+          "max": 203
+        },
+        {
+          "label": "LYING EIGHT Size=2 Phase=180",
+          "min": 204,
+          "max": 205
+        },
+        {
+          "label": "LYING EIGHT Size=2 Phase=270",
+          "min": 206,
+          "max": 207
+        },
+        {
+          "label": "LYING EIGHT Size=3 Phase=0",
+          "min": 208,
+          "max": 209
+        },
+        {
+          "label": "LYING EIGHT Size=3 Phase=90",
+          "min": 210,
+          "max": 211
+        },
+        {
+          "label": "LYING EIGHT Size=3 Phase=180",
+          "min": 212,
+          "max": 213
+        },
+        {
+          "label": "LYING EIGHT Size=3 Phase=270",
+          "min": 214,
+          "max": 215
+        },
+        {
+          "label": "LYING EIGHT Size=4 Phase=0",
+          "min": 216,
+          "max": 217
+        },
+        {
+          "label": "LYING EIGHT Size=4 Phase=90",
+          "min": 218,
+          "max": 219
+        },
+        {
+          "label": "LYING EIGHT Size=4 Phase=180",
+          "min": 220,
+          "max": 221
+        },
+        {
+          "label": "LYING EIGHT Size=4 Phase=270",
+          "min": 222,
+          "max": 223
+        },
+        {
+          "label": "RANDOM Size=1 Phase=0",
+          "min": 224,
+          "max": 225
+        },
+        {
+          "label": "RANDOM Size=1 Phase=90",
+          "min": 226,
+          "max": 227
+        },
+        {
+          "label": "RANDOM Size=1 Phase=180",
+          "min": 228,
+          "max": 229
+        },
+        {
+          "label": "RANDOM Size=1 Phase=270",
+          "min": 230,
+          "max": 231
+        },
+        {
+          "label": "RANDOM Size=2 Phase=0",
+          "min": 232,
+          "max": 233
+        },
+        {
+          "label": "RANDOM Size=2 Phase=90",
+          "min": 234,
+          "max": 235
+        },
+        {
+          "label": "RANDOM Size=2 Phase=180",
+          "min": 236,
+          "max": 237
+        },
+        {
+          "label": "RANDOM Size=2 Phase=270",
+          "min": 238,
+          "max": 239
+        },
+        {
+          "label": "RANDOM Size=3 Phase=0",
+          "min": 240,
+          "max": 241
+        },
+        {
+          "label": "RANDOM Size=3 Phase=90",
+          "min": 242,
+          "max": 243
+        },
+        {
+          "label": "RANDOM Size=3 Phase=180",
+          "min": 244,
+          "max": 245
+        },
+        {
+          "label": "RANDOM Size=3 Phase=270",
+          "min": 246,
+          "max": 247
+        },
+        {
+          "label": "RANDOM Size=4 Phase=0",
+          "min": 248,
+          "max": 249
+        },
+        {
+          "label": "RANDOM Size=4 Phase=90",
+          "min": 250,
+          "max": 251
+        },
+        {
+          "label": "RANDOM Size=4 Phase=180",
+          "min": 252,
+          "max": 253
+        },
+        {
+          "label": "RANDOM Size=4 Phase=270",
+          "min": 254,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 3,
+      "type_description": "Pattern",
+      "capabilities": [
+        {
+          "label": "No pattern",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Pre-defined patterns",
+          "min": 3,
+          "max": 253
+        },
+        {
+          "label": "Activate direct access to LED pattern",
+          "min": 254,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 3,
+      "type_description": "Pattern Byte 1",
+      "capabilities": [
+        {
+          "label": "Direct Access to pattern 1...7",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Red fine",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Green fine",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Blue fine",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "White fine",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 3,
+      "type_description": "Pattern (Compress-Mode)",
+      "capabilities": [
+        {
+          "label": "No pattern",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Pre-defined patterns",
+          "min": 3,
+          "max": 253
+        },
+        {
+          "label": "Activates direct access to LED Pattern",
+          "min": 254,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Dimmer fine",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Zoom (Extended Mode)",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/GLP/GLP-Impression-X4-S.json",
+  "id": 848
+}

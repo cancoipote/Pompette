@@ -1,0 +1,138 @@
+{
+  "version": "1.0.0",
+  "label": "Mac Follow 1200",
+  "manufacturer": "Mac Mah",
+  "bulb_type": "HMI 1200W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 5500,
+  "dimension_weight": 40,
+  "dimension_width": 330,
+  "dimension_height": 500,
+  "dimension_depth": 1250,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 12,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 1400,
+  "technical_dmx_connector": "3-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 24
+        },
+        {
+          "label": "Blue",
+          "min": 25,
+          "max": 49
+        },
+        {
+          "label": "Magenta",
+          "min": 50,
+          "max": 74
+        },
+        {
+          "label": "Green",
+          "min": 75,
+          "max": 99
+        },
+        {
+          "label": "Red",
+          "min": 100,
+          "max": 124
+        },
+        {
+          "label": "Yellow",
+          "min": 125,
+          "max": 149
+        },
+        {
+          "label": "Orange",
+          "min": 150,
+          "max": 174
+        },
+        {
+          "label": "Cyan",
+          "min": 175,
+          "max": 203
+        },
+        {
+          "label": "Rainbow (slow>fast)",
+          "min": 204,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 5,
+      "type_description": "Colour Temperature",
+      "capabilities": [
+        {
+          "label": "5600°K",
+          "min": 0,
+          "max": 80
+        },
+        {
+          "label": "3200°K",
+          "min": 81,
+          "max": 160
+        },
+        {
+          "label": "6000°K",
+          "min": 161,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 1,
+      "type_description": "Iris",
+      "capabilities": [
+        {
+          "label": "Iris (small>large)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Close",
+          "min": 0,
+          "max": 11
+        },
+        {
+          "label": "Dimmer 0>100%",
+          "min": 12,
+          "max": 84
+        },
+        {
+          "label": "Strobe (slow>fast)",
+          "min": 85,
+          "max": 254
+        },
+        {
+          "label": "Open",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Mac_Mah/Mac-Mah-Mac-Follow-1200.json",
+  "id": 1020
+}

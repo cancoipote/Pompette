@@ -1,0 +1,114 @@
+{
+  "version": "1.0.0",
+  "label": "Hypnotic RGB",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 235,
+  "dimension_height": 121,
+  "dimension_depth": 268,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 13,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 1,
+      "type_description": "Colors",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Red",
+          "min": 8,
+          "max": 37
+        },
+        {
+          "label": "Red+Green",
+          "min": 38,
+          "max": 67
+        },
+        {
+          "label": "Green",
+          "min": 68,
+          "max": 97
+        },
+        {
+          "label": "Green+Blue",
+          "min": 98,
+          "max": 127
+        },
+        {
+          "label": "Blue",
+          "min": 128,
+          "max": 157
+        },
+        {
+          "label": "Red+Blue",
+          "min": 158,
+          "max": 187
+        },
+        {
+          "label": "Red+Green+Blue",
+          "min": 188,
+          "max": 217
+        },
+        {
+          "label": "All Random",
+          "min": 218,
+          "max": 247
+        },
+        {
+          "label": "Sound Active",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Rotation",
+      "capabilities": [
+        {
+          "label": "No rotation",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Counter-Clockwise Fast -> Slow",
+          "min": 10,
+          "max": 120
+        },
+        {
+          "label": "No rotation",
+          "min": 121,
+          "max": 134
+        },
+        {
+          "label": "Clockwise Slow -> Fast",
+          "min": 135,
+          "max": 245
+        },
+        {
+          "label": "No rotation",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Hypnotic-RGB.json",
+  "id": 78
+}

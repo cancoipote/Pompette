@@ -1,0 +1,2188 @@
+{
+  "version": "1.0.0",
+  "label": "Robin Tetra 2",
+  "manufacturer": "Robe",
+  "bulb_type": "LED",
+  "bulb_lumens": 4225,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 18,
+  "dimension_width": 1007,
+  "dimension_height": 279,
+  "dimension_depth": 192,
+  "lens_label": "Other",
+  "lens_degree_min": 4,
+  "lens_degree_max": 45,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 205,
+  "technical_power_consumption": 400,
+  "technical_dmx_connector": "5-pin",
+  "type": 9,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Tilt (8bit)",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt fine (16bit)",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Tilt speed, Tilt time",
+      "capabilities": [
+        {
+          "label": "Standard mode (0=default)",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Max. Speed Mode",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "label": "Speed from max. to min., Time from 0.2 sec. to 25.5 sec.",
+          "min": 2,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 17,
+      "type_description": "Power/Special functions",
+      "capabilities": [
+        {
+          "label": "Reserved (0=default)",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "DMX input: Wired DMX",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "DMX input: Wireless DMX",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "Graphic display On",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "Graphic display Off",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "CMY colour mixing mode",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Tilt speed mode",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "Tilt time mode",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "Blackout while tilt moving",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "Disabled blackout while tilt moving",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "Dimmer curve-square law",
+          "min": 60,
+          "max": 64
+        },
+        {
+          "label": "Dimmer curve-linear",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "Fans mode: Auto",
+          "min": 70,
+          "max": 74
+        },
+        {
+          "label": "Fans mode: High",
+          "min": 75,
+          "max": 79
+        },
+        {
+          "label": "White point 8000K On",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "White point 8000K Off",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "Automatic white pixel On",
+          "min": 90,
+          "max": 94
+        },
+        {
+          "label": "Automatic white pixel Off",
+          "min": 95,
+          "max": 99
+        },
+        {
+          "label": "Reserved",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Kling-Net On",
+          "min": 110,
+          "max": 114
+        },
+        {
+          "label": "Kling-Net Off",
+          "min": 115,
+          "max": 119
+        },
+        {
+          "label": "Parking position On",
+          "min": 120,
+          "max": 124
+        },
+        {
+          "label": "Parking position Off",
+          "min": 125,
+          "max": 129
+        },
+        {
+          "label": "Fixture Reset (except pan/tilt)",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Tilt Reset",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Zoom Reset",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Flower effect reset",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Tungsten effect simulation (750W) On",
+          "min": 170,
+          "max": 171
+        },
+        {
+          "label": "Tungsten effect simulation (1000W) On",
+          "min": 172,
+          "max": 173
+        },
+        {
+          "label": "Tungsten effect simulation (1200W) On",
+          "min": 174,
+          "max": 175
+        },
+        {
+          "label": "Tungsten effect simulation (2000W) On",
+          "min": 176,
+          "max": 177
+        },
+        {
+          "label": "Tungsten effect simulation (2500W) On",
+          "min": 178,
+          "max": 179
+        },
+        {
+          "label": "Tungsten effect simulation Off",
+          "min": 180,
+          "max": 181
+        },
+        {
+          "label": "Reserved",
+          "min": 182,
+          "max": 199
+        },
+        {
+          "label": "Total fixture reset",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Pixel index",
+          "min": 210,
+          "max": 227
+        },
+        {
+          "label": "Pixel mirror On",
+          "min": 228,
+          "max": 229
+        },
+        {
+          "label": "Pixel mirror Off",
+          "min": 230,
+          "max": 231
+        },
+        {
+          "label": "Reserved",
+          "min": 232,
+          "max": 236
+        },
+        {
+          "label": "Save Pixel index and mirror to fixture",
+          "min": 237,
+          "max": 237
+        },
+        {
+          "label": "Reserved",
+          "min": 238,
+          "max": 239
+        },
+        {
+          "label": "Disabled \"Quiet mode\"",
+          "min": 240,
+          "max": 240
+        },
+        {
+          "label": "Quiet mode - fan noise control from min. to max",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 17,
+      "type_description": "LED frequency selection",
+      "capabilities": [
+        {
+          "label": "PWM frequency from Display menu",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "300 Hz (5=default)",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "Reserved",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "600 Hz",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "Reserved",
+          "min": 20,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 17,
+      "type_description": "LED frequency adjusting",
+      "capabilities": [
+        {
+          "label": "Selected LED Frequency",
+          "min": 0,
+          "max": 121
+        },
+        {
+          "label": "LED Frequency (step -6)",
+          "min": 122,
+          "max": 122
+        },
+        {
+          "label": "LED Frequency (step -5)",
+          "min": 123,
+          "max": 123
+        },
+        {
+          "label": "LED Frequency (step -4)",
+          "min": 124,
+          "max": 124
+        },
+        {
+          "label": "LED Frequency (step -3)",
+          "min": 125,
+          "max": 125
+        },
+        {
+          "label": "LED Frequency (step -2)",
+          "min": 126,
+          "max": 126
+        },
+        {
+          "label": "LED Frequency (step -1)",
+          "min": 127,
+          "max": 127
+        },
+        {
+          "label": "Selected LED Frequency (128=default)",
+          "min": 128,
+          "max": 128
+        },
+        {
+          "label": "LED Frequency (step +1)",
+          "min": 129,
+          "max": 129
+        },
+        {
+          "label": "LED Frequency (step +2)",
+          "min": 130,
+          "max": 130
+        },
+        {
+          "label": "LED Frequency (step +3)",
+          "min": 131,
+          "max": 131
+        },
+        {
+          "label": "LED Frequency (step +4)",
+          "min": 132,
+          "max": 132
+        },
+        {
+          "label": "LED Frequency (step +5)",
+          "min": 133,
+          "max": 133
+        },
+        {
+          "label": "LED Frequency (step +6)",
+          "min": 134,
+          "max": 134
+        },
+        {
+          "label": "Selected LED Frequency",
+          "min": 135,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Background - Virtual colour wheel",
+      "capabilities": [
+        {
+          "label": "No function (0=default)",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Filter 4 (Medium Bastard Amber)",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "label": "Filter 25 (Sunset Red)",
+          "min": 3,
+          "max": 4
+        },
+        {
+          "label": "Filter 19 (Fire)",
+          "min": 5,
+          "max": 6
+        },
+        {
+          "label": "Filter 26 (Bright Red)",
+          "min": 7,
+          "max": 8
+        },
+        {
+          "label": "Filter 58 (Lavender)",
+          "min": 9,
+          "max": 10
+        },
+        {
+          "label": "Filter 68 (Sky Blue)",
+          "min": 11,
+          "max": 12
+        },
+        {
+          "label": "Filter 36 (Medium Pink)",
+          "min": 13,
+          "max": 14
+        },
+        {
+          "label": "Filter 89 (Moss Green)",
+          "min": 15,
+          "max": 16
+        },
+        {
+          "label": "Filter 88 (Lime Green)",
+          "min": 17,
+          "max": 18
+        },
+        {
+          "label": "Filter 90 (Dark Yellow Green)",
+          "min": 19,
+          "max": 20
+        },
+        {
+          "label": "Filter 49 (Medium Purple)",
+          "min": 21,
+          "max": 22
+        },
+        {
+          "label": "Filter 52 (Light Lavender)",
+          "min": 23,
+          "max": 24
+        },
+        {
+          "label": "Filter 102 (Light Amber)",
+          "min": 25,
+          "max": 26
+        },
+        {
+          "label": "Filter 103 (Straw)",
+          "min": 27,
+          "max": 28
+        },
+        {
+          "label": "Filter 140 (Summer Blue)",
+          "min": 29,
+          "max": 30
+        },
+        {
+          "label": "Filter 124 (Dark Green)",
+          "min": 31,
+          "max": 32
+        },
+        {
+          "label": "Filter 106 (Primary Red)",
+          "min": 33,
+          "max": 34
+        },
+        {
+          "label": "Filter 111 (Dark Pink)",
+          "min": 35,
+          "max": 36
+        },
+        {
+          "label": "Filter 115 (Peacock Blue)",
+          "min": 37,
+          "max": 38
+        },
+        {
+          "label": "Filter 126 (Mauve)",
+          "min": 39,
+          "max": 40
+        },
+        {
+          "label": "Filter 117 (Steel Blue)",
+          "min": 41,
+          "max": 42
+        },
+        {
+          "label": "Filter 118 (Light Blue)",
+          "min": 43,
+          "max": 44
+        },
+        {
+          "label": "Filter 122 (Fern Green)",
+          "min": 45,
+          "max": 46
+        },
+        {
+          "label": "Filter 182 (Light Red)",
+          "min": 47,
+          "max": 48
+        },
+        {
+          "label": "Filter 121 (Filter Green)",
+          "min": 49,
+          "max": 50
+        },
+        {
+          "label": "Filter 128 (Bright Pink)",
+          "min": 51,
+          "max": 52
+        },
+        {
+          "label": "Filter 131 (Marine Blue)",
+          "min": 53,
+          "max": 54
+        },
+        {
+          "label": "Filter 132 (Medium Blue)",
+          "min": 55,
+          "max": 56
+        },
+        {
+          "label": "Filter 134 (Golden Amber)",
+          "min": 57,
+          "max": 58
+        },
+        {
+          "label": "Filter 135 (Deep Golden Amber)",
+          "min": 59,
+          "max": 60
+        },
+        {
+          "label": "Filter 136 (Pale Lavender)",
+          "min": 61,
+          "max": 62
+        },
+        {
+          "label": "Filter 137 (Special Lavender)",
+          "min": 63,
+          "max": 64
+        },
+        {
+          "label": "Filter 138 (Pale Green)",
+          "min": 65,
+          "max": 66
+        },
+        {
+          "label": "Filter 789 (Chrysalis Pink)",
+          "min": 67,
+          "max": 68
+        },
+        {
+          "label": "Filter 141 (Bright Blue)",
+          "min": 69,
+          "max": 70
+        },
+        {
+          "label": "Filter 147 (Apricot)",
+          "min": 71,
+          "max": 72
+        },
+        {
+          "label": "Filter 148 (Bright Rose)",
+          "min": 73,
+          "max": 74
+        },
+        {
+          "label": "Filter 152 (Pale Gold)",
+          "min": 75,
+          "max": 76
+        },
+        {
+          "label": "Filter 154 (Pale Rose)",
+          "min": 77,
+          "max": 78
+        },
+        {
+          "label": "Filter 157 (Pink)",
+          "min": 79,
+          "max": 80
+        },
+        {
+          "label": "Filter 143 (Pale Navy Blue)",
+          "min": 81,
+          "max": 82
+        },
+        {
+          "label": "Filter 162 (Bastard Amber)",
+          "min": 83,
+          "max": 84
+        },
+        {
+          "label": "Filter 164 (Flame Red)",
+          "min": 85,
+          "max": 86
+        },
+        {
+          "label": "Filter 165 (Daylight Blue)",
+          "min": 87,
+          "max": 88
+        },
+        {
+          "label": "Filter 169 (Lilay Tint)",
+          "min": 89,
+          "max": 90
+        },
+        {
+          "label": "Filter 170 (Deep Lavender)",
+          "min": 91,
+          "max": 92
+        },
+        {
+          "label": "Filter 172 (Lagoon Blue)",
+          "min": 93,
+          "max": 94
+        },
+        {
+          "label": "Filter 196 (Surprise Pink)",
+          "min": 95,
+          "max": 96
+        },
+        {
+          "label": "Filter 180 (Dark Lavender)",
+          "min": 97,
+          "max": 98
+        },
+        {
+          "label": "Filter 181 (Congo Blue)",
+          "min": 99,
+          "max": 100
+        },
+        {
+          "label": "Filter 197 (Alice Blue)",
+          "min": 101,
+          "max": 102
+        },
+        {
+          "label": "Filter 201 (Full C.T. Blue)",
+          "min": 103,
+          "max": 104
+        },
+        {
+          "label": "Filter 202 ( Half C.T. Blue)",
+          "min": 105,
+          "max": 106
+        },
+        {
+          "label": "Filter 203 (Quarter C.T. Blue)",
+          "min": 107,
+          "max": 108
+        },
+        {
+          "label": "Filter 204 (Full C.T. Orange)",
+          "min": 109,
+          "max": 110
+        },
+        {
+          "label": "Filter 219 (Fluorescent Green)",
+          "min": 111,
+          "max": 112
+        },
+        {
+          "label": "Filter 206 (Quarter C.T. Orange)",
+          "min": 113,
+          "max": 114
+        },
+        {
+          "label": "Filter 247 (Filter Minus Green)",
+          "min": 115,
+          "max": 116
+        },
+        {
+          "label": "Filter 248 (Half Minus Green)",
+          "min": 117,
+          "max": 118
+        },
+        {
+          "label": "Filter 281 (Three Quarter C.T. Blue)",
+          "min": 119,
+          "max": 120
+        },
+        {
+          "label": "Filter 285 (Three Quarter C.T. Orange)",
+          "min": 121,
+          "max": 122
+        },
+        {
+          "label": "Filter 352 (Glacier Blue)",
+          "min": 123,
+          "max": 124
+        },
+        {
+          "label": "Filter 353 (Lighter Blue)",
+          "min": 125,
+          "max": 126
+        },
+        {
+          "label": "Filter 507 (Madge)",
+          "min": 127,
+          "max": 128
+        },
+        {
+          "label": "Filter 778 (Millennium Gold)",
+          "min": 129,
+          "max": 130
+        },
+        {
+          "label": "Filter 793 (Vanity Fair)",
+          "min": 131,
+          "max": 132
+        },
+        {
+          "label": "Reserved",
+          "min": 133,
+          "max": 235
+        },
+        {
+          "label": "Rainbow effect (with fade time) from slow -> fast",
+          "min": 236,
+          "max": 245
+        },
+        {
+          "label": "Rainbow effect (without fade time) from slow -> fast",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Background - Red (8bit)",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Background - Red (16bit)",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Background - Green (8bit)",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Background - Green (16bit)",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Background - Blue (8bit)",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Background - Blue (16bit)",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Background - White (8bit) - all pixels",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Background - White (16bit) - all pixels",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Background - CTC",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 21,
+      "type_description": "Background - Shutter/Strobe",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Shutter open (31=default)",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe effect from slow to fast",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Shutter open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Opening pulse in sequences from slow to fast",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Closing pulse in sequences from fast to slow",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Shutter open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random strobe effect from slow to fast",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Shutter open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Background - Dimmer intensity (8bit)",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Background Dimmer intensity - fine (16bit)",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Colour Mix Control",
+      "capabilities": [
+        {
+          "label": "Global colours (Global has priority)",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Maximum mode (highest values have priority)",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Minimum mode (lowest values have priority)",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Multiply mode (multiply Global and Pixel)",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Addition mode (Global + Pixel) (45=default)",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Subtraction mode (Global - Pixel)",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Inverted Subtraction mode (Pixel - Global)",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Coloured background",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Raw DMX",
+          "min": 80,
+          "max": 127
+        },
+        {
+          "label": "Global colours only (Global has priority)",
+          "min": 128,
+          "max": 128
+        },
+        {
+          "label": "Crossfade (crossfade between Global and Pixel)",
+          "min": 129,
+          "max": 254
+        },
+        {
+          "label": "Pixel colours (Pixel has priority)",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 3,
+      "type_description": "Flower Effect 1",
+      "capabilities": [
+        {
+          "label": "Open position-without Flower Effect (0=default)",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Flower Effect forwards rotation from fast to slow",
+          "min": 1,
+          "max": 127
+        },
+        {
+          "label": "Flower Effect-without rotation",
+          "min": 128,
+          "max": 128
+        },
+        {
+          "label": "Backwards rotation from slow to fast",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Flower Effect 1 - Red (8bit)",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Flower Effect 1 - Green (8bit)",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Flower Effect 1 - Blue (8bit)",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Flower Effect 1 - White (8bit)",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 21,
+      "type_description": "Flower Effect 1 - Shutter/Strobe",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Shutter open (32=default)",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe-effect from slow to fast",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Shutter open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Opening pulse in sequences from slow to fast",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Closing pulse in sequeces from fast to slow",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Shutter open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random strobe-effect from slow to fast",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Shutter open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Flower Effect 1 - Dimmer intensity (8bit)",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Master Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 3,
+      "type_description": "Pattern Selection",
+      "capabilities": [
+        {
+          "label": "No pattern (0=default)",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Pattern 1",
+          "min": 3,
+          "max": 4
+        },
+        {
+          "label": "Pattern 2",
+          "min": 5,
+          "max": 6
+        },
+        {
+          "label": "Pattern 3",
+          "min": 7,
+          "max": 8
+        },
+        {
+          "label": "Pattern 4",
+          "min": 9,
+          "max": 10
+        },
+        {
+          "label": "Pattern 5",
+          "min": 11,
+          "max": 12
+        },
+        {
+          "label": "Pattern 6",
+          "min": 13,
+          "max": 14
+        },
+        {
+          "label": "Pattern 7",
+          "min": 15,
+          "max": 16
+        },
+        {
+          "label": "Pattern 8",
+          "min": 17,
+          "max": 18
+        },
+        {
+          "label": "Pattern 9",
+          "min": 19,
+          "max": 20
+        },
+        {
+          "label": "Pattern 10",
+          "min": 21,
+          "max": 22
+        },
+        {
+          "label": "Pattern 11",
+          "min": 23,
+          "max": 24
+        },
+        {
+          "label": "Pattern 12",
+          "min": 25,
+          "max": 26
+        },
+        {
+          "label": "Raw DMX",
+          "min": 27,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "type": 3,
+      "type_description": "Pattern - Repeat (Size)",
+      "capabilities": [
+        {
+          "label": "Variant 1 (0=default)",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Variant 2",
+          "min": 3,
+          "max": 4
+        },
+        {
+          "label": "Variant 3",
+          "min": 5,
+          "max": 6
+        },
+        {
+          "label": "Variant 4",
+          "min": 7,
+          "max": 8
+        },
+        {
+          "label": "Variant 5",
+          "min": 9,
+          "max": 10
+        },
+        {
+          "label": "Variant 6",
+          "min": 11,
+          "max": 12
+        },
+        {
+          "label": "Variant 7",
+          "min": 13,
+          "max": 14
+        },
+        {
+          "label": "Variant 8",
+          "min": 15,
+          "max": 16
+        },
+        {
+          "label": "Variant 9",
+          "min": 17,
+          "max": 18
+        },
+        {
+          "label": "Variant 10",
+          "min": 19,
+          "max": 20
+        },
+        {
+          "label": "Variant 11",
+          "min": 21,
+          "max": 22
+        },
+        {
+          "label": "Variant 12",
+          "min": 23,
+          "max": 24
+        },
+        {
+          "label": "Variant 13",
+          "min": 25,
+          "max": 26
+        },
+        {
+          "label": "Variant 14",
+          "min": 27,
+          "max": 28
+        },
+        {
+          "label": "Variant 15",
+          "min": 29,
+          "max": 30
+        },
+        {
+          "label": "Variant 16",
+          "min": 31,
+          "max": 32
+        },
+        {
+          "label": "Variant 17",
+          "min": 33,
+          "max": 34
+        },
+        {
+          "label": "Raw DMX",
+          "min": 35,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "type": 3,
+      "type_description": "Pattern - Movement",
+      "capabilities": [
+        {
+          "label": "No movement",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Pattern movement from fast to slow",
+          "min": 1,
+          "max": 127
+        },
+        {
+          "label": "Pause - without movement (128=default)",
+          "min": 128,
+          "max": 128
+        },
+        {
+          "label": "Backwards pattern movement from slow to fast",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "type": 3,
+      "type_description": "Pattern - Fade",
+      "capabilities": [
+        {
+          "label": "Snap (0=default)",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Fade from min. to max.",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "type": 3,
+      "type_description": "Pattern - Transition",
+      "capabilities": [
+        {
+          "label": "No fade (0=default)",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "100ms",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "label": "4 sec",
+          "min": 2,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "type": 3,
+      "type_description": "Pattern - Crossfade",
+      "capabilities": [
+        {
+          "label": "Background",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Crossfade between Background and Pattern 0-100% (s55=default)",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "type": 3,
+      "type_description": "Pattern - Red (8bit)",
+      "capabilities": [
+        {
+          "label": "Pattern - Red (8bit) intensity (0 - 100%)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "type": 3,
+      "type_description": "Pattern - Green (8bit)",
+      "capabilities": [
+        {
+          "label": "Pattern - Green (8bit) intensity (0 - 100%)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "type": 3,
+      "type_description": "Pattern - Blue (8bit)",
+      "capabilities": [
+        {
+          "label": "Pattern - Blue (8bit) intensity (0 - 100%)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "type": 3,
+      "type_description": "Pattern - White (8bit)",
+      "capabilities": [
+        {
+          "label": "Pattern - White (8bit) intensity (0 - 100%)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "type": 3,
+      "type_description": "Pattern - Colour macro",
+      "capabilities": [
+        {
+          "label": "No macro (0=default)",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Macro 1",
+          "min": 3,
+          "max": 8
+        },
+        {
+          "label": "Macro 2",
+          "min": 9,
+          "max": 14
+        },
+        {
+          "label": "Macro 3",
+          "min": 15,
+          "max": 20
+        },
+        {
+          "label": "Macro 4",
+          "min": 21,
+          "max": 26
+        },
+        {
+          "label": "Macro 5",
+          "min": 27,
+          "max": 32
+        },
+        {
+          "label": "Macro 6",
+          "min": 33,
+          "max": 38
+        },
+        {
+          "label": "Macro 7",
+          "min": 39,
+          "max": 44
+        },
+        {
+          "label": "Macro 8",
+          "min": 45,
+          "max": 50
+        },
+        {
+          "label": "Macro 9",
+          "min": 51,
+          "max": 56
+        },
+        {
+          "label": "Macro 10",
+          "min": 57,
+          "max": 62
+        },
+        {
+          "label": "Macro 11",
+          "min": 63,
+          "max": 68
+        },
+        {
+          "label": "Macro 12",
+          "min": 69,
+          "max": 74
+        },
+        {
+          "label": "Macro 13",
+          "min": 75,
+          "max": 80
+        },
+        {
+          "label": "Macro 14",
+          "min": 81,
+          "max": 86
+        },
+        {
+          "label": "Macro 15",
+          "min": 87,
+          "max": 92
+        },
+        {
+          "label": "Macro 16",
+          "min": 93,
+          "max": 98
+        },
+        {
+          "label": "Macro 17",
+          "min": 99,
+          "max": 104
+        },
+        {
+          "label": "Macro 18",
+          "min": 105,
+          "max": 110
+        },
+        {
+          "label": "Macro 19",
+          "min": 111,
+          "max": 116
+        },
+        {
+          "label": "Macro 20",
+          "min": 117,
+          "max": 122
+        },
+        {
+          "label": "Macro 21",
+          "min": 123,
+          "max": 128
+        },
+        {
+          "label": "Macro 22",
+          "min": 129,
+          "max": 134
+        },
+        {
+          "label": "Macro 23",
+          "min": 135,
+          "max": 140
+        },
+        {
+          "label": "Raw DMX",
+          "min": 141,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "type": 3,
+      "type_description": "Pattern - Shutter/Strobe",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Shutter open (32=default)",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe effect from slow to fast",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Shutter open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Opening pulse in sequences from slow to fast",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Closing pulse in sequences from fast to slow",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Shutter open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random strobe effect slow to fast",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Shutter open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "type": 3,
+      "type_description": "Pattern - Dimmer intensity (8bit)",
+      "capabilities": [
+        {
+          "label": "Pattern - Dimmer intensity (8bit) (0 - 100%)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "type": 21,
+      "type_description": "Master - Shutter/Strobe",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Shutter open (32=default)",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe effect from slow to fast",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Shutter open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Opening pulse in sequences from slow to fast",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Closing pulse in sequences from fast to slow",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Shutter open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random strobe effect slow to fast",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Shutter open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "type": 0,
+      "type_description": "Master Dimmer intensity (8bit)",
+      "capabilities": []
+    },
+    {
+      "index": 43,
+      "type": 0,
+      "type_description": "Master Dimmer intensity - fine (16bit)",
+      "capabilities": []
+    },
+    {
+      "index": 44,
+      "type": 0,
+      "type_description": "Red pixel 1",
+      "capabilities": []
+    },
+    {
+      "index": 45,
+      "type": 0,
+      "type_description": "Green pixel 1",
+      "capabilities": []
+    },
+    {
+      "index": 46,
+      "type": 0,
+      "type_description": "Blue pixel 1",
+      "capabilities": []
+    },
+    {
+      "index": 47,
+      "type": 0,
+      "type_description": "White pixel 1",
+      "capabilities": []
+    },
+    {
+      "index": 48,
+      "type": 0,
+      "type_description": "Red pixel 2",
+      "capabilities": []
+    },
+    {
+      "index": 49,
+      "type": 0,
+      "type_description": "Red pixel 3",
+      "capabilities": []
+    },
+    {
+      "index": 50,
+      "type": 0,
+      "type_description": "Red pixel 4",
+      "capabilities": []
+    },
+    {
+      "index": 51,
+      "type": 0,
+      "type_description": "Red pixel 5",
+      "capabilities": []
+    },
+    {
+      "index": 52,
+      "type": 0,
+      "type_description": "Red pixel 6",
+      "capabilities": []
+    },
+    {
+      "index": 53,
+      "type": 0,
+      "type_description": "Red pixel 7",
+      "capabilities": []
+    },
+    {
+      "index": 54,
+      "type": 0,
+      "type_description": "Red pixel 8",
+      "capabilities": []
+    },
+    {
+      "index": 55,
+      "type": 0,
+      "type_description": "Red pixel 9",
+      "capabilities": []
+    },
+    {
+      "index": 56,
+      "type": 0,
+      "type_description": "Green pixel 2",
+      "capabilities": []
+    },
+    {
+      "index": 57,
+      "type": 0,
+      "type_description": "Green pixel 3",
+      "capabilities": []
+    },
+    {
+      "index": 58,
+      "type": 0,
+      "type_description": "Green pixel 4",
+      "capabilities": []
+    },
+    {
+      "index": 59,
+      "type": 0,
+      "type_description": "Green pixel 5",
+      "capabilities": []
+    },
+    {
+      "index": 60,
+      "type": 0,
+      "type_description": "Green pixel 6",
+      "capabilities": []
+    },
+    {
+      "index": 61,
+      "type": 0,
+      "type_description": "Green pixel 7",
+      "capabilities": []
+    },
+    {
+      "index": 62,
+      "type": 0,
+      "type_description": "Green pixel 8",
+      "capabilities": []
+    },
+    {
+      "index": 63,
+      "type": 0,
+      "type_description": "Green pixel 9",
+      "capabilities": []
+    },
+    {
+      "index": 64,
+      "type": 0,
+      "type_description": "Blue pixel 2",
+      "capabilities": []
+    },
+    {
+      "index": 65,
+      "type": 0,
+      "type_description": "Blue pixel 3",
+      "capabilities": []
+    },
+    {
+      "index": 66,
+      "type": 0,
+      "type_description": "Blue pixel 4",
+      "capabilities": []
+    },
+    {
+      "index": 67,
+      "type": 0,
+      "type_description": "Blue pixel 5",
+      "capabilities": []
+    },
+    {
+      "index": 68,
+      "type": 0,
+      "type_description": "Blue pixel 6",
+      "capabilities": []
+    },
+    {
+      "index": 69,
+      "type": 0,
+      "type_description": "Blue pixel 7",
+      "capabilities": []
+    },
+    {
+      "index": 70,
+      "type": 0,
+      "type_description": "Blue pixel 8",
+      "capabilities": []
+    },
+    {
+      "index": 71,
+      "type": 0,
+      "type_description": "Blue pixel 9",
+      "capabilities": []
+    },
+    {
+      "index": 72,
+      "type": 0,
+      "type_description": "White pixel 2",
+      "capabilities": []
+    },
+    {
+      "index": 73,
+      "type": 0,
+      "type_description": "White pixel 3",
+      "capabilities": []
+    },
+    {
+      "index": 74,
+      "type": 0,
+      "type_description": "White pixel 4",
+      "capabilities": []
+    },
+    {
+      "index": 75,
+      "type": 0,
+      "type_description": "White pixel 5",
+      "capabilities": []
+    },
+    {
+      "index": 76,
+      "type": 0,
+      "type_description": "White pixel 6",
+      "capabilities": []
+    },
+    {
+      "index": 77,
+      "type": 0,
+      "type_description": "White pixel 7",
+      "capabilities": []
+    },
+    {
+      "index": 78,
+      "type": 0,
+      "type_description": "White pixel 8",
+      "capabilities": []
+    },
+    {
+      "index": 79,
+      "type": 0,
+      "type_description": "White pixel 9",
+      "capabilities": []
+    },
+    {
+      "index": 80,
+      "type": 0,
+      "type_description": "Master Zoom - fine",
+      "capabilities": []
+    },
+    {
+      "index": 81,
+      "type": 3,
+      "type_description": "Flower Effect 2",
+      "capabilities": [
+        {
+          "label": "Open position-without Flower Effect (0=default)",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Flower Effect forwards rotation from fast to slow",
+          "min": 1,
+          "max": 127
+        },
+        {
+          "label": "Flower Effect-without rotation",
+          "min": 128,
+          "max": 128
+        },
+        {
+          "label": "Backwards rotation from slow to fast",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 82,
+      "type": 0,
+      "type_description": "Flower Effect 2 - Red (8bit)",
+      "capabilities": []
+    },
+    {
+      "index": 83,
+      "type": 0,
+      "type_description": "Flower Effect 2 - Green (8bit)",
+      "capabilities": []
+    },
+    {
+      "index": 84,
+      "type": 0,
+      "type_description": "Flower Effect 2 - Blue (8bit)",
+      "capabilities": []
+    },
+    {
+      "index": 85,
+      "type": 0,
+      "type_description": "Flower Effect 2 - White (8bit)",
+      "capabilities": []
+    },
+    {
+      "index": 86,
+      "type": 21,
+      "type_description": "Flower Effect 2 - Shutter/Strobe",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Shutter open (32=default)",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe-effect from slow to fast",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Shutter open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Opening pulse in sequences from slow to fast",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Closing pulse in sequeces from fast to slow",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Shutter open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random strobe-effect from slow to fast",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Shutter open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 87,
+      "type": 0,
+      "type_description": "Flower Effect 2 - Dimmer intensity (8bit)",
+      "capabilities": []
+    },
+    {
+      "index": 88,
+      "type": 0,
+      "type_description": "Zoom 1",
+      "capabilities": []
+    },
+    {
+      "index": 89,
+      "type": 0,
+      "type_description": "Zoom 1 - fine",
+      "capabilities": []
+    },
+    {
+      "index": 90,
+      "type": 0,
+      "type_description": "Zoom 2",
+      "capabilities": []
+    },
+    {
+      "index": 91,
+      "type": 0,
+      "type_description": "Zoom 2 - fine",
+      "capabilities": []
+    },
+    {
+      "index": 92,
+      "type": 0,
+      "type_description": "White pixel 10",
+      "capabilities": []
+    },
+    {
+      "index": 93,
+      "type": 0,
+      "type_description": "White pixel 11",
+      "capabilities": []
+    },
+    {
+      "index": 94,
+      "type": 0,
+      "type_description": "White pixel 12",
+      "capabilities": []
+    },
+    {
+      "index": 95,
+      "type": 0,
+      "type_description": "White pixel 13",
+      "capabilities": []
+    },
+    {
+      "index": 96,
+      "type": 0,
+      "type_description": "White pixel 14",
+      "capabilities": []
+    },
+    {
+      "index": 97,
+      "type": 0,
+      "type_description": "White pixel 15",
+      "capabilities": []
+    },
+    {
+      "index": 98,
+      "type": 0,
+      "type_description": "White pixel 16",
+      "capabilities": []
+    },
+    {
+      "index": 99,
+      "type": 0,
+      "type_description": "White pixel 17",
+      "capabilities": []
+    },
+    {
+      "index": 100,
+      "type": 0,
+      "type_description": "White pixel 18",
+      "capabilities": []
+    },
+    {
+      "index": 101,
+      "type": 0,
+      "type_description": "Red pixel 10",
+      "capabilities": []
+    },
+    {
+      "index": 102,
+      "type": 0,
+      "type_description": "Red pixel 11",
+      "capabilities": []
+    },
+    {
+      "index": 103,
+      "type": 0,
+      "type_description": "Red pixel 12",
+      "capabilities": []
+    },
+    {
+      "index": 104,
+      "type": 0,
+      "type_description": "Red pixel 13",
+      "capabilities": []
+    },
+    {
+      "index": 105,
+      "type": 0,
+      "type_description": "Red pixel 14",
+      "capabilities": []
+    },
+    {
+      "index": 106,
+      "type": 0,
+      "type_description": "Red pixel 15",
+      "capabilities": []
+    },
+    {
+      "index": 107,
+      "type": 0,
+      "type_description": "Red pixel 16",
+      "capabilities": []
+    },
+    {
+      "index": 108,
+      "type": 0,
+      "type_description": "Red pixel 17",
+      "capabilities": []
+    },
+    {
+      "index": 109,
+      "type": 0,
+      "type_description": "Red pixel 18",
+      "capabilities": []
+    },
+    {
+      "index": 110,
+      "type": 0,
+      "type_description": "Green pixel 10",
+      "capabilities": []
+    },
+    {
+      "index": 111,
+      "type": 0,
+      "type_description": "Green pixel 11",
+      "capabilities": []
+    },
+    {
+      "index": 112,
+      "type": 0,
+      "type_description": "Green pixel 12",
+      "capabilities": []
+    },
+    {
+      "index": 113,
+      "type": 0,
+      "type_description": "Green pixel 13",
+      "capabilities": []
+    },
+    {
+      "index": 114,
+      "type": 0,
+      "type_description": "Green pixel 14",
+      "capabilities": []
+    },
+    {
+      "index": 115,
+      "type": 0,
+      "type_description": "Green pixel 15",
+      "capabilities": []
+    },
+    {
+      "index": 116,
+      "type": 0,
+      "type_description": "Green pixel 16",
+      "capabilities": []
+    },
+    {
+      "index": 117,
+      "type": 0,
+      "type_description": "Green pixel 17",
+      "capabilities": []
+    },
+    {
+      "index": 118,
+      "type": 0,
+      "type_description": "Green pixel 18",
+      "capabilities": []
+    },
+    {
+      "index": 119,
+      "type": 0,
+      "type_description": "Blue pixel 10",
+      "capabilities": []
+    },
+    {
+      "index": 120,
+      "type": 0,
+      "type_description": "Blue pixel 11",
+      "capabilities": []
+    },
+    {
+      "index": 121,
+      "type": 0,
+      "type_description": "Blue pixel 12",
+      "capabilities": []
+    },
+    {
+      "index": 122,
+      "type": 0,
+      "type_description": "Blue pixel 13",
+      "capabilities": []
+    },
+    {
+      "index": 123,
+      "type": 0,
+      "type_description": "Blue pixel 14",
+      "capabilities": []
+    },
+    {
+      "index": 124,
+      "type": 0,
+      "type_description": "Blue pixel 15",
+      "capabilities": []
+    },
+    {
+      "index": 125,
+      "type": 0,
+      "type_description": "Blue pixel 16",
+      "capabilities": []
+    },
+    {
+      "index": 126,
+      "type": 0,
+      "type_description": "Blue pixel 17",
+      "capabilities": []
+    },
+    {
+      "index": 127,
+      "type": 0,
+      "type_description": "Blue pixel 18",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Robe/Robe-Robin-Tetra-2.json",
+  "id": 1220
+}

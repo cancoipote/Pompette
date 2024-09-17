@@ -1,0 +1,586 @@
+{
+  "version": "1.0.0",
+  "label": "Warp M",
+  "manufacturer": "ADB",
+  "bulb_type": "MSR 1200W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 3200,
+  "dimension_weight": 11,
+  "dimension_width": 379,
+  "dimension_height": 495,
+  "dimension_depth": 748,
+  "lens_label": "Other",
+  "lens_degree_min": 12,
+  "lens_degree_max": 30,
+  "focus_type": "Head",
+  "focus_pan_max": 400,
+  "focus_tilt_max": 275,
+  "technical_power_consumption": 1200,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 17,
+      "type_description": "Control",
+      "capabilities": [
+        {
+          "label": "Fire",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Park",
+          "min": 21,
+          "max": 25
+        },
+        {
+          "label": "Online",
+          "min": 26,
+          "max": 30
+        },
+        {
+          "label": "Not used",
+          "min": 31,
+          "max": 35
+        },
+        {
+          "label": "Stealth Mode",
+          "min": 36,
+          "max": 40
+        },
+        {
+          "label": "Quiet Mode",
+          "min": 41,
+          "max": 45
+        },
+        {
+          "label": "Fast Mode",
+          "min": 46,
+          "max": 50
+        },
+        {
+          "label": "Reset all",
+          "min": 51,
+          "max": 55
+        },
+        {
+          "label": "Reset all Shutters",
+          "min": 56,
+          "max": 60
+        },
+        {
+          "label": "Reset Gobo 1",
+          "min": 61,
+          "max": 65
+        },
+        {
+          "label": "Reset Gobo 2/Iris",
+          "min": 66,
+          "max": 70
+        },
+        {
+          "label": "Reset Zoom",
+          "min": 71,
+          "max": 75
+        },
+        {
+          "label": "Reset Focus",
+          "min": 76,
+          "max": 80
+        },
+        {
+          "label": "Reset Pan",
+          "min": 81,
+          "max": 85
+        },
+        {
+          "label": "Reset Tilt",
+          "min": 86,
+          "max": 90
+        },
+        {
+          "label": "Not Used",
+          "min": 91,
+          "max": 95
+        },
+        {
+          "label": "Calibration lens",
+          "min": 96,
+          "max": 100
+        },
+        {
+          "label": "Calibration Of Shutters",
+          "min": 101,
+          "max": 105
+        },
+        {
+          "label": "Calibration of Pan/Tilt",
+          "min": 106,
+          "max": 110
+        },
+        {
+          "label": "Calibration of Iris/Gobo (only without accessory!)",
+          "min": 111,
+          "max": 115
+        },
+        {
+          "label": "Not used",
+          "min": 116,
+          "max": 120
+        },
+        {
+          "label": "Pan invert On",
+          "min": 121,
+          "max": 125
+        },
+        {
+          "label": "Pan invert Off",
+          "min": 126,
+          "max": 130
+        },
+        {
+          "label": "Tilt invert On",
+          "min": 131,
+          "max": 135
+        },
+        {
+          "label": "Tilt Off",
+          "min": 136,
+          "max": 140
+        },
+        {
+          "label": "Pan/Tilt swap On",
+          "min": 141,
+          "max": 145
+        },
+        {
+          "label": "Pan/Tilt swap Off",
+          "min": 146,
+          "max": 150
+        },
+        {
+          "label": "Display On",
+          "min": 151,
+          "max": 155
+        },
+        {
+          "label": "Display Off",
+          "min": 156,
+          "max": 160
+        },
+        {
+          "label": "Factory default setting (reserved)",
+          "min": 161,
+          "max": 165
+        },
+        {
+          "label": "User setting 1 (reserved)",
+          "min": 166,
+          "max": 170
+        },
+        {
+          "label": "User setting 2 (reserved)",
+          "min": 171,
+          "max": 175
+        },
+        {
+          "label": "User setting 3 (reserved)",
+          "min": 176,
+          "max": 180
+        },
+        {
+          "label": "Not used",
+          "min": 181,
+          "max": 185
+        },
+        {
+          "label": "DMX address setting (reserved)",
+          "min": 186,
+          "max": 190
+        },
+        {
+          "label": "Accessory change",
+          "min": 191,
+          "max": 195
+        },
+        {
+          "label": "Gobo mode indexed",
+          "min": 196,
+          "max": 200
+        },
+        {
+          "label": "Gobo mode indexed and endless rotation",
+          "min": 201,
+          "max": 205
+        },
+        {
+          "label": "Not used",
+          "min": 206,
+          "max": 240
+        },
+        {
+          "label": "Arm",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 1,
+      "type_description": "Shutter A Rotation/Index Coarse",
+      "capabilities": [
+        {
+          "label": "Shutter A Rotation/Index Coarse",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 1,
+      "type_description": "Shutter A Rotation/Index Fine",
+      "capabilities": [
+        {
+          "label": "Shutter A Rotation/Index Fine",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 1,
+      "type_description": "Shutter A In/Out",
+      "capabilities": [
+        {
+          "label": "Shutter A In/Out",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 1,
+      "type_description": "Shutter B Rotation/Index Coarse",
+      "capabilities": [
+        {
+          "label": "Shutter B Rotation/Index Coarse",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 1,
+      "type_description": "Shutter C Rotation/Index Coarse",
+      "capabilities": [
+        {
+          "label": "Shutter C Rotation/Index Coarse",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 1,
+      "type_description": "Shutter D Rotation/Index Coarse",
+      "capabilities": [
+        {
+          "label": "Shutter D Rotation/Index Coarse",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 1,
+      "type_description": "Shutter B Rotation/Index Fine",
+      "capabilities": [
+        {
+          "label": "Shutter B Rotation/Index Fine",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 1,
+      "type_description": "Shutter C Rotation/Index Fine",
+      "capabilities": [
+        {
+          "label": "Shutter C Rotation/Index Fine",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 1,
+      "type_description": "Shutter D Rotation/Index Fine",
+      "capabilities": [
+        {
+          "label": "Shutter D Rotation/Index Fine",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 1,
+      "type_description": "Shutter B In/Out",
+      "capabilities": [
+        {
+          "label": "Shutter B In/Out",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 1,
+      "type_description": "Shutter C In/Out",
+      "capabilities": [
+        {
+          "label": "Shutter C In/Out",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 1,
+      "type_description": "Shutter D In/Out 3",
+      "capabilities": [
+        {
+          "label": "Shutter D In/Out",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 1,
+      "type_description": "Shutter All rotation offset Coarse",
+      "capabilities": [
+        {
+          "label": "Shutter All rotation offset Coarse",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 1,
+      "type_description": "Shutter All rotation offset Fine",
+      "capabilities": [
+        {
+          "label": "Shutter All rotation offset Fine",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "type": 4,
+      "type_description": "Gobo 1 rotation Coarse",
+      "capabilities": [
+        {
+          "label": "Gobo 1 rotation Coarse",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "type": 4,
+      "type_description": "Gobo 1 rotation Fine",
+      "capabilities": [
+        {
+          "label": "Gobo 1 rotation Fine",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "type": 4,
+      "type_description": "Iris coarse, or coarse rotation of Gobo 2",
+      "capabilities": [
+        {
+          "label": "Iris coarse, or coarse rotation of Gobo 2",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "type": 4,
+      "type_description": "Iris fine, or fine rotation of Gobo 2",
+      "capabilities": [
+        {
+          "label": "Iris fine, or fine rotation of Gobo 2",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "External dimmer (optional)",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 18,
+      "type_description": "External DMX output (e.g. color changer) (Channel 1)",
+      "capabilities": [
+        {
+          "label": "External DMX output (e.g. color changer) (Channel 1)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "type": 18,
+      "type_description": "External DMX output (e.g. color changer) (Channe 2)",
+      "capabilities": [
+        {
+          "label": "External DMX output (e.g. color changer) (Channel 2)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "type": 18,
+      "type_description": "External DMX output (e.g. color changer) (Channel 3)",
+      "capabilities": [
+        {
+          "label": "External DMX output (e.g. color changer) (Channel 1)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "type": 18,
+      "type_description": "External DMX output (e.g. color changer) (Channel 4)",
+      "capabilities": [
+        {
+          "label": "External DMX output (e.g. color changer) (Channel 4)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "type": 18,
+      "type_description": "External DMX output (e.g. color changer) (Channel 5)",
+      "capabilities": [
+        {
+          "label": "External DMX output (e.g. color changer) (Channel 5)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "type": 18,
+      "type_description": "External DMX output (e.g. color changer) (Channel 6)",
+      "capabilities": [
+        {
+          "label": "External DMX output (e.g. color changer) (Channel 6)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "type": 18,
+      "type_description": "External DMX output (e.g. color changer) (Channel 7)",
+      "capabilities": [
+        {
+          "label": "External DMX output (e.g. color changer) (Channel 7)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "type": 18,
+      "type_description": "External DMX output (e.g. color changer) (Channel 8)",
+      "capabilities": [
+        {
+          "label": "External DMX output (e.g. color changer) (Channel 8)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/ADB/ADB-Warp-M.json",
+  "id": 19
+}

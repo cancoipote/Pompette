@@ -1,0 +1,997 @@
+{
+  "version": "1.0.0",
+  "label": "Intimidator Spot Duo",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 10900,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 8,
+  "dimension_width": 187,
+  "dimension_height": 365,
+  "dimension_depth": 540,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 360,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 98,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan 1",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Fine Pan 1",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt 1",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Fine Tilt 1",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan 2",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Fine Pan 2",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Tilt 2",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Fine Tilt 2",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Speed",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Color Wheel 1",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Orange",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Light Blue",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Red",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Green",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Pink",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Yellow",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Blue",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Rainbow with increasing speed",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Reverse rainbow increase speed",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Color Wheel 2",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Orange",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Light Blue",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Red",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Green",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Pink",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Yellow",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Blue",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Rainbow with increasing speed",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Reverse rainbow increase speed",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 4,
+      "type_description": "Gobo Wheel 1",
+      "capabilities": [
+        {
+          "label": "Static Circle",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Small Circle",
+          "min": 10,
+          "max": 15
+        },
+        {
+          "label": "Spiral 1",
+          "min": 16,
+          "max": 21
+        },
+        {
+          "label": "Spiral 2",
+          "min": 22,
+          "max": 27
+        },
+        {
+          "label": "Lightning 1",
+          "min": 28,
+          "max": 33
+        },
+        {
+          "label": "Triangle 1",
+          "min": 34,
+          "max": 39
+        },
+        {
+          "label": "Arrow 1",
+          "min": 40,
+          "max": 45
+        },
+        {
+          "label": "Wave 1",
+          "min": 46,
+          "max": 51
+        },
+        {
+          "label": "Fan Wave 1",
+          "min": 52,
+          "max": 57
+        },
+        {
+          "label": "Snowflake",
+          "min": 58,
+          "max": 63
+        },
+        {
+          "label": "Gobo 9 shake, increase speed",
+          "min": 64,
+          "max": 69
+        },
+        {
+          "label": "Gobo 8 shake, increase speed",
+          "min": 70,
+          "max": 75
+        },
+        {
+          "label": "Gobo 7 shake, increase speed",
+          "min": 76,
+          "max": 81
+        },
+        {
+          "label": "Gobo 6 shake, increase speed",
+          "min": 82,
+          "max": 87
+        },
+        {
+          "label": "Gobo 5 shake, increase speed",
+          "min": 88,
+          "max": 93
+        },
+        {
+          "label": "Gobo 4 shake, increase speed",
+          "min": 94,
+          "max": 99
+        },
+        {
+          "label": "Gobo 3 shake, increase speed",
+          "min": 100,
+          "max": 105
+        },
+        {
+          "label": "Gobo 2 shake, increase speed",
+          "min": 106,
+          "max": 111
+        },
+        {
+          "label": "Gobo 1 shake, increase speed",
+          "min": 112,
+          "max": 117
+        },
+        {
+          "label": "White",
+          "min": 118,
+          "max": 127
+        },
+        {
+          "label": "Rainbow with increase speed",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Reverse rainbow with increase speed",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 4,
+      "type_description": "Gobo Wheel 2",
+      "capabilities": [
+        {
+          "label": "Static Circle",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Small Circle",
+          "min": 10,
+          "max": 15
+        },
+        {
+          "label": "Spiral 1",
+          "min": 16,
+          "max": 21
+        },
+        {
+          "label": "Spiral 2",
+          "min": 22,
+          "max": 27
+        },
+        {
+          "label": "Lightning 1",
+          "min": 28,
+          "max": 33
+        },
+        {
+          "label": "Triangle 1",
+          "min": 34,
+          "max": 39
+        },
+        {
+          "label": "Arrow 1",
+          "min": 40,
+          "max": 45
+        },
+        {
+          "label": "Wave 1",
+          "min": 46,
+          "max": 51
+        },
+        {
+          "label": "Fan Wave 1",
+          "min": 52,
+          "max": 57
+        },
+        {
+          "label": "Snowflake",
+          "min": 58,
+          "max": 63
+        },
+        {
+          "label": "Gobo 9 shake, increase speed",
+          "min": 64,
+          "max": 69
+        },
+        {
+          "label": "Gobo 8 shake, increase speed",
+          "min": 70,
+          "max": 75
+        },
+        {
+          "label": "Gobo 7 shake, increase speed",
+          "min": 76,
+          "max": 81
+        },
+        {
+          "label": "Gobo 6 shake, increase speed",
+          "min": 82,
+          "max": 87
+        },
+        {
+          "label": "Gobo 5 shake, increase speed",
+          "min": 88,
+          "max": 93
+        },
+        {
+          "label": "Gobo 4 shake, increase speed",
+          "min": 94,
+          "max": 99
+        },
+        {
+          "label": "Gobo 3 shake, increase speed",
+          "min": 100,
+          "max": 105
+        },
+        {
+          "label": "Gobo 2 shake, increase speed",
+          "min": 106,
+          "max": 111
+        },
+        {
+          "label": "Gobo 1 shake, increase speed",
+          "min": 112,
+          "max": 117
+        },
+        {
+          "label": "White",
+          "min": 118,
+          "max": 127
+        },
+        {
+          "label": "Rainbow with increase speed",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Reverse rainbow with increase speed",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Dimmer 1",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Dimmer 2",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 21,
+      "type_description": "Shutter 1",
+      "capabilities": [
+        {
+          "label": "Light off",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Light on",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "Shutter with increase speed",
+          "min": 8,
+          "max": 76
+        },
+        {
+          "label": "Pulse strobe",
+          "min": 77,
+          "max": 145
+        },
+        {
+          "label": "Random strobe",
+          "min": 146,
+          "max": 215
+        },
+        {
+          "label": "Light on",
+          "min": 216,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 21,
+      "type_description": "Shutter 2",
+      "capabilities": [
+        {
+          "label": "Light off",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Light on",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "Shutter with increase speed",
+          "min": 8,
+          "max": 76
+        },
+        {
+          "label": "Pulse strobe",
+          "min": 77,
+          "max": 145
+        },
+        {
+          "label": "Random strobe",
+          "min": 146,
+          "max": 215
+        },
+        {
+          "label": "Light on",
+          "min": 216,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 17,
+      "type_description": "Control Functions",
+      "capabilities": [
+        {
+          "label": "None",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Pan Tilt Blackout",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "Color blackout",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "Gobo blackout",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "Pan-Tilt-Color blackout",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "Pan-Tilt-Gobo blackout",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "Color-Gobo blackout",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "Pan-Tilt-Color-Gobo blackout",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "None",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "First two heads setting",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "Latter two heads setting",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "Cancel four heads",
+          "min": 60,
+          "max": 64
+        },
+        {
+          "label": "None",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "Reset",
+          "min": 70,
+          "max": 74
+        },
+        {
+          "label": "None",
+          "min": 75,
+          "max": 79
+        },
+        {
+          "label": "Reverse pan/tilt both heads",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "Reverse pan head 1",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "Reverse pan head 2",
+          "min": 90,
+          "max": 94
+        },
+        {
+          "label": "Reverse tilt head 1",
+          "min": 95,
+          "max": 99
+        },
+        {
+          "label": "Reverse tilt head 2",
+          "min": 100,
+          "max": 104
+        },
+        {
+          "label": "Cancel reverse pan head 1",
+          "min": 105,
+          "max": 109
+        },
+        {
+          "label": "Cancel reverse pan head 2",
+          "min": 110,
+          "max": 114
+        },
+        {
+          "label": "Cancel reverse tilt head 1",
+          "min": 115,
+          "max": 119
+        },
+        {
+          "label": "Cancel reverse tilt head 2",
+          "min": 120,
+          "max": 124
+        },
+        {
+          "label": "Cancel reverse pan/tilt both heads",
+          "min": 125,
+          "max": 129
+        },
+        {
+          "label": "None",
+          "min": 130,
+          "max": 135
+        },
+        {
+          "label": "Color chase 1 with increase speed",
+          "min": 136,
+          "max": 175
+        },
+        {
+          "label": "Color chase 2 with increase speed",
+          "min": 176,
+          "max": 215
+        },
+        {
+          "label": "Color chase 3 with increase speed",
+          "min": 216,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 17,
+      "type_description": "Movement Macros",
+      "capabilities": [
+        {
+          "label": "None",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Movement Macro 1",
+          "min": 8,
+          "max": 22
+        },
+        {
+          "label": "Movement Macro 2",
+          "min": 23,
+          "max": 37
+        },
+        {
+          "label": "Movement Macro 3",
+          "min": 38,
+          "max": 52
+        },
+        {
+          "label": "Movement Macro 4",
+          "min": 53,
+          "max": 67
+        },
+        {
+          "label": "Movement Macro 5",
+          "min": 68,
+          "max": 82
+        },
+        {
+          "label": "Movement Macro 6",
+          "min": 83,
+          "max": 97
+        },
+        {
+          "label": "Movement Macro 7",
+          "min": 98,
+          "max": 112
+        },
+        {
+          "label": "Movement Macro 8",
+          "min": 113,
+          "max": 127
+        },
+        {
+          "label": "Movement Macro 9",
+          "min": 128,
+          "max": 142
+        },
+        {
+          "label": "Movement Macro 10",
+          "min": 143,
+          "max": 157
+        },
+        {
+          "label": "Movement Macro 11",
+          "min": 158,
+          "max": 172
+        },
+        {
+          "label": "Movement Macro 12",
+          "min": 173,
+          "max": 187
+        },
+        {
+          "label": "Movement Macro 13",
+          "min": 188,
+          "max": 202
+        },
+        {
+          "label": "Movement Macro 14",
+          "min": 203,
+          "max": 217
+        },
+        {
+          "label": "Movement Macro 15",
+          "min": 218,
+          "max": 232
+        },
+        {
+          "label": "Movement Macro 16",
+          "min": 233,
+          "max": 247
+        },
+        {
+          "label": "Sound Active Program",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 22,
+      "type_description": "Movement Macro Speed",
+      "capabilities": [
+        {
+          "label": "Fast to slow, Movement Macro",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Color Wheel",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Orange",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Light Blue",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Red",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Green",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Pink",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Yellow",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Blue",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Rainbow with increasing speed",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Reverse rainbow increase speed",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "type": 4,
+      "type_description": "Gobo Wheel",
+      "capabilities": [
+        {
+          "label": "Static Circle",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Small Circle",
+          "min": 10,
+          "max": 15
+        },
+        {
+          "label": "Spiral 1",
+          "min": 16,
+          "max": 21
+        },
+        {
+          "label": "Spiral 2",
+          "min": 22,
+          "max": 27
+        },
+        {
+          "label": "Lightning 1",
+          "min": 28,
+          "max": 33
+        },
+        {
+          "label": "Triangle 1",
+          "min": 34,
+          "max": 39
+        },
+        {
+          "label": "Arrow 1",
+          "min": 40,
+          "max": 45
+        },
+        {
+          "label": "Wave 1",
+          "min": 46,
+          "max": 51
+        },
+        {
+          "label": "Fan Wave 1",
+          "min": 52,
+          "max": 57
+        },
+        {
+          "label": "Snowflake",
+          "min": 58,
+          "max": 63
+        },
+        {
+          "label": "Gobo 9 shake, increase speed",
+          "min": 64,
+          "max": 69
+        },
+        {
+          "label": "Gobo 8 shake, increase speed",
+          "min": 70,
+          "max": 75
+        },
+        {
+          "label": "Gobo 7 shake, increase speed",
+          "min": 76,
+          "max": 81
+        },
+        {
+          "label": "Gobo 6 shake, increase speed",
+          "min": 82,
+          "max": 87
+        },
+        {
+          "label": "Gobo 5 shake, increase speed",
+          "min": 88,
+          "max": 93
+        },
+        {
+          "label": "Gobo 4 shake, increase speed",
+          "min": 94,
+          "max": 99
+        },
+        {
+          "label": "Gobo 3 shake, increase speed",
+          "min": 100,
+          "max": 105
+        },
+        {
+          "label": "Gobo 2 shake, increase speed",
+          "min": 106,
+          "max": 111
+        },
+        {
+          "label": "Gobo 1 shake, increase speed",
+          "min": 112,
+          "max": 117
+        },
+        {
+          "label": "White",
+          "min": 118,
+          "max": 127
+        },
+        {
+          "label": "Rainbow with increase speed",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Reverse rainbow with increase speed",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Light off",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Light on",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "Shutter with increase speed",
+          "min": 8,
+          "max": 76
+        },
+        {
+          "label": "Pulse strobe",
+          "min": 77,
+          "max": 145
+        },
+        {
+          "label": "Random strobe",
+          "min": 146,
+          "max": 215
+        },
+        {
+          "label": "Light on",
+          "min": 216,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-Intimidator-Spot-Duo.json",
+  "id": 478
+}

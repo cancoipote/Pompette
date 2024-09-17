@@ -1,0 +1,439 @@
+{
+  "version": "1.0.0",
+  "label": "Victory II Pro150",
+  "manufacturer": "SGM",
+  "bulb_type": "HTI 150W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 18,
+  "dimension_width": 180,
+  "dimension_height": 650,
+  "dimension_depth": 350,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Mirror",
+  "focus_pan_max": 90,
+  "focus_tilt_max": 180,
+  "technical_power_consumption": 375,
+  "technical_dmx_connector": "5-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Not used",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe 1.00 Hz",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Strobe 1.39 Hz",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Strobe 1.65 Hz",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Strobe 1.94 Hz",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Strobe 2.34 Hz",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Strobe 2.78 Hz",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Strobe 3.29 Hz",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Strobe 3.91 Hz",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Strobe 4.56 Hz",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Strobe 5.45 Hz",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Strobe 5.98 Hz",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Strobe 6.98 Hz",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Strobe 7.85 Hz",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Strobe 9.00 Hz",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Shutter sync: audio low freq",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Flash sync: audio low freq",
+          "min": 160,
+          "max": 172
+        },
+        {
+          "label": "Flash sync: audio high freq",
+          "min": 173,
+          "max": 185
+        },
+        {
+          "label": "Open, auto shade gobos",
+          "min": 186,
+          "max": 198
+        },
+        {
+          "label": "Open, auto shade colours",
+          "min": 199,
+          "max": 211
+        },
+        {
+          "label": "Open, auto shade gobos and colours",
+          "min": 212,
+          "max": 224
+        },
+        {
+          "label": "Open, slow gobo change",
+          "min": 225,
+          "max": 237
+        },
+        {
+          "label": "Open",
+          "min": 238,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 4,
+      "type_description": "Gobo rotation",
+      "capabilities": [
+        {
+          "label": "Rotate CW",
+          "min": 0,
+          "max": 112
+        },
+        {
+          "label": "No rotation",
+          "min": 113,
+          "max": 142
+        },
+        {
+          "label": "Rotate CCW",
+          "min": 143,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 1,
+      "type_description": "Palette",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "Colour conversion filter",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Frost filter",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Colour conversion and frost filter",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 49
+        },
+        {
+          "label": "No rotation",
+          "min": 50,
+          "max": 79
+        },
+        {
+          "label": "Rotation, slow -> fast",
+          "min": 80,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 17,
+      "type_description": "Reset",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 49
+        },
+        {
+          "label": "Lamp hysteresis",
+          "min": 50,
+          "max": 234
+        },
+        {
+          "label": "Reset",
+          "min": 235,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "White + Yellow",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Yellow",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Yellow + Magenta",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Magenta",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Magenta + Cyan",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Cyan",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Cyan + Orange",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Orange",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Orange + Green",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Green",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Green + Blue",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Blue",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Blue + Red",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Red",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Red + White",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Rainbow speed",
+          "min": 160,
+          "max": 244
+        },
+        {
+          "label": "Music hard change",
+          "min": 245,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Gobo 1",
+          "min": 20,
+          "max": 39
+        },
+        {
+          "label": "Gobo 2",
+          "min": 40,
+          "max": 59
+        },
+        {
+          "label": "Gobo 3",
+          "min": 60,
+          "max": 79
+        },
+        {
+          "label": "Gobo 4",
+          "min": 80,
+          "max": 99
+        },
+        {
+          "label": "Gobo 5",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "Gobo 6",
+          "min": 120,
+          "max": 139
+        },
+        {
+          "label": "Gobo 7",
+          "min": 140,
+          "max": 159
+        },
+        {
+          "label": "Rotagobo - speed 1",
+          "min": 160,
+          "max": 177
+        },
+        {
+          "label": "Rotagobo - speed 2",
+          "min": 178,
+          "max": 194
+        },
+        {
+          "label": "Rotagobo - speed 3",
+          "min": 195,
+          "max": 212
+        },
+        {
+          "label": "Rotagobo - speed 4",
+          "min": 213,
+          "max": 229
+        },
+        {
+          "label": "Music hard change",
+          "min": 230,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/SGM/SGM-Victory-II-Pro150.json",
+  "id": 1255
+}

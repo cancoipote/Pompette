@@ -1,0 +1,231 @@
+{
+  "version": "1.0.0",
+  "label": "PAR StageLight 12Wx7 LED",
+  "manufacturer": "Stage Right",
+  "bulb_type": "LED",
+  "bulb_lumens": 1520,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 176,
+  "dimension_height": 120,
+  "dimension_depth": 188,
+  "lens_label": "Other",
+  "lens_degree_min": 45,
+  "lens_degree_max": 45,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 84,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master Dimming",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Flash/Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 3,
+      "type_description": "Built-in Programs",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Dark->Bright from selected",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Bright->Dark from selected",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Dark-Bright-Dark from seleted",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "FADE Auto Color",
+          "min": 128,
+          "max": 164
+        },
+        {
+          "label": "Dark-Bright-Dark Auto Color",
+          "min": 165,
+          "max": 191
+        },
+        {
+          "label": "Step Auto Color",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Sound activated Step Auto Color",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 22,
+      "type_description": "Program Speed",
+      "capabilities": [
+        {
+          "label": "Speed of execution of built-in programs",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Red Dimming",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Green Dimming",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Blue Dimming",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "White Dimming",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Amber Dimming",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Ultraviolet Dimming",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 5,
+      "type_description": "nodE dim",
+      "capabilities": [
+        {
+          "label": "uses nodE setting on fixture",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Dimmer0 FAST",
+          "min": 6,
+          "max": 55
+        },
+        {
+          "label": "Dimmer1",
+          "min": 56,
+          "max": 105
+        },
+        {
+          "label": "Dimmer2 MED",
+          "min": 106,
+          "max": 155
+        },
+        {
+          "label": "Dimmer3",
+          "min": 156,
+          "max": 205
+        },
+        {
+          "label": "Dimmer4 SLOW",
+          "min": 206,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "RGB Colour Mixing",
+      "capabilities": [
+        {
+          "label": "NULL",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Red",
+          "min": 3,
+          "max": 20
+        },
+        {
+          "label": "Orange",
+          "min": 21,
+          "max": 45
+        },
+        {
+          "label": "Yellow",
+          "min": 46,
+          "max": 75
+        },
+        {
+          "label": "Green",
+          "min": 76,
+          "max": 100
+        },
+        {
+          "label": "Cyan",
+          "min": 101,
+          "max": 142
+        },
+        {
+          "label": "Blue",
+          "min": 143,
+          "max": 170
+        },
+        {
+          "label": "Purple",
+          "min": 171,
+          "max": 201
+        },
+        {
+          "label": "Magenta",
+          "min": 202,
+          "max": 212
+        },
+        {
+          "label": "White",
+          "min": 213,
+          "max": 254
+        },
+        {
+          "label": "Jump RED",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Stage_Right/Stage-Right-StageLight-12Wx7-LED-PAR.json",
+  "id": 1351
+}

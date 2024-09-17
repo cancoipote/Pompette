@@ -1,0 +1,161 @@
+{
+  "version": "1.0.0",
+  "label": "KMH Series",
+  "manufacturer": "Kam",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 515,
+  "dimension_height": 260,
+  "dimension_depth": 100,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Head",
+  "focus_pan_max": 360,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 20,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Effects",
+      "capabilities": [
+        {
+          "label": "RGBW Dimmer",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Color Mixing",
+          "min": 3,
+          "max": 223
+        },
+        {
+          "label": "Snap Color Changes (Slow > Fast)",
+          "min": 224,
+          "max": 234
+        },
+        {
+          "label": "Fading Color Changes (Slow > Fast)",
+          "min": 235,
+          "max": 243
+        },
+        {
+          "label": "Sound Control (Slow > Fast)",
+          "min": 244,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 22,
+      "type_description": "Effect Speed",
+      "capabilities": [
+        {
+          "label": "Effect Speed (Slow > Fast)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Pan Speed",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 17,
+      "type_description": "Reset",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 50
+        },
+        {
+          "label": "Pan Reset",
+          "min": 51,
+          "max": 101
+        },
+        {
+          "label": "Tilt Reset",
+          "min": 102,
+          "max": 152
+        },
+        {
+          "label": "Pan/Tilt Reset",
+          "min": 153,
+          "max": 203
+        },
+        {
+          "label": "Reset",
+          "min": 204,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Kam/Kam-KMH-Series.json",
+  "id": 940
+}

@@ -1,0 +1,414 @@
+{
+  "version": "1.0.0",
+  "label": "EFX-800",
+  "manufacturer": "Martin",
+  "bulb_type": "HTI 150W",
+  "bulb_lumens": 9500,
+  "bulb_color_temperature": 5000,
+  "dimension_weight": 17,
+  "dimension_width": 500,
+  "dimension_height": 230,
+  "dimension_depth": 400,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 204,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Dimmer intensity, lamp on",
+          "min": 5,
+          "max": 122
+        },
+        {
+          "label": "Shutter open",
+          "min": 123,
+          "max": 129
+        },
+        {
+          "label": "Strobe fast to slow",
+          "min": 130,
+          "max": 189
+        },
+        {
+          "label": "Shutter closed",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Random strobe",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Remote stand-alone auto trig",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "Blackout",
+          "min": 220,
+          "max": 239
+        },
+        {
+          "label": "RESET (5sec)",
+          "min": 240,
+          "max": 249
+        },
+        {
+          "label": "Lamp OFF (5sec)",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Gobo 1",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Gobo 2",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Gobo 3",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Gobo 4",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Gobo 5",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Gobo 6",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Gobo 7",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Gobo 8",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Gobo 9",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Gobo 10",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Gobo 11",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Gobo 12",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "No function",
+          "min": 120,
+          "max": 175
+        },
+        {
+          "label": "CW rotation fast to slow",
+          "min": 176,
+          "max": 207
+        },
+        {
+          "label": "CCW rotation slow to fast",
+          "min": 208,
+          "max": 239
+        },
+        {
+          "label": "Music trigger fast",
+          "min": 240,
+          "max": 244
+        },
+        {
+          "label": "Music trigger slow",
+          "min": 245,
+          "max": 249
+        },
+        {
+          "label": "Music trigger dynamic",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 4,
+      "type_description": "Gobo shake",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "label": "Narrow shake slow to fast",
+          "min": 2,
+          "max": 128
+        },
+        {
+          "label": "Wide shake slow to fast",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Color paddlewheel position",
+      "capabilities": [
+        {
+          "label": "No rotation",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Fixed position 0 to 360deg",
+          "min": 4,
+          "max": 103
+        },
+        {
+          "label": "No rotation",
+          "min": 104,
+          "max": 105
+        },
+        {
+          "label": "CW rotation slow to fast",
+          "min": 106,
+          "max": 155
+        },
+        {
+          "label": "No rotation",
+          "min": 156,
+          "max": 157
+        },
+        {
+          "label": "CCW rotation fast to slow",
+          "min": 158,
+          "max": 207
+        },
+        {
+          "label": "No rotation",
+          "min": 208,
+          "max": 209
+        },
+        {
+          "label": "Narrow shake slow to fast",
+          "min": 210,
+          "max": 224
+        },
+        {
+          "label": "Wide shake slow to fast",
+          "min": 225,
+          "max": 239
+        },
+        {
+          "label": "Music trigger fast",
+          "min": 240,
+          "max": 244
+        },
+        {
+          "label": "Music trigger slow",
+          "min": 245,
+          "max": 249
+        },
+        {
+          "label": "Music trigger dynamic",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Mirror dish rotation",
+      "capabilities": [
+        {
+          "label": "STOP",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "label": "CCW rotation fast to slow",
+          "min": 2,
+          "max": 65
+        },
+        {
+          "label": "CW rotation slow to fast",
+          "min": 66,
+          "max": 129
+        },
+        {
+          "label": "Shake (various)",
+          "min": 130,
+          "max": 192
+        },
+        {
+          "label": "Random shake",
+          "min": 193,
+          "max": 208
+        },
+        {
+          "label": "STOP",
+          "min": 209,
+          "max": 239
+        },
+        {
+          "label": "Music trigger fast",
+          "min": 240,
+          "max": 244
+        },
+        {
+          "label": "Music trigger slow",
+          "min": 245,
+          "max": 249
+        },
+        {
+          "label": "Music trigger dynamic",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Macro",
+      "capabilities": [
+        {
+          "label": "No macro",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Macro 1",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Macro 2",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Macro 3",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Macro 4",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Macro 5",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Macro 6",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Macro 7",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Macro 8",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Macro 9",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Macro 10",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Macro 11",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Macro 12",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "No function",
+          "min": 208,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 22,
+      "type_description": "Effects speed",
+      "capabilities": [
+        {
+          "label": "Tracking",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "label": "Vector fast to slow",
+          "min": 2,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Martin/Martin-EFX-800.json",
+  "id": 1044
+}

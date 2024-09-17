@@ -1,0 +1,65 @@
+{
+  "version": "1.0.0",
+  "label": "SlimSTRIP UV-18 IRC",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 1065,
+  "dimension_height": 126,
+  "dimension_depth": 60,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 50,
+  "technical_dmx_connector": "3-pin",
+  "type": 13,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "label": "Strobe, slow to fast",
+          "min": 2,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 3,
+      "type_description": "Sound-Active",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Sound Active",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-SlimSTRIP-UV-18-IRC.json",
+  "id": 552
+}

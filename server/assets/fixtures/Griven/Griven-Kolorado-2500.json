@@ -1,0 +1,61 @@
+{
+  "version": "1.0.0",
+  "label": "Kolorado 2500",
+  "manufacturer": "Griven",
+  "bulb_type": "HMI 2500W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 43,
+  "dimension_width": 620,
+  "dimension_height": 821,
+  "dimension_depth": 623,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 62,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 2500,
+  "technical_dmx_connector": "3-pin",
+  "type": 9,
+  "channels": [
+    {
+      "index": 0,
+      "type": 17,
+      "type_description": "Lamp",
+      "capabilities": [
+        {
+          "label": "Lamp (to turn off, 255 for 3 sec)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Yellow",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Cyan",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Magenta",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Griven/Griven-Kolorado-2500.json",
+  "id": 845
+}

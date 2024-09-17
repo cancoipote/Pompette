@@ -1,0 +1,223 @@
+{
+  "version": "1.0.0",
+  "label": "Space-4 Laser",
+  "manufacturer": "JB Systems",
+  "bulb_type": "Laser",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 145,
+  "dimension_height": 80,
+  "dimension_depth": 160,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 90,
+  "focus_tilt_max": 90,
+  "technical_power_consumption": 12,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "Laser Bock Out",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "AUTO SHOW",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "SOUND ACTIVATED SHOW (MUSIC)",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "DMX MODE (Other channels activated)",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 4,
+      "type_description": "Pattern",
+      "capabilities": [
+        {
+          "label": "32 Patterns as shown in PATTERN LIST",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 1,
+      "type_description": "Zooming",
+      "capabilities": [
+        {
+          "label": "100%-5% Size",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Zooming In",
+          "min": 128,
+          "max": 169
+        },
+        {
+          "label": "Zooming Out",
+          "min": 170,
+          "max": 209
+        },
+        {
+          "label": "Zooming In & Out",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 23,
+      "type_description": "Y Axis Roll",
+      "capabilities": [
+        {
+          "label": "0-359 degree fixed Y axis rolled",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Clockwise rolling",
+          "min": 128,
+          "max": 209
+        },
+        {
+          "label": "Anticlockwise rolling",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 19,
+      "type_description": "X Axis Roll",
+      "capabilities": [
+        {
+          "label": "0-359 degree fixed X axis rolled",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Clockwise rolling",
+          "min": 128,
+          "max": 209
+        },
+        {
+          "label": "Anticlockwise rolling",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Z Axis Roll",
+      "capabilities": [
+        {
+          "label": "0-359 degree fixed Z axis rolled",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Clockwise rolling",
+          "min": 128,
+          "max": 209
+        },
+        {
+          "label": "Anticlockwise rolling",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 19,
+      "type_description": "X Axis Move",
+      "capabilities": [
+        {
+          "label": "128 different fixed position on X",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Clockwise moving",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Anticlockwise moving",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 23,
+      "type_description": "Y Axis Move",
+      "capabilities": [
+        {
+          "label": "128 different fixed position on Y",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Clockwise moving",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Anticlockwise moving",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "1 Ch-Mode",
+      "capabilities": [
+        {
+          "label": "Laser output off",
+          "min": 0,
+          "max": 29
+        },
+        {
+          "label": "Automatic show",
+          "min": 30,
+          "max": 149
+        },
+        {
+          "label": "Sound activated show",
+          "min": 150,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/JB_Systems/JB-Systems-Space-4-Laser.json",
+  "id": 934
+}

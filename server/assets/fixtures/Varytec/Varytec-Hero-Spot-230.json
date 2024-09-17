@@ -1,0 +1,618 @@
+{
+  "version": "1.0.0",
+  "label": "Hero Spot 230",
+  "manufacturer": "Varytec",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 12,
+  "dimension_width": 303,
+  "dimension_height": 457,
+  "dimension_depth": 188,
+  "lens_label": "Other",
+  "lens_degree_min": 11,
+  "lens_degree_max": 25,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 260,
+  "technical_power_consumption": 250,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan/Tilt speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Stroboscope",
+      "capabilities": [
+        {
+          "label": "LEDs off",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Constantly increasing brightness, increasing speed (dimmed bright, quickly dark)",
+          "min": 11,
+          "max": 80
+        },
+        {
+          "label": "Constantly decreasing brightness, increasing speed (quickly bright, dimmed dark)",
+          "min": 81,
+          "max": 140
+        },
+        {
+          "label": "Impulse effect, increasing speed (dimmed light and dark)",
+          "min": 141,
+          "max": 200
+        },
+        {
+          "label": "Strobe effect, constant (0.5...20Hz)",
+          "min": 201,
+          "max": 250
+        },
+        {
+          "label": "LEDs on",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Colour wheel",
+      "capabilities": [
+        {
+          "label": "Open (white)",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "White / 3000K filter",
+          "min": 5,
+          "max": 13
+        },
+        {
+          "label": "3000K filter",
+          "min": 14,
+          "max": 22
+        },
+        {
+          "label": "3000K filter / red",
+          "min": 23,
+          "max": 31
+        },
+        {
+          "label": "Red",
+          "min": 32,
+          "max": 40
+        },
+        {
+          "label": "Red / dark blue",
+          "min": 41,
+          "max": 49
+        },
+        {
+          "label": "Dark blue",
+          "min": 50,
+          "max": 58
+        },
+        {
+          "label": "Dark blue / green",
+          "min": 59,
+          "max": 67
+        },
+        {
+          "label": "Green",
+          "min": 68,
+          "max": 76
+        },
+        {
+          "label": "Green / magenta",
+          "min": 77,
+          "max": 85
+        },
+        {
+          "label": "Magenta",
+          "min": 86,
+          "max": 94
+        },
+        {
+          "label": "Magenta / yellow",
+          "min": 95,
+          "max": 103
+        },
+        {
+          "label": "Yellow",
+          "min": 104,
+          "max": 112
+        },
+        {
+          "label": "Yellow / light blue",
+          "min": 113,
+          "max": 121
+        },
+        {
+          "label": "Bright Blue",
+          "min": 122,
+          "max": 130
+        },
+        {
+          "label": "Open (white)",
+          "min": 131,
+          "max": 139
+        },
+        {
+          "label": "Rainbow effect, rotation clockwise, decreasing speed",
+          "min": 140,
+          "max": 195
+        },
+        {
+          "label": "Stop rotation",
+          "min": 196,
+          "max": 199
+        },
+        {
+          "label": "Rainbow effect, rotation counter clockwise, increasing speed",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 4,
+      "type_description": "Static Gobo wheel",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Gobo 1",
+          "min": 8,
+          "max": 17
+        },
+        {
+          "label": "Gobo 2",
+          "min": 18,
+          "max": 27
+        },
+        {
+          "label": "Gobo 3",
+          "min": 28,
+          "max": 37
+        },
+        {
+          "label": "Gobo 4",
+          "min": 38,
+          "max": 47
+        },
+        {
+          "label": "Gobo 5",
+          "min": 48,
+          "max": 57
+        },
+        {
+          "label": "Gobo 6",
+          "min": 58,
+          "max": 67
+        },
+        {
+          "label": "Gobo 7",
+          "min": 68,
+          "max": 77
+        },
+        {
+          "label": "Gobo 1 shake, increasing speed",
+          "min": 78,
+          "max": 87
+        },
+        {
+          "label": "Gobo 2 shake, increasing speed",
+          "min": 88,
+          "max": 97
+        },
+        {
+          "label": "Gobo 3 shake, increasing speed",
+          "min": 98,
+          "max": 107
+        },
+        {
+          "label": "Gobo 4 shake, increasing speed",
+          "min": 108,
+          "max": 117
+        },
+        {
+          "label": "Gobo 5 shake, increasing speed",
+          "min": 118,
+          "max": 127
+        },
+        {
+          "label": "Gobo 6 shake, increasing speed",
+          "min": 128,
+          "max": 137
+        },
+        {
+          "label": "Gobo 7 shake, increasing speed",
+          "min": 138,
+          "max": 147
+        },
+        {
+          "label": "Gobo pass, rotation clockwise, decreasing speed",
+          "min": 148,
+          "max": 199
+        },
+        {
+          "label": "Stop rotation",
+          "min": 200,
+          "max": 203
+        },
+        {
+          "label": "Gobo pass, rotation counter-clockwise, increasing speed",
+          "min": 204,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 4,
+      "type_description": "Rotating gobo wheel",
+      "capabilities": [
+        {
+          "label": "Open (white)",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Gobo 1",
+          "min": 8,
+          "max": 17
+        },
+        {
+          "label": "Gobo 2",
+          "min": 18,
+          "max": 27
+        },
+        {
+          "label": "Gobo 3",
+          "min": 28,
+          "max": 37
+        },
+        {
+          "label": "Gobo 4",
+          "min": 38,
+          "max": 47
+        },
+        {
+          "label": "Gobo 5",
+          "min": 48,
+          "max": 57
+        },
+        {
+          "label": "Gobo 6",
+          "min": 58,
+          "max": 67
+        },
+        {
+          "label": "Gobo 7",
+          "min": 68,
+          "max": 77
+        },
+        {
+          "label": "Gobo 1 shake, increasing speed",
+          "min": 78,
+          "max": 87
+        },
+        {
+          "label": "Gobo 2 shake, increasing speed",
+          "min": 88,
+          "max": 97
+        },
+        {
+          "label": "Gobo 3 shake, increasing speed",
+          "min": 98,
+          "max": 107
+        },
+        {
+          "label": "Gobo 4 shake, increasing speed",
+          "min": 108,
+          "max": 117
+        },
+        {
+          "label": "Gobo 5 shake, increasing speed",
+          "min": 118,
+          "max": 127
+        },
+        {
+          "label": "Gobo 6 shake, increasing speed",
+          "min": 128,
+          "max": 137
+        },
+        {
+          "label": "Gobo 7 shake, increasing speed",
+          "min": 138,
+          "max": 147
+        },
+        {
+          "label": "Gobo pass, rotation clockwise, decreasing speed",
+          "min": 148,
+          "max": 199
+        },
+        {
+          "label": "Stop rotation",
+          "min": 200,
+          "max": 203
+        },
+        {
+          "label": "Gobo pass, rotation counter-clockwise, increasing speed",
+          "min": 204,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 22,
+      "type_description": "Rotating gobo wheel speed",
+      "capabilities": [
+        {
+          "label": "Stop rotation",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Gobo index (static position)",
+          "min": 8,
+          "max": 47
+        },
+        {
+          "label": "Gobo wheel 2, rotation clockwise, decreasing speed",
+          "min": 48,
+          "max": 127
+        },
+        {
+          "label": "Stop rotation",
+          "min": 128,
+          "max": 137
+        },
+        {
+          "label": "Gobo wheel 2, rotation counter-clockwise, increasing speed",
+          "min": 138,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "Open (white)",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Circular prism",
+          "min": 8,
+          "max": 99
+        },
+        {
+          "label": "Open (white)",
+          "min": 100,
+          "max": 130
+        },
+        {
+          "label": "Linear prism",
+          "min": 131,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 22,
+      "type_description": "Prism rotation",
+      "capabilities": [
+        {
+          "label": "Stop rotation",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Prism, rotation clockwise, decreasing speed",
+          "min": 8,
+          "max": 129
+        },
+        {
+          "label": "Stop rotation",
+          "min": 130,
+          "max": 133
+        },
+        {
+          "label": "Prism, rotation counter-clockwise, increasing speed",
+          "min": 134,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 3,
+      "type_description": "Preprogrammed automatic shows",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Preprogrammed automatic show 1",
+          "min": 8,
+          "max": 47
+        },
+        {
+          "label": "Preprogrammed automatic show 2",
+          "min": 48,
+          "max": 87
+        },
+        {
+          "label": "Preprogrammed automatic show 3",
+          "min": 88,
+          "max": 127
+        },
+        {
+          "label": "Preprogrammed automatic show 4",
+          "min": 128,
+          "max": 167
+        },
+        {
+          "label": "Preprogrammed automatic show 5",
+          "min": 168,
+          "max": 207
+        },
+        {
+          "label": "Preprogrammed automatic show 6",
+          "min": 208,
+          "max": 247
+        },
+        {
+          "label": "Sound control show",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 3,
+      "type_description": "Pan-Tilt auto programs",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Pan-Tilt auto program 1",
+          "min": 8,
+          "max": 32
+        },
+        {
+          "label": "Pan-Tilt auto program 2",
+          "min": 33,
+          "max": 58
+        },
+        {
+          "label": "Pan-Tilt auto program 3",
+          "min": 59,
+          "max": 84
+        },
+        {
+          "label": "Pan-Tilt auto program 4",
+          "min": 85,
+          "max": 110
+        },
+        {
+          "label": "Pan-Tilt auto program 5",
+          "min": 111,
+          "max": 136
+        },
+        {
+          "label": "Pan-Tilt auto program 6",
+          "min": 137,
+          "max": 162
+        },
+        {
+          "label": "Pan-Tilt auto program 7",
+          "min": 163,
+          "max": 188
+        },
+        {
+          "label": "Pan-Tilt auto program 8",
+          "min": 189,
+          "max": 214
+        },
+        {
+          "label": "Sound control Pan and Tilt",
+          "min": 215,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 17,
+      "type_description": "Reset",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 189
+        },
+        {
+          "label": "Reset, if the value is transmitted for at least 10 seconds",
+          "min": 190,
+          "max": 210
+        },
+        {
+          "label": "No function",
+          "min": 211,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Varytec/Varytec-Hero-Spot-230.json",
+  "id": 1497
+}

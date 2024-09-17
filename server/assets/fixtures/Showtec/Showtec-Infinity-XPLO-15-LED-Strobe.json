@@ -1,0 +1,371 @@
+{
+  "version": "1.0.0",
+  "label": "Infinity XPLO-15 LED Strobe",
+  "manufacturer": "Showtec",
+  "bulb_type": "LED",
+  "bulb_lumens": 28000,
+  "bulb_color_temperature": 6500,
+  "dimension_weight": 5,
+  "dimension_width": 319,
+  "dimension_height": 130,
+  "dimension_depth": 255,
+  "lens_label": "Other",
+  "lens_degree_min": 115,
+  "lens_degree_max": 115,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 132,
+  "technical_dmx_connector": "3-pin",
+  "type": 12,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Dimmer intensity",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Strobe duration",
+      "capabilities": [
+        {
+          "label": "Strobe flash duration, from short to long",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Effects",
+      "capabilities": [
+        {
+          "label": "Not functional",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Ramp up (fade in)",
+          "min": 6,
+          "max": 42
+        },
+        {
+          "label": "Ramp down (fade out)",
+          "min": 43,
+          "max": 85
+        },
+        {
+          "label": "Ramp up/down (fade in/out)",
+          "min": 86,
+          "max": 128
+        },
+        {
+          "label": "Random effects",
+          "min": 129,
+          "max": 171
+        },
+        {
+          "label": "Left zone",
+          "min": 172,
+          "max": 173
+        },
+        {
+          "label": "Center zone",
+          "min": 174,
+          "max": 175
+        },
+        {
+          "label": "Right zone",
+          "min": 176,
+          "max": 178
+        },
+        {
+          "label": "Pattern A",
+          "min": 179,
+          "max": 180
+        },
+        {
+          "label": "Pattern B",
+          "min": 181,
+          "max": 182
+        },
+        {
+          "label": "Pattern C",
+          "min": 183,
+          "max": 184
+        },
+        {
+          "label": "Pattern D",
+          "min": 185,
+          "max": 186
+        },
+        {
+          "label": "Random patterns",
+          "min": 187,
+          "max": 214
+        },
+        {
+          "label": "Chase 1 - from left to right, from slow to fast",
+          "min": 215,
+          "max": 235
+        },
+        {
+          "label": "Chase 2 - from right to left, from slow to fast",
+          "min": 236,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "16-bit dimmer intensity",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Dimming curves",
+      "capabilities": [
+        {
+          "label": "Default",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Not functional",
+          "min": 5,
+          "max": 29
+        },
+        {
+          "label": "Linear dimming curve",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "Square dimming curve",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "S-Curve dimming curve",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "PL-Curve dimming curve",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "Not functional",
+          "min": 50,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Zone 1 - Dimmer intensity",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 22,
+      "type_description": "Zone 1 - Strobe duration",
+      "capabilities": [
+        {
+          "label": "Strobe flash duration, from short to long",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Zone 1 - Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Zone 2 - Dimmer intensity",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 22,
+      "type_description": "Zone 2 - Strobe duration",
+      "capabilities": [
+        {
+          "label": "Strobe flash duration, from short to long",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Zone 2 - Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Zone 3 - Dimmer intensity",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 22,
+      "type_description": "Zone 3 - Strobe duration",
+      "capabilities": [
+        {
+          "label": "Strobe flash duration, from short to long",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Zone 3 - Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Zone 4 - Dimmer intensity",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 22,
+      "type_description": "Zone 4 - Strobe duration",
+      "capabilities": [
+        {
+          "label": "Strobe flash duration, from short to long",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Zone 4 - Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Zone 5 - Dimmer intensity",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 22,
+      "type_description": "Zone 5 - Strobe duration",
+      "capabilities": [
+        {
+          "label": "Strobe flash duration, from short to long",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Zone 5 - Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Zone 6 - Dimmer intensity",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 22,
+      "type_description": "Zone 6 - Strobe duration",
+      "capabilities": [
+        {
+          "label": "Strobe flash duration, from short to long",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Zone 6 - Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Zone 7 - Dimmer intensity",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 22,
+      "type_description": "Zone 7 - Strobe duration",
+      "capabilities": [
+        {
+          "label": "Strobe flash duration, from short to long",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Zone 7 - Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Zone 8 - Dimmer intensity",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 22,
+      "type_description": "Zone 8 - Strobe duration",
+      "capabilities": [
+        {
+          "label": "Strobe flash duration, from short to long",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "Zone 8 - Strobe",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Showtec/Showtec-Infinity-XPLO-15-LED-Strobe.json",
+  "id": 1297
+}

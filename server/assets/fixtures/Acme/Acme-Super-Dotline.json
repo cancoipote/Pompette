@@ -1,0 +1,2792 @@
+{
+  "version": "1.0.0",
+  "label": "Super Dotline",
+  "manufacturer": "Acme",
+  "bulb_type": "LED",
+  "bulb_lumens": 22400,
+  "bulb_color_temperature": 6300,
+  "dimension_weight": 25,
+  "dimension_width": 290,
+  "dimension_height": 120,
+  "dimension_depth": 1000,
+  "lens_label": "Other",
+  "lens_degree_min": 2,
+  "lens_degree_max": 31,
+  "focus_type": "Head",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 202,
+  "technical_power_consumption": 1205,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Main Strobe",
+      "capabilities": [
+        {
+          "label": "Close",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Open",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Strobe (Slow to fast)",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "Open",
+          "min": 132,
+          "max": 139
+        },
+        {
+          "label": "Slow Open Fast Close (Slow to fast)",
+          "min": 140,
+          "max": 181
+        },
+        {
+          "label": "Open",
+          "min": 182,
+          "max": 189
+        },
+        {
+          "label": "Fast Open Slow Close (Slow to fast)",
+          "min": 190,
+          "max": 231
+        },
+        {
+          "label": "Open",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Random Strobe (Slow to fast)",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Main Red 1",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Main Green 1",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Main Blue 1",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Main White 1",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Main Red 2",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Main Green 2",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Main Blue 2",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Main White 2",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Main Red 3",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Main Green 3",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Main Blue 3",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Main White 3",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Main Red 4",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Main Green 4",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Main Blue 4",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Main White 4",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Main Red 5",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Main Green 5",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Main Blue 5",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Main White 5",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Main Red 6",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Main Green 6",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Main Blue 6",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "Main White 6",
+      "capabilities": []
+    },
+    {
+      "index": 29,
+      "type": 17,
+      "type_description": "Special Function",
+      "capabilities": [
+        {
+          "label": "Null",
+          "min": 0,
+          "max": 29
+        },
+        {
+          "label": "Dimmer Curve: Linear",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Dimmer Curve: Square Law",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Dimmer Curve: Inv SQ Law",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Dimmer Curve: S Curve",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Power Mode: Standard",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Null",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Power Mode: Quiet",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "LED Frequency Setting Enable",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "LED Frequency Setting Disable",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Null",
+          "min": 120,
+          "max": 122
+        },
+        {
+          "label": "900Hz",
+          "min": 123,
+          "max": 123
+        },
+        {
+          "label": "1000Hz",
+          "min": 124,
+          "max": 124
+        },
+        {
+          "label": "1100Hz",
+          "min": 125,
+          "max": 125
+        },
+        {
+          "label": "1200Hz",
+          "min": 126,
+          "max": 126
+        },
+        {
+          "label": "1300Hz",
+          "min": 127,
+          "max": 127
+        },
+        {
+          "label": "1400Hz",
+          "min": 128,
+          "max": 128
+        },
+        {
+          "label": "1500Hz",
+          "min": 129,
+          "max": 129
+        },
+        {
+          "label": "2500Hz",
+          "min": 130,
+          "max": 130
+        },
+        {
+          "label": "4000Hz",
+          "min": 131,
+          "max": 131
+        },
+        {
+          "label": "5000Hz",
+          "min": 132,
+          "max": 132
+        },
+        {
+          "label": "6000Hz",
+          "min": 133,
+          "max": 133
+        },
+        {
+          "label": "10KHz",
+          "min": 134,
+          "max": 134
+        },
+        {
+          "label": "15KHz",
+          "min": 135,
+          "max": 135
+        },
+        {
+          "label": "20KHz",
+          "min": 136,
+          "max": 136
+        },
+        {
+          "label": "25KHz",
+          "min": 137,
+          "max": 137
+        },
+        {
+          "label": "Null",
+          "min": 138,
+          "max": 139
+        },
+        {
+          "label": "Tilt Reset",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Effect Reset",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "CCT Calibration: On",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "CCT Calibration: Off",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Null",
+          "min": 180,
+          "max": 199
+        },
+        {
+          "label": "All Reset",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Dimmer Speed: Fast",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "Dimmer Speed: Smooth",
+          "min": 220,
+          "max": 229
+        },
+        {
+          "label": "Line Power Mode: Off",
+          "min": 230,
+          "max": 239
+        },
+        {
+          "label": "Line Power Mode: On",
+          "min": 240,
+          "max": 249
+        },
+        {
+          "label": "Null",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "type": 3,
+      "type_description": "Macro",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 8
+        },
+        {
+          "label": "Macro 1",
+          "min": 9,
+          "max": 38
+        },
+        {
+          "label": "Macro 2",
+          "min": 39,
+          "max": 68
+        },
+        {
+          "label": "Macro 3",
+          "min": 69,
+          "max": 98
+        },
+        {
+          "label": "Macro 4",
+          "min": 99,
+          "max": 128
+        },
+        {
+          "label": "Macro 5",
+          "min": 129,
+          "max": 158
+        },
+        {
+          "label": "Macro 6",
+          "min": 159,
+          "max": 187
+        },
+        {
+          "label": "Macro 7",
+          "min": 188,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "Main Red",
+      "capabilities": []
+    },
+    {
+      "index": 32,
+      "type": 0,
+      "type_description": "Main Green",
+      "capabilities": []
+    },
+    {
+      "index": 33,
+      "type": 0,
+      "type_description": "Main Blue",
+      "capabilities": []
+    },
+    {
+      "index": 34,
+      "type": 0,
+      "type_description": "Main White",
+      "capabilities": []
+    },
+    {
+      "index": 35,
+      "type": 0,
+      "type_description": "Main Red 7",
+      "capabilities": []
+    },
+    {
+      "index": 36,
+      "type": 0,
+      "type_description": "Main Green 7",
+      "capabilities": []
+    },
+    {
+      "index": 37,
+      "type": 0,
+      "type_description": "Main Blue 7",
+      "capabilities": []
+    },
+    {
+      "index": 38,
+      "type": 0,
+      "type_description": "Main White 7",
+      "capabilities": []
+    },
+    {
+      "index": 39,
+      "type": 0,
+      "type_description": "Main Red 8",
+      "capabilities": []
+    },
+    {
+      "index": 40,
+      "type": 0,
+      "type_description": "Main Green 8",
+      "capabilities": []
+    },
+    {
+      "index": 41,
+      "type": 0,
+      "type_description": "Main Blue 8",
+      "capabilities": []
+    },
+    {
+      "index": 42,
+      "type": 0,
+      "type_description": "Main White 8",
+      "capabilities": []
+    },
+    {
+      "index": 43,
+      "type": 0,
+      "type_description": "Main Red 9",
+      "capabilities": []
+    },
+    {
+      "index": 44,
+      "type": 0,
+      "type_description": "Main Green 9",
+      "capabilities": []
+    },
+    {
+      "index": 45,
+      "type": 0,
+      "type_description": "Main Blue 9",
+      "capabilities": []
+    },
+    {
+      "index": 46,
+      "type": 0,
+      "type_description": "Main White 9",
+      "capabilities": []
+    },
+    {
+      "index": 47,
+      "type": 0,
+      "type_description": "Main Red 10",
+      "capabilities": []
+    },
+    {
+      "index": 48,
+      "type": 0,
+      "type_description": "Main Green 10",
+      "capabilities": []
+    },
+    {
+      "index": 49,
+      "type": 0,
+      "type_description": "Main Blue 10",
+      "capabilities": []
+    },
+    {
+      "index": 50,
+      "type": 0,
+      "type_description": "Main White 10",
+      "capabilities": []
+    },
+    {
+      "index": 51,
+      "type": 21,
+      "type_description": "LINE_W Strobe",
+      "capabilities": [
+        {
+          "label": "Close",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Open",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Strobe (Slow to fast)",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "Open",
+          "min": 132,
+          "max": 139
+        },
+        {
+          "label": "Slow Open Fast Close (Slow to fast)",
+          "min": 140,
+          "max": 181
+        },
+        {
+          "label": "Open",
+          "min": 182,
+          "max": 189
+        },
+        {
+          "label": "Fast Open Slow Close (Slow to fast)",
+          "min": 190,
+          "max": 231
+        },
+        {
+          "label": "Open",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Random Strobe (Slow to fast)",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "type": 21,
+      "type_description": "LINE_RGB Strobe",
+      "capabilities": [
+        {
+          "label": "Close",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Open",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Strobe (Slow to fast)",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "Open",
+          "min": 132,
+          "max": 139
+        },
+        {
+          "label": "Slow Open Fast Close (Slow to fast)",
+          "min": 140,
+          "max": 181
+        },
+        {
+          "label": "Open",
+          "min": 182,
+          "max": 189
+        },
+        {
+          "label": "Fast Open Slow Close (Slow to fast)",
+          "min": 190,
+          "max": 231
+        },
+        {
+          "label": "Open",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Random Strobe (Slow to fast)",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "type": 0,
+      "type_description": "LINE_W CW",
+      "capabilities": []
+    },
+    {
+      "index": 54,
+      "type": 0,
+      "type_description": "LINE_W WW",
+      "capabilities": []
+    },
+    {
+      "index": 55,
+      "type": 0,
+      "type_description": "LINE_RGB Red",
+      "capabilities": []
+    },
+    {
+      "index": 56,
+      "type": 0,
+      "type_description": "LINE_RGB Green",
+      "capabilities": []
+    },
+    {
+      "index": 57,
+      "type": 0,
+      "type_description": "LINE_RGB Blue",
+      "capabilities": []
+    },
+    {
+      "index": 58,
+      "type": 0,
+      "type_description": "Main CCT",
+      "capabilities": [
+        {
+          "label": "Null",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "8000K",
+          "min": 1,
+          "max": 4
+        },
+        {
+          "label": "7900K",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "7800K",
+          "min": 10,
+          "max": 13
+        },
+        {
+          "label": "7700K",
+          "min": 14,
+          "max": 18
+        },
+        {
+          "label": "7600K",
+          "min": 19,
+          "max": 22
+        },
+        {
+          "label": "7500K",
+          "min": 23,
+          "max": 27
+        },
+        {
+          "label": "7400K",
+          "min": 28,
+          "max": 31
+        },
+        {
+          "label": "7300K",
+          "min": 32,
+          "max": 36
+        },
+        {
+          "label": "7200K",
+          "min": 37,
+          "max": 40
+        },
+        {
+          "label": "7100K",
+          "min": 41,
+          "max": 45
+        },
+        {
+          "label": "7000K",
+          "min": 46,
+          "max": 49
+        },
+        {
+          "label": "6900K",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "6800K",
+          "min": 55,
+          "max": 58
+        },
+        {
+          "label": "6700K",
+          "min": 59,
+          "max": 63
+        },
+        {
+          "label": "6600K",
+          "min": 64,
+          "max": 67
+        },
+        {
+          "label": "6500K",
+          "min": 68,
+          "max": 72
+        },
+        {
+          "label": "6400K",
+          "min": 73,
+          "max": 76
+        },
+        {
+          "label": "6300K",
+          "min": 77,
+          "max": 81
+        },
+        {
+          "label": "6200K",
+          "min": 82,
+          "max": 85
+        },
+        {
+          "label": "6100K",
+          "min": 86,
+          "max": 90
+        },
+        {
+          "label": "6000K",
+          "min": 91,
+          "max": 94
+        },
+        {
+          "label": "5900K",
+          "min": 95,
+          "max": 99
+        },
+        {
+          "label": "5800K",
+          "min": 100,
+          "max": 103
+        },
+        {
+          "label": "5700K",
+          "min": 104,
+          "max": 108
+        },
+        {
+          "label": "5600K",
+          "min": 109,
+          "max": 112
+        },
+        {
+          "label": "5500K",
+          "min": 113,
+          "max": 117
+        },
+        {
+          "label": "5400K",
+          "min": 118,
+          "max": 121
+        },
+        {
+          "label": "5300K",
+          "min": 122,
+          "max": 126
+        },
+        {
+          "label": "5200K",
+          "min": 127,
+          "max": 130
+        },
+        {
+          "label": "5100K",
+          "min": 131,
+          "max": 135
+        },
+        {
+          "label": "5000K",
+          "min": 136,
+          "max": 139
+        },
+        {
+          "label": "4900K",
+          "min": 140,
+          "max": 144
+        },
+        {
+          "label": "4800K",
+          "min": 145,
+          "max": 148
+        },
+        {
+          "label": "4700K",
+          "min": 149,
+          "max": 153
+        },
+        {
+          "label": "4600K",
+          "min": 154,
+          "max": 157
+        },
+        {
+          "label": "4500K",
+          "min": 158,
+          "max": 162
+        },
+        {
+          "label": "4400K",
+          "min": 163,
+          "max": 166
+        },
+        {
+          "label": "4300K",
+          "min": 167,
+          "max": 171
+        },
+        {
+          "label": "4200K",
+          "min": 172,
+          "max": 175
+        },
+        {
+          "label": "4100K",
+          "min": 176,
+          "max": 180
+        },
+        {
+          "label": "4000K",
+          "min": 181,
+          "max": 184
+        },
+        {
+          "label": "3900K",
+          "min": 185,
+          "max": 189
+        },
+        {
+          "label": "3800K",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "3700K",
+          "min": 194,
+          "max": 198
+        },
+        {
+          "label": "3600K",
+          "min": 199,
+          "max": 202
+        },
+        {
+          "label": "3500K",
+          "min": 203,
+          "max": 207
+        },
+        {
+          "label": "3400K",
+          "min": 208,
+          "max": 211
+        },
+        {
+          "label": "3300K",
+          "min": 212,
+          "max": 216
+        },
+        {
+          "label": "3200K",
+          "min": 217,
+          "max": 220
+        },
+        {
+          "label": "3100K",
+          "min": 221,
+          "max": 225
+        },
+        {
+          "label": "3000K",
+          "min": 226,
+          "max": 229
+        },
+        {
+          "label": "2900K",
+          "min": 230,
+          "max": 234
+        },
+        {
+          "label": "2800K",
+          "min": 235,
+          "max": 238
+        },
+        {
+          "label": "2700K",
+          "min": 239,
+          "max": 243
+        },
+        {
+          "label": "2600K",
+          "min": 244,
+          "max": 247
+        },
+        {
+          "label": "2500K",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "type": 0,
+      "type_description": "Main Color",
+      "capabilities": [
+        {
+          "label": "Null",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Color 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Color 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Color 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Color 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Color 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Color 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Color 7",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Color 8",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Color 9",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Color 10",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Color 11",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Color 12",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Color 13",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Color 14",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Color 15",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Color 16",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Color 17",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Color 18",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Color 19",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Color 20",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Color 21",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Color 22",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Color 23",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Color 24",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Color 25",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Color 26",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Color 27",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Color 28",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Color 29",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Color 30",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Color 31",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "type": 3,
+      "type_description": "Main Macro",
+      "capabilities": [
+        {
+          "label": "Null",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Built-in Effect 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Built-in Effect 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Built-in Effect 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Built-in Effect 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Built-in Effect 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Built-in Effect 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Built-in Effect 7",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Built-in Effect 8",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Built-in Effect 9",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Built-in Effect 10",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Built-in Effect 11",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Built-in Effect 12",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Built-in Effect 13",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Built-in Effect 14",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Built-in Effect 15",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Built-in Effect 16",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Built-in Effect 17",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Built-in Effect 18",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Built-in Effect 19",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Built-in Effect 20",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Built-in Effect 21",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Built-in Effect 22",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Built-in Effect 23",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Null",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "type": 22,
+      "type_description": "Main Macro Speed",
+      "capabilities": [
+        {
+          "label": "Slow to Fast without Fade",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Slow to Fast with Fade",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "type": 0,
+      "type_description": "LINE_W CCT",
+      "capabilities": [
+        {
+          "label": "Null",
+          "min": 0,
+          "max": 67
+        },
+        {
+          "label": "6500K",
+          "min": 68,
+          "max": 72
+        },
+        {
+          "label": "6400K",
+          "min": 73,
+          "max": 76
+        },
+        {
+          "label": "6300K",
+          "min": 77,
+          "max": 81
+        },
+        {
+          "label": "6200K",
+          "min": 82,
+          "max": 85
+        },
+        {
+          "label": "6100K",
+          "min": 86,
+          "max": 90
+        },
+        {
+          "label": "6000K",
+          "min": 91,
+          "max": 94
+        },
+        {
+          "label": "5900K",
+          "min": 95,
+          "max": 99
+        },
+        {
+          "label": "5800K",
+          "min": 100,
+          "max": 103
+        },
+        {
+          "label": "5700K",
+          "min": 104,
+          "max": 108
+        },
+        {
+          "label": "5600K",
+          "min": 109,
+          "max": 112
+        },
+        {
+          "label": "5500K",
+          "min": 113,
+          "max": 117
+        },
+        {
+          "label": "5400K",
+          "min": 118,
+          "max": 121
+        },
+        {
+          "label": "5300K",
+          "min": 122,
+          "max": 126
+        },
+        {
+          "label": "5200K",
+          "min": 127,
+          "max": 130
+        },
+        {
+          "label": "5100K",
+          "min": 131,
+          "max": 135
+        },
+        {
+          "label": "5000K",
+          "min": 136,
+          "max": 139
+        },
+        {
+          "label": "4900K",
+          "min": 140,
+          "max": 144
+        },
+        {
+          "label": "4800K",
+          "min": 145,
+          "max": 148
+        },
+        {
+          "label": "4700K",
+          "min": 149,
+          "max": 153
+        },
+        {
+          "label": "4600K",
+          "min": 154,
+          "max": 157
+        },
+        {
+          "label": "4500K",
+          "min": 158,
+          "max": 162
+        },
+        {
+          "label": "4400K",
+          "min": 163,
+          "max": 166
+        },
+        {
+          "label": "4300K",
+          "min": 167,
+          "max": 171
+        },
+        {
+          "label": "4200K",
+          "min": 172,
+          "max": 175
+        },
+        {
+          "label": "4100K",
+          "min": 176,
+          "max": 180
+        },
+        {
+          "label": "4000K",
+          "min": 181,
+          "max": 184
+        },
+        {
+          "label": "3900K",
+          "min": 185,
+          "max": 189
+        },
+        {
+          "label": "3800K",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "3700K",
+          "min": 194,
+          "max": 198
+        },
+        {
+          "label": "3600K",
+          "min": 199,
+          "max": 202
+        },
+        {
+          "label": "3500K",
+          "min": 203,
+          "max": 207
+        },
+        {
+          "label": "3400K",
+          "min": 208,
+          "max": 211
+        },
+        {
+          "label": "3300K",
+          "min": 212,
+          "max": 216
+        },
+        {
+          "label": "3200K",
+          "min": 217,
+          "max": 220
+        },
+        {
+          "label": "3100K",
+          "min": 221,
+          "max": 225
+        },
+        {
+          "label": "3000K",
+          "min": 226,
+          "max": 229
+        },
+        {
+          "label": "2900K",
+          "min": 230,
+          "max": 234
+        },
+        {
+          "label": "2800K",
+          "min": 235,
+          "max": 238
+        },
+        {
+          "label": "2700K",
+          "min": 239,
+          "max": 243
+        },
+        {
+          "label": "2600K",
+          "min": 244,
+          "max": 247
+        },
+        {
+          "label": "2500K",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "type": 3,
+      "type_description": "LINE_W Macro",
+      "capabilities": [
+        {
+          "label": "Null",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Built-in Effect 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Built-in Effect 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Built-in Effect 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Built-in Effect 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Built-in Effect 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Built-in Effect 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Built-in Effect 7",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Built-in Effect 8",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Built-in Effect 9",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Built-in Effect 10",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Built-in Effect 11",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Built-in Effect 12",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Built-in Effect 13",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Built-in Effect 14",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Built-in Effect 15",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Built-in Effect 16",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Built-in Effect 17",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Built-in Effect 18",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Built-in Effect 19",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Built-in Effect 20",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Built-in Effect 21",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Built-in Effect 22",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Built-in Effect 23",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Null",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "type": 22,
+      "type_description": "LINE_W Macro Speed",
+      "capabilities": [
+        {
+          "label": "Slow to Fast without Fade",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Slow to Fast with Fade",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "type": 0,
+      "type_description": "LINE_RGB Color",
+      "capabilities": [
+        {
+          "label": "Null",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Color 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Color 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Color 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Color 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Color 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Color 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Color 7",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Color 8",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Color 9",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Color 10",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Color 11",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Color 12",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Color 13",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Color 14",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Color 15",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Color 16",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Color 17",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Color 18",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Color 19",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Color 20",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Color 21",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Color 22",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Color 23",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Color 24",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Color 25",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Color 26",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Color 27",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Color 28",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Color 29",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Color 30",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Color 31",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "type": 3,
+      "type_description": "LINE_RGB Macro",
+      "capabilities": [
+        {
+          "label": "Null",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Built-in Effect 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Built-in Effect 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Built-in Effect 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Built-in Effect 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Built-in Effect 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Built-in Effect 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Built-in Effect 7",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Built-in Effect 8",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Built-in Effect 9",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Built-in Effect 10",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Built-in Effect 11",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Built-in Effect 12",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Built-in Effect 13",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Built-in Effect 14",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Built-in Effect 15",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Built-in Effect 16",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Built-in Effect 17",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Built-in Effect 18",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Built-in Effect 19",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Built-in Effect 20",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Built-in Effect 21",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Built-in Effect 22",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Built-in Effect 23",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Null",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "type": 22,
+      "type_description": "LINE_RGB Macro Speed",
+      "capabilities": [
+        {
+          "label": "Slow to Fast without Fade",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Slow to Fast with Fade",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 68,
+      "type": 0,
+      "type_description": "LINE_W CW 1",
+      "capabilities": []
+    },
+    {
+      "index": 69,
+      "type": 0,
+      "type_description": "LINE_W WW 1",
+      "capabilities": []
+    },
+    {
+      "index": 70,
+      "type": 0,
+      "type_description": "LINE_W CW 2",
+      "capabilities": []
+    },
+    {
+      "index": 71,
+      "type": 0,
+      "type_description": "LINE_W WW 2",
+      "capabilities": []
+    },
+    {
+      "index": 72,
+      "type": 0,
+      "type_description": "LINE_W CW 3",
+      "capabilities": []
+    },
+    {
+      "index": 73,
+      "type": 0,
+      "type_description": "LINE_W  WW 3",
+      "capabilities": []
+    },
+    {
+      "index": 74,
+      "type": 0,
+      "type_description": "LINE_W CW 4",
+      "capabilities": []
+    },
+    {
+      "index": 75,
+      "type": 0,
+      "type_description": "LINE_W WW 4",
+      "capabilities": []
+    },
+    {
+      "index": 76,
+      "type": 0,
+      "type_description": "LINE_W CW 5",
+      "capabilities": []
+    },
+    {
+      "index": 77,
+      "type": 0,
+      "type_description": "LINE_W WW 5",
+      "capabilities": []
+    },
+    {
+      "index": 78,
+      "type": 0,
+      "type_description": "LINE_W CW 6",
+      "capabilities": []
+    },
+    {
+      "index": 79,
+      "type": 0,
+      "type_description": "LINE_W WW 6",
+      "capabilities": []
+    },
+    {
+      "index": 80,
+      "type": 0,
+      "type_description": "LINE_W CW 7",
+      "capabilities": []
+    },
+    {
+      "index": 81,
+      "type": 0,
+      "type_description": "LINE_W WW 7",
+      "capabilities": []
+    },
+    {
+      "index": 82,
+      "type": 0,
+      "type_description": "LINE_W CW 8",
+      "capabilities": []
+    },
+    {
+      "index": 83,
+      "type": 0,
+      "type_description": "LINE_W WW 8",
+      "capabilities": []
+    },
+    {
+      "index": 84,
+      "type": 0,
+      "type_description": "LINE_W CW 9",
+      "capabilities": []
+    },
+    {
+      "index": 85,
+      "type": 0,
+      "type_description": "LINE_W WW 9",
+      "capabilities": []
+    },
+    {
+      "index": 86,
+      "type": 0,
+      "type_description": "LINE_W  CW 10",
+      "capabilities": []
+    },
+    {
+      "index": 87,
+      "type": 0,
+      "type_description": "LINE_W WW 10",
+      "capabilities": []
+    },
+    {
+      "index": 88,
+      "type": 0,
+      "type_description": "LINE_W CW 11",
+      "capabilities": []
+    },
+    {
+      "index": 89,
+      "type": 0,
+      "type_description": "LINE_W WW 11",
+      "capabilities": []
+    },
+    {
+      "index": 90,
+      "type": 0,
+      "type_description": "LINE_W CW 12",
+      "capabilities": []
+    },
+    {
+      "index": 91,
+      "type": 0,
+      "type_description": "LINE_W WW 12",
+      "capabilities": []
+    },
+    {
+      "index": 92,
+      "type": 0,
+      "type_description": "LINE_W CW 13",
+      "capabilities": []
+    },
+    {
+      "index": 93,
+      "type": 0,
+      "type_description": "LINE_W WW 13",
+      "capabilities": []
+    },
+    {
+      "index": 94,
+      "type": 0,
+      "type_description": "LINE_W CW 14",
+      "capabilities": []
+    },
+    {
+      "index": 95,
+      "type": 0,
+      "type_description": "LINE_W WW 14",
+      "capabilities": []
+    },
+    {
+      "index": 96,
+      "type": 0,
+      "type_description": "LINE_W CW 15",
+      "capabilities": []
+    },
+    {
+      "index": 97,
+      "type": 0,
+      "type_description": "LINE_W WW 15",
+      "capabilities": []
+    },
+    {
+      "index": 98,
+      "type": 0,
+      "type_description": "LINE_W CW 16",
+      "capabilities": []
+    },
+    {
+      "index": 99,
+      "type": 0,
+      "type_description": "LINE_W WW 16",
+      "capabilities": []
+    },
+    {
+      "index": 100,
+      "type": 0,
+      "type_description": "LINE_W CW 17",
+      "capabilities": []
+    },
+    {
+      "index": 101,
+      "type": 0,
+      "type_description": "LINE_W WW 17",
+      "capabilities": []
+    },
+    {
+      "index": 102,
+      "type": 0,
+      "type_description": "LINE_W CW 18",
+      "capabilities": []
+    },
+    {
+      "index": 103,
+      "type": 0,
+      "type_description": "LINE_W WW 18",
+      "capabilities": []
+    },
+    {
+      "index": 104,
+      "type": 0,
+      "type_description": "LINE_W CW 19",
+      "capabilities": []
+    },
+    {
+      "index": 105,
+      "type": 0,
+      "type_description": "LINE_W WW 19",
+      "capabilities": []
+    },
+    {
+      "index": 106,
+      "type": 0,
+      "type_description": "LINE_W CW 20",
+      "capabilities": []
+    },
+    {
+      "index": 107,
+      "type": 0,
+      "type_description": "LINE_W WW 20",
+      "capabilities": []
+    },
+    {
+      "index": 108,
+      "type": 0,
+      "type_description": "LINE_W CW 21",
+      "capabilities": []
+    },
+    {
+      "index": 109,
+      "type": 0,
+      "type_description": "LINE_W WW 21",
+      "capabilities": []
+    },
+    {
+      "index": 110,
+      "type": 0,
+      "type_description": "LINE_W CW 22",
+      "capabilities": []
+    },
+    {
+      "index": 111,
+      "type": 0,
+      "type_description": "LINE_W WW 22",
+      "capabilities": []
+    },
+    {
+      "index": 112,
+      "type": 0,
+      "type_description": "LINE_W CW 23",
+      "capabilities": []
+    },
+    {
+      "index": 113,
+      "type": 0,
+      "type_description": "LINE_W WW 23",
+      "capabilities": []
+    },
+    {
+      "index": 114,
+      "type": 0,
+      "type_description": "LINE_W CW 24",
+      "capabilities": []
+    },
+    {
+      "index": 115,
+      "type": 0,
+      "type_description": "LINE_W WW 24",
+      "capabilities": []
+    },
+    {
+      "index": 116,
+      "type": 0,
+      "type_description": "LINE_RGB Red 1",
+      "capabilities": []
+    },
+    {
+      "index": 117,
+      "type": 0,
+      "type_description": "LINE_RGB Green 1",
+      "capabilities": []
+    },
+    {
+      "index": 118,
+      "type": 0,
+      "type_description": "LINE_RGB Blue 1",
+      "capabilities": []
+    },
+    {
+      "index": 119,
+      "type": 0,
+      "type_description": "LINE_RGB Red 2",
+      "capabilities": []
+    },
+    {
+      "index": 120,
+      "type": 0,
+      "type_description": "LINE_RGB Green 2",
+      "capabilities": []
+    },
+    {
+      "index": 121,
+      "type": 0,
+      "type_description": "LINE_RGB Blue 2",
+      "capabilities": []
+    },
+    {
+      "index": 122,
+      "type": 0,
+      "type_description": "LINE_RGB Red 3",
+      "capabilities": []
+    },
+    {
+      "index": 123,
+      "type": 0,
+      "type_description": "LINE_RGB Green 3",
+      "capabilities": []
+    },
+    {
+      "index": 124,
+      "type": 0,
+      "type_description": "LINE_RGB Blue 3",
+      "capabilities": []
+    },
+    {
+      "index": 125,
+      "type": 0,
+      "type_description": "LINE_RGB Red 4",
+      "capabilities": []
+    },
+    {
+      "index": 126,
+      "type": 0,
+      "type_description": "LINE_RGB Green 4",
+      "capabilities": []
+    },
+    {
+      "index": 127,
+      "type": 0,
+      "type_description": "LINE_RGB Blue 4",
+      "capabilities": []
+    },
+    {
+      "index": 128,
+      "type": 0,
+      "type_description": "LINE_RGB Red 5",
+      "capabilities": []
+    },
+    {
+      "index": 129,
+      "type": 0,
+      "type_description": "LINE_RGB Green 5",
+      "capabilities": []
+    },
+    {
+      "index": 130,
+      "type": 0,
+      "type_description": "LINE_RGB Blue 5",
+      "capabilities": []
+    },
+    {
+      "index": 131,
+      "type": 0,
+      "type_description": "LINE_RGB Red 6",
+      "capabilities": []
+    },
+    {
+      "index": 132,
+      "type": 0,
+      "type_description": "LINE_RGB Green 6",
+      "capabilities": []
+    },
+    {
+      "index": 133,
+      "type": 0,
+      "type_description": "LINE_RGB Blue 6",
+      "capabilities": []
+    },
+    {
+      "index": 134,
+      "type": 0,
+      "type_description": "LINE_RGB Red 7",
+      "capabilities": []
+    },
+    {
+      "index": 135,
+      "type": 0,
+      "type_description": "LINE_RGB Green 7",
+      "capabilities": []
+    },
+    {
+      "index": 136,
+      "type": 0,
+      "type_description": "LINE_RGB Blue 7",
+      "capabilities": []
+    },
+    {
+      "index": 137,
+      "type": 0,
+      "type_description": "LINE_RGB Red 8",
+      "capabilities": []
+    },
+    {
+      "index": 138,
+      "type": 0,
+      "type_description": "LINE_RGB Green 8",
+      "capabilities": []
+    },
+    {
+      "index": 139,
+      "type": 0,
+      "type_description": "LINE_RGB Blue 8",
+      "capabilities": []
+    },
+    {
+      "index": 140,
+      "type": 0,
+      "type_description": "LINE_RGB Red 9",
+      "capabilities": []
+    },
+    {
+      "index": 141,
+      "type": 0,
+      "type_description": "LINE_RGB Green 9",
+      "capabilities": []
+    },
+    {
+      "index": 142,
+      "type": 0,
+      "type_description": "LINE_RGB Blue 9",
+      "capabilities": []
+    },
+    {
+      "index": 143,
+      "type": 0,
+      "type_description": "LINE_RGB Red 10",
+      "capabilities": []
+    },
+    {
+      "index": 144,
+      "type": 0,
+      "type_description": "LINE_RGB Green 10",
+      "capabilities": []
+    },
+    {
+      "index": 145,
+      "type": 0,
+      "type_description": "LINE_RGB Blue 10",
+      "capabilities": []
+    },
+    {
+      "index": 146,
+      "type": 0,
+      "type_description": "LINE_RGB Red 11",
+      "capabilities": []
+    },
+    {
+      "index": 147,
+      "type": 0,
+      "type_description": "LINE_RGB Green 11",
+      "capabilities": []
+    },
+    {
+      "index": 148,
+      "type": 0,
+      "type_description": "LINE_RGB Blue 11",
+      "capabilities": []
+    },
+    {
+      "index": 149,
+      "type": 0,
+      "type_description": "LINE_RGB Red 12",
+      "capabilities": []
+    },
+    {
+      "index": 150,
+      "type": 0,
+      "type_description": "LINE_RGB Green 12",
+      "capabilities": []
+    },
+    {
+      "index": 151,
+      "type": 0,
+      "type_description": "LINE_RGB Blue 12",
+      "capabilities": []
+    },
+    {
+      "index": 152,
+      "type": 0,
+      "type_description": "LINE_RGB Red 13",
+      "capabilities": []
+    },
+    {
+      "index": 153,
+      "type": 0,
+      "type_description": "LINE_RGB Green 13",
+      "capabilities": []
+    },
+    {
+      "index": 154,
+      "type": 0,
+      "type_description": "LINE_RGB Blue 13",
+      "capabilities": []
+    },
+    {
+      "index": 155,
+      "type": 0,
+      "type_description": "LINE_RGB Red 14",
+      "capabilities": []
+    },
+    {
+      "index": 156,
+      "type": 0,
+      "type_description": "LINE_RGB Green 14",
+      "capabilities": []
+    },
+    {
+      "index": 157,
+      "type": 0,
+      "type_description": "LINE_RGB Blue 14",
+      "capabilities": []
+    },
+    {
+      "index": 158,
+      "type": 0,
+      "type_description": "LINE_RGB Red 15",
+      "capabilities": []
+    },
+    {
+      "index": 159,
+      "type": 0,
+      "type_description": "LINE_RGB Green 15",
+      "capabilities": []
+    },
+    {
+      "index": 160,
+      "type": 0,
+      "type_description": "LINE_RGB Blue 15",
+      "capabilities": []
+    },
+    {
+      "index": 161,
+      "type": 0,
+      "type_description": "LINE_RGB Red 16",
+      "capabilities": []
+    },
+    {
+      "index": 162,
+      "type": 0,
+      "type_description": "LINE_RGB Green 16",
+      "capabilities": []
+    },
+    {
+      "index": 163,
+      "type": 0,
+      "type_description": "LINE_RGB Blue 16",
+      "capabilities": []
+    },
+    {
+      "index": 164,
+      "type": 0,
+      "type_description": "LINE_RGB Red 17",
+      "capabilities": []
+    },
+    {
+      "index": 165,
+      "type": 0,
+      "type_description": "LINE_RGB Green 17",
+      "capabilities": []
+    },
+    {
+      "index": 166,
+      "type": 0,
+      "type_description": "LINE_RGB Blue 17",
+      "capabilities": []
+    },
+    {
+      "index": 167,
+      "type": 0,
+      "type_description": "LINE_RGB Red 18",
+      "capabilities": []
+    },
+    {
+      "index": 168,
+      "type": 0,
+      "type_description": "LINE_RGB Green 18",
+      "capabilities": []
+    },
+    {
+      "index": 169,
+      "type": 0,
+      "type_description": "LINE_RGB Blue 18",
+      "capabilities": []
+    },
+    {
+      "index": 170,
+      "type": 0,
+      "type_description": "LINE_RGB Red 19",
+      "capabilities": []
+    },
+    {
+      "index": 171,
+      "type": 0,
+      "type_description": "LINE_RGB Green 19",
+      "capabilities": []
+    },
+    {
+      "index": 172,
+      "type": 0,
+      "type_description": "LINE_RGB Blue 19",
+      "capabilities": []
+    },
+    {
+      "index": 173,
+      "type": 0,
+      "type_description": "LINE_RGB Red 20",
+      "capabilities": []
+    },
+    {
+      "index": 174,
+      "type": 0,
+      "type_description": "LINE_RGB Green 20",
+      "capabilities": []
+    },
+    {
+      "index": 175,
+      "type": 0,
+      "type_description": "LINE_RGB Blue 20",
+      "capabilities": []
+    },
+    {
+      "index": 176,
+      "type": 0,
+      "type_description": "LINE_RGB Red 21",
+      "capabilities": []
+    },
+    {
+      "index": 177,
+      "type": 0,
+      "type_description": "LINE_RGB Green 21",
+      "capabilities": []
+    },
+    {
+      "index": 178,
+      "type": 0,
+      "type_description": "LINE_RGB Blue 21",
+      "capabilities": []
+    },
+    {
+      "index": 179,
+      "type": 0,
+      "type_description": "LINE_RGB Red 22",
+      "capabilities": []
+    },
+    {
+      "index": 180,
+      "type": 0,
+      "type_description": "LINE_RGB Green 22",
+      "capabilities": []
+    },
+    {
+      "index": 181,
+      "type": 0,
+      "type_description": "LINE_RGB Blue 22",
+      "capabilities": []
+    },
+    {
+      "index": 182,
+      "type": 0,
+      "type_description": "LINE_RGB Red 23",
+      "capabilities": []
+    },
+    {
+      "index": 183,
+      "type": 0,
+      "type_description": "LINE_RGB Green 23",
+      "capabilities": []
+    },
+    {
+      "index": 184,
+      "type": 0,
+      "type_description": "LINE_RGB Blue 23",
+      "capabilities": []
+    },
+    {
+      "index": 185,
+      "type": 0,
+      "type_description": "LINE_RGB Red 24",
+      "capabilities": []
+    },
+    {
+      "index": 186,
+      "type": 0,
+      "type_description": "LINE_RGB Green 24",
+      "capabilities": []
+    },
+    {
+      "index": 187,
+      "type": 0,
+      "type_description": "LINE_RGB Blue 24",
+      "capabilities": []
+    },
+    {
+      "index": 188,
+      "type": 0,
+      "type_description": "Main Red 11&12",
+      "capabilities": []
+    },
+    {
+      "index": 189,
+      "type": 0,
+      "type_description": "Main Green 11&12",
+      "capabilities": []
+    },
+    {
+      "index": 190,
+      "type": 0,
+      "type_description": "Main Blue 11&12",
+      "capabilities": []
+    },
+    {
+      "index": 191,
+      "type": 0,
+      "type_description": "Main White 11&12",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Acme/Acme-Super-Dotline.json",
+  "id": 9
+}

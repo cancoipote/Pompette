@@ -1,0 +1,160 @@
+{
+  "version": "1.0.0",
+  "label": "City Color 1800",
+  "manufacturer": "Studio Due",
+  "bulb_type": "MHN/SA 1800W Philips",
+  "bulb_lumens": 180000,
+  "bulb_color_temperature": 5600,
+  "dimension_weight": 56,
+  "dimension_width": 780,
+  "dimension_height": 720,
+  "dimension_depth": 560,
+  "lens_label": "Other",
+  "lens_degree_min": 50,
+  "lens_degree_max": 52,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 2000,
+  "technical_dmx_connector": "5-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 17,
+      "type_description": "Motor Speed",
+      "capabilities": [
+        {
+          "label": "Slow",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "Mid 2",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Mid 1",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Fast",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Cyan",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Yellow",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Magenta",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Macro Color",
+      "capabilities": [
+        {
+          "label": "Color Mixing",
+          "min": 0,
+          "max": 25
+        },
+        {
+          "label": "Cyan",
+          "min": 26,
+          "max": 51
+        },
+        {
+          "label": "Yellow",
+          "min": 52,
+          "max": 77
+        },
+        {
+          "label": "Magenta",
+          "min": 78,
+          "max": 103
+        },
+        {
+          "label": "Blue",
+          "min": 104,
+          "max": 129
+        },
+        {
+          "label": "Red",
+          "min": 130,
+          "max": 155
+        },
+        {
+          "label": "Green",
+          "min": 156,
+          "max": 181
+        },
+        {
+          "label": "Color mix sequence (slow)",
+          "min": 182,
+          "max": 207
+        },
+        {
+          "label": "Color mix sequence (mid)",
+          "min": 208,
+          "max": 233
+        },
+        {
+          "label": "Color mix sequence (fast)",
+          "min": 234,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 17,
+      "type_description": "Reset / Lamp Off",
+      "capabilities": [
+        {
+          "label": "Normal",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Reset (Delay)",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Normal",
+          "min": 192,
+          "max": 250
+        },
+        {
+          "label": "Lamp Off (Delay)",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Studio_Due/Studio-Due-City-Color-1800.json",
+  "id": 1455
+}

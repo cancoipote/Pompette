@@ -1,0 +1,140 @@
+{
+  "version": "1.0.0",
+  "label": "ComPar 20",
+  "manufacturer": "Ayra",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 175,
+  "dimension_height": 180,
+  "dimension_depth": 110,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 25,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Color Marco",
+      "capabilities": [
+        {
+          "label": "Red",
+          "min": 0,
+          "max": 36
+        },
+        {
+          "label": "Green",
+          "min": 37,
+          "max": 73
+        },
+        {
+          "label": "Blue",
+          "min": 74,
+          "max": 110
+        },
+        {
+          "label": "Yellow",
+          "min": 111,
+          "max": 147
+        },
+        {
+          "label": "Magenta",
+          "min": 148,
+          "max": 184
+        },
+        {
+          "label": "Cyan",
+          "min": 185,
+          "max": 221
+        },
+        {
+          "label": "White",
+          "min": 222,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Strobe slow to fast",
+          "min": 8,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Effect",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Color Marco (Color 1 - Color 15)",
+          "min": 5,
+          "max": 80
+        },
+        {
+          "label": "Color Jumping (slow to fast)",
+          "min": 81,
+          "max": 150
+        },
+        {
+          "label": "Color Fading (slow to fast)",
+          "min": 151,
+          "max": 220
+        },
+        {
+          "label": "Sound control (mic sens)",
+          "min": 221,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Ayra/Ayra-ComPar20.json",
+  "id": 231
+}

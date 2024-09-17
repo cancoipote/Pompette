@@ -1,0 +1,434 @@
+{
+  "version": "1.0.0",
+  "label": "SBL2000",
+  "manufacturer": "Involight",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 10,
+  "dimension_width": 1060,
+  "dimension_height": 190,
+  "dimension_depth": 70,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 90,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "no use",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 22,
+      "type_description": "Speed",
+      "capabilities": [
+        {
+          "label": "no use",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Sensitivity",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 5,
+      "type_description": "Master dimmer 1",
+      "capabilities": [
+        {
+          "label": "off",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "dimming",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 5,
+      "type_description": "Red 1",
+      "capabilities": [
+        {
+          "label": "off",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Red 1 intensity (0 - 100%)",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 5,
+      "type_description": "Green 1",
+      "capabilities": [
+        {
+          "label": "off",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Green 1 intensity (0 - 100%)",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 5,
+      "type_description": "Blue 1",
+      "capabilities": [
+        {
+          "label": "off",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Blue 1 intensity (0 - 100%)",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 17,
+      "type_description": "Function",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Red",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Yellow",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Green",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Cyan",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Blue",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Purple",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "White",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Program01",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Program02",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Program03",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Program04",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Program05",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Program06",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Program07",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Program08",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Program09",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Program10",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Program11",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Program12",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Program13",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Program14",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Program15",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Program16",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Program17",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Program18",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Program19",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Program20",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Program21",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Sound Mode",
+          "min": 232,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Red 2",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Red 3",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Red 4",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Red 5",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Red 6",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Red 7",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Red 8",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Green 2",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Green 3",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Green 4",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Green 5",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Green 6",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Green 7",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Green 8",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Blue 2",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Blue 3",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Blue 4",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "Blue 5",
+      "capabilities": []
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "Blue 6",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 0,
+      "type_description": "Blue 7",
+      "capabilities": []
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "Blue 8",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Involight/Involight-SBL2000.json",
+  "id": 900
+}

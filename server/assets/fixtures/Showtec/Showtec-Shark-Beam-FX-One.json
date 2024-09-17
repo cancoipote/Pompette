@@ -1,0 +1,311 @@
+{
+  "version": "1.0.0",
+  "label": "Shark Beam FX One",
+  "manufacturer": "Showtec",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 5,
+  "dimension_width": 175,
+  "dimension_height": 355,
+  "dimension_depth": 255,
+  "lens_label": "Other",
+  "lens_degree_min": 4,
+  "lens_degree_max": 60,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 135,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 21,
+      "type_description": "Strobe/Shutter",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe",
+          "min": 10,
+          "max": 250
+        },
+        {
+          "label": "Open",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Color Macros",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Red",
+          "min": 11,
+          "max": 20
+        },
+        {
+          "label": "Green",
+          "min": 21,
+          "max": 30
+        },
+        {
+          "label": "Blue",
+          "min": 31,
+          "max": 40
+        },
+        {
+          "label": "White",
+          "min": 41,
+          "max": 50
+        },
+        {
+          "label": "Red + White",
+          "min": 51,
+          "max": 60
+        },
+        {
+          "label": "Green + White",
+          "min": 61,
+          "max": 70
+        },
+        {
+          "label": "Blue + White",
+          "min": 71,
+          "max": 80
+        },
+        {
+          "label": "Red + Green",
+          "min": 81,
+          "max": 90
+        },
+        {
+          "label": "Green + Blue",
+          "min": 91,
+          "max": 100
+        },
+        {
+          "label": "Red + Blue",
+          "min": 101,
+          "max": 110
+        },
+        {
+          "label": "Red + Green + Blue",
+          "min": 111,
+          "max": 120
+        },
+        {
+          "label": "Green + Blue + White",
+          "min": 121,
+          "max": 130
+        },
+        {
+          "label": "Red + Blue + White",
+          "min": 131,
+          "max": 140
+        },
+        {
+          "label": "Red + Green + Blue + White",
+          "min": 141,
+          "max": 150
+        },
+        {
+          "label": "Switch, Slow to Fast",
+          "min": 151,
+          "max": 200
+        },
+        {
+          "label": "Flow, Slow to Fast",
+          "min": 201,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 1,
+      "type_description": "Beam",
+      "capabilities": [
+        {
+          "label": "Effect, Closed to Open",
+          "min": 0,
+          "max": 100
+        },
+        {
+          "label": "Bounce. Slow to Fast",
+          "min": 101,
+          "max": 133
+        },
+        {
+          "label": "CCW, Fast to Slow",
+          "min": 134,
+          "max": 194
+        },
+        {
+          "label": "CW, Slow to Fast",
+          "min": 195,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Functions",
+      "capabilities": [
+        {
+          "label": "Not functional",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Built-in program 1",
+          "min": 11,
+          "max": 20
+        },
+        {
+          "label": "Built-in program 2",
+          "min": 21,
+          "max": 30
+        },
+        {
+          "label": "Built-in program 3",
+          "min": 31,
+          "max": 40
+        },
+        {
+          "label": "Built-in program 4",
+          "min": 41,
+          "max": 50
+        },
+        {
+          "label": "Built-in program 5",
+          "min": 51,
+          "max": 60
+        },
+        {
+          "label": "Built-in program 6",
+          "min": 61,
+          "max": 70
+        },
+        {
+          "label": "Built-in program 7",
+          "min": 71,
+          "max": 80
+        },
+        {
+          "label": "Built-in program 8",
+          "min": 81,
+          "max": 90
+        },
+        {
+          "label": "Sound-controlled Off to High",
+          "min": 91,
+          "max": 230
+        },
+        {
+          "label": "Reset after 3 seconds",
+          "min": 231,
+          "max": 240
+        },
+        {
+          "label": "Not Functional",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Pan/Tilt speed",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 5,
+      "type_description": "Color Temperature",
+      "capabilities": [
+        {
+          "label": "Color temperature",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Showtec/Showtec-Shark-Beam-FX-One.json",
+  "id": 1327
+}

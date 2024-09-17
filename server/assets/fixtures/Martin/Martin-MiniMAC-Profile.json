@@ -1,0 +1,446 @@
+{
+  "version": "1.0.0",
+  "label": "MiniMAC Profile",
+  "manufacturer": "Martin",
+  "bulb_type": "HTI 150W",
+  "bulb_lumens": 1950,
+  "bulb_color_temperature": 6500,
+  "dimension_weight": 12,
+  "dimension_width": 316,
+  "dimension_height": 390,
+  "dimension_depth": 415,
+  "lens_label": "PC",
+  "lens_degree_min": 17,
+  "lens_degree_max": 17,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 210,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Shutter, strobe, reset, lamp",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Shutter open",
+          "min": 20,
+          "max": 38
+        },
+        {
+          "label": "Shutter open",
+          "min": 39,
+          "max": 49
+        },
+        {
+          "label": "Strobe, fast -> slow",
+          "min": 50,
+          "max": 112
+        },
+        {
+          "label": "Shutter open",
+          "min": 113,
+          "max": 127
+        },
+        {
+          "label": "Random strobe, fast -> slow",
+          "min": 128,
+          "max": 157
+        },
+        {
+          "label": "Shutter open",
+          "min": 158,
+          "max": 167
+        },
+        {
+          "label": "Stand-alone, music trigger",
+          "min": 168,
+          "max": 177
+        },
+        {
+          "label": "Stand-alone, auto trigger",
+          "min": 178,
+          "max": 187
+        },
+        {
+          "label": "Shutter open",
+          "min": 188,
+          "max": 207
+        },
+        {
+          "label": "Reset",
+          "min": 208,
+          "max": 217
+        },
+        {
+          "label": "Shutter open",
+          "min": 218,
+          "max": 227
+        },
+        {
+          "label": "Lamp on",
+          "min": 228,
+          "max": 237
+        },
+        {
+          "label": "Shutter open",
+          "min": 238,
+          "max": 247
+        },
+        {
+          "label": "Lamp off",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 11
+        },
+        {
+          "label": "CTC 5500->3400",
+          "min": 12,
+          "max": 23
+        },
+        {
+          "label": "Pink 312",
+          "min": 24,
+          "max": 35
+        },
+        {
+          "label": "Red 301",
+          "min": 36,
+          "max": 47
+        },
+        {
+          "label": "Green 206",
+          "min": 48,
+          "max": 59
+        },
+        {
+          "label": "Cyan 104",
+          "min": 60,
+          "max": 71
+        },
+        {
+          "label": "Yellow 603",
+          "min": 72,
+          "max": 83
+        },
+        {
+          "label": "Magenta 507",
+          "min": 84,
+          "max": 95
+        },
+        {
+          "label": "Blue 101",
+          "min": 96,
+          "max": 107
+        },
+        {
+          "label": "Green 208",
+          "min": 108,
+          "max": 119
+        },
+        {
+          "label": "Purple 502",
+          "min": 120,
+          "max": 131
+        },
+        {
+          "label": "Orange 306",
+          "min": 132,
+          "max": 143
+        },
+        {
+          "label": "Blue 108",
+          "min": 144,
+          "max": 150
+        },
+        {
+          "label": "Blue 108",
+          "min": 151,
+          "max": 159
+        },
+        {
+          "label": "Orange 306",
+          "min": 160,
+          "max": 163
+        },
+        {
+          "label": "Purple 502",
+          "min": 164,
+          "max": 167
+        },
+        {
+          "label": "Green 208",
+          "min": 168,
+          "max": 171
+        },
+        {
+          "label": "Blue 101",
+          "min": 172,
+          "max": 175
+        },
+        {
+          "label": "Magenta 507",
+          "min": 176,
+          "max": 179
+        },
+        {
+          "label": "Yellow 603",
+          "min": 180,
+          "max": 183
+        },
+        {
+          "label": "Cyan 104",
+          "min": 184,
+          "max": 187
+        },
+        {
+          "label": "Green 206",
+          "min": 188,
+          "max": 191
+        },
+        {
+          "label": "Red 301",
+          "min": 192,
+          "max": 195
+        },
+        {
+          "label": "Pink 312",
+          "min": 196,
+          "max": 199
+        },
+        {
+          "label": "CTC 5500->3400",
+          "min": 200,
+          "max": 203
+        },
+        {
+          "label": "White",
+          "min": 204,
+          "max": 207
+        },
+        {
+          "label": "CW rotation, fast -> slow",
+          "min": 208,
+          "max": 245
+        },
+        {
+          "label": "Random color, fast -> slow",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Fibroid texture glass",
+          "min": 21,
+          "max": 35
+        },
+        {
+          "label": "Radial dashes",
+          "min": 36,
+          "max": 50
+        },
+        {
+          "label": "Stardust 2",
+          "min": 51,
+          "max": 65
+        },
+        {
+          "label": "Atomic 2",
+          "min": 66,
+          "max": 80
+        },
+        {
+          "label": "Highways 2",
+          "min": 81,
+          "max": 95
+        },
+        {
+          "label": "Decentered beam",
+          "min": 96,
+          "max": 110
+        },
+        {
+          "label": "Sunburst 507",
+          "min": 111,
+          "max": 125
+        },
+        {
+          "label": "Decentered beam, shake speed",
+          "min": 126,
+          "max": 145
+        },
+        {
+          "label": "Highways 2, shake speed",
+          "min": 146,
+          "max": 165
+        },
+        {
+          "label": "Atomic 2, shake speed",
+          "min": 166,
+          "max": 185
+        },
+        {
+          "label": "Stardust 2, shake speed",
+          "min": 186,
+          "max": 205
+        },
+        {
+          "label": "Radial dashes, shake speed",
+          "min": 206,
+          "max": 225
+        },
+        {
+          "label": "Fibroid texture glass, shake speed",
+          "min": 226,
+          "max": 245
+        },
+        {
+          "label": "Random gobo speed, fast -> slow",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 4,
+      "type_description": "Gobo rotation/swing",
+      "capabilities": [
+        {
+          "label": "No rotation",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "CW rotation, slow -> fast",
+          "min": 3,
+          "max": 117
+        },
+        {
+          "label": "CCW rotation, fast -> slow",
+          "min": 118,
+          "max": 232
+        },
+        {
+          "label": "No rotation",
+          "min": 233,
+          "max": 239
+        },
+        {
+          "label": "Gobo swing, slow -> fast",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 22,
+      "type_description": "Pan/tilt speed",
+      "capabilities": [
+        {
+          "label": "Tracking mode",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Fast -> slow",
+          "min": 3,
+          "max": 245
+        },
+        {
+          "label": "Tracking mode, slow",
+          "min": 246,
+          "max": 248
+        },
+        {
+          "label": "Tracking mode, fast",
+          "min": 249,
+          "max": 251
+        },
+        {
+          "label": "Blackout while moving",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 22,
+      "type_description": "Effect speed",
+      "capabilities": [
+        {
+          "label": "Tracking mode",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Fast -> slow",
+          "min": 3,
+          "max": 251
+        },
+        {
+          "label": "Blackout while moving",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Martin/Martin-MiniMAC-Profile.json",
+  "id": 1079
+}

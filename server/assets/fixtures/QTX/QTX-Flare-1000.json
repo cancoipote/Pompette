@@ -1,0 +1,100 @@
+{
+  "version": "1.0.0",
+  "label": "Flare-1000",
+  "manufacturer": "QTX",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 315,
+  "dimension_height": 170,
+  "dimension_depth": 315,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 1000,
+  "technical_dmx_connector": "3-pin",
+  "type": 11,
+  "channels": [
+    {
+      "index": 0,
+      "type": 5,
+      "type_description": "Fog Volume",
+      "capabilities": [
+        {
+          "label": "Fog Volume Setting (1%-100%)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Program",
+      "capabilities": [
+        {
+          "label": "LED auto program off",
+          "min": 0,
+          "max": 30
+        },
+        {
+          "label": "LED light auto colour scroll",
+          "min": 31,
+          "max": 104
+        },
+        {
+          "label": "LED light auto colour switch",
+          "min": 105,
+          "max": 179
+        },
+        {
+          "label": "LED light auto colour pulse",
+          "min": 180,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 22,
+      "type_description": "Program speed adjustment",
+      "capabilities": [
+        {
+          "label": "LED light auto program speed adjustment",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/QTX/QTX-Flare-1000.json",
+  "id": 1177
+}

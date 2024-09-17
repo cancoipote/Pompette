@@ -1,0 +1,278 @@
+{
+  "version": "1.0.0",
+  "label": "LS-3DRG",
+  "manufacturer": "beamZ",
+  "bulb_type": "",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 290,
+  "dimension_height": 200,
+  "dimension_depth": 370,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 90,
+  "focus_tilt_max": 90,
+  "technical_power_consumption": 40,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Mode Select",
+      "capabilities": [
+        {
+          "label": "Sound Active Mode",
+          "min": 0,
+          "max": 103
+        },
+        {
+          "label": "Auto-Animation Mode",
+          "min": 104,
+          "max": 155
+        },
+        {
+          "label": "Static Patterns (selection with CH3)",
+          "min": 156,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Color Select",
+      "capabilities": [
+        {
+          "label": "Laser OFF",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Color selection",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 3,
+      "type_description": "Pattern select",
+      "capabilities": [
+        {
+          "label": "Selecting patters",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 23,
+      "type_description": "Y axis moving",
+      "capabilities": [
+        {
+          "label": "Manual up to down moving",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Auto down moving (under dunamic pattern)",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Auto up moving (under dynamic pattern)",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 19,
+      "type_description": "X axis moving",
+      "capabilities": [
+        {
+          "label": "Manual left to right moving",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Auto right moving (under dynamic pattern)",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Auto left moving (under dynamic pattern)",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 19,
+      "type_description": "X axis rolling",
+      "capabilities": [
+        {
+          "label": "Manual rolling",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Auto rolling (under dynamic pattern)",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 23,
+      "type_description": "Y axis rolling",
+      "capabilities": [
+        {
+          "label": "Manual rolling",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Auto rolling (under dynamic pattern)",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 20,
+      "type_description": "Rotation",
+      "capabilities": [
+        {
+          "label": "Manual rotation",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Auto clockwise rotation (under dynamic pattern)",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Auto counter-clockwise rotation (under dynamic pattern)",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 1,
+      "type_description": "Zooming",
+      "capabilities": [
+        {
+          "label": "Auto zooming (+)",
+          "min": 0,
+          "max": 85
+        },
+        {
+          "label": "Auto zooming (-)",
+          "min": 86,
+          "max": 170
+        },
+        {
+          "label": "Manual zooming (+/-)",
+          "min": 171,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Pattern Size",
+      "capabilities": [
+        {
+          "label": "Normal size",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "1 is smallest, 255 is biggest",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Display dot",
+      "capabilities": [
+        {
+          "label": "Normal display",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "display dot, 255 is best brightness",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 3,
+      "type_description": "Drawing",
+      "capabilities": [
+        {
+          "label": "No drawing",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Auto drawing mode 1 (under dynamic pattern)",
+          "min": 6,
+          "max": 127
+        },
+        {
+          "label": "Auto drawing mode 2 (under dynamic pattern)",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 3,
+      "type_description": "Stretch",
+      "capabilities": [
+        {
+          "label": "X/Y/Z stretch",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 5,
+      "type_description": "Shake Effect",
+      "capabilities": [
+        {
+          "label": "Combination with channel 13",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/beamZ/beamZ-LS-3DRG.json",
+  "id": 202
+}

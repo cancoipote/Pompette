@@ -1,0 +1,249 @@
+{
+  "version": "1.0.0",
+  "label": "Q-Spot 40 RGBW",
+  "manufacturer": "Cameo",
+  "bulb_type": "LED",
+  "bulb_lumens": 780,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 151,
+  "dimension_height": 130,
+  "dimension_depth": 168,
+  "lens_label": "Other",
+  "lens_degree_min": 4,
+  "lens_degree_max": 25,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 55,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Colour Macro",
+      "capabilities": [
+        {
+          "label": "Colour off",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Red",
+          "min": 6,
+          "max": 13
+        },
+        {
+          "label": "Amber",
+          "min": 14,
+          "max": 21
+        },
+        {
+          "label": "Yellow warm",
+          "min": 22,
+          "max": 29
+        },
+        {
+          "label": "Yellow",
+          "min": 30,
+          "max": 37
+        },
+        {
+          "label": "Green",
+          "min": 38,
+          "max": 45
+        },
+        {
+          "label": "Turquoise",
+          "min": 46,
+          "max": 53
+        },
+        {
+          "label": "Cyan",
+          "min": 54,
+          "max": 61
+        },
+        {
+          "label": "Blue",
+          "min": 62,
+          "max": 69
+        },
+        {
+          "label": "Lavender",
+          "min": 70,
+          "max": 77
+        },
+        {
+          "label": "Mauve",
+          "min": 78,
+          "max": 85
+        },
+        {
+          "label": "Magenta",
+          "min": 86,
+          "max": 93
+        },
+        {
+          "label": "Pink",
+          "min": 94,
+          "max": 101
+        },
+        {
+          "label": "Warm White",
+          "min": 102,
+          "max": 109
+        },
+        {
+          "label": "White",
+          "min": 110,
+          "max": 117
+        },
+        {
+          "label": "Cold White",
+          "min": 118,
+          "max": 125
+        },
+        {
+          "label": "Colour Jumping Stop",
+          "min": 126,
+          "max": 127
+        },
+        {
+          "label": "Colour Jumping Speed slow -> fast /Colour 1 -> 12",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Colour Fading Speed slow -> fast /Colour 1 -> 12",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Strobe open",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Strobe slow -> fast <1Hz - 20 Hz",
+          "min": 6,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Dimmer fine",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 21,
+      "type_description": "Strobe functions",
+      "capabilities": [
+        {
+          "label": "Strobe open",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Strobe closed",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Pulse Random, slow -> fast",
+          "min": 11,
+          "max": 33
+        },
+        {
+          "label": "Ramp up Random, slow -> fast",
+          "min": 34,
+          "max": 56
+        },
+        {
+          "label": "Ramp down Random, slow -> fast",
+          "min": 57,
+          "max": 79
+        },
+        {
+          "label": "Random Strobe Effect, slow -> fast",
+          "min": 80,
+          "max": 102
+        },
+        {
+          "label": "Strobe Break Effect, 5s.....1s (Short burst with break)",
+          "min": 103,
+          "max": 127
+        },
+        {
+          "label": "Strobe slow -> fast <1Hz - 20Hz",
+          "min": 128,
+          "max": 250
+        },
+        {
+          "label": "Strobe open",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Colour Temperature (affects RGB)",
+      "capabilities": [
+        {
+          "label": "off",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "cold - warm @ Full on affects colours too",
+          "min": 6,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Cameo/Cameo-Q-Spot-40-RGBW.json",
+  "id": 319
+}

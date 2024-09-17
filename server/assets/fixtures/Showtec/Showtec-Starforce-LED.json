@@ -1,0 +1,183 @@
+{
+  "version": "1.0.0",
+  "label": "Starforce LED",
+  "manufacturer": "Showtec",
+  "bulb_type": "1 x 5W RGBW LEDs",
+  "bulb_lumens": 1000,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 266,
+  "dimension_height": 260,
+  "dimension_depth": 266,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 35,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Color Macros",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Green",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Blue",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "White",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Red + Green",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Red + Blue",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Red + White",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Green + Blue",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Green + White",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Blue + White",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Red + Green + Blue",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Red + Green + White",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Red + Blue + White",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Red + Blue + White",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Red + Green + Blue + White",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Auto",
+          "min": 160,
+          "max": 229
+        },
+        {
+          "label": "Sound-controlled mode",
+          "min": 230,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe Slow to Fast",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Auto Speed",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Speed slow-fast",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 22,
+      "type_description": "Motor Rotation",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Rotation CW slow-fast",
+          "min": 10,
+          "max": 119
+        },
+        {
+          "label": "Stop",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Rotation CCW slow-fast",
+          "min": 130,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Showtec/Showtec-Starforce-LED.json",
+  "id": 1337
+}

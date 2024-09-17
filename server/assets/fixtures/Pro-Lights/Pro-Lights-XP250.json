@@ -1,0 +1,300 @@
+{
+  "version": "1.0.0",
+  "label": "XP250",
+  "manufacturer": "Pro-Lights",
+  "bulb_type": "MSD 250W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 5500,
+  "dimension_weight": 30,
+  "dimension_width": 400,
+  "dimension_height": 540,
+  "dimension_depth": 380,
+  "lens_label": "PC",
+  "lens_degree_min": 17,
+  "lens_degree_max": 35,
+  "focus_type": "Head",
+  "focus_pan_max": 570,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 480,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Shutter Closed",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Strobe Slow-Fast",
+          "min": 8,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Colours",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 13
+        },
+        {
+          "label": "Steel Blue",
+          "min": 14,
+          "max": 27
+        },
+        {
+          "label": "Orange",
+          "min": 28,
+          "max": 41
+        },
+        {
+          "label": "Green Blue",
+          "min": 42,
+          "max": 55
+        },
+        {
+          "label": "Bright Blue",
+          "min": 56,
+          "max": 69
+        },
+        {
+          "label": "Bright Pink",
+          "min": 70,
+          "max": 83
+        },
+        {
+          "label": "Red",
+          "min": 84,
+          "max": 97
+        },
+        {
+          "label": "Deep Blue",
+          "min": 98,
+          "max": 111
+        },
+        {
+          "label": "Yellow",
+          "min": 112,
+          "max": 125
+        },
+        {
+          "label": "Dark Pink",
+          "min": 126,
+          "max": 139
+        },
+        {
+          "label": "Moss Green",
+          "min": 140,
+          "max": 153
+        },
+        {
+          "label": "Light Blue",
+          "min": 154,
+          "max": 167
+        },
+        {
+          "label": "Colour Rotation Slow-Fast",
+          "min": 168,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "No Gobo",
+          "min": 0,
+          "max": 23
+        },
+        {
+          "label": "Gobo1 (Colours)",
+          "min": 24,
+          "max": 47
+        },
+        {
+          "label": "Gobo2 (Bars)",
+          "min": 48,
+          "max": 71
+        },
+        {
+          "label": "Gobo3 (Atomic)",
+          "min": 72,
+          "max": 95
+        },
+        {
+          "label": "Gobo4 (Ring)",
+          "min": 96,
+          "max": 119
+        },
+        {
+          "label": "Gobo5 (Moon)",
+          "min": 120,
+          "max": 143
+        },
+        {
+          "label": "Gobo6 (Sun)",
+          "min": 144,
+          "max": 167
+        },
+        {
+          "label": "Gobo Rotation",
+          "min": 168,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 4,
+      "type_description": "Gobo Rotation",
+      "capabilities": [
+        {
+          "label": "Rotation Adjustment From 0 To 360",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Forwards Rotation Fast-Slow",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Backwards Rotation Slow-Fast",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "label": "Triple Prism Static",
+          "min": 2,
+          "max": 7
+        },
+        {
+          "label": "Forwards Rotation Fast-Slow",
+          "min": 8,
+          "max": 132
+        },
+        {
+          "label": "Backwards Rotation Slow-Fast",
+          "min": 133,
+          "max": 253
+        },
+        {
+          "label": "Triple Prism Static",
+          "min": 254,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 17,
+      "type_description": "Reset",
+      "capabilities": [
+        {
+          "label": "Normal State",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Mechanical Reset",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 17,
+      "type_description": "Lamp Switch",
+      "capabilities": [
+        {
+          "label": "Standby",
+          "min": 0,
+          "max": 47
+        },
+        {
+          "label": "Lamp On 3 Seconds Later",
+          "min": 48,
+          "max": 95
+        },
+        {
+          "label": "Standby",
+          "min": 96,
+          "max": 159
+        },
+        {
+          "label": "Lamp Off 3 Seconds Later",
+          "min": 160,
+          "max": 207
+        },
+        {
+          "label": "Standby",
+          "min": 208,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Pro-Lights/Pro-Lights-XP250.json",
+  "id": 1153
+}

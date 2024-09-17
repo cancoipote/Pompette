@@ -1,0 +1,229 @@
+{
+  "version": "1.0.0",
+  "label": "DJ Lase GR-140 RGY MKII",
+  "manufacturer": "Stairville",
+  "bulb_type": "",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 145,
+  "dimension_height": 80,
+  "dimension_depth": 160,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 15,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 17,
+      "type_description": "Mode selection",
+      "capabilities": [
+        {
+          "label": "Laser off",
+          "min": 0,
+          "max": 50
+        },
+        {
+          "label": "Auto show",
+          "min": 51,
+          "max": 100
+        },
+        {
+          "label": "Sound-controlled automatic show",
+          "min": 101,
+          "max": 150
+        },
+        {
+          "label": "DMX 1 mode",
+          "min": 151,
+          "max": 200
+        },
+        {
+          "label": "DMX 2 mode",
+          "min": 201,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Patten rotation",
+      "capabilities": [
+        {
+          "label": "No rotation",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Clockwise rotation (slow to fast)",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "No rotation",
+          "min": 128,
+          "max": 133
+        },
+        {
+          "label": "Counterclockwise rotation (slow to fast)",
+          "min": 134,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 3,
+      "type_description": "Vibration",
+      "capabilities": [
+        {
+          "label": "Vibration effect of patterns (small to large vibrations)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 1,
+      "type_description": "Red Laser",
+      "capabilities": [
+        {
+          "label": "Laser off",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Laser on",
+          "min": 5,
+          "max": 10
+        },
+        {
+          "label": "Strobing (strobe effect), slow to fast",
+          "min": 11,
+          "max": 254
+        },
+        {
+          "label": "Sound-controlled strobe effect",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 1,
+      "type_description": "Green Laser",
+      "capabilities": [
+        {
+          "label": "Laser off",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Laser on",
+          "min": 5,
+          "max": 10
+        },
+        {
+          "label": "Strobing (strobe effect), slow to fast",
+          "min": 11,
+          "max": 254
+        },
+        {
+          "label": "Sound-controlled strobe effect",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 1,
+      "type_description": "Colour selection",
+      "capabilities": [
+        {
+          "label": "Laser off",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Constantly red",
+          "min": 5,
+          "max": 20
+        },
+        {
+          "label": "Red off, constantly green",
+          "min": 21,
+          "max": 35
+        },
+        {
+          "label": "Red and green constantly",
+          "min": 36,
+          "max": 50
+        },
+        {
+          "label": "Strobe effect for red, green off",
+          "min": 51,
+          "max": 80
+        },
+        {
+          "label": "Red off, strobe effect for green",
+          "min": 81,
+          "max": 110
+        },
+        {
+          "label": "Strobe effect for red and green",
+          "min": 111,
+          "max": 140
+        },
+        {
+          "label": "Constantly red, strobe effect for green",
+          "min": 141,
+          "max": 170
+        },
+        {
+          "label": "Strobe effect for red, constantly green",
+          "min": 171,
+          "max": 200
+        },
+        {
+          "label": "Alternating strobe effect for red and green",
+          "min": 201,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Strobing (strobe effect)",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Strobing (strobe effect), slow to fast",
+          "min": 5,
+          "max": 254
+        },
+        {
+          "label": "Sound-controlled strobe effect",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Stairville/Stairville-DJ-Lase-GR-140-RGY-MKII.json",
+  "id": 1393
+}

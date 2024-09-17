@@ -1,0 +1,103 @@
+<div class="sequence-fixture-thumb" >
+    <div class="sequence-fixture-thumb-header">
+        <div class="sequence-fixture-thumb-header-title">
+            <i>{{sequenceFixture.fixture.label}} - {{sequenceFixture.fixture.reference}} :: {{sequenceFixture.fixture.index}}</i> - <small>{{sequenceFixture.getDurationString()}}</small>
+        </div>
+        <span class="toolbar-spacer"></span>
+
+        <button mat-icon-button (click)="sequenceFixture.canBeBypass = !sequenceFixture.canBeBypass" matTooltip="Can be bypass">
+            <mat-icon *ngIf="sequenceFixture.canBeBypass == true" color="accent">pan_tool</mat-icon>
+            <mat-icon *ngIf="sequenceFixture.canBeBypass == false" color="normal">pan_tool</mat-icon>
+        </button>
+
+        <button mat-icon-button (click)="sequenceFixture.loop = !sequenceFixture.loop" matTooltip="Loop">
+            <mat-icon *ngIf="sequenceFixture.loop == true" color="accent">restart_alt</mat-icon>
+            <mat-icon *ngIf="sequenceFixture.loop == false" color="normal">restart_alt</mat-icon>
+        </button>
+
+        <button mat-icon-button (click)="sequenceFixture.loopFromStart = !sequenceFixture.loopFromStart" [disabled]="sequenceFixture.loop == false" matTooltip="Loop from start">
+            <mat-icon *ngIf="sequenceFixture.loopFromStart == true" color="accent">start</mat-icon>
+            <mat-icon *ngIf="sequenceFixture.loopFromStart == false" color="normal">start</mat-icon>
+        </button>
+
+        <div class="toolbar-spacer-separator">-</div>   
+        <button *ngIf="sequenceFixture.isPlayging == false" mat-icon-button (click)="play()" matTooltip="Play sequence fixture">
+            <mat-icon  color="accent">play_circle_outline</mat-icon>
+        </button>
+        <button  *ngIf="sequenceFixture.isPlayging == true" mat-icon-button (click)="stop()" matTooltip="Stop sequence fixture">
+            <mat-icon  color="accent">stop</mat-icon>
+        </button>   
+        <div >
+            <button mat-icon-button (click)="duplicate()" matTooltip="Duplicate sequence fixture">
+                <mat-icon  color="accent">content_copy</mat-icon>
+            </button>
+        </div>
+        <div >
+            <button mat-icon-button (click)="remove()" matTooltip="Delete sequence fixture">
+                <mat-icon  color="warn">delete</mat-icon>
+            </button>
+        </div>
+    </div>
+    <div class="sequence-fixture-thumb-content">
+
+        <div class="sequence-fixture-thumb-content-container">
+            <div class="sequence-fixture-thumb-content-container-menu"  *ngIf="display_menu == true">
+                <div class="sequence-fixture-thumb-content-container-title">
+                    <i class="sequence-fixture-thumb-content-container-title-label">Transitions</i>
+                    <div class="sequence-fixture-thumb-content-container-title-separator"></div>
+                    <button mat-button class="sequence-fixture-container-title-button" (click)="createSequenceFixtureTransition()" >
+                         Create
+                    </button>
+                    <button mat-icon-button class="sequence-fixture-container-title-button" (click)="display_menu = false" >
+                        <mat-icon>menu</mat-icon>
+                    </button>
+                </div>
+
+                <!--
+                <mat-list class="sequence-fixture-container-menu-list">
+                    <mat-list-item class="sequence-fixture-thumb-content-container-menu-list-item" *ngFor="let transition of sequenceFixture.transitions" (click)="selectSequenceFixtureTransition(transition)">
+                        {{transition.label}}
+                    </mat-list-item>
+                </mat-list> 
+                -->
+                
+                <mat-list class="sequence-fixture-container-menu-list">
+                    <div cdkDropList [cdkDropListData]="sequenceFixture.transitions" (cdkDropListDropped)="onDrop($event)">
+                      <div *ngFor="let transition of sequenceFixture.transitions" cdkDrag (click)="selectSequenceFixtureTransition(transition)">
+                        <mat-list-item [ngClass]="{'sequence-fixture-thumb-content-container-menu-list-item-selected': transition.isSelected, 'sequence-fixture-thumb-content-container-menu-list-item': !transition.isSelected}">
+                           
+                            <div matListItemTitle>{{transition.label}}</div>
+                            <div matListItemLine>{{transition.getDurationString()}}</div>
+
+                            <div *ngIf="transition.isPlayging" class="sequence-fixture-thumb-content-container-menu-list-item-isPlaying" [ngStyle]="{'height.%': transition.percentAnimation}"></div>
+                        </mat-list-item>
+                      </div>
+                    </div>
+                </mat-list>
+
+            </div>
+            <div class="sequence-fixture-thumb-content-container-menu-light" *ngIf="display_menu == false">
+                <button mat-icon-button class="sequence-fixture-container-title-button" (click)="display_menu = true" >
+                    <mat-icon>menu</mat-icon>
+                </button>
+            </div>
+            <div class="sequence-fixture-thumb-content-container-content">
+               
+                <div *ngIf="sequenceFixtureTransition == null">
+                    <div class="sequence-fixture-thumb-content-container-title" > 
+                        <i class="sequence-fixture-thumb-content-container-title-label">Select / Create Sequence Fixture transition</i>
+                    </div>
+                </div>
+                <div *ngIf="sequenceFixtureTransition != null">
+                    <sequence-fixture-transition
+                        class="sequence-fixture-transition-component"
+                        [sequenceFixtureTransition]="sequenceFixtureTransition"
+                        (onRemove)="removeSequenceFixtureTransition(sequenceFixtureTransition)"
+                        (onDuplicate)="duplicateSequenceFixtureTransition(sequenceFixtureTransition)"
+                    ></sequence-fixture-transition>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,451 @@
+{
+  "version": "1.0.0",
+  "label": "OBY 600",
+  "manufacturer": "Geni",
+  "bulb_type": "HMI 575W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 6000,
+  "dimension_weight": 27,
+  "dimension_width": 400,
+  "dimension_height": 564,
+  "dimension_depth": 416,
+  "lens_label": "Other",
+  "lens_degree_min": 10,
+  "lens_degree_max": 30,
+  "focus_type": "Head",
+  "focus_pan_max": 570,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 800,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Open",
+          "min": 1,
+          "max": 7
+        },
+        {
+          "label": "Shutter from slow to fast",
+          "min": 8,
+          "max": 63
+        },
+        {
+          "label": "Open",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Fade out fast to slow",
+          "min": 72,
+          "max": 127
+        },
+        {
+          "label": "Open",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Fade in slow to fast",
+          "min": 136,
+          "max": 191
+        },
+        {
+          "label": "Open",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Random shutter slow to fast",
+          "min": 200,
+          "max": 253
+        },
+        {
+          "label": "Open",
+          "min": 254,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Colour wheel",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 17
+        },
+        {
+          "label": "Red",
+          "min": 18,
+          "max": 35
+        },
+        {
+          "label": "Blue",
+          "min": 36,
+          "max": 51
+        },
+        {
+          "label": "Green",
+          "min": 52,
+          "max": 71
+        },
+        {
+          "label": "Purple",
+          "min": 72,
+          "max": 89
+        },
+        {
+          "label": "CTB",
+          "min": 90,
+          "max": 107
+        },
+        {
+          "label": "CTO",
+          "min": 108,
+          "max": 127
+        },
+        {
+          "label": "Forward rotate from fast to slow",
+          "min": 128,
+          "max": 187
+        },
+        {
+          "label": "Stop",
+          "min": 188,
+          "max": 195
+        },
+        {
+          "label": "Reverse rotate from slow to fast",
+          "min": 196,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Cyan",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Magenta",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Yellow",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Colour macros",
+      "capabilities": [
+        {
+          "label": "Macro off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Macro 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Macro 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Macro 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Macro 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Macro 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Macro 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Macro 7",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Macro 8",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Macro 9",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Macro 10",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Macro 11",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Macro 12",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Macro 13",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Macro 14",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Macro 15",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Macro 16",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Macro 17",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Macro 18",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Macro 19",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Macro 20",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Macro 21",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Macro 22",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Macro 23",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Macro 24",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Macro 25",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Macro 26",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Macro 27",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Macro 28",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Macro 29",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Macro 30",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Macro 31",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 1,
+      "type_description": "Beam",
+      "capabilities": [
+        {
+          "label": "Full beam",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "Frost filter",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Flat and wide beam effect at 0°",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Flat and wide beam effect 90° adjustment",
+          "min": 144,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Pan coarse",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Tilt coarse",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 17,
+      "type_description": "Control",
+      "capabilities": [
+        {
+          "label": "Pan/Tilt adjustment in the auto movement mode",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Pan/Tilt adjustment in the manual mode",
+          "min": 8,
+          "max": 63
+        },
+        {
+          "label": "Col. whl., C, M, Y offset calibration after 3 sec (PanC - col. whl., TiltC - C, PanF - M, TiltF - Y)",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Save offset value after 3 sec",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Reset all motors after 3 sec",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 18,
+      "type_description": "Lamp",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 47
+        },
+        {
+          "label": "Lamp ON after 3 sec",
+          "min": 48,
+          "max": 95
+        },
+        {
+          "label": "No function",
+          "min": 96,
+          "max": 159
+        },
+        {
+          "label": "Lamp OFF after 3 sec",
+          "min": 160,
+          "max": 207
+        },
+        {
+          "label": "No function",
+          "min": 208,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Geni/Geni-OBY-600.json",
+  "id": 836
+}

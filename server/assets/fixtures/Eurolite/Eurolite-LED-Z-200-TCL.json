@@ -1,0 +1,119 @@
+{
+  "version": "1.0.0",
+  "label": "LED Z-200 TCL",
+  "manufacturer": "Eurolite",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 280,
+  "dimension_height": 300,
+  "dimension_depth": 360,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 40,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 18,
+      "type_description": "Motor Rotation",
+      "capabilities": [
+        {
+          "label": "No rotation",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Step by step counter clockwise rotation",
+          "min": 21,
+          "max": 170
+        },
+        {
+          "label": "Clockwise and counter clockwise rotation",
+          "min": 171,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "LED effects",
+      "capabilities": [
+        {
+          "label": "All LEDs on",
+          "min": 0,
+          "max": 35
+        },
+        {
+          "label": "Strobe-effect",
+          "min": 36,
+          "max": 70
+        },
+        {
+          "label": "Fade",
+          "min": 71,
+          "max": 105
+        },
+        {
+          "label": "Color-change",
+          "min": 106,
+          "max": 140
+        },
+        {
+          "label": "Color-change + strobe",
+          "min": 141,
+          "max": 175
+        },
+        {
+          "label": "Cross-fade",
+          "min": 176,
+          "max": 210
+        },
+        {
+          "label": "Cross-fade + strobe",
+          "min": 211,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Speed settings for control channel 2",
+      "capabilities": [
+        {
+          "label": "Increasing speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-LED-Z-200-TCL.json",
+  "id": 736
+}

@@ -1,0 +1,514 @@
+{
+  "version": "1.0.0",
+  "label": "Wally MH-20",
+  "manufacturer": "Triton Blue",
+  "bulb_type": "LED",
+  "bulb_lumens": 800,
+  "bulb_color_temperature": 6500,
+  "dimension_weight": 10,
+  "dimension_width": 380,
+  "dimension_height": 520,
+  "dimension_depth": 460,
+  "lens_label": "PC",
+  "lens_degree_min": 12,
+  "lens_degree_max": 12,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 265,
+  "technical_power_consumption": 20,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 14
+        },
+        {
+          "label": "Red",
+          "min": 15,
+          "max": 29
+        },
+        {
+          "label": "Light Blue",
+          "min": 30,
+          "max": 44
+        },
+        {
+          "label": "Green",
+          "min": 45,
+          "max": 59
+        },
+        {
+          "label": "Yellow",
+          "min": 60,
+          "max": 74
+        },
+        {
+          "label": "Magenta",
+          "min": 75,
+          "max": 89
+        },
+        {
+          "label": "Orange",
+          "min": 90,
+          "max": 104
+        },
+        {
+          "label": "Blue",
+          "min": 105,
+          "max": 119
+        },
+        {
+          "label": "Violet",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "CW rainbow effect from fast to slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "No rotation",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "CCW rainbow effect from slow to fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Rotation Gobo 1",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Rotation Gobo 2",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Rotation Gobo 3",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Rotation Gobo 4",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Rotation Gobo 5",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Rotation Gobo 6",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Rotation Gobo 7",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Shake gobo 1 from slow to fast",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Shake gobo 2 from slow to fast",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Shake gobo 3 from slow to fast",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Shake gobo 4 from slow to fast",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Shake gobo 5 from slow to fast",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Shake gobo 6 from slow to fast",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Shake gobo 7 from slow to fast",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Rotation gobo wheel continuous from slow to fast",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 4,
+      "type_description": "Gobo spin & pos",
+      "capabilities": [
+        {
+          "label": "Gobo indexing",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "CW gobo rotation from fast to slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "No rotation",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "CCW gobo rotation from slow to fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 22,
+      "type_description": "Speed",
+      "capabilities": [
+        {
+          "label": "Speed regulation from fast to slow",
+          "min": 0,
+          "max": 225
+        },
+        {
+          "label": "Blackout by movement",
+          "min": 226,
+          "max": 235
+        },
+        {
+          "label": "Blackout by all wheel changing",
+          "min": 236,
+          "max": 245
+        },
+        {
+          "label": "Max. speed",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan (coarse)",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Pan (fine)",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Tilt (coarse)",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Tilt (fine)",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "3X prism",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "5X prism",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Linear prism",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "3X prism with spinning gobo 1",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "3X prism with spinning gobo 2",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "3X prism with spinning gobo 3",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "3X prism with spinning gobo 4",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "3X prism with spinning gobo 5",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "3X prism with spinning gobo 6",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "5X prism with spinning gobo 7",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "5X prism with spinning gobo 1",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "5X prism with spinning gobo 2",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "5X prism with spinning gobo 3",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "5X prism with spinning gobo 4",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "5X prism with spinning gobo 5",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "LIN prism with spinning gobo 6",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "LIN prism with spinning gobo 7",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "LIN prism with fast spinning gobo 1",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "LIN prism with fast spinning gobo 2",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 21,
+      "type_description": "Flash",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Max. open",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe from slow to fast",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Max. open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulsating from slow to fast",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Max. open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random from slow to fast",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Max. open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 17,
+      "type_description": "Control",
+      "capabilities": [
+        {
+          "label": "Normal operation",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Color change to any position",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Color & Gobo change to any position",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Normal operation",
+          "min": 40,
+          "max": 79
+        },
+        {
+          "label": "All motor reset",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "Scan motor reset",
+          "min": 85,
+          "max": 87
+        },
+        {
+          "label": "Colors motor reset",
+          "min": 88,
+          "max": 90
+        },
+        {
+          "label": "Gobo motor reset",
+          "min": 91,
+          "max": 93
+        },
+        {
+          "label": "Normal operation",
+          "min": 94,
+          "max": 96
+        },
+        {
+          "label": "Other motor reset",
+          "min": 97,
+          "max": 99
+        },
+        {
+          "label": "Internal program 1",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "Internal program 2",
+          "min": 120,
+          "max": 139
+        },
+        {
+          "label": "Internal program 3",
+          "min": 140,
+          "max": 159
+        },
+        {
+          "label": "Internal program 4",
+          "min": 160,
+          "max": 179
+        },
+        {
+          "label": "Internal program 5",
+          "min": 180,
+          "max": 199
+        },
+        {
+          "label": "Internal program 6",
+          "min": 200,
+          "max": 219
+        },
+        {
+          "label": "Internal program 7",
+          "min": 220,
+          "max": 239
+        },
+        {
+          "label": "Auto program by music",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Triton_Blue/Triton-Blue-Wally-MH-20.json",
+  "id": 1463
+}

@@ -1,0 +1,834 @@
+{
+  "version": "1.0.0",
+  "label": "MH-z720",
+  "manufacturer": "Stairville",
+  "bulb_type": "LED",
+  "bulb_lumens": 2700,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 8,
+  "dimension_width": 330,
+  "dimension_height": 230,
+  "dimension_depth": 380,
+  "lens_label": "Other",
+  "lens_degree_min": 10,
+  "lens_degree_max": 54,
+  "focus_type": "Fixed",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 200,
+  "technical_power_consumption": 185,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Rotation",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Rotation Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Inclination",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Inclination Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Movement Speed (Fast to Slow)",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Intensity Red",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Intensity Green",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Intersity Blue",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Intensity White",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Light Effects",
+      "capabilities": [
+        {
+          "label": "No Effect",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Light Effect 1",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Light Effect 2",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Light Effect 3",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Light Effect 4",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Light Effect 5",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Light Effect 6",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Light Effect 7",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Light Effect 8",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Light Effect 9",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Light Effect 10",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Light Effect 11",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Light Effect 12",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "Light Effect 13",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "Light Effect 14",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "Light Effect 15",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 22,
+      "type_description": "Effect Speed",
+      "capabilities": [
+        {
+          "label": "Effect Speed Slow to Fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Open",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "Strobe effect 1 Fast to Slow",
+          "min": 25,
+          "max": 64
+        },
+        {
+          "label": "Open",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "Strobe effect 2 (fast o,n slow off) Fast to Slow consecutively",
+          "min": 70,
+          "max": 84
+        },
+        {
+          "label": "Open",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "Strobe effect 3 (slow on, fast off) Fast to Slow consecutively",
+          "min": 90,
+          "max": 104
+        },
+        {
+          "label": "Open",
+          "min": 105,
+          "max": 109
+        },
+        {
+          "label": "Strobe effect 4 (random) Fast to Slow consecutively",
+          "min": 110,
+          "max": 124
+        },
+        {
+          "label": "Open",
+          "min": 125,
+          "max": 129
+        },
+        {
+          "label": "Strobe effect 5 (random, fast on, slow off) Fast to Slow consecutively",
+          "min": 130,
+          "max": 144
+        },
+        {
+          "label": "Open",
+          "min": 145,
+          "max": 149
+        },
+        {
+          "label": "Strobe effect 6 (random, slow on, fast off) Fast to Slow consecutively",
+          "min": 150,
+          "max": 164
+        },
+        {
+          "label": "Open",
+          "min": 165,
+          "max": 169
+        },
+        {
+          "label": "Strobe effect 7 (pulse series) Pulse interval increasing",
+          "min": 170,
+          "max": 184
+        },
+        {
+          "label": "Open",
+          "min": 185,
+          "max": 189
+        },
+        {
+          "label": "Strobe effect 8 (pulse series with random frequency) Fast to Slow consecutively",
+          "min": 190,
+          "max": 204
+        },
+        {
+          "label": "Open",
+          "min": 205,
+          "max": 209
+        },
+        {
+          "label": "Strobe effect 9 (single pulses) Fast to Slow consecutively",
+          "min": 210,
+          "max": 224
+        },
+        {
+          "label": "Open",
+          "min": 225,
+          "max": 229
+        },
+        {
+          "label": "Strobe effect 10 (inverted pulse series) Pulse interval increasing",
+          "min": 230,
+          "max": 244
+        },
+        {
+          "label": "Open",
+          "min": 245,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 17,
+      "type_description": "Special Settings",
+      "capabilities": [
+        {
+          "label": "Without function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Blackout during Pan or Tilt movment",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "Without function",
+          "min": 15,
+          "max": 49
+        },
+        {
+          "label": "Rotation position reset",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "Inclination position reset",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "Optical zoom reset",
+          "min": 60,
+          "max": 64
+        },
+        {
+          "label": "Without function",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "All functions reset",
+          "min": 70,
+          "max": 74
+        },
+        {
+          "label": "Without function",
+          "min": 75,
+          "max": 79
+        },
+        {
+          "label": "Inversion of rotation and inclination direction",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "Inversion of rotation direction",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "Inversion of inclination direction",
+          "min": 90,
+          "max": 94
+        },
+        {
+          "label": "Cancel inversion of rotation direction",
+          "min": 95,
+          "max": 99
+        },
+        {
+          "label": "Cancel inversion on inclination direction",
+          "min": 100,
+          "max": 104
+        },
+        {
+          "label": "Cancel inversion of rotatin and inclination direction",
+          "min": 105,
+          "max": 109
+        },
+        {
+          "label": "Movement speed normal",
+          "min": 110,
+          "max": 114
+        },
+        {
+          "label": "Movement speed fast",
+          "min": 115,
+          "max": 119
+        },
+        {
+          "label": "Movement speed slow",
+          "min": 120,
+          "max": 124
+        },
+        {
+          "label": "Maximum fan speed",
+          "min": 125,
+          "max": 129
+        },
+        {
+          "label": "Automatic fan speed",
+          "min": 130,
+          "max": 134
+        },
+        {
+          "label": "Dimmer speed fast",
+          "min": 135,
+          "max": 139
+        },
+        {
+          "label": "Dimmer speed slow",
+          "min": 140,
+          "max": 144
+        },
+        {
+          "label": "Without function",
+          "min": 145,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 3,
+      "type_description": "Preprogrammed movement pattern",
+      "capabilities": [
+        {
+          "label": "No movement",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Movement pattern 1",
+          "min": 8,
+          "max": 23
+        },
+        {
+          "label": "Movement pattern 2",
+          "min": 24,
+          "max": 39
+        },
+        {
+          "label": "Movement pattern 3",
+          "min": 40,
+          "max": 55
+        },
+        {
+          "label": "Movement pattern 4",
+          "min": 56,
+          "max": 71
+        },
+        {
+          "label": "Movement pattern 5",
+          "min": 72,
+          "max": 87
+        },
+        {
+          "label": "Movement pattern 6",
+          "min": 88,
+          "max": 103
+        },
+        {
+          "label": "Movement pattern 7",
+          "min": 104,
+          "max": 119
+        },
+        {
+          "label": "Movement pattern 8",
+          "min": 120,
+          "max": 135
+        },
+        {
+          "label": "Movement pattern 1 with sound control",
+          "min": 136,
+          "max": 151
+        },
+        {
+          "label": "Movement pattern 2 with sound control",
+          "min": 152,
+          "max": 167
+        },
+        {
+          "label": "Movement pattern 3 with sound control",
+          "min": 168,
+          "max": 183
+        },
+        {
+          "label": "Movement pattern 4 with sound control",
+          "min": 184,
+          "max": 199
+        },
+        {
+          "label": "Movement pattern 5 with sound control",
+          "min": 200,
+          "max": 215
+        },
+        {
+          "label": "Movement pattern 6 with sound control",
+          "min": 216,
+          "max": 231
+        },
+        {
+          "label": "Movement pattern 7 with sound control",
+          "min": 232,
+          "max": 247
+        },
+        {
+          "label": "Movement pattern 8 with sound control",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Intensity Red, LED group 1",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Intensity Red, LED group 2",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Intensity Red, LED group 3",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Intensity Red, LED group 4",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Intensity Green, LED group 1",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Intensity Green, LED group 2",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Intensity Green, LED group 3",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Intensity Green, LED group 4",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Intensity Blue, LED group 1",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Intensity Blue, LED group 2",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Intensity Blue, LED group 3",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Intensity Blue, LED group 4",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "Intensity White, LED group 1",
+      "capabilities": []
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "Intensity White, LED group 2",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 0,
+      "type_description": "Intensity White, LED group 3",
+      "capabilities": []
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "Intensity White, LED group 4",
+      "capabilities": []
+    },
+    {
+      "index": 32,
+      "type": 0,
+      "type_description": "Colour setting",
+      "capabilities": [
+        {
+          "label": "Dark",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Colour 1",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "Colour 2",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "Colour 3",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "Colour 4",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "Colour 5",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "Colour 6",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "Colour 7",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "Colour 8",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "Colour 9",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "Colour 10",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "Colour 11",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "Colour 12",
+          "min": 60,
+          "max": 64
+        },
+        {
+          "label": "Colour 13",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "Colour 14",
+          "min": 70,
+          "max": 74
+        },
+        {
+          "label": "Colour 15",
+          "min": 75,
+          "max": 79
+        },
+        {
+          "label": "Colour 16",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "Colour 17",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "Colour 18",
+          "min": 90,
+          "max": 94
+        },
+        {
+          "label": "Colour 19",
+          "min": 95,
+          "max": 99
+        },
+        {
+          "label": "Colour 20",
+          "min": 100,
+          "max": 104
+        },
+        {
+          "label": "Colour 21",
+          "min": 105,
+          "max": 109
+        },
+        {
+          "label": "Colour 22",
+          "min": 110,
+          "max": 114
+        },
+        {
+          "label": "Colour 23",
+          "min": 115,
+          "max": 119
+        },
+        {
+          "label": "Colour 24",
+          "min": 120,
+          "max": 124
+        },
+        {
+          "label": "Colour 25",
+          "min": 125,
+          "max": 129
+        },
+        {
+          "label": "Colour 26",
+          "min": 130,
+          "max": 134
+        },
+        {
+          "label": "Colour 27",
+          "min": 135,
+          "max": 139
+        },
+        {
+          "label": "Colour 28",
+          "min": 140,
+          "max": 144
+        },
+        {
+          "label": "Colour 29",
+          "min": 145,
+          "max": 149
+        },
+        {
+          "label": "Colour 30",
+          "min": 150,
+          "max": 154
+        },
+        {
+          "label": "Colour 31",
+          "min": 155,
+          "max": 159
+        },
+        {
+          "label": "Colour 32",
+          "min": 160,
+          "max": 164
+        },
+        {
+          "label": "Colour 33",
+          "min": 165,
+          "max": 169
+        },
+        {
+          "label": "Colour 34",
+          "min": 170,
+          "max": 174
+        },
+        {
+          "label": "Dark",
+          "min": 175,
+          "max": 179
+        },
+        {
+          "label": "Gradual colour change in ascending order, fast to slow",
+          "min": 180,
+          "max": 201
+        },
+        {
+          "label": "Stop colour change",
+          "min": 202,
+          "max": 207
+        },
+        {
+          "label": "Gradual colour change in descending order, fash to slow",
+          "min": 208,
+          "max": 229
+        },
+        {
+          "label": "Dark",
+          "min": 230,
+          "max": 234
+        },
+        {
+          "label": "Stepped colour change in ascending order, fast to slow",
+          "min": 235,
+          "max": 249
+        },
+        {
+          "label": "Sound controled colour changing",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Stairville/StairVille-MH-z720.json",
+  "id": 1430
+}

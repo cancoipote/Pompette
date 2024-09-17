@@ -1,0 +1,233 @@
+{
+  "version": "1.0.0",
+  "label": "TS-2",
+  "manufacturer": "Eurolite",
+  "bulb_type": "MSD 250W",
+  "bulb_lumens": 18000,
+  "bulb_color_temperature": 7200,
+  "dimension_weight": 8,
+  "dimension_width": 285,
+  "dimension_height": 555,
+  "dimension_depth": 270,
+  "lens_label": "Other",
+  "lens_degree_min": 18,
+  "lens_degree_max": 18,
+  "focus_type": "Mirror",
+  "focus_pan_max": 180,
+  "focus_tilt_max": 90,
+  "technical_power_consumption": 115,
+  "technical_dmx_connector": "3-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 17
+        },
+        {
+          "label": "Red",
+          "min": 18,
+          "max": 35
+        },
+        {
+          "label": "Yellow",
+          "min": 36,
+          "max": 53
+        },
+        {
+          "label": "Violet",
+          "min": 54,
+          "max": 71
+        },
+        {
+          "label": "Green",
+          "min": 72,
+          "max": 89
+        },
+        {
+          "label": "Orange",
+          "min": 90,
+          "max": 107
+        },
+        {
+          "label": "Blue",
+          "min": 108,
+          "max": 125
+        },
+        {
+          "label": "Pink",
+          "min": 126,
+          "max": 143
+        },
+        {
+          "label": "Light green",
+          "min": 144,
+          "max": 161
+        },
+        {
+          "label": "Light blue",
+          "min": 162,
+          "max": 179
+        },
+        {
+          "label": "Orange",
+          "min": 180,
+          "max": 197
+        },
+        {
+          "label": "Light yellow",
+          "min": 198,
+          "max": 215
+        },
+        {
+          "label": "Magenta",
+          "min": 216,
+          "max": 233
+        },
+        {
+          "label": "Red/blue",
+          "min": 234,
+          "max": 251
+        },
+        {
+          "label": "Yellow/green",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 6
+        },
+        {
+          "label": "Gobo 1",
+          "min": 7,
+          "max": 13
+        },
+        {
+          "label": "Gobo 2",
+          "min": 14,
+          "max": 20
+        },
+        {
+          "label": "Gobo 3",
+          "min": 21,
+          "max": 27
+        },
+        {
+          "label": "Gobo 4",
+          "min": 28,
+          "max": 34
+        },
+        {
+          "label": "Gobo 5",
+          "min": 35,
+          "max": 41
+        },
+        {
+          "label": "Gobo 6",
+          "min": 42,
+          "max": 48
+        },
+        {
+          "label": "Gobo 7",
+          "min": 49,
+          "max": 55
+        },
+        {
+          "label": "Gobo 8",
+          "min": 56,
+          "max": 62
+        },
+        {
+          "label": "Gobo 9",
+          "min": 63,
+          "max": 69
+        },
+        {
+          "label": "Gobo 10",
+          "min": 70,
+          "max": 76
+        },
+        {
+          "label": "Gobo 11",
+          "min": 77,
+          "max": 83
+        },
+        {
+          "label": "Gobo 12",
+          "min": 84,
+          "max": 90
+        },
+        {
+          "label": "Blackout",
+          "min": 91,
+          "max": 112
+        },
+        {
+          "label": "Open",
+          "min": 113,
+          "max": 127
+        },
+        {
+          "label": "Strobe slow to fast",
+          "min": 128,
+          "max": 238
+        },
+        {
+          "label": "Open",
+          "min": 239,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 17,
+      "type_description": "Lamp",
+      "capabilities": [
+        {
+          "label": "Lamp OFF",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "No function",
+          "min": 1,
+          "max": 254
+        },
+        {
+          "label": "Lamp ON",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-TS-2.json",
+  "id": 767
+}

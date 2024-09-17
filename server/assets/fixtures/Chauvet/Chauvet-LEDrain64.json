@@ -1,0 +1,255 @@
+{
+  "version": "1.0.0",
+  "label": "LEDrain64",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 254,
+  "dimension_height": 279,
+  "dimension_depth": 216,
+  "lens_label": "Other",
+  "lens_degree_min": 16,
+  "lens_degree_max": 16,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 18,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Macro Colors (By LED Levels)",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Red: 100% green: 20% blue:",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Red: 100% green: 40% blue:",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Red: 100% green: 60% blue:",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Red: 100% green: 80% blue:",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Red: 100% green: 100% blue:",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Red:  green: 100% blue:",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Red:  green: 100% blue: 20%",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Red:  green: 100% blue: 40%",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Red:  green: 100% blue: 60%",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Red:  green: 100% blue: 80%",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Red:  green: 100% blue: 100%",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Red:  green:  blue: 100%",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Red: 20% green:  blue: 100%",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Red: 40% green:  blue: 100%",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Red: 60% green:  blue: 100%",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Red: 80% green:  blue: 100%",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Red: 100% green:  blue: 100%",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Red: 100% green: 25% blue: 100%",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Red: 100% green: 50% blue: 100%",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Red: 100% green: 75% blue: 100%",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Red: 100% green: 100% blue: 100%",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Red: 100% green: 100% blue: 25%",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Red: 100% green: 100% blue: 50%",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Red: 100% green: 100% blue: 75%",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Red: 100% green: 100% blue: 100%",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Red: 20% green: 100% blue: 100%",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Red: 40% green: 100% blue: 100%",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Red: 60% green: 100% blue: 100%",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Red: 80% green: 100% blue: 100%",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Red: 100% green: 100% blue: 100%",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Red: 50% green: 50% blue: 50%",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Strobe or Speed",
+      "capabilities": [
+        {
+          "label": "0% ~ 100%",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Preset Programs",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Fade program: Use ch 5 to adjust speed",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Colour chase: Use ch 5 to adjust speed",
+          "min": 160,
+          "max": 223
+        },
+        {
+          "label": "Colour chase: Use rotary knob to adjust speed",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-LEDrain64.json",
+  "id": 494
+}

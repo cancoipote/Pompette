@@ -1,0 +1,389 @@
+{
+  "version": "1.0.0",
+  "label": "EL-900RGB",
+  "manufacturer": "Laserworld",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 5,
+  "dimension_width": 530,
+  "dimension_height": 90,
+  "dimension_depth": 240,
+  "lens_label": "Other",
+  "lens_degree_min": 15,
+  "lens_degree_max": 30,
+  "focus_type": "Mirror",
+  "focus_pan_max": 110,
+  "focus_tilt_max": 45,
+  "technical_power_consumption": 50,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "Laser off",
+          "min": 0,
+          "max": 49
+        },
+        {
+          "label": "Sound mode",
+          "min": 50,
+          "max": 99
+        },
+        {
+          "label": "Automatic mode",
+          "min": 100,
+          "max": 149
+        },
+        {
+          "label": "Static patterns of DMX mode",
+          "min": 150,
+          "max": 199
+        },
+        {
+          "label": "Dynamic patterns of DMX mode",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 4,
+      "type_description": "Pattern selection",
+      "capabilities": [
+        {
+          "label": "Circle Fast",
+          "min": 0,
+          "max": 14
+        },
+        {
+          "label": "Circle Slow",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "Scan Horizontal Fast",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "Scan Horizontal Slow",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "Scan Vertical Fast",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "Scan Vertical Slow",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "Fan Diagonal In Fast",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "Fan Diagonal In Slow",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "Fan Diagonal Out Fast",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "Fan Diagonal Out Slow",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "A Fast (HIGH)",
+          "min": 60,
+          "max": 64
+        },
+        {
+          "label": "A Slow (HIGH)",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "V Fast (LOW)",
+          "min": 70,
+          "max": 74
+        },
+        {
+          "label": "V Slow (LOW)",
+          "min": 75,
+          "max": 79
+        },
+        {
+          "label": "Triangle Up Fast (HIGH)",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "Triangle Up Slow (HIGH)",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "Triangle Down Fast (LOW)",
+          "min": 90,
+          "max": 94
+        },
+        {
+          "label": "Triangle Down Slow (LOW)",
+          "min": 95,
+          "max": 99
+        },
+        {
+          "label": "Square Fast",
+          "min": 100,
+          "max": 104
+        },
+        {
+          "label": "Square Slow",
+          "min": 105,
+          "max": 109
+        },
+        {
+          "label": "Square Tall Fast",
+          "min": 110,
+          "max": 114
+        },
+        {
+          "label": "Square Tall Slow",
+          "min": 115,
+          "max": 119
+        },
+        {
+          "label": "Square Wide Fast",
+          "min": 120,
+          "max": 124
+        },
+        {
+          "label": "Square Wide Slow",
+          "min": 125,
+          "max": 129
+        },
+        {
+          "label": "+",
+          "min": 130,
+          "max": 134
+        },
+        {
+          "label": "x",
+          "min": 135,
+          "max": 139
+        },
+        {
+          "label": "Fan Horizontal Fast",
+          "min": 140,
+          "max": 144
+        },
+        {
+          "label": "Fan Horizonttal Slow",
+          "min": 145,
+          "max": 149
+        },
+        {
+          "label": "Fan Shake Horizontal Fast",
+          "min": 150,
+          "max": 154
+        },
+        {
+          "label": "Fan Shake Horizontal Slow",
+          "min": 155,
+          "max": 159
+        },
+        {
+          "label": "Fan Shake Vertical Fast 1",
+          "min": 160,
+          "max": 164
+        },
+        {
+          "label": "Fan Shake Vertical Fast 2",
+          "min": 165,
+          "max": 169
+        },
+        {
+          "label": "Fan Shake Vertical Medium",
+          "min": 170,
+          "max": 174
+        },
+        {
+          "label": "Fan Shake Vertical Slow",
+          "min": 175,
+          "max": 179
+        },
+        {
+          "label": "Square Diagonal In",
+          "min": 180,
+          "max": 184
+        },
+        {
+          "label": "Square Diagonal Out",
+          "min": 185,
+          "max": 189
+        },
+        {
+          "label": "Vertical Boxes 1",
+          "min": 190,
+          "max": 194
+        },
+        {
+          "label": "Vertical Boxes 2",
+          "min": 195,
+          "max": 199
+        },
+        {
+          "label": "Ninja Star +",
+          "min": 200,
+          "max": 204
+        },
+        {
+          "label": "Ninja Star x",
+          "min": 205,
+          "max": 209
+        },
+        {
+          "label": "Star 1",
+          "min": 210,
+          "max": 214
+        },
+        {
+          "label": "Star 1 U-S Down",
+          "min": 215,
+          "max": 219
+        },
+        {
+          "label": "Star 2 Fast",
+          "min": 220,
+          "max": 224
+        },
+        {
+          "label": "Star 2 Slow",
+          "min": 225,
+          "max": 229
+        },
+        {
+          "label": "Waves Fast",
+          "min": 230,
+          "max": 234
+        },
+        {
+          "label": "Waves Slow",
+          "min": 235,
+          "max": 239
+        },
+        {
+          "label": "Spiral",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Strobe effect",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "White color",
+          "min": 0,
+          "max": 39
+        },
+        {
+          "label": "Yellow color",
+          "min": 40,
+          "max": 79
+        },
+        {
+          "label": "Purple color",
+          "min": 80,
+          "max": 119
+        },
+        {
+          "label": "Cyan color",
+          "min": 120,
+          "max": 159
+        },
+        {
+          "label": "Red color",
+          "min": 160,
+          "max": 199
+        },
+        {
+          "label": "Green color",
+          "min": 200,
+          "max": 239
+        },
+        {
+          "label": "Blue color",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "X Axis Positioning",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Y Axis Positioning",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 22,
+      "type_description": "Scan Speed",
+      "capabilities": [
+        {
+          "label": "Scan speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 22,
+      "type_description": "Dynamic Patterns Speed",
+      "capabilities": [
+        {
+          "label": "Dynamic patterns speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Laserworld/Laserworld-EL-900RGB.json",
+  "id": 958
+}

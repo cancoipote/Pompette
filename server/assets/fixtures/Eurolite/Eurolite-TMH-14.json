@@ -1,0 +1,208 @@
+{
+  "version": "1.0.0",
+  "label": "TMH-14",
+  "manufacturer": "Eurolite",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 200,
+  "dimension_height": 280,
+  "dimension_depth": 145,
+  "lens_label": "Other",
+  "lens_degree_min": 4,
+  "lens_degree_max": 32,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 190,
+  "technical_power_consumption": 65,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Strobe with increasing speed",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Static Colors",
+          "min": 11,
+          "max": 127
+        },
+        {
+          "label": "Colorchange 1",
+          "min": 128,
+          "max": 200
+        },
+        {
+          "label": "Colorchange 2",
+          "min": 201,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 3,
+      "type_description": "Macros",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Macro 1",
+          "min": 11,
+          "max": 120
+        },
+        {
+          "label": "Macro 2",
+          "min": 121,
+          "max": 244
+        },
+        {
+          "label": "Music",
+          "min": 245,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Movement Speed",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 22,
+      "type_description": "Colorchange Speed",
+      "capabilities": [
+        {
+          "label": "Speed decreasing",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 22,
+      "type_description": "Macro Speed",
+      "capabilities": [
+        {
+          "label": "Speed decreasing",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 17,
+      "type_description": "Reset",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 149
+        },
+        {
+          "label": "Reset",
+          "min": 150,
+          "max": 200
+        },
+        {
+          "label": "No function",
+          "min": 201,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-TMH-14.json",
+  "id": 754
+}

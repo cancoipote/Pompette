@@ -1,0 +1,6059 @@
+{
+	"frequency":50,
+	"devices_channel":
+	[
+		{"label":"stars", "channel":11},
+		{"label":"spot1", "channel":21},
+		{"label":"spot2", "channel":31},
+		{"label":"spot3", "channel":41},
+		{"label":"spot4", "channel":51},
+		{"label":"lyre1", "channel":71},
+		{"label":"lyre2", "channel":91},
+		{"label":"derby", "channel":111}
+	],
+	"atmospheres":
+	[
+		{
+			"label":"default",
+			"devices":
+			[
+				{
+					"label":"lyre1",
+					"model":"Algam MS-60 11CH for lyre 1",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"cyan", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_potatoes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_rotate_normal", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"lyre2",
+					"model":"Algam MS-60 11CH",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"cyan", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_potatoes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_rotate_normal", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white123", "coefficient":null	},
+							{ 	"type":"transition", "transition_type":"linear", "channel":1,
+								"start": { "value":25, "specificValue":null, "coefficient":null },
+								"end": { "value":75, "specificValue":null, "coefficient":null },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white123", "coefficient":null	},
+							{ 	"type":"transition", "transition_type":"linear", "channel":1,
+								"start": { "value":25, "specificValue":null, "coefficient":null },
+								"end": { "value":75, "specificValue":null, "coefficient":null },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white123", "coefficient":null	},
+							{ 	"type":"transition", "transition_type":"linear", "channel":1,
+								"start": { "value":25, "specificValue":null, "coefficient":null },
+								"end": { "value":75, "specificValue":null, "coefficient":null },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"use_sound":true,
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white123", "coefficient":null	},
+							{ 	"type":"transition", "transition_type":"linear", "channel":1,
+								"start": { "value":25, "specificValue":null, "coefficient":null },
+								"end": { "value":75, "specificValue":null, "coefficient":null },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_no", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"AQuatrePates",
+			"devices":
+			[
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":null },
+								"end": { "value":null, "specificValue":"white", "coefficient":0.1 },
+								"step":2
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_no", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"CEstBizarre",
+			"devices":
+			[
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":null },
+								"end": { "value":null, "specificValue":"white", "coefficient":0.1 },
+								"step":2
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":true,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"no", "coefficient":null },
+								"end": { "value":null, "specificValue":"white", "coefficient":null },
+								"step":2
+							},
+							{ "type":"delay", "min":1, "max":1000},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":null },
+								"end": { "value":null, "specificValue":"no", "coefficient":null },
+								"step":2
+							}
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":true,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"no", "coefficient":null },
+								"end": { "value":null, "specificValue":"white", "coefficient":null },
+								"step":2
+							},
+							{ "type":"delay", "min":1, "max":1000},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":null },
+								"end": { "value":null, "specificValue":"no", "coefficient":null },
+								"step":2
+							}
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":true,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"no", "coefficient":null },
+								"end": { "value":null, "specificValue":"white", "coefficient":null },
+								"step":2
+							},
+							{ "type":"delay", "min":1, "max":1000},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":null },
+								"end": { "value":null, "specificValue":"no", "coefficient":null },
+								"step":2
+							}
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":true,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"no", "coefficient":null },
+								"end": { "value":null, "specificValue":"white", "coefficient":null },
+								"step":2
+							},
+							{ "type":"delay", "min":1, "max":1000},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":null },
+								"end": { "value":null, "specificValue":"no", "coefficient":null },
+								"step":2
+							}
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_yes", "coefficient":null },
+							{ "type":"delay", "min":1, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null },
+							{ "type":"delay", "min":3000, "max":6000}
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"ChuckNorris",
+			"devices":
+			[
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":null },
+								"end": { "value":null, "specificValue":"white", "coefficient":0.1 },
+								"step":2
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":true,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"yellow", "coefficient":null	}
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":true,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"yellow", "coefficient":null	}
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":true,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"yellow", "coefficient":null	}
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":true,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"yellow", "coefficient":null	}
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"ClubDorothee",
+			"devices":
+			[
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":null },
+								"end": { "value":null, "specificValue":"white", "coefficient":0.1 },
+								"step":2
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":true,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null	},
+							{ "type":"delay", "min":3000, "max":3000},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"blue", "coefficient":null	},
+							{ "type":"delay", "min":3000, "max":3000}
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":true,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null	},
+							{ "type":"delay", "min":3000, "max":3000},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"blue", "coefficient":null	},
+							{ "type":"delay", "min":3000, "max":3000}
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":true,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"blue", "coefficient":null	},
+							{ "type":"delay", "min":3000, "max":3000},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null	},
+							{ "type":"delay", "min":3000, "max":3000}
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":true,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"blue", "coefficient":null	},
+							{ "type":"delay", "min":3000, "max":3000},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null	},
+							{ "type":"delay", "min":3000, "max":3000}
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"rb", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_slow", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"CommeParHasard",
+			"devices":
+			[
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":null },
+								"end": { "value":null, "specificValue":"white", "coefficient":0.1 },
+								"step":2
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":true,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null	},
+							{ "type":"delay", "min":300, "max":300},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"green", "coefficient":null	},
+							{ "type":"delay", "min":300, "max":300},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"blue", "coefficient":null	},
+							{ "type":"delay", "min":300, "max":300},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"yellow", "coefficient":null	},
+							{ "type":"delay", "min":300, "max":300},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"magenta", "coefficient":null	},
+							{ "type":"delay", "min":300, "max":300},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"cyan", "coefficient":null	},
+							{ "type":"delay", "min":300, "max":300}
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":true,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null	},
+							{ "type":"delay", "min":300, "max":300},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"green", "coefficient":null	},
+							{ "type":"delay", "min":300, "max":300},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"blue", "coefficient":null	},
+							{ "type":"delay", "min":300, "max":300},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"yellow", "coefficient":null	},
+							{ "type":"delay", "min":300, "max":300},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"magenta", "coefficient":null	},
+							{ "type":"delay", "min":300, "max":300},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"cyan", "coefficient":null	},
+							{ "type":"delay", "min":300, "max":300}
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":true,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"yellow", "coefficient":null	},
+							{ "type":"delay", "min":300, "max":300},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"magenta", "coefficient":null	},
+							{ "type":"delay", "min":300, "max":300},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"cyan", "coefficient":null	},
+							{ "type":"delay", "min":300, "max":300},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null	},
+							{ "type":"delay", "min":300, "max":300},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"green", "coefficient":null	},
+							{ "type":"delay", "min":300, "max":300},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"blue", "coefficient":null	},
+							{ "type":"delay", "min":300, "max":300}
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":true,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"yellow", "coefficient":null	},
+							{ "type":"delay", "min":300, "max":300},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"magenta", "coefficient":null	},
+							{ "type":"delay", "min":300, "max":300},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"cyan", "coefficient":null	},
+							{ "type":"delay", "min":300, "max":300},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null	},
+							{ "type":"delay", "min":300, "max":300},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"green", "coefficient":null	},
+							{ "type":"delay", "min":300, "max":300},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"blue", "coefficient":null	},
+							{ "type":"delay", "min":300, "max":300}
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"FinDuMonde",
+			"devices":
+			[
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":null },
+								"end": { "value":null, "specificValue":"white", "coefficient":0.1 },
+								"step":2
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":true,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white123", "coefficient":0.05 },
+							{ "type":"delay", "min":3000, "max":6000},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1}
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":true,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white123", "coefficient":0.05 },
+							{ "type":"delay", "min":3000, "max":6000},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1}
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":true,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white123", "coefficient":0.05 },
+							{ "type":"delay", "min":3000, "max":6000},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1}
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":true,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white123", "coefficient":0.05 },
+							{ "type":"delay", "min":3000, "max":6000},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1}
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"w", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_normal", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_yes", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null },
+							{ "type":"delay", "min":3000, "max":6000}
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"GuitareOuViolon",
+			"devices":
+			[
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":null },
+								"end": { "value":null, "specificValue":"white", "coefficient":0.1 },
+								"step":2
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"blue", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"blue", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"blue", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"blue", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"bw", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_slow", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"HoustonOnEstMalBarres",
+			"devices":
+			[
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":null },
+								"end": { "value":null, "specificValue":"white", "coefficient":0.1 },
+								"step":2
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"blackout" }
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"blackout" }
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"blackout" }
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"blackout" }
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"bw", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_slow", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"JeSuisTonPere",
+			"devices":
+			[
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":null },
+								"end": { "value":null, "specificValue":"white", "coefficient":0.1 },
+								"step":2
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":true,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"delay", "min":2000, "max":2000},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1}
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":true,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"delay", "min":2000, "max":2000},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1}
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":true,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"delay", "min":3000, "max":3000},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1}
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":true,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"delay", "min":3000, "max":3000},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1}
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"rw", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_slow", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"LaCremeDeLaCreme",
+			"devices":
+			[
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":null },
+								"end": { "value":null, "specificValue":"white", "coefficient":0.1 },
+								"step":2
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"rw", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_slow", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"LeKakapoEstInutile",
+			"devices":
+			[
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"green", "coefficient":null },
+								"end": { "value":null, "specificValue":"green", "coefficient":0.1 },
+								"step":3
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"green", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"green", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"green", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"green", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gw", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_slow", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"LeMondeMerveilleuxDeLaTorture",
+			"devices":
+			[
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":null },
+								"end": { "value":null, "specificValue":"white", "coefficient":0.1 },
+								"step":2
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"blackout" }
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"blackout" }
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"blackout" }
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"blackout" }
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"w", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_slow", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_yes", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null },
+							{ "type":"delay", "min":3000, "max":6000}
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"LesFaitsHistoriquesQuonAuraitPrefereOublier",
+			"devices":
+			[
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":null },
+								"end": { "value":null, "specificValue":"white", "coefficient":0.1 },
+								"step":2
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"yellow", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"yellow", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"yellow", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"yellow", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"w", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_slow", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"MemePasPeur",
+			"devices":
+			[
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"magenta", "coefficient":null },
+								"end": { "value":null, "specificValue":"magenta", "coefficient":0.1 },
+								"step":2
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"magenta", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"magenta", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"magenta", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"magenta", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"bw", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_slow", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_yes", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null },
+							{ "type":"delay", "min":3000, "max":6000}
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"QuestionsDeBebetes",
+			"devices":
+			[
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"orange", "coefficient":null },
+								"end": { "value":null, "specificValue":"orange", "coefficient":0.1 },
+								"step":2
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":null },
+								"end": { "value":null, "specificValue":"orange", "coefficient":0.1 },
+								"step":10
+							},
+							{ "type":"delay", "min":1, "max":200}
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":null },
+								"end": { "value":null, "specificValue":"orange", "coefficient":0.1 },
+								"step":10
+							},
+							{ "type":"delay", "min":1, "max":200}
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":null },
+								"end": { "value":null, "specificValue":"orange", "coefficient":0.1 },
+								"step":10
+							},
+							{ "type":"delay", "min":1, "max":200}
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":null },
+								"end": { "value":null, "specificValue":"orange", "coefficient":0.1 },
+								"step":10
+							},
+							{ "type":"delay", "min":1, "max":200}
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"QuiQuiCest",
+			"devices":
+			[
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":null },
+								"end": { "value":null, "specificValue":"white", "coefficient":0.1 },
+								"step":2
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"w", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_slow", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"SpecialeGamers",
+			"devices":
+			[
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"blue", "coefficient":null },
+								"end": { "value":null, "specificValue":"blue", "coefficient":0.1 },
+								"step":2
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"magenta", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"magenta", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"bw", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_normal", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"TombeAlEau",
+			"devices":
+			[
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"blue", "coefficient":null },
+								"end": { "value":null, "specificValue":"blue", "coefficient":0.1 },
+								"step":2
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"blue", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"blue", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"blue", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"blue", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"bw", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_slow", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"TuTesVuQuandTasBu",
+			"devices":
+			[
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":null },
+								"end": { "value":null, "specificValue":"white", "coefficient":0.1 },
+								"step":2
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"w", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_normal", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"TuTiresOuTuPointes",
+			"devices":
+			[
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":null },
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.1 },
+								"step":2
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"VotreMajeste",
+			"devices":
+			[
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"orange", "coefficient":null },
+								"end": { "value":null, "specificValue":"orange", "coefficient":0.1 },
+								"step":2
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		{
+			"label":"ALEnvers",
+			"devices":
+			[
+				{
+					"label":"lyre1",
+					"model":"Algam MS-60 11CH for lyre 1",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"magenta", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_blast", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_rotate_normal", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null}	
+						]
+					}
+				},
+				{
+					"label":"lyre2",
+					"model":"Algam MS-60 11CH",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"magenta", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_blast", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_rotate_normal", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null}		
+						]
+					}
+				},
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":null },
+								"end": { "value":null, "specificValue":"magenta", "coefficient":null },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.05 },
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.3 },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white123", "coefficient":0.05 },
+								"end": { "value":null, "specificValue":"white123", "coefficient":0.3 },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.05 },
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.3 },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"use_sound":true,
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white123", "coefficient":0.05 },
+								"end": { "value":null, "specificValue":"white123", "coefficient":0.3 },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"bw", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_slow", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"AQuatreRoues",
+			"devices":
+			[
+				{
+					"label":"lyre1",
+					"model":"Algam MS-60 11CH for lyre 1",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_empty", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_rotate_fast", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null}				
+						]
+					}
+				},
+				{
+					"label":"lyre2",
+					"model":"Algam MS-60 11CH",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_empty", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_rotate_fast", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null}		
+						]
+					}
+				},
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+
+
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":null },
+								"end": { "value":null, "specificValue":"blue", "coefficient":null },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.05 },
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.3 },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white123", "coefficient":0.05 },
+								"end": { "value":null, "specificValue":"white123", "coefficient":0.3 },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.05 },
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.3 },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"use_sound":true,
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white123", "coefficient":0.05 },
+								"end": { "value":null, "specificValue":"white123", "coefficient":0.3 },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"bw", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_slow", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"AllumerLeFeu",
+			"devices":
+			[
+				{
+					"label":"lyre1",
+					"model":"Algam MS-60 11CH for lyre 1",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_vortex", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_rotate_fast", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null}			
+						]
+					}
+				},
+				{
+					"label":"lyre2",
+					"model":"Algam MS-60 11CH",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_vortex", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_rotate_fast", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+
+
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"orange", "coefficient":null },
+								"end": { "value":null, "specificValue":"red", "coefficient":null },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"delay", "min":1000, "max":2000},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1}
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"red", "coefficient":0.05 },
+								"end": { "value":null, "specificValue":"orange", "coefficient":0.3 },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"red", "coefficient":0.05 },
+								"end": { "value":null, "specificValue":"orange", "coefficient":0.3 },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"use_sound":true,
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"delay", "min":1000, "max":2000},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1}
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"r", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_slow", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_yes", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null },
+							{ "type":"delay", "min":3000, "max":6000}
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"ArgotPunchlineVousAvezLesBases",
+			"devices":
+			[
+				{
+					"label":"lyre1",
+					"model":"Algam MS-60 11CH for lyre 1",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_triangle_shake_slow", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_rotate_fast", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"lyre2",
+					"model":"Algam MS-60 11CH",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_triangle_shake_slow", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_rotate_fast", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+
+
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white123", "coefficient":null },
+								"end": { "value":null, "specificValue":"white", "coefficient":null },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"white", "coefficient":0.3 },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1000, "max":5000},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1}
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"blackout" },
+							{ "type":"delay", "min":2000, "max":6000},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1}
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"use_sound":true,
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"white", "coefficient":0.3 },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_slow", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_yes", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"CEstQuoiCeJob",
+			"devices":
+			[
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+
+
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white123", "coefficient":null },
+								"end": { "value":null, "specificValue":"white", "coefficient":null },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.3 },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.1 },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.1 },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"use_sound":true,
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.3 },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"bw", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_normal", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"CestQuoiCeTruc",
+			"devices":
+			[
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+
+
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"orange", "coefficient":null },
+								"end": { "value":null, "specificValue":"orange", "coefficient":null },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"orange", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"orange", "coefficient":0.8 },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"yellow", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"yellow", "coefficient":0.1 },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"orange", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"orange", "coefficient":0.1 },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"use_sound":true,
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"yellow", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"yellow", "coefficient":0.3 },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_normal", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"CEstQuoiLePrixDeCeTruc",
+			"devices":
+			[
+				{
+					"label":"lyre1",
+					"model":"Algam MS-60 11CH for lyre 1",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_empty", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_rotate_fast", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"lyre2",
+					"model":"Algam MS-60 11CH",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_empty", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_rotate_fast", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+
+
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"red", "coefficient":null },
+								"end": { "value":null, "specificValue":"uv", "coefficient":null },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"red", "coefficient":null},
+								"end": { "value":null, "specificValue":"magenta", "coefficient":null },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"uv", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"red", "coefficient":0.8 },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"magenta", "coefficient":null},
+								"end": { "value":null, "specificValue":"red", "coefficient":null },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"use_sound":true,
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"red", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"pink", "coefficient":0.8 },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_normal", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"Chansonsfrancaises",
+			"devices":
+			[
+				{
+					"label":"lyre1",
+					"model":"Algam MS-60 11CH for lyre 1",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"cyan", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_bubbles", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_rotate_fast", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"lyre2",
+					"model":"Algam MS-60 11CH",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"magenta", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_bubbles", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_rotate_fast", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+
+
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":null },
+								"end": { "value":null, "specificValue":"magenta", "coefficient":null },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":null },
+							{ "type":"delay", "min":1000, "max":1000},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"cyan", "coefficient":null },
+							{ "type":"delay", "min":1000, "max":1000},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":null },
+							{ "type":"delay", "min":1000, "max":1000},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"cyan", "coefficient":null },
+							{ "type":"delay", "min":1000, "max":1000}
+							
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"cyan", "coefficient":null },
+							{ "type":"delay", "min":1000, "max":1000},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":null },
+							{ "type":"delay", "min":1000, "max":1000},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"cyan", "coefficient":null },
+							{ "type":"delay", "min":1000, "max":1000},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":null },
+							{ "type":"delay", "min":1000, "max":1000}
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":null },
+							{ "type":"delay", "min":1000, "max":1000},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"cyan", "coefficient":null },
+							{ "type":"delay", "min":1000, "max":1000},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":null },
+							{ "type":"delay", "min":1000, "max":1000},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"cyan", "coefficient":null },
+							{ "type":"delay", "min":1000, "max":1000}
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"use_sound":true,
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"cyan", "coefficient":null },
+							{ "type":"delay", "min":1000, "max":1000},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":null },
+							{ "type":"delay", "min":1000, "max":1000},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"cyan", "coefficient":null },
+							{ "type":"delay", "min":1000, "max":1000},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":null },
+							{ "type":"delay", "min":1000, "max":1000}
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"bw", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_normal", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"ConcoursDeBeats",
+			"devices":
+			[
+				{
+					"label":"lyre1",
+					"model":"Algam MS-60 11CH for lyre 1",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_triangle_shake_slow", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_rotate_fast", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"lyre2",
+					"model":"Algam MS-60 11CH",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_triangle_shake_slow", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_rotate_fast", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+
+
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white123", "coefficient":null },
+								"end": { "value":null, "specificValue":"white", "coefficient":null },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"white", "coefficient":0.3 },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1000, "max":5000},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1}
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"blackout" },
+							{ "type":"delay", "min":2000, "max":6000},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"uv", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null },
+							{ "type":"delay", "min":1, "max":1},
+							{ "type":"blackout" },
+							{ "type":"delay", "min":1, "max":1}
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"use_sound":true,
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"white", "coefficient":0.3 },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_slow", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_yes", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"EstCeQueCestBonPourVous",
+			"devices":
+			[
+				{
+					"label":"lyre1",
+					"model":"Algam MS-60 11CH for lyre 1",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"cyan", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_bubbles", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_rotate_normal", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"lyre2",
+					"model":"Algam MS-60 11CH",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"magenta", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_bubbles", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_rotate_normal", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+
+
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":null },
+								"end": { "value":null, "specificValue":"magenta", "coefficient":null },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"uv", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"uv", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"uv", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"uv", "coefficient":0.1 },
+								"step":1
+							}						
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"uv", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"uv", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"uv", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"uv", "coefficient":0.5 },
+								"step":1
+							}				
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"uv", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"uv", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"uv", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"uv", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.1 },
+								"step":1
+							}		
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"use_sound":true,
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"uv", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"uv", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"uv", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"uv", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.5 },
+								"step":1
+							}		
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"w", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_slow", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"EulCarnavalEuDunkerque",
+			"devices":
+			[
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+
+
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"yellow", "coefficient":null },
+								"end": { "value":null, "specificValue":"orange", "coefficient":null },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":0.5 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"pink", "coefficient":0.5 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":0.5 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"pink", "coefficient":0.5 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":0.5 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"pink", "coefficient":0.5 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":0.5 },
+							{ "type":"delay", "min":10, "max":10},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"pink", "coefficient":0.5 },
+							{ "type":"delay", "min":10, "max":10},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":0.5 },
+							{ "type":"delay", "min":10, "max":10},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"pink", "coefficient":0.5 },
+							{ "type":"delay", "min":10, "max":10},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":0.5 },
+							{ "type":"delay", "min":10, "max":10}
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"yellow", "coefficient":0.5 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":0.5 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"yellow", "coefficient":0.5 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":0.5 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"yellow", "coefficient":0.5 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":0.5 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"yellow", "coefficient":0.5 },
+							{ "type":"delay", "min":10, "max":10},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":0.5 },
+							{ "type":"delay", "min":10, "max":10},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"yellow", "coefficient":0.5 },
+							{ "type":"delay", "min":10, "max":10},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":0.5 },
+							{ "type":"delay", "min":10, "max":10},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"yellow", "coefficient":0.5 },
+							{ "type":"delay", "min":10, "max":10}
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":0.5 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"pink", "coefficient":0.5 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":0.5 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"pink", "coefficient":0.5 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":0.5 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"pink", "coefficient":0.5 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":0.5 },
+							{ "type":"delay", "min":10, "max":10},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"pink", "coefficient":0.5 },
+							{ "type":"delay", "min":10, "max":10},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":0.5 },
+							{ "type":"delay", "min":10, "max":10},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"pink", "coefficient":0.5 },
+							{ "type":"delay", "min":10, "max":10},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":0.5 },
+							{ "type":"delay", "min":10, "max":10}
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"use_sound":true,
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"yellow", "coefficient":0.5 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":0.5 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"yellow", "coefficient":0.5 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":0.5 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"yellow", "coefficient":0.5 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":0.5 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"yellow", "coefficient":0.5 },
+							{ "type":"delay", "min":10, "max":10},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":0.5 },
+							{ "type":"delay", "min":10, "max":10},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"yellow", "coefficient":0.5 },
+							{ "type":"delay", "min":10, "max":10},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":0.5 },
+							{ "type":"delay", "min":10, "max":10},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"yellow", "coefficient":0.5 },
+							{ "type":"delay", "min":10, "max":10}
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"r", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_fast", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_yes", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"GenerationFortnite",
+			"devices":
+			[
+				{
+					"label":"lyre1",
+					"model":"Algam MS-60 11CH for lyre 1",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"cyan", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_bubbles", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_rotate_normal", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"lyre2",
+					"model":"Algam MS-60 11CH",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"cyan", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_bubbles", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_rotate_normal", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+
+
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":null },
+								"end": { "value":null, "specificValue":"blue", "coefficient":null },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"blue", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"blue", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"blue", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"blue", "coefficient":0.1 },
+								"step":1
+							}						
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"blue", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"blue", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"blue", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"blue", "coefficient":0.5 },
+								"step":1
+							}				
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"blue", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"blue", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"blue", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"blue", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.1 },
+								"step":1
+							}		
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"use_sound":true,
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"blue", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"blue", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"blue", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"blue", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.5 },
+								"step":1
+							}		
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"bw", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_slow", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_yes", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"LesAnimateursTricesTV",
+			"devices":
+			[
+				{
+					"label":"lyre1",
+					"model":"Algam MS-60 11CH for lyre 1",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_empty", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_rotate_fast", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"lyre2",
+					"model":"Algam MS-60 11CH",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_empty", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_rotate_fast", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+
+
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"red", "coefficient":null },
+								"end": { "value":null, "specificValue":"white", "coefficient":0.8 },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"red", "coefficient":null},
+								"end": { "value":null, "specificValue":"red", "coefficient":0.6 },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"red", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"red", "coefficient":0.8 },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"red", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"red", "coefficient":0.4 },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"use_sound":true,
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"red", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"red", "coefficient":0.8 },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"rw", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_normal", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"PopFrancaise",
+			"devices":
+			[
+				{
+					"label":"lyre1",
+					"model":"Algam MS-60 11CH for lyre 1",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"cyan", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_gas_hob", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_rotate_normal", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"lyre2",
+					"model":"Algam MS-60 11CH",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"magenta", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_gas_hob", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_rotate_normal", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+
+
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":null },
+								"end": { "value":null, "specificValue":"magenta", "coefficient":null },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"uv", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"uv", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"uv", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"uv", "coefficient":0.1 },
+								"step":1
+							}						
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"uv", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"uv", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"uv", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"uv", "coefficient":0.5 },
+								"step":1
+							}				
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"uv", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"uv", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"uv", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"uv", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.1 },
+								"step":1
+							}		
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"use_sound":true,
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"uv", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"uv", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"uv", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"uv", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.5 },
+								"step":1
+							}		
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"w", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_slow", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_yes", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"PourLesFooteux",
+			"devices":
+			[
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+
+
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":null },
+								"end": { "value":null, "specificValue":"white123", "coefficient":null },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":0.2 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"green", "coefficient":0.2 },
+							{ "type":"delay", "min":500, "max":500}	
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"green", "coefficient":0.2 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":0.2 },
+							{ "type":"delay", "min":500, "max":500}	
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":0.2 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"green", "coefficient":0.2 },
+							{ "type":"delay", "min":500, "max":500}		
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"use_sound":true,
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"green", "coefficient":0.2 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":0.2 },
+							{ "type":"delay", "min":500, "max":500}	
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gw", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_slow", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_yes", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"RastasQuiz",
+			"devices":
+			[
+				{
+					"label":"lyre1",
+					"model":"Algam MS-60 11CH for lyre 1",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_potatoes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_rotate_normal", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"lyre2",
+					"model":"Algam MS-60 11CH",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"green", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_potatoes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_rotate_normal", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+
+
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"red", "coefficient":null },
+								"end": { "value":null, "specificValue":"green", "coefficient":null },
+								"step":2
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"green", "coefficient":null },
+								"end": { "value":null, "specificValue":"yellow", "coefficient":null },
+								"step":2
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"yellow", "coefficient":null },
+								"end": { "value":null, "specificValue":"red", "coefficient":null },
+								"step":2
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":0.2 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"green", "coefficient":0.2 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"yellow", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"green", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"magenta", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500}	
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":0.2 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"green", "coefficient":0.2 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"yellow", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"green", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"magenta", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500}	
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":0.2 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"green", "coefficient":0.2 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"yellow", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"green", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"magenta", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500}	
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"use_sound":true,
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"red", "coefficient":0.2 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"green", "coefficient":0.2 },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"yellow", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"green", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"magenta", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500}	
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"rgb", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_slow", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"SortezCouverts",
+			"devices":
+			[
+				{
+					"label":"lyre1",
+					"model":"Algam MS-60 11CH for lyre 1",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"cyan", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_bubbles_shake_slow", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"lyre2",
+					"model":"Algam MS-60 11CH",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"cyan", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_bubbles_shake_slow", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+
+
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"blue", "coefficient":null },
+								"end": { "value":null, "specificValue":"cyan", "coefficient":null },
+								"step":2
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"uv", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"uv", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"uv", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"uv", "coefficient":0.1 },
+								"step":1
+							}						
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"blue", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"blue", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"blue", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"blue", "coefficient":0.5 },
+								"step":1
+							}				
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"blue", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"blue", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"blue", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"blue", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.1 },
+								"step":1
+							}		
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"use_sound":true,
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"blue", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"blue", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"blue", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"blue", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.5 },
+								"step":1
+							}		
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"bw", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_slow", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_yes", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"TikTok",
+			"devices":
+			[
+				{
+					"label":"lyre1",
+					"model":"Algam MS-60 11CH for lyre 1",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"cyan", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_bubbles", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_rotate_normal", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"lyre2",
+					"model":"Algam MS-60 11CH",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_bubbles", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_rotate_normal", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+
+
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":null },
+								"end": { "value":null, "specificValue":"orange", "coefficient":null },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"orange", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"orange", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"orange", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"orange", "coefficient":0.1 },
+								"step":1
+							}						
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"orange", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"orange", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"orange", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"orange", "coefficient":0.5 },
+								"step":1
+							}				
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"orange", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"orange", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"orange", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"orange", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.1 },
+								"step":1
+							}		
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"use_sound":true,
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"orange", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"orange", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"orange", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"orange", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.5 },
+								"step":1
+							}		
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"w", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_yes", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"TombePasDansLePanneau",
+			"devices":
+			[
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+
+
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":null },
+								"end": { "value":null, "specificValue":"white", "coefficient":null },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"white", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"white", "coefficient":0.1 },
+								"step":1
+							}						
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"white", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"orange", "coefficient":0.5 },
+								"step":1
+							}				
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"white", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"blue", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.1 },
+								"step":1
+							}		
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"use_sound":true,
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"white", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"white", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"white", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.5 },
+								"step":1
+							}		
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"ToutToutYoutube",
+			"devices":
+			[
+				{
+					"label":"lyre1",
+					"model":"Algam MS-60 11CH for lyre 1",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"cyan", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_vortex", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_rotate_normal", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"lyre2",
+					"model":"Algam MS-60 11CH",
+					"sequense":
+					{
+						"loop":false,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"strobe_yes", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"orange", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"gobo_vortex", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"prism_rotate_normal", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"default", "coefficient":null },
+							{ "type":"delay", "min":500, "max":500},
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"dimmer_yes", "coefficient":null}
+						]
+					}
+				},
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+
+
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":null },
+								"end": { "value":null, "specificValue":"orange", "coefficient":null },
+								"step":1
+							}
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"orange", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"orange", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"orange", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"orange", "coefficient":0.1 },
+								"step":1
+							}						
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"orange", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"orange", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"orange", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"orange", "coefficient":0.5 },
+								"step":1
+							}				
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"orange", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"orange", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"orange", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"orange", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.1 },
+								"step":1
+							}		
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"use_sound":true,
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"orange", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"orange", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"orange", "coefficient":0.5 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"orange", "coefficient":0.5},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.1 },
+								"step":1
+							},
+							{ 	"type":"transition", "transition_type":"linear", "channel":null,
+								"start": { "value":null, "specificValue":"cyan", "coefficient":0.1},
+								"end": { "value":null, "specificValue":"cyan", "coefficient":0.5 },
+								"step":1
+							}		
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"bw", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_normal", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_yes", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+
+
+		{
+			"label":"sessionOver",
+			"devices":
+			[
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":null }
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":0.5	}
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":0.5	}
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"use_sound":true,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":0.5 }
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"use_sound":true,
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"white", "coefficient":0.5 }
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_no", "coefficient":null }
+						]
+					}
+				}
+			]
+		},
+		{
+			"label":"Blackout",
+			"devices":
+			[
+				{
+					"label":"stars",
+					"model":"LEB-431DMX",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"blackout" }
+						]
+					}
+				},
+				{
+					"label":"spot1",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"blackout" }
+						]
+					}
+				},
+				{
+					"label":"spot2",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"blackout" }
+						]
+					}
+				},
+				{
+					"label":"spot3",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"blackout" }
+						]
+					}
+				},
+				{
+					"label":"spot4",
+					"model":"Algam SLIMPAR510QUAD",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"blackout" }
+						]
+					}
+				},
+				{
+					"label":"derby",
+					"model":"HELIOS-II",
+					"sequense":
+					{
+						"loop":true,
+						"loop_from_start":false,
+						"steps":
+						[
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_rotation_no", "coefficient":null },
+							{ "type":"fixed", "channel":null, "value":null, "specificValue":"derby_strobe_no", "coefficient":null }
+						]
+					}
+				}
+			]
+		}
+	]
+}
+

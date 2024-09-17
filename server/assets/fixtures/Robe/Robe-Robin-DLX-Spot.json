@@ -1,0 +1,2141 @@
+{
+  "version": "1.0.0",
+  "label": "Robin DLX Spot",
+  "manufacturer": "Robe",
+  "bulb_type": "LED",
+  "bulb_lumens": 5370,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 20,
+  "dimension_width": 433,
+  "dimension_height": 517,
+  "dimension_depth": 480,
+  "lens_label": "Other",
+  "lens_degree_min": 10,
+  "lens_degree_max": 45,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 280,
+  "technical_power_consumption": 550,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Pan/Tilt Speed, Pan/Tilt Time",
+      "capabilities": [
+        {
+          "label": "Max. speed (tracking mode)",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Speed from max. to min. (vector mode)/Time from 0.1 sec. to 25.5 sec.",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 17,
+      "type_description": "Power/Special Functions",
+      "capabilities": [
+        {
+          "label": "Reserved",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "DMX input: Wired DMX",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "DMX input: Wireless DMX",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "White point 8000K on",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "White point 8000K off",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "RGB colour mixing mode",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "CMY colour mixing mode",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Pan/tilt speed mode",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Pan/tilt time mode",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Blackout while pan/tilt moving",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Disabled blackout while pan/tilt moving",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Reserved",
+          "min": 90,
+          "max": 109
+        },
+        {
+          "label": "Blackout while gobo wheel moving",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Disable blackout while gobo wheel moving",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Fixture reset (except pan/tilt)",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Pan/tilt reset",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Reserved",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Gobo wheels reset",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Reserved",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Zoom/focus/frost/prism reset",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Iris reset",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Total fixture reset",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Reserved",
+          "min": 210,
+          "max": 239
+        },
+        {
+          "label": "Disable 'theatre mode'",
+          "min": 240,
+          "max": 240
+        },
+        {
+          "label": "'Theatre mode' - automatic control of fan noise",
+          "min": 241,
+          "max": 241
+        },
+        {
+          "label": "'Theatre mode' - fan noise control from min. to max.",
+          "min": 242,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Virtual Colour Wheel",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "White 2700K",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "label": "White 2700K (halogen lamp mode)",
+          "min": 3,
+          "max": 3
+        },
+        {
+          "label": "White 3200K",
+          "min": 4,
+          "max": 5
+        },
+        {
+          "label": "White 3200K (halogen lamp mode)",
+          "min": 6,
+          "max": 6
+        },
+        {
+          "label": "White 4200K",
+          "min": 7,
+          "max": 9
+        },
+        {
+          "label": "White 5600K",
+          "min": 10,
+          "max": 12
+        },
+        {
+          "label": "White 8000K",
+          "min": 13,
+          "max": 15
+        },
+        {
+          "label": "Blue (blue=full, red+green+white=0)",
+          "min": 16,
+          "max": 16
+        },
+        {
+          "label": "Red=0, green->up, blue=full, white=0",
+          "min": 17,
+          "max": 55
+        },
+        {
+          "label": "Light blue (red=0, green=full, blue=full, white=0)",
+          "min": 56,
+          "max": 56
+        },
+        {
+          "label": "Red=0, green=full, blue->down, white=0",
+          "min": 57,
+          "max": 95
+        },
+        {
+          "label": "Green (red=0, green=full, blue+white=0)",
+          "min": 96,
+          "max": 96
+        },
+        {
+          "label": "Red->up, green=full, blue+white=0",
+          "min": 97,
+          "max": 134
+        },
+        {
+          "label": "Yellow (red+green=full, blue+white=0)",
+          "min": 135,
+          "max": 135
+        },
+        {
+          "label": "Red=full, green->down, blue+white=0",
+          "min": 136,
+          "max": 174
+        },
+        {
+          "label": "Red (Red=full, green+blue+white=0)",
+          "min": 175,
+          "max": 175
+        },
+        {
+          "label": "Red=full, green=0, blue->up, white=0",
+          "min": 176,
+          "max": 214
+        },
+        {
+          "label": "Magenta (red=full, green=0, blue=full, white=0)",
+          "min": 215,
+          "max": 215
+        },
+        {
+          "label": "Red>down, green=0, blue=full, white=0",
+          "min": 216,
+          "max": 246
+        },
+        {
+          "label": "Blue (Red+green=0, blue=full, white=0)",
+          "min": 247,
+          "max": 247
+        },
+        {
+          "label": "Rainbow effect (with fade time) from slow->fast",
+          "min": 248,
+          "max": 251
+        },
+        {
+          "label": "Rainbow effect from slow->fast",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Red/Cyan (8-Bit)",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Red/Cyan (16-Bit)",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Green/Magenta (8-Bit)",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "CTC",
+      "capabilities": [
+        {
+          "label": "Colour temperature correction",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 22,
+      "type_description": "Speed of Rotating Gobo Selection",
+      "capabilities": [
+        {
+          "label": "Max. to min. (0-25.5 sec.)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 4,
+      "type_description": "Static Gobo Wheel",
+      "capabilities": [
+        {
+          "label": "Open/hole",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Open/Gobo 2",
+          "min": 1,
+          "max": 6
+        },
+        {
+          "label": "Gobo 1",
+          "min": 7,
+          "max": 7
+        },
+        {
+          "label": "Gobo 1/Gobo 2",
+          "min": 8,
+          "max": 12
+        },
+        {
+          "label": "Gobo 2",
+          "min": 13,
+          "max": 13
+        },
+        {
+          "label": "Gobo 2/Gobo 3",
+          "min": 14,
+          "max": 18
+        },
+        {
+          "label": "Gobo 3",
+          "min": 19,
+          "max": 19
+        },
+        {
+          "label": "Gobo 3/Gobo 4",
+          "min": 20,
+          "max": 25
+        },
+        {
+          "label": "Gobo 4",
+          "min": 26,
+          "max": 26
+        },
+        {
+          "label": "Gobo 4/Gobo 5",
+          "min": 27,
+          "max": 31
+        },
+        {
+          "label": "Gobo 5",
+          "min": 32,
+          "max": 32
+        },
+        {
+          "label": "Gobo 5/Gobo 6",
+          "min": 33,
+          "max": 38
+        },
+        {
+          "label": "Gobo 6",
+          "min": 39,
+          "max": 39
+        },
+        {
+          "label": "Gobo 6/Gobo 7",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "Gobo 7",
+          "min": 45,
+          "max": 45
+        },
+        {
+          "label": "Gobo 7/Gobo 8",
+          "min": 46,
+          "max": 50
+        },
+        {
+          "label": "Gobo 8",
+          "min": 51,
+          "max": 51
+        },
+        {
+          "label": "Gobo 8/Gobo 9",
+          "min": 52,
+          "max": 57
+        },
+        {
+          "label": "Gobo 9",
+          "min": 58,
+          "max": 58
+        },
+        {
+          "label": "Gobo 9/Open",
+          "min": 59,
+          "max": 63
+        },
+        {
+          "label": "Open/hole",
+          "min": 64,
+          "max": 64
+        },
+        {
+          "label": "Gobo 1 - positioning",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "Gobo 2 - positioning",
+          "min": 70,
+          "max": 74
+        },
+        {
+          "label": "Gobo 3 - positioning",
+          "min": 75,
+          "max": 79
+        },
+        {
+          "label": "Gobo 4 - positioning",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "Gobo 5 - positioning",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "Gobo 6 - positioning",
+          "min": 90,
+          "max": 94
+        },
+        {
+          "label": "Gobo 7 - positioning",
+          "min": 95,
+          "max": 99
+        },
+        {
+          "label": "Gobo 8 - positioning",
+          "min": 100,
+          "max": 104
+        },
+        {
+          "label": "Gobo 9 - positioning",
+          "min": 105,
+          "max": 109
+        },
+        {
+          "label": "Shaking Gobo 1",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Shaking Gobo 2",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Shaking Gobo 3",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Shaking Gobo 4",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Shaking Gobo 5",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Shaking Gobo 6",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Shaking Gobo 7",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Shaking Gobo 8",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Shaking Gobo 9",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Open/hole",
+          "min": 200,
+          "max": 201
+        },
+        {
+          "label": "Forwards gobo wheel rotation from fast to slow",
+          "min": 202,
+          "max": 221
+        },
+        {
+          "label": "No rotation",
+          "min": 222,
+          "max": 223
+        },
+        {
+          "label": "Backwards gobo wheel rotation from slow to fast",
+          "min": 224,
+          "max": 243
+        },
+        {
+          "label": "Random gobo by selection audio control",
+          "min": 244,
+          "max": 249
+        },
+        {
+          "label": "Auto random gobo selection from fast to slow",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Static Gobo Wheel - Fine",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 4,
+      "type_description": "Rotating Gobo Wheel",
+      "capabilities": [
+        {
+          "label": "Open/hole",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Gobo 1 - index",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "Gobo 2 - index",
+          "min": 8,
+          "max": 11
+        },
+        {
+          "label": "Gobo 3 - index",
+          "min": 12,
+          "max": 15
+        },
+        {
+          "label": "Gobo 4 - index",
+          "min": 16,
+          "max": 19
+        },
+        {
+          "label": "Gobo 5 - index",
+          "min": 20,
+          "max": 23
+        },
+        {
+          "label": "Gobo 6 - index",
+          "min": 24,
+          "max": 27
+        },
+        {
+          "label": "Gobo 7 - index",
+          "min": 28,
+          "max": 31
+        },
+        {
+          "label": "Gobo 1 - rotation",
+          "min": 32,
+          "max": 35
+        },
+        {
+          "label": "Gobo 2 - rotation",
+          "min": 36,
+          "max": 39
+        },
+        {
+          "label": "Gobo 3 - rotation",
+          "min": 40,
+          "max": 43
+        },
+        {
+          "label": "Gobo 4 - rotation",
+          "min": 44,
+          "max": 47
+        },
+        {
+          "label": "Gobo 5 - rotation",
+          "min": 48,
+          "max": 51
+        },
+        {
+          "label": "Gobo 6 - rotation",
+          "min": 52,
+          "max": 55
+        },
+        {
+          "label": "Gobo 7 - rotation",
+          "min": 56,
+          "max": 59
+        },
+        {
+          "label": "Shaking Gobo 1 - index",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Shaking Gobo 2 - index",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Shaking Gobo 3 - index",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Shaking Gobo 4 - index",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Shaking Gobo 5 - index",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Shaking Gobo 6 - index",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Shaking Gobo 7 - index",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Shaking Gobo 1 - rotation",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Shaking Gobo 2 - rotation",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Shaking Gobo 3 - rotation",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Shaking Gobo 4 - rotation",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Shaking Gobo 5 - rotation",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Shaking Gobo 6 - rotation",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Shaking Gobo 7 - rotation",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Open/hole",
+          "min": 200,
+          "max": 201
+        },
+        {
+          "label": "Forwards gobo wheel rotation from fast to slow",
+          "min": 202,
+          "max": 221
+        },
+        {
+          "label": "No rotation",
+          "min": 222,
+          "max": 223
+        },
+        {
+          "label": "Bacwards gobo wheel rotation from slow to fast",
+          "min": 224,
+          "max": 243
+        },
+        {
+          "label": "Random gobo selection by audio control",
+          "min": 244,
+          "max": 249
+        },
+        {
+          "label": "Auto random gobo selection from fast to slow",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 4,
+      "type_description": "Rotating Gobo Indexing and Rotation",
+      "capabilities": [
+        {
+          "label": "No rotation/Indexing",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Forwards gobo rotation from fast to slow/Indexing",
+          "min": 1,
+          "max": 127
+        },
+        {
+          "label": "No rotation",
+          "min": 128,
+          "max": 129
+        },
+        {
+          "label": "Backwards gobo rotation from slow to fast/Indexing",
+          "min": 130,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "Open position (hole)",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "3-facet rotating prism",
+          "min": 20,
+          "max": 127
+        },
+        {
+          "label": "Macro 1",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Macro 2",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Macro 3",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Macro 4",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Macro 5",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Macro 6",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Macro 7",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Macro 8",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Macro 9",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Macro 10",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Macro 11",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Macro 12",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Macro 13",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Macro 14",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Macro 15",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Macro 16",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 20,
+      "type_description": "Prism Rotation",
+      "capabilities": [
+        {
+          "label": "No rotation",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Forwards rotation from fast to slow",
+          "min": 1,
+          "max": 127
+        },
+        {
+          "label": "No rotation",
+          "min": 128,
+          "max": 129
+        },
+        {
+          "label": "Backwards rotation from slow to fast",
+          "min": 130,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 1,
+      "type_description": "Iris",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "From max. diameter to min. diameter",
+          "min": 1,
+          "max": 179
+        },
+        {
+          "label": "Closed",
+          "min": 180,
+          "max": 191
+        },
+        {
+          "label": "Pulse opening from slow to fast",
+          "min": 192,
+          "max": 219
+        },
+        {
+          "label": "Pulse closing from fast to slow",
+          "min": 220,
+          "max": 247
+        },
+        {
+          "label": "Random pulse opening (fast)",
+          "min": 248,
+          "max": 249
+        },
+        {
+          "label": "Random pulse opening (slow)",
+          "min": 250,
+          "max": 251
+        },
+        {
+          "label": "Random pulse closing (fast)",
+          "min": 252,
+          "max": 253
+        },
+        {
+          "label": "Random pulse closing (slow)",
+          "min": 254,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 1,
+      "type_description": "Zoom - Fine",
+      "capabilities": [
+        {
+          "label": "Fine zooming",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "type": 21,
+      "type_description": "Shutter/Strobe",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Open",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe effect from slow to fast",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Opening pulse in sequences from slow to fast",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Closing pulse in sequences from fast to slow",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random strobe effect from slow to fast",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Dimmer Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Dimmer Intensity - Fine",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 1,
+      "type_description": "Frost",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Frost from 0% to 100%",
+          "min": 1,
+          "max": 179
+        },
+        {
+          "label": "100% Frost",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Pulse closing from slow to fast",
+          "min": 190,
+          "max": 211
+        },
+        {
+          "label": "Pulse opening from fast to slow",
+          "min": 212,
+          "max": 233
+        },
+        {
+          "label": "Ramping from fast to slow",
+          "min": 234,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Rotating Gobo Indexing/Rotation Fine",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Iris - Fine",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 1,
+      "type_description": "Focus - Fine",
+      "capabilities": [
+        {
+          "label": "Fine focusing",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "Green/Magenta (16-Bit)",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 0,
+      "type_description": "Blue/Yellow (8-Bit)",
+      "capabilities": []
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "Blue/Yellow (16-Bit)",
+      "capabilities": []
+    },
+    {
+      "index": 32,
+      "type": 0,
+      "type_description": "White (8-Bit)",
+      "capabilities": []
+    },
+    {
+      "index": 33,
+      "type": 0,
+      "type_description": "White (16-Bit)",
+      "capabilities": []
+    },
+    {
+      "index": 34,
+      "type": 1,
+      "type_description": "Autofocus (Priority & Distance Selection)",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "4m - Hole",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "label": "4,3m - Hole",
+          "min": 2,
+          "max": 2
+        },
+        {
+          "label": "4,6m - Hole",
+          "min": 3,
+          "max": 3
+        },
+        {
+          "label": "4,9m - Hole",
+          "min": 4,
+          "max": 4
+        },
+        {
+          "label": "5,2m - Hole",
+          "min": 5,
+          "max": 5
+        },
+        {
+          "label": "5,5m - Hole",
+          "min": 6,
+          "max": 6
+        },
+        {
+          "label": "5,8m - Hole",
+          "min": 7,
+          "max": 7
+        },
+        {
+          "label": "6m - Hole",
+          "min": 8,
+          "max": 8
+        },
+        {
+          "label": "6,25m - Hole",
+          "min": 9,
+          "max": 9
+        },
+        {
+          "label": "6,5m - Hole",
+          "min": 10,
+          "max": 10
+        },
+        {
+          "label": "6,75m - Hole",
+          "min": 11,
+          "max": 11
+        },
+        {
+          "label": "7m - Hole",
+          "min": 12,
+          "max": 12
+        },
+        {
+          "label": "7,25m - Hole",
+          "min": 13,
+          "max": 13
+        },
+        {
+          "label": "7,5m - Hole",
+          "min": 14,
+          "max": 14
+        },
+        {
+          "label": "7,75m - Hole",
+          "min": 15,
+          "max": 15
+        },
+        {
+          "label": "8m - Hole",
+          "min": 16,
+          "max": 16
+        },
+        {
+          "label": "8,25m - Hole",
+          "min": 17,
+          "max": 17
+        },
+        {
+          "label": "8,5m - Hole",
+          "min": 18,
+          "max": 18
+        },
+        {
+          "label": "8,75m - Hole",
+          "min": 19,
+          "max": 19
+        },
+        {
+          "label": "9m - Hole",
+          "min": 20,
+          "max": 20
+        },
+        {
+          "label": "9,25m - Hole",
+          "min": 21,
+          "max": 21
+        },
+        {
+          "label": "9,5m - Hole",
+          "min": 22,
+          "max": 22
+        },
+        {
+          "label": "9,75m - Hole",
+          "min": 23,
+          "max": 23
+        },
+        {
+          "label": "10m - Hole",
+          "min": 24,
+          "max": 24
+        },
+        {
+          "label": "10,25m - Hole",
+          "min": 25,
+          "max": 25
+        },
+        {
+          "label": "10,5m - Hole",
+          "min": 26,
+          "max": 26
+        },
+        {
+          "label": "10,75m - Hole",
+          "min": 27,
+          "max": 27
+        },
+        {
+          "label": "11m - Hole",
+          "min": 28,
+          "max": 28
+        },
+        {
+          "label": "11,25m - Hole",
+          "min": 29,
+          "max": 29
+        },
+        {
+          "label": "11,5m - Hole",
+          "min": 30,
+          "max": 30
+        },
+        {
+          "label": "11,75m - Hole",
+          "min": 31,
+          "max": 31
+        },
+        {
+          "label": "12m - Hole",
+          "min": 32,
+          "max": 32
+        },
+        {
+          "label": "12,25m - Hole",
+          "min": 33,
+          "max": 33
+        },
+        {
+          "label": "12,5m - Hole",
+          "min": 34,
+          "max": 34
+        },
+        {
+          "label": "12,75m - Hole",
+          "min": 35,
+          "max": 35
+        },
+        {
+          "label": "13m - Hole",
+          "min": 36,
+          "max": 36
+        },
+        {
+          "label": "13,25m - Hole",
+          "min": 37,
+          "max": 37
+        },
+        {
+          "label": "13,5m - Hole",
+          "min": 38,
+          "max": 38
+        },
+        {
+          "label": "13,75m - Hole",
+          "min": 39,
+          "max": 39
+        },
+        {
+          "label": "14m - Hole",
+          "min": 40,
+          "max": 40
+        },
+        {
+          "label": "14,25m - Hole",
+          "min": 41,
+          "max": 41
+        },
+        {
+          "label": "14,5m - Hole",
+          "min": 42,
+          "max": 42
+        },
+        {
+          "label": "14,75m - Hole",
+          "min": 43,
+          "max": 43
+        },
+        {
+          "label": "15m - Hole",
+          "min": 44,
+          "max": 44
+        },
+        {
+          "label": "15,25m - Hole",
+          "min": 45,
+          "max": 45
+        },
+        {
+          "label": "15,5m - Hole",
+          "min": 46,
+          "max": 46
+        },
+        {
+          "label": "15,75m - Hole",
+          "min": 47,
+          "max": 47
+        },
+        {
+          "label": "16m - Hole",
+          "min": 48,
+          "max": 48
+        },
+        {
+          "label": "16,25m - Hole",
+          "min": 49,
+          "max": 49
+        },
+        {
+          "label": "16,5m - Hole",
+          "min": 50,
+          "max": 50
+        },
+        {
+          "label": "16,75m - Hole",
+          "min": 51,
+          "max": 51
+        },
+        {
+          "label": "17m - Hole",
+          "min": 52,
+          "max": 52
+        },
+        {
+          "label": "17,25m - Hole",
+          "min": 53,
+          "max": 53
+        },
+        {
+          "label": "17,5m - Hole",
+          "min": 54,
+          "max": 54
+        },
+        {
+          "label": "17,75m - Hole",
+          "min": 55,
+          "max": 55
+        },
+        {
+          "label": "18m - Hole",
+          "min": 56,
+          "max": 56
+        },
+        {
+          "label": "18,25m - Hole",
+          "min": 57,
+          "max": 57
+        },
+        {
+          "label": "18,5m - Hole",
+          "min": 58,
+          "max": 58
+        },
+        {
+          "label": "18,75m - Hole",
+          "min": 59,
+          "max": 59
+        },
+        {
+          "label": "19m - Hole",
+          "min": 60,
+          "max": 60
+        },
+        {
+          "label": "19,25m - Hole",
+          "min": 61,
+          "max": 61
+        },
+        {
+          "label": "19,5m - Hole",
+          "min": 62,
+          "max": 62
+        },
+        {
+          "label": "19,75m - Hole",
+          "min": 63,
+          "max": 63
+        },
+        {
+          "label": "4m - Static Gobo Wheel",
+          "min": 64,
+          "max": 64
+        },
+        {
+          "label": "4,25m - Static Gobo Wheel",
+          "min": 65,
+          "max": 65
+        },
+        {
+          "label": "4,5m - Static Gobo Wheel",
+          "min": 66,
+          "max": 66
+        },
+        {
+          "label": "4,75m - Static Gobo Wheel",
+          "min": 67,
+          "max": 67
+        },
+        {
+          "label": "5m - Static Gobo Wheel",
+          "min": 68,
+          "max": 68
+        },
+        {
+          "label": "5,25m - Static Gobo Wheel",
+          "min": 69,
+          "max": 69
+        },
+        {
+          "label": "5,5m - Static Gobo Wheel",
+          "min": 70,
+          "max": 70
+        },
+        {
+          "label": "5,75m - Static Gobo Wheel",
+          "min": 71,
+          "max": 71
+        },
+        {
+          "label": "6m - Static Gobo Wheel",
+          "min": 72,
+          "max": 72
+        },
+        {
+          "label": "6,25m - Static Gobo Wheel",
+          "min": 73,
+          "max": 73
+        },
+        {
+          "label": "6,5m - Static Gobo Wheel",
+          "min": 74,
+          "max": 74
+        },
+        {
+          "label": "6,75m - Static Gobo Wheel",
+          "min": 75,
+          "max": 75
+        },
+        {
+          "label": "7m - Static Gobo Wheel",
+          "min": 76,
+          "max": 76
+        },
+        {
+          "label": "7,25m - Static Gobo Wheel",
+          "min": 77,
+          "max": 77
+        },
+        {
+          "label": "7,5m - Static Gobo Wheel",
+          "min": 78,
+          "max": 78
+        },
+        {
+          "label": "7,75m - Static Gobo Wheel",
+          "min": 79,
+          "max": 79
+        },
+        {
+          "label": "8m - Static Gobo Wheel",
+          "min": 80,
+          "max": 80
+        },
+        {
+          "label": "8,25m - Static Gobo Wheel",
+          "min": 81,
+          "max": 81
+        },
+        {
+          "label": "8,5m - Static Gobo Wheel",
+          "min": 82,
+          "max": 82
+        },
+        {
+          "label": "8,75m - Static Gobo Wheel",
+          "min": 83,
+          "max": 83
+        },
+        {
+          "label": "9m - Static Gobo Wheel",
+          "min": 84,
+          "max": 84
+        },
+        {
+          "label": "9,25m - Static Gobo Wheel",
+          "min": 85,
+          "max": 85
+        },
+        {
+          "label": "9,5m - Static Gobo Wheel",
+          "min": 86,
+          "max": 86
+        },
+        {
+          "label": "9,75m - Static Gobo Wheel",
+          "min": 87,
+          "max": 87
+        },
+        {
+          "label": "10m - Static Gobo Wheel",
+          "min": 88,
+          "max": 88
+        },
+        {
+          "label": "10,25m - Static Gobo Wheel",
+          "min": 89,
+          "max": 89
+        },
+        {
+          "label": "10,5m - Static Gobo Wheel",
+          "min": 90,
+          "max": 90
+        },
+        {
+          "label": "10,75m - Static Gobo Wheel",
+          "min": 91,
+          "max": 91
+        },
+        {
+          "label": "11m - Static Gobo Wheel",
+          "min": 92,
+          "max": 92
+        },
+        {
+          "label": "11,25m - Static Gobo Wheel",
+          "min": 93,
+          "max": 93
+        },
+        {
+          "label": "11,5m - Static Gobo Wheel",
+          "min": 94,
+          "max": 94
+        },
+        {
+          "label": "11,75m - Static Gobo Wheel",
+          "min": 95,
+          "max": 95
+        },
+        {
+          "label": "12m - Static Gobo Wheel",
+          "min": 96,
+          "max": 96
+        },
+        {
+          "label": "12,25m - Static Gobo Wheel",
+          "min": 97,
+          "max": 97
+        },
+        {
+          "label": "12,5m - Static Gobo Wheel",
+          "min": 98,
+          "max": 98
+        },
+        {
+          "label": "12,75m - Static Gobo Wheel",
+          "min": 99,
+          "max": 99
+        },
+        {
+          "label": "13m - Static Gobo Wheel",
+          "min": 100,
+          "max": 100
+        },
+        {
+          "label": "13,25m - Static Gobo Wheel",
+          "min": 101,
+          "max": 101
+        },
+        {
+          "label": "13,5m - Static Gobo Wheel",
+          "min": 102,
+          "max": 102
+        },
+        {
+          "label": "13,75m - Static Gobo Wheel",
+          "min": 103,
+          "max": 103
+        },
+        {
+          "label": "14m - Static Gobo Wheel",
+          "min": 104,
+          "max": 104
+        },
+        {
+          "label": "14,25m - Static Gobo Wheel",
+          "min": 105,
+          "max": 105
+        },
+        {
+          "label": "14,5m - Static Gobo Wheel",
+          "min": 106,
+          "max": 106
+        },
+        {
+          "label": "14,75m - Static Gobo Wheel",
+          "min": 107,
+          "max": 107
+        },
+        {
+          "label": "15m - Static Gobo Wheel",
+          "min": 108,
+          "max": 108
+        },
+        {
+          "label": "15,25m - Static Gobo Wheel",
+          "min": 109,
+          "max": 109
+        },
+        {
+          "label": "15,5m - Static Gobo Wheel",
+          "min": 110,
+          "max": 110
+        },
+        {
+          "label": "15,75m - Static Gobo Wheel",
+          "min": 111,
+          "max": 111
+        },
+        {
+          "label": "16m - Static Gobo Wheel",
+          "min": 112,
+          "max": 112
+        },
+        {
+          "label": "16,25m - Static Gobo Wheel",
+          "min": 113,
+          "max": 113
+        },
+        {
+          "label": "16,5m - Static Gobo Wheel",
+          "min": 114,
+          "max": 114
+        },
+        {
+          "label": "16,75m - Static Gobo Wheel",
+          "min": 115,
+          "max": 115
+        },
+        {
+          "label": "17m - Static Gobo Wheel",
+          "min": 116,
+          "max": 116
+        },
+        {
+          "label": "17,25m - Static Gobo Wheel",
+          "min": 117,
+          "max": 117
+        },
+        {
+          "label": "17,5m - Static Gobo Wheel",
+          "min": 118,
+          "max": 118
+        },
+        {
+          "label": "17,75m - Static Gobo Wheel",
+          "min": 119,
+          "max": 119
+        },
+        {
+          "label": "18m - Static Gobo Wheel",
+          "min": 120,
+          "max": 120
+        },
+        {
+          "label": "18,25m - Static Gobo Wheel",
+          "min": 121,
+          "max": 121
+        },
+        {
+          "label": "18,5m - Static Gobo Wheel",
+          "min": 122,
+          "max": 122
+        },
+        {
+          "label": "18,75m - Static Gobo Wheel",
+          "min": 123,
+          "max": 123
+        },
+        {
+          "label": "19m - Static Gobo Wheel",
+          "min": 124,
+          "max": 124
+        },
+        {
+          "label": "19,25m - Static Gobo Wheel",
+          "min": 125,
+          "max": 125
+        },
+        {
+          "label": "19,5m - Static Gobo Wheel",
+          "min": 126,
+          "max": 126
+        },
+        {
+          "label": "19,75m - Static Gobo Wheel",
+          "min": 127,
+          "max": 127
+        },
+        {
+          "label": "4m - Rotating Gobo Wheel",
+          "min": 128,
+          "max": 128
+        },
+        {
+          "label": "4,25m - Rotating Gobo Wheel",
+          "min": 129,
+          "max": 129
+        },
+        {
+          "label": "4,5m - Rotating Gobo Wheel",
+          "min": 130,
+          "max": 130
+        },
+        {
+          "label": "4,75m - Rotating Gobo Wheel",
+          "min": 131,
+          "max": 131
+        },
+        {
+          "label": "5m - Rotating Gobo Wheel",
+          "min": 132,
+          "max": 132
+        },
+        {
+          "label": "5,25m - Rotating Gobo Wheel",
+          "min": 133,
+          "max": 133
+        },
+        {
+          "label": "5,5m - Rotating Gobo Wheel",
+          "min": 134,
+          "max": 134
+        },
+        {
+          "label": "5,75m - Rotating Gobo Wheel",
+          "min": 135,
+          "max": 135
+        },
+        {
+          "label": "6m - Rotating Gobo Wheel",
+          "min": 136,
+          "max": 136
+        },
+        {
+          "label": "6,25m - Rotating Gobo Wheel",
+          "min": 137,
+          "max": 137
+        },
+        {
+          "label": "6,5m - Rotating Gobo Wheel",
+          "min": 138,
+          "max": 138
+        },
+        {
+          "label": "6,75m - Rotating Gobo Wheel",
+          "min": 139,
+          "max": 139
+        },
+        {
+          "label": "7m - Rotating Gobo Wheel",
+          "min": 140,
+          "max": 140
+        },
+        {
+          "label": "7,25m - Rotating Gobo Wheel",
+          "min": 141,
+          "max": 141
+        },
+        {
+          "label": "7,5m - Rotating Gobo Wheel",
+          "min": 142,
+          "max": 142
+        },
+        {
+          "label": "7,75m - Rotating Gobo Wheel",
+          "min": 143,
+          "max": 143
+        },
+        {
+          "label": "8m - Rotating Gobo Wheel",
+          "min": 144,
+          "max": 144
+        },
+        {
+          "label": "8,25m - Rotating Gobo Wheel",
+          "min": 145,
+          "max": 145
+        },
+        {
+          "label": "8,5m - Rotating Gobo Wheel",
+          "min": 146,
+          "max": 146
+        },
+        {
+          "label": "8,75m - Rotating Gobo Wheel",
+          "min": 147,
+          "max": 147
+        },
+        {
+          "label": "9m - Rotating Gobo Wheel",
+          "min": 148,
+          "max": 148
+        },
+        {
+          "label": "9,25m - Rotating Gobo Wheel",
+          "min": 149,
+          "max": 149
+        },
+        {
+          "label": "9,5m - Rotating Gobo Wheel",
+          "min": 150,
+          "max": 150
+        },
+        {
+          "label": "9,75m - Rotating Gobo Wheel",
+          "min": 151,
+          "max": 151
+        },
+        {
+          "label": "10m - Rotating Gobo Wheel",
+          "min": 152,
+          "max": 152
+        },
+        {
+          "label": "10,25m - Rotating Gobo Wheel",
+          "min": 153,
+          "max": 153
+        },
+        {
+          "label": "10,5m - Rotating Gobo Wheel",
+          "min": 154,
+          "max": 154
+        },
+        {
+          "label": "10,75m - Rotating Gobo Wheel",
+          "min": 155,
+          "max": 155
+        },
+        {
+          "label": "11m - Rotating Gobo Wheel",
+          "min": 156,
+          "max": 156
+        },
+        {
+          "label": "11,25m - Rotating Gobo Wheel",
+          "min": 157,
+          "max": 157
+        },
+        {
+          "label": "11,5m - Rotating Gobo Wheel",
+          "min": 158,
+          "max": 158
+        },
+        {
+          "label": "11,75m - Rotating Gobo Wheel",
+          "min": 159,
+          "max": 159
+        },
+        {
+          "label": "12m - Rotating Gobo Wheel",
+          "min": 160,
+          "max": 160
+        },
+        {
+          "label": "12,25m - Rotating Gobo Wheel",
+          "min": 161,
+          "max": 161
+        },
+        {
+          "label": "12,5m - Rotating Gobo Wheel",
+          "min": 162,
+          "max": 162
+        },
+        {
+          "label": "12,75m - Rotating Gobo Wheel",
+          "min": 163,
+          "max": 163
+        },
+        {
+          "label": "13m - Rotating Gobo Wheel",
+          "min": 164,
+          "max": 164
+        },
+        {
+          "label": "13,25m - Rotating Gobo Wheel",
+          "min": 165,
+          "max": 165
+        },
+        {
+          "label": "13,5m - Rotating Gobo Wheel",
+          "min": 166,
+          "max": 166
+        },
+        {
+          "label": "13,75m - Rotating Gobo Wheel",
+          "min": 167,
+          "max": 167
+        },
+        {
+          "label": "14m - Rotating Gobo Wheel",
+          "min": 168,
+          "max": 168
+        },
+        {
+          "label": "14,25m - Rotating Gobo Wheel",
+          "min": 169,
+          "max": 169
+        },
+        {
+          "label": "14,5m - Rotating Gobo Wheel",
+          "min": 170,
+          "max": 170
+        },
+        {
+          "label": "14,75m - Rotating Gobo Wheel",
+          "min": 171,
+          "max": 171
+        },
+        {
+          "label": "15m - Rotating Gobo Wheel",
+          "min": 172,
+          "max": 172
+        },
+        {
+          "label": "15,25m - Rotating Gobo Wheel",
+          "min": 173,
+          "max": 173
+        },
+        {
+          "label": "15,5m - Rotating Gobo Wheel",
+          "min": 174,
+          "max": 174
+        },
+        {
+          "label": "15,75m - Rotating Gobo Wheel",
+          "min": 175,
+          "max": 175
+        },
+        {
+          "label": "16m - Rotating Gobo Wheel",
+          "min": 176,
+          "max": 176
+        },
+        {
+          "label": "16,25m - Rotating Gobo Wheel",
+          "min": 177,
+          "max": 177
+        },
+        {
+          "label": "16,5m - Rotating Gobo Wheel",
+          "min": 178,
+          "max": 178
+        },
+        {
+          "label": "16,75m - Rotating Gobo Wheel",
+          "min": 179,
+          "max": 179
+        },
+        {
+          "label": "17m - Rotating Gobo Wheel",
+          "min": 180,
+          "max": 180
+        },
+        {
+          "label": "17,25m - Rotating Gobo Wheel",
+          "min": 181,
+          "max": 181
+        },
+        {
+          "label": "17,5m - Rotating Gobo Wheel",
+          "min": 182,
+          "max": 182
+        },
+        {
+          "label": "17,75m - Rotating Gobo Wheel",
+          "min": 183,
+          "max": 183
+        },
+        {
+          "label": "18m - Rotating Gobo Wheel",
+          "min": 184,
+          "max": 184
+        },
+        {
+          "label": "18,25m - Rotating Gobo Wheel",
+          "min": 185,
+          "max": 185
+        },
+        {
+          "label": "18,5m - Rotating Gobo Wheel",
+          "min": 186,
+          "max": 186
+        },
+        {
+          "label": "18,75m - Rotating Gobo Wheel",
+          "min": 187,
+          "max": 187
+        },
+        {
+          "label": "19m - Rotating Gobo Wheel",
+          "min": 188,
+          "max": 188
+        },
+        {
+          "label": "19,25m - Rotating Gobo Wheel",
+          "min": 189,
+          "max": 189
+        },
+        {
+          "label": "19,5m - Rotating Gobo Wheel",
+          "min": 190,
+          "max": 190
+        },
+        {
+          "label": "19,75m - Rotating Gobo Wheel",
+          "min": 191,
+          "max": 191
+        },
+        {
+          "label": "No function",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Robe/Robe-Robin-DLX-Spot.json",
+  "id": 1219
+}

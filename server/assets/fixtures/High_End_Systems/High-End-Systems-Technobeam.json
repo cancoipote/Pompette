@@ -1,0 +1,840 @@
+{
+  "version": "1.0.0",
+  "label": "Technobeam",
+  "manufacturer": "High End Systems",
+  "bulb_type": "MSD 250W",
+  "bulb_lumens": 18000,
+  "bulb_color_temperature": 6500,
+  "dimension_weight": 16,
+  "dimension_width": 322,
+  "dimension_height": 241,
+  "dimension_depth": 825,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Mirror",
+  "focus_pan_max": 180,
+  "focus_tilt_max": 95,
+  "technical_power_consumption": 375,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan Coarse",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt Coarse",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Color Function",
+      "capabilities": [
+        {
+          "label": "Indexed",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Forward Spin",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Reverse Spin",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Continuous",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Slow Scan",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Fast Scan",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Random",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Blink Indexed",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "MSpeed Control indexed",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "MSpeed Control Forward Spin",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "MSpeed Control Reverse Spin",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "MSpeed Control Continuous",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "MSpeed Control slow scan",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "MSpeed Control Fast Scan",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "MSpeed Control Random",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "MSpeed Control Blink-Indexed",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Color Wheel Position",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 23
+        },
+        {
+          "label": "Pink",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Green",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Magenta",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Light green",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Orange",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Yellow",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Blue",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Red",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "UV blue",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Dark orange",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Light blue",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Soft white",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "White / Pink",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Pink / Green",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Green / Magenta",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Magenta / Light green",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Light green / Orange",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Orange / Yellow",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Yellow / Blue",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Blue / Red",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Red / UV blue",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "UV blue / Dark orange",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Dark orange / Light blue",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Light blue / Soft white",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Soft white / White",
+          "min": 232,
+          "max": 247
+        },
+        {
+          "label": "Bright white",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 4,
+      "type_description": "Litho Wheel Function",
+      "capabilities": [
+        {
+          "label": "indexed",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "forward rotate",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "reverse rotate",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "scan",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "blink",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "random",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "RFU",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "wheel spin",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "MSpeed Controlled indexed",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Mspeed Controlled frwd rotate",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Mspeed Controlled rev rotate",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Mspeed Controlled scan",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Mspeed Controlled blink",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "Mspeed Controlled random",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "Mspeed Controlled RFU",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "Mspeed Controlled wheel spin",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 4,
+      "type_description": "Litho Wheel Position",
+      "capabilities": [
+        {
+          "label": "position 0 (open)",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Position 1",
+          "min": 16,
+          "max": 47
+        },
+        {
+          "label": "Position 2",
+          "min": 48,
+          "max": 79
+        },
+        {
+          "label": "Position 3",
+          "min": 80,
+          "max": 111
+        },
+        {
+          "label": "Position 4",
+          "min": 112,
+          "max": 143
+        },
+        {
+          "label": "Position 5",
+          "min": 144,
+          "max": 175
+        },
+        {
+          "label": "Position 6",
+          "min": 176,
+          "max": 207
+        },
+        {
+          "label": "Position 7",
+          "min": 208,
+          "max": 239
+        },
+        {
+          "label": "Position 0 (open)",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 4,
+      "type_description": "Litho Wheel Rotation (H) indexed",
+      "capabilities": [
+        {
+          "label": "indexale positions",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 4,
+      "type_description": "Litho Wheel 1 Rotation",
+      "capabilities": [
+        {
+          "label": "Low Byte",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Effects Wheel",
+      "capabilities": [
+        {
+          "label": "Position 0 (open)",
+          "min": 0,
+          "max": 25
+        },
+        {
+          "label": "Position 1",
+          "min": 26,
+          "max": 51
+        },
+        {
+          "label": "Position 2",
+          "min": 52,
+          "max": 76
+        },
+        {
+          "label": "Position 3",
+          "min": 77,
+          "max": 102
+        },
+        {
+          "label": "Position 4",
+          "min": 103,
+          "max": 127
+        },
+        {
+          "label": "MSpeed Controlled Position 0",
+          "min": 128,
+          "max": 153
+        },
+        {
+          "label": "MSpeed Controlled Position 1",
+          "min": 154,
+          "max": 178
+        },
+        {
+          "label": "MSpeed Controlled Position 2",
+          "min": 179,
+          "max": 204
+        },
+        {
+          "label": "MSpeed Controlled Position 3",
+          "min": 205,
+          "max": 229
+        },
+        {
+          "label": "MSpeed Controlled Position 4",
+          "min": 230,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 3,
+      "type_description": "Effects Rotate Variable",
+      "capabilities": [
+        {
+          "label": "reverse rotate speed",
+          "min": 0,
+          "max": 120
+        },
+        {
+          "label": "rotate stop",
+          "min": 121,
+          "max": 134
+        },
+        {
+          "label": "forward rotate speed",
+          "min": 135,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "close",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "periodic strobe",
+          "min": 8,
+          "max": 67
+        },
+        {
+          "label": "random strobe",
+          "min": 68,
+          "max": 127
+        },
+        {
+          "label": "ramp open/snap shut",
+          "min": 128,
+          "max": 187
+        },
+        {
+          "label": "snap open/ramp shut",
+          "min": 188,
+          "max": 247
+        },
+        {
+          "label": "open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 22,
+      "type_description": "Mspeed",
+      "capabilities": [
+        {
+          "label": "controller Crossfade",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "longest sec. - short sec.",
+          "min": 4,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 3,
+      "type_description": "Macros / LAD",
+      "capabilities": [
+        {
+          "label": "no macro / LAD off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Macro 1",
+          "min": 8,
+          "max": 11
+        },
+        {
+          "label": "Macro 2",
+          "min": 12,
+          "max": 15
+        },
+        {
+          "label": "Macro 3",
+          "min": 16,
+          "max": 19
+        },
+        {
+          "label": "Macro 4",
+          "min": 20,
+          "max": 23
+        },
+        {
+          "label": "Macro 5",
+          "min": 24,
+          "max": 27
+        },
+        {
+          "label": "Macro 6",
+          "min": 28,
+          "max": 31
+        },
+        {
+          "label": "Macro 7",
+          "min": 32,
+          "max": 35
+        },
+        {
+          "label": "Macro 8",
+          "min": 36,
+          "max": 39
+        },
+        {
+          "label": "Macro 9",
+          "min": 40,
+          "max": 43
+        },
+        {
+          "label": "Macro 10",
+          "min": 44,
+          "max": 47
+        },
+        {
+          "label": "Macro 11",
+          "min": 48,
+          "max": 51
+        },
+        {
+          "label": "Macro 12",
+          "min": 52,
+          "max": 55
+        },
+        {
+          "label": "Macro 13",
+          "min": 56,
+          "max": 59
+        },
+        {
+          "label": "Macro 14",
+          "min": 60,
+          "max": 63
+        },
+        {
+          "label": "Macro 15",
+          "min": 64,
+          "max": 67
+        },
+        {
+          "label": "Macro 16",
+          "min": 68,
+          "max": 71
+        },
+        {
+          "label": "Macro 17",
+          "min": 72,
+          "max": 75
+        },
+        {
+          "label": "Macro 18",
+          "min": 76,
+          "max": 79
+        },
+        {
+          "label": "Macro 19",
+          "min": 80,
+          "max": 83
+        },
+        {
+          "label": "Macro 20",
+          "min": 84,
+          "max": 87
+        },
+        {
+          "label": "Macro 21",
+          "min": 88,
+          "max": 91
+        },
+        {
+          "label": "Macro 22",
+          "min": 92,
+          "max": 95
+        },
+        {
+          "label": "Macro 23",
+          "min": 96,
+          "max": 99
+        },
+        {
+          "label": "Macro 24",
+          "min": 100,
+          "max": 103
+        },
+        {
+          "label": "Macro 25",
+          "min": 104,
+          "max": 107
+        },
+        {
+          "label": "Macro 26",
+          "min": 108,
+          "max": 111
+        },
+        {
+          "label": "Macro 27",
+          "min": 112,
+          "max": 115
+        },
+        {
+          "label": "Macro 28",
+          "min": 116,
+          "max": 119
+        },
+        {
+          "label": "LAD Off /No Macros",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "LAD Modulate",
+          "min": 128,
+          "max": 247
+        },
+        {
+          "label": "LAD On",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 17,
+      "type_description": "Control",
+      "capabilities": [
+        {
+          "label": "Safe",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "No function",
+          "min": 8,
+          "max": 23
+        },
+        {
+          "label": "Display off",
+          "min": 24,
+          "max": 26
+        },
+        {
+          "label": "No function",
+          "min": 27,
+          "max": 31
+        },
+        {
+          "label": "Display dim",
+          "min": 32,
+          "max": 34
+        },
+        {
+          "label": "No function",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "Display bright",
+          "min": 40,
+          "max": 42
+        },
+        {
+          "label": "No function",
+          "min": 43,
+          "max": 63
+        },
+        {
+          "label": "Home",
+          "min": 64,
+          "max": 66
+        },
+        {
+          "label": "No function",
+          "min": 67,
+          "max": 79
+        },
+        {
+          "label": "Lamp on",
+          "min": 80,
+          "max": 82
+        },
+        {
+          "label": "No function",
+          "min": 83,
+          "max": 95
+        },
+        {
+          "label": "Lamp off",
+          "min": 96,
+          "max": 96
+        },
+        {
+          "label": "No function",
+          "min": 97,
+          "max": 127
+        },
+        {
+          "label": "Shutdown",
+          "min": 128,
+          "max": 130
+        },
+        {
+          "label": "Reserved",
+          "min": 131,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/High_End_Systems/High-End-Systems-Technobeam.json",
+  "id": 866
+}

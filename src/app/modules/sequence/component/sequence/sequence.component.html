@@ -1,0 +1,87 @@
+<div class="sequence-thumb" >
+    <div class="sequence-thumb-header">
+        <div class="sequence-thumb-header-title">
+            <button mat-button (click)="onChangeSequenceLabel()" color="accent">
+                <i>{{sequence.label}}</i>
+            </button>
+        </div>
+        <span class="toolbar-spacer"></span>
+
+        <button mat-icon-button (click)="sequence.isFX = !sequence.isFX" matTooltip="is FX">
+            <mat-icon *ngIf="sequence.isFX == true" color="accent">bolt</mat-icon>
+            <mat-icon *ngIf="sequence.isFX == false" color="normal">bolt</mat-icon>
+        </button>
+
+        <div class="toolbar-spacer-separator">-</div>   
+
+        <button *ngIf="sequence.isPlayging == false" mat-icon-button (click)="play()" matTooltip="Play sequence">
+            <mat-icon  color="accent">play_circle_outline</mat-icon>
+            
+        </button>
+        <button  *ngIf="sequence.isPlayging == true" mat-icon-button (click)="stop()" matTooltip="Stop sequence">
+            <mat-icon  color="accent">stop</mat-icon>
+        </button>
+        <div>
+            <button mat-icon-button (click)="duplicate()" matTooltip="Duplicate sequence">
+                <mat-icon  color="accent">content_copy</mat-icon>
+            </button>
+        </div>
+        <div >
+            <button mat-icon-button (click)="remove()" matTooltip="Delete sequence">
+                <mat-icon  color="warn">delete</mat-icon>
+            </button>
+        </div>
+    </div>
+    <div class="sequence-thumb-content">
+
+        <div class="sequence-thumb-content-container">
+            <div class="sequence-thumb-content-container-menu" *ngIf="display_menu == true">
+                <div class="sequence-thumb-content-container-title">
+                    <i class="sequence-thumb-content-container-title-label">Fixtures</i>
+                    <div class="sequence-thumb-content-container-title-separator"></div>
+                    <button mat-button class="sequence-thumb-content-container-title-button" (click)="createSequenceFixture()" >
+                        Create
+                    </button>
+                    <button mat-icon-button class="sequence-thumb-content-container-title-button" (click)="display_menu = false" >
+                        <mat-icon>menu</mat-icon>
+                    </button>
+                </div>
+
+                <mat-list class="sequence-thumb-content-container-menu-list">
+                    <div cdkDropList [cdkDropListData]="sequence.sequenceFixtures" (cdkDropListDropped)="onDrop($event)">
+                      <div *ngFor="let sequenceFixture of sequence.sequenceFixtures" cdkDrag (click)="selectSequenceFixture(sequenceFixture)">
+                        <mat-list-item [ngClass]="{'sequence-thumb-content-container-menu-list-item-selected': sequenceFixture.isSelected, 'sequence-thumb-content-container-menu-list-item': !sequenceFixture.isSelected}">
+                            <div matListItemTitle>{{sequenceFixture.fixture.label}} :: {{sequenceFixture.fixture.index}}</div>
+                            <div matListItemLine>{{sequenceFixture.fixture.reference}}  {{sequenceFixture.getDurationString()}}</div>
+                            <div matListItemLine *ngIf="sequenceFixture.loop == true && sequenceFixture.loopFromStart == true">Loop from start</div>
+                            <div matListItemLine *ngIf="sequenceFixture.loop == true && sequenceFixture.loopFromStart == false">Reverse loop</div>
+                            <div matListItemLine *ngIf="sequenceFixture.loop == false">One time</div>
+                            <div matListItemLine *ngIf="sequenceFixture.canBeBypass == true">Can be bypass</div>
+                        </mat-list-item>
+                      </div>
+                    </div>
+                </mat-list>      
+            </div>
+            <div class="sequence-thumb-content-container-menu-light" *ngIf="display_menu == false">
+                <button mat-icon-button class="sequence-thumb-content-container-title-button" (click)="display_menu = true" >
+                    <mat-icon>menu</mat-icon>
+                </button>
+            </div>
+            <div class="sequence-thumb-content-container-content">
+                <div *ngIf="sequenceFixture == null">
+                    <div class="sequence-thumb-content-container-title" > 
+                        <i class="sequence-thumb-content-container-title-label">Select / Create Sequence Fixture</i>
+                    </div>
+                </div>
+                <div *ngIf="sequenceFixture != null">
+                    <sequence-fixture
+                        class="sequence-fixture-component"
+                        [sequenceFixture]="sequenceFixture"
+                        (onRemove)="removeSequenceFixture(sequenceFixture)"
+                        (onDuplicate)="duplicateSequenceFixture(sequenceFixture)"
+                    ></sequence-fixture>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

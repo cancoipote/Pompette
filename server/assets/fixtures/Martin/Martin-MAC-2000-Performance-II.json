@@ -1,0 +1,786 @@
+{
+  "version": "1.0.0",
+  "label": "MAC 2000 Performance II",
+  "manufacturer": "Martin",
+  "bulb_type": "HMI 1200W",
+  "bulb_lumens": 23000,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 39,
+  "dimension_width": 408,
+  "dimension_height": 490,
+  "dimension_depth": 743,
+  "lens_label": "Other",
+  "lens_degree_min": 12,
+  "lens_degree_max": 29,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 267,
+  "technical_power_consumption": 1480,
+  "technical_dmx_connector": "5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Shutter, Strobe, Reset, Lamp On/Off",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Shutter open",
+          "min": 20,
+          "max": 49
+        },
+        {
+          "label": "Strobe (fast > slow)",
+          "min": 50,
+          "max": 72
+        },
+        {
+          "label": "Shutter open, lamp power reduced (MAC 2000 E only)",
+          "min": 73,
+          "max": 79
+        },
+        {
+          "label": "Opening pulse (fast > slow)",
+          "min": 80,
+          "max": 99
+        },
+        {
+          "label": "Closing pulse (fast > slow)",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "Shutter open",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Random strobe, fast",
+          "min": 128,
+          "max": 147
+        },
+        {
+          "label": "Random strobe, medium",
+          "min": 148,
+          "max": 167
+        },
+        {
+          "label": "Random strobe, slow",
+          "min": 168,
+          "max": 187
+        },
+        {
+          "label": "Shutter open",
+          "min": 188,
+          "max": 190
+        },
+        {
+          "label": "Random opening pulse, fast",
+          "min": 191,
+          "max": 193
+        },
+        {
+          "label": "Random opening pulse, slow",
+          "min": 194,
+          "max": 196
+        },
+        {
+          "label": "Random closing pulse, fast",
+          "min": 197,
+          "max": 199
+        },
+        {
+          "label": "Random closing pulse, slow",
+          "min": 200,
+          "max": 202
+        },
+        {
+          "label": "Shutter open",
+          "min": 203,
+          "max": 207
+        },
+        {
+          "label": "RESET",
+          "min": 208,
+          "max": 217
+        },
+        {
+          "label": "Shutter open",
+          "min": 218,
+          "max": 227
+        },
+        {
+          "label": "Lamp power on",
+          "min": 228,
+          "max": 237
+        },
+        {
+          "label": "Shutter open",
+          "min": 238,
+          "max": 247
+        },
+        {
+          "label": "Lamp power off (hold 5 seconds)",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Cyan",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Magenta",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Yellow",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 5,
+      "type_description": "CTC",
+      "capabilities": [
+        {
+          "label": "Cold > Warm",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 4,
+      "type_description": "Gobo Wheel, Gobo & Function",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Indexed rotation Gobo 1 (Dot breakup)",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "Indexed rotation Gobo 2 (Soft breakup)",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "Indexed rotation Gobo 3 (Linear)",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "Indexed rotation Gobo 4 (Water)",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "Indexed rotation Gobo 5 (Flames)",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "Continuous rotation Gobo 1",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "Continuous rotation Gobo 2",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "Continuous rotation Gobo 3",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "Continuous rotation Gobo 4",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "Continuous rotation Gobo 5",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "Indexed shake Gobo 1 (slow > fast)",
+          "min": 60,
+          "max": 74
+        },
+        {
+          "label": "Indexed shake Gobo 2 (slow > fast)",
+          "min": 75,
+          "max": 89
+        },
+        {
+          "label": "Indexed shake Gobo 3 (slow > fast)",
+          "min": 90,
+          "max": 104
+        },
+        {
+          "label": "Indexed shake Gobo 4 (slow > fast)",
+          "min": 105,
+          "max": 119
+        },
+        {
+          "label": "Indexed shake Gobo 5 (slow > fast)",
+          "min": 120,
+          "max": 134
+        },
+        {
+          "label": "Rotating shake Gobo 1 (slow > fast)",
+          "min": 135,
+          "max": 149
+        },
+        {
+          "label": "Rotating shake Gobo 2 (slow > fast)",
+          "min": 150,
+          "max": 164
+        },
+        {
+          "label": "Rotating shake Gobo 3 (slow > fast)",
+          "min": 165,
+          "max": 179
+        },
+        {
+          "label": "Rotating shake Gobo 4 (slow > fast)",
+          "min": 180,
+          "max": 194
+        },
+        {
+          "label": "Rotating shake Gobo 5 (slow > fast)",
+          "min": 195,
+          "max": 209
+        },
+        {
+          "label": "Gobo wheel rotation CW (slow > fast)",
+          "min": 210,
+          "max": 232
+        },
+        {
+          "label": "Gobo wheel rotation CCW (fast > slow)",
+          "min": 233,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 4,
+      "type_description": "Gobo Wheel, Rotation Coarse",
+      "capabilities": [
+        {
+          "label": "No rotation",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "CCW (slow > fast)",
+          "min": 3,
+          "max": 127
+        },
+        {
+          "label": "CW (fast > slow)",
+          "min": 128,
+          "max": 252
+        },
+        {
+          "label": "No rotation",
+          "min": 253,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Gobo Wheel, Fine Position",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 4,
+      "type_description": "Gobo Animation wheel position",
+      "capabilities": [
+        {
+          "label": "No Effect",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Vertical position – Indexing",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Horizontal position – Indexing",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Vertical position – Cont. Rotation",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Horizontal position – Cont. Rotation",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Animation wheel scroll position (Vertical → Horizontal) – Indexing",
+          "min": 50,
+          "max": 139
+        },
+        {
+          "label": "Animation wheel scroll position (Horizontal → Vertical) – Cont. Rot.",
+          "min": 140,
+          "max": 229
+        },
+        {
+          "label": "No Effect",
+          "min": 230,
+          "max": 235
+        },
+        {
+          "label": "Gobo Animation Macro 1",
+          "min": 236,
+          "max": 239
+        },
+        {
+          "label": "Gobo Animation Macro 2",
+          "min": 240,
+          "max": 243
+        },
+        {
+          "label": "Gobo Animation Macro 3",
+          "min": 244,
+          "max": 247
+        },
+        {
+          "label": "Gobo Animation Macro 4",
+          "min": 248,
+          "max": 251
+        },
+        {
+          "label": "Gobo Animation Macro 5",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 4,
+      "type_description": "Gobo Animation Wheel, Position/Velocity",
+      "capabilities": [
+        {
+          "label": "No rotation",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "CCW (slow > fast)",
+          "min": 3,
+          "max": 127
+        },
+        {
+          "label": "CW (fast > slow)",
+          "min": 128,
+          "max": 252
+        },
+        {
+          "label": "No rotation",
+          "min": 253,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 3,
+      "type_description": "Effect Wheel Selection",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Variable frost, 0 < 100%",
+          "min": 1,
+          "max": 234
+        },
+        {
+          "label": "Effect 1",
+          "min": 235,
+          "max": 242
+        },
+        {
+          "label": "Effect 2",
+          "min": 243,
+          "max": 250
+        },
+        {
+          "label": "Open",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 21,
+      "type_description": "Iris",
+      "capabilities": [
+        {
+          "label": "Open > Closed",
+          "min": 0,
+          "max": 199
+        },
+        {
+          "label": "Closed",
+          "min": 200,
+          "max": 215
+        },
+        {
+          "label": "Pulse opening (fast > slow)",
+          "min": 216,
+          "max": 229
+        },
+        {
+          "label": "Pulse closing, (fast > slow)",
+          "min": 230,
+          "max": 243
+        },
+        {
+          "label": "Random pulse opening, fast",
+          "min": 244,
+          "max": 246
+        },
+        {
+          "label": "Random pulse opening, slow",
+          "min": 247,
+          "max": 249
+        },
+        {
+          "label": "Random pulse closing, fast",
+          "min": 250,
+          "max": 252
+        },
+        {
+          "label": "Random pulse closing, slow",
+          "min": 253,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 22,
+      "type_description": "Dimmer Speed and Gobo Speed",
+      "capabilities": [
+        {
+          "label": "Tracking",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Fast > Slow",
+          "min": 3,
+          "max": 239
+        },
+        {
+          "label": "Tracking, STUd = OFF (studio mode off)",
+          "min": 240,
+          "max": 242
+        },
+        {
+          "label": "Tracking, STUd = ON (studio mode on)",
+          "min": 243,
+          "max": 245
+        },
+        {
+          "label": "Tracking, SCUT = OFF (shortcuts off)",
+          "min": 246,
+          "max": 248
+        },
+        {
+          "label": "Tracking, SCUT = ON (shortcuts on)",
+          "min": 249,
+          "max": 251
+        },
+        {
+          "label": "Fast. Blackout “speed” for color wheel",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 22,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": [
+        {
+          "label": "Tracking",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Fast > slow",
+          "min": 3,
+          "max": 242
+        },
+        {
+          "label": "Tracking, PTSP = SLOW (slow pan/tilt speed)",
+          "min": 243,
+          "max": 245
+        },
+        {
+          "label": "Tracking, PTSP = NORM (normal pan/tilt speed)",
+          "min": 246,
+          "max": 248
+        },
+        {
+          "label": "Tracking, PTSP = FAST (fast pan/tilt speed)",
+          "min": 249,
+          "max": 251
+        },
+        {
+          "label": "Blackout",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "type": 1,
+      "type_description": "Framing MACRO functions",
+      "capabilities": [
+        {
+          "label": "No Macro",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Reserved For macros",
+          "min": 3,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "type": 1,
+      "type_description": "Framing shutter 1",
+      "capabilities": [
+        {
+          "label": "Out → In",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "type": 1,
+      "type_description": "Framing shutter 1 Angle",
+      "capabilities": [
+        {
+          "label": "Angle -",
+          "min": 0,
+          "max": 126
+        },
+        {
+          "label": "Parallel",
+          "min": 127,
+          "max": 128
+        },
+        {
+          "label": "Angle +",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "type": 1,
+      "type_description": "Framing shutter 2",
+      "capabilities": [
+        {
+          "label": "Out → In",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "type": 1,
+      "type_description": "Framing shutter 2 Angle",
+      "capabilities": [
+        {
+          "label": "Angle -",
+          "min": 0,
+          "max": 126
+        },
+        {
+          "label": "Parallel",
+          "min": 127,
+          "max": 128
+        },
+        {
+          "label": "Angle +",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "type": 1,
+      "type_description": "Framing shutter 3",
+      "capabilities": [
+        {
+          "label": "Out → In",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "type": 1,
+      "type_description": "Framing shutter 3 Angle",
+      "capabilities": [
+        {
+          "label": "Angle -",
+          "min": 0,
+          "max": 126
+        },
+        {
+          "label": "Parallel",
+          "min": 127,
+          "max": 128
+        },
+        {
+          "label": "Angle +",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "type": 1,
+      "type_description": "Framing shutter 4",
+      "capabilities": [
+        {
+          "label": "Out → In",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "type": 1,
+      "type_description": "Framing shutter 4 Angle",
+      "capabilities": [
+        {
+          "label": "Angle -",
+          "min": 0,
+          "max": 126
+        },
+        {
+          "label": "Parallel",
+          "min": 127,
+          "max": 128
+        },
+        {
+          "label": "Angle +",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "type": 1,
+      "type_description": "Rotate framing shutters",
+      "capabilities": [
+        {
+          "label": "Right → Center → Left",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Martin/Martin-MAC-2000-Performance-II.json",
+  "id": 1054
+}

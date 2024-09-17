@@ -1,0 +1,1142 @@
+{
+  "version": "1.0.0",
+  "label": "Impression X4 Bar 10",
+  "manufacturer": "GLP",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 5600,
+  "dimension_weight": 8,
+  "dimension_width": 500,
+  "dimension_height": 240,
+  "dimension_depth": 100,
+  "lens_label": "Other",
+  "lens_degree_min": 7,
+  "lens_degree_max": 50,
+  "focus_type": "Head",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 210,
+  "technical_power_consumption": 230,
+  "technical_dmx_connector": "5-pin",
+  "type": 9,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Tilt coarse",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Set 1 Color (fixed)",
+      "capabilities": [
+        {
+          "label": "Colors adjustable via RGBW",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Color 01 - Red",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Color 02 - Amber",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Color 03 - Warm Yellow",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Color 04 - Yellow",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Color 05 - Green",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Color 06 - Turquoise",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Color 07 - Cyan",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Color 08 - Blue",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Color 09 - Lavender",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Color 10 - Malve (Mauve)",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Color 11 - Magenta",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Color 12 - Pink",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "White - CTO (3200K)",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "White (5600K)",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "White - CTB (7200K)",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Rainbow Effect Stop",
+          "min": 128,
+          "max": 128
+        },
+        {
+          "label": "Rainbow Effect (slow - fast)",
+          "min": 129,
+          "max": 223
+        },
+        {
+          "label": "Random colors (slow - fast)",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Shutter pulse random",
+          "min": 16,
+          "max": 47
+        },
+        {
+          "label": "Fade on, snap off (random patterns)",
+          "min": 48,
+          "max": 79
+        },
+        {
+          "label": "Snap on, fade off (random patterns)",
+          "min": 80,
+          "max": 111
+        },
+        {
+          "label": "Fade on, fade off (random patterns)",
+          "min": 112,
+          "max": 143
+        },
+        {
+          "label": "Strobe Random (5s - 0,1s)",
+          "min": 144,
+          "max": 199
+        },
+        {
+          "label": "Strobe Effect slow - fast (1Hz to 10Hz)",
+          "min": 200,
+          "max": 239
+        },
+        {
+          "label": "Shutter Open",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "CTO",
+      "capabilities": [
+        {
+          "label": "No CTO",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Continuous color temperature correction",
+          "min": 8,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Pattern",
+      "capabilities": [
+        {
+          "label": "No pattern",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Pre-defined patterns",
+          "min": 3,
+          "max": 253
+        },
+        {
+          "label": "Activate direct access to LED pattern",
+          "min": 254,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Pattern Byte 1",
+      "capabilities": [
+        {
+          "label": "Direct Access to pattern 1...7",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Crossfade",
+      "capabilities": [
+        {
+          "label": "0..2 seconds transition time",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Set 1 Pattern Movement",
+      "capabilities": [
+        {
+          "label": "Pattern Movement",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 3,
+      "type_description": "Set 1 Pattern Select",
+      "capabilities": [
+        {
+          "label": "Pattern Select",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 3,
+      "type_description": "Pixel Select 1-8",
+      "capabilities": [
+        {
+          "label": "Pixel Select 1-8",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 3,
+      "type_description": "Pixel Select 9-10",
+      "capabilities": [
+        {
+          "label": "Pixel Select 9-10",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Reserved",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Reserved 1",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 17,
+      "type_description": "Special Channel",
+      "capabilities": [
+        {
+          "label": "No Mirror",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Mirror color priority",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "Mirror color mixing",
+          "min": 8,
+          "max": 11
+        },
+        {
+          "label": "No function",
+          "min": 12,
+          "max": 119
+        },
+        {
+          "label": "Tilt slow mode off",
+          "min": 120,
+          "max": 123
+        },
+        {
+          "label": "Tilt slow mode on",
+          "min": 124,
+          "max": 127
+        },
+        {
+          "label": "Tilt current off",
+          "min": 128,
+          "max": 131
+        },
+        {
+          "label": "Tilt current on",
+          "min": 132,
+          "max": 135
+        },
+        {
+          "label": "Tilt reset off",
+          "min": 136,
+          "max": 139
+        },
+        {
+          "label": "Tilt reset on",
+          "min": 140,
+          "max": 143
+        },
+        {
+          "label": "Display Flip off",
+          "min": 144,
+          "max": 147
+        },
+        {
+          "label": "Display Flip on",
+          "min": 148,
+          "max": 151
+        },
+        {
+          "label": "DMX Mode DPixH",
+          "min": 152,
+          "max": 155
+        },
+        {
+          "label": "DMX Mode SPixH",
+          "min": 156,
+          "max": 159
+        },
+        {
+          "label": "DMX Mode High Resolution",
+          "min": 160,
+          "max": 163
+        },
+        {
+          "label": "DMX Mode Normal",
+          "min": 164,
+          "max": 167
+        },
+        {
+          "label": "DMX Mode compressed",
+          "min": 168,
+          "max": 171
+        },
+        {
+          "label": "DMX Mode DPix",
+          "min": 172,
+          "max": 175
+        },
+        {
+          "label": "DMX Mode SPix",
+          "min": 176,
+          "max": 179
+        },
+        {
+          "label": "Dimmer Curve ESoft",
+          "min": 180,
+          "max": 183
+        },
+        {
+          "label": "Dimmer Curve Soft",
+          "min": 184,
+          "max": 187
+        },
+        {
+          "label": "Dimmer Curve Lin",
+          "min": 188,
+          "max": 191
+        },
+        {
+          "label": "X4 Compatibility off",
+          "min": 192,
+          "max": 195
+        },
+        {
+          "label": "X4 Compatibility on",
+          "min": 196,
+          "max": 199
+        },
+        {
+          "label": "Silent-Mode off",
+          "min": 200,
+          "max": 203
+        },
+        {
+          "label": "Silent-Mode on",
+          "min": 204,
+          "max": 207
+        },
+        {
+          "label": "Position Feedback off",
+          "min": 208,
+          "max": 211
+        },
+        {
+          "label": "Position Feedback on",
+          "min": 212,
+          "max": 215
+        },
+        {
+          "label": "DMX hold off",
+          "min": 216,
+          "max": 219
+        },
+        {
+          "label": "DMX hold on",
+          "min": 220,
+          "max": 223
+        },
+        {
+          "label": "Tilt inverse off",
+          "min": 224,
+          "max": 227
+        },
+        {
+          "label": "Tilt inverse on",
+          "min": 228,
+          "max": 231
+        },
+        {
+          "label": "Pixel inverse off",
+          "min": 232,
+          "max": 235
+        },
+        {
+          "label": "Pixel inverse on",
+          "min": 236,
+          "max": 239
+        },
+        {
+          "label": "Zoom inverse off",
+          "min": 240,
+          "max": 243
+        },
+        {
+          "label": "Zoom inverse on",
+          "min": 244,
+          "max": 247
+        },
+        {
+          "label": "Fixture default",
+          "min": 248,
+          "max": 251
+        },
+        {
+          "label": "FIxture reset",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Set 1 Red",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Set 1 Green",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Set 1 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Set 1 White",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Set 2 Color (fixed)",
+      "capabilities": [
+        {
+          "label": "Colors adjustable via RGBW",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Color 01 - Red",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Color 02 - Amber",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Color 03 - Warm Yellow",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Color 04 - Yellow",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Color 05 - Green",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Color 06 - Turquoise",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Color 07 - Cyan",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Color 08 - Blue",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Color 09 - Lavender",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Color 10 - Malve (Mauve)",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Color 11 - Magenta",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Color 12 - Pink",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "White - CTO (3200K)",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "White (5600K)",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "White - CTB (7200K)",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Rainbow Effect Stop",
+          "min": 128,
+          "max": 128
+        },
+        {
+          "label": "Rainbow Effect (slow - fast)",
+          "min": 129,
+          "max": 223
+        },
+        {
+          "label": "Random colors (slow - fast)",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Set 2 Red",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Set 1 Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Set 2 Green",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Set 2 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Set 2 White",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Set 2 Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "Set 3 Color (fixed)",
+      "capabilities": [
+        {
+          "label": "Colors adjustable via RGBW",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Color 01 - Red",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Color 02 - Amber",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Color 03 - Warm Yellow",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Color 04 - Yellow",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Color 05 - Green",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Color 06 - Turquoise",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Color 07 - Cyan",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Color 08 - Blue",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Color 09 - Lavender",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Color 10 - Malve (Mauve)",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Color 11 - Magenta",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Color 12 - Pink",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "White - CTO (3200K)",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "White (5600K)",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "White - CTB (7200K)",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Rainbow Effect Stop",
+          "min": 128,
+          "max": 128
+        },
+        {
+          "label": "Rainbow Effect (slow - fast)",
+          "min": 129,
+          "max": 223
+        },
+        {
+          "label": "Random colors (slow - fast)",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "Set 3 Red",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 0,
+      "type_description": "Set 3 Green",
+      "capabilities": []
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "Set 3 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 32,
+      "type": 0,
+      "type_description": "Set 3 White",
+      "capabilities": []
+    },
+    {
+      "index": 33,
+      "type": 0,
+      "type_description": "Set 3 Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 34,
+      "type": 3,
+      "type_description": "Star Effect",
+      "capabilities": [
+        {
+          "label": "Random internal shutter effect",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "type": 3,
+      "type_description": "Set 2 Pattern Select",
+      "capabilities": [
+        {
+          "label": "Set 2 Pattern Select",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "type": 3,
+      "type_description": "Set 2 Pattern Movement",
+      "capabilities": [
+        {
+          "label": "Set 2 Pattern Movement",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "type": 0,
+      "type_description": "Intensity - Fine",
+      "capabilities": []
+    },
+    {
+      "index": 38,
+      "type": 0,
+      "type_description": "Set 1&2 Red",
+      "capabilities": []
+    },
+    {
+      "index": 39,
+      "type": 0,
+      "type_description": "Set 1&2 Green",
+      "capabilities": []
+    },
+    {
+      "index": 40,
+      "type": 0,
+      "type_description": "Set 1&2 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 41,
+      "type": 0,
+      "type_description": "Set 1&2 White",
+      "capabilities": []
+    },
+    {
+      "index": 42,
+      "type": 0,
+      "type_description": "Set 3&4 Red",
+      "capabilities": []
+    },
+    {
+      "index": 43,
+      "type": 0,
+      "type_description": "Set 3&4 Green",
+      "capabilities": []
+    },
+    {
+      "index": 44,
+      "type": 0,
+      "type_description": "Set 3&4 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 45,
+      "type": 0,
+      "type_description": "Set 3&4 White",
+      "capabilities": []
+    },
+    {
+      "index": 46,
+      "type": 0,
+      "type_description": "Set 5&6 Red",
+      "capabilities": []
+    },
+    {
+      "index": 47,
+      "type": 0,
+      "type_description": "Set 5&6 Green",
+      "capabilities": []
+    },
+    {
+      "index": 48,
+      "type": 0,
+      "type_description": "Set 5&6 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 49,
+      "type": 0,
+      "type_description": "Set 5&6 White",
+      "capabilities": []
+    },
+    {
+      "index": 50,
+      "type": 0,
+      "type_description": "Set 7&8 Red",
+      "capabilities": []
+    },
+    {
+      "index": 51,
+      "type": 0,
+      "type_description": "Set 7&8 Green",
+      "capabilities": []
+    },
+    {
+      "index": 52,
+      "type": 0,
+      "type_description": "Set 7&8 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 53,
+      "type": 0,
+      "type_description": "Set 7&8 White",
+      "capabilities": []
+    },
+    {
+      "index": 54,
+      "type": 0,
+      "type_description": "Set 9&10 Red",
+      "capabilities": []
+    },
+    {
+      "index": 55,
+      "type": 0,
+      "type_description": "Set 9&10 Green",
+      "capabilities": []
+    },
+    {
+      "index": 56,
+      "type": 0,
+      "type_description": "Set 9&10 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 57,
+      "type": 0,
+      "type_description": "Set 9&10 White",
+      "capabilities": []
+    },
+    {
+      "index": 58,
+      "type": 0,
+      "type_description": "Set 4 Red",
+      "capabilities": []
+    },
+    {
+      "index": 59,
+      "type": 0,
+      "type_description": "Set 4 Green",
+      "capabilities": []
+    },
+    {
+      "index": 60,
+      "type": 0,
+      "type_description": "Set 4 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 61,
+      "type": 0,
+      "type_description": "Set 4 White",
+      "capabilities": []
+    },
+    {
+      "index": 62,
+      "type": 0,
+      "type_description": "Set 5 Red",
+      "capabilities": []
+    },
+    {
+      "index": 63,
+      "type": 0,
+      "type_description": "Set 6 Red",
+      "capabilities": []
+    },
+    {
+      "index": 64,
+      "type": 0,
+      "type_description": "Set 7 Red",
+      "capabilities": []
+    },
+    {
+      "index": 65,
+      "type": 0,
+      "type_description": "Set 8 Red",
+      "capabilities": []
+    },
+    {
+      "index": 66,
+      "type": 0,
+      "type_description": "Set 9 Red",
+      "capabilities": []
+    },
+    {
+      "index": 67,
+      "type": 0,
+      "type_description": "Set 10 Red",
+      "capabilities": []
+    },
+    {
+      "index": 68,
+      "type": 0,
+      "type_description": "Set 5 Green",
+      "capabilities": []
+    },
+    {
+      "index": 69,
+      "type": 0,
+      "type_description": "Set 6 Green",
+      "capabilities": []
+    },
+    {
+      "index": 70,
+      "type": 0,
+      "type_description": "Set 7 Green",
+      "capabilities": []
+    },
+    {
+      "index": 71,
+      "type": 0,
+      "type_description": "Set 8 Green",
+      "capabilities": []
+    },
+    {
+      "index": 72,
+      "type": 0,
+      "type_description": "Set 9 Green",
+      "capabilities": []
+    },
+    {
+      "index": 73,
+      "type": 0,
+      "type_description": "Set 10 Green",
+      "capabilities": []
+    },
+    {
+      "index": 74,
+      "type": 0,
+      "type_description": "Set 5 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 75,
+      "type": 0,
+      "type_description": "Set 6 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 76,
+      "type": 0,
+      "type_description": "Set 7 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 77,
+      "type": 0,
+      "type_description": "Set 8 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 78,
+      "type": 0,
+      "type_description": "Set 9 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 79,
+      "type": 0,
+      "type_description": "Set 10 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 80,
+      "type": 0,
+      "type_description": "Set 5 White",
+      "capabilities": []
+    },
+    {
+      "index": 81,
+      "type": 0,
+      "type_description": "Set 6 White",
+      "capabilities": []
+    },
+    {
+      "index": 82,
+      "type": 0,
+      "type_description": "Set 7 White",
+      "capabilities": []
+    },
+    {
+      "index": 83,
+      "type": 0,
+      "type_description": "Set 8 White",
+      "capabilities": []
+    },
+    {
+      "index": 84,
+      "type": 0,
+      "type_description": "Set 9 White",
+      "capabilities": []
+    },
+    {
+      "index": 85,
+      "type": 0,
+      "type_description": "Set 10 White",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/GLP/GLP-Impression-X4-Bar-10.json",
+  "id": 846
+}

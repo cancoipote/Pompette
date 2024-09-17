@@ -1,0 +1,597 @@
+{
+  "version": "1.0.0",
+  "label": "MS-60-13ch",
+  "manufacturer": "Algam",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 0,
+  "dimension_width": 0,
+  "dimension_height": 0,
+  "dimension_depth": 0,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Head",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 0,
+  "technical_dmx_connector": "5-pin",
+  "type": {
+    "id": 8,
+    "label": "Moving Head",
+    "thumb": ""
+  },
+  "channels": [
+    {
+      "index": 0,
+      "type": {
+        "id": 19,
+        "label": "Pan",
+        "thumb": ""
+      },
+      "type_description": "PAN",
+      "capabilities": [
+        {
+          "label": "intensity",
+          "min": 0,
+          "max": 255
+        }
+      ],
+      "value": 0,
+      "capability": {
+        "label": "intensity",
+        "min": 0,
+        "max": 255
+      }
+    },
+    {
+      "index": 1,
+      "type": {
+        "id": 19,
+        "label": "Pan",
+        "thumb": ""
+      },
+      "type_description": "PAN - accuracy",
+      "capabilities": [
+        {
+          "label": "intensity",
+          "min": 0,
+          "max": 255
+        }
+      ],
+      "value": 0,
+      "capability": {
+        "label": "intensity",
+        "min": 0,
+        "max": 255
+      }
+    },
+    {
+      "index": 2,
+      "type": {
+        "id": 23,
+        "label": "Tilt",
+        "thumb": ""
+      },
+      "type_description": "TILT",
+      "capabilities": [
+        {
+          "label": "intensity",
+          "min": 0,
+          "max": 255
+        }
+      ],
+      "value": 0,
+      "capability": {
+        "label": "intensity",
+        "min": 0,
+        "max": 255
+      }
+    },
+    {
+      "index": 3,
+      "type": {
+        "id": 23,
+        "label": "Tilt",
+        "thumb": ""
+      },
+      "type_description": "TILT - accuracy",
+      "capabilities": [
+        {
+          "label": "intensity",
+          "min": 0,
+          "max": 255
+        }
+      ],
+      "value": 0,
+      "capability": {
+        "label": "intensity",
+        "min": 0,
+        "max": 255
+      }
+    },
+    {
+      "index": 4,
+      "type": {
+        "id": 22,
+        "label": "Speed",
+        "thumb": ""
+      },
+      "type_description": "Speed",
+      "capabilities": [
+        {
+          "label": "intensity",
+          "min": 0,
+          "max": 255
+        }
+      ],
+      "value": 0,
+      "capability": {
+        "label": "intensity",
+        "min": 0,
+        "max": 255
+      }
+    },
+    {
+      "index": 5,
+      "type": {
+        "id": 5,
+        "label": "Intensity",
+        "thumb": ""
+      },
+      "type_description": "Dimmer",
+      "capabilities": [
+        {
+          "label": "intensity",
+          "min": 0,
+          "max": 255
+        }
+      ],
+      "value": 0,
+      "capability": {
+        "label": "intensity",
+        "min": 0,
+        "max": 255
+      }
+    },
+    {
+      "index": 6,
+      "type": {
+        "id": 3,
+        "label": "Effect",
+        "thumb": ""
+      },
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "intensity",
+          "min": 0,
+          "max": 255
+        }
+      ],
+      "value": 0,
+      "capability": {
+        "label": "intensity",
+        "min": 0,
+        "max": 255
+      }
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "white",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "red",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "yellow",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "blue",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "green",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "orange",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "purple",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "cyan",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "purple / blue",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "orange / purple",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "green / orange",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "blue / geen",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "yellow / purple",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "red / yellow",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "loop color speed 1",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "loop color speed 2",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "loop color speed 3",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "loop color speed 4",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "loop color speed 5",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "loop color speed 6",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "loop color speed 7",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "loop color speed 8",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "loop color speed 9",
+          "min": 220,
+          "max": 229
+        },
+        {
+          "label": "loop color speed 10",
+          "min": 230,
+          "max": 249
+        },
+        {
+          "label": "loop color speed 11",
+          "min": 250,
+          "max": 255
+        }
+      ],
+      "value": 0,
+      "capability": {
+        "label": "white",
+        "min": 0,
+        "max": 9
+      }
+    },
+    {
+      "index": 8,
+      "type": {
+        "id": 4,
+        "label": "Gobo",
+        "thumb": ""
+      },
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "empty",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "vortex",
+          "min": 8,
+          "max": 8
+        },
+        {
+          "label": "vortex shake slow",
+          "min": 72,
+          "max": 72
+        },
+        {
+          "label": "vortex shake normal",
+          "min": 75,
+          "max": 75
+        },
+        {
+          "label": "vortex shake fast",
+          "min": 79,
+          "max": 79
+        },
+        {
+          "label": "saw",
+          "min": 16,
+          "max": 16
+        },
+        {
+          "label": "saw shake slow",
+          "min": 80,
+          "max": 80
+        },
+        {
+          "label": "saw shake normal",
+          "min": 83,
+          "max": 83
+        },
+        {
+          "label": "saw shake fast",
+          "min": 87,
+          "max": 87
+        },
+        {
+          "label": "potatoes",
+          "min": 24,
+          "max": 24
+        },
+        {
+          "label": "potatoes shake slow",
+          "min": 88,
+          "max": 88
+        },
+        {
+          "label": "potatoes shake normal",
+          "min": 91,
+          "max": 91
+        },
+        {
+          "label": "potatoes shake fast",
+          "min": 95,
+          "max": 95
+        },
+        {
+          "label": "triangle",
+          "min": 32,
+          "max": 32
+        },
+        {
+          "label": "triangle shake slow",
+          "min": 96,
+          "max": 96
+        },
+        {
+          "label": "triangle shake normal",
+          "min": 99,
+          "max": 99
+        },
+        {
+          "label": "triangle shake fast",
+          "min": 103,
+          "max": 103
+        },
+        {
+          "label": "bubbles",
+          "min": 40,
+          "max": 40
+        },
+        {
+          "label": "bubbles shake slow",
+          "min": 104,
+          "max": 104
+        },
+        {
+          "label": "bubbles shake normal",
+          "min": 107,
+          "max": 107
+        },
+        {
+          "label": "bubbles shake fast",
+          "min": 111,
+          "max": 111
+        },
+        {
+          "label": "blast",
+          "min": 48,
+          "max": 48
+        },
+        {
+          "label": "blast shake slow",
+          "min": 112,
+          "max": 112
+        },
+        {
+          "label": "blast shake normal",
+          "min": 115,
+          "max": 115
+        },
+        {
+          "label": "blast shake fast",
+          "min": 119,
+          "max": 119
+        },
+        {
+          "label": "gas hob",
+          "min": 56,
+          "max": 56
+        },
+        {
+          "label": "gas hob shake slow",
+          "min": 120,
+          "max": 120
+        },
+        {
+          "label": "gas_hob shake normal",
+          "min": 123,
+          "max": 123
+        },
+        {
+          "label": "gas hob shake fast",
+          "min": 127,
+          "max": 127
+        },
+        {
+          "label": "mix",
+          "min": 255,
+          "max": 255
+        }
+      ],
+      "value": 0,
+      "capability": {
+        "label": "empty",
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "index": 9,
+      "type": {
+        "id": 20,
+        "label": "Prism",
+        "thumb": ""
+      },
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "no",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "yes",
+          "min": 100,
+          "max": 100
+        },
+        {
+          "label": "rotate slow",
+          "min": 128,
+          "max": 128
+        },
+        {
+          "label": "rotate normal",
+          "min": 192,
+          "max": 192
+        },
+        {
+          "label": "rotate fast",
+          "min": 255,
+          "max": 255
+        }
+      ],
+      "value": 0,
+      "capability": {
+        "label": "no",
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "index": 10,
+      "type": {
+        "id": 21,
+        "label": "Shutter",
+        "thumb": ""
+      },
+      "type_description": "Focus",
+      "capabilities": [
+        {
+          "label": "intensity",
+          "min": 0,
+          "max": 255
+        }
+      ],
+      "value": 0,
+      "capability": {
+        "label": "intensity",
+        "min": 0,
+        "max": 255
+      }
+    },
+    {
+      "index": 11,
+      "type": {
+        "id": 3,
+        "label": "Effect",
+        "thumb": ""
+      },
+      "type_description": "Program",
+      "capabilities": [
+        {
+          "label": "intensity",
+          "min": 0,
+          "max": 255
+        }
+      ],
+      "value": 0,
+      "capability": {
+        "label": "intensity",
+        "min": 0,
+        "max": 255
+      }
+    },
+    {
+      "index": 12,
+      "type": {
+        "id": 3,
+        "label": "Effect",
+        "thumb": ""
+      },
+      "type_description": "Reset",
+      "capabilities": [
+        {
+          "label": "intensity",
+          "min": 0,
+          "max": 255
+        }
+      ],
+      "value": 0,
+      "capability": {
+        "label": "intensity",
+        "min": 0,
+        "max": 255
+      }
+    }
+  ],
+  "filePath": "./assets/fixtures/Kylii-Kids/Kylii-Kids-MS-60-13ch.json",
+  "id": 949,
+  "index": 0
+}

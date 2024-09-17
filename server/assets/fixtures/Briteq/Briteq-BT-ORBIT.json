@@ -1,0 +1,713 @@
+{
+  "version": "1.0.0",
+  "label": "BT-ORBIT",
+  "manufacturer": "Briteq",
+  "bulb_type": "LED",
+  "bulb_lumens": 5000,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 9,
+  "dimension_width": 325,
+  "dimension_height": 396,
+  "dimension_depth": 223,
+  "lens_label": "Other",
+  "lens_degree_min": 10,
+  "lens_degree_max": 60,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 220,
+  "technical_power_consumption": 290,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Shutter open",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "Strobe 1 (fast -> slow)",
+          "min": 25,
+          "max": 64
+        },
+        {
+          "label": "Shutter open",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "Strobe 2: opening pulse (fast -> slow)",
+          "min": 70,
+          "max": 84
+        },
+        {
+          "label": "Shutter open",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "Strobe 3: closing pulse (fast -> slow)",
+          "min": 90,
+          "max": 104
+        },
+        {
+          "label": "Shutter open",
+          "min": 105,
+          "max": 109
+        },
+        {
+          "label": "Strobe 4: random strobe (fast -> slow)",
+          "min": 110,
+          "max": 124
+        },
+        {
+          "label": "Shutter open",
+          "min": 125,
+          "max": 129
+        },
+        {
+          "label": "Strobe 5: random opening pulse (fast -> slow)",
+          "min": 130,
+          "max": 144
+        },
+        {
+          "label": "Shutter open",
+          "min": 145,
+          "max": 149
+        },
+        {
+          "label": "Strobe 6: random closing pulse (fast -> slow)",
+          "min": 150,
+          "max": 164
+        },
+        {
+          "label": "Shutter open",
+          "min": 165,
+          "max": 169
+        },
+        {
+          "label": "Strobe 7: burst pulse (fast -> slow)",
+          "min": 170,
+          "max": 184
+        },
+        {
+          "label": "Shutter open",
+          "min": 185,
+          "max": 189
+        },
+        {
+          "label": "Strobe 8: random burst pulse (fast -> slow)",
+          "min": 190,
+          "max": 204
+        },
+        {
+          "label": "Shutter open",
+          "min": 205,
+          "max": 209
+        },
+        {
+          "label": "Strobe 9: sine wave (fast -> slow)",
+          "min": 210,
+          "max": 224
+        },
+        {
+          "label": "Shutter open",
+          "min": 225,
+          "max": 229
+        },
+        {
+          "label": "Strobe 10: burst (fast -> slow)",
+          "min": 230,
+          "max": 244
+        },
+        {
+          "label": "Shutter open",
+          "min": 245,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Color Wheel Effect",
+      "capabilities": [
+        {
+          "label": "RGB Colour Mixing",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Moroccan pink",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "Pink",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "Special rose pink",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "Follies pink",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "Fuchsia pink",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "Surprise pink",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "Congo blue",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "Tokyo blue",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "Deep blue",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "Just blue",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "Medium blue",
+          "min": 60,
+          "max": 64
+        },
+        {
+          "label": "Double CT blue",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "Slate blue",
+          "min": 70,
+          "max": 74
+        },
+        {
+          "label": "Full CT blue",
+          "min": 75,
+          "max": 79
+        },
+        {
+          "label": "Half CT blue",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "Steel blue",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "Lighter blue",
+          "min": 90,
+          "max": 94
+        },
+        {
+          "label": "Light blue",
+          "min": 95,
+          "max": 99
+        },
+        {
+          "label": "Medium blue green",
+          "min": 100,
+          "max": 104
+        },
+        {
+          "label": "Dark green",
+          "min": 105,
+          "max": 109
+        },
+        {
+          "label": "Primary green",
+          "min": 110,
+          "max": 114
+        },
+        {
+          "label": "Moss green",
+          "min": 115,
+          "max": 119
+        },
+        {
+          "label": "Fern green",
+          "min": 120,
+          "max": 124
+        },
+        {
+          "label": "JAS green",
+          "min": 125,
+          "max": 129
+        },
+        {
+          "label": "Lime green",
+          "min": 130,
+          "max": 134
+        },
+        {
+          "label": "Spring yellow",
+          "min": 135,
+          "max": 139
+        },
+        {
+          "label": "Deep amber",
+          "min": 140,
+          "max": 144
+        },
+        {
+          "label": "Chrome orange",
+          "min": 145,
+          "max": 149
+        },
+        {
+          "label": "Orange",
+          "min": 150,
+          "max": 154
+        },
+        {
+          "label": "Gold amber",
+          "min": 155,
+          "max": 159
+        },
+        {
+          "label": "Millennium gold",
+          "min": 160,
+          "max": 164
+        },
+        {
+          "label": "Deep golden amber",
+          "min": 165,
+          "max": 169
+        },
+        {
+          "label": "Flame red",
+          "min": 170,
+          "max": 174
+        },
+        {
+          "label": "Open",
+          "min": 175,
+          "max": 179
+        },
+        {
+          "label": "Rotation clockwise (Fast -> Slow)",
+          "min": 180,
+          "max": 201
+        },
+        {
+          "label": "Rotation stop (wherever the color was)",
+          "min": 202,
+          "max": 207
+        },
+        {
+          "label": "Rotation counter-clockwise (Slow -> Fast)",
+          "min": 208,
+          "max": 229
+        },
+        {
+          "label": "Open",
+          "min": 230,
+          "max": 234
+        },
+        {
+          "label": "Random color fast",
+          "min": 235,
+          "max": 239
+        },
+        {
+          "label": "Random color medium",
+          "min": 240,
+          "max": 244
+        },
+        {
+          "label": "Random color slow",
+          "min": 245,
+          "max": 249
+        },
+        {
+          "label": "Open",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 17,
+      "type_description": "Control Settings",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Reset all (3s delay)",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "No function",
+          "min": 15,
+          "max": 39
+        },
+        {
+          "label": "Pan Tilt speed NORM",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "Pan Tilt speed FAST",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "Pan Tilt speed SLOW",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "No function",
+          "min": 55,
+          "max": 79
+        },
+        {
+          "label": "Fast Dimming",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "No function",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "Smooth Dimming",
+          "min": 90,
+          "max": 94
+        },
+        {
+          "label": "No function",
+          "min": 95,
+          "max": 249
+        },
+        {
+          "label": "Switch display backlight on",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Ring 1 Red",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Ring 2 Red",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Ring 3 Red",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Ring 1 Green",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Ring 2 Green",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Ring 3 Green",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Ring 1 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Ring 2 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Ring 3 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Ring 1 White",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Ring 2 White",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Ring 3 White",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "CTC",
+      "capabilities": [
+        {
+          "label": "CTC not active",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "CTC from 10000K to 2500K",
+          "min": 20,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Pan/Tilt speed",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 3,
+      "type_description": "Macro",
+      "capabilities": [
+        {
+          "label": "All leds",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Dot",
+          "min": 8,
+          "max": 22
+        },
+        {
+          "label": "Ring 1",
+          "min": 23,
+          "max": 37
+        },
+        {
+          "label": "Ring 2",
+          "min": 38,
+          "max": 52
+        },
+        {
+          "label": "Dot + Ring 1",
+          "min": 53,
+          "max": 67
+        },
+        {
+          "label": "Dot + Ring 2",
+          "min": 68,
+          "max": 82
+        },
+        {
+          "label": "Ring 1 + Ring 2",
+          "min": 83,
+          "max": 97
+        },
+        {
+          "label": "All leds",
+          "min": 98,
+          "max": 112
+        },
+        {
+          "label": "Macro 1",
+          "min": 113,
+          "max": 127
+        },
+        {
+          "label": "Macro 2",
+          "min": 128,
+          "max": 142
+        },
+        {
+          "label": "Macro 3",
+          "min": 143,
+          "max": 157
+        },
+        {
+          "label": "Macro 4",
+          "min": 158,
+          "max": 172
+        },
+        {
+          "label": "Macro 5",
+          "min": 173,
+          "max": 187
+        },
+        {
+          "label": "Macro 6",
+          "min": 188,
+          "max": 202
+        },
+        {
+          "label": "Macro 7",
+          "min": 203,
+          "max": 217
+        },
+        {
+          "label": "Macro 8",
+          "min": 218,
+          "max": 232
+        },
+        {
+          "label": "Macro 9",
+          "min": 233,
+          "max": 247
+        },
+        {
+          "label": "Macro 10",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "type": 22,
+      "type_description": "Macro Speed",
+      "capabilities": [
+        {
+          "label": "Macro (Fast to slow)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "Ring 1 Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 0,
+      "type_description": "Ring 2 Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "Ring 3 Dimmer",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Briteq/Briteq-BT-ORBIT.json",
+  "id": 253
+}

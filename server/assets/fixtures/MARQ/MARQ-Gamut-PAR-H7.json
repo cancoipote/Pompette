@@ -1,0 +1,495 @@
+{
+  "version": "1.0.0",
+  "label": "Gamut PAR H7",
+  "manufacturer": "MARQ",
+  "bulb_type": "LED",
+  "bulb_lumens": 1598,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 310,
+  "dimension_height": 255,
+  "dimension_depth": 121,
+  "lens_label": "Other",
+  "lens_degree_min": 25,
+  "lens_degree_max": 25,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 71,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Amber Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "White Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "UV Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Off (no function)",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Slow to fast",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Color Presets",
+      "capabilities": [
+        {
+          "label": "Off (no function)",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "C-01: R (red)",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "C-02: G (green)",
+          "min": 8,
+          "max": 11
+        },
+        {
+          "label": "C-03: B (blue)",
+          "min": 12,
+          "max": 15
+        },
+        {
+          "label": "C-04: A (amber)",
+          "min": 16,
+          "max": 19
+        },
+        {
+          "label": "C-05: W (white)",
+          "min": 20,
+          "max": 23
+        },
+        {
+          "label": "C-06: UV (ultraviolet)",
+          "min": 24,
+          "max": 27
+        },
+        {
+          "label": "C-07: R+G",
+          "min": 28,
+          "max": 31
+        },
+        {
+          "label": "C-08: R+B",
+          "min": 32,
+          "max": 35
+        },
+        {
+          "label": "C-09: R+A",
+          "min": 36,
+          "max": 39
+        },
+        {
+          "label": "C-10: R+W",
+          "min": 40,
+          "max": 43
+        },
+        {
+          "label": "C-11: R+UV",
+          "min": 44,
+          "max": 47
+        },
+        {
+          "label": "C-12: G+B",
+          "min": 48,
+          "max": 51
+        },
+        {
+          "label": "C-13: G+A",
+          "min": 52,
+          "max": 55
+        },
+        {
+          "label": "C-14: G+W",
+          "min": 56,
+          "max": 59
+        },
+        {
+          "label": "C-15: G+UV",
+          "min": 60,
+          "max": 63
+        },
+        {
+          "label": "C-16: B+A",
+          "min": 64,
+          "max": 67
+        },
+        {
+          "label": "C-17: B+W",
+          "min": 68,
+          "max": 71
+        },
+        {
+          "label": "C-18: B+UV",
+          "min": 72,
+          "max": 75
+        },
+        {
+          "label": "C-19: A+W",
+          "min": 76,
+          "max": 79
+        },
+        {
+          "label": "C-20: A+UV",
+          "min": 80,
+          "max": 83
+        },
+        {
+          "label": "C-21: W+UV",
+          "min": 84,
+          "max": 87
+        },
+        {
+          "label": "C-22: R+G+B",
+          "min": 88,
+          "max": 91
+        },
+        {
+          "label": "C-23: R+G+A",
+          "min": 92,
+          "max": 95
+        },
+        {
+          "label": "C-24: R+G+W",
+          "min": 96,
+          "max": 99
+        },
+        {
+          "label": "C-25: R+G+UV",
+          "min": 100,
+          "max": 103
+        },
+        {
+          "label": "C-26: R+B+A",
+          "min": 104,
+          "max": 107
+        },
+        {
+          "label": "C-27: R+B+W",
+          "min": 108,
+          "max": 111
+        },
+        {
+          "label": "C-28: R+B+UV",
+          "min": 112,
+          "max": 115
+        },
+        {
+          "label": "C-29: R+A+W",
+          "min": 116,
+          "max": 119
+        },
+        {
+          "label": "C-30: R+A+UV",
+          "min": 120,
+          "max": 123
+        },
+        {
+          "label": "C-31: R+W+UV",
+          "min": 124,
+          "max": 127
+        },
+        {
+          "label": "C-32: G+B+A",
+          "min": 128,
+          "max": 131
+        },
+        {
+          "label": "C-33: G+B+W",
+          "min": 132,
+          "max": 135
+        },
+        {
+          "label": "C-34: G+B+UV",
+          "min": 136,
+          "max": 139
+        },
+        {
+          "label": "C-35: G+W+UV",
+          "min": 140,
+          "max": 143
+        },
+        {
+          "label": "C-36: G+A+UV",
+          "min": 144,
+          "max": 147
+        },
+        {
+          "label": "C-37: G+W+UV",
+          "min": 148,
+          "max": 151
+        },
+        {
+          "label": "C-38: B+A+W",
+          "min": 152,
+          "max": 155
+        },
+        {
+          "label": "C-39: B+A+UV",
+          "min": 156,
+          "max": 159
+        },
+        {
+          "label": "C-40: B+W+UV",
+          "min": 160,
+          "max": 163
+        },
+        {
+          "label": "C-41: A+W+UV",
+          "min": 164,
+          "max": 167
+        },
+        {
+          "label": "C-42: R+G+B+A",
+          "min": 168,
+          "max": 171
+        },
+        {
+          "label": "C-43: R+G+B+W",
+          "min": 172,
+          "max": 175
+        },
+        {
+          "label": "C-44: R+G+B+UV",
+          "min": 176,
+          "max": 179
+        },
+        {
+          "label": "C-45: R+G+A+W",
+          "min": 180,
+          "max": 183
+        },
+        {
+          "label": "C-46: R+G+A+UV",
+          "min": 184,
+          "max": 187
+        },
+        {
+          "label": "C-47: R+G+W+UV",
+          "min": 188,
+          "max": 191
+        },
+        {
+          "label": "C-48: R+B+A+W",
+          "min": 192,
+          "max": 195
+        },
+        {
+          "label": "C-49: R+B+A+UV",
+          "min": 196,
+          "max": 199
+        },
+        {
+          "label": "C-50: R+B+W+UV",
+          "min": 200,
+          "max": 203
+        },
+        {
+          "label": "C-51: R+A+W+UV",
+          "min": 204,
+          "max": 207
+        },
+        {
+          "label": "C-52: G+B+A+W",
+          "min": 208,
+          "max": 211
+        },
+        {
+          "label": "C-53: G+B+A+UV",
+          "min": 212,
+          "max": 215
+        },
+        {
+          "label": "C-54: G+B+W+UV",
+          "min": 216,
+          "max": 219
+        },
+        {
+          "label": "C-55: G+A+W+UV",
+          "min": 220,
+          "max": 223
+        },
+        {
+          "label": "C-56: B+A+W+UV",
+          "min": 224,
+          "max": 227
+        },
+        {
+          "label": "C-57: R+G+B+A+W",
+          "min": 228,
+          "max": 231
+        },
+        {
+          "label": "C-58: R+G+B+A+UV",
+          "min": 232,
+          "max": 235
+        },
+        {
+          "label": "C-59: R+G+B+W+UV",
+          "min": 236,
+          "max": 239
+        },
+        {
+          "label": "C-60: R+G+A+W+UV",
+          "min": 240,
+          "max": 243
+        },
+        {
+          "label": "C-61: R+B+A+W+UV",
+          "min": 244,
+          "max": 247
+        },
+        {
+          "label": "C-62: G+B+A+W+UV",
+          "min": 248,
+          "max": 251
+        },
+        {
+          "label": "C-63: R+G+B+A+W+UV",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Programs",
+      "capabilities": [
+        {
+          "label": "Off (no function)",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Snap 1: R > G > B > W",
+          "min": 16,
+          "max": 35
+        },
+        {
+          "label": "Snap 2: R+G > G+B > B+W > W+R",
+          "min": 36,
+          "max": 55
+        },
+        {
+          "label": "Snap 3: R+G+B > G+B+W > B+W+R > W+R+G",
+          "min": 56,
+          "max": 75
+        },
+        {
+          "label": "Snap 4: R+B > B+G > G+W > W+R",
+          "min": 76,
+          "max": 95
+        },
+        {
+          "label": "Fade 1: R > G > B > W",
+          "min": 96,
+          "max": 115
+        },
+        {
+          "label": "Fade 2: R+G > G+B > B+W > W+R",
+          "min": 116,
+          "max": 135
+        },
+        {
+          "label": "Fade 3: R+G+B > G+B+W > B+W+R > W+R+G",
+          "min": 136,
+          "max": 155
+        },
+        {
+          "label": "Fade 4: R+B > B+G > G+W > W+R",
+          "min": 156,
+          "max": 175
+        },
+        {
+          "label": "Sound 1: R > G > B > W",
+          "min": 176,
+          "max": 195
+        },
+        {
+          "label": "Sound 2: R+G > G+B > B+W > W+R",
+          "min": 196,
+          "max": 215
+        },
+        {
+          "label": "Sound 3: R+G+B > G+B+W > B+W+R > W+R+G",
+          "min": 216,
+          "max": 235
+        },
+        {
+          "label": "Sound 4: R+B > B+G > G+W > W+R",
+          "min": 236,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Program Speed/Sensitivity",
+      "capabilities": [
+        {
+          "label": "Program speed (slow to fast)/Sensitivity (low to high)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/MARQ/MARQ-Gamut-PAR-H7.json",
+  "id": 1025
+}

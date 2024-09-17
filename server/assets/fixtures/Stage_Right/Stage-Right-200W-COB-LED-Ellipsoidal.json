@@ -1,0 +1,75 @@
+{
+  "version": "1.0.0",
+  "label": "200W COB LED Ellipsoidal",
+  "manufacturer": "Stage Right",
+  "bulb_type": "LED",
+  "bulb_lumens": 5274,
+  "bulb_color_temperature": 3200,
+  "dimension_weight": 8,
+  "dimension_width": 210,
+  "dimension_height": 280,
+  "dimension_depth": 580,
+  "lens_label": "PC",
+  "lens_degree_min": 26,
+  "lens_degree_max": 26,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 200,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "no function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Strobe Speed 5-20HZ",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Dimmer Speed",
+      "capabilities": [
+        {
+          "label": "Real Time",
+          "min": 0,
+          "max": 64
+        },
+        {
+          "label": "Fast Controlled Response",
+          "min": 65,
+          "max": 128
+        },
+        {
+          "label": "Medium Controlled Responnse",
+          "min": 129,
+          "max": 192
+        },
+        {
+          "label": "Slow Controlled Response",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Stage_Right/Stage-Right-200W-COB-LED-Ellipsoidal.json",
+  "id": 1345
+}

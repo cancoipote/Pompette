@@ -1,0 +1,97 @@
+{
+  "version": "1.0.0",
+  "label": "ECO LED PAR56",
+  "manufacturer": "Pulse",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 201,
+  "dimension_height": 201,
+  "dimension_depth": 266,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 20,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 17,
+      "type_description": "Mode Control",
+      "capabilities": [
+        {
+          "label": "RGB Control CH2 = Red, CH3 = Green, CH4 = Blue",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "7 Colour Fade, CH5 = Speed",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "7 Colour Change, CH5 = Speed",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "3 Colour Change, CH5 = Speed",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Speed Control",
+      "capabilities": [
+        {
+          "label": "no function - no speed",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Speed (fast to slow)",
+          "min": 11,
+          "max": 100
+        },
+        {
+          "label": "no function - no speed",
+          "min": 101,
+          "max": 150
+        },
+        {
+          "label": "Speed control by unit, music [DipSW4 = 0] or potentiometer [DipSW4 = 1]",
+          "min": 151,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Pulse/Pulse-ECO-LED-PAR56.json",
+  "id": 1172
+}

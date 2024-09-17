@@ -1,0 +1,384 @@
+{
+  "version": "1.0.0",
+  "label": "Genesis 575",
+  "manufacturer": "Futurelight",
+  "bulb_type": "HMI 575W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 5600,
+  "dimension_weight": 27,
+  "dimension_width": 280,
+  "dimension_height": 700,
+  "dimension_depth": 190,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Mirror",
+  "focus_pan_max": 180,
+  "focus_tilt_max": 90,
+  "technical_power_consumption": 750,
+  "technical_dmx_connector": "3-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Colours",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "White+Green",
+          "min": 1,
+          "max": 15
+        },
+        {
+          "label": "Green",
+          "min": 16,
+          "max": 16
+        },
+        {
+          "label": "Green+Red",
+          "min": 17,
+          "max": 31
+        },
+        {
+          "label": "Red",
+          "min": 32,
+          "max": 32
+        },
+        {
+          "label": "Red+Cyan",
+          "min": 33,
+          "max": 47
+        },
+        {
+          "label": "Cyan",
+          "min": 48,
+          "max": 48
+        },
+        {
+          "label": "Cyan+Violet",
+          "min": 49,
+          "max": 63
+        },
+        {
+          "label": "Violet",
+          "min": 64,
+          "max": 64
+        },
+        {
+          "label": "Violet+Yellow",
+          "min": 65,
+          "max": 79
+        },
+        {
+          "label": "Yellow",
+          "min": 80,
+          "max": 80
+        },
+        {
+          "label": "Yellow+Blue",
+          "min": 81,
+          "max": 95
+        },
+        {
+          "label": "Blue",
+          "min": 96,
+          "max": 96
+        },
+        {
+          "label": "Blue+Orange",
+          "min": 97,
+          "max": 111
+        },
+        {
+          "label": "Orange",
+          "min": 112,
+          "max": 112
+        },
+        {
+          "label": "Orange+White",
+          "min": 113,
+          "max": 126
+        },
+        {
+          "label": "White",
+          "min": 127,
+          "max": 127
+        },
+        {
+          "label": "Rainbow",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 4,
+      "type_description": "Gobowheel 1",
+      "capabilities": [
+        {
+          "label": "Full circle",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Gobo 1 rotating",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Gobo 1 static",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Gobo 2 rotating",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Gobo 2 static",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Gobo 3 rotating",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Gobo 3 static",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Gobo 4 rotating",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 4,
+      "type_description": "Rotation",
+      "capabilities": [
+        {
+          "label": "Static",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Rotation to 270°",
+          "min": 1,
+          "max": 127
+        },
+        {
+          "label": "Clockwise rotation with decreasing speed (128 = Vmax)",
+          "min": 128,
+          "max": 190
+        },
+        {
+          "label": "Static",
+          "min": 191,
+          "max": 192
+        },
+        {
+          "label": "Counterclockwise rotation with increasing speed (255 = Vmax)",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 4,
+      "type_description": "Gobowheel 2",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Open/Beam Reducer 1",
+          "min": 1,
+          "max": 32
+        },
+        {
+          "label": "Beam Reducer 1",
+          "min": 33,
+          "max": 33
+        },
+        {
+          "label": "Beam Reducer 1/Beam Reducer 2",
+          "min": 34,
+          "max": 64
+        },
+        {
+          "label": "Beam Reducer 2",
+          "min": 65,
+          "max": 65
+        },
+        {
+          "label": "Beam Reducer 2/Gobo 1",
+          "min": 66,
+          "max": 96
+        },
+        {
+          "label": "Gobo 1",
+          "min": 97,
+          "max": 97
+        },
+        {
+          "label": "Gobo 1/Gobo 2",
+          "min": 98,
+          "max": 128
+        },
+        {
+          "label": "Gobo 2",
+          "min": 129,
+          "max": 129
+        },
+        {
+          "label": "Gobo 2/Multi-color-Gobo",
+          "min": 130,
+          "max": 160
+        },
+        {
+          "label": "Multi-color-Gobo",
+          "min": 161,
+          "max": 161
+        },
+        {
+          "label": "Multi-color-Gobo/Dichro-Gobo 1",
+          "min": 162,
+          "max": 192
+        },
+        {
+          "label": "Dichro-Gobo 1",
+          "min": 193,
+          "max": 193
+        },
+        {
+          "label": "Dichro-Gobo 1/Dichro-Gobo 2",
+          "min": 194,
+          "max": 224
+        },
+        {
+          "label": "Dichro-Gobo 2",
+          "min": 225,
+          "max": 225
+        },
+        {
+          "label": "Dichro-Gobo 2/Open",
+          "min": 226,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Dimmer/Strobe",
+      "capabilities": [
+        {
+          "label": "Shutter Closed",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Dimmer",
+          "min": 1,
+          "max": 129
+        },
+        {
+          "label": "Open",
+          "min": 130,
+          "max": 140
+        },
+        {
+          "label": "Shutter Closed",
+          "min": 141,
+          "max": 150
+        },
+        {
+          "label": "Strobe: 1-6 flashes per second",
+          "min": 151,
+          "max": 240
+        },
+        {
+          "label": "Completely open",
+          "min": 241,
+          "max": 245
+        },
+        {
+          "label": "Blackout (Reset)",
+          "min": 246,
+          "max": 248
+        },
+        {
+          "label": "Open",
+          "min": 249,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Special effects",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 49
+        },
+        {
+          "label": "Correction filter 5600° K",
+          "min": 50,
+          "max": 99
+        },
+        {
+          "label": "Correction filter 3200° K",
+          "min": 100,
+          "max": 149
+        },
+        {
+          "label": "Frostfilter",
+          "min": 150,
+          "max": 199
+        },
+        {
+          "label": "UV-Filter",
+          "min": 200,
+          "max": 249
+        },
+        {
+          "label": "Prisma",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Futurelight/Futurelight-Genesis-575.json",
+  "id": 805
+}

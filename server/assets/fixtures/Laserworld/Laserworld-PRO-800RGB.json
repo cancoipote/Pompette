@@ -1,0 +1,414 @@
+{
+  "version": "1.0.0",
+  "label": "PRO-800RGB",
+  "manufacturer": "Laserworld",
+  "bulb_type": "",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 235,
+  "dimension_height": 205,
+  "dimension_depth": 165,
+  "lens_label": "Other",
+  "lens_degree_min": 1,
+  "lens_degree_max": 1,
+  "focus_type": "Fixed",
+  "focus_pan_max": 90,
+  "focus_tilt_max": 90,
+  "technical_power_consumption": 50,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 17,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "Laser off",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Music mode",
+          "min": 10,
+          "max": 49
+        },
+        {
+          "label": "Automatic mode",
+          "min": 50,
+          "max": 199
+        },
+        {
+          "label": "Patterns/DMX",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Patterns",
+      "capabilities": [
+        {
+          "label": "128 patterns (change every even value)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 19,
+      "type_description": "Horizontal movement",
+      "capabilities": [
+        {
+          "label": "Manual positioning",
+          "min": 0,
+          "max": 125
+        },
+        {
+          "label": "Left to right slow to fast",
+          "min": 126,
+          "max": 155
+        },
+        {
+          "label": "Right to left slow to fast",
+          "min": 156,
+          "max": 245
+        },
+        {
+          "label": "Automatic positioning",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Y Rotation",
+      "capabilities": [
+        {
+          "label": "Indexing",
+          "min": 0,
+          "max": 128
+        },
+        {
+          "label": "Rotating slow to fast",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "X Rotation",
+      "capabilities": [
+        {
+          "label": "Indexing",
+          "min": 0,
+          "max": 128
+        },
+        {
+          "label": "Rotating slow to fast",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 1,
+      "type_description": "Zoom",
+      "capabilities": [
+        {
+          "label": "No zoom",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Max size to min size",
+          "min": 11,
+          "max": 87
+        },
+        {
+          "label": "Auto zooming max-min slow to fast",
+          "min": 88,
+          "max": 150
+        },
+        {
+          "label": "Auto zooming min-max slow to fast",
+          "min": 151,
+          "max": 200
+        },
+        {
+          "label": "Continuosly min-max-min slow to fast",
+          "min": 201,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Pattern Buildup (drawing)",
+      "capabilities": [
+        {
+          "label": "Manual drawing",
+          "min": 0,
+          "max": 74
+        },
+        {
+          "label": "Automatic drawing slow to fast",
+          "min": 75,
+          "max": 104
+        },
+        {
+          "label": "Automatic reduction slow to fast",
+          "min": 105,
+          "max": 144
+        },
+        {
+          "label": "Automatic drawing and reduction slow to fast",
+          "min": 145,
+          "max": 184
+        },
+        {
+          "label": "Automatic two-sided reduction",
+          "min": 185,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Color Seletion",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 16
+        },
+        {
+          "label": "Red",
+          "min": 17,
+          "max": 33
+        },
+        {
+          "label": "Green",
+          "min": 34,
+          "max": 50
+        },
+        {
+          "label": "Blue",
+          "min": 51,
+          "max": 67
+        },
+        {
+          "label": "Yellow",
+          "min": 68,
+          "max": 84
+        },
+        {
+          "label": "Magenta",
+          "min": 85,
+          "max": 101
+        },
+        {
+          "label": "Cyan",
+          "min": 102,
+          "max": 118
+        },
+        {
+          "label": "Rainbow mixing static",
+          "min": 119,
+          "max": 169
+        },
+        {
+          "label": "Rainbow mixing moving",
+          "min": 170,
+          "max": 220
+        },
+        {
+          "label": "Red",
+          "min": 221,
+          "max": 237
+        },
+        {
+          "label": "Rainbow mixing static",
+          "min": 238,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 1,
+      "type_description": "Grating",
+      "capabilities": [
+        {
+          "label": "No grating",
+          "min": 0,
+          "max": 49
+        },
+        {
+          "label": "Burst grating",
+          "min": 50,
+          "max": 99
+        },
+        {
+          "label": "Line grating",
+          "min": 100,
+          "max": 149
+        },
+        {
+          "label": "3D grating",
+          "min": 150,
+          "max": 199
+        },
+        {
+          "label": "3D line grating",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Red fading",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Green fading",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Blue fading",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 3,
+      "type_description": "Z rotation",
+      "capabilities": [
+        {
+          "label": "Manual indexing",
+          "min": 0,
+          "max": 128
+        },
+        {
+          "label": "CCW movement slow to fast",
+          "min": 129,
+          "max": 192
+        },
+        {
+          "label": "CW movement slow to fast",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 3,
+      "type_description": "Y wave",
+      "capabilities": [
+        {
+          "label": "No effect",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Small wave slow to fast",
+          "min": 11,
+          "max": 69
+        },
+        {
+          "label": "Medium wave slow to fast",
+          "min": 70,
+          "max": 129
+        },
+        {
+          "label": "Large wave slow to fast",
+          "min": 130,
+          "max": 189
+        },
+        {
+          "label": "Wave effect II",
+          "min": 190,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 3,
+      "type_description": "X wave",
+      "capabilities": [
+        {
+          "label": "No effect",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Small wave slow to fast",
+          "min": 11,
+          "max": 69
+        },
+        {
+          "label": "Medium wave slow to fast",
+          "min": 70,
+          "max": 129
+        },
+        {
+          "label": "Large wave slow to fast",
+          "min": 130,
+          "max": 189
+        },
+        {
+          "label": "Wave effect II",
+          "min": 190,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 23,
+      "type_description": "Vertical movement",
+      "capabilities": [
+        {
+          "label": "Manual positioning",
+          "min": 0,
+          "max": 125
+        },
+        {
+          "label": "Up to down slow to fast",
+          "min": 126,
+          "max": 155
+        },
+        {
+          "label": "Down to up slow to fast",
+          "min": 156,
+          "max": 245
+        },
+        {
+          "label": "Automatic positioning",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Laserworld/Laserworld-PRO-800RGB.json",
+  "id": 962
+}

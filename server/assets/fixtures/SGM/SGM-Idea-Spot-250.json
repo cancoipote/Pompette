@@ -1,0 +1,641 @@
+{
+  "version": "1.0.0",
+  "label": "Idea Spot 250",
+  "manufacturer": "SGM",
+  "bulb_type": "MSD 250W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 8000,
+  "dimension_weight": 27,
+  "dimension_width": 600,
+  "dimension_height": 610,
+  "dimension_depth": 470,
+  "lens_label": "Other",
+  "lens_degree_min": 16,
+  "lens_degree_max": 35,
+  "focus_type": "Fixed",
+  "focus_pan_max": 630,
+  "focus_tilt_max": 265,
+  "technical_power_consumption": 400,
+  "technical_dmx_connector": "5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 19,
+      "type_description": "Pan movement",
+      "capabilities": [
+        {
+          "label": "Left",
+          "min": 0,
+          "max": 126
+        },
+        {
+          "label": "Center",
+          "min": 127,
+          "max": 127
+        },
+        {
+          "label": "Right",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 19,
+      "type_description": "Pan fine",
+      "capabilities": [
+        {
+          "label": "Left",
+          "min": 0,
+          "max": 126
+        },
+        {
+          "label": "Center",
+          "min": 127,
+          "max": 127
+        },
+        {
+          "label": "Right",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 23,
+      "type_description": "Tilt movement",
+      "capabilities": [
+        {
+          "label": "Left",
+          "min": 0,
+          "max": 126
+        },
+        {
+          "label": "Center",
+          "min": 127,
+          "max": 127
+        },
+        {
+          "label": "Right",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 23,
+      "type_description": "Tilt fine",
+      "capabilities": [
+        {
+          "label": "Left",
+          "min": 0,
+          "max": 126
+        },
+        {
+          "label": "Center",
+          "min": 127,
+          "max": 127
+        },
+        {
+          "label": "Right",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Speed Pan/Tilt movement",
+      "capabilities": [
+        {
+          "label": "Max speed",
+          "min": 0,
+          "max": 14
+        },
+        {
+          "label": "Max to min speed",
+          "min": 15,
+          "max": 225
+        },
+        {
+          "label": "Blackout by movement",
+          "min": 226,
+          "max": 235
+        },
+        {
+          "label": "Blackout by all wheel changing",
+          "min": 236,
+          "max": 245
+        },
+        {
+          "label": "No rotation",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Color Wheel",
+      "capabilities": [
+        {
+          "label": "Open /white",
+          "min": 0,
+          "max": 13
+        },
+        {
+          "label": "Color 1",
+          "min": 14,
+          "max": 27
+        },
+        {
+          "label": "Color 2",
+          "min": 28,
+          "max": 41
+        },
+        {
+          "label": "Color 3",
+          "min": 42,
+          "max": 55
+        },
+        {
+          "label": "Color 4",
+          "min": 56,
+          "max": 69
+        },
+        {
+          "label": "Color 5",
+          "min": 70,
+          "max": 83
+        },
+        {
+          "label": "Color 6",
+          "min": 84,
+          "max": 97
+        },
+        {
+          "label": "Color 7",
+          "min": 98,
+          "max": 111
+        },
+        {
+          "label": "Color 8",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Forwards rainbow effect from fast to slow",
+          "min": 128,
+          "max": 187
+        },
+        {
+          "label": "No rotation",
+          "min": 188,
+          "max": 193
+        },
+        {
+          "label": "Backwards rainbow effect from slow to fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 4,
+      "type_description": "Rotating gobos, cont. rotation",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Rot. gobo 1",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Rot. gobo 2",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Rot. gobo 3",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Rot. gobo 4",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Rot. gobo 5",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Rot. gobo 6",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Gobo 1 shake slow to fast",
+          "min": 70,
+          "max": 89
+        },
+        {
+          "label": "Gobo 2 shake slow to fast",
+          "min": 90,
+          "max": 109
+        },
+        {
+          "label": "Gobo 3 shake slow to fast",
+          "min": 110,
+          "max": 129
+        },
+        {
+          "label": "Gobo 4 shake slow to fast",
+          "min": 130,
+          "max": 149
+        },
+        {
+          "label": "Gobo 5 shake slow to fast",
+          "min": 150,
+          "max": 169
+        },
+        {
+          "label": "Gobo 6 shake slow to fast",
+          "min": 170,
+          "max": 189
+        },
+        {
+          "label": "Rot. gobo wheel cont. rotation slow to fast",
+          "min": 190,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 21,
+      "type_description": "Shutter, strobe",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Dimmer control (shutter open)",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe effect slow to fast",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "No function (shutter open)",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse-effect in sequences",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "No function (shutter open)",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random strobe effect slow to fast",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "No function (shutter open)",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Dimmer (intensity)",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 4,
+      "type_description": "Rotating gobo index, rotating gobo rotation",
+      "capabilities": [
+        {
+          "label": "Gobo indexing",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Forwards gobo rotation from fast to slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "No rotation",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Backwards gobo rotation from slow to fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "3 facet rotating, Prism/Gobo macros",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Forwards rotation from fast to slow",
+          "min": 4,
+          "max": 63
+        },
+        {
+          "label": "No rotation",
+          "min": 64,
+          "max": 67
+        },
+        {
+          "label": "Backwards rotation from slow to fast",
+          "min": 68,
+          "max": 127
+        },
+        {
+          "label": "Macro 1",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Macro 2",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Macro 3",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Macro 4",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Macro 5",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Macro 6",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Macro 7",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Macro 8",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Macro 9",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Macro 10",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Macro 11",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Macro 12",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Macro 13",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Macro 14",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Macro 15",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Macro 16",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 4,
+      "type_description": "Fixed gobos",
+      "capabilities": [
+        {
+          "label": "Open/hole",
+          "min": 0,
+          "max": 13
+        },
+        {
+          "label": "Gobo 1",
+          "min": 14,
+          "max": 27
+        },
+        {
+          "label": "Gobo 2",
+          "min": 28,
+          "max": 41
+        },
+        {
+          "label": "Gobo 3",
+          "min": 42,
+          "max": 55
+        },
+        {
+          "label": "Gobo 4",
+          "min": 56,
+          "max": 69
+        },
+        {
+          "label": "Gobo 5",
+          "min": 70,
+          "max": 83
+        },
+        {
+          "label": "Gobo 6",
+          "min": 84,
+          "max": 97
+        },
+        {
+          "label": "Gobo 7",
+          "min": 98,
+          "max": 111
+        },
+        {
+          "label": "Gobo 1 shake slow to fast",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Gobo 2 shake slow to fast",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Gobo 3 shake slow to fast",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Gobo 4 shake slow to fast",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Gobo 5 shake slow to fast",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Gobo 6 shake slow to fast",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "Gobo 7 shake slow to fast",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "Gobo wheel rotation from slow to fast",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 17,
+      "type_description": "Lamp on/off, reset, internal programs",
+      "capabilities": [
+        {
+          "label": "colour change normal",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "colour change to any position",
+          "min": 20,
+          "max": 39
+        },
+        {
+          "label": "Lamp on",
+          "min": 40,
+          "max": 59
+        },
+        {
+          "label": "Lamp switch off",
+          "min": 60,
+          "max": 79
+        },
+        {
+          "label": "Motor reset",
+          "min": 80,
+          "max": 99
+        },
+        {
+          "label": "Internal program 1",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "Internal program 2",
+          "min": 120,
+          "max": 139
+        },
+        {
+          "label": "Internal program 3",
+          "min": 140,
+          "max": 159
+        },
+        {
+          "label": "Internal program 4",
+          "min": 160,
+          "max": 179
+        },
+        {
+          "label": "Internal program 5",
+          "min": 180,
+          "max": 199
+        },
+        {
+          "label": "Internal program 6",
+          "min": 200,
+          "max": 219
+        },
+        {
+          "label": "Internal program 7",
+          "min": 220,
+          "max": 239
+        },
+        {
+          "label": "Internal program 8",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/SGM/SGM-Idea-Spot-250.json",
+  "id": 1251
+}

@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "label": "Generic Smoke",
+  "manufacturer": "Generic",
+  "bulb_type": "",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 10,
+  "dimension_width": 250,
+  "dimension_height": 250,
+  "dimension_depth": 400,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 500,
+  "technical_dmx_connector": "5-pin",
+  "type": 11,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pump",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 22,
+      "type_description": "Fan",
+      "capabilities": [
+        {
+          "label": "Fan Speed, slow - fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Generic/Generic-Generic-Smoke.json",
+  "id": 834
+}

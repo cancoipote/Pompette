@@ -1,0 +1,319 @@
+{
+  "version": "1.0.0",
+  "label": "Mini Wash RGBW",
+  "manufacturer": "Lixada",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 180,
+  "dimension_height": 180,
+  "dimension_depth": 240,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 105,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 5,
+      "type_description": "Dimmer / Strobe",
+      "capabilities": [
+        {
+          "label": "Dimmer Min > Max",
+          "min": 0,
+          "max": 134
+        },
+        {
+          "label": "Strobe Slow > Fast",
+          "min": 135,
+          "max": 239
+        },
+        {
+          "label": "Dimmer 100%",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "White (Full RGBW)",
+          "min": 8,
+          "max": 21
+        },
+        {
+          "label": "Red",
+          "min": 22,
+          "max": 34
+        },
+        {
+          "label": "Green",
+          "min": 35,
+          "max": 49
+        },
+        {
+          "label": "Blue",
+          "min": 50,
+          "max": 63
+        },
+        {
+          "label": "White",
+          "min": 64,
+          "max": 77
+        },
+        {
+          "label": "Light Blue",
+          "min": 78,
+          "max": 91
+        },
+        {
+          "label": "Light Red",
+          "min": 92,
+          "max": 105
+        },
+        {
+          "label": "Yellow",
+          "min": 106,
+          "max": 119
+        },
+        {
+          "label": "Blue Violet",
+          "min": 120,
+          "max": 133
+        },
+        {
+          "label": "Orange",
+          "min": 134,
+          "max": 147
+        },
+        {
+          "label": "Light Green",
+          "min": 148,
+          "max": 161
+        },
+        {
+          "label": "Vivid Tangerine",
+          "min": 162,
+          "max": 175
+        },
+        {
+          "label": "Crimson",
+          "min": 176,
+          "max": 189
+        },
+        {
+          "label": "Amber",
+          "min": 190,
+          "max": 203
+        },
+        {
+          "label": "CTO",
+          "min": 204,
+          "max": 217
+        },
+        {
+          "label": "Lavender Purple",
+          "min": 218,
+          "max": 231
+        },
+        {
+          "label": "Auto Change Colors",
+          "min": 232,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 22,
+      "type_description": "Speed Auto Change Colors",
+      "capabilities": [
+        {
+          "label": "Speed Auto Change Colors",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 3,
+      "type_description": "Auto",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Auto Program 1",
+          "min": 8,
+          "max": 22
+        },
+        {
+          "label": "Auto Program 2",
+          "min": 23,
+          "max": 37
+        },
+        {
+          "label": "Auto Program 3",
+          "min": 38,
+          "max": 53
+        },
+        {
+          "label": "Auto Program 4",
+          "min": 54,
+          "max": 67
+        },
+        {
+          "label": "Auto Program 5",
+          "min": 68,
+          "max": 83
+        },
+        {
+          "label": "Auto Program 6",
+          "min": 84,
+          "max": 97
+        },
+        {
+          "label": "Auto Program 7",
+          "min": 98,
+          "max": 112
+        },
+        {
+          "label": "Auto Program 8",
+          "min": 113,
+          "max": 127
+        },
+        {
+          "label": "Auto Program 1 (Sound Active)",
+          "min": 128,
+          "max": 142
+        },
+        {
+          "label": "Auto Program 2 (Sound Active)",
+          "min": 143,
+          "max": 157
+        },
+        {
+          "label": "Auto Program 3 (Sound Active)",
+          "min": 158,
+          "max": 172
+        },
+        {
+          "label": "Auto Program 4 (Sound Active)",
+          "min": 173,
+          "max": 187
+        },
+        {
+          "label": "Auto Program 5 (Sound Active)",
+          "min": 188,
+          "max": 202
+        },
+        {
+          "label": "Auto Program 6 (Sound Active)",
+          "min": 203,
+          "max": 217
+        },
+        {
+          "label": "Auto Program 7 (Sound Active)",
+          "min": 218,
+          "max": 232
+        },
+        {
+          "label": "Auto Program 8 (Sound Active)",
+          "min": 233,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 17,
+      "type_description": "Reset",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 149
+        },
+        {
+          "label": "All Reset (after 2 seconds)",
+          "min": 150,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Lixada/Lixada-Mini-Wash-RGBW.json",
+  "id": 1012
+}

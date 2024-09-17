@@ -1,0 +1,111 @@
+{
+  "version": "1.0.0",
+  "label": "Performer 18 Quad",
+  "manufacturer": "Ledj",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 297,
+  "dimension_height": 255,
+  "dimension_depth": 325,
+  "lens_label": "Other",
+  "lens_degree_min": 40,
+  "lens_degree_max": 40,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 160,
+  "technical_dmx_connector": "3-pin",
+  "type": 9,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 22,
+      "type_description": "Strobe speed",
+      "capabilities": [
+        {
+          "label": "Stobe speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 3,
+      "type_description": "Programme",
+      "capabilities": [
+        {
+          "label": "DMX control",
+          "min": 0,
+          "max": 49
+        },
+        {
+          "label": "Colour change",
+          "min": 50,
+          "max": 99
+        },
+        {
+          "label": "Colour fade",
+          "min": 100,
+          "max": 149
+        },
+        {
+          "label": "Colour fade in/out",
+          "min": 150,
+          "max": 199
+        },
+        {
+          "label": "Sound activated",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 22,
+      "type_description": "Chase / fade speed",
+      "capabilities": [
+        {
+          "label": "Chase / fade speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Red intensity",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Green intensity",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Blue intensity",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "White intensity",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Ledj/Ledj-Performer-18-Quad.json",
+  "id": 973
+}

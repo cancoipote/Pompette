@@ -1,0 +1,48 @@
+<div class="sequences-container">
+    <div class="sequences-container-menu" *ngIf="display_menu == true">
+        <div class="sequences-container-title">
+            <i class="sequences-container-title-label">Sequences / FX</i>
+            <div class="sequences-container-title-separator"></div>
+            <button mat-button class="sequences-container-title-button" (click)="createSequence()" >
+                Create
+            </button>
+            <button mat-icon-button class="sequences-container-title-button" (click)="display_menu = false" >
+                <mat-icon>menu</mat-icon>
+            </button>
+        </div>
+
+        <br>
+        <search-box class="fixtures-search" [disableFilters]="false" (onChange)="onSearch($event)"></search-box>
+        <mat-list class="sequences-container-menu-list">
+            <div cdkDropList [cdkDropListData]="sequences" (cdkDropListDropped)="onDrop($event)">
+                <div *ngFor="let sequence of sequences" cdkDrag (click)="selectSequence(sequence)">
+                    <mat-list-item [ngClass]="{'sequences-container-menu-list-item-selected': sequence.isSelected, 'sequences-container-menu-list-item': !sequence.isSelected}">
+                        {{sequence.label}}
+                        <mat-icon class="sequences-container-menu-list-item-fx" *ngIf="sequence.isFX == true"  color="accent" >bolt</mat-icon>
+                    </mat-list-item>
+                </div>
+            </div>
+        </mat-list>        
+    </div>
+    <div class="sequences-container-menu-light" *ngIf="display_menu == false">
+        <button mat-icon-button class="sequences-container-title-button" (click)="display_menu = true" >
+            <mat-icon>menu</mat-icon>
+        </button>
+    </div>
+    <div class="sequences-container-content">
+        <div *ngIf="sequence == null">
+            <div class="sequences-container-title" > 
+                <i class="sequences-container-title-label">Select or Create sequence / FX</i>
+            </div>
+        </div>
+        <div *ngIf="sequence != null">
+            
+            <sequence
+                class="project-sequence"
+                [sequence]="sequence"
+                (onRemove)="removeSequence(sequence)"
+                (onDuplicate)="duplicateSequence(sequence)"
+            ></sequence>
+        </div>
+    </div>
+</div>

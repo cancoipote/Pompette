@@ -1,0 +1,99 @@
+{
+  "version": "1.0.0",
+  "label": "PAR-180",
+  "manufacturer": "QTX",
+  "bulb_type": "6x30W LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 300,
+  "dimension_height": 300,
+  "dimension_depth": 75,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 180,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "No Function",
+          "min": 0,
+          "max": 50
+        },
+        {
+          "label": "Colour Jump",
+          "min": 51,
+          "max": 100
+        },
+        {
+          "label": "Colour Fade in/out",
+          "min": 101,
+          "max": 150
+        },
+        {
+          "label": "Colour Scroll",
+          "min": 151,
+          "max": 200
+        },
+        {
+          "label": "Sound Activation",
+          "min": 201,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 22,
+      "type_description": "FX Speed",
+      "capabilities": [
+        {
+          "label": "Effects speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Strobe Speed",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/QTX/QTX-PAR-180.json",
+  "id": 1181
+}

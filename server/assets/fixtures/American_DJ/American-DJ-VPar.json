@@ -1,0 +1,159 @@
+{
+  "version": "1.0.0",
+  "label": "VPar",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 220,
+  "dimension_height": 85,
+  "dimension_depth": 225,
+  "lens_label": "Other",
+  "lens_degree_min": 40,
+  "lens_degree_max": 40,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 21,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Strobing",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Slow - Fast Strobe",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Color Macros",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Red",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Green",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Blue",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Amber",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Red & Green (Light Yellow)",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Red & Blue (Deep Purple)",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Red & Amber (Dark Orange)",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Green & Blue (Teal)",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Green & Amber (Yellow Green)",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Blue & Amber (Light Purple)",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Red & Green & Blue (Purple-White)",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Red & Green & Amber (Orange - Yellow)",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "Red & Blue & Amber (Purple)",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "Green & Blue & Amber (Light Teal)",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "Red & Green & Blue & Amber (Off White)",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-VPar.json",
+  "id": 166
+}

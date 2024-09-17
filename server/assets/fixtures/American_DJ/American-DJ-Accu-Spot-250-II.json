@@ -1,0 +1,400 @@
+{
+  "version": "1.0.0",
+  "label": "Accu Spot 250 II",
+  "manufacturer": "American DJ",
+  "bulb_type": "MSD 250W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 18,
+  "dimension_width": 295,
+  "dimension_height": 451,
+  "dimension_depth": 373,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Head",
+  "focus_pan_max": 360,
+  "focus_tilt_max": 265,
+  "technical_power_consumption": 350,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 12
+        },
+        {
+          "label": "Red",
+          "min": 13,
+          "max": 25
+        },
+        {
+          "label": "Blue",
+          "min": 26,
+          "max": 38
+        },
+        {
+          "label": "Green",
+          "min": 39,
+          "max": 51
+        },
+        {
+          "label": "Yellow",
+          "min": 52,
+          "max": 64
+        },
+        {
+          "label": "Magenta",
+          "min": 65,
+          "max": 77
+        },
+        {
+          "label": "Orange",
+          "min": 78,
+          "max": 90
+        },
+        {
+          "label": "Purple",
+          "min": 91,
+          "max": 103
+        },
+        {
+          "label": "Pink",
+          "min": 104,
+          "max": 116
+        },
+        {
+          "label": "Light Blue",
+          "min": 117,
+          "max": 127
+        },
+        {
+          "label": "Forward Rainbow Effect (Fast -> Slow)",
+          "min": 128,
+          "max": 187
+        },
+        {
+          "label": "No Rotation",
+          "min": 188,
+          "max": 193
+        },
+        {
+          "label": "Backward Rainbow Effect (Slow -> Fast)",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Spot",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Star Circle (Metal)",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Cross (Metal)",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Blue & White Web (Dichoric)",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Textured Glass (Glass)",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Donut (Metal)",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Triangle (Metal)",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Dot Line (Metal)",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Star Circle (Metal) Shake",
+          "min": 80,
+          "max": 99
+        },
+        {
+          "label": "Cross (Metal) Shake",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "Blue & White Web (Dichoric) Shake",
+          "min": 120,
+          "max": 139
+        },
+        {
+          "label": "Textured Glass (Glass) Shake",
+          "min": 140,
+          "max": 159
+        },
+        {
+          "label": "Donut (Metal) Shake",
+          "min": 160,
+          "max": 179
+        },
+        {
+          "label": "Triangle (Metal) Shake",
+          "min": 180,
+          "max": 199
+        },
+        {
+          "label": "Dot Line (Metal) Shake",
+          "min": 200,
+          "max": 219
+        },
+        {
+          "label": "Rotating Gobo Wheel (Slow -> Fast)",
+          "min": 220,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 4,
+      "type_description": "Gobo Rotation",
+      "capabilities": [
+        {
+          "label": "No Rotation",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Forward Gobo Rotation (Fast -> Slow)",
+          "min": 8,
+          "max": 127
+        },
+        {
+          "label": "No Rotation",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Backward Gobo Rotation (Fast -> Slow)",
+          "min": 136,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Shutter/Strobe",
+      "capabilities": [
+        {
+          "label": "Shutter Closed",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Shutter Open",
+          "min": 4,
+          "max": 63
+        },
+        {
+          "label": "Strobe (Slow -> Fast)",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Shutter Open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse Effect",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Shutter Open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random Strobe (Slow -> Fast)",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Shutter Open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 17,
+      "type_description": "Lamp On/Off/Reset/Internal Programs",
+      "capabilities": [
+        {
+          "label": "Color Change Normal",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Color Change To Any Position",
+          "min": 20,
+          "max": 39
+        },
+        {
+          "label": "Lamp On",
+          "min": 40,
+          "max": 59
+        },
+        {
+          "label": "Lamp Switch Off",
+          "min": 60,
+          "max": 79
+        },
+        {
+          "label": "All Motor Reset",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "Scanner Motor Reset",
+          "min": 85,
+          "max": 87
+        },
+        {
+          "label": "Color Wheel Motor Reset",
+          "min": 88,
+          "max": 90
+        },
+        {
+          "label": "Gobo Wheel Motor Reset",
+          "min": 91,
+          "max": 93
+        },
+        {
+          "label": "Shutter/Dimmer Motor Reset",
+          "min": 94,
+          "max": 96
+        },
+        {
+          "label": "No function",
+          "min": 97,
+          "max": 99
+        },
+        {
+          "label": "Internal Program 1",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "Internal Program 2",
+          "min": 120,
+          "max": 139
+        },
+        {
+          "label": "Internal Program 3",
+          "min": 140,
+          "max": 159
+        },
+        {
+          "label": "Internal Program 4",
+          "min": 160,
+          "max": 179
+        },
+        {
+          "label": "Internal Program 5",
+          "min": 180,
+          "max": 199
+        },
+        {
+          "label": "Internal Program 6",
+          "min": 200,
+          "max": 219
+        },
+        {
+          "label": "Internal Program 7",
+          "min": 220,
+          "max": 239
+        },
+        {
+          "label": "Sound Active",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 22,
+      "type_description": "Movement Speed",
+      "capabilities": [
+        {
+          "label": "Max -> Min",
+          "min": 0,
+          "max": 225
+        },
+        {
+          "label": "Blackout By Movement",
+          "min": 226,
+          "max": 235
+        },
+        {
+          "label": "Blackout By Wheel Movement",
+          "min": 236,
+          "max": 245
+        },
+        {
+          "label": "No function",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Accu-Spot-250-II.json",
+  "id": 28
+}

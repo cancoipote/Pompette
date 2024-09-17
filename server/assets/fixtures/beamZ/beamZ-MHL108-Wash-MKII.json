@@ -1,0 +1,285 @@
+{
+  "version": "1.0.0",
+  "label": "MHL108 Wash MKII",
+  "manufacturer": "beamZ",
+  "bulb_type": "LED",
+  "bulb_lumens": 3000,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 180,
+  "dimension_height": 240,
+  "dimension_depth": 165,
+  "lens_label": "PC",
+  "lens_degree_min": 15,
+  "lens_degree_max": 15,
+  "focus_type": "Fixed",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 180,
+  "technical_power_consumption": 60,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "Black",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 17
+        },
+        {
+          "label": "Candy",
+          "min": 18,
+          "max": 25
+        },
+        {
+          "label": "Straw",
+          "min": 26,
+          "max": 33
+        },
+        {
+          "label": "Orange",
+          "min": 34,
+          "max": 41
+        },
+        {
+          "label": "Amber",
+          "min": 42,
+          "max": 48
+        },
+        {
+          "label": "Yellow",
+          "min": 49,
+          "max": 56
+        },
+        {
+          "label": "Lemon",
+          "min": 57,
+          "max": 64
+        },
+        {
+          "label": "Chart Green",
+          "min": 65,
+          "max": 72
+        },
+        {
+          "label": "Limerick Green",
+          "min": 73,
+          "max": 80
+        },
+        {
+          "label": "Apple Green",
+          "min": 81,
+          "max": 87
+        },
+        {
+          "label": "Green",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Emerald Green",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Shamrock",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Spring Green",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Medium Turquoise",
+          "min": 120,
+          "max": 126
+        },
+        {
+          "label": "Cyan",
+          "min": 127,
+          "max": 134
+        },
+        {
+          "label": "Sea Green",
+          "min": 135,
+          "max": 142
+        },
+        {
+          "label": "Azure",
+          "min": 143,
+          "max": 150
+        },
+        {
+          "label": "Pacific Blue",
+          "min": 151,
+          "max": 158
+        },
+        {
+          "label": "Navy Blue",
+          "min": 159,
+          "max": 165
+        },
+        {
+          "label": "Blue",
+          "min": 166,
+          "max": 173
+        },
+        {
+          "label": "Free Speech Blue",
+          "min": 174,
+          "max": 181
+        },
+        {
+          "label": "Slate Blue",
+          "min": 182,
+          "max": 189
+        },
+        {
+          "label": "Violet",
+          "min": 190,
+          "max": 197
+        },
+        {
+          "label": "Medium Orchid",
+          "min": 198,
+          "max": 204
+        },
+        {
+          "label": "Magenta",
+          "min": 205,
+          "max": 211
+        },
+        {
+          "label": "Fuchcia",
+          "min": 212,
+          "max": 218
+        },
+        {
+          "label": "Rose",
+          "min": 219,
+          "max": 225
+        },
+        {
+          "label": "Mulberry",
+          "min": 226,
+          "max": 232
+        },
+        {
+          "label": "Amaranth",
+          "min": 233,
+          "max": 240
+        },
+        {
+          "label": "Red",
+          "min": 241,
+          "max": 248
+        },
+        {
+          "label": "White",
+          "min": 249,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 17,
+      "type_description": "Sound",
+      "capabilities": [
+        {
+          "label": "Close sound active",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Open sound active",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 21,
+      "type_description": "Dimmer & Strobe",
+      "capabilities": [
+        {
+          "label": "Close",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Dimmer & Strobe",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/beamZ/beamZ-MHL108-Wash-MKII.json",
+  "id": 204
+}

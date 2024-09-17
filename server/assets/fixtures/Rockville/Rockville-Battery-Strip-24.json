@@ -1,0 +1,566 @@
+{
+  "version": "1.0.0",
+  "label": "Battery Strip 24",
+  "manufacturer": "Rockville",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 7000,
+  "dimension_weight": 3,
+  "dimension_width": 1100,
+  "dimension_height": 60,
+  "dimension_depth": 60,
+  "lens_label": "Other",
+  "lens_degree_min": 35,
+  "lens_degree_max": 35,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 100,
+  "technical_dmx_connector": "3-pin",
+  "type": 13,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Color Chase",
+      "capabilities": [
+        {
+          "label": "No Function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Color Chase 1",
+          "min": 8,
+          "max": 22
+        },
+        {
+          "label": "Color Chase 2",
+          "min": 23,
+          "max": 37
+        },
+        {
+          "label": "Color Chase 3",
+          "min": 38,
+          "max": 52
+        },
+        {
+          "label": "Color Chase 4",
+          "min": 53,
+          "max": 67
+        },
+        {
+          "label": "Color Chase 5",
+          "min": 68,
+          "max": 82
+        },
+        {
+          "label": "Color Chase 6",
+          "min": 83,
+          "max": 97
+        },
+        {
+          "label": "Color Chase 7",
+          "min": 98,
+          "max": 112
+        },
+        {
+          "label": "Color Chase 8",
+          "min": 113,
+          "max": 127
+        },
+        {
+          "label": "Color Chase 9",
+          "min": 128,
+          "max": 142
+        },
+        {
+          "label": "Color Chase 10",
+          "min": 143,
+          "max": 157
+        },
+        {
+          "label": "Color Chase 11",
+          "min": 158,
+          "max": 172
+        },
+        {
+          "label": "Color Chase 12",
+          "min": 173,
+          "max": 187
+        },
+        {
+          "label": "Color Chase 13",
+          "min": 188,
+          "max": 202
+        },
+        {
+          "label": "Color Chase 14",
+          "min": 203,
+          "max": 217
+        },
+        {
+          "label": "Color Chase 15",
+          "min": 218,
+          "max": 232
+        },
+        {
+          "label": "Color Chase 16",
+          "min": 233,
+          "max": 247
+        },
+        {
+          "label": "Sound Active Mode",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Red 1",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Red 2",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Red 3",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Red 4",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Red 5",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Red 6",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Red 7",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Red 8",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Blue 1",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Blue 2",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Blue 3",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Blue 4",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Blue 5",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Blue 6",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Blue 7",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Blue 8",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Green 1",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Green 2",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Green 3",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Green 4",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Green 5",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "Green 6",
+      "capabilities": []
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "Green 7",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 0,
+      "type_description": "Green 8",
+      "capabilities": []
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "White 1",
+      "capabilities": []
+    },
+    {
+      "index": 32,
+      "type": 0,
+      "type_description": "White 2",
+      "capabilities": []
+    },
+    {
+      "index": 33,
+      "type": 0,
+      "type_description": "White 3",
+      "capabilities": []
+    },
+    {
+      "index": 34,
+      "type": 0,
+      "type_description": "White 4",
+      "capabilities": []
+    },
+    {
+      "index": 35,
+      "type": 0,
+      "type_description": "White 5",
+      "capabilities": []
+    },
+    {
+      "index": 36,
+      "type": 0,
+      "type_description": "White 6",
+      "capabilities": []
+    },
+    {
+      "index": 37,
+      "type": 0,
+      "type_description": "White 7",
+      "capabilities": []
+    },
+    {
+      "index": 38,
+      "type": 0,
+      "type_description": "White 8",
+      "capabilities": []
+    },
+    {
+      "index": 39,
+      "type": 3,
+      "type_description": "Auto Programs",
+      "capabilities": [
+        {
+          "label": "Auto Program presets",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "type": 3,
+      "type_description": "Auto Program 1",
+      "capabilities": [
+        {
+          "label": "Auto Program 1 presets",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "type": 3,
+      "type_description": "Auto Program 2",
+      "capabilities": [
+        {
+          "label": "Auto Program 2 presets",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "type": 3,
+      "type_description": "Auto Program 3",
+      "capabilities": [
+        {
+          "label": "Auto Program 3 presets",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "type": 3,
+      "type_description": "Auto Program 4",
+      "capabilities": [
+        {
+          "label": "Auto Program 4 presets",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "type": 3,
+      "type_description": "Auto Program 5",
+      "capabilities": [
+        {
+          "label": "Auto Program 5 presets",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "type": 3,
+      "type_description": "Auto Program 6",
+      "capabilities": [
+        {
+          "label": "Auto Program 6 presets",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "type": 3,
+      "type_description": "Auto Program 7",
+      "capabilities": [
+        {
+          "label": "Auto Program 7 presets",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "type": 3,
+      "type_description": "Auto Program 8",
+      "capabilities": [
+        {
+          "label": "Auto Program 8 presets",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "type": 0,
+      "type_description": "Strobe 1",
+      "capabilities": []
+    },
+    {
+      "index": 49,
+      "type": 0,
+      "type_description": "Strobe 2",
+      "capabilities": []
+    },
+    {
+      "index": 50,
+      "type": 0,
+      "type_description": "Strobe 3",
+      "capabilities": []
+    },
+    {
+      "index": 51,
+      "type": 0,
+      "type_description": "Strobe 4",
+      "capabilities": []
+    },
+    {
+      "index": 52,
+      "type": 0,
+      "type_description": "Strobe 5",
+      "capabilities": []
+    },
+    {
+      "index": 53,
+      "type": 0,
+      "type_description": "Strobe 6",
+      "capabilities": []
+    },
+    {
+      "index": 54,
+      "type": 0,
+      "type_description": "Strobe 7",
+      "capabilities": []
+    },
+    {
+      "index": 55,
+      "type": 0,
+      "type_description": "Strobe 8",
+      "capabilities": []
+    },
+    {
+      "index": 56,
+      "type": 22,
+      "type_description": "Chase Speed",
+      "capabilities": [
+        {
+          "label": "Chase Speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "type": 0,
+      "type_description": "Master Dimmer 1",
+      "capabilities": []
+    },
+    {
+      "index": 58,
+      "type": 0,
+      "type_description": "Master Dimmer 2",
+      "capabilities": []
+    },
+    {
+      "index": 59,
+      "type": 0,
+      "type_description": "Master Dimmer 3",
+      "capabilities": []
+    },
+    {
+      "index": 60,
+      "type": 0,
+      "type_description": "Master Dimmer 4",
+      "capabilities": []
+    },
+    {
+      "index": 61,
+      "type": 0,
+      "type_description": "Master Dimmer 5",
+      "capabilities": []
+    },
+    {
+      "index": 62,
+      "type": 0,
+      "type_description": "Master Dimmer 6",
+      "capabilities": []
+    },
+    {
+      "index": 63,
+      "type": 0,
+      "type_description": "Master Dimmer 7",
+      "capabilities": []
+    },
+    {
+      "index": 64,
+      "type": 0,
+      "type_description": "Master Dimmer 8",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Rockville/Rockville-Battery-Strip-24.json",
+  "id": 1229
+}

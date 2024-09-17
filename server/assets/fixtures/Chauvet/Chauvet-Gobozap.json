@@ -1,0 +1,620 @@
+{
+  "version": "1.0.0",
+  "label": "Gobozap",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 6000,
+  "dimension_weight": 6,
+  "dimension_width": 485,
+  "dimension_height": 155,
+  "dimension_depth": 130,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Barrel",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 176,
+  "technical_dmx_connector": "3-pin",
+  "type": 3,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Function Mode",
+      "capabilities": [
+        {
+          "label": "Nothing",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Auto Mode",
+          "min": 1,
+          "max": 127
+        },
+        {
+          "label": "Sound Mode",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 22,
+      "type_description": "Auto Speed",
+      "capabilities": [
+        {
+          "label": "Slow to Fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Sound Sensitivity",
+      "capabilities": [
+        {
+          "label": "Sensitivity 0 to 100",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Dimmer 1",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Dimmer 2",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Shutter 1",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Shutter 2",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Colour Wheel 1",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Red",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "Green",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "Blue",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "Yellow",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "Amber",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "Pink",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "Lime Green",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "Light Blue",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "Magenta",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "Cyan",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "Orange",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "UV",
+          "min": 60,
+          "max": 64
+        },
+        {
+          "label": "Dark Pink",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "Dark Pink + White",
+          "min": 70,
+          "max": 74
+        },
+        {
+          "label": "UV + Dark Pink",
+          "min": 75,
+          "max": 79
+        },
+        {
+          "label": "Orange + UV",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "Cyan + Orange",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "Magenta + Cyan",
+          "min": 90,
+          "max": 94
+        },
+        {
+          "label": "Light Blue + Magenta",
+          "min": 95,
+          "max": 99
+        },
+        {
+          "label": "Lime Green + Light BLue",
+          "min": 100,
+          "max": 104
+        },
+        {
+          "label": "Pink + Lime Green",
+          "min": 105,
+          "max": 109
+        },
+        {
+          "label": "Amber + Pink",
+          "min": 110,
+          "max": 114
+        },
+        {
+          "label": "Yellow + Amber",
+          "min": 115,
+          "max": 119
+        },
+        {
+          "label": "Blue + Yellow",
+          "min": 120,
+          "max": 124
+        },
+        {
+          "label": "Green + Blue",
+          "min": 125,
+          "max": 129
+        },
+        {
+          "label": "Red + Green",
+          "min": 130,
+          "max": 134
+        },
+        {
+          "label": "White + Red",
+          "min": 135,
+          "max": 139
+        },
+        {
+          "label": "Clockwise scroll, fast to slow",
+          "min": 140,
+          "max": 197
+        },
+        {
+          "label": "Counterclockwise scroll, slow to fast",
+          "min": 198,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Colour Wheel 2",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Red",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "Green",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "Blue",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "Yellow",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "Amber",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "Pink",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "Lime Green",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "Light Blue",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "Magenta",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "Cyan",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "Orange",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "UV",
+          "min": 60,
+          "max": 64
+        },
+        {
+          "label": "Dark Pink",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "Dark Pink + White",
+          "min": 70,
+          "max": 74
+        },
+        {
+          "label": "UV + Dark Pink",
+          "min": 75,
+          "max": 79
+        },
+        {
+          "label": "Orange + UV",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "Cyan + Orange",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "Magenta + Cyan",
+          "min": 90,
+          "max": 94
+        },
+        {
+          "label": "Light Blue + Magenta",
+          "min": 95,
+          "max": 99
+        },
+        {
+          "label": "Lime Green + Light BLue",
+          "min": 100,
+          "max": 104
+        },
+        {
+          "label": "Pink + Lime Green",
+          "min": 105,
+          "max": 109
+        },
+        {
+          "label": "Amber + Pink",
+          "min": 110,
+          "max": 114
+        },
+        {
+          "label": "Yellow + Amber",
+          "min": 115,
+          "max": 119
+        },
+        {
+          "label": "Blue + Yellow",
+          "min": 120,
+          "max": 124
+        },
+        {
+          "label": "Green + Blue",
+          "min": 125,
+          "max": 129
+        },
+        {
+          "label": "Red + Green",
+          "min": 130,
+          "max": 134
+        },
+        {
+          "label": "White + Red",
+          "min": 135,
+          "max": 139
+        },
+        {
+          "label": "Clockwise scroll, fast to slow",
+          "min": 140,
+          "max": 197
+        },
+        {
+          "label": "Counterclockwise scroll, slow to fast",
+          "min": 198,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 4,
+      "type_description": "Gobo Wheel 1",
+      "capabilities": [
+        {
+          "label": "Gobo 1",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Gobo 2",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Gobo 3",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Gobo 4",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Gobo 5",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Gobo 6",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Gobo 7",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Gobo 8",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Gobo 9",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Gobo 10",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Gobo 11",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Gobo 12",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Gobo 13",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Gobo 14",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Clockwise scroll, fast to slow",
+          "min": 140,
+          "max": 197
+        },
+        {
+          "label": "Counterclockwise scroll, slow to fast",
+          "min": 198,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 4,
+      "type_description": "Gobo Wheel 2",
+      "capabilities": [
+        {
+          "label": "Gobo 1",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Gobo 2",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Gobo 3",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Gobo 4",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Gobo 5",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Gobo 6",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Gobo 7",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Gobo 8",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Gobo 9",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Gobo 10",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Gobo 11",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Gobo 12",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Gobo 13",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Gobo 14",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Clockwise scroll, fast to slow",
+          "min": 140,
+          "max": 197
+        },
+        {
+          "label": "Counterclockwise scroll, slow to fast",
+          "min": 198,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 1,
+      "type_description": "Barrel Rotation",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 42
+        },
+        {
+          "label": "Counterclockwise rotation, slow to fast",
+          "min": 43,
+          "max": 86
+        },
+        {
+          "label": "Stop",
+          "min": 87,
+          "max": 129
+        },
+        {
+          "label": "Clockwise rotation, slow to fast",
+          "min": 130,
+          "max": 173
+        },
+        {
+          "label": "Stop",
+          "min": 174,
+          "max": 217
+        },
+        {
+          "label": "Alternating clockwise-counterclockwise rotation, slow to fast",
+          "min": 218,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-Gobozap.json",
+  "id": 452
+}

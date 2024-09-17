@@ -1,0 +1,468 @@
+{
+  "version": "1.0.0",
+  "label": "LEDko FullSpectrum 6",
+  "manufacturer": "Coemar",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 6500,
+  "dimension_weight": 6,
+  "dimension_width": 212,
+  "dimension_height": 189,
+  "dimension_depth": 362,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 220,
+  "technical_dmx_connector": "5-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Lime",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 21,
+      "type_description": "Strobe effect",
+      "capabilities": [
+        {
+          "label": "No effect",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Variable speed strobing effect, from slow to fast",
+          "min": 10,
+          "max": 57
+        },
+        {
+          "label": "Stop strobe",
+          "min": 58,
+          "max": 59
+        },
+        {
+          "label": "Sequenced pulsed strobe, slow closing, fast operating (variable speed pulsing, from slow to fast)",
+          "min": 60,
+          "max": 108
+        },
+        {
+          "label": "Stop strobe",
+          "min": 109,
+          "max": 110
+        },
+        {
+          "label": "sequenced pulsed strobe, fast closing, slow operating (variable speed pulsing, from slow to fast)",
+          "min": 111,
+          "max": 159
+        },
+        {
+          "label": "Stop strobe",
+          "min": 160,
+          "max": 161
+        },
+        {
+          "label": "Random strobe effect with variable speed from slow to fast and synchronized colors",
+          "min": 162,
+          "max": 207
+        },
+        {
+          "label": "Stop strobe",
+          "min": 208,
+          "max": 209
+        },
+        {
+          "label": "Random strobe effect with variable speed from slow to fast and non-synchronized colors",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Dimmer Fine",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 17,
+      "type_description": "Special functions",
+      "capabilities": [
+        {
+          "label": "No effect",
+          "min": 0,
+          "max": 84
+        },
+        {
+          "label": "Fan at low-noise speed",
+          "min": 85,
+          "max": 96
+        },
+        {
+          "label": "fan at auto-speed",
+          "min": 97,
+          "max": 108
+        },
+        {
+          "label": "fan at auto-speed",
+          "min": 109,
+          "max": 121
+        },
+        {
+          "label": "fan speed control from minimum to maximum",
+          "min": 122,
+          "max": 134
+        },
+        {
+          "label": "enables the automatic display blackout",
+          "min": 135,
+          "max": 185
+        },
+        {
+          "label": "disables the automatic display blackout",
+          "min": 186,
+          "max": 199
+        },
+        {
+          "label": "No effect",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 5,
+      "type_description": "Red Tone",
+      "capabilities": [
+        {
+          "label": "No effect",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "R24 - scarlet red",
+          "min": 10,
+          "max": 34
+        },
+        {
+          "label": "R02 - bastard amber",
+          "min": 35,
+          "max": 59
+        },
+        {
+          "label": "R313 - Light relief yellow",
+          "min": 60,
+          "max": 84
+        },
+        {
+          "label": "R18 - Flame",
+          "min": 85,
+          "max": 109
+        },
+        {
+          "label": "R331 - Shell pink",
+          "min": 110,
+          "max": 134
+        },
+        {
+          "label": "R25 - Orange Red",
+          "min": 135,
+          "max": 159
+        },
+        {
+          "label": "R46 - Magenta",
+          "min": 160,
+          "max": 184
+        },
+        {
+          "label": "R08 - Pale gold",
+          "min": 185,
+          "max": 209
+        },
+        {
+          "label": "R27 - Medium red",
+          "min": 210,
+          "max": 234
+        },
+        {
+          "label": "R318 - Mayan sun",
+          "min": 235,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 5,
+      "type_description": "Green tone",
+      "capabilities": [
+        {
+          "label": "no effect",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "R4460 - calcolor 60 green",
+          "min": 10,
+          "max": 34
+        },
+        {
+          "label": "R2004 - storaro green",
+          "min": 35,
+          "max": 59
+        },
+        {
+          "label": "E730 - liberty green",
+          "min": 60,
+          "max": 84
+        },
+        {
+          "label": "E088 - lime green",
+          "min": 85,
+          "max": 109
+        },
+        {
+          "label": "R90 - kelly green",
+          "min": 110,
+          "max": 134
+        },
+        {
+          "label": "R395 - teal green",
+          "min": 135,
+          "max": 159
+        },
+        {
+          "label": "R91 - primary green",
+          "min": 160,
+          "max": 184
+        },
+        {
+          "label": "R393 - emerald green",
+          "min": 185,
+          "max": 209
+        },
+        {
+          "label": "R393 - leaf green",
+          "min": 210,
+          "max": 234
+        },
+        {
+          "label": "R86 - pea green",
+          "min": 235,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 5,
+      "type_description": "Blue Tone",
+      "capabilities": [
+        {
+          "label": "no effect",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "R2008 - storaro indigo",
+          "min": 10,
+          "max": 34
+        },
+        {
+          "label": "E5058 - french lilac",
+          "min": 35,
+          "max": 59
+        },
+        {
+          "label": "R369 - tahitian blue",
+          "min": 60,
+          "max": 84
+        },
+        {
+          "label": "R347 - belladonna rose",
+          "min": 85,
+          "max": 109
+        },
+        {
+          "label": "R381 - baldassari blue",
+          "min": 110,
+          "max": 134
+        },
+        {
+          "label": "R57 - Lavander",
+          "min": 135,
+          "max": 159
+        },
+        {
+          "label": "R55 - lilac",
+          "min": 160,
+          "max": 184
+        },
+        {
+          "label": "R4790 - calcolor 90 magenta",
+          "min": 185,
+          "max": 209
+        },
+        {
+          "label": "R92 - turquise",
+          "min": 210,
+          "max": 234
+        },
+        {
+          "label": "R370 - italian blue",
+          "min": 235,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 5,
+      "type_description": "White Tone",
+      "capabilities": [
+        {
+          "label": "no effect",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "2700K",
+          "min": 10,
+          "max": 30
+        },
+        {
+          "label": "proportional value from 2700K to 3200K",
+          "min": 31,
+          "max": 52
+        },
+        {
+          "label": "3200K",
+          "min": 53,
+          "max": 74
+        },
+        {
+          "label": "proportional value from 3200K to 4000K",
+          "min": 75,
+          "max": 96
+        },
+        {
+          "label": "4000K",
+          "min": 97,
+          "max": 118
+        },
+        {
+          "label": "proportional value from 4000K to 5000K",
+          "min": 119,
+          "max": 140
+        },
+        {
+          "label": "5000K",
+          "min": 141,
+          "max": 162
+        },
+        {
+          "label": "proportional value from 5000K to 5600K",
+          "min": 163,
+          "max": 184
+        },
+        {
+          "label": "5600K",
+          "min": 185,
+          "max": 206
+        },
+        {
+          "label": "proportional value from 5600K to 6500K",
+          "min": 207,
+          "max": 228
+        },
+        {
+          "label": "6500K",
+          "min": 229,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 5,
+      "type_description": "Green Saturation",
+      "capabilities": [
+        {
+          "label": "no effect",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "exalts the green color in the mixing ans diminishes the presence of magenta",
+          "min": 10,
+          "max": 123
+        },
+        {
+          "label": "no effect",
+          "min": 124,
+          "max": 132
+        },
+        {
+          "label": "diminishes the presence of green in the mixing and exalts the magenta color",
+          "min": 133,
+          "max": 246
+        },
+        {
+          "label": "no effect",
+          "min": 247,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Saturation",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Coemar/Coemar-LEDko-FullSpectrum-6.json",
+  "id": 389
+}

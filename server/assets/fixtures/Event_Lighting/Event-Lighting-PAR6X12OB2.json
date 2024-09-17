@@ -1,0 +1,186 @@
+{
+  "version": "1.0.0",
+  "label": "PAR6x12OB2",
+  "manufacturer": "Event Lighting",
+  "bulb_type": "LED",
+  "bulb_lumens": 1600,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 240,
+  "dimension_height": 165,
+  "dimension_depth": 210,
+  "lens_label": "Other",
+  "lens_degree_min": 40,
+  "lens_degree_max": 40,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 72,
+  "technical_dmx_connector": "3-pin IP65",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "UV",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Color macro",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 8
+        },
+        {
+          "label": "40 preset colours",
+          "min": 9,
+          "max": 127
+        },
+        {
+          "label": "63 factory colours",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Chases",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "18 chases",
+          "min": 20,
+          "max": 89
+        },
+        {
+          "label": "Custom chases",
+          "min": 90,
+          "max": 127
+        },
+        {
+          "label": "63 colour fade",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "63 colour jump",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "63 colour pulse",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Sound active mode",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 22,
+      "type_description": "Auto Run Speed",
+      "capabilities": [
+        {
+          "label": "Auto run speed, slow to fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 22,
+      "type_description": "Dimming Speed",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Dimming speed 1",
+          "min": 6,
+          "max": 55
+        },
+        {
+          "label": "Dimming speed 2",
+          "min": 56,
+          "max": 105
+        },
+        {
+          "label": "Dimming speed 3",
+          "min": 106,
+          "max": 155
+        },
+        {
+          "label": "Dimming speed 4",
+          "min": 156,
+          "max": 205
+        },
+        {
+          "label": "Dimming speed 5",
+          "min": 206,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Event_Lighting/Event-Lighting-PAR6X12OB2.json",
+  "id": 659
+}

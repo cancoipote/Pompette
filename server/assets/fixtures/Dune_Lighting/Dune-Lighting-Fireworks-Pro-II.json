@@ -1,0 +1,226 @@
+{
+  "version": "1.0.0",
+  "label": "Fireworks PRO II (LAS-160/FW)",
+  "manufacturer": "Dune Lighting",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 256,
+  "dimension_height": 102,
+  "dimension_depth": 202,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Mirror",
+  "focus_pan_max": 120,
+  "focus_tilt_max": 120,
+  "technical_power_consumption": 20,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "Laser Black out",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "ARA, Automatic Aleatory",
+          "min": 10,
+          "max": 60
+        },
+        {
+          "label": "ASR, Effect Slow Moving",
+          "min": 61,
+          "max": 110
+        },
+        {
+          "label": "SRA, Musical Aleatory",
+          "min": 111,
+          "max": 160
+        },
+        {
+          "label": "DMX Mode (other channel active)",
+          "min": 161,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Effects",
+      "capabilities": [
+        {
+          "label": "Effect 1",
+          "min": 0,
+          "max": 25
+        },
+        {
+          "label": "Effect 2",
+          "min": 26,
+          "max": 50
+        },
+        {
+          "label": "Effect 3",
+          "min": 51,
+          "max": 75
+        },
+        {
+          "label": "Effect 4",
+          "min": 76,
+          "max": 100
+        },
+        {
+          "label": "Effect 5",
+          "min": 101,
+          "max": 125
+        },
+        {
+          "label": "Effect 6",
+          "min": 126,
+          "max": 150
+        },
+        {
+          "label": "Effect 7",
+          "min": 151,
+          "max": 175
+        },
+        {
+          "label": "Effect 8",
+          "min": 176,
+          "max": 200
+        },
+        {
+          "label": "Effect 9",
+          "min": 201,
+          "max": 225
+        },
+        {
+          "label": "Effect 10",
+          "min": 226,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 3,
+      "type_description": "Vibration",
+      "capabilities": [
+        {
+          "label": "Slow to fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Multiple Effects",
+      "capabilities": [
+        {
+          "label": "OFF",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "ON",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Vibration 2",
+      "capabilities": [
+        {
+          "label": "Slow to Fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 22,
+      "type_description": "Timer",
+      "capabilities": [
+        {
+          "label": "Short to Long",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "Laser Black Out",
+          "min": 0,
+          "max": 36
+        },
+        {
+          "label": "Red",
+          "min": 37,
+          "max": 72
+        },
+        {
+          "label": "Green",
+          "min": 73,
+          "max": 108
+        },
+        {
+          "label": "Alternately Strobe Red and Green",
+          "min": 109,
+          "max": 144
+        },
+        {
+          "label": "Red on, Strobe Green",
+          "min": 145,
+          "max": 180
+        },
+        {
+          "label": "Green On, Strobe Red",
+          "min": 181,
+          "max": 216
+        },
+        {
+          "label": "Strobe Red and Green",
+          "min": 217,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Strobe OFF",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Slow to Fast",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Dune_Lighting/Dune-Lighting-Fireworks-Pro-II.json",
+  "id": 590
+}

@@ -1,0 +1,110 @@
+{
+  "version": "1.0.0",
+  "label": "Entourage",
+  "manufacturer": "American DJ",
+  "bulb_type": "",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 21,
+  "dimension_width": 533,
+  "dimension_height": 249,
+  "dimension_depth": 387,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 1500,
+  "technical_dmx_connector": "3-pin",
+  "type": 11,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Fog",
+      "capabilities": [
+        {
+          "label": "0% Fog 5% Fan",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "5%-100% Fog 100% Fan",
+          "min": 5,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Output Volume",
+      "capabilities": [
+        {
+          "label": "0% Output Volume",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "5%-100% Output Volume",
+          "min": 5,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Fan Speed",
+      "capabilities": [
+        {
+          "label": "5% Fan Speed",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "6%-100% Fan Speed",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 22,
+      "type_description": "Duration",
+      "capabilities": [
+        {
+          "label": "3 Seconds",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "3-255 Seconds",
+          "min": 8,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Interval",
+      "capabilities": [
+        {
+          "label": "0 Seconds",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "5-250 Seconds",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Entourage.json",
+  "id": 58
+}

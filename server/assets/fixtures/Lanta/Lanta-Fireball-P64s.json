@@ -1,0 +1,376 @@
+{
+  "version": "1.0.0",
+  "label": "Fireball P64s Slimline LED Parcan",
+  "manufacturer": "Lanta",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 290,
+  "dimension_height": 10,
+  "dimension_depth": 295,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 30,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Preset Colours [1C]",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Red",
+          "min": 1,
+          "max": 22
+        },
+        {
+          "label": "Green",
+          "min": 23,
+          "max": 45
+        },
+        {
+          "label": "Blue",
+          "min": 46,
+          "max": 68
+        },
+        {
+          "label": "Cyan",
+          "min": 69,
+          "max": 91
+        },
+        {
+          "label": "Yellow",
+          "min": 92,
+          "max": 114
+        },
+        {
+          "label": "Orange",
+          "min": 115,
+          "max": 137
+        },
+        {
+          "label": "Pink",
+          "min": 138,
+          "max": 160
+        },
+        {
+          "label": "Purple",
+          "min": 161,
+          "max": 183
+        },
+        {
+          "label": "Dark Blue",
+          "min": 184,
+          "max": 206
+        },
+        {
+          "label": "Light Green",
+          "min": 207,
+          "max": 229
+        },
+        {
+          "label": "White",
+          "min": 230,
+          "max": 252
+        },
+        {
+          "label": "Warm White",
+          "min": 253,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe [Slow - Fast]",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Preset Colours [6C]",
+      "capabilities": [
+        {
+          "label": "R[255] (CH6 @ 0-24)",
+          "min": 0,
+          "max": 8
+        },
+        {
+          "label": "R[255] G[50] (CH6 @ 0-24)",
+          "min": 9,
+          "max": 17
+        },
+        {
+          "label": "R[255] G[150] (CH6 @ 0-24)",
+          "min": 18,
+          "max": 26
+        },
+        {
+          "label": "R[255] G[255] (CH6 @ 0-24)",
+          "min": 27,
+          "max": 35
+        },
+        {
+          "label": "R[200] G[255] (CH6 @ 0-24)",
+          "min": 36,
+          "max": 44
+        },
+        {
+          "label": "R[100] G[255] (CH6 @ 0-24)",
+          "min": 45,
+          "max": 53
+        },
+        {
+          "label": "R[40] G[255] (CH6 @ 0-24)",
+          "min": 54,
+          "max": 62
+        },
+        {
+          "label": "G[255] (CH6 @ 0-24)",
+          "min": 63,
+          "max": 71
+        },
+        {
+          "label": "G[255] B[50] (CH6 @ 0-24)",
+          "min": 72,
+          "max": 80
+        },
+        {
+          "label": "G[255] B[150] (CH6 @ 0-24)",
+          "min": 81,
+          "max": 89
+        },
+        {
+          "label": "G[255] B[255] (CH6 @ 0-24)",
+          "min": 90,
+          "max": 98
+        },
+        {
+          "label": "G[150] B[255] (CH6 @ 0-24)",
+          "min": 99,
+          "max": 107
+        },
+        {
+          "label": "G[50] B[255] (CH6 @ 0-24)",
+          "min": 108,
+          "max": 116
+        },
+        {
+          "label": "B[255] (CH6 @ 0-24)",
+          "min": 117,
+          "max": 125
+        },
+        {
+          "label": "R[50] B[255] (CH6 @ 0-24)",
+          "min": 126,
+          "max": 134
+        },
+        {
+          "label": "R[150] B[250] (CH6 @ 0-24)",
+          "min": 135,
+          "max": 143
+        },
+        {
+          "label": "R[255] B[255] (CH6 @ 0-24)",
+          "min": 144,
+          "max": 152
+        },
+        {
+          "label": "R[200] B[50] (CH6 @ 0-24)",
+          "min": 153,
+          "max": 161
+        },
+        {
+          "label": "R[150] G[50] B[100] (CH6 @ 0-24)",
+          "min": 162,
+          "max": 170
+        },
+        {
+          "label": "R[50] G[180] B[220] (CH6 @ 0-24)",
+          "min": 171,
+          "max": 179
+        },
+        {
+          "label": "R[50] G[220] B[100] (CH6 @ 0-24)",
+          "min": 180,
+          "max": 188
+        },
+        {
+          "label": "R[150] G[220] (CH6 @ 0-24)",
+          "min": 189,
+          "max": 197
+        },
+        {
+          "label": "R[150] B[220] (CH6 @ 0-24)",
+          "min": 198,
+          "max": 206
+        },
+        {
+          "label": "G[180] B[220] (CH6 @ 0-24)",
+          "min": 207,
+          "max": 215
+        },
+        {
+          "label": "G[100] B[50] (CH6 @ 0-24)",
+          "min": 216,
+          "max": 224
+        },
+        {
+          "label": "R[220] G[100] B[50] (CH6 @ 0-24)",
+          "min": 225,
+          "max": 233
+        },
+        {
+          "label": "R[220] G[200] B[100] (CH6 @ 0-24)",
+          "min": 234,
+          "max": 242
+        },
+        {
+          "label": "R[255] G[200] B[150] (CH6 @ 0-24)",
+          "min": 243,
+          "max": 251
+        },
+        {
+          "label": "R[255] G[255] B[255] (CH6 @ 0-24)",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 22,
+      "type_description": "Speed",
+      "capabilities": [
+        {
+          "label": "Speed Adjustment",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 18,
+      "type_description": "Sensitivity",
+      "capabilities": [
+        {
+          "label": "Sound Active Sensitivity",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Effects",
+      "capabilities": [
+        {
+          "label": "Auto 1 - CH2 Static Colours",
+          "min": 0,
+          "max": 24
+        },
+        {
+          "label": "Auto 2 - 7 Colours Gradual Change",
+          "min": 25,
+          "max": 49
+        },
+        {
+          "label": "Auto 3 - 3 Colours Gradual Change",
+          "min": 50,
+          "max": 74
+        },
+        {
+          "label": "Auto 4 -7 Colours Step Change",
+          "min": 75,
+          "max": 99
+        },
+        {
+          "label": "Auto 5 -3 Colours Step Change",
+          "min": 100,
+          "max": 124
+        },
+        {
+          "label": "Auto 6 - Illusion 1",
+          "min": 125,
+          "max": 149
+        },
+        {
+          "label": "Auto 7 - Illusion 2",
+          "min": 150,
+          "max": 174
+        },
+        {
+          "label": "Auto 8 - Red Gradual Change",
+          "min": 175,
+          "max": 199
+        },
+        {
+          "label": "Auto 9 - Green Gradual Change",
+          "min": 200,
+          "max": 224
+        },
+        {
+          "label": "Auto 10 - Blue Gradual Change",
+          "min": 225,
+          "max": 249
+        },
+        {
+          "label": "Sound Activated",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Lanta/Lanta-Fireball-P64s.json",
+  "id": 951
+}

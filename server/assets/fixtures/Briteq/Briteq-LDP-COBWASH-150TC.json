@@ -1,0 +1,105 @@
+{
+  "version": "1.0.0",
+  "label": "LDP-COBWASH 150TC",
+  "manufacturer": "Briteq",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 9,
+  "dimension_width": 344,
+  "dimension_height": 326,
+  "dimension_depth": 220,
+  "lens_label": "Other",
+  "lens_degree_min": 60,
+  "lens_degree_max": 60,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 170,
+  "technical_dmx_connector": "3-pin IP65",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 5,
+      "type_description": "Master dimmer/Strobe",
+      "capabilities": [
+        {
+          "label": "Master dimmer",
+          "min": 0,
+          "max": 200
+        },
+        {
+          "label": "Strobe (Slow to fast)",
+          "min": 201,
+          "max": 247
+        },
+        {
+          "label": "Master dimmer 100%",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Strobe (Slow to fast)",
+          "min": 8,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Color changer",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Color fade effect (Slow to fast)",
+          "min": 8,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Briteq/Briteq-LDP-COBWASH-150TC.json",
+  "id": 268
+}

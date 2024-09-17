@@ -1,0 +1,205 @@
+{
+  "version": "1.0.0",
+  "label": "Moving Head 3Wx108 LED RGBW",
+  "manufacturer": "Proel",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 7,
+  "dimension_width": 300,
+  "dimension_height": 430,
+  "dimension_depth": 210,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 330,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Random strobe",
+          "min": 3,
+          "max": 125
+        },
+        {
+          "label": "Pulsing strobe",
+          "min": 126,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Colour change",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Color change (Slow to fast)",
+          "min": 3,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Colours Macro",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Red to Yellow",
+          "min": 3,
+          "max": 41
+        },
+        {
+          "label": "Yellow to Green",
+          "min": 42,
+          "max": 83
+        },
+        {
+          "label": "Green to Cyan",
+          "min": 84,
+          "max": 125
+        },
+        {
+          "label": "Cyan to Blue",
+          "min": 126,
+          "max": 167
+        },
+        {
+          "label": "Blue to Magenta",
+          "min": 168,
+          "max": 209
+        },
+        {
+          "label": "Magenta to White",
+          "min": 210,
+          "max": 251
+        },
+        {
+          "label": "White",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Automatic Colours Macro",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Automatic colour mix (Slow to fast)",
+          "min": 3,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Pan Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 17,
+      "type_description": "Reset",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Reset after 3 seconds",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Proel/Proel-Moving-Head-3Wx108-LED-RGBW.json",
+  "id": 1158
+}

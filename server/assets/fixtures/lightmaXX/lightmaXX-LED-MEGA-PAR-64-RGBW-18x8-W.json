@@ -1,0 +1,88 @@
+{
+  "version": "1.0.0",
+  "label": "LED MEGA PAR 64 RGBW 18x8 W",
+  "manufacturer": "lightmaXX",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 300,
+  "dimension_height": 310,
+  "dimension_depth": 270,
+  "lens_label": "Other",
+  "lens_degree_min": 25,
+  "lens_degree_max": 25,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 170,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "red",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "green",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "blue",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "white",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "effect",
+      "capabilities": [
+        {
+          "label": "sound",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "color macro",
+          "min": 5,
+          "max": 80
+        },
+        {
+          "label": "color change",
+          "min": 81,
+          "max": 150
+        },
+        {
+          "label": "color dream",
+          "min": 151,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/lightmaXX/lightmaXX-LED-MEGA-PAR-64-RGBW-18x8-W.json",
+  "id": 982
+}

@@ -1,0 +1,109 @@
+{
+  "version": "1.0.0",
+  "label": "LedPar 64363 RGB",
+  "manufacturer": "Pro-Lights",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 310,
+  "dimension_height": 230,
+  "dimension_depth": 230,
+  "lens_label": "Other",
+  "lens_degree_min": 30,
+  "lens_degree_max": 30,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 125,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Auto Programs",
+      "capabilities": [
+        {
+          "label": "1 - Color Fading",
+          "min": 0,
+          "max": 35
+        },
+        {
+          "label": "2 - Color Jump",
+          "min": 36,
+          "max": 71
+        },
+        {
+          "label": "3 - Color Dreaming",
+          "min": 72,
+          "max": 107
+        },
+        {
+          "label": "4 - Red Fading",
+          "min": 108,
+          "max": 143
+        },
+        {
+          "label": "5 - Green Fading",
+          "min": 144,
+          "max": 179
+        },
+        {
+          "label": "6 - Blue Fading",
+          "min": 180,
+          "max": 215
+        },
+        {
+          "label": "Sound Active Mode",
+          "min": 216,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 22,
+      "type_description": "Program Speed",
+      "capabilities": [
+        {
+          "label": "Speed Control / Sound Sensitivity",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Pro-Lights/Pro-Lights-LedPar-64363-RGB.json",
+  "id": 1133
+}

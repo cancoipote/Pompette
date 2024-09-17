@@ -1,0 +1,700 @@
+{
+  "version": "1.0.0",
+  "label": "iLink - All Colour Models",
+  "manufacturer": "Kam",
+  "bulb_type": "",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 165,
+  "dimension_height": 80,
+  "dimension_depth": 145,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 90,
+  "focus_tilt_max": 90,
+  "technical_power_consumption": 12,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Mode - Single Colour",
+      "capabilities": [
+        {
+          "label": "Laser black out",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "Auto show",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Sound activated show (music)",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "DMX mode (other channels activated)",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 4,
+      "type_description": "Patterns",
+      "capabilities": [
+        {
+          "label": "Circle",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Circle with Edges",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Triangle",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Square",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Dashed Square",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Double Square",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Cross",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Circular Saw",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Tetris Block",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Bow Tie",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Spiral",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Double C's",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Swirl",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Double Curves",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Double Triangles",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Zig Zag",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Chevron",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Letter W",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Saw Wave",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Solid Line",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Dashed Line",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Solid Line with Dashes",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Double Solid Lines",
+          "min": 176,
+          "max": 181
+        },
+        {
+          "label": "Crossed Lines",
+          "min": 182,
+          "max": 189
+        },
+        {
+          "label": "Double Small Lines",
+          "min": 190,
+          "max": 197
+        },
+        {
+          "label": "Broken Diamond",
+          "min": 198,
+          "max": 205
+        },
+        {
+          "label": "Dice 2",
+          "min": 206,
+          "max": 213
+        },
+        {
+          "label": "Dice 4",
+          "min": 214,
+          "max": 221
+        },
+        {
+          "label": "Small Circle",
+          "min": 222,
+          "max": 229
+        },
+        {
+          "label": "Dotted Line",
+          "min": 230,
+          "max": 237
+        },
+        {
+          "label": "Dotted Arc",
+          "min": 238,
+          "max": 245
+        },
+        {
+          "label": "Random Dots",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 3,
+      "type_description": "Zooming",
+      "capabilities": [
+        {
+          "label": "100%-5% size",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Zooming in",
+          "min": 128,
+          "max": 169
+        },
+        {
+          "label": "Zooming out",
+          "min": 170,
+          "max": 209
+        },
+        {
+          "label": "Zooming in and out",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Y-axis rolling",
+      "capabilities": [
+        {
+          "label": "0-359 degree fixed Y axis rolled",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Clockwise rolling",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Anticlockwise rolling",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "X-axis rolling",
+      "capabilities": [
+        {
+          "label": "0-359 degree fixed X axis rolled",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Clockwise rolling",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Anticlockwise rolling",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Z-axis rotating",
+      "capabilities": [
+        {
+          "label": "0-359 degree fixed Z axis rotate",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Clockwise rotating",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Anticlockwise rotating",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 19,
+      "type_description": "X-axis moving",
+      "capabilities": [
+        {
+          "label": "128 different fixed positions on X",
+          "min": 0,
+          "max": 128
+        },
+        {
+          "label": "Clockwise moving",
+          "min": 129,
+          "max": 191
+        },
+        {
+          "label": "Anticlockwise moving",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 23,
+      "type_description": "Y-axis moving",
+      "capabilities": [
+        {
+          "label": "128 different fixed positions on Y",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Clockwise moving",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Anticlockwise moving",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Mode - red, blue, purple (RBP)",
+      "capabilities": [
+        {
+          "label": "Automatic show with original preprogrammed colour",
+          "min": 0,
+          "max": 29
+        },
+        {
+          "label": "Auto show with red (colour 1)",
+          "min": 30,
+          "max": 59
+        },
+        {
+          "label": "Auto show with blue (colour 2)",
+          "min": 60,
+          "max": 89
+        },
+        {
+          "label": "Auto show with purple (colour 3)",
+          "min": 90,
+          "max": 119
+        },
+        {
+          "label": "Sound activated show with original preprogrammed colour",
+          "min": 120,
+          "max": 149
+        },
+        {
+          "label": "Sound activated show with red (colour 1)",
+          "min": 150,
+          "max": 179
+        },
+        {
+          "label": "Sound activated show with blue (colour 2)",
+          "min": 180,
+          "max": 209
+        },
+        {
+          "label": "Sound activated show with purple (colour 3)",
+          "min": 210,
+          "max": 239
+        },
+        {
+          "label": "DMX mode",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Colour - red, blue, purple (RBP)",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 24
+        },
+        {
+          "label": "Original preprogrammed colour",
+          "min": 25,
+          "max": 49
+        },
+        {
+          "label": "Red (colour 1)",
+          "min": 50,
+          "max": 74
+        },
+        {
+          "label": "Blue (colour 2)",
+          "min": 75,
+          "max": 99
+        },
+        {
+          "label": "Purple (colour 3)",
+          "min": 100,
+          "max": 124
+        },
+        {
+          "label": "Alternate red (colour 1) and blue (colour 2)",
+          "min": 125,
+          "max": 149
+        },
+        {
+          "label": "Alternate blue (colour 2) and purple (colour 3)",
+          "min": 150,
+          "max": 174
+        },
+        {
+          "label": "Alternate red (colour 1) and purple (colour 3)",
+          "min": 175,
+          "max": 199
+        },
+        {
+          "label": "Alternate red (colour 1), blue (colour 2) and purple (colour 3)",
+          "min": 200,
+          "max": 224
+        },
+        {
+          "label": "Colour rolling",
+          "min": 225,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 22,
+      "type_description": "Colour speed",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Slow to fast",
+          "min": 5,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 3,
+      "type_description": "Mode - red, green, yellow (RGY)",
+      "capabilities": [
+        {
+          "label": "Automatic show with original preprogrammed colour",
+          "min": 0,
+          "max": 29
+        },
+        {
+          "label": "Auto show with red (colour 1)",
+          "min": 30,
+          "max": 59
+        },
+        {
+          "label": "Auto show with green (colour 2)",
+          "min": 60,
+          "max": 89
+        },
+        {
+          "label": "Auto show with yellow (colour 3)",
+          "min": 90,
+          "max": 119
+        },
+        {
+          "label": "Sound activated show with original preprogrammed colour",
+          "min": 120,
+          "max": 149
+        },
+        {
+          "label": "Sound activated show with red (colour 1)",
+          "min": 150,
+          "max": 179
+        },
+        {
+          "label": "Sound activated show with green (colour 2)",
+          "min": 180,
+          "max": 209
+        },
+        {
+          "label": "Sound activated show with yellow (colour 3)",
+          "min": 210,
+          "max": 239
+        },
+        {
+          "label": "DMX mode",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Colour - red, green, yellow (RGY)",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 24
+        },
+        {
+          "label": "Original preprogrammed colour",
+          "min": 25,
+          "max": 49
+        },
+        {
+          "label": "Red (colour 1)",
+          "min": 50,
+          "max": 74
+        },
+        {
+          "label": "Green (colour 2)",
+          "min": 75,
+          "max": 99
+        },
+        {
+          "label": "Yellow (colour 3)",
+          "min": 100,
+          "max": 124
+        },
+        {
+          "label": "Alternate red (colour 1) and green (colour 2)",
+          "min": 125,
+          "max": 149
+        },
+        {
+          "label": "Alternate green (colour 2) and yellow (colour 3)",
+          "min": 150,
+          "max": 174
+        },
+        {
+          "label": "Alternate red (colour 1) and yellow (colour 3)",
+          "min": 175,
+          "max": 199
+        },
+        {
+          "label": "Alternate red (colour 1), green (colour 2) and yellow (colour 3)",
+          "min": 200,
+          "max": 224
+        },
+        {
+          "label": "Colour rolling",
+          "min": 225,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 3,
+      "type_description": "Mode - green, blue, cyan (GBC)",
+      "capabilities": [
+        {
+          "label": "Automatic show with original preprogrammed colour",
+          "min": 0,
+          "max": 29
+        },
+        {
+          "label": "Auto show with green (colour 1)",
+          "min": 30,
+          "max": 59
+        },
+        {
+          "label": "Auto show with blue (colour 2)",
+          "min": 60,
+          "max": 89
+        },
+        {
+          "label": "Auto show with cyan (colour 3)",
+          "min": 90,
+          "max": 119
+        },
+        {
+          "label": "Sound activated show with original preprogrammed colour",
+          "min": 120,
+          "max": 149
+        },
+        {
+          "label": "Sound activated show with green (colour 1)",
+          "min": 150,
+          "max": 179
+        },
+        {
+          "label": "Sound activated show with blue (colour 2)",
+          "min": 180,
+          "max": 209
+        },
+        {
+          "label": "Sound activated show with cyan (colour 3)",
+          "min": 210,
+          "max": 239
+        },
+        {
+          "label": "DMX mode",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Colour - green, blue, cyan (GBC)",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 24
+        },
+        {
+          "label": "Original preprogrammed colour",
+          "min": 25,
+          "max": 49
+        },
+        {
+          "label": "Green (colour 1)",
+          "min": 50,
+          "max": 74
+        },
+        {
+          "label": "Blue (colour 2)",
+          "min": 75,
+          "max": 99
+        },
+        {
+          "label": "Cyan (colour 3)",
+          "min": 100,
+          "max": 124
+        },
+        {
+          "label": "Alternate green (colour 1) and blue (colour 2)",
+          "min": 125,
+          "max": 149
+        },
+        {
+          "label": "Alternate blue (colour 2) and cyan (colour 3)",
+          "min": 150,
+          "max": 174
+        },
+        {
+          "label": "Alternate green (colour 1) and cyan (colour 3)",
+          "min": 175,
+          "max": 199
+        },
+        {
+          "label": "Alternate green (colour 1), blue (colour 2) and cyan (colour 3)",
+          "min": 200,
+          "max": 224
+        },
+        {
+          "label": "Colour rolling",
+          "min": 225,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Kam/Kam-iLink-All-Colour-Models.json",
+  "id": 941
+}

@@ -1,0 +1,121 @@
+{
+  "version": "1.0.0",
+  "label": "Mini Scan 150",
+  "manufacturer": "Clay Paky",
+  "bulb_type": "HTI 150W",
+  "bulb_lumens": 9500,
+  "bulb_color_temperature": 7000,
+  "dimension_weight": 10,
+  "dimension_width": 238,
+  "dimension_height": 582,
+  "dimension_depth": 280,
+  "lens_label": "PC",
+  "lens_degree_min": 9,
+  "lens_degree_max": 15,
+  "focus_type": "Fixed",
+  "focus_pan_max": 150,
+  "focus_tilt_max": 110,
+  "technical_power_consumption": 150,
+  "technical_dmx_connector": "5-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Color wheel",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 8
+        },
+        {
+          "label": "Red",
+          "min": 9,
+          "max": 25
+        },
+        {
+          "label": "Yellow",
+          "min": 26,
+          "max": 42
+        },
+        {
+          "label": "Violet",
+          "min": 43,
+          "max": 59
+        },
+        {
+          "label": "Green",
+          "min": 60,
+          "max": 76
+        },
+        {
+          "label": "Orange",
+          "min": 77,
+          "max": 93
+        },
+        {
+          "label": "Blue",
+          "min": 94,
+          "max": 110
+        },
+        {
+          "label": "Pink",
+          "min": 111,
+          "max": 127
+        },
+        {
+          "label": "Rainbow (color rotation)",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Gobo change / dimmer / stopper / strobe",
+      "capabilities": [
+        {
+          "label": "Dimmer",
+          "min": 0,
+          "max": 75
+        },
+        {
+          "label": "Strobe",
+          "min": 76,
+          "max": 126
+        },
+        {
+          "label": "Aperture fixed",
+          "min": 127,
+          "max": 128
+        },
+        {
+          "label": "Gobo sequence",
+          "min": 129,
+          "max": 215
+        },
+        {
+          "label": "Aperture fixed",
+          "min": 216,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Clay_Paky/Clay-Paky-Mini-Scan-150.json",
+  "id": 361
+}

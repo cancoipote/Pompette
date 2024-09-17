@@ -1,0 +1,60 @@
+{
+  "version": "1.0.0",
+  "label": "LX161",
+  "manufacturer": "Luxibel",
+  "bulb_type": "CW/WW COB LED 100W Epistar",
+  "bulb_lumens": 3739,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 250,
+  "dimension_height": 250,
+  "dimension_depth": 370,
+  "lens_label": "Other",
+  "lens_degree_min": 60,
+  "lens_degree_max": 60,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 120,
+  "technical_dmx_connector": "3-pin",
+  "type": 12,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Cold White",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Warm White",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Strobe with increasing speed",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Luxibel/Luxibel-LX161.json",
+  "id": 1016
+}

@@ -1,0 +1,243 @@
+<div class="popup-header">
+    <span *ngIf="fixture==null">Create fixture</span>
+    <span *ngIf="fixture!=null">{{fixture.manufacturer}} - {{fixture.label}}</span>
+</div>
+<div class="popup-content" >
+    
+    <mat-tab-group animationDuration="0">
+        <mat-tab label="Commons">
+            <div class="content-list" [ngStyle]="{'height.px': popup_height}">
+                <div class="title"><i>Manufacturer</i></div>
+                <div class="grid-inputs">
+                    <mat-form-field color="accent" class="form-input">
+                        <mat-label>Manufacturer</mat-label>
+                        <input matInput [(ngModel)]="fixture.manufacturer" name="manufacturer"  [ngModelOptions]="{standalone: true}"/>
+                    </mat-form-field>
+                </div>
+
+                <div class="title"><i>Fixture</i></div>
+                <div class="grid-inputs">
+                    <mat-form-field color="accent" class="form-input">
+                        <mat-label>Type</mat-label>
+                        <mat-select name="item" [(ngModel)]="fixture.type">
+                            <mat-option *ngFor="let item of fixtureService.fixtureTypes" [value]="item">
+                            {{item.label}}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                    <mat-form-field color="accent" class="form-input">
+                        <mat-label>Fixture</mat-label>
+                        <input matInput [(ngModel)]="fixture.label" name="label"  [ngModelOptions]="{standalone: true}"/>
+                    </mat-form-field>
+                </div>
+            </div>
+        </mat-tab>
+
+        <mat-tab label="Channels">
+            <div class="content-list" [ngStyle]="{'height.px': popup_height}">
+                <div class="channels-container">
+                    <div class="channels-container-menu">
+                        <div class="channels-container-title">
+                            <div class="channels-container-title-line">
+                                <i>Select channel</i>
+                                <div class="channels-container-title-line-separator"></div>
+                                <button mat-button (click)="createChannel()" class="channels-container-title-line-button">
+                                    create
+                                </button>
+                            </div>
+                            
+                        </div>
+                        <mat-list class="channels-container-menu-list">
+                            <mat-list-item *ngFor="let channel of fixture.channels" class="fixtures-container-menu-list-submenu-thumb">
+                                <button mat-button (click)="selectChannel( channel )">
+
+                                    <span *ngIf="channel.type.id !=null" >{{channel.type.label}}</span>
+                                    <span *ngIf="channel.type.id !=null && channel.type_description != ''" >&nbsp;-&nbsp;</span>
+                                    <span *ngIf="channel.type_description != ''" ><i>{{channel.type_description}}</i></span>
+                                    ( {{channel.index}} )
+                                  </button>
+                            </mat-list-item>
+                        </mat-list>
+                    </div>
+                    <div class="channels-container-content">
+                        <div class="channels-container-title-line" >
+                            <div class="channels-container-title">
+                                <i>
+                                    Channel
+                                    <span *ngIf="channel" >
+                                        <span *ngIf="channel.type.id !=null" >{{channel.type.label}}</span>
+                                        <span *ngIf="channel.type.id !=null && channel.type_description != ''" >&nbsp;-&nbsp;</span>
+                                        <span *ngIf="channel.type_description != ''" ><i>{{channel.type_description}}</i></span>
+                                    </span>
+                                </i>
+                            </div>
+                            <div class="channels-container-title-line-separator"></div>
+                            <button *ngIf="channel" mat-button (click)="removeChannel()" color="warn" class="channels-container-title-line-button">
+                                delete
+                            </button>
+                        </div>
+                       
+
+                        <div *ngIf="!channel" >
+                            <i>Please select or create channel</i>
+                        </div>  
+
+                        <div *ngIf="channel" >
+                            <div class="title"><i>Channel informations</i></div>
+                            <div class="form-input">
+                                <button mat-button (click)="changeChannelIndex( channel )">Channel's index : {{channel.index}}</button>
+                            </div>
+                            <br><br>
+                            <div class="grid-inputs">
+                                <mat-form-field color="accent" class="form-input">
+                                    <mat-label>Type</mat-label>
+                                    <mat-select name="item" [(ngModel)]="channel.type">
+                                        <mat-option *ngFor="let item of fixtureService.fixtureChannelTypes" [value]="item">
+                                        {{item.label}}
+                                        </mat-option>
+                                    </mat-select>
+                                </mat-form-field>
+                                <mat-form-field color="accent" class="form-input">
+                                    <mat-label>Description</mat-label>
+                                    <input matInput [(ngModel)]="channel.type_description" name="type_description"  [ngModelOptions]="{standalone: true}"/>
+                                </mat-form-field>
+                            </div>
+
+                            
+                            <div class="title">
+                                <div class="channels-container-title-line">
+                                    <i>Capabalities</i>
+                                    <div class="channels-container-title-line-separator"></div>
+                                    <button mat-button (click)="createCapabality()" class="channels-container-title-line-button">
+                                        create
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="capabalities" >
+
+                                <mat-grid-list cols="6" rowHeight="70px">
+                                    <div *ngFor="let capabality of channel.capabilities">
+                                        <div class="capabality">
+                                            <mat-grid-tile colspan="3">
+                                                <mat-form-field color="accent" >
+                                                    <mat-label>Name</mat-label>
+                                                    <input matInput [(ngModel)]="capabality.label" name="type_description"  [ngModelOptions]="{standalone: true}"/>
+                                                </mat-form-field>
+                                            </mat-grid-tile>
+                                            <mat-grid-tile colspan="1">
+                                                <button  class="capabality-button" mat-button (click)="changeCapabalityMin( capabality )">Min : {{capabality.min}}</button>
+                                            </mat-grid-tile>
+                                            <mat-grid-tile colspan="1" >
+                                                <button class="capabality-button" mat-button (click)="changeCapabalityMax( capabality )">Max : {{capabality.max}}</button>
+                                            </mat-grid-tile>
+                                            <mat-grid-tile colspan="1">
+                                                <button class="capabality-button" mat-icon-button (click)="removeCapabality( capabality )">
+                                                    <mat-icon color="warn">delete</mat-icon>
+                                                </button>
+                                            </mat-grid-tile>
+                                        </div>
+                                    </div>
+                                </mat-grid-list>
+                            </div>
+
+                        </div>  
+
+                    </div>
+                </div>
+            </div>
+        </mat-tab>
+        
+        <mat-tab label="Informations">
+            <div class="content-list" [ngStyle]="{'height.px': popup_height}">
+                <div class="title"><i>Technical</i></div>
+                <div class="grid-inputs">
+                    <mat-form-field color="accent" class="form-input">
+                        <mat-label>Power consumption</mat-label>
+                        <input matInput type="number" [(ngModel)]="fixture.technical_power_consumption" name="technical_power_consumption"  [ngModelOptions]="{standalone: true}"/>
+                    </mat-form-field>
+                    <mat-form-field color="accent" class="form-input">
+                        <mat-label>DMX connector</mat-label>
+                        <input matInput [(ngModel)]="fixture.technical_dmx_connector" name="technical_dmx_connector"  [ngModelOptions]="{standalone: true}"/>
+                    </mat-form-field>
+                </div>
+
+
+                <div class="title"><i>Dimmensions</i></div>
+                <div class="grid-inputs">
+                    <mat-form-field color="accent" class="form-input">
+                        <mat-label>Weight</mat-label>
+                        <input matInput type="number" [(ngModel)]="fixture.dimension_weight" name="dimension_weight"  [ngModelOptions]="{standalone: true}"/>
+                    </mat-form-field>
+                    <mat-form-field color="accent" class="form-input">
+                        <mat-label>Width</mat-label>
+                        <input matInput type="number" [(ngModel)]="fixture.dimension_width" name="dimension_width"  [ngModelOptions]="{standalone: true}"/>
+                    </mat-form-field>
+                    <mat-form-field color="accent" class="form-input">
+                        <mat-label>Height</mat-label>
+                        <input matInput type="number" [(ngModel)]="fixture.dimension_height" name="dimension_height"  [ngModelOptions]="{standalone: true}"/>
+                    </mat-form-field>
+                    <mat-form-field color="accent" class="form-input">
+                        <mat-label>Depth</mat-label>
+                        <input matInput type="number" [(ngModel)]="fixture.dimension_depth" name="dimension_depth"  [ngModelOptions]="{standalone: true}"/>
+                    </mat-form-field>
+                </div>
+                
+
+
+                <div class="title"><i>Bulb</i></div>
+                <div class="grid-inputs">
+                    <mat-form-field color="accent" class="form-input">
+                        <mat-label>Type</mat-label>
+                        <input matInput [(ngModel)]="fixture.bulb_type" name="bulb_type"  [ngModelOptions]="{standalone: true}"/>
+                    </mat-form-field>
+                    <mat-form-field color="accent" class="form-input">
+                        <mat-label>Lumens</mat-label>
+                        <input matInput type="number" [(ngModel)]="fixture.bulb_lumens" name="bulb_lumens"  [ngModelOptions]="{standalone: true}"/>
+                    </mat-form-field>
+                    <mat-form-field color="accent" class="form-input">
+                        <mat-label>Color temperature</mat-label>
+                        <input matInput type="number" [(ngModel)]="fixture.bulb_color_temperature" name="bulb_color_temperature"  [ngModelOptions]="{standalone: true}"/>
+                    </mat-form-field>
+                </div>
+                
+                <div class="title"><i>Lens</i></div>
+                <div class="grid-inputs">
+                    <mat-form-field color="accent" class="form-input">
+                        <mat-label>Label</mat-label>
+                        <input matInput [(ngModel)]="fixture.lens_label" name="lens_label"  [ngModelOptions]="{standalone: true}"/>
+                    </mat-form-field>
+                    <mat-form-field color="accent" class="form-input">
+                        <mat-label>Degree min</mat-label>
+                        <input matInput type="number" [(ngModel)]="fixture.technical_dmx_connector" name="lens_degree_min"  [ngModelOptions]="{standalone: true}"/>
+                    </mat-form-field>
+                    <mat-form-field color="accent" class="form-input">
+                        <mat-label>Degree max</mat-label>
+                        <input matInput type="number" [(ngModel)]="fixture.technical_dmx_connector" name="lens_degree_max"  [ngModelOptions]="{standalone: true}"/>
+                    </mat-form-field>
+                </div>
+
+                <div class="title"><i>Focus</i></div>
+                <div class="grid-inputs">
+                    <mat-form-field color="accent" class="form-input">
+                        <mat-label>Type</mat-label>
+                        <input matInput [(ngModel)]="fixture.focus_type" name="focus_type"  [ngModelOptions]="{standalone: true}"/>
+                    </mat-form-field>
+                    <mat-form-field color="accent" class="form-input">
+                        <mat-label>PAN max</mat-label>
+                        <input matInput [(ngModel)]="fixture.focus_pan_max" name="focus_pan_max"  [ngModelOptions]="{standalone: true}"/>
+                    </mat-form-field>
+                    <mat-form-field color="accent" class="form-input">
+                        <mat-label>TILT xax</mat-label>
+                        <input matInput [(ngModel)]="fixture.focus_tilt_max" name="focus_tilt_max"  [ngModelOptions]="{standalone: true}"/>
+                    </mat-form-field>
+                </div>
+            </div>
+        </mat-tab>
+        </mat-tab-group>
+</div>
+<mat-divider></mat-divider>
+<div class="popup-footer" >   
+    <button (click)="onSave()" mat-button color="accent">Save</button>
+    <button (click)="onClose()" mat-button>Close</button>
+</div>

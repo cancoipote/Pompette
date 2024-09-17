@@ -1,0 +1,844 @@
+{
+  "version": "1.0.0",
+  "label": "Rogue R2 Spot",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 36328,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 21,
+  "dimension_width": 343,
+  "dimension_height": 489,
+  "dimension_depth": 409,
+  "lens_label": "Other",
+  "lens_degree_min": 16,
+  "lens_degree_max": 16,
+  "focus_type": "Fixed",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 250,
+  "technical_power_consumption": 310,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan (Fine)",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt (Fine)",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Dimmer (Fine)",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Open",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "Slow -> Fast",
+          "min": 8,
+          "max": 76
+        },
+        {
+          "label": "Pluse Effect (Slow -> Fast)",
+          "min": 77,
+          "max": 145
+        },
+        {
+          "label": "Ramdom Effect (Slow -> Fast)",
+          "min": 146,
+          "max": 215
+        },
+        {
+          "label": "Open",
+          "min": 216,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Color Wheel 1",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Yellow",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Light Blue",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Green",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Red",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Magenta",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Dark Blue",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Orange",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "White/Yellow",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Yellow/Light Blue",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Light Blue/Green",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Green/Red",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Red/Magenta",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Magenta/Dark Blue",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Dark Blue/Orange",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Orange/White",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Clockwise Color Scroll (Slow -> Fast)",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Counter-clockwise Color Scroll (Slow -> Fast)",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Color Wheel 2",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "CTO 3200K",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "CTO 5600K",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Green",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "UV",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Orange",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Pink",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Light Blue",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "White/CTO 3200K",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "CTO 3200K / CTO 5600K",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "CTO 5600K / Green",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Green / UV",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "UV / Orange",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Orange / Pink",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Pink / Light Blue",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Light Blue / White",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Clockwise Color Scroll (Slow -> Fast)",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Counter-clockwise Color Scroll (Slow -> Fast)",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 4,
+      "type_description": "Gobo Wheel 1",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Gobo 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Gobo 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Gobo 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Gobo 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Gobo 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Gobo 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Gobo 7",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Gobo Shake 1-7 (Slow -> Fast)",
+          "min": 64,
+          "max": 119
+        },
+        {
+          "label": "Open",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Clockwise Gobo Scroll (Slow -> Fast)",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Counter-clockwise Gobo Scroll (Slow -> Fast)",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 4,
+      "type_description": "Gobo Wheel 1 Rotate",
+      "capabilities": [
+        {
+          "label": "Gobo Index",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "Clockwise Rotation (Slow -> Fast)",
+          "min": 64,
+          "max": 147
+        },
+        {
+          "label": "Counter-clockwise Rotation (Slow -> Fast)",
+          "min": 148,
+          "max": 231
+        },
+        {
+          "label": "Boomerang Effect (Slow -> Fast)",
+          "min": 232,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 4,
+      "type_description": "Gobo Wheel 2",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 6
+        },
+        {
+          "label": "Gobo 1",
+          "min": 7,
+          "max": 13
+        },
+        {
+          "label": "Gobo 2",
+          "min": 14,
+          "max": 20
+        },
+        {
+          "label": "Gobo 3",
+          "min": 21,
+          "max": 27
+        },
+        {
+          "label": "Gobo 4",
+          "min": 28,
+          "max": 34
+        },
+        {
+          "label": "Gobo 5",
+          "min": 35,
+          "max": 41
+        },
+        {
+          "label": "Gobo 6",
+          "min": 42,
+          "max": 48
+        },
+        {
+          "label": "Gobo 7",
+          "min": 49,
+          "max": 55
+        },
+        {
+          "label": "Gobo 8",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Gobo Shake 1-8 (Slow -> Fast)",
+          "min": 64,
+          "max": 120
+        },
+        {
+          "label": "Open",
+          "min": 121,
+          "max": 127
+        },
+        {
+          "label": "Clockwise Gobo Scroll (Slow -> Fast)",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Counter-clockwise Gobo Scroll (Slow -> Fast)",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "No Prism",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Prism",
+          "min": 5,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 20,
+      "type_description": "Prism Rotate",
+      "capabilities": [
+        {
+          "label": "Prism Index",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Counter-clockwise Rotation (Fast -> Slow)",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Clockwise Rotation (Slow -> Fast)",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 1,
+      "type_description": "Iris",
+      "capabilities": [
+        {
+          "label": "Wide -> Narrow",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "Iris Effect (Slow -> Fast)",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Iris Effect (In Slow -> Out Fast)",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Iris Effect (Out Slow -> In Fast)",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 3,
+      "type_description": "Frost",
+      "capabilities": [
+        {
+          "label": "No Frost",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Frost",
+          "min": 8,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 3,
+      "type_description": "Movement Macros",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Effect 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Effect 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Effect 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Effect 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Effect 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Effect 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Effect 7",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Effect 8",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Effect 9",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Effect 10",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Effect 11",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Effect 12",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Effect 13",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Effect 14",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Effect 15",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Effect 16",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Effect 17",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Effect 18",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Effect 19",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Effect 20",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Effect 21",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Effect 22",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Effect 23",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Effect 24",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Effect 25",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Effect 26",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Effect 27",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Effect 28",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Effect 29",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Effect 30",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Effect 31",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 22,
+      "type_description": "Movement Macro Speed",
+      "capabilities": [
+        {
+          "label": "0-100%",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 17,
+      "type_description": "Control",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Blackout During Pan/Tilt (3 Second Hold)",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Blackout While Color Wheel Moving (3 Second Hold)",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Blackout While Gobo Wheels Moving (3 Second Hold)",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Disable Pan/Tilt Blackout (3 Second Hold)",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Disable Color Wheel Blackout (3 Second Hold)",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Disable Gobo Wheel Blackout (3 Second Hold)",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "No function",
+          "min": 56,
+          "max": 95
+        },
+        {
+          "label": "Pan Reset",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Tilt Reset",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Color Wheel Reset",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Gobo Wheel Reset",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Gobo Rotation Reset",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Prism Reset",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Focus Reset",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "All Reset",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Iris Reset",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "No function",
+          "min": 168,
+          "max": 239
+        },
+        {
+          "label": "Pan/Tilt Movement Ramp Speed (Increase On)",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Pan/Tilt Movement Ramp Speed (Increase Off)",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-Rogue-R2-Spot.json",
+  "id": 517
+}

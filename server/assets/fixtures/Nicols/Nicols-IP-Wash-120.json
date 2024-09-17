@@ -1,0 +1,137 @@
+{
+  "version": "1.0.0",
+  "label": "IP Wash 120",
+  "manufacturer": "Nicols",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 7,
+  "dimension_width": 670,
+  "dimension_height": 105,
+  "dimension_depth": 230,
+  "lens_label": "Other",
+  "lens_degree_min": 35,
+  "lens_degree_max": 35,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 120,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 22,
+      "type_description": "Dimming speed",
+      "capabilities": [
+        {
+          "label": "Dimming Speed (fast to slow)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 18,
+      "type_description": "Auto mode",
+      "capabilities": [
+        {
+          "label": "Color macro",
+          "min": 0,
+          "max": 99
+        },
+        {
+          "label": "3 colors change",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "7 colors change",
+          "min": 120,
+          "max": 139
+        },
+        {
+          "label": "7 colors change smooth",
+          "min": 140,
+          "max": 159
+        },
+        {
+          "label": "Colors fade strobe",
+          "min": 160,
+          "max": 179
+        },
+        {
+          "label": "7 colors strobe 1",
+          "min": 180,
+          "max": 199
+        },
+        {
+          "label": "7 colors strobe 2",
+          "min": 200,
+          "max": 219
+        },
+        {
+          "label": "Color jump change",
+          "min": 220,
+          "max": 240
+        },
+        {
+          "label": "No function",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 22,
+      "type_description": "Auto speed",
+      "capabilities": [
+        {
+          "label": "Auto speed (slow to fast)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Nicols/Nicols-IP-Wash-120.json",
+  "id": 1110
+}

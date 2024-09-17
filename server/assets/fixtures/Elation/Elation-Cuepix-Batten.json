@@ -1,0 +1,767 @@
+{
+  "version": "1.0.0",
+  "label": "Cuepix Batten",
+  "manufacturer": "Elation",
+  "bulb_type": "LED",
+  "bulb_lumens": 4500,
+  "bulb_color_temperature": 6000,
+  "dimension_weight": 9,
+  "dimension_width": 1100,
+  "dimension_height": 172,
+  "dimension_depth": 121,
+  "lens_label": "Other",
+  "lens_degree_min": 82,
+  "lens_degree_max": 82,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 312,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 13,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Green fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Blue fine",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 21,
+      "type_description": "Flash/Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Strobe slow to fast",
+          "min": 32,
+          "max": 95
+        },
+        {
+          "label": "LEDs ON",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse slow to fast",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "LEDs ON",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random strobe effect slow to fast",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "LEDs ON",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Color Macros",
+      "capabilities": [
+        {
+          "label": "OFF",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Bastard Amber",
+          "min": 1,
+          "max": 7
+        },
+        {
+          "label": "Medium Amber",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Pale Amber Gold",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Gallo Gold",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Golden Amber",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Light Red",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Medium Red",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Medium Pink",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Broadway Pink",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Follies Pink",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Light Lavender",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Special Lavender",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Lavender",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Indigo",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Hemsley Blue",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Tipton Blue",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Light Steel Blue",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Light Sky Blue",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Sky Blue",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Brilliant Blue",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Light Green Blue",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Bright Blue",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Primary Blue",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Congo Blue",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Pale Yellow Green",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Moss Green",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Primary Green",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Double CTB",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Full Red",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Full Green",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Full Blue",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Full White",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Dimming Curve Modes",
+      "capabilities": [
+        {
+          "label": "Standard",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Stage",
+          "min": 21,
+          "max": 40
+        },
+        {
+          "label": "TV",
+          "min": 41,
+          "max": 60
+        },
+        {
+          "label": "Architectural",
+          "min": 61,
+          "max": 80
+        },
+        {
+          "label": "Theatre",
+          "min": 81,
+          "max": 100
+        },
+        {
+          "label": "Default to Unit Setting",
+          "min": 101,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Chase Macros",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Dream Macro",
+          "min": 1,
+          "max": 20
+        },
+        {
+          "label": "Meteor Macro",
+          "min": 21,
+          "max": 40
+        },
+        {
+          "label": "Fade Macro",
+          "min": 41,
+          "max": 60
+        },
+        {
+          "label": "Change Macro",
+          "min": 61,
+          "max": 80
+        },
+        {
+          "label": "Flow Macro 1",
+          "min": 81,
+          "max": 100
+        },
+        {
+          "label": "Flow Macro 2",
+          "min": 101,
+          "max": 120
+        },
+        {
+          "label": "Flow Macro 3",
+          "min": 121,
+          "max": 140
+        },
+        {
+          "label": "Flow Macro 4",
+          "min": 141,
+          "max": 160
+        },
+        {
+          "label": "Flow Macro 5",
+          "min": 161,
+          "max": 180
+        },
+        {
+          "label": "Flow Macro 6",
+          "min": 181,
+          "max": 200
+        },
+        {
+          "label": "Flow Macro 7",
+          "min": 201,
+          "max": 220
+        },
+        {
+          "label": "Flow Macro 8",
+          "min": 221,
+          "max": 240
+        },
+        {
+          "label": "Flow Macro 9",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 22,
+      "type_description": "Chase Macro Speed",
+      "capabilities": [
+        {
+          "label": "Chase Macro Speed slow to fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Red - COB Module 1",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Green - COB Module 1",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Blue - COB Module 1",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Red Fine - COB Module 1",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Blue Fine - COB Module 1",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Green Fine - COB Module 1",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Red - COB Module 2",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Red Fine - COB Module 2",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Green - COB Module 2",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Green Fine - COB Module 2",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Blue - COB Module 2",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Blue Fine - COB Module 2",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Red - COB Module 3",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Red Fine - COB Module 3",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Green - COB Module 3",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Green Fine - COB Module 3",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "Blue - COB Module 3",
+      "capabilities": []
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "Blue Fine - COB Module 3",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 0,
+      "type_description": "Red - COB Module 4",
+      "capabilities": []
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "Red Fine - COB Module 4",
+      "capabilities": []
+    },
+    {
+      "index": 32,
+      "type": 0,
+      "type_description": "Green - COB Module 4",
+      "capabilities": []
+    },
+    {
+      "index": 33,
+      "type": 0,
+      "type_description": "Green Fine - COB Module 4",
+      "capabilities": []
+    },
+    {
+      "index": 34,
+      "type": 0,
+      "type_description": "Blue - COB Module 4",
+      "capabilities": []
+    },
+    {
+      "index": 35,
+      "type": 0,
+      "type_description": "Blue Fine - COB Module 4",
+      "capabilities": []
+    },
+    {
+      "index": 36,
+      "type": 0,
+      "type_description": "Red - COB Module 5",
+      "capabilities": []
+    },
+    {
+      "index": 37,
+      "type": 0,
+      "type_description": "Red Fine - COB Module 5",
+      "capabilities": []
+    },
+    {
+      "index": 38,
+      "type": 0,
+      "type_description": "Green - COB Module 5",
+      "capabilities": []
+    },
+    {
+      "index": 39,
+      "type": 0,
+      "type_description": "Green Fine - COB Module 5",
+      "capabilities": []
+    },
+    {
+      "index": 40,
+      "type": 0,
+      "type_description": "Blue - COB Module 5",
+      "capabilities": []
+    },
+    {
+      "index": 41,
+      "type": 0,
+      "type_description": "Blue Fine - COB Module 5",
+      "capabilities": []
+    },
+    {
+      "index": 42,
+      "type": 0,
+      "type_description": "Red - COB Module 6",
+      "capabilities": []
+    },
+    {
+      "index": 43,
+      "type": 0,
+      "type_description": "Red Fine - COB Module 6",
+      "capabilities": []
+    },
+    {
+      "index": 44,
+      "type": 0,
+      "type_description": "Green - COB Module 6",
+      "capabilities": []
+    },
+    {
+      "index": 45,
+      "type": 0,
+      "type_description": "Green Fine - COB Module 6",
+      "capabilities": []
+    },
+    {
+      "index": 46,
+      "type": 0,
+      "type_description": "Blue - COB Module 6",
+      "capabilities": []
+    },
+    {
+      "index": 47,
+      "type": 0,
+      "type_description": "Blue Fine - COB Module 6",
+      "capabilities": []
+    },
+    {
+      "index": 48,
+      "type": 0,
+      "type_description": "Red - COB Module 7",
+      "capabilities": []
+    },
+    {
+      "index": 49,
+      "type": 0,
+      "type_description": "Red Fine - COB Module 7",
+      "capabilities": []
+    },
+    {
+      "index": 50,
+      "type": 0,
+      "type_description": "Green - COB Module 7",
+      "capabilities": []
+    },
+    {
+      "index": 51,
+      "type": 0,
+      "type_description": "Green Fine - COB Module 7",
+      "capabilities": []
+    },
+    {
+      "index": 52,
+      "type": 0,
+      "type_description": "Blue - COB Module 7",
+      "capabilities": []
+    },
+    {
+      "index": 53,
+      "type": 0,
+      "type_description": "Blue Fine - COB Module 7",
+      "capabilities": []
+    },
+    {
+      "index": 54,
+      "type": 0,
+      "type_description": "Red - COB Module 8",
+      "capabilities": []
+    },
+    {
+      "index": 55,
+      "type": 0,
+      "type_description": "Red Fine - COB Module 8",
+      "capabilities": []
+    },
+    {
+      "index": 56,
+      "type": 0,
+      "type_description": "Green - COB Module 8",
+      "capabilities": []
+    },
+    {
+      "index": 57,
+      "type": 0,
+      "type_description": "Green Fine - COB Module 8",
+      "capabilities": []
+    },
+    {
+      "index": 58,
+      "type": 0,
+      "type_description": "Blue - COB Module 8",
+      "capabilities": []
+    },
+    {
+      "index": 59,
+      "type": 0,
+      "type_description": "Blue Fine - COB Module 8",
+      "capabilities": []
+    },
+    {
+      "index": 60,
+      "type": 0,
+      "type_description": "Red - COB Module 9",
+      "capabilities": []
+    },
+    {
+      "index": 61,
+      "type": 0,
+      "type_description": "Red Fine - COB Module 9",
+      "capabilities": []
+    },
+    {
+      "index": 62,
+      "type": 0,
+      "type_description": "Green - COB Module 9",
+      "capabilities": []
+    },
+    {
+      "index": 63,
+      "type": 0,
+      "type_description": "Green Fine - COB Module 9",
+      "capabilities": []
+    },
+    {
+      "index": 64,
+      "type": 0,
+      "type_description": "Blue - COB Module 9",
+      "capabilities": []
+    },
+    {
+      "index": 65,
+      "type": 0,
+      "type_description": "Blue Fine - COB Module 9",
+      "capabilities": []
+    },
+    {
+      "index": 66,
+      "type": 0,
+      "type_description": "Red - COB Module 10",
+      "capabilities": []
+    },
+    {
+      "index": 67,
+      "type": 0,
+      "type_description": "Red Fine - COB Module 10",
+      "capabilities": []
+    },
+    {
+      "index": 68,
+      "type": 0,
+      "type_description": "Green - COB Module 10",
+      "capabilities": []
+    },
+    {
+      "index": 69,
+      "type": 0,
+      "type_description": "Green Fine - COB Module 10",
+      "capabilities": []
+    },
+    {
+      "index": 70,
+      "type": 0,
+      "type_description": "Blue - COB Module 10",
+      "capabilities": []
+    },
+    {
+      "index": 71,
+      "type": 0,
+      "type_description": "Blue Fine - COB Module 10",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Elation/Elation-Cuepix-Batten.json",
+  "id": 598
+}

@@ -1,0 +1,370 @@
+{
+  "version": "1.0.0",
+  "label": "Varyscan 4 EV",
+  "manufacturer": "JB-Lighting",
+  "bulb_type": "HMI 1200W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 34,
+  "dimension_width": 450,
+  "dimension_height": 895,
+  "dimension_depth": 320,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Mirror",
+  "focus_pan_max": 170,
+  "focus_tilt_max": 90,
+  "technical_power_consumption": 1430,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Gobo 1",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Gobo 2",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Gobo 3",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Gobo 4",
+          "min": 128,
+          "max": 254
+        },
+        {
+          "label": "Reset",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "Colour 1",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Colour 2",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Colour 3",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Colour 4",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Colour 5",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Colour 6",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Colour 7",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Colour 8",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Colour 9",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Colour 10",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Colour 11",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Colour 12",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Colour 13",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Colour 14",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Colour 15",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Colour 16",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Rainbow",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 5,
+      "type_description": "Dimmer/Shutter",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Dimmer intensity",
+          "min": 20,
+          "max": 127
+        },
+        {
+          "label": "Open",
+          "min": 128,
+          "max": 138
+        },
+        {
+          "label": "Closed",
+          "min": 139,
+          "max": 139
+        },
+        {
+          "label": "Strobe speed 1-11/sec",
+          "min": 140,
+          "max": 243
+        },
+        {
+          "label": "Open",
+          "min": 244,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Iris",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 4,
+      "type_description": "Gobo rotation",
+      "capabilities": [
+        {
+          "label": "0-540 degrees",
+          "min": 0,
+          "max": 191
+        },
+        {
+          "label": "Rotation speed CCW",
+          "min": 192,
+          "max": 222
+        },
+        {
+          "label": "No rotation",
+          "min": 223,
+          "max": 224
+        },
+        {
+          "label": "Rotation speed CW",
+          "min": 225,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Effect",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Artificial light filter",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Daylight filter",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Prism",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Floodfilter",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Flood to open",
+          "min": 160,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 4,
+      "type_description": "Gobo 2",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Gobo 1",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Gobo 1 shake",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Gobo 2",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Gobo 2 shake",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Gobo 3",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Gobo 3 shake",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Gobo 4",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Gobo 4 shake 1",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Gobo 4 shake 2",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Gobo 4 shake 3",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Gobo 4 shake 4",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Gobo 4 shake 5",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Gobo 4 shake 6",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Gobo 4 shake 7",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Rotation CCW fast to slow",
+          "min": 128,
+          "max": 190
+        },
+        {
+          "label": "No rotation",
+          "min": 191,
+          "max": 193
+        },
+        {
+          "label": "Rotation CW slow to fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/JB-Lighting/JB-Lighting-Varyscan-4-EV.json",
+  "id": 912
+}

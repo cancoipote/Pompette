@@ -1,0 +1,95 @@
+{
+  "version": "1.0.0",
+  "label": "UVLed Bar 16",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 320,
+  "dimension_height": 61,
+  "dimension_depth": 175,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 30,
+  "technical_dmx_connector": "3-pin",
+  "type": 13,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 22,
+      "type_description": "Program Speed",
+      "capabilities": [
+        {
+          "label": "Speed (Slow to Fast)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 3,
+      "type_description": "Programs",
+      "capabilities": [
+        {
+          "label": "Dimming",
+          "min": 0,
+          "max": 30
+        },
+        {
+          "label": "Strobe",
+          "min": 31,
+          "max": 61
+        },
+        {
+          "label": "Increasing Intensity",
+          "min": 62,
+          "max": 92
+        },
+        {
+          "label": "Decreasing Intensity",
+          "min": 93,
+          "max": 123
+        },
+        {
+          "label": "increase - Decrease intensity",
+          "min": 124,
+          "max": 154
+        },
+        {
+          "label": "Three Flash",
+          "min": 155,
+          "max": 185
+        },
+        {
+          "label": "One and 2 Flash",
+          "min": 186,
+          "max": 216
+        },
+        {
+          "label": "Flash",
+          "min": 217,
+          "max": 247
+        },
+        {
+          "label": "Sound Active",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-UVLed-Bar-16.json",
+  "id": 156
+}

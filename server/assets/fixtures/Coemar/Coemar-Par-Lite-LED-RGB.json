@@ -1,0 +1,160 @@
+{
+  "version": "1.0.0",
+  "label": "Par Lite LED RGB",
+  "manufacturer": "Coemar",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 212,
+  "dimension_height": 268,
+  "dimension_depth": 184,
+  "lens_label": "Other",
+  "lens_degree_min": 12,
+  "lens_degree_max": 12,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 46,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Red/Fade Speed",
+      "capabilities": [
+        {
+          "label": "0 to 100%/1 second to 1 minute",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 3,
+      "type_description": "Green/Pause Time",
+      "capabilities": [
+        {
+          "label": "0 to 100%/1 second to 3.30 minutes",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Strobe Effect",
+      "capabilities": [
+        {
+          "label": "No effect",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Variable speed, from slow to fast",
+          "min": 10,
+          "max": 57
+        },
+        {
+          "label": "Stop",
+          "min": 58,
+          "max": 59
+        },
+        {
+          "label": "Sequenced pulse effect, slow closing, fast opening",
+          "min": 60,
+          "max": 108
+        },
+        {
+          "label": "Stop",
+          "min": 109,
+          "max": 110
+        },
+        {
+          "label": "Sequenced pulse effect, fast closing, slow opening",
+          "min": 111,
+          "max": 159
+        },
+        {
+          "label": "Stop",
+          "min": 160,
+          "max": 161
+        },
+        {
+          "label": "Random effect from slow to fast with synchronised colours",
+          "min": 162,
+          "max": 207
+        },
+        {
+          "label": "Stop",
+          "min": 208,
+          "max": 209
+        },
+        {
+          "label": "Random effect from slow to fast with non-synchronised colours",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Automated Functions",
+      "capabilities": [
+        {
+          "label": "No effect",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Automated program 1",
+          "min": 10,
+          "max": 50
+        },
+        {
+          "label": "Automated program 2",
+          "min": 51,
+          "max": 91
+        },
+        {
+          "label": "Automated program 3",
+          "min": 92,
+          "max": 132
+        },
+        {
+          "label": "Automated program 4",
+          "min": 133,
+          "max": 173
+        },
+        {
+          "label": "Random program repeat",
+          "min": 174,
+          "max": 214
+        },
+        {
+          "label": "Repeat programs in sequence",
+          "min": 215,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Coemar/Coemar-Par-Lite-LED-RGB.json",
+  "id": 388
+}

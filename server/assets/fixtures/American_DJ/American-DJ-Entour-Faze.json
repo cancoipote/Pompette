@@ -1,0 +1,93 @@
+{
+  "version": "1.0.0",
+  "label": "Entour Faze",
+  "manufacturer": "American DJ",
+  "bulb_type": "",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 202,
+  "dimension_height": 303,
+  "dimension_depth": 414,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 465,
+  "technical_dmx_connector": "3-pin",
+  "type": 6,
+  "channels": [
+    {
+      "index": 0,
+      "type": 5,
+      "type_description": "Output Volume",
+      "capabilities": [
+        {
+          "label": "0%-100% Output Volume",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Fan",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "On",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Duration",
+      "capabilities": [
+        {
+          "label": "0 Seconds",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "10 - 255 Seconds",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 22,
+      "type_description": "Interval",
+      "capabilities": [
+        {
+          "label": "0 Seconds",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "label": "No function",
+          "min": 2,
+          "max": 8
+        },
+        {
+          "label": "5 - 255 Seconds",
+          "min": 9,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Entour-Faze.json",
+  "id": 53
+}

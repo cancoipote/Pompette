@@ -1,0 +1,912 @@
+{
+  "version": "1.0.0",
+  "label": "PR 5000 Spot",
+  "manufacturer": "PR Lighting",
+  "bulb_type": "HTI 1500W/60/P50",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 48,
+  "dimension_width": 544,
+  "dimension_height": 873,
+  "dimension_depth": 609,
+  "lens_label": "Other",
+  "lens_degree_min": 10,
+  "lens_degree_max": 68,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 1800,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Black",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Open",
+          "min": 11,
+          "max": 25
+        },
+        {
+          "label": "Strobe (Slow to Fast)",
+          "min": 26,
+          "max": 225
+        },
+        {
+          "label": "Macro",
+          "min": 226,
+          "max": 246
+        },
+        {
+          "label": "Open",
+          "min": 247,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 5,
+      "type_description": "Dimmer",
+      "capabilities": [
+        {
+          "label": "Black",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Dimmer (0 - 100%)",
+          "min": 4,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Dimmer Fine",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "CYM Macro",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 16
+        },
+        {
+          "label": "Yellow+ Magenta=Red",
+          "min": 17,
+          "max": 35
+        },
+        {
+          "label": "Yellow",
+          "min": 36,
+          "max": 54
+        },
+        {
+          "label": "Yellow+ Cyan=Green",
+          "min": 55,
+          "max": 73
+        },
+        {
+          "label": "Cyan",
+          "min": 74,
+          "max": 92
+        },
+        {
+          "label": "Cyan+ Magenta=Blue",
+          "min": 93,
+          "max": 110
+        },
+        {
+          "label": "Magenta",
+          "min": 111,
+          "max": 128
+        },
+        {
+          "label": "CYM colour mixing from slow to fast",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Cyan",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Cyan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Yellow",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Yellow Fine",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Magenta",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Magenta Fine",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 5,
+      "type_description": "CTO",
+      "capabilities": [
+        {
+          "label": "CTO intensity",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 5,
+      "type_description": "CTO Fine",
+      "capabilities": [
+        {
+          "label": "CTO in 16 Bit precision",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Color Wheel",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 8
+        },
+        {
+          "label": "White/colour 1",
+          "min": 9,
+          "max": 15
+        },
+        {
+          "label": "Colour 1",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Colour 1/colour 2",
+          "min": 24,
+          "max": 30
+        },
+        {
+          "label": "Colour 2",
+          "min": 31,
+          "max": 38
+        },
+        {
+          "label": "Colour 2/colour 3",
+          "min": 39,
+          "max": 45
+        },
+        {
+          "label": "Colour 3",
+          "min": 46,
+          "max": 53
+        },
+        {
+          "label": "Colour 3/colour 4",
+          "min": 54,
+          "max": 60
+        },
+        {
+          "label": "Colour 4",
+          "min": 61,
+          "max": 68
+        },
+        {
+          "label": "Colour 4/colour 5",
+          "min": 69,
+          "max": 75
+        },
+        {
+          "label": "Colour 5",
+          "min": 76,
+          "max": 83
+        },
+        {
+          "label": "Colour 5/colour 6",
+          "min": 84,
+          "max": 90
+        },
+        {
+          "label": "Colour 6",
+          "min": 91,
+          "max": 98
+        },
+        {
+          "label": "Colour 6/ white",
+          "min": 99,
+          "max": 105
+        },
+        {
+          "label": "Colour 7",
+          "min": 106,
+          "max": 113
+        },
+        {
+          "label": "Colour 7/white",
+          "min": 114,
+          "max": 120
+        },
+        {
+          "label": "White",
+          "min": 121,
+          "max": 127
+        },
+        {
+          "label": "Rot Speed (fast > slow)",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Rot Speed (slow > fast)",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 1,
+      "type_description": "Iris",
+      "capabilities": [
+        {
+          "label": "Iris (Large to Small)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 1,
+      "type_description": "Iris Fine",
+      "capabilities": [
+        {
+          "label": "Iris in 16 Bit precision",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 3,
+      "type_description": "Iris Macro",
+      "capabilities": [
+        {
+          "label": "None",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Macro function 1: Iris from large to small change with speed from slow to fast",
+          "min": 11,
+          "max": 72
+        },
+        {
+          "label": "Macro function 2: Iris from small to large change with speed from slow to fast",
+          "min": 73,
+          "max": 136
+        },
+        {
+          "label": "Macro function 3: Iris retractable speed from slow to fast",
+          "min": 137,
+          "max": 206
+        },
+        {
+          "label": "Macro function 4",
+          "min": 207,
+          "max": 214
+        },
+        {
+          "label": "Macro function 5",
+          "min": 215,
+          "max": 222
+        },
+        {
+          "label": "Macro function 6",
+          "min": 223,
+          "max": 230
+        },
+        {
+          "label": "Full Open",
+          "min": 231,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 4,
+      "type_description": "Fixed Gobo Wheel",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 16
+        },
+        {
+          "label": "Gobo 1",
+          "min": 17,
+          "max": 32
+        },
+        {
+          "label": "Gobo 2",
+          "min": 33,
+          "max": 48
+        },
+        {
+          "label": "Gobo 3",
+          "min": 49,
+          "max": 64
+        },
+        {
+          "label": "Gobo 4",
+          "min": 65,
+          "max": 80
+        },
+        {
+          "label": "Gobo 5",
+          "min": 81,
+          "max": 96
+        },
+        {
+          "label": "Gobo 6",
+          "min": 97,
+          "max": 112
+        },
+        {
+          "label": "Gobo 7",
+          "min": 113,
+          "max": 127
+        },
+        {
+          "label": "Rotation speed from slow to fast",
+          "min": 128,
+          "max": 149
+        },
+        {
+          "label": "Reverse rotation from slow to fast",
+          "min": 150,
+          "max": 171
+        },
+        {
+          "label": "Gobo 1 Shake (slow > fast)",
+          "min": 172,
+          "max": 183
+        },
+        {
+          "label": "Gobo 2 Shake (slow > fast)",
+          "min": 184,
+          "max": 195
+        },
+        {
+          "label": "Gobo 3 Shake (slow > fast)",
+          "min": 196,
+          "max": 207
+        },
+        {
+          "label": "Gobo 4 Shake (slow > fast)",
+          "min": 208,
+          "max": 219
+        },
+        {
+          "label": "Gobo 5 Shake (slow > fast)",
+          "min": 220,
+          "max": 231
+        },
+        {
+          "label": "Gobo 6 Shake (slow > fast)",
+          "min": 232,
+          "max": 243
+        },
+        {
+          "label": "Gobo 7 Shake (slow > fast)",
+          "min": 244,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 4,
+      "type_description": "Rotating Gobo Wheel 1",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 18
+        },
+        {
+          "label": "Gobo 1",
+          "min": 19,
+          "max": 36
+        },
+        {
+          "label": "Gobo 2",
+          "min": 37,
+          "max": 54
+        },
+        {
+          "label": "Gobo 3",
+          "min": 55,
+          "max": 73
+        },
+        {
+          "label": "Gobo 4",
+          "min": 74,
+          "max": 91
+        },
+        {
+          "label": "Gobo 5",
+          "min": 92,
+          "max": 109
+        },
+        {
+          "label": "Gobo 6",
+          "min": 110,
+          "max": 127
+        },
+        {
+          "label": "Rotation speed from slow to fast",
+          "min": 128,
+          "max": 156
+        },
+        {
+          "label": "Reverse rotation from slow to fast",
+          "min": 157,
+          "max": 185
+        },
+        {
+          "label": "Gobo 1 Shake (slow > fast)",
+          "min": 186,
+          "max": 196
+        },
+        {
+          "label": "Gobo 2 Shake (slow > fast)",
+          "min": 197,
+          "max": 208
+        },
+        {
+          "label": "Gobo 3 Shake (slow > fast)",
+          "min": 209,
+          "max": 220
+        },
+        {
+          "label": "Gobo 4 Shake (slow > fast)",
+          "min": 221,
+          "max": 232
+        },
+        {
+          "label": "Gobo 5 Shake (slow > fast)",
+          "min": 233,
+          "max": 244
+        },
+        {
+          "label": "Gobo 6 Shake (slow > fast)",
+          "min": 245,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 4,
+      "type_description": "Gobo rotation 1",
+      "capabilities": [
+        {
+          "label": "Index",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Stop Rotating",
+          "min": 128,
+          "max": 128
+        },
+        {
+          "label": "Rotation speed from slow to fast",
+          "min": 129,
+          "max": 188
+        },
+        {
+          "label": "Stop rotating",
+          "min": 189,
+          "max": 195
+        },
+        {
+          "label": "Reverse rotation speed from slow to fast",
+          "min": 196,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 4,
+      "type_description": "Gobo rotation 1 Fine",
+      "capabilities": [
+        {
+          "label": "Gobo rotation in 16 bit precision",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 4,
+      "type_description": "Rotating Gobo Wheel 2",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 18
+        },
+        {
+          "label": "Gobo 1",
+          "min": 19,
+          "max": 36
+        },
+        {
+          "label": "Gobo 2",
+          "min": 37,
+          "max": 54
+        },
+        {
+          "label": "Gobo 3",
+          "min": 55,
+          "max": 73
+        },
+        {
+          "label": "Gobo 4",
+          "min": 74,
+          "max": 91
+        },
+        {
+          "label": "Gobo 5",
+          "min": 92,
+          "max": 109
+        },
+        {
+          "label": "Gobo 6",
+          "min": 110,
+          "max": 127
+        },
+        {
+          "label": "Rotation speed from slow to fast",
+          "min": 128,
+          "max": 156
+        },
+        {
+          "label": "Reverse rotation from slow to fast",
+          "min": 157,
+          "max": 185
+        },
+        {
+          "label": "Gobo 1 Shake (slow > fast)",
+          "min": 186,
+          "max": 196
+        },
+        {
+          "label": "Gobo 2 Shake (slow > fast)",
+          "min": 197,
+          "max": 208
+        },
+        {
+          "label": "Gobo 3 Shake (slow > fast)",
+          "min": 209,
+          "max": 220
+        },
+        {
+          "label": "Gobo 4 Shake (slow > fast)",
+          "min": 221,
+          "max": 232
+        },
+        {
+          "label": "Gobo 5 Shake (slow > fast)",
+          "min": 233,
+          "max": 244
+        },
+        {
+          "label": "Gobo 6 Shake (slow > fast)",
+          "min": 245,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "type": 4,
+      "type_description": "Gobo rotation 2",
+      "capabilities": [
+        {
+          "label": "Index",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Stop Rotating",
+          "min": 128,
+          "max": 128
+        },
+        {
+          "label": "Rotation speed (slow to fast)",
+          "min": 129,
+          "max": 188
+        },
+        {
+          "label": "Stop rotating",
+          "min": 189,
+          "max": 195
+        },
+        {
+          "label": "Reverse rotation speed (slow to fast)",
+          "min": 196,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "type": 4,
+      "type_description": "Gobo rotation 2 Fine",
+      "capabilities": [
+        {
+          "label": "Gobo rotation in 16 bit precision",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "Frosting from slight to strong",
+          "min": 0,
+          "max": 16
+        },
+        {
+          "label": "3 x facet prism",
+          "min": 17,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "type": 20,
+      "type_description": "Prism rotation",
+      "capabilities": [
+        {
+          "label": "Prism Index",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Stop rotating",
+          "min": 128,
+          "max": 128
+        },
+        {
+          "label": "Rotation speed from slow to fast",
+          "min": 129,
+          "max": 191
+        },
+        {
+          "label": "Stop rotating",
+          "min": 192,
+          "max": 192
+        },
+        {
+          "label": "Reverse rotation speed from slow to fast",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "type": 3,
+      "type_description": "Effect wheel",
+      "capabilities": [
+        {
+          "label": "No effect wheel",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Rotation speed is slow",
+          "min": 21,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "type": 3,
+      "type_description": "Effect wheel rotation",
+      "capabilities": [
+        {
+          "label": "Rotation speed from slow to fast",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Reverse rotation speed from slow to fast",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "type": 3,
+      "type_description": "Frost effect wheel",
+      "capabilities": [
+        {
+          "label": "Effect wheel insert in gradually",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 29,
+      "type": 1,
+      "type_description": "Focus Fine",
+      "capabilities": [
+        {
+          "label": "Focus in 16 precision",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 31,
+      "type": 1,
+      "type_description": "Zoom Fine",
+      "capabilities": [
+        {
+          "label": "Zoom in 16 Bit precision",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 33,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 34,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 35,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 36,
+      "type": 0,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 37,
+      "type": 17,
+      "type_description": "Control",
+      "capabilities": [
+        {
+          "label": "None",
+          "min": 0,
+          "max": 47
+        },
+        {
+          "label": "Reset",
+          "min": 48,
+          "max": 80
+        },
+        {
+          "label": "None",
+          "min": 81,
+          "max": 112
+        },
+        {
+          "label": "Lamp Off (10s)",
+          "min": 113,
+          "max": 144
+        },
+        {
+          "label": "None",
+          "min": 145,
+          "max": 168
+        },
+        {
+          "label": "Lamp power reduced to 50%",
+          "min": 169,
+          "max": 200
+        },
+        {
+          "label": "None",
+          "min": 201,
+          "max": 223
+        },
+        {
+          "label": "Lamp On",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/PR_Lighting/PR-Lighting-PR-5000-Spot.json",
+  "id": 1167
+}

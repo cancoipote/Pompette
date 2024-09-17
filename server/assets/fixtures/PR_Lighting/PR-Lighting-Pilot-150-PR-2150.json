@@ -1,0 +1,227 @@
+{
+  "version": "1.0.0",
+  "label": "Pilot 150 (PR-2150)",
+  "manufacturer": "PR Lighting",
+  "bulb_type": "HTI 150W",
+  "bulb_lumens": 10000,
+  "bulb_color_temperature": 6500,
+  "dimension_weight": 12,
+  "dimension_width": 340,
+  "dimension_height": 470,
+  "dimension_depth": 380,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 370,
+  "focus_tilt_max": 265,
+  "technical_power_consumption": 280,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 4,
+      "type_description": "Gobo Wheel",
+      "capabilities": [
+        {
+          "label": "Open/Clear",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Hold for 3 secs, the unit will reset and restart",
+          "min": 5,
+          "max": 7
+        },
+        {
+          "label": "Open/Clear",
+          "min": 8,
+          "max": 33
+        },
+        {
+          "label": "GOBO 1 (Swirl)",
+          "min": 34,
+          "max": 66
+        },
+        {
+          "label": "GOBO 2 (Tri-ring)",
+          "min": 67,
+          "max": 99
+        },
+        {
+          "label": "GOBO 3 (Windmill)",
+          "min": 100,
+          "max": 132
+        },
+        {
+          "label": "GOBO 4 (Multi-circle)",
+          "min": 133,
+          "max": 165
+        },
+        {
+          "label": "GOBO 5 (Stars)",
+          "min": 166,
+          "max": 199
+        },
+        {
+          "label": "GOBO 6 (Ring)",
+          "min": 200,
+          "max": 232
+        },
+        {
+          "label": "GOBO 7 (Three-prong)",
+          "min": 233,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 4,
+      "type_description": "Gobo Rotation",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 8
+        },
+        {
+          "label": "Orientation from 0° to 360°",
+          "min": 9,
+          "max": 163
+        },
+        {
+          "label": "Rotate from slow to fast",
+          "min": 164,
+          "max": 205
+        },
+        {
+          "label": "Stop",
+          "min": 206,
+          "max": 213
+        },
+        {
+          "label": "Rotate in opposite direction from slow to fast",
+          "min": 214,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Colour Wheel",
+      "capabilities": [
+        {
+          "label": "Open (White)",
+          "min": 0,
+          "max": 27
+        },
+        {
+          "label": "Red",
+          "min": 28,
+          "max": 55
+        },
+        {
+          "label": "Yellow",
+          "min": 56,
+          "max": 83
+        },
+        {
+          "label": "Light green (Lime)",
+          "min": 84,
+          "max": 111
+        },
+        {
+          "label": "Pink",
+          "min": 112,
+          "max": 139
+        },
+        {
+          "label": "Ultraviolet colour",
+          "min": 140,
+          "max": 167
+        },
+        {
+          "label": "Cyan (Aqua)",
+          "min": 168,
+          "max": 195
+        },
+        {
+          "label": "Green",
+          "min": 196,
+          "max": 223
+        },
+        {
+          "label": "Blue",
+          "min": 224,
+          "max": 251
+        },
+        {
+          "label": "Orange",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Black-out",
+          "min": 0,
+          "max": 21
+        },
+        {
+          "label": "Open gradually from black to full open (dimming)",
+          "min": 22,
+          "max": 110
+        },
+        {
+          "label": "Open",
+          "min": 111,
+          "max": 135
+        },
+        {
+          "label": "Strobe adjust from slow to fast (1-7 flashes/sec)",
+          "min": 136,
+          "max": 247
+        },
+        {
+          "label": "Open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/PR_Lighting/PR-Lighting-Pilot-150-PR-2150.json",
+  "id": 1165
+}

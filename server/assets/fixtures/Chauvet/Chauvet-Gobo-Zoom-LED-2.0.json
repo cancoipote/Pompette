@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "label": "Gobo Zoom LED 2.0",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 229,
+  "dimension_height": 185,
+  "dimension_depth": 183,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 34,
+  "technical_dmx_connector": "3-pin",
+  "type": 9,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 4,
+      "type_description": "Gobo Rotation (clockwise only)",
+      "capabilities": [
+        {
+          "label": "Gobo Rotation",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-Gobo-Zoom-LED-2.0.json",
+  "id": 451
+}

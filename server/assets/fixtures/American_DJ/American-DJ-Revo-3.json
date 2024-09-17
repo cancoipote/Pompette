@@ -1,0 +1,344 @@
+{
+  "version": "1.0.0",
+  "label": "Revo 3",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 306,
+  "dimension_height": 334,
+  "dimension_depth": 312,
+  "lens_label": "Fresnel",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 50,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 17,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "Pattern",
+          "min": 0,
+          "max": 119
+        },
+        {
+          "label": "Chase",
+          "min": 120,
+          "max": 239
+        },
+        {
+          "label": "Stand-alone",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 22,
+      "type_description": "Speed",
+      "capabilities": [
+        {
+          "label": "Blackout (Pattern only)",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Speed",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Pattern/Chase",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Pattern/Chase 1",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Pattern/Chase 2",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Pattern/Chase 3",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Pattern/Chase 4",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Pattern/Chase 5",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Pattern/Chase 6",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Pattern/Chase 7",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Pattern/Chase 8",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Pattern/Chase 9",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Pattern/Chase 10",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Pattern/Chase 11",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Pattern/Chase 12",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Pattern/Chase 13",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Pattern/Chase 14",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Pattern/Chase 15",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Pattern/Chase 16",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Pattern/Chase 17",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Pattern/Chase 18",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Pattern/Chase 19",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Pattern/Chase 20",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Pattern/Chase 21",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "Pattern/Chase 22",
+          "min": 220,
+          "max": 229
+        },
+        {
+          "label": "Pattern/Chase 23",
+          "min": 230,
+          "max": 239
+        },
+        {
+          "label": "Pattern/Chase 24",
+          "min": 240,
+          "max": 249
+        },
+        {
+          "label": "Pattern/Chase 25",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 4,
+      "type_description": "Pattern",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red Big",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Green",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Blue",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "White",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Red Small",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Red Big + Green",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Red Big + Blue",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Red Big + White",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Red Big + Red Small",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Green + Blue",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Green + White",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Green + Red Small",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Blue + White",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Red Big + Red Small + Blue",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Red Big + Red Small + White",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Red Big + Green + Blue",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Red Big + Green + White",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Red Big + Green + Red Small",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Green + Blue + White",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Green + Blue + Red Small",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Blue + White + Red Small",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "Red Big + Green + Blue + White",
+          "min": 220,
+          "max": 229
+        },
+        {
+          "label": "Red Big + Green + Blue + Red Small",
+          "min": 230,
+          "max": 239
+        },
+        {
+          "label": "Green + Blue + White + Red Small",
+          "min": 240,
+          "max": 249
+        },
+        {
+          "label": "All colors",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Revo-3.json",
+  "id": 129
+}

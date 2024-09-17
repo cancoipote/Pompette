@@ -1,0 +1,106 @@
+html, body 
+{
+    height: 90%;
+}
+
+.mat-dialog-container {
+    max-width: none !important;
+    min-width: auto !important;
+  }
+
+/*********
+*
+* Toolbar
+*
+*/
+
+.toolbar-title
+{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+
+.toolbar-spacer 
+{
+    flex: 1 1 auto;
+}
+
+.toolbar-spacer-separator
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 6px;
+}
+
+
+
+
+/*********
+*
+* Popup
+*
+*/
+
+.mat-mdc-dialog-surface
+{
+    border-radius: 10px !important;
+    border-color: #bdbdbd !important;
+    border-style: solid !important;
+    border-width: thin !important;
+}
+
+.popup-header
+{
+   font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.005em;
+    padding:15px;
+}
+
+.popup-header-draggable
+{
+    cursor: pointer;
+}
+
+.popup-content
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding:15px;
+}
+
+.popup-footer
+{
+    margin-top: 10px;
+    text-align: right;
+    padding:15px;
+}
+
+
+/*********
+*
+* Commons
+*
+*/
+
+.title
+{
+    color: rgb(29, 118, 219);
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-bottom-width: 1px;
+    border-bottom-color:rgb(29, 118, 219);
+    border-bottom-style: solid;
+}
+
+.sub-title
+{
+    color: #b7aeae;
+    font-style: italic;
+    margin-top: -14px;
+    margin-left: 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}

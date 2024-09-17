@@ -1,0 +1,77 @@
+{
+  "version": "1.0.0",
+  "label": "Pinspot LED Quad DMX",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 740,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 0,
+  "dimension_width": 98,
+  "dimension_height": 61,
+  "dimension_depth": 205,
+  "lens_label": "Other",
+  "lens_degree_min": 15,
+  "lens_degree_max": 15,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 11,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Strobing",
+      "capabilities": [
+        {
+          "label": "No strobing",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Slow to fast",
+          "min": 8,
+          "max": 247
+        },
+        {
+          "label": "Sound active",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Pinspot-LED-Quad-DMX.json",
+  "id": 120
+}

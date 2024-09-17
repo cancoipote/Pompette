@@ -1,0 +1,67 @@
+{
+  "version": "1.0.0",
+  "label": "ZF-1500",
+  "manufacturer": "Stairville",
+  "bulb_type": "",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 15,
+  "dimension_width": 300,
+  "dimension_height": 210,
+  "dimension_depth": 620,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 1500,
+  "technical_dmx_connector": "5-pin",
+  "type": 11,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "On-Off",
+      "capabilities": [
+        {
+          "label": "On-off",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Sleep interval",
+      "capabilities": [
+        {
+          "label": "Sleep interval (1s to 200s)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 22,
+      "type_description": "Spraying duration",
+      "capabilities": [
+        {
+          "label": "Spraying duration (1s to 200s)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Stairville/Stairville-ZF-1500.json",
+  "id": 1453
+}

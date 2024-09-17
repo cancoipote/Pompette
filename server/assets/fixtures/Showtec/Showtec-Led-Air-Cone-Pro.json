@@ -1,0 +1,137 @@
+{
+  "version": "1.0.0",
+  "label": "Led Air Cone Pro",
+  "manufacturer": "Showtec",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 9,
+  "dimension_width": 473,
+  "dimension_height": 187,
+  "dimension_depth": 473,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 115,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Macro",
+      "capabilities": [
+        {
+          "label": "Nothing",
+          "min": 0,
+          "max": 13
+        },
+        {
+          "label": "Macro",
+          "min": 14,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Speed/strobe",
+      "capabilities": [
+        {
+          "label": "Strobe static state",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Strobe/Speed 16 steps",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "Adjust colors",
+          "min": 0,
+          "max": 35
+        },
+        {
+          "label": "Light mode",
+          "min": 36,
+          "max": 71
+        },
+        {
+          "label": "Dim mode",
+          "min": 72,
+          "max": 107
+        },
+        {
+          "label": "Light and dim mode",
+          "min": 108,
+          "max": 143
+        },
+        {
+          "label": "Auto mixcolor",
+          "min": 144,
+          "max": 179
+        },
+        {
+          "label": "7 colors random shows",
+          "min": 180,
+          "max": 251
+        },
+        {
+          "label": "Change light by music signal",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Macro simple modes",
+      "capabilities": [
+        {
+          "label": "Macro",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Showtec/Showtec-Led-Air-Cone-Pro.json",
+  "id": 1299
+}

@@ -1,0 +1,416 @@
+{
+  "version": "1.0.0",
+  "label": "Inno Spot Pro",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 9,
+  "dimension_width": 288,
+  "dimension_height": 425,
+  "dimension_depth": 167,
+  "lens_label": "",
+  "lens_degree_min": 12,
+  "lens_degree_max": 17,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 140,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Red",
+          "min": 8,
+          "max": 14
+        },
+        {
+          "label": "Orange",
+          "min": 15,
+          "max": 21
+        },
+        {
+          "label": "Yellow",
+          "min": 22,
+          "max": 28
+        },
+        {
+          "label": "Green",
+          "min": 29,
+          "max": 35
+        },
+        {
+          "label": "Blue",
+          "min": 36,
+          "max": 42
+        },
+        {
+          "label": "Purple",
+          "min": 43,
+          "max": 49
+        },
+        {
+          "label": "Light Blue",
+          "min": 50,
+          "max": 56
+        },
+        {
+          "label": "Pink",
+          "min": 57,
+          "max": 63
+        },
+        {
+          "label": "Color Mixing",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Clockwise Rotation (Fast > Slow)",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Counter Clockwise Rotation (Slow < Fast)",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Gobo 1",
+          "min": 10,
+          "max": 18
+        },
+        {
+          "label": "Gobo 2",
+          "min": 19,
+          "max": 27
+        },
+        {
+          "label": "Gobo 3",
+          "min": 28,
+          "max": 36
+        },
+        {
+          "label": "Gobo 4",
+          "min": 37,
+          "max": 45
+        },
+        {
+          "label": "Gobo 5",
+          "min": 46,
+          "max": 54
+        },
+        {
+          "label": "Gobo 6",
+          "min": 55,
+          "max": 63
+        },
+        {
+          "label": "Open Shake",
+          "min": 64,
+          "max": 73
+        },
+        {
+          "label": "Gobo 1 Shake",
+          "min": 74,
+          "max": 82
+        },
+        {
+          "label": "Gobo 2 Shake",
+          "min": 83,
+          "max": 91
+        },
+        {
+          "label": "Gobo 3 Shake",
+          "min": 92,
+          "max": 100
+        },
+        {
+          "label": "Gobo 4 Shake",
+          "min": 101,
+          "max": 109
+        },
+        {
+          "label": "Gobo 5 Shake",
+          "min": 110,
+          "max": 118
+        },
+        {
+          "label": "Gobo 6 Shake",
+          "min": 119,
+          "max": 127
+        },
+        {
+          "label": "Rotation Slow < Fast",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Rotation Fast > Slow",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 4,
+      "type_description": "Gobo Rot",
+      "capabilities": [
+        {
+          "label": "Index",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Fast > Slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Slow < Fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Prism",
+          "min": 8,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 20,
+      "type_description": "Prism Rotation",
+      "capabilities": [
+        {
+          "label": "Index",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Fast > Slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Slow < Fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 21,
+      "type_description": "Shutter/Strobe",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Open",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Strobing (Slow < Fast)",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "Open",
+          "min": 132,
+          "max": 139
+        },
+        {
+          "label": "Slow Open - Fast Close",
+          "min": 140,
+          "max": 181
+        },
+        {
+          "label": "Open",
+          "min": 182,
+          "max": 189
+        },
+        {
+          "label": "Slow Close - Fast Open",
+          "min": 190,
+          "max": 231
+        },
+        {
+          "label": "Open",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Random Strobe",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Movement Speed",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 17,
+      "type_description": "Blackout/Reset",
+      "capabilities": [
+        {
+          "label": "Nothing",
+          "min": 0,
+          "max": 69
+        },
+        {
+          "label": "Blackout w/ Pan/Tilt movement",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "No Blackout Pan/Tilt movement",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Blackout w/ Color Change",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "No Blackout w/ Color Change",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Blackout w/ Gobo Change",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "No Blackout w/ Gobo Change",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Nothing",
+          "min": 130,
+          "max": 199
+        },
+        {
+          "label": "Reset All",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Nothing",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Inno-Spot-Pro.json",
+  "id": 96
+}

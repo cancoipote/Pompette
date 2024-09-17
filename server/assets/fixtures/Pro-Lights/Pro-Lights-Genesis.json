@@ -1,0 +1,638 @@
+{
+  "version": "1.0.0",
+  "label": "Genesis",
+  "manufacturer": "Pro-Lights",
+  "bulb_type": "MSD Platinum 15 R 300W",
+  "bulb_lumens": 14550,
+  "bulb_color_temperature": 8000,
+  "dimension_weight": 17,
+  "dimension_width": 376,
+  "dimension_height": 478,
+  "dimension_depth": 366,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 3,
+  "focus_type": "Fixed",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 430,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan 8 Bit",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan 16 Bit",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt 8 Bit",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt 16 Bit",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Speed Pan Tilt Movement",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Color Wheel",
+      "capabilities": [
+        {
+          "label": "Open (White)",
+          "min": 0,
+          "max": 6
+        },
+        {
+          "label": "Ice-Red",
+          "min": 7,
+          "max": 13
+        },
+        {
+          "label": "Red",
+          "min": 14,
+          "max": 20
+        },
+        {
+          "label": "Red-Blue",
+          "min": 21,
+          "max": 27
+        },
+        {
+          "label": "Blue",
+          "min": 28,
+          "max": 34
+        },
+        {
+          "label": "Blue-Yellow",
+          "min": 35,
+          "max": 41
+        },
+        {
+          "label": "Yellow",
+          "min": 42,
+          "max": 48
+        },
+        {
+          "label": "Yellow-Green",
+          "min": 49,
+          "max": 55
+        },
+        {
+          "label": "Green",
+          "min": 56,
+          "max": 62
+        },
+        {
+          "label": "Green-Magenta",
+          "min": 63,
+          "max": 69
+        },
+        {
+          "label": "Magenta",
+          "min": 70,
+          "max": 76
+        },
+        {
+          "label": "Magenta-Orange",
+          "min": 77,
+          "max": 83
+        },
+        {
+          "label": "Orange",
+          "min": 84,
+          "max": 90
+        },
+        {
+          "label": "Orange-Wood",
+          "min": 91,
+          "max": 97
+        },
+        {
+          "label": "Wood",
+          "min": 98,
+          "max": 104
+        },
+        {
+          "label": "Wood-Lavender",
+          "min": 105,
+          "max": 111
+        },
+        {
+          "label": "Lavender",
+          "min": 112,
+          "max": 118
+        },
+        {
+          "label": "Lavender-3200k",
+          "min": 119,
+          "max": 125
+        },
+        {
+          "label": "3200k",
+          "min": 126,
+          "max": 127
+        },
+        {
+          "label": "Forwards Rainbow Effect Fast > Slow",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 4,
+      "type_description": "Gobos Index",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Dot 1",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "Dot 2",
+          "min": 8,
+          "max": 11
+        },
+        {
+          "label": "Dot 3",
+          "min": 12,
+          "max": 15
+        },
+        {
+          "label": "Dot 4",
+          "min": 16,
+          "max": 19
+        },
+        {
+          "label": "Dot 5",
+          "min": 20,
+          "max": 23
+        },
+        {
+          "label": "Dot 6",
+          "min": 24,
+          "max": 27
+        },
+        {
+          "label": "Lines",
+          "min": 28,
+          "max": 31
+        },
+        {
+          "label": "Star 3",
+          "min": 32,
+          "max": 35
+        },
+        {
+          "label": "Star 4",
+          "min": 36,
+          "max": 39
+        },
+        {
+          "label": "Bubbles 1",
+          "min": 40,
+          "max": 43
+        },
+        {
+          "label": "Worms",
+          "min": 44,
+          "max": 47
+        },
+        {
+          "label": "Star 12",
+          "min": 48,
+          "max": 51
+        },
+        {
+          "label": "Star Abs",
+          "min": 52,
+          "max": 55
+        },
+        {
+          "label": "Bubbles 2",
+          "min": 56,
+          "max": 59
+        },
+        {
+          "label": "Bubbles 3",
+          "min": 60,
+          "max": 63
+        },
+        {
+          "label": "Line 1",
+          "min": 64,
+          "max": 67
+        },
+        {
+          "label": "Line 2",
+          "min": 68,
+          "max": 71
+        },
+        {
+          "label": "Rotation Fast > Slow",
+          "min": 72,
+          "max": 113
+        },
+        {
+          "label": "No Rotation",
+          "min": 114,
+          "max": 117
+        },
+        {
+          "label": "Rotation Slow > Fast",
+          "min": 118,
+          "max": 159
+        },
+        {
+          "label": "Dot 2 Shake Slow > Fast",
+          "min": 160,
+          "max": 166
+        },
+        {
+          "label": "Dot 3 Shake Slow > Fast",
+          "min": 167,
+          "max": 172
+        },
+        {
+          "label": "Dot 4 Shake Slow > Fast",
+          "min": 173,
+          "max": 178
+        },
+        {
+          "label": "Dot 5 Shake Slow > Fast",
+          "min": 179,
+          "max": 185
+        },
+        {
+          "label": "Dot 6 Shake Slow > Fast",
+          "min": 186,
+          "max": 191
+        },
+        {
+          "label": "Lines Shake Slow > Fast",
+          "min": 192,
+          "max": 198
+        },
+        {
+          "label": "Star 3 Shake Slow > Fast",
+          "min": 199,
+          "max": 204
+        },
+        {
+          "label": "Star 4 Shake Slow > Fast",
+          "min": 205,
+          "max": 211
+        },
+        {
+          "label": "Bubbles 1 Shake Slow > Fast",
+          "min": 212,
+          "max": 217
+        },
+        {
+          "label": "Worms Shake Slow > Fast",
+          "min": 218,
+          "max": 223
+        },
+        {
+          "label": "Star 12 Shake Slow > Fast",
+          "min": 224,
+          "max": 230
+        },
+        {
+          "label": "Star Abs Shake Slow > Fast",
+          "min": 231,
+          "max": 236
+        },
+        {
+          "label": "Bubbles 2 Shake Slow > Fast",
+          "min": 237,
+          "max": 243
+        },
+        {
+          "label": "Bubbles 3 Shake Slow > Fast",
+          "min": 244,
+          "max": 249
+        },
+        {
+          "label": "Line 1 Shake Slow > Fast",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 4,
+      "type_description": "Prism / Gobo Rotation",
+      "capabilities": [
+        {
+          "label": "0°",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "90°",
+          "min": 21,
+          "max": 41
+        },
+        {
+          "label": "180°",
+          "min": 42,
+          "max": 62
+        },
+        {
+          "label": "270°",
+          "min": 63,
+          "max": 83
+        },
+        {
+          "label": "360°",
+          "min": 84,
+          "max": 104
+        },
+        {
+          "label": "450°",
+          "min": 105,
+          "max": 126
+        },
+        {
+          "label": "540°",
+          "min": 127,
+          "max": 127
+        },
+        {
+          "label": "Forwards Gobo Rotating Fast > Slow",
+          "min": 128,
+          "max": 190
+        },
+        {
+          "label": "No Rotation",
+          "min": 191,
+          "max": 192
+        },
+        {
+          "label": "Backwards Gobo Rotating Slow > Fast",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 20,
+      "type_description": "Prism Insertion",
+      "capabilities": [
+        {
+          "label": "Prism Excluded",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Prism Insertion",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 1,
+      "type_description": "Frost",
+      "capabilities": [
+        {
+          "label": "Frost 0 - 100%",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Effects Movement",
+      "capabilities": [
+        {
+          "label": "Effects Movement Near > Far",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Shutter Closed",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Strobe Slow > Fast (from 1/sec to 12/sec)",
+          "min": 4,
+          "max": 103
+        },
+        {
+          "label": "Shutter Open",
+          "min": 104,
+          "max": 107
+        },
+        {
+          "label": "Pulsation Slow > Fast",
+          "min": 108,
+          "max": 207
+        },
+        {
+          "label": "Shutter Open",
+          "min": 208,
+          "max": 212
+        },
+        {
+          "label": "Random Slow Strobe",
+          "min": 213,
+          "max": 225
+        },
+        {
+          "label": "Random Medium Strobe",
+          "min": 226,
+          "max": 238
+        },
+        {
+          "label": "Random Fast Strobe",
+          "min": 239,
+          "max": 251
+        },
+        {
+          "label": "Shutter Open",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 17,
+      "type_description": "Lamp Control",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 25
+        },
+        {
+          "label": "Lamp Off",
+          "min": 26,
+          "max": 100
+        },
+        {
+          "label": "Lamp On",
+          "min": 101,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 18,
+      "type_description": "Function",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 11
+        },
+        {
+          "label": "No function",
+          "min": 12,
+          "max": 24
+        },
+        {
+          "label": "No function",
+          "min": 25,
+          "max": 37
+        },
+        {
+          "label": "No function",
+          "min": 38,
+          "max": 50
+        },
+        {
+          "label": "No function",
+          "min": 51,
+          "max": 62
+        },
+        {
+          "label": "No function",
+          "min": 63,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 22,
+      "type_description": "Speed Color",
+      "capabilities": [
+        {
+          "label": "Speed Color",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 22,
+      "type_description": "Speed Focus",
+      "capabilities": [
+        {
+          "label": "Speed Focus",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 22,
+      "type_description": "Speed Gobo",
+      "capabilities": [
+        {
+          "label": "Speed Gobo",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 17,
+      "type_description": "Reset",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 79
+        },
+        {
+          "label": "All Motor Reset (8s)",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "Scan Motor Reset (8s)",
+          "min": 85,
+          "max": 87
+        },
+        {
+          "label": "Other Motor Reset (8s)",
+          "min": 88,
+          "max": 90
+        },
+        {
+          "label": "No function",
+          "min": 91,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Pro-Lights/Pro-Lights-Genesis.json",
+  "id": 1132
+}

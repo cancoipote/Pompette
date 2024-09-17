@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "label": "D'Artagnan 934SNX",
+  "manufacturer": "Robert Juliat",
+  "bulb_type": "HMI 2500",
+  "bulb_lumens": 240000,
+  "bulb_color_temperature": 6000,
+  "dimension_weight": 30,
+  "dimension_width": 415,
+  "dimension_height": 690,
+  "dimension_depth": 870,
+  "lens_label": "Other",
+  "lens_degree_min": 16,
+  "lens_degree_max": 39,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 3100,
+  "technical_dmx_connector": "5-pin",
+  "type": 2,
+  "channels": [
+    {
+      "index": 0,
+      "type": 17,
+      "type_description": "Lamp",
+      "capabilities": [
+        {
+          "label": "Lamp On",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Robert_Juliat/Robert-Juliat-DArtagnan-934SNX.json",
+  "id": 1185
+}

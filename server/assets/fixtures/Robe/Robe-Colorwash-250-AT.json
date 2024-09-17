@@ -1,0 +1,678 @@
+{
+  "version": "1.0.0",
+  "label": "ColorWash 250 AT",
+  "manufacturer": "Robe",
+  "bulb_type": "HTI 250W",
+  "bulb_lumens": 18000,
+  "bulb_color_temperature": 8500,
+  "dimension_weight": 20,
+  "dimension_width": 416,
+  "dimension_height": 513,
+  "dimension_depth": 438,
+  "lens_label": "Other",
+  "lens_degree_min": 8,
+  "lens_degree_max": 32,
+  "focus_type": "Head",
+  "focus_pan_max": 530,
+  "focus_tilt_max": 268,
+  "technical_power_consumption": 350,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 17,
+      "type_description": "Power/Special Function",
+      "capabilities": [
+        {
+          "label": "Reserved",
+          "min": 0,
+          "max": 49
+        },
+        {
+          "label": "Pan/Tilt speed mode",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Pan/Tilt time mode",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Blackout while pan/tilt",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Disable blackout while pan/tilt",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Blackout while colorwheel moving",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Disable Blackout while colorwheel moving",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Reserved",
+          "min": 110,
+          "max": 129
+        },
+        {
+          "label": "Lamp On",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Pan/Tilt Reset",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Color System Reset",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Reserved",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Dimmer Reset",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Zoom/Effect Wheel Reset",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Reserved",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Total Reset",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Reserved",
+          "min": 210,
+          "max": 229
+        },
+        {
+          "label": "Lamp Off",
+          "min": 230,
+          "max": 239
+        },
+        {
+          "label": "Reserved",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Pan/Tilt Macro",
+      "capabilities": [
+        {
+          "label": "Disabled pan/tilt macro",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Reserved",
+          "min": 10,
+          "max": 31
+        },
+        {
+          "label": "Figure of circle (from small to large)",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Figure of horizontal eight (from small to large)",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Figure of vertical eight (from small to large)",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Figure of rectangle (from small to large)",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Figure of triangle (from small to large)",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Figure of star (from small to large)",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Figure of cross (from small to large)",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Pan/Tilt Macro Speed",
+      "capabilities": [
+        {
+          "label": "No macro generation",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Macro generation from fast to slow-forwards",
+          "min": 1,
+          "max": 127
+        },
+        {
+          "label": "No macro generation",
+          "min": 128,
+          "max": 129
+        },
+        {
+          "label": "Macro generation from slow to fast-backwards",
+          "min": 130,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Color Wheel",
+      "capabilities": [
+        {
+          "label": "Open/white",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "White/Dark red",
+          "min": 1,
+          "max": 17
+        },
+        {
+          "label": "Dark red",
+          "min": 18,
+          "max": 18
+        },
+        {
+          "label": "Dark red/Dark blue",
+          "min": 19,
+          "max": 35
+        },
+        {
+          "label": "Dark blue",
+          "min": 36,
+          "max": 36
+        },
+        {
+          "label": "Dark blue/Green",
+          "min": 37,
+          "max": 53
+        },
+        {
+          "label": "Green",
+          "min": 54,
+          "max": 54
+        },
+        {
+          "label": "Green/3200K",
+          "min": 55,
+          "max": 71
+        },
+        {
+          "label": "CTF 3200K",
+          "min": 72,
+          "max": 72
+        },
+        {
+          "label": "3200K/6000K",
+          "min": 73,
+          "max": 89
+        },
+        {
+          "label": "CTF 6000K",
+          "min": 90,
+          "max": 90
+        },
+        {
+          "label": "6000K/UV",
+          "min": 91,
+          "max": 107
+        },
+        {
+          "label": "UV filter",
+          "min": 108,
+          "max": 108
+        },
+        {
+          "label": "UV/White",
+          "min": 109,
+          "max": 127
+        },
+        {
+          "label": "White",
+          "min": 128,
+          "max": 129
+        },
+        {
+          "label": "Dark red",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Dark blue",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Green",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "CTF 3200K",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "CTF 6000K",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "UV filter",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Forwards rainbow effect from fast to slow",
+          "min": 190,
+          "max": 215
+        },
+        {
+          "label": "No rotation",
+          "min": 216,
+          "max": 217
+        },
+        {
+          "label": "Backwards rainbow effect from slow to fast",
+          "min": 218,
+          "max": 243
+        },
+        {
+          "label": "Random colour selection by audio control",
+          "min": 244,
+          "max": 249
+        },
+        {
+          "label": "Auto random colour selection from fast to slow",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Color Wheel - Fine",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Cyan",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Magenta",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Yellow",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 22,
+      "type_description": "Speed of CMY + dimmer",
+      "capabilities": [
+        {
+          "label": "Speed from max. (0) to min.(255)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "CMY Color Macros",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Macro 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Macro 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Macro 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Macro 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Macro 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Macro 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Macro 7",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Macro 8",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Macro 9",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Macro 10",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Macro 11",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Macro 12",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Macro 13",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Macro 14",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Macro 15",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Macro 16",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Macro 17",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Macro 18",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Macro 19",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Macro 20",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Macro 21",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Macro 22",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Macro 23",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Macro 24",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Macro 25",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Macro 26",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Macro 27",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Macro 28",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Macro 29",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Macro 30 - Random rainbow effect from fast to slow",
+          "min": 240,
+          "max": 243
+        },
+        {
+          "label": "Random macro selection by audio control",
+          "min": 244,
+          "max": 249
+        },
+        {
+          "label": "Auto random macro selection from fast to slow",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 3,
+      "type_description": "Efeect Wheel",
+      "capabilities": [
+        {
+          "label": "Full Beam",
+          "min": 0,
+          "max": 70
+        },
+        {
+          "label": "Beam Shaper",
+          "min": 71,
+          "max": 179
+        },
+        {
+          "label": "Swivelling Beam",
+          "min": 180,
+          "max": 199
+        },
+        {
+          "label": "Frost Filter",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 21,
+      "type_description": "Shuttter, strobe",
+      "capabilities": [
+        {
+          "label": "Shutter Closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Shutter Open",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe Effect - Slow to Fast",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Shutter Open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Opening Pulse - Slow to Fast",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Closing pulse - Fast to Slow",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Shutter Open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random strobe-effect",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Shutter Open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Dimmer Fine",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Robe/Robe-Colorwash-250-AT.json",
+  "id": 1199
+}

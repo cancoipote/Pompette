@@ -1,0 +1,111 @@
+{
+  "version": "1.0.0",
+  "label": "Slimpar 18 RGB",
+  "manufacturer": "Sagitter",
+  "bulb_type": "LED",
+  "bulb_lumens": 4400,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 257,
+  "dimension_height": 250,
+  "dimension_depth": 130,
+  "lens_label": "Other",
+  "lens_degree_min": 25,
+  "lens_degree_max": 25,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 70,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Function",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "Color macro 1 (fade)",
+          "min": 64,
+          "max": 128
+        },
+        {
+          "label": "Color macro 2 (color change)",
+          "min": 129,
+          "max": 192
+        },
+        {
+          "label": "Sound mode (strobe)",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Color Macro Speed - Microphone Sensitivity",
+      "capabilities": [
+        {
+          "label": "Color macro speed (ch5) - Microphone sensitivity (ch5)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No Strobe",
+          "min": 0,
+          "max": 11
+        },
+        {
+          "label": "Strobe from min to max",
+          "min": 12,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Color Macro",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Sagitter/Sagitter-Slimpar-18-RGB.json",
+  "id": 1240
+}

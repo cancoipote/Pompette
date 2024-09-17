@@ -1,0 +1,714 @@
+{
+  "version": "1.0.0",
+  "label": "Movo Beam 100",
+  "manufacturer": "Cameo",
+  "bulb_type": "LED",
+  "bulb_lumens": 1480,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 5,
+  "dimension_width": 210,
+  "dimension_height": 299,
+  "dimension_depth": 210,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 130,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Strobe open",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Strobe slow -> fast <1Hz - 20Hz",
+          "min": 6,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 3,
+      "type_description": "Auto Program",
+      "capabilities": [
+        {
+          "label": "off",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Auto Program 1",
+          "min": 6,
+          "max": 36
+        },
+        {
+          "label": "Auto Program 2",
+          "min": 37,
+          "max": 67
+        },
+        {
+          "label": "Auto Program 3",
+          "min": 68,
+          "max": 98
+        },
+        {
+          "label": "Auto Program 4",
+          "min": 99,
+          "max": 129
+        },
+        {
+          "label": "Auto Program 5",
+          "min": 130,
+          "max": 160
+        },
+        {
+          "label": "Auto Program 6",
+          "min": 161,
+          "max": 191
+        },
+        {
+          "label": "Auto Program 7",
+          "min": 192,
+          "max": 222
+        },
+        {
+          "label": "Auto Program 8",
+          "min": 223,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Pan/Tilt Speed (Set Speed Auto Programs)",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 19,
+      "type_description": "Endless Pan rotation",
+      "capabilities": [
+        {
+          "label": "no function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "clockwise pan rotation (fast to slow)",
+          "min": 6,
+          "max": 126
+        },
+        {
+          "label": "no movement",
+          "min": 127,
+          "max": 128
+        },
+        {
+          "label": "counter clockwise pan rotation (slow to fast)",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 23,
+      "type_description": "Endless Tilt rotation",
+      "capabilities": [
+        {
+          "label": "no function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "clockwise tilt rotation (fast to slow)",
+          "min": 6,
+          "max": 126
+        },
+        {
+          "label": "no movement",
+          "min": 127,
+          "max": 128
+        },
+        {
+          "label": "counter clockwise tilt rotation (slow to fast)",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Dimmer fine",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 21,
+      "type_description": "Strobe functions",
+      "capabilities": [
+        {
+          "label": "Strobe open",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Strobe closed",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Pulse Random, slow -> fast",
+          "min": 11,
+          "max": 33
+        },
+        {
+          "label": "Ramp up Random, slow -> fast",
+          "min": 34,
+          "max": 56
+        },
+        {
+          "label": "Ramp down Random, slow -> fast",
+          "min": 57,
+          "max": 79
+        },
+        {
+          "label": "Random Strobe Effect, slow -> fast",
+          "min": 80,
+          "max": 102
+        },
+        {
+          "label": "Strobe Break Effect, 5s.....1s (Short burst with break)",
+          "min": 103,
+          "max": 127
+        },
+        {
+          "label": "Strobe slow -> fast <1Hz -20 Hz",
+          "min": 128,
+          "max": 250
+        },
+        {
+          "label": "Strobe open",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Colour Macro (override RGBW)",
+      "capabilities": [
+        {
+          "label": "Colour off",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Red",
+          "min": 6,
+          "max": 13
+        },
+        {
+          "label": "Amber",
+          "min": 14,
+          "max": 21
+        },
+        {
+          "label": "Yellow warm",
+          "min": 22,
+          "max": 29
+        },
+        {
+          "label": "Yellow",
+          "min": 30,
+          "max": 37
+        },
+        {
+          "label": "Green",
+          "min": 38,
+          "max": 45
+        },
+        {
+          "label": "Turquoise",
+          "min": 46,
+          "max": 53
+        },
+        {
+          "label": "Cyan",
+          "min": 54,
+          "max": 61
+        },
+        {
+          "label": "Blue",
+          "min": 62,
+          "max": 69
+        },
+        {
+          "label": "Lavender",
+          "min": 70,
+          "max": 77
+        },
+        {
+          "label": "Mauve",
+          "min": 78,
+          "max": 85
+        },
+        {
+          "label": "Magenta",
+          "min": 86,
+          "max": 93
+        },
+        {
+          "label": "Pink",
+          "min": 94,
+          "max": 101
+        },
+        {
+          "label": "Warm White",
+          "min": 102,
+          "max": 109
+        },
+        {
+          "label": "White",
+          "min": 110,
+          "max": 117
+        },
+        {
+          "label": "Cold White",
+          "min": 118,
+          "max": 125
+        },
+        {
+          "label": "Colour Jumping Stop",
+          "min": 126,
+          "max": 127
+        },
+        {
+          "label": "Colour Jumping Speed slow -> fast / Colour 1 -> 12",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Colour Fading Speed slow -> fast / Colour 1 -> 12",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 19,
+      "type_description": "Pan/Tilt Macro",
+      "capabilities": [
+        {
+          "label": "off",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "PAN \"small > big\"",
+          "min": 6,
+          "max": 40
+        },
+        {
+          "label": "TILT \"small > big\"",
+          "min": 41,
+          "max": 75
+        },
+        {
+          "label": "PAN / TILT \"small > big\"",
+          "min": 76,
+          "max": 110
+        },
+        {
+          "label": "PAN / TILT (invers) \"small > big\"",
+          "min": 111,
+          "max": 145
+        },
+        {
+          "label": "Circle \"small > big\"",
+          "min": 146,
+          "max": 180
+        },
+        {
+          "label": "Circle (invers) \"small > big\"",
+          "min": 181,
+          "max": 215
+        },
+        {
+          "label": "Random \"small > big\"",
+          "min": 216,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 3,
+      "type_description": "Set dimmer curve",
+      "capabilities": [
+        {
+          "label": "no function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Linear Dimmer Curve",
+          "min": 6,
+          "max": 63
+        },
+        {
+          "label": "Exponential Dimmer Curve",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Logarithmic Dimmer Curve",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "S-Curve Dimmer Curve",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Pan/Tilt Speed (Set Speed of Pan&Tilt / Auto Programs / Pan&Tilt Macros)",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 17,
+      "type_description": "Device settings",
+      "capabilities": [
+        {
+          "label": "no function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Blackout while Moving on (Hold 3s)",
+          "min": 6,
+          "max": 32
+        },
+        {
+          "label": "Blackout while Moving off (Hold 5s)",
+          "min": 33,
+          "max": 59
+        },
+        {
+          "label": "Invert Pan on (Hold 3s)",
+          "min": 60,
+          "max": 86
+        },
+        {
+          "label": "Invert Pan off(Hold 5s)",
+          "min": 87,
+          "max": 113
+        },
+        {
+          "label": "Invert Tilt on (Hold 3s)",
+          "min": 114,
+          "max": 140
+        },
+        {
+          "label": "Invert Tilt off (Hold 5s)",
+          "min": 141,
+          "max": 167
+        },
+        {
+          "label": "Silent Fan on (Hold 3s)",
+          "min": 168,
+          "max": 194
+        },
+        {
+          "label": "Silent Fan off (Hold 5s)",
+          "min": 195,
+          "max": 221
+        },
+        {
+          "label": "Reset All Functions (Hold 3s)",
+          "min": 222,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Dimmer Colour Ring",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 21,
+      "type_description": "Strobe Colour Ring",
+      "capabilities": [
+        {
+          "label": "Strobe open",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Strobe slow -> fast <1Hz - 20 Hz",
+          "min": 6,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Red1",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Green1",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Blue1",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Red2",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Green2",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "Blue2",
+      "capabilities": []
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "Red3",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 0,
+      "type_description": "Green3",
+      "capabilities": []
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "Blue3",
+      "capabilities": []
+    },
+    {
+      "index": 32,
+      "type": 0,
+      "type_description": "Red4",
+      "capabilities": []
+    },
+    {
+      "index": 33,
+      "type": 0,
+      "type_description": "Green4",
+      "capabilities": []
+    },
+    {
+      "index": 34,
+      "type": 0,
+      "type_description": "Blue4",
+      "capabilities": []
+    },
+    {
+      "index": 35,
+      "type": 0,
+      "type_description": "Colour Ring Macro (override RGB)",
+      "capabilities": [
+        {
+          "label": "Colour off",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Colour Macro 1 (Colour Jump)",
+          "min": 6,
+          "max": 13
+        },
+        {
+          "label": "Colour Macro 2 (Red 1 Step)",
+          "min": 14,
+          "max": 21
+        },
+        {
+          "label": "Colour Macro 3 (Green 1 Step)",
+          "min": 22,
+          "max": 29
+        },
+        {
+          "label": "Colour Macro 4 (Blue 1 Step)",
+          "min": 30,
+          "max": 37
+        },
+        {
+          "label": "Colour Macro 5 (Yellow 1 Step)",
+          "min": 38,
+          "max": 45
+        },
+        {
+          "label": "Colour Macro 6 (Cyan 1 Step)",
+          "min": 46,
+          "max": 53
+        },
+        {
+          "label": "Colour Macro 7 (Magenta 1 Step)",
+          "min": 54,
+          "max": 61
+        },
+        {
+          "label": "Colour Macro 8 (2step Magenta Yellow)",
+          "min": 62,
+          "max": 69
+        },
+        {
+          "label": "Colour Macro 9 (2step Red Green)",
+          "min": 70,
+          "max": 77
+        },
+        {
+          "label": "Colour Macro 10 (2step Red Blue)",
+          "min": 78,
+          "max": 85
+        },
+        {
+          "label": "Colour Macro 11 (2step Blue Yellow)",
+          "min": 86,
+          "max": 93
+        },
+        {
+          "label": "Colour Macro 12 (2step Green Blue)",
+          "min": 94,
+          "max": 101
+        },
+        {
+          "label": "Colour Macro 13 (2step Magenta Blue)",
+          "min": 102,
+          "max": 109
+        },
+        {
+          "label": "Colour Macro 14 (2step Green Yellow)",
+          "min": 110,
+          "max": 117
+        },
+        {
+          "label": "Colour Macro 15 (2step Cyan Magenta)",
+          "min": 118,
+          "max": 125
+        },
+        {
+          "label": "Colour Macro 16 (2step Cyan Red)",
+          "min": 126,
+          "max": 133
+        },
+        {
+          "label": "No function",
+          "min": 134,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "type": 22,
+      "type_description": "Colour Ring Macro Speed",
+      "capabilities": [
+        {
+          "label": "slow > fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Cameo/Cameo-Movo-Beam-100.json",
+  "id": 308
+}

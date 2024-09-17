@@ -1,0 +1,141 @@
+{
+  "version": "1.0.0",
+  "label": "Slim Par Pro VW",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 256,
+  "dimension_height": 285,
+  "dimension_depth": 87,
+  "lens_label": "Other",
+  "lens_degree_min": 21,
+  "lens_degree_max": 21,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 83,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Warm White",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Cool White",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "0-20Hz, slow to fast",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Auto Program",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 51
+        },
+        {
+          "label": 1,
+          "min": 52,
+          "max": 101
+        },
+        {
+          "label": 2,
+          "min": 102,
+          "max": 152
+        },
+        {
+          "label": 3,
+          "min": 153,
+          "max": 203
+        },
+        {
+          "label": 4,
+          "min": 204,
+          "max": 254
+        },
+        {
+          "label": 5,
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 22,
+      "type_description": "Auto Program Speed",
+      "capabilities": [
+        {
+          "label": "0-100%, slow to fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 22,
+      "type_description": "Dimming Speed",
+      "capabilities": [
+        {
+          "label": "Default",
+          "min": 0,
+          "max": 51
+        },
+        {
+          "label": "Linear",
+          "min": 52,
+          "max": 101
+        },
+        {
+          "label": "Non-linear 1",
+          "min": 102,
+          "max": 152
+        },
+        {
+          "label": "Non-linear 2",
+          "min": 153,
+          "max": 203
+        },
+        {
+          "label": "Non-linear 3",
+          "min": 204,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-Slim-Par-Pro-VW.json",
+  "id": 529
+}

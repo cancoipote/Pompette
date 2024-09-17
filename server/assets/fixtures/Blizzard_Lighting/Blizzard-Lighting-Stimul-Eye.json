@@ -1,0 +1,648 @@
+{
+  "version": "1.0.0",
+  "label": "Stimul-Eye",
+  "manufacturer": "Blizzard Lighting",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 223,
+  "dimension_height": 315,
+  "dimension_depth": 168,
+  "lens_label": "Other",
+  "lens_degree_min": 5,
+  "lens_degree_max": 40,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 250,
+  "technical_power_consumption": 52,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Fine Pan",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Fine Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 1,
+      "type_description": "Beam Angle + Lens Rotation",
+      "capabilities": [
+        {
+          "label": "Beam spread (narrow <--> wide)",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Clockwise rotation (slow <--> fast)",
+          "min": 128,
+          "max": 190
+        },
+        {
+          "label": "Counterclockwise rotation (fast <--> slow)",
+          "min": 191,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Color Wheel Rotation",
+      "capabilities": [
+        {
+          "label": "Slow <--> fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 5,
+      "type_description": "LED 1 Intensity",
+      "capabilities": [
+        {
+          "label": "0% <--> 100%",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 5,
+      "type_description": "LED 2 Intensity",
+      "capabilities": [
+        {
+          "label": "0% <--> 100%",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 5,
+      "type_description": "LED 3 Intensity",
+      "capabilities": [
+        {
+          "label": "0% <--> 100%",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 5,
+      "type_description": "LED 4 Intensity",
+      "capabilities": [
+        {
+          "label": "0% <--> 100%",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 5,
+      "type_description": "LED 5 Intensity",
+      "capabilities": [
+        {
+          "label": "0% <--> 100%",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 5,
+      "type_description": "LED 6 Intensity",
+      "capabilities": [
+        {
+          "label": "0% <--> 100%",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 5,
+      "type_description": "LED 7 (Center) Intensity",
+      "capabilities": [
+        {
+          "label": "0% <--> 100%",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 3,
+      "type_description": "Built-in Programs (Static & Dynamic Effects)",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Static 1",
+          "min": 5,
+          "max": 7
+        },
+        {
+          "label": "Dynamic 1",
+          "min": 8,
+          "max": 10
+        },
+        {
+          "label": "Static 2",
+          "min": 11,
+          "max": 13
+        },
+        {
+          "label": "Dynamic 2",
+          "min": 14,
+          "max": 16
+        },
+        {
+          "label": "Static 3",
+          "min": 17,
+          "max": 19
+        },
+        {
+          "label": "Dynamic 3",
+          "min": 20,
+          "max": 22
+        },
+        {
+          "label": "Static 4",
+          "min": 23,
+          "max": 25
+        },
+        {
+          "label": "Dynamic 4",
+          "min": 26,
+          "max": 28
+        },
+        {
+          "label": "Static 5",
+          "min": 29,
+          "max": 31
+        },
+        {
+          "label": "Dynamic 5",
+          "min": 32,
+          "max": 34
+        },
+        {
+          "label": "Static 6",
+          "min": 35,
+          "max": 37
+        },
+        {
+          "label": "Dynamic 6",
+          "min": 38,
+          "max": 40
+        },
+        {
+          "label": "Static 7",
+          "min": 41,
+          "max": 43
+        },
+        {
+          "label": "Dynamic 7",
+          "min": 44,
+          "max": 46
+        },
+        {
+          "label": "Static 8",
+          "min": 47,
+          "max": 49
+        },
+        {
+          "label": "Dynamic 8",
+          "min": 50,
+          "max": 52
+        },
+        {
+          "label": "Static 9",
+          "min": 53,
+          "max": 55
+        },
+        {
+          "label": "Dynamic 9",
+          "min": 56,
+          "max": 58
+        },
+        {
+          "label": "Static 10",
+          "min": 59,
+          "max": 61
+        },
+        {
+          "label": "Dynamic 10",
+          "min": 62,
+          "max": 64
+        },
+        {
+          "label": "Static 11",
+          "min": 65,
+          "max": 67
+        },
+        {
+          "label": "Dynamic 11",
+          "min": 68,
+          "max": 70
+        },
+        {
+          "label": "Static 12",
+          "min": 71,
+          "max": 73
+        },
+        {
+          "label": "Dynamic 12",
+          "min": 74,
+          "max": 76
+        },
+        {
+          "label": "Static 13",
+          "min": 77,
+          "max": 79
+        },
+        {
+          "label": "Dynamic 13",
+          "min": 80,
+          "max": 82
+        },
+        {
+          "label": "Static 14",
+          "min": 83,
+          "max": 85
+        },
+        {
+          "label": "Dynamic 14",
+          "min": 86,
+          "max": 88
+        },
+        {
+          "label": "Static 15",
+          "min": 89,
+          "max": 91
+        },
+        {
+          "label": "Dynamic 15",
+          "min": 92,
+          "max": 94
+        },
+        {
+          "label": "Static 16",
+          "min": 95,
+          "max": 97
+        },
+        {
+          "label": "Dynamic 16",
+          "min": 98,
+          "max": 100
+        },
+        {
+          "label": "Static 17",
+          "min": 101,
+          "max": 103
+        },
+        {
+          "label": "Dynamic 17",
+          "min": 104,
+          "max": 106
+        },
+        {
+          "label": "Static 18",
+          "min": 107,
+          "max": 109
+        },
+        {
+          "label": "Dynamic 18",
+          "min": 110,
+          "max": 112
+        },
+        {
+          "label": "Static 19",
+          "min": 113,
+          "max": 115
+        },
+        {
+          "label": "Dynamic 19",
+          "min": 116,
+          "max": 118
+        },
+        {
+          "label": "Static 20",
+          "min": 119,
+          "max": 121
+        },
+        {
+          "label": "Dynamic 20",
+          "min": 122,
+          "max": 124
+        },
+        {
+          "label": "Static 21",
+          "min": 125,
+          "max": 127
+        },
+        {
+          "label": "Dynamic 21",
+          "min": 128,
+          "max": 130
+        },
+        {
+          "label": "Static 22",
+          "min": 131,
+          "max": 133
+        },
+        {
+          "label": "Dynamic 22",
+          "min": 134,
+          "max": 136
+        },
+        {
+          "label": "Static 23",
+          "min": 137,
+          "max": 139
+        },
+        {
+          "label": "Dynamic 23",
+          "min": 140,
+          "max": 142
+        },
+        {
+          "label": "Static 24",
+          "min": 143,
+          "max": 145
+        },
+        {
+          "label": "Dynamic 24",
+          "min": 146,
+          "max": 148
+        },
+        {
+          "label": "Static 25",
+          "min": 149,
+          "max": 151
+        },
+        {
+          "label": "Dynamic 25",
+          "min": 152,
+          "max": 154
+        },
+        {
+          "label": "Static 26",
+          "min": 155,
+          "max": 157
+        },
+        {
+          "label": "Dynamic 26",
+          "min": 158,
+          "max": 160
+        },
+        {
+          "label": "Static 27",
+          "min": 161,
+          "max": 163
+        },
+        {
+          "label": "Dynamic 27",
+          "min": 164,
+          "max": 166
+        },
+        {
+          "label": "Static 28",
+          "min": 167,
+          "max": 169
+        },
+        {
+          "label": "Dynamic 28",
+          "min": 170,
+          "max": 172
+        },
+        {
+          "label": "Static 29",
+          "min": 173,
+          "max": 175
+        },
+        {
+          "label": "Dynamic 29",
+          "min": 176,
+          "max": 178
+        },
+        {
+          "label": "Static 30",
+          "min": 179,
+          "max": 181
+        },
+        {
+          "label": "Dynamic 30",
+          "min": 182,
+          "max": 184
+        },
+        {
+          "label": "Static 31",
+          "min": 185,
+          "max": 187
+        },
+        {
+          "label": "Dynamic 31",
+          "min": 188,
+          "max": 190
+        },
+        {
+          "label": "Static 32",
+          "min": 191,
+          "max": 193
+        },
+        {
+          "label": "Dynamic 32",
+          "min": 194,
+          "max": 196
+        },
+        {
+          "label": "Static 33",
+          "min": 197,
+          "max": 199
+        },
+        {
+          "label": "Dynamic 33",
+          "min": 200,
+          "max": 202
+        },
+        {
+          "label": "Static 34",
+          "min": 203,
+          "max": 205
+        },
+        {
+          "label": "Dynamic 34",
+          "min": 206,
+          "max": 208
+        },
+        {
+          "label": "Static 35",
+          "min": 209,
+          "max": 211
+        },
+        {
+          "label": "Dynamic 35",
+          "min": 212,
+          "max": 214
+        },
+        {
+          "label": "Static 36",
+          "min": 215,
+          "max": 217
+        },
+        {
+          "label": "Dynamic 36",
+          "min": 218,
+          "max": 220
+        },
+        {
+          "label": "Static 37",
+          "min": 221,
+          "max": 223
+        },
+        {
+          "label": "Dynamic 37",
+          "min": 224,
+          "max": 226
+        },
+        {
+          "label": "Static 38",
+          "min": 227,
+          "max": 229
+        },
+        {
+          "label": "Dynamic 38",
+          "min": 230,
+          "max": 232
+        },
+        {
+          "label": "Static 39",
+          "min": 233,
+          "max": 235
+        },
+        {
+          "label": "Dynamic 39",
+          "min": 236,
+          "max": 238
+        },
+        {
+          "label": "Static 40",
+          "min": 239,
+          "max": 241
+        },
+        {
+          "label": "Dynamic 40",
+          "min": 242,
+          "max": 244
+        },
+        {
+          "label": "No function",
+          "min": 245,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 22,
+      "type_description": "Built-in Program Speed",
+      "capabilities": [
+        {
+          "label": "Fast <--> slow",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 17,
+      "type_description": "Auto Run + System Reset",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 128
+        },
+        {
+          "label": "Auto run mode",
+          "min": 129,
+          "max": 249
+        },
+        {
+          "label": "Reset (after 6 seconds)",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 5,
+      "type_description": "LED 1-6 Intensity",
+      "capabilities": [
+        {
+          "label": "Intensity (0% -> 100%)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Blizzard_Lighting/Blizzard-Lighting-Stimul-Eye.json",
+  "id": 226
+}

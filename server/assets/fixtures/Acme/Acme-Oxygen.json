@@ -1,0 +1,1231 @@
+{
+  "version": "1.0.0",
+  "label": "Oxygen",
+  "manufacturer": "Acme",
+  "bulb_type": "LED",
+  "bulb_lumens": 4200,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 5,
+  "dimension_width": 216,
+  "dimension_height": 343,
+  "dimension_depth": 165,
+  "lens_label": "Other",
+  "lens_degree_min": 6,
+  "lens_degree_max": 40,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 230,
+  "technical_power_consumption": 340,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Dimmer fine",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Close",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Open",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Strobe (Slow to fast)",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "Open",
+          "min": 132,
+          "max": 139
+        },
+        {
+          "label": "Fast Close Slow Open (Slow to fast)",
+          "min": 140,
+          "max": 181
+        },
+        {
+          "label": "Open",
+          "min": 182,
+          "max": 189
+        },
+        {
+          "label": "Fast Open Slow Close (Slow to fast)",
+          "min": 190,
+          "max": 231
+        },
+        {
+          "label": "Open",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Random Strobe (Slow to fast)",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "CTO",
+      "capabilities": [
+        {
+          "label": "Null",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "8000K",
+          "min": 1,
+          "max": 4
+        },
+        {
+          "label": "7900K",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "7800K",
+          "min": 10,
+          "max": 13
+        },
+        {
+          "label": "7700K",
+          "min": 14,
+          "max": 18
+        },
+        {
+          "label": "7600K",
+          "min": 19,
+          "max": 22
+        },
+        {
+          "label": "7500K",
+          "min": 23,
+          "max": 27
+        },
+        {
+          "label": "7400K",
+          "min": 28,
+          "max": 31
+        },
+        {
+          "label": "7300K",
+          "min": 32,
+          "max": 36
+        },
+        {
+          "label": "7200K",
+          "min": 37,
+          "max": 40
+        },
+        {
+          "label": "7100K",
+          "min": 41,
+          "max": 45
+        },
+        {
+          "label": "7000K",
+          "min": 46,
+          "max": 49
+        },
+        {
+          "label": "6900K",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "6800K",
+          "min": 55,
+          "max": 58
+        },
+        {
+          "label": "6700K",
+          "min": 59,
+          "max": 63
+        },
+        {
+          "label": "6600K",
+          "min": 64,
+          "max": 67
+        },
+        {
+          "label": "6500K",
+          "min": 68,
+          "max": 72
+        },
+        {
+          "label": "6400K",
+          "min": 73,
+          "max": 76
+        },
+        {
+          "label": "6300K",
+          "min": 77,
+          "max": 81
+        },
+        {
+          "label": "6200K",
+          "min": 82,
+          "max": 85
+        },
+        {
+          "label": "6100K",
+          "min": 86,
+          "max": 90
+        },
+        {
+          "label": "6000K",
+          "min": 91,
+          "max": 94
+        },
+        {
+          "label": "5900K",
+          "min": 95,
+          "max": 99
+        },
+        {
+          "label": "5800K",
+          "min": 100,
+          "max": 103
+        },
+        {
+          "label": "5700K",
+          "min": 104,
+          "max": 108
+        },
+        {
+          "label": "5600K",
+          "min": 109,
+          "max": 112
+        },
+        {
+          "label": "5500K",
+          "min": 113,
+          "max": 117
+        },
+        {
+          "label": "5400K",
+          "min": 118,
+          "max": 121
+        },
+        {
+          "label": "5300K",
+          "min": 122,
+          "max": 126
+        },
+        {
+          "label": "5200K",
+          "min": 127,
+          "max": 130
+        },
+        {
+          "label": "5100K",
+          "min": 131,
+          "max": 135
+        },
+        {
+          "label": "5000K",
+          "min": 136,
+          "max": 139
+        },
+        {
+          "label": "4900K",
+          "min": 140,
+          "max": 144
+        },
+        {
+          "label": "4800K",
+          "min": 145,
+          "max": 148
+        },
+        {
+          "label": "4700K",
+          "min": 149,
+          "max": 153
+        },
+        {
+          "label": "4600K",
+          "min": 154,
+          "max": 157
+        },
+        {
+          "label": "4500K",
+          "min": 158,
+          "max": 162
+        },
+        {
+          "label": "4400K",
+          "min": 163,
+          "max": 166
+        },
+        {
+          "label": "4300K",
+          "min": 167,
+          "max": 171
+        },
+        {
+          "label": "4200K",
+          "min": 172,
+          "max": 175
+        },
+        {
+          "label": "4100K",
+          "min": 176,
+          "max": 180
+        },
+        {
+          "label": "4000K",
+          "min": 181,
+          "max": 184
+        },
+        {
+          "label": "3900K",
+          "min": 185,
+          "max": 189
+        },
+        {
+          "label": "3800K",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "3700K",
+          "min": 194,
+          "max": 198
+        },
+        {
+          "label": "3600K",
+          "min": 199,
+          "max": 202
+        },
+        {
+          "label": "3500K",
+          "min": 203,
+          "max": 207
+        },
+        {
+          "label": "3400K",
+          "min": 208,
+          "max": 211
+        },
+        {
+          "label": "3300K",
+          "min": 212,
+          "max": 216
+        },
+        {
+          "label": "3200K",
+          "min": 217,
+          "max": 220
+        },
+        {
+          "label": "3100K",
+          "min": 221,
+          "max": 225
+        },
+        {
+          "label": "3000K",
+          "min": 226,
+          "max": 229
+        },
+        {
+          "label": "2900K",
+          "min": 230,
+          "max": 234
+        },
+        {
+          "label": "2800K",
+          "min": 235,
+          "max": 238
+        },
+        {
+          "label": "2700K",
+          "min": 239,
+          "max": 243
+        },
+        {
+          "label": "2600K",
+          "min": 244,
+          "max": 247
+        },
+        {
+          "label": "2500K",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Color macro",
+      "capabilities": [
+        {
+          "label": "Null",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Color 1",
+          "min": 8,
+          "max": 11
+        },
+        {
+          "label": "Color 2",
+          "min": 12,
+          "max": 15
+        },
+        {
+          "label": "Color 3",
+          "min": 16,
+          "max": 19
+        },
+        {
+          "label": "Color 4",
+          "min": 20,
+          "max": 23
+        },
+        {
+          "label": "Color 5",
+          "min": 24,
+          "max": 27
+        },
+        {
+          "label": "Color 6",
+          "min": 28,
+          "max": 31
+        },
+        {
+          "label": "Color 7",
+          "min": 32,
+          "max": 35
+        },
+        {
+          "label": "Color 8",
+          "min": 36,
+          "max": 39
+        },
+        {
+          "label": "Color 9",
+          "min": 40,
+          "max": 43
+        },
+        {
+          "label": "Color 10",
+          "min": 44,
+          "max": 47
+        },
+        {
+          "label": "Color 11",
+          "min": 48,
+          "max": 51
+        },
+        {
+          "label": "Color 12",
+          "min": 52,
+          "max": 55
+        },
+        {
+          "label": "Color 13",
+          "min": 56,
+          "max": 59
+        },
+        {
+          "label": "Color 14",
+          "min": 60,
+          "max": 63
+        },
+        {
+          "label": "Color 15",
+          "min": 64,
+          "max": 67
+        },
+        {
+          "label": "Color 16",
+          "min": 68,
+          "max": 71
+        },
+        {
+          "label": "Color 17",
+          "min": 72,
+          "max": 75
+        },
+        {
+          "label": "Color 18",
+          "min": 76,
+          "max": 79
+        },
+        {
+          "label": "Color 19",
+          "min": 80,
+          "max": 83
+        },
+        {
+          "label": "Color 20",
+          "min": 84,
+          "max": 87
+        },
+        {
+          "label": "Color 21",
+          "min": 88,
+          "max": 91
+        },
+        {
+          "label": "Color 22",
+          "min": 92,
+          "max": 95
+        },
+        {
+          "label": "Color 23",
+          "min": 96,
+          "max": 99
+        },
+        {
+          "label": "Color 24",
+          "min": 100,
+          "max": 103
+        },
+        {
+          "label": "Color 25",
+          "min": 104,
+          "max": 107
+        },
+        {
+          "label": "Color 26",
+          "min": 108,
+          "max": 111
+        },
+        {
+          "label": "Color 27",
+          "min": 112,
+          "max": 115
+        },
+        {
+          "label": "Color 28",
+          "min": 116,
+          "max": 119
+        },
+        {
+          "label": "Color 29",
+          "min": 120,
+          "max": 123
+        },
+        {
+          "label": "Color 30",
+          "min": 124,
+          "max": 127
+        },
+        {
+          "label": "Color 31",
+          "min": 128,
+          "max": 131
+        },
+        {
+          "label": "Color 32",
+          "min": 132,
+          "max": 135
+        },
+        {
+          "label": "Clockwise Rotation, Fast to Slow",
+          "min": 136,
+          "max": 165
+        },
+        {
+          "label": "Counter-Clockwise Rotation, Slow to Fast",
+          "min": 166,
+          "max": 195
+        },
+        {
+          "label": "Red>Green (Fast to slow)",
+          "min": 196,
+          "max": 205
+        },
+        {
+          "label": "Red>Blue (Fast to slow)",
+          "min": 206,
+          "max": 215
+        },
+        {
+          "label": "Red>White (Fast to slow)",
+          "min": 216,
+          "max": 225
+        },
+        {
+          "label": "Green>Blue (Fast to slow)",
+          "min": 226,
+          "max": 235
+        },
+        {
+          "label": "Green>White (Fast to slow)",
+          "min": 236,
+          "max": 245
+        },
+        {
+          "label": "Blue>White (Fast to slow)",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 1,
+      "type_description": "Pixel select",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Pattern 1",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "Pattern 2",
+          "min": 8,
+          "max": 11
+        },
+        {
+          "label": "Pattern 3",
+          "min": 12,
+          "max": 15
+        },
+        {
+          "label": "Pattern 4",
+          "min": 16,
+          "max": 19
+        },
+        {
+          "label": "Pattern 5",
+          "min": 20,
+          "max": 23
+        },
+        {
+          "label": "Pattern 6",
+          "min": 24,
+          "max": 27
+        },
+        {
+          "label": "Pattern 7",
+          "min": 28,
+          "max": 31
+        },
+        {
+          "label": "Pattern 8",
+          "min": 32,
+          "max": 35
+        },
+        {
+          "label": "Pattern 9",
+          "min": 36,
+          "max": 39
+        },
+        {
+          "label": "Pattern 10",
+          "min": 40,
+          "max": 43
+        },
+        {
+          "label": "Pattern 11",
+          "min": 44,
+          "max": 47
+        },
+        {
+          "label": "Pattern 12",
+          "min": 48,
+          "max": 51
+        },
+        {
+          "label": "Pattern 13",
+          "min": 52,
+          "max": 55
+        },
+        {
+          "label": "Pattern 14",
+          "min": 56,
+          "max": 59
+        },
+        {
+          "label": "Pattern 15",
+          "min": 60,
+          "max": 63
+        },
+        {
+          "label": "Pattern 16",
+          "min": 64,
+          "max": 67
+        },
+        {
+          "label": "Pattern 17",
+          "min": 68,
+          "max": 71
+        },
+        {
+          "label": "Pattern 18",
+          "min": 72,
+          "max": 75
+        },
+        {
+          "label": "Pattern 19",
+          "min": 76,
+          "max": 79
+        },
+        {
+          "label": "Pattern 20",
+          "min": 80,
+          "max": 83
+        },
+        {
+          "label": "Pattern 21",
+          "min": 84,
+          "max": 87
+        },
+        {
+          "label": "Pattern 22",
+          "min": 88,
+          "max": 91
+        },
+        {
+          "label": "Pattern 23",
+          "min": 92,
+          "max": 95
+        },
+        {
+          "label": "Pattern 24",
+          "min": 96,
+          "max": 99
+        },
+        {
+          "label": "Pattern 25",
+          "min": 100,
+          "max": 103
+        },
+        {
+          "label": "Pattern 26",
+          "min": 104,
+          "max": 107
+        },
+        {
+          "label": "Pattern 27",
+          "min": 108,
+          "max": 111
+        },
+        {
+          "label": "Pattern 28",
+          "min": 112,
+          "max": 115
+        },
+        {
+          "label": "Pattern 29",
+          "min": 116,
+          "max": 119
+        },
+        {
+          "label": "Pattern 30",
+          "min": 120,
+          "max": 123
+        },
+        {
+          "label": "Pattern 31",
+          "min": 124,
+          "max": 127
+        },
+        {
+          "label": "Pattern 32",
+          "min": 128,
+          "max": 131
+        },
+        {
+          "label": "Pattern 33",
+          "min": 132,
+          "max": 135
+        },
+        {
+          "label": "Pattern 34",
+          "min": 136,
+          "max": 139
+        },
+        {
+          "label": "Pattern 35",
+          "min": 140,
+          "max": 143
+        },
+        {
+          "label": "Pattern 36",
+          "min": 144,
+          "max": 147
+        },
+        {
+          "label": "Pattern 37",
+          "min": 148,
+          "max": 151
+        },
+        {
+          "label": "Pattern 38",
+          "min": 152,
+          "max": 155
+        },
+        {
+          "label": "Pattern 39",
+          "min": 156,
+          "max": 159
+        },
+        {
+          "label": "Pattern 40",
+          "min": 160,
+          "max": 163
+        },
+        {
+          "label": "Pattern 41",
+          "min": 164,
+          "max": 167
+        },
+        {
+          "label": "Pattern 42",
+          "min": 168,
+          "max": 171
+        },
+        {
+          "label": "Pattern 43",
+          "min": 172,
+          "max": 175
+        },
+        {
+          "label": "Pattern 44",
+          "min": 176,
+          "max": 179
+        },
+        {
+          "label": "Pattern 45",
+          "min": 180,
+          "max": 183
+        },
+        {
+          "label": "Pattern 46",
+          "min": 184,
+          "max": 187
+        },
+        {
+          "label": "Pattern 47",
+          "min": 188,
+          "max": 191
+        },
+        {
+          "label": "Pattern 48",
+          "min": 192,
+          "max": 195
+        },
+        {
+          "label": "Pattern 49",
+          "min": 196,
+          "max": 199
+        },
+        {
+          "label": "Pattern 50",
+          "min": 200,
+          "max": 203
+        },
+        {
+          "label": "Pattern 51",
+          "min": 204,
+          "max": 207
+        },
+        {
+          "label": "Pattern 52",
+          "min": 208,
+          "max": 211
+        },
+        {
+          "label": "Pattern 53",
+          "min": 212,
+          "max": 215
+        },
+        {
+          "label": "Pattern 54",
+          "min": 216,
+          "max": 219
+        },
+        {
+          "label": "Pattern 55",
+          "min": 220,
+          "max": 223
+        },
+        {
+          "label": "Pattern 56",
+          "min": 224,
+          "max": 227
+        },
+        {
+          "label": "Pattern 57",
+          "min": 228,
+          "max": 231
+        },
+        {
+          "label": "Pattern 58",
+          "min": 232,
+          "max": 235
+        },
+        {
+          "label": "Pattern 59",
+          "min": 236,
+          "max": 239
+        },
+        {
+          "label": "Pattern 60",
+          "min": 240,
+          "max": 243
+        },
+        {
+          "label": "Random (Pattern 1-7)",
+          "min": 244,
+          "max": 247
+        },
+        {
+          "label": "Pattern 61",
+          "min": 248,
+          "max": 251
+        },
+        {
+          "label": "Open",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 3,
+      "type_description": "Pixel rotation",
+      "capabilities": [
+        {
+          "label": "Null",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Clockwise rotation (Fast to slow)",
+          "min": 32,
+          "max": 91
+        },
+        {
+          "label": "Null",
+          "min": 92,
+          "max": 101
+        },
+        {
+          "label": "Counter-Clockwise Rotation (Slow to fast)",
+          "min": 102,
+          "max": 161
+        },
+        {
+          "label": "Null",
+          "min": 162,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 17,
+      "type_description": "Function",
+      "capabilities": [
+        {
+          "label": "Null",
+          "min": 0,
+          "max": 79
+        },
+        {
+          "label": "Dimmer Speed: Smooth",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Dimmer Speed: Fast",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Null",
+          "min": 100,
+          "max": 139
+        },
+        {
+          "label": "Pan/Tilt Reset",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Effect Reset",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Null",
+          "min": 160,
+          "max": 199
+        },
+        {
+          "label": "Reset All",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Null",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Red 1",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Green 1",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Blue 1",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "White 1",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Red 2",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Green 2",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Blue 2",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "White 2",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Red 3",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Green 3",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Blue 3",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "White 3",
+      "capabilities": []
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "Red 4",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 0,
+      "type_description": "Green 4",
+      "capabilities": []
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "Blue 4",
+      "capabilities": []
+    },
+    {
+      "index": 32,
+      "type": 0,
+      "type_description": "White 4",
+      "capabilities": []
+    },
+    {
+      "index": 33,
+      "type": 0,
+      "type_description": "Red 5",
+      "capabilities": []
+    },
+    {
+      "index": 34,
+      "type": 0,
+      "type_description": "Green 5",
+      "capabilities": []
+    },
+    {
+      "index": 35,
+      "type": 0,
+      "type_description": "Blue 5",
+      "capabilities": []
+    },
+    {
+      "index": 36,
+      "type": 0,
+      "type_description": "White 5",
+      "capabilities": []
+    },
+    {
+      "index": 37,
+      "type": 0,
+      "type_description": "Red 6",
+      "capabilities": []
+    },
+    {
+      "index": 38,
+      "type": 0,
+      "type_description": "Green 6",
+      "capabilities": []
+    },
+    {
+      "index": 39,
+      "type": 0,
+      "type_description": "Blue 6",
+      "capabilities": []
+    },
+    {
+      "index": 40,
+      "type": 0,
+      "type_description": "White 6",
+      "capabilities": []
+    },
+    {
+      "index": 41,
+      "type": 0,
+      "type_description": "Red 7",
+      "capabilities": []
+    },
+    {
+      "index": 42,
+      "type": 0,
+      "type_description": "Green 7",
+      "capabilities": []
+    },
+    {
+      "index": 43,
+      "type": 0,
+      "type_description": "Blue 7",
+      "capabilities": []
+    },
+    {
+      "index": 44,
+      "type": 0,
+      "type_description": "White 7",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Acme/Acme-Oxygen.json",
+  "id": 5
+}

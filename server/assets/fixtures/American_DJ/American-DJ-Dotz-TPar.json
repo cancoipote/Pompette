@@ -1,0 +1,361 @@
+{
+  "version": "1.0.0",
+  "label": "Dotz TPar",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 16,
+  "dimension_width": 1000,
+  "dimension_height": 82,
+  "dimension_depth": 320,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 144,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 5,
+      "type_description": "Light 1",
+      "capabilities": [
+        {
+          "label": "OFF",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "ON",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 5,
+      "type_description": "Light 2",
+      "capabilities": [
+        {
+          "label": "OFF",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "ON",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Red 1",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Red 2",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Red 3",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Red 4",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Green 1",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Green 2",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Green 3",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Green 4",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Blue 1",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Blue 2",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Blue 3",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Blue 4",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Strobing",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 17,
+      "type_description": "Dimmer Curves",
+      "capabilities": [
+        {
+          "label": "Standard",
+          "min": 0,
+          "max": 41
+        },
+        {
+          "label": "Stage",
+          "min": 42,
+          "max": 84
+        },
+        {
+          "label": "TV",
+          "min": 85,
+          "max": 127
+        },
+        {
+          "label": "Architectural",
+          "min": 128,
+          "max": 170
+        },
+        {
+          "label": "Theater",
+          "min": 171,
+          "max": 213
+        },
+        {
+          "label": "Unit Setting",
+          "min": 214,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 5,
+      "type_description": "Master Dimmer / Speed / Sensitivity",
+      "capabilities": [
+        {
+          "label": "Ch4 16-135 Dimmer, Ch4 136-239 Speed, Ch4 240-255 Sense",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Color Macros & Program",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Red",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Green",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Blue",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Yellow",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Cyan",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Purple",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "White",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Colour1",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Colour2",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Colour3",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Colour4",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Colour5",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Colour6",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Colour7",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Colour8",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Colour Fade 1",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Colour Snake",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Colour Fade 2",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Colour Change",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Colour Flow 1",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Colour Flow 2",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Colour Flow 3",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Colour Flow 4",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Colour Flow 5",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Colour Flow 6",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Colour Flow 7",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Colour Flow 8",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Colour Flow 9",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Sound Active",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Dotz-TPar.json",
+  "id": 49
+}

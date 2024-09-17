@@ -1,0 +1,509 @@
+{
+  "version": "1.0.0",
+  "label": "MH-X25",
+  "manufacturer": "Stairville",
+  "bulb_type": "LED",
+  "bulb_lumens": 10000,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 10,
+  "dimension_width": 240,
+  "dimension_height": 370,
+  "dimension_depth": 280,
+  "lens_label": "PC",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 102,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Response speed",
+      "capabilities": [
+        {
+          "label": "Response speed (normal to slow)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Colour wheel",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Yellow",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "Pink",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "Green",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "Violet",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "Blue",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "Kelly-green",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "Red",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "Dark blue",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "White+Yellow",
+          "min": 45,
+          "max": 56
+        },
+        {
+          "label": "Yellow+Pink",
+          "min": 57,
+          "max": 65
+        },
+        {
+          "label": "Pink+Green",
+          "min": 66,
+          "max": 74
+        },
+        {
+          "label": "Green+Violet",
+          "min": 75,
+          "max": 83
+        },
+        {
+          "label": "Violet+Blue",
+          "min": 84,
+          "max": 92
+        },
+        {
+          "label": "Blue+Kelly-green",
+          "min": 93,
+          "max": 101
+        },
+        {
+          "label": "Kelly-green+Red",
+          "min": 102,
+          "max": 110
+        },
+        {
+          "label": "Dark blue+White",
+          "min": 111,
+          "max": 127
+        },
+        {
+          "label": "Rainbow effect in positive roration (speed)",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Rainbow effect in négative roration (speed)",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Closed (blackout)",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Open",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "Strobe (speed)",
+          "min": 8,
+          "max": 215
+        },
+        {
+          "label": "Open",
+          "min": 216,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 4,
+      "type_description": "Gobo Wheel",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Gobo 2",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Gobo 3",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Gobo 4",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Gobo 5",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Gobo 6",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Gobo 7",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Gobo 8",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Gobo 8 shake (speed)",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Gobo 7 shake (speed)",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Gobo 6 shake (speed)",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Gobo 5 shake (speed)",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Gobo 4 shake (speed)",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Gobo 3 shake (speed)",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Gobo 2 shake (speed)",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Open",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Rainbow effect in positive rotation direction (speed)",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Rainbow effect in negative rotation direction (speed)",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 22,
+      "type_description": "Gobo rotation",
+      "capabilities": [
+        {
+          "label": "Fixed",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "Positive rotation direction (speed)",
+          "min": 64,
+          "max": 147
+        },
+        {
+          "label": "Négative rotation direction (speed)",
+          "min": 148,
+          "max": 231
+        },
+        {
+          "label": "Bouncing",
+          "min": 232,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 17,
+      "type_description": "Special functions",
+      "capabilities": [
+        {
+          "label": "Unused",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Blackout during pan or tilt movement",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "No blackout during pan or tilt movement",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Blackout during colour wheel movement",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "No blackout during colour wheel movement",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Blackout during gobo wheel movement",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "No blackout during gobo wheel movement",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Unused",
+          "min": 56,
+          "max": 87
+        },
+        {
+          "label": "Blackout during movement",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Reset pan",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Reset tilt",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Reset colour wheel",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Reset gobo wheel",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Reset gobo rotation",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Reset prism",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Reset focus",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Reset all channels",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Unused",
+          "min": 160,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 3,
+      "type_description": "Built-in programs",
+      "capabilities": [
+        {
+          "label": "Unused",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Program 1",
+          "min": 8,
+          "max": 23
+        },
+        {
+          "label": "Program 2",
+          "min": 24,
+          "max": 39
+        },
+        {
+          "label": "Program 3",
+          "min": 40,
+          "max": 55
+        },
+        {
+          "label": "Program 4",
+          "min": 56,
+          "max": 71
+        },
+        {
+          "label": "Program 5",
+          "min": 72,
+          "max": 87
+        },
+        {
+          "label": "Program 6",
+          "min": 88,
+          "max": 103
+        },
+        {
+          "label": "Program 7",
+          "min": 104,
+          "max": 119
+        },
+        {
+          "label": "Program 8",
+          "min": 120,
+          "max": 135
+        },
+        {
+          "label": "Sound control 1",
+          "min": 136,
+          "max": 151
+        },
+        {
+          "label": "Sound control 2",
+          "min": 152,
+          "max": 167
+        },
+        {
+          "label": "Sound control 3",
+          "min": 168,
+          "max": 183
+        },
+        {
+          "label": "Sound control 4",
+          "min": 184,
+          "max": 199
+        },
+        {
+          "label": "Sound control 5",
+          "min": 200,
+          "max": 215
+        },
+        {
+          "label": "Sound control 6",
+          "min": 216,
+          "max": 231
+        },
+        {
+          "label": "Sound control 7",
+          "min": 232,
+          "max": 247
+        },
+        {
+          "label": "Sound control 8",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Stairville/Stairville-MH-X25.json",
+  "id": 1423
+}

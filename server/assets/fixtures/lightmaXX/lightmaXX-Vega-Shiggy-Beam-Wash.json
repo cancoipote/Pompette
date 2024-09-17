@@ -1,0 +1,447 @@
+{
+  "version": "1.0.0",
+  "label": "Vega Shiggy Beam Wash",
+  "manufacturer": "lightmaXX",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 180,
+  "dimension_height": 230,
+  "dimension_depth": 150,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 360,
+  "technical_power_consumption": 70,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan Position (X)",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 22,
+      "type_description": "Pan Movement Speed (X)",
+      "capabilities": [
+        {
+          "label": "empty",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Pan (X) Motor movement back and front (from slow to fast)",
+          "min": 8,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt Position (Y)",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 22,
+      "type_description": "Tilt Movement Speed (Y)",
+      "capabilities": [
+        {
+          "label": "empty",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Tilt (Y) Motor rotation (from slow to fast)",
+          "min": 8,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 17,
+      "type_description": "Switch Wash / Beam",
+      "capabilities": [
+        {
+          "label": "Y1 (Wash) Mode",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Y2 (Beam) Mode",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Strobe effect slow to fast",
+          "min": 5,
+          "max": 250
+        },
+        {
+          "label": "Shutter open",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Y1 RGB mixer",
+      "capabilities": [
+        {
+          "label": "empty",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Y1-R",
+          "min": 8,
+          "max": 16
+        },
+        {
+          "label": "Y1-G",
+          "min": 17,
+          "max": 25
+        },
+        {
+          "label": "Y1-B",
+          "min": 26,
+          "max": 34
+        },
+        {
+          "label": "Y1-W",
+          "min": 35,
+          "max": 43
+        },
+        {
+          "label": "Y1-RG",
+          "min": 44,
+          "max": 52
+        },
+        {
+          "label": "Y1-GB",
+          "min": 53,
+          "max": 61
+        },
+        {
+          "label": "Y1-BW",
+          "min": 62,
+          "max": 70
+        },
+        {
+          "label": "Y1-RW",
+          "min": 71,
+          "max": 79
+        },
+        {
+          "label": "Y1-RGB",
+          "min": 80,
+          "max": 88
+        },
+        {
+          "label": "Y1-GBW",
+          "min": 89,
+          "max": 97
+        },
+        {
+          "label": "Y1-RBW",
+          "min": 98,
+          "max": 106
+        },
+        {
+          "label": "Y1-RGW",
+          "min": 107,
+          "max": 115
+        },
+        {
+          "label": "Y1-RGBW",
+          "min": 116,
+          "max": 127
+        },
+        {
+          "label": "Y1-Macro color Lin (from slow to fast)",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Y2 RGB mixer",
+      "capabilities": [
+        {
+          "label": "empty",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Y2-R",
+          "min": 8,
+          "max": 16
+        },
+        {
+          "label": "Y2-G",
+          "min": 17,
+          "max": 25
+        },
+        {
+          "label": "Y2-B",
+          "min": 26,
+          "max": 34
+        },
+        {
+          "label": "Y2-W",
+          "min": 35,
+          "max": 43
+        },
+        {
+          "label": "Y2-RG",
+          "min": 44,
+          "max": 52
+        },
+        {
+          "label": "Y2-GB",
+          "min": 53,
+          "max": 61
+        },
+        {
+          "label": "Y2-BW",
+          "min": 62,
+          "max": 70
+        },
+        {
+          "label": "Y2-RW",
+          "min": 71,
+          "max": 79
+        },
+        {
+          "label": "Y2-RGB",
+          "min": 80,
+          "max": 88
+        },
+        {
+          "label": "Y2-GBW",
+          "min": 89,
+          "max": 97
+        },
+        {
+          "label": "Y2-RBW",
+          "min": 98,
+          "max": 106
+        },
+        {
+          "label": "Y2-RGW",
+          "min": 107,
+          "max": 115
+        },
+        {
+          "label": "Y2-RGBW",
+          "min": 116,
+          "max": 127
+        },
+        {
+          "label": "Y2-Macro color Lin (from slow to fast)",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 3,
+      "type_description": "LED Auto Play",
+      "capabilities": [
+        {
+          "label": "empty",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "LED Auto Play 1",
+          "min": 8,
+          "max": 37
+        },
+        {
+          "label": "LED Auto Play 2",
+          "min": 38,
+          "max": 67
+        },
+        {
+          "label": "LED Auto Play 3",
+          "min": 68,
+          "max": 97
+        },
+        {
+          "label": "LED Auto Play 4",
+          "min": 98,
+          "max": 127
+        },
+        {
+          "label": "LED Auto Play 5",
+          "min": 128,
+          "max": 157
+        },
+        {
+          "label": "LED Auto Play 6",
+          "min": 158,
+          "max": 187
+        },
+        {
+          "label": "LED Auto Play 7",
+          "min": 188,
+          "max": 217
+        },
+        {
+          "label": "Auto colour cycle",
+          "min": 218,
+          "max": 247
+        },
+        {
+          "label": "Sound to light",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 22,
+      "type_description": "LED Auto Play Speed",
+      "capabilities": [
+        {
+          "label": "LED Auto Play Spped (from slow to fast)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 3,
+      "type_description": "X/Y Auto Run",
+      "capabilities": [
+        {
+          "label": "empty",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Pan fast (auto run 1)",
+          "min": 8,
+          "max": 32
+        },
+        {
+          "label": "Tilt fast (auto run 2)",
+          "min": 33,
+          "max": 58
+        },
+        {
+          "label": "Pan middle (auto run 3)",
+          "min": 59,
+          "max": 84
+        },
+        {
+          "label": "Tilt middle (auto run 4)",
+          "min": 85,
+          "max": 110
+        },
+        {
+          "label": "Pan + Tilt fast (auto run 5)",
+          "min": 111,
+          "max": 136
+        },
+        {
+          "label": "Pan + Tilt middle (auto run 6)",
+          "min": 137,
+          "max": 162
+        },
+        {
+          "label": "Pan + Tilt 90° slow (auto run 7)",
+          "min": 163,
+          "max": 188
+        },
+        {
+          "label": "Pan + Tilt 45° slow (auto run 8)",
+          "min": 189,
+          "max": 214
+        },
+        {
+          "label": "Pan fast + Tilt swap (auto run 9)",
+          "min": 215,
+          "max": 240
+        },
+        {
+          "label": "Sound to movement Pan + Tilt",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 17,
+      "type_description": "Reset",
+      "capabilities": [
+        {
+          "label": "reset (105)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/lightmaXX/lightmaXX-Vega-Shiggy-Beam-Wash.json",
+  "id": 994
+}

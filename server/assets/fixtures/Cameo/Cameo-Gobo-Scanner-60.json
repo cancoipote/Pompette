@@ -1,0 +1,346 @@
+{
+  "version": "1.0.0",
+  "label": "Gobo Scanner 60",
+  "manufacturer": "Cameo",
+  "bulb_type": "CREE LED 60W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 205,
+  "dimension_height": 150,
+  "dimension_depth": 475,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 180,
+  "focus_tilt_max": 90,
+  "technical_power_consumption": 90,
+  "technical_dmx_connector": "3-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Colour wheel",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 13
+        },
+        {
+          "label": "Yellow",
+          "min": 14,
+          "max": 27
+        },
+        {
+          "label": "Magenta",
+          "min": 28,
+          "max": 41
+        },
+        {
+          "label": "Green",
+          "min": 42,
+          "max": 55
+        },
+        {
+          "label": "Violet",
+          "min": 56,
+          "max": 69
+        },
+        {
+          "label": "Cyan",
+          "min": 70,
+          "max": 83
+        },
+        {
+          "label": "Bright green",
+          "min": 84,
+          "max": 97
+        },
+        {
+          "label": "Amber",
+          "min": 98,
+          "max": 111
+        },
+        {
+          "label": "Dark red",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Forwards rainbow effect (slow - fast)",
+          "min": 128,
+          "max": 190
+        },
+        {
+          "label": "Backwards rainbow effect (slow - fast)",
+          "min": 191,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 4,
+      "type_description": "Gobo wheel",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Gobo 1",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Gobo 2",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Gobo 3",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Gobo 4",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Gobo 5",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Gobo 6",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Gobo 7",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Gobo 1 shake (speed)",
+          "min": 80,
+          "max": 99
+        },
+        {
+          "label": "Gobo 2 shake (speed)",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "Gobo 3 shake (speed)",
+          "min": 120,
+          "max": 139
+        },
+        {
+          "label": "Gobo 4 shake (speed)",
+          "min": 140,
+          "max": 159
+        },
+        {
+          "label": "Gobo 5 shake (speed)",
+          "min": 160,
+          "max": 179
+        },
+        {
+          "label": "Gobo 6 shake (speed)",
+          "min": 180,
+          "max": 199
+        },
+        {
+          "label": "Gobo 7 shake (speed)",
+          "min": 200,
+          "max": 219
+        },
+        {
+          "label": "Gobo wheel rotation (speed)",
+          "min": 220,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 4,
+      "type_description": "Gobo rotation",
+      "capabilities": [
+        {
+          "label": "Manual gobo rotation",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Forwards gobo rotation (slow - fast)",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "No function",
+          "min": 192,
+          "max": 195
+        },
+        {
+          "label": "Backwards gobo rotation (slow - fast)",
+          "min": 196,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Open",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Strobe effect 1 (slow - fast)",
+          "min": 20,
+          "max": 127
+        },
+        {
+          "label": "Open",
+          "min": 128,
+          "max": 137
+        },
+        {
+          "label": "Strobe effect 2 (slow - fast)",
+          "min": 138,
+          "max": 201
+        },
+        {
+          "label": "Open",
+          "min": 202,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Prism",
+          "min": 4,
+          "max": 127
+        },
+        {
+          "label": "Prism rotation (slow - fast)",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Function/program",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 59
+        },
+        {
+          "label": "Reset colour/gobo wheel",
+          "min": 60,
+          "max": 79
+        },
+        {
+          "label": "Reset all motors",
+          "min": 80,
+          "max": 99
+        },
+        {
+          "label": "Program 1",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "Program 2",
+          "min": 120,
+          "max": 139
+        },
+        {
+          "label": "Program 3",
+          "min": 140,
+          "max": 159
+        },
+        {
+          "label": "Program 4",
+          "min": 160,
+          "max": 179
+        },
+        {
+          "label": "Program 5",
+          "min": 180,
+          "max": 199
+        },
+        {
+          "label": "Program 6",
+          "min": 200,
+          "max": 219
+        },
+        {
+          "label": "Program 7",
+          "min": 220,
+          "max": 239
+        },
+        {
+          "label": "Program 8",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Cameo/Cameo-Gobo-Scanner-60.json",
+  "id": 296
+}

@@ -1,0 +1,46 @@
+<div class="fixtures-container">
+    <div class="fixtures-container-menu">
+        <div class="fixtures-container-title">
+
+          <div class="fixtures-container-title-line">
+            <i>Select fixture</i>
+            <div class="fixtures-container-title-line-separator"></div>
+            <button mat-button  class="fixtures-container-title-line-button" (click)="createFixture()">
+                create
+            </button>
+        </div>
+      </div>
+        <br>
+        <search-box class="fixtures-search" [disableFilters]="false" (onChange)="onSearch($event)"></search-box>
+        <mat-list class="fixtures-container-menu-list">
+            <mat-accordion class="fixtures-container-menu-list">
+                <mat-expansion-panel *ngFor="let manufacturer of manufacturers">
+                  <mat-expansion-panel-header>
+                    <mat-panel-title>
+                      {{ manufacturer.label }}
+                    </mat-panel-title>
+                  </mat-expansion-panel-header>
+                  <mat-list>
+                    <mat-list-item *ngFor="let fixture of manufacturer.fixtures" class="fixtures-container-menu-list-submenu-thumb">
+                        <button mat-button (click)="selectFixtures( manufacturer, fixture )">
+                            {{fixture.label}}
+                          </button>
+                    </mat-list-item>
+                  </mat-list>
+                </mat-expansion-panel>
+              </mat-accordion>
+        </mat-list>
+    </div>
+    <div class="fixtures-container-content">
+        <div *ngIf="manufacturer == null || fixture == null" class="fixtures-container-title"><i>Test Selected Feature</i></div>
+        <div *ngIf="manufacturer != null && fixture != null" class="fixtures-container-title"><i>{{manufacturer.label}} - {{fixture.label}} </i></div>
+        <br>
+        <div *ngIf="manufacturer != null && fixture != null">
+          <fixture 
+            [fixture]="fixture"  
+            [displayRemoveButton]="true"
+            (onRemove)="removeFixture(fixture)"
+          ></fixture>
+        </div>
+    </div>
+</div>

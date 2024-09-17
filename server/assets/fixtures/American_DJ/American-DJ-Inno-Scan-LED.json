@@ -1,0 +1,396 @@
+{
+  "version": "1.0.0",
+  "label": "Inno Scan LED",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 6,
+  "dimension_width": 208,
+  "dimension_height": 555,
+  "dimension_depth": 274,
+  "lens_label": "",
+  "lens_degree_min": 9,
+  "lens_degree_max": 9,
+  "focus_type": "Mirror",
+  "focus_pan_max": 180,
+  "focus_tilt_max": 70,
+  "technical_power_consumption": 103,
+  "technical_dmx_connector": "3-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Open",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Strobing Slow to Fast",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "Open",
+          "min": 132,
+          "max": 139
+        },
+        {
+          "label": "Fast Open - Slow Close",
+          "min": 140,
+          "max": 181
+        },
+        {
+          "label": "Open",
+          "min": 182,
+          "max": 189
+        },
+        {
+          "label": "Fast Close - Slow Open",
+          "min": 190,
+          "max": 231
+        },
+        {
+          "label": "Open",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Random Strobe",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 4,
+      "type_description": "Gobo Wheel",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Gobo 1",
+          "min": 10,
+          "max": 18
+        },
+        {
+          "label": "Gobo 2",
+          "min": 19,
+          "max": 27
+        },
+        {
+          "label": "Gobo 3",
+          "min": 28,
+          "max": 36
+        },
+        {
+          "label": "Gobo 4",
+          "min": 37,
+          "max": 45
+        },
+        {
+          "label": "Gobo 5",
+          "min": 46,
+          "max": 54
+        },
+        {
+          "label": "Gobo 6",
+          "min": 55,
+          "max": 63
+        },
+        {
+          "label": "Gobo 1 Shake",
+          "min": 64,
+          "max": 74
+        },
+        {
+          "label": "Gobo 2 Shake",
+          "min": 75,
+          "max": 85
+        },
+        {
+          "label": "Gobo 3 Shake",
+          "min": 86,
+          "max": 95
+        },
+        {
+          "label": "Gobo 4 Shake",
+          "min": 96,
+          "max": 106
+        },
+        {
+          "label": "Gobo 5 Shake",
+          "min": 107,
+          "max": 116
+        },
+        {
+          "label": "Gobo 6 Shake",
+          "min": 117,
+          "max": 127
+        },
+        {
+          "label": "Clockwise rotation Fast to Slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Counter - Clockwise rotation Slow to Fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Color Wheel",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 14
+        },
+        {
+          "label": "White/Red",
+          "min": 15,
+          "max": 21
+        },
+        {
+          "label": "Red",
+          "min": 22,
+          "max": 28
+        },
+        {
+          "label": "Red/Orange",
+          "min": 29,
+          "max": 35
+        },
+        {
+          "label": "Orange",
+          "min": 36,
+          "max": 42
+        },
+        {
+          "label": "Orange/Yellow",
+          "min": 43,
+          "max": 49
+        },
+        {
+          "label": "Yellow",
+          "min": 50,
+          "max": 56
+        },
+        {
+          "label": "Yellow/Green",
+          "min": 57,
+          "max": 63
+        },
+        {
+          "label": "Green",
+          "min": 64,
+          "max": 70
+        },
+        {
+          "label": "Green/Cyan",
+          "min": 71,
+          "max": 77
+        },
+        {
+          "label": "Cyan",
+          "min": 78,
+          "max": 84
+        },
+        {
+          "label": "Cyan/Magenta",
+          "min": 85,
+          "max": 91
+        },
+        {
+          "label": "Magenta",
+          "min": 92,
+          "max": 98
+        },
+        {
+          "label": "Magenta/Light Blue",
+          "min": 99,
+          "max": 105
+        },
+        {
+          "label": "Light Blue",
+          "min": 106,
+          "max": 112
+        },
+        {
+          "label": "Light Blue/Purple",
+          "min": 113,
+          "max": 119
+        },
+        {
+          "label": "Purple",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Clockwise rotation Fast to Slow",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "CCW rotation Slow to Fast",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 17,
+      "type_description": "Reset / Blackout",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 69
+        },
+        {
+          "label": "Enable blackout while Pan/Tilt move",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Disable blackout while Pan/Tilt move",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Enable blackout while Color Change",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Disable blackout while Color Change",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Enable blackout while Gobo Change",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Disable blackout while Gobo Change",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "No function",
+          "min": 130,
+          "max": 199
+        },
+        {
+          "label": "Reset All",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "No function",
+          "min": 210,
+          "max": 239
+        },
+        {
+          "label": "Sound Active",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 4,
+      "type_description": "Gobo Rotation",
+      "capabilities": [
+        {
+          "label": "Gobo Indexing",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Clockwise rotation Fast to Slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Counter - Clockwise rotation Slow to Fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Pan / Tilt Speed",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Inno-Scan-LED.json",
+  "id": 94
+}

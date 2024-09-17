@@ -1,0 +1,278 @@
+{
+  "version": "1.0.0",
+  "label": "LPC-017",
+  "manufacturer": "Betopper",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 223,
+  "dimension_height": 215,
+  "dimension_depth": 220,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 15,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Auto Speed",
+      "capabilities": [
+        {
+          "label": "Auto Speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Red 1",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Green 1",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Blue 1",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Red 2",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Green 2",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Blue 2",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Red 3",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Green 3",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Blue 3",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Red 4",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Green 4",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Blue 4",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 3,
+      "type_description": "Macro",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Red",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "Green",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "Blue",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "Grass green",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "Amber",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "Orange",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "Yellow",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "Cyan",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "Lavender",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "Pink",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "Rosiness",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "Magenta",
+          "min": 60,
+          "max": 64
+        },
+        {
+          "label": "Pea green",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "Orange",
+          "min": 70,
+          "max": 74
+        },
+        {
+          "label": "White",
+          "min": 75,
+          "max": 79
+        },
+        {
+          "label": "Ring control color",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "Ring control color",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "Ring control color",
+          "min": 90,
+          "max": 94
+        },
+        {
+          "label": "Ring control color",
+          "min": 95,
+          "max": 99
+        },
+        {
+          "label": "Ring control color",
+          "min": 100,
+          "max": 104
+        },
+        {
+          "label": "Ring control color",
+          "min": 105,
+          "max": 109
+        },
+        {
+          "label": "Colour jumping",
+          "min": 110,
+          "max": 129
+        },
+        {
+          "label": "Colour snap",
+          "min": 130,
+          "max": 149
+        },
+        {
+          "label": "Colour strobe",
+          "min": 150,
+          "max": 169
+        },
+        {
+          "label": "Colour fade",
+          "min": 170,
+          "max": 189
+        },
+        {
+          "label": "Ring control effect 1",
+          "min": 190,
+          "max": 209
+        },
+        {
+          "label": "Ring control effect 1",
+          "min": 210,
+          "max": 229
+        },
+        {
+          "label": "color jumping+mutation+strobe+ring control",
+          "min": 230,
+          "max": 249
+        },
+        {
+          "label": "Sound Control",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Betopper/Betopper-LPC017.json",
+  "id": 190
+}

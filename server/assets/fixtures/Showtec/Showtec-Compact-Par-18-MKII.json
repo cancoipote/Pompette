@@ -1,0 +1,200 @@
+{
+  "version": "1.0.0",
+  "label": "Compact Par 18 MKII",
+  "manufacturer": "Showtec",
+  "bulb_type": "LED",
+  "bulb_lumens": 9600,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 250,
+  "dimension_height": 290,
+  "dimension_depth": 96,
+  "lens_label": "Other",
+  "lens_degree_min": 28,
+  "lens_degree_max": 28,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 60,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red/Fade Speed",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Strobe Effect",
+      "capabilities": [
+        {
+          "label": "No effect",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobo effect",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Color program",
+      "capabilities": [
+        {
+          "label": "29 static color program Mode via Channel 2",
+          "min": 0,
+          "max": 24
+        },
+        {
+          "label": "Program 2 (7-color, gradual change) R, RG, G, GB, B, RB, RGB",
+          "min": 25,
+          "max": 49
+        },
+        {
+          "label": "Program 3 (3-color, gradual change) R, G, B",
+          "min": 50,
+          "max": 74
+        },
+        {
+          "label": "Program 4 (7-color, color switch) R, RG, G, GB, B, RB, RGB",
+          "min": 75,
+          "max": 99
+        },
+        {
+          "label": "Program 5 (3-color, color switch) R, G, B",
+          "min": 100,
+          "max": 124
+        },
+        {
+          "label": "Program 6 (fantasy change 1)",
+          "min": 125,
+          "max": 149
+        },
+        {
+          "label": "Program 7 (fantasy change 2)",
+          "min": 150,
+          "max": 174
+        },
+        {
+          "label": "Program 8 (red gradual change)",
+          "min": 175,
+          "max": 199
+        },
+        {
+          "label": "Program 9 (green gradual change)",
+          "min": 200,
+          "max": 224
+        },
+        {
+          "label": "Program 10 (blue gradual change)",
+          "min": 225,
+          "max": 249
+        },
+        {
+          "label": "Sound controller",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Color Macros",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Red",
+          "min": 1,
+          "max": 22
+        },
+        {
+          "label": "Green",
+          "min": 23,
+          "max": 45
+        },
+        {
+          "label": "Blue",
+          "min": 46,
+          "max": 68
+        },
+        {
+          "label": "Green",
+          "min": 69,
+          "max": 91
+        },
+        {
+          "label": "Yellow",
+          "min": 92,
+          "max": 114
+        },
+        {
+          "label": "Orange",
+          "min": 115,
+          "max": 137
+        },
+        {
+          "label": "Pink",
+          "min": 138,
+          "max": 160
+        },
+        {
+          "label": "Purple",
+          "min": 161,
+          "max": 183
+        },
+        {
+          "label": "Dark Blue",
+          "min": 184,
+          "max": 206
+        },
+        {
+          "label": "Light Green",
+          "min": 207,
+          "max": 229
+        },
+        {
+          "label": "White",
+          "min": 230,
+          "max": 252
+        },
+        {
+          "label": "Warm White",
+          "min": 253,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Showtec/Showtec-Compact-Par-18-MKII.json",
+  "id": 1276
+}

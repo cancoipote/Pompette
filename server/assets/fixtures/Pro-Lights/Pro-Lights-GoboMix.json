@@ -1,0 +1,75 @@
+{
+  "version": "1.0.0",
+  "label": "GoboMix",
+  "manufacturer": "Pro-Lights",
+  "bulb_type": "LED",
+  "bulb_lumens": 1200,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 236,
+  "dimension_height": 108,
+  "dimension_depth": 205,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 30,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Strobe (Slow to Fast)",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 3,
+      "type_description": "Gobo Rotating",
+      "capabilities": [
+        {
+          "label": "Gobos rotating, mirror dish rotating",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "Gobos rotating, mirror dish static",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Gobos static, mirror dish rotating",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Gobo static, mirror dish static",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Pro-Lights/Pro-Lights-GoboMix.json",
+  "id": 1135
+}

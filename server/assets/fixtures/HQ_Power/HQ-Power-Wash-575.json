@@ -1,0 +1,443 @@
+{
+  "version": "1.0.0",
+  "label": "Aeron Wash 575",
+  "manufacturer": "HQ Power",
+  "bulb_type": "MSR 575W",
+  "bulb_lumens": 49000,
+  "bulb_color_temperature": 5500,
+  "dimension_weight": 32,
+  "dimension_width": 449,
+  "dimension_height": 583,
+  "dimension_depth": 467,
+  "lens_label": "Fresnel",
+  "lens_degree_min": 7,
+  "lens_degree_max": 28,
+  "focus_type": "Fixed",
+  "focus_pan_max": 530,
+  "focus_tilt_max": 280,
+  "technical_power_consumption": 575,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": [
+        {
+          "label": "Max. speed (tracking mode)",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "From max. to min. speed (vector mode)",
+          "min": 1,
+          "max": 249
+        },
+        {
+          "label": "Max. speed, blackout while P/T/colour change",
+          "min": 250,
+          "max": 252
+        },
+        {
+          "label": "Max Speed Vector Mode BO Mov/Color",
+          "min": 253,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 17,
+      "type_description": "Control",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 199
+        },
+        {
+          "label": "LAMP OFF",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "LAMP ON",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "No function",
+          "min": 216,
+          "max": 239
+        },
+        {
+          "label": "RESET",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "No function",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Colours",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Red",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Yellow",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Rose",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Green",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Magenta",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Blue",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Pink",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Rainbow Back",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Rainbow Forward",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Shutter Closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Open",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe >>",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Strobe Random >>",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Cyan",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Magenta",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Yellow",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 22,
+      "type_description": "Speed CMY/Dimmer",
+      "capabilities": [
+        {
+          "label": "Max to Min",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Color Macros",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Macro 1",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Macro 2",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Macro 3",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Macro 4",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Macro 5",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Macro 6",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Macro 7",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Macro 8",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Macro 9",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Macro 10",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Macro 11",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Macro 12",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Macro 13",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Macro 14",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Macro 15",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Macro 16",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Macro 17",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Macro 18",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Macro 19",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Macro 20",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Macro 21",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Macro 22",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Macro 23",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Macro 24",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Macro 25",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Macro 26",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Macro 27",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Macro 28",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Macro 29",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Macro 30",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 1,
+      "type_description": "Beam",
+      "capabilities": [
+        {
+          "label": "Full Beam",
+          "min": 0,
+          "max": 70
+        },
+        {
+          "label": "Beam Shaper",
+          "min": 71,
+          "max": 230
+        },
+        {
+          "label": "Frost",
+          "min": 231,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Zoom 28°-7°",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/HQ_Power/HQ-Power-Wash-575.json",
+  "id": 873
+}

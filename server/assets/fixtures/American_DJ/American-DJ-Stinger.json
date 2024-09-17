@@ -1,0 +1,285 @@
+{
+  "version": "1.0.0",
+  "label": "Stinger",
+  "manufacturer": "American DJ",
+  "bulb_type": "",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 5,
+  "dimension_width": 229,
+  "dimension_height": 248,
+  "dimension_depth": 305,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 70,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Auto Run/Sound Active",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Six colors LED auto run",
+          "min": 10,
+          "max": 39
+        },
+        {
+          "label": "White LEDs auto run",
+          "min": 40,
+          "max": 69
+        },
+        {
+          "label": "Laser auto run",
+          "min": 70,
+          "max": 99
+        },
+        {
+          "label": "Auto run mixing",
+          "min": 100,
+          "max": 129
+        },
+        {
+          "label": "Six colors & strobing",
+          "min": 130,
+          "max": 159
+        },
+        {
+          "label": "Laser & strobing",
+          "min": 160,
+          "max": 189
+        },
+        {
+          "label": "LEDs, laser & strobing",
+          "min": 190,
+          "max": 219
+        },
+        {
+          "label": "DMX mode",
+          "min": 220,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Flower",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Color macros",
+          "min": 10,
+          "max": 198
+        },
+        {
+          "label": "Color chase 1",
+          "min": 199,
+          "max": 225
+        },
+        {
+          "label": "Color chase 2",
+          "min": 226,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Auto Run Speed",
+      "capabilities": [
+        {
+          "label": "Slow - fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "LED Strobe",
+      "capabilities": [
+        {
+          "label": "No strobe",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Slow - fast",
+          "min": 10,
+          "max": 244
+        },
+        {
+          "label": "Sound active strobing",
+          "min": 245,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "White LEDs",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "White output position",
+          "min": 10,
+          "max": 135
+        },
+        {
+          "label": "White output chase",
+          "min": 136,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "White LED Strobe",
+      "capabilities": [
+        {
+          "label": "Chase slow - fast (no strobe)",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Chase slow - fast (strobing)",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Lasers",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red laser",
+          "min": 10,
+          "max": 49
+        },
+        {
+          "label": "Green laser",
+          "min": 50,
+          "max": 89
+        },
+        {
+          "label": "Red & green lasers",
+          "min": 90,
+          "max": 129
+        },
+        {
+          "label": "Red & green lasers flicker",
+          "min": 130,
+          "max": 169
+        },
+        {
+          "label": "Green & red lasers flicker",
+          "min": 170,
+          "max": 209
+        },
+        {
+          "label": "Red & green lasers flicker sync",
+          "min": 210,
+          "max": 249
+        },
+        {
+          "label": "Red & green lasers alternate flicker",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Laser Strobe Control",
+      "capabilities": [
+        {
+          "label": "No strobe",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobing slow - fast",
+          "min": 10,
+          "max": 244
+        },
+        {
+          "label": "Sound active strobing",
+          "min": 245,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "LED Rotation",
+      "capabilities": [
+        {
+          "label": "No rotation",
+          "min": 0,
+          "max": 8
+        },
+        {
+          "label": "Clockwise rotation slow - fast",
+          "min": 9,
+          "max": 127
+        },
+        {
+          "label": "Counter-clockwise rotation slow - fast",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Laser rotation",
+      "capabilities": [
+        {
+          "label": "Laser patterns",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Pattern chase slow - fast",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Stinger.json",
+  "id": 142
+}

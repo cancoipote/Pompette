@@ -1,0 +1,192 @@
+{
+  "version": "1.0.0",
+  "label": "PAR64 CX-6 RGBWAUV",
+  "manufacturer": "Stairville",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 275,
+  "dimension_height": 410,
+  "dimension_depth": 270,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 170,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "UV",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Operating Mode Selection",
+      "capabilities": [
+        {
+          "label": "Constant Colour set by Channels 2-5",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "Automatic colour change with 14 colours, channels 2 to 7 without function",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Automatic colour change with 24 colours, channels 2 to 7 without function",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Automatic colour change with 6 colours, channels 2 to 7 without function",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 22,
+      "type_description": "Effects Speed and Sound Control Sensitivity",
+      "capabilities": [
+        {
+          "label": "No Automatic Colour Change",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Automatic colour change as set by channel 1, decreasing speed from fast to slow if channel 1 = 64…127. Automatic colour change as set by channel 1, increasing speed from slow to fast if channel 1 = 128…191. d control sensitivity (from low to high sensitivity) if channel 1 = 192…255",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Fixed Colour Pattern",
+      "capabilities": [
+        {
+          "label": "No fixed colour pattern",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "One of 31 preprogrammed colours, channels 8 and 9 without function",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Full brightness, no strobe effect",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Strobe effect, increasing speed, if channel 7 = 0…15",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Operating Mode Selection 2",
+      "capabilities": [
+        {
+          "label": "Constant colour, the hue is set by channels 1 to 6",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Fade-out effect, speed controlled by channel 8",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Fade-in effect, speed controlled by channel 8",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Fade-in-out effect, speed controlled by channel 8",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Auto-mix effect, speed controlled by channel 8, channels 1 to 7 without function",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Chase (4 colours), speed controlled by channel 8, channels 1 to 7 without function",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Chase (12 colours), speed controlled by channel 8, channels 1 to 7 without function",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Sound Control",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Stairville/Stairville-PAR64-CX-6-RGBWAUV.json",
+  "id": 1435
+}

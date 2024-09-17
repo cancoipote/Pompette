@@ -1,0 +1,110 @@
+{
+  "version": "1.0.0",
+  "label": "SlimPAR Q12BT",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 2893,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 275,
+  "dimension_height": 74,
+  "dimension_depth": 279,
+  "lens_label": "Other",
+  "lens_degree_min": 18,
+  "lens_degree_max": 18,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 49,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Auto Program",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Program 1",
+          "min": 6,
+          "max": 55
+        },
+        {
+          "label": "Program 2",
+          "min": 56,
+          "max": 106
+        },
+        {
+          "label": "Program 3",
+          "min": 107,
+          "max": 157
+        },
+        {
+          "label": "Program 4",
+          "min": 158,
+          "max": 208
+        },
+        {
+          "label": "Program 5",
+          "min": 209,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 22,
+      "type_description": "Auto Program Speed",
+      "capabilities": [
+        {
+          "label": "Speed, slow to fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-SlimPAR-Q12BT.json",
+  "id": 542
+}

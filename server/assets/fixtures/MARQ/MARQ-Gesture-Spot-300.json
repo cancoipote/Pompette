@@ -1,0 +1,490 @@
+{
+  "version": "1.0.0",
+  "label": "Gesture Spot 300",
+  "manufacturer": "MARQ",
+  "bulb_type": "LED",
+  "bulb_lumens": 41700,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 5,
+  "dimension_width": 240,
+  "dimension_height": 320,
+  "dimension_depth": 220,
+  "lens_label": "Other",
+  "lens_degree_min": 18,
+  "lens_degree_max": 18,
+  "focus_type": "Fixed",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 84,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Open",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "Strobe Slow to Fast",
+          "min": 8,
+          "max": 76
+        },
+        {
+          "label": "Pulse Slow to Fast",
+          "min": 77,
+          "max": 145
+        },
+        {
+          "label": "Random Strobe Slow to Fast",
+          "min": 146,
+          "max": 215
+        },
+        {
+          "label": "Open",
+          "min": 216,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Gobo 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Gobo 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Gobo 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Gobo 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Gobo 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Gobo 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Gobo 7",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Open Shaking Slow to Fast",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Gobo 1 Shaking Slow to Fast",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Gobo 2 Shaking Slow to Fast",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Gobo 3 Shaking Slow to Fast",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Gobo 4 Shaking Slow to Fast",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Gobo 5 Shaking Slow to Fast",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Gobo 6 Shaking Slow to Fast",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Gobo 7 Shaking Slow to Fast",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Counterclockwise Gobo Change Slow to Fast",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "STOP",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Clockwise Gobo Change Slow to Fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 4,
+      "type_description": "Gobo Rotation",
+      "capabilities": [
+        {
+          "label": "Indexed position 0 to 360",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Counterclockwise gobo scroll fast to slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "STOP",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Clockwise gobo scroll slow to fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "ON",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Macro Effects",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Auto move 1",
+          "min": 8,
+          "max": 23
+        },
+        {
+          "label": "Auto move 2",
+          "min": 24,
+          "max": 39
+        },
+        {
+          "label": "Auto move 3",
+          "min": 40,
+          "max": 55
+        },
+        {
+          "label": "Auto move 4",
+          "min": 56,
+          "max": 71
+        },
+        {
+          "label": "Auto move 5",
+          "min": 72,
+          "max": 87
+        },
+        {
+          "label": "Auto move 6",
+          "min": 88,
+          "max": 103
+        },
+        {
+          "label": "Auto move 7",
+          "min": 104,
+          "max": 119
+        },
+        {
+          "label": "Auto move 8",
+          "min": 120,
+          "max": 135
+        },
+        {
+          "label": "Sound Active 1",
+          "min": 136,
+          "max": 151
+        },
+        {
+          "label": "Sound Active 2",
+          "min": 152,
+          "max": 167
+        },
+        {
+          "label": "Sound Active 3",
+          "min": 168,
+          "max": 183
+        },
+        {
+          "label": "Sound Active 4",
+          "min": 184,
+          "max": 199
+        },
+        {
+          "label": "Sound Active 5",
+          "min": 200,
+          "max": 215
+        },
+        {
+          "label": "Sound Active 6",
+          "min": 216,
+          "max": 231
+        },
+        {
+          "label": "Sound Active 7",
+          "min": 232,
+          "max": 247
+        },
+        {
+          "label": "Sound Active 8",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 3,
+      "type_description": "Control",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 49
+        },
+        {
+          "label": "Blackout During Pan/Tilt or Colour/Gobo Change",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Disable Blackout During Pan/Tilt or Colour/Gobo Change",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Blackout During Pan/Tilt",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Disable Blackout During Pan/Tilt",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Blackout During Colour Change",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Disable Blackout During Colour Change",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Blackout During Gobo Change",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Disable Blackout During Gobo Change",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "No function",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Reset Pan / Tilt",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Reset Colour / Gobo / Prism",
+          "min": 150,
+          "max": 169
+        },
+        {
+          "label": "No function",
+          "min": 170,
+          "max": 199
+        },
+        {
+          "label": "Reset All",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "No function",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 6
+        },
+        {
+          "label": "Red",
+          "min": 7,
+          "max": 13
+        },
+        {
+          "label": "Green",
+          "min": 14,
+          "max": 20
+        },
+        {
+          "label": "Blue",
+          "min": 21,
+          "max": 27
+        },
+        {
+          "label": "Yellow",
+          "min": 28,
+          "max": 34
+        },
+        {
+          "label": "Purple",
+          "min": 35,
+          "max": 41
+        },
+        {
+          "label": "Light Blue",
+          "min": 42,
+          "max": 48
+        },
+        {
+          "label": "Orange",
+          "min": 49,
+          "max": 55
+        },
+        {
+          "label": "Pink",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Colour Indexing",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Clockwise Fast to Slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "STOP",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Counterclockwise Slow to Fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/MARQ/MARQ-Gesture-Spot-300.json",
+  "id": 1028
+}

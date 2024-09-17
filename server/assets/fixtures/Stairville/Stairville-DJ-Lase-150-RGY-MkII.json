@@ -1,0 +1,300 @@
+{
+  "version": "1.0.0",
+  "label": "DJ Lase 150-RGY MkII",
+  "manufacturer": "Stairville",
+  "bulb_type": "",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 160,
+  "dimension_height": 80,
+  "dimension_depth": 160,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 12,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Mode Selection",
+      "capabilities": [
+        {
+          "label": "Auto, red+green+yellow",
+          "min": 0,
+          "max": 29
+        },
+        {
+          "label": "Auto, green",
+          "min": 30,
+          "max": 59
+        },
+        {
+          "label": "Auto, red",
+          "min": 60,
+          "max": 89
+        },
+        {
+          "label": "Auto, yellow",
+          "min": 90,
+          "max": 119
+        },
+        {
+          "label": "Sound-controlled, red+green+yellow",
+          "min": 120,
+          "max": 149
+        },
+        {
+          "label": "Sound-controlled, green",
+          "min": 150,
+          "max": 179
+        },
+        {
+          "label": "Sound-controlled, red",
+          "min": 180,
+          "max": 209
+        },
+        {
+          "label": "Sound-controlled, yellow",
+          "min": 210,
+          "max": 239
+        },
+        {
+          "label": "DMX mode",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Pattern Selection",
+      "capabilities": [
+        {
+          "label": "From list",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Colour Selection",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 24
+        },
+        {
+          "label": "Original pre-programmed",
+          "min": 25,
+          "max": 49
+        },
+        {
+          "label": "Red",
+          "min": 50,
+          "max": 74
+        },
+        {
+          "label": "Green",
+          "min": 75,
+          "max": 99
+        },
+        {
+          "label": "Yellow",
+          "min": 100,
+          "max": 124
+        },
+        {
+          "label": "Alternating red and green",
+          "min": 125,
+          "max": 149
+        },
+        {
+          "label": "Alternating red and yellow",
+          "min": 150,
+          "max": 174
+        },
+        {
+          "label": "Alternating green and yellow",
+          "min": 175,
+          "max": 199
+        },
+        {
+          "label": "Alternating red, green and yellow",
+          "min": 200,
+          "max": 224
+        },
+        {
+          "label": "Colour rolling",
+          "min": 225,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 22,
+      "type_description": "Colour Changing Speed",
+      "capabilities": [
+        {
+          "label": "No change",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Speed increasing",
+          "min": 5,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 1,
+      "type_description": "Zoom",
+      "capabilities": [
+        {
+          "label": "Fixed (100% to 5%)",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Zoom-in effect, speed increasing",
+          "min": 128,
+          "max": 169
+        },
+        {
+          "label": "Zoom-out effect, speed increasing",
+          "min": 170,
+          "max": 209
+        },
+        {
+          "label": "Zoom-in and zoom-out effect, speed increasing",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "X Axis Rotation",
+      "capabilities": [
+        {
+          "label": "0° to 359° position",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Clockwise rolling effect, speed increasing",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Anti-clockwise rolling effect, speed increasing",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Y Axis Rotation",
+      "capabilities": [
+        {
+          "label": "0° to 359° position",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Clockwise rolling effect, speed increasing",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Anti-clockwise rolling effect, speed increasing",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Z Axis Rotation",
+      "capabilities": [
+        {
+          "label": "0° to 359° position",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Clockwise rolling effect, speed increasing",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Anti-clockwise rolling effect, speed increasing",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "X Axis Moving",
+      "capabilities": [
+        {
+          "label": "128 different fixed positions",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Clockwise moving effect, speed increasing",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Anti-clockwise moving effect, speed increasing",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Y Axis Moving",
+      "capabilities": [
+        {
+          "label": "128 different fixed positions",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Clockwise moving effect, speed increasing",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Anti-clockwise moving effect, speed increasing",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Stairville/Stairville-DJ-Lase-150-RGY-MkII.json",
+  "id": 1389
+}

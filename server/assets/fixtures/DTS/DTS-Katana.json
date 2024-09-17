@@ -1,0 +1,1217 @@
+{
+  "version": "1.0.0",
+  "label": "Katana",
+  "manufacturer": "DTS",
+  "bulb_type": "LED",
+  "bulb_lumens": 9600,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 19,
+  "dimension_width": 1118,
+  "dimension_height": 310,
+  "dimension_depth": 204,
+  "lens_label": "Other",
+  "lens_degree_min": 3,
+  "lens_degree_max": 30,
+  "focus_type": "Barrel",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 184,
+  "technical_power_consumption": 300,
+  "technical_dmx_connector": "5-pin",
+  "type": 13,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "White Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Black-out",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Open",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Black-out",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Strobe (from 3,27 s to 30 ms)",
+          "min": 30,
+          "max": 119
+        },
+        {
+          "label": "Pulse up (from 42,6 s to 120 ms)",
+          "min": 120,
+          "max": 149
+        },
+        {
+          "label": "Pulse down (from 42,6 s to 120 ms)",
+          "min": 150,
+          "max": 179
+        },
+        {
+          "label": "Random strobe",
+          "min": 180,
+          "max": 204
+        },
+        {
+          "label": "Full independent random strobe",
+          "min": 205,
+          "max": 229
+        },
+        {
+          "label": "Open",
+          "min": 230,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Dimmer fine",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Linear CTO",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Linear control temperature correction (whites from 2700K to 8000K)",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Macro Color",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 14
+        },
+        {
+          "label": "Color 1",
+          "min": 15,
+          "max": 24
+        },
+        {
+          "label": "Color 2",
+          "min": 25,
+          "max": 34
+        },
+        {
+          "label": "Color 3",
+          "min": 35,
+          "max": 44
+        },
+        {
+          "label": "Color 4",
+          "min": 45,
+          "max": 54
+        },
+        {
+          "label": "Color 5",
+          "min": 55,
+          "max": 64
+        },
+        {
+          "label": "Color 6",
+          "min": 65,
+          "max": 74
+        },
+        {
+          "label": "Color 7",
+          "min": 75,
+          "max": 84
+        },
+        {
+          "label": "Color 8",
+          "min": 85,
+          "max": 94
+        },
+        {
+          "label": "Color 9",
+          "min": 95,
+          "max": 104
+        },
+        {
+          "label": "Color 10",
+          "min": 105,
+          "max": 114
+        },
+        {
+          "label": "Color 11",
+          "min": 115,
+          "max": 124
+        },
+        {
+          "label": "Color 12",
+          "min": 125,
+          "max": 134
+        },
+        {
+          "label": "Color 13",
+          "min": 135,
+          "max": 144
+        },
+        {
+          "label": "Color 14",
+          "min": 145,
+          "max": 154
+        },
+        {
+          "label": "Color 15",
+          "min": 155,
+          "max": 164
+        },
+        {
+          "label": "Color 16",
+          "min": 165,
+          "max": 174
+        },
+        {
+          "label": "Rainbow: a new colour every 6 s (RED, YELLOW, GREEN, CYAN, BLUE, MAGENTA, WHITE)",
+          "min": 175,
+          "max": 184
+        },
+        {
+          "label": "Rainbow: a new colour every 15 s (RED, YELLOW, GREEN, CYAN, BLUE, MAGENTA, WHITE)",
+          "min": 185,
+          "max": 194
+        },
+        {
+          "label": "Rainbow: a new colour every 30 s (RED, YELLOW, GREEN, CYAN, BLUE, MAGENTA, WHITE)",
+          "min": 195,
+          "max": 204
+        },
+        {
+          "label": "Rainbow: a new colour every 45 s (RED, YELLOW, GREEN, CYAN, BLUE, MAGENTA, WHITE)",
+          "min": 205,
+          "max": 214
+        },
+        {
+          "label": "Rainbow: a new colour every 60 s (RED, YELLOW, GREEN, CYAN, BLUE, MAGENTA, WHITE)",
+          "min": 215,
+          "max": 224
+        },
+        {
+          "label": "Rainbow: a new colour every 120 s (RED, YELLOW, GREEN, CYAN, BLUE, MAGENTA, WHITE)",
+          "min": 225,
+          "max": 234
+        },
+        {
+          "label": "Rainbow: a new colour every 150 s (RED, YELLOW, GREEN, CYAN, BLUE, MAGENTA, WHITE)",
+          "min": 235,
+          "max": 244
+        },
+        {
+          "label": "Rainbow: a new colour every 180 s (RED, YELLOW, GREEN, CYAN, BLUE, MAGENTA, WHITE)",
+          "min": 245,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 22,
+      "type_description": "Tilt speed",
+      "capabilities": [
+        {
+          "label": "Standard",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Maximum speed",
+          "min": 11,
+          "max": 25
+        },
+        {
+          "label": "From maximum to minimum speed",
+          "min": 26,
+          "max": 127
+        },
+        {
+          "label": "Variable reaction to DMX signal (fast to slow)",
+          "min": 128,
+          "max": 247
+        },
+        {
+          "label": "Slow reaction time to DMX signal",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 17,
+      "type_description": "Service",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Reserved",
+          "min": 11,
+          "max": 244
+        },
+        {
+          "label": "Activating \"FUNCTIONS\" channel",
+          "min": 245,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 17,
+      "type_description": "Functions",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 14
+        },
+        {
+          "label": "SMOOTH OFF (DEFAULT)",
+          "min": 15,
+          "max": 24
+        },
+        {
+          "label": "SMOOTH 1",
+          "min": 25,
+          "max": 26
+        },
+        {
+          "label": "SMOOTH 2",
+          "min": 27,
+          "max": 28
+        },
+        {
+          "label": "SMOOTH 3",
+          "min": 29,
+          "max": 30
+        },
+        {
+          "label": "SMOOTH 4",
+          "min": 31,
+          "max": 32
+        },
+        {
+          "label": "SMOOTH 5",
+          "min": 33,
+          "max": 34
+        },
+        {
+          "label": "SMOOTH 6",
+          "min": 35,
+          "max": 36
+        },
+        {
+          "label": "SMOOTH 7",
+          "min": 37,
+          "max": 38
+        },
+        {
+          "label": "SMOOTH 8",
+          "min": 39,
+          "max": 40
+        },
+        {
+          "label": "SMOOTH 9",
+          "min": 41,
+          "max": 42
+        },
+        {
+          "label": "SMOOTH 10",
+          "min": 43,
+          "max": 44
+        },
+        {
+          "label": "SMOOTH 11",
+          "min": 45,
+          "max": 46
+        },
+        {
+          "label": "SMOOTH 12",
+          "min": 47,
+          "max": 48
+        },
+        {
+          "label": "SMOOTH 13",
+          "min": 49,
+          "max": 50
+        },
+        {
+          "label": "SMOOTH 14",
+          "min": 51,
+          "max": 52
+        },
+        {
+          "label": "SMOOTH 15",
+          "min": 53,
+          "max": 54
+        },
+        {
+          "label": "SMOOTH 16",
+          "min": 55,
+          "max": 56
+        },
+        {
+          "label": "SMOOTH 17",
+          "min": 57,
+          "max": 58
+        },
+        {
+          "label": "SMOOTH 18",
+          "min": 59,
+          "max": 60
+        },
+        {
+          "label": "SMOOTH 19",
+          "min": 61,
+          "max": 62
+        },
+        {
+          "label": "SMOOTH 20",
+          "min": 63,
+          "max": 64
+        },
+        {
+          "label": "GAMMA CORRECTION QUADRATIC (DEFAULT)",
+          "min": 65,
+          "max": 74
+        },
+        {
+          "label": "GAMMA CORRECTION LINEAR",
+          "min": 75,
+          "max": 84
+        },
+        {
+          "label": "Ouput Frequency 610 Hz (DEFAULT)",
+          "min": 85,
+          "max": 104
+        },
+        {
+          "label": "Output Frequency 800 Hz",
+          "min": 105,
+          "max": 105
+        },
+        {
+          "label": "Output Frequency 1000Hz",
+          "min": 106,
+          "max": 106
+        },
+        {
+          "label": "Output Frequency 1500Hz",
+          "min": 107,
+          "max": 107
+        },
+        {
+          "label": "Output Frequency 2000Hz",
+          "min": 108,
+          "max": 108
+        },
+        {
+          "label": "Output Frequency 2500Hz",
+          "min": 109,
+          "max": 109
+        },
+        {
+          "label": "Output Frequency 3000Hz",
+          "min": 110,
+          "max": 110
+        },
+        {
+          "label": "Output Frequency 3500Hz",
+          "min": 111,
+          "max": 111
+        },
+        {
+          "label": "Output Frequency 4000Hz",
+          "min": 112,
+          "max": 112
+        },
+        {
+          "label": "Output Frequency 4500Hz",
+          "min": 113,
+          "max": 113
+        },
+        {
+          "label": "Output Frequency 5000Hz",
+          "min": 114,
+          "max": 114
+        },
+        {
+          "label": "Output Frequency 5500Hz",
+          "min": 115,
+          "max": 115
+        },
+        {
+          "label": "Output Frequency 6000Hz",
+          "min": 116,
+          "max": 116
+        },
+        {
+          "label": "Output Frequency 6500Hz",
+          "min": 117,
+          "max": 117
+        },
+        {
+          "label": "Output Frequency 7000Hz",
+          "min": 118,
+          "max": 118
+        },
+        {
+          "label": "Output Frequency 7500Hz",
+          "min": 119,
+          "max": 119
+        },
+        {
+          "label": "Output Frequency 8000Hz",
+          "min": 120,
+          "max": 120
+        },
+        {
+          "label": "Output Frequency 8500Hz",
+          "min": 121,
+          "max": 121
+        },
+        {
+          "label": "Output Frequency 9000Hz",
+          "min": 122,
+          "max": 122
+        },
+        {
+          "label": "Output Frequency 9500Hz",
+          "min": 123,
+          "max": 123
+        },
+        {
+          "label": "Output Frequency 10000Hz",
+          "min": 124,
+          "max": 124
+        },
+        {
+          "label": "Output Frequency 11000Hz",
+          "min": 125,
+          "max": 125
+        },
+        {
+          "label": "Output Frequency 12000Hz",
+          "min": 126,
+          "max": 126
+        },
+        {
+          "label": "Output Frequency 13000Hz",
+          "min": 127,
+          "max": 127
+        },
+        {
+          "label": "Output Frequency 14000Hz",
+          "min": 128,
+          "max": 128
+        },
+        {
+          "label": "Output Frequency 15000Hz",
+          "min": 129,
+          "max": 129
+        },
+        {
+          "label": "Output Frequency 16000Hz",
+          "min": 130,
+          "max": 130
+        },
+        {
+          "label": "Output Frequency 17000Hz",
+          "min": 131,
+          "max": 131
+        },
+        {
+          "label": "Output Frequency 18000Hz",
+          "min": 132,
+          "max": 132
+        },
+        {
+          "label": "Output Frequency 19000Hz",
+          "min": 133,
+          "max": 133
+        },
+        {
+          "label": "Output Frequency 20000Hz",
+          "min": 134,
+          "max": 134
+        },
+        {
+          "label": "Boost ON (DEFAULT)",
+          "min": 135,
+          "max": 144
+        },
+        {
+          "label": "Boost OFF",
+          "min": 145,
+          "max": 154
+        },
+        {
+          "label": "Reserved",
+          "min": 155,
+          "max": 164
+        },
+        {
+          "label": "Reserved",
+          "min": 165,
+          "max": 174
+        },
+        {
+          "label": "Reserved",
+          "min": 175,
+          "max": 184
+        },
+        {
+          "label": "Reserved",
+          "min": 185,
+          "max": 194
+        },
+        {
+          "label": "Reserved",
+          "min": 195,
+          "max": 204
+        },
+        {
+          "label": "Tilt Normal (Default)",
+          "min": 205,
+          "max": 214
+        },
+        {
+          "label": "Tilt Reverse",
+          "min": 215,
+          "max": 224
+        },
+        {
+          "label": "Reserved",
+          "min": 225,
+          "max": 234
+        },
+        {
+          "label": "Fan Speed Studio Mode",
+          "min": 235,
+          "max": 244
+        },
+        {
+          "label": "Fan Speed Live Mode (Default)",
+          "min": 245,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 17,
+      "type_description": "Reset",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Tilt Reset",
+          "min": 16,
+          "max": 75
+        },
+        {
+          "label": "Zoom Reset",
+          "min": 76,
+          "max": 239
+        },
+        {
+          "label": "Total Reset",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Red 1",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Red 2",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Red 3",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Red 4",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Red 5",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Red 6",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Red 7",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Red 8",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Red 9",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Red 10",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Red 11",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Red 12",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "Green 1",
+      "capabilities": []
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "Green 2",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 0,
+      "type_description": "Green 3",
+      "capabilities": []
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "Green 4",
+      "capabilities": []
+    },
+    {
+      "index": 32,
+      "type": 0,
+      "type_description": "Green 5",
+      "capabilities": []
+    },
+    {
+      "index": 33,
+      "type": 0,
+      "type_description": "Green 6",
+      "capabilities": []
+    },
+    {
+      "index": 34,
+      "type": 0,
+      "type_description": "Green 7",
+      "capabilities": []
+    },
+    {
+      "index": 35,
+      "type": 0,
+      "type_description": "Green 8",
+      "capabilities": []
+    },
+    {
+      "index": 36,
+      "type": 0,
+      "type_description": "Green 9",
+      "capabilities": []
+    },
+    {
+      "index": 37,
+      "type": 0,
+      "type_description": "Green 10",
+      "capabilities": []
+    },
+    {
+      "index": 38,
+      "type": 0,
+      "type_description": "Green 11",
+      "capabilities": []
+    },
+    {
+      "index": 39,
+      "type": 0,
+      "type_description": "Green 12",
+      "capabilities": []
+    },
+    {
+      "index": 40,
+      "type": 0,
+      "type_description": "Blue 1",
+      "capabilities": []
+    },
+    {
+      "index": 41,
+      "type": 0,
+      "type_description": "Blue 2",
+      "capabilities": []
+    },
+    {
+      "index": 42,
+      "type": 0,
+      "type_description": "Blue 3",
+      "capabilities": []
+    },
+    {
+      "index": 43,
+      "type": 0,
+      "type_description": "Blue 4",
+      "capabilities": []
+    },
+    {
+      "index": 44,
+      "type": 0,
+      "type_description": "Blue 5",
+      "capabilities": []
+    },
+    {
+      "index": 45,
+      "type": 0,
+      "type_description": "Blue 6",
+      "capabilities": []
+    },
+    {
+      "index": 46,
+      "type": 0,
+      "type_description": "Blue 7",
+      "capabilities": []
+    },
+    {
+      "index": 47,
+      "type": 0,
+      "type_description": "Blue 8",
+      "capabilities": []
+    },
+    {
+      "index": 48,
+      "type": 0,
+      "type_description": "Blue 9",
+      "capabilities": []
+    },
+    {
+      "index": 49,
+      "type": 0,
+      "type_description": "Blue 10",
+      "capabilities": []
+    },
+    {
+      "index": 50,
+      "type": 0,
+      "type_description": "Blue 11",
+      "capabilities": []
+    },
+    {
+      "index": 51,
+      "type": 0,
+      "type_description": "Blue 12",
+      "capabilities": []
+    },
+    {
+      "index": 52,
+      "type": 0,
+      "type_description": "White 1",
+      "capabilities": []
+    },
+    {
+      "index": 53,
+      "type": 0,
+      "type_description": "White 2",
+      "capabilities": []
+    },
+    {
+      "index": 54,
+      "type": 0,
+      "type_description": "White 3",
+      "capabilities": []
+    },
+    {
+      "index": 55,
+      "type": 0,
+      "type_description": "White 4",
+      "capabilities": []
+    },
+    {
+      "index": 56,
+      "type": 0,
+      "type_description": "White 5",
+      "capabilities": []
+    },
+    {
+      "index": 57,
+      "type": 0,
+      "type_description": "White 6",
+      "capabilities": []
+    },
+    {
+      "index": 58,
+      "type": 0,
+      "type_description": "White 7",
+      "capabilities": []
+    },
+    {
+      "index": 59,
+      "type": 0,
+      "type_description": "White 8",
+      "capabilities": []
+    },
+    {
+      "index": 60,
+      "type": 0,
+      "type_description": "White 9",
+      "capabilities": []
+    },
+    {
+      "index": 61,
+      "type": 0,
+      "type_description": "White 10",
+      "capabilities": []
+    },
+    {
+      "index": 62,
+      "type": 0,
+      "type_description": "White 11",
+      "capabilities": []
+    },
+    {
+      "index": 63,
+      "type": 0,
+      "type_description": "White 12",
+      "capabilities": []
+    },
+    {
+      "index": 64,
+      "type": 3,
+      "type_description": "Chase 1 Select",
+      "capabilities": [
+        {
+          "label": "No Effect",
+          "min": 0,
+          "max": 47
+        },
+        {
+          "label": "Background",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Hystogram Left",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Hystogram Right",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Hystogram Multicolour Left",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Hystogram Multicolour Right",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Continous Shift Right",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Continous Shift Left",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Wave Right",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Wave Left",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Random Strobe",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "Random Strobe Random Colour",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "Pulse",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "Random Pick",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "type": 0,
+      "type_description": "Chase 1 Colour",
+      "capabilities": [
+        {
+          "label": "Chase colour selection",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "type": 22,
+      "type_description": "Chase 1 Size/Speed",
+      "capabilities": [
+        {
+          "label": "Chase speed size tuning",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "type": 5,
+      "type_description": "Chase 1 Dimmer",
+      "capabilities": [
+        {
+          "label": "Chase Level",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 68,
+      "type": 3,
+      "type_description": "Chase 2 Select",
+      "capabilities": [
+        {
+          "label": "No Effect",
+          "min": 0,
+          "max": 47
+        },
+        {
+          "label": "Background",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Hystogram Left",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Hystogram Right",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Hystogram Multicolour Left",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Hystogram Multicolour Right",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Continous Shift Right",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Continous Shift Left",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Wave Right",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Wave Left",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Random Strobe",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "Random Strobe Random Colour",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "Pulse",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "Random Pick",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "type": 0,
+      "type_description": "Chase 2 Colour",
+      "capabilities": [
+        {
+          "label": "Chase colour selection",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 70,
+      "type": 22,
+      "type_description": "Chase 2 Size/Speed",
+      "capabilities": [
+        {
+          "label": "Chase speed size tuning",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 71,
+      "type": 5,
+      "type_description": "Chase 2 Dimmer",
+      "capabilities": [
+        {
+          "label": "Chase Level",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/DTS/DTS-Katana.json",
+  "id": 584
+}

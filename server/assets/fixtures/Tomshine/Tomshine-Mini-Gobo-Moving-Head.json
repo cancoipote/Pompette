@@ -1,0 +1,477 @@
+{
+  "version": "1.0.0",
+  "label": "Mini Gobo Moving Head",
+  "manufacturer": "Tomshine",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 210,
+  "dimension_height": 270,
+  "dimension_depth": 210,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 230,
+  "technical_power_consumption": 80,
+  "technical_dmx_connector": "5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan/Tilt speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Slow to fast",
+          "min": 8,
+          "max": 99
+        },
+        {
+          "label": "Fast to slow",
+          "min": 100,
+          "max": 149
+        },
+        {
+          "label": "Strobe Effect 1",
+          "min": 150,
+          "max": 199
+        },
+        {
+          "label": "Strobe Effect 2",
+          "min": 200,
+          "max": 245
+        },
+        {
+          "label": "Fastest Strobe Effect",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Color wheel",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Red",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Green",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Blue",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Yellow",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Orange",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Light Blue",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Cyan",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "White/Red",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Red/Green",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Green/Blue",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Blue/Yellow",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Yellow/Orange",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Orange/LightBlue",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "LightBlue/Cyan",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Cyan/White",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Color Change FWD",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Color Change REV",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 4,
+      "type_description": "Gobo wheel",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Double Lines Star",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Square Arrows",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Fan",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Star",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Stones",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Eliptic",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Caro Flower",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Open Shake",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Double Lines Star Shake",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Square Arrows Shake",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Fan Shake",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Star Shake",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Stones Shake",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Eliptic Shake",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Caro Flower Shake",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Gobo Switch FWD",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Gobo Switch REV",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Sound Mode",
+      "capabilities": [
+        {
+          "label": "Manual",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Auto Mode",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 17,
+      "type_description": "Reset",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 240
+        },
+        {
+          "label": "RESET",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 17,
+      "type_description": "Function",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 69
+        },
+        {
+          "label": "The light is shut off when the X/Y axis is rotated",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "No function",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Lights turn off then the color wheel is turned",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "No function",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "The light shut off when the gobo is turned",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "No function",
+          "min": 120,
+          "max": 199
+        },
+        {
+          "label": "Reset",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "No function",
+          "min": 210,
+          "max": 249
+        },
+        {
+          "label": "Voice control function",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 3,
+      "type_description": "Effects",
+      "capabilities": [
+        {
+          "label": "Standard lighting effects",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Stage lighting effects",
+          "min": 21,
+          "max": 40
+        },
+        {
+          "label": "TV lighting effects",
+          "min": 41,
+          "max": 60
+        },
+        {
+          "label": "Architectural lighting effects",
+          "min": 61,
+          "max": 80
+        },
+        {
+          "label": "Theater lighting effects",
+          "min": 81,
+          "max": 100
+        },
+        {
+          "label": "Default standard lamp effect",
+          "min": 101,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 21,
+      "type_description": "Strobe (2022)",
+      "capabilities": [
+        {
+          "label": "Control light is off, the light is off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Turn on the light",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Control the light strobe speed, from fast to slow",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "Turn on the light",
+          "min": 132,
+          "max": 139
+        },
+        {
+          "label": "Control light quickly closed, slowly open",
+          "min": 140,
+          "max": 181
+        },
+        {
+          "label": "Turn on the light",
+          "min": 182,
+          "max": 189
+        },
+        {
+          "label": "The control light turns on quickly, turns off slowly",
+          "min": 190,
+          "max": 231
+        },
+        {
+          "label": "Turn on the light",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Control light random stroboscopic",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Turn on the light",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Tomshine/Tomshine-Mini-Gobo-Moving-Head.json",
+  "id": 1462
+}

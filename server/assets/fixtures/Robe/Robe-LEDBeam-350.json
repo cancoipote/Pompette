@@ -1,0 +1,567 @@
+{
+  "version": "1.0.0",
+  "label": "LEDBeam 350",
+  "manufacturer": "Robe",
+  "bulb_type": "LED",
+  "bulb_lumens": 8200,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 9,
+  "dimension_width": 320,
+  "dimension_height": 426,
+  "dimension_depth": 220,
+  "lens_label": "Other",
+  "lens_degree_min": 3,
+  "lens_degree_max": 60,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 228,
+  "technical_power_consumption": 450,
+  "technical_dmx_connector": "5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Pan/Tilt speed",
+      "capabilities": [
+        {
+          "label": "Standard Mode",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Max Speed Mode",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "label": "Speed from Max to Min",
+          "min": 2,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Power / Special Functions",
+      "capabilities": [
+        {
+          "label": "Reserved - To Activate: Shutter/Strobe (Ch 20/15/22)@(0-31) off, stop at value for 3s.",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Display On",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "Display Off",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "RGBW Colour Mixing Mode",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "CMY Colour Mixing Mode",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "Pan/Tilt Speed Mode",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "Pan/Tilt Time Mode",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "Blackout While Pan/Tilt Moving",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "Disabled Blackout While Pan/Tilt Moving",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "Dimmer Curve - Square Law",
+          "min": 60,
+          "max": 64
+        },
+        {
+          "label": "Dimmer Curve - Linear",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "Fan Mode: Auto",
+          "min": 70,
+          "max": 74
+        },
+        {
+          "label": "Fan Mode: High",
+          "min": 75,
+          "max": 79
+        },
+        {
+          "label": "White Point 8000K ON",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "White Point 8000K OFF",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "Reserved",
+          "min": 90,
+          "max": 94
+        },
+        {
+          "label": "Pan 540deg (Full)",
+          "min": 95,
+          "max": 99
+        },
+        {
+          "label": "Pan 450deg (Reduced)",
+          "min": 100,
+          "max": 104
+        },
+        {
+          "label": "Quiet Mode: Fans On @ Blackout",
+          "min": 105,
+          "max": 109
+        },
+        {
+          "label": "Quiet Mode: Fans Off @ Blackout",
+          "min": 110,
+          "max": 114
+        },
+        {
+          "label": "Reserved - New Function Menu",
+          "min": 115,
+          "max": 129
+        },
+        {
+          "label": "Reserved",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Pan/Tile Reset",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Zoom Reset",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Reserved",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Tungsten effect simulation (750W) On",
+          "min": 170,
+          "max": 171
+        },
+        {
+          "label": "Tungsten effect simulation (1000W) On",
+          "min": 172,
+          "max": 173
+        },
+        {
+          "label": "Tungsten effect simulation (1200W) On",
+          "min": 174,
+          "max": 175
+        },
+        {
+          "label": "Tungsten effect simulation (2000W) On",
+          "min": 176,
+          "max": 177
+        },
+        {
+          "label": "Tungsten effect simulation (2500W) On",
+          "min": 178,
+          "max": 179
+        },
+        {
+          "label": "Tungsten effect simulation Off",
+          "min": 180,
+          "max": 181
+        },
+        {
+          "label": "Reserved",
+          "min": 182,
+          "max": 199
+        },
+        {
+          "label": "Total Fixture Reset",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Reserved",
+          "min": 210,
+          "max": 218
+        },
+        {
+          "label": "RoboSpot Enabled",
+          "min": 219,
+          "max": 220
+        },
+        {
+          "label": "RoboSpot Disabled - Except Handle Faders and Pan/Tilt",
+          "min": 221,
+          "max": 222
+        },
+        {
+          "label": "RoboSpot Fully Disabled",
+          "min": 223,
+          "max": 224
+        },
+        {
+          "label": "Reserved",
+          "min": 225,
+          "max": 239
+        },
+        {
+          "label": "Disabled Quiet Mode",
+          "min": 240,
+          "max": 240
+        },
+        {
+          "label": "Quiet Mode - Fan Control From Min to Max",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "LED Frequency Selection",
+      "capabilities": [
+        {
+          "label": "PWM Frequency from Display Menu",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "300Hz",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "600Hz (10=default)",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "1200Hz",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "2400Hz",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "High",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "Reserved (fixture utilises PWM frequency set in the display menu item Frequency Setup)",
+          "min": 30,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "LED Frequency Fine Adjusting",
+      "capabilities": [
+        {
+          "label": "Selected Frequency",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "label": "LED Frequency Steps (-126 - 126)",
+          "min": 2,
+          "max": 254
+        },
+        {
+          "label": "Selected Frequency",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Virtual Colour Wheel",
+      "capabilities": [
+        {
+          "label": "Preset Filters",
+          "min": 0,
+          "max": 132
+        },
+        {
+          "label": "Raw DMX",
+          "min": 133,
+          "max": 235
+        },
+        {
+          "label": "Rainbow Effect (with fade time slow -> fast)",
+          "min": 236,
+          "max": 245
+        },
+        {
+          "label": "Rainbow Effect (without fade time slow -> fast)",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Red Fine",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Green fine",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Blue Fine",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "White Fine",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Colour Temperature Correction",
+      "capabilities": [
+        {
+          "label": "Col. temperature correction from 8000K to 2700K -for whites only",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Colour Mix Control",
+      "capabilities": [
+        {
+          "label": "Virtual Colours",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Maximum Mode (Highest values have priority)",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Minimum Mode (Lowest values have priority)",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Multiply Mode (Multiply Virtual and Colour mix)",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Addition Mode (Virtual + Colour Mix, 45 default)",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Substration Mode (Virtual - Colour Mix)",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Subtraction Mode (Colour - Virtual Mix)",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Reserved",
+          "min": 70,
+          "max": 128
+        },
+        {
+          "label": "Virtual Colours",
+          "min": 129,
+          "max": 129
+        },
+        {
+          "label": "Crossfade between Virtual and Colour Mix",
+          "min": 130,
+          "max": 254
+        },
+        {
+          "label": "Colour Channels",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Zoom fine",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 21,
+      "type_description": "Shutter / Strobe",
+      "capabilities": [
+        {
+          "label": "Shutter Closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Shutter Open",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe Effect Slow -> Fast",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Shutter Open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Opening Pulse in Sequences from Slow -> Fast",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Closing Pulse in Sequences from Fast -> Slow",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Shutter Open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random Strobe Effect from Slow -> Fast",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Shutter Open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Dimmer Fine",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Robe/Robe-LEDBeam-350.json",
+  "id": 1206
+}

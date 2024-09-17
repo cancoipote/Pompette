@@ -1,0 +1,333 @@
+{
+  "version": "1.0.0",
+  "label": "Dotz Bar 1.4",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 340,
+  "dimension_height": 140,
+  "dimension_depth": 140,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 48,
+  "technical_dmx_connector": "3-pin",
+  "type": 13,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Strobing",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Dimmer curves",
+      "capabilities": [
+        {
+          "label": "Standard",
+          "min": 0,
+          "max": 41
+        },
+        {
+          "label": "Stage",
+          "min": 42,
+          "max": 84
+        },
+        {
+          "label": "TV",
+          "min": 85,
+          "max": 127
+        },
+        {
+          "label": "Architectural",
+          "min": 128,
+          "max": 170
+        },
+        {
+          "label": "Theater",
+          "min": 171,
+          "max": 213
+        },
+        {
+          "label": "Default to curve setting",
+          "min": 214,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Color Macros and Programs",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Red",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Green",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Blue",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Red & Green",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Green & Blue",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Red & Blue",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Red, Green & Blue",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Color 1",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Color 2",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Color 3",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Color 4",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Color 5",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Color 6",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Color 7",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Color 8",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Color Fade 1",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Color Snake",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Color Fade 2",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Color Change",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Color Flow 1",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Color Flow 2",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Color Flow 3",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Color Flow 4",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Color Flow 5",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Color Flow 6",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Color Flow 7",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Color Flow 8",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Color Flow 9",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Sound Active",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 22,
+      "type_description": "Program Speed/Sound Sense",
+      "capabilities": [
+        {
+          "label": "Program Speed (slow to fast)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Red 1",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Red 2",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Red 3",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Red 4",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Green 1",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Green 2",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Green 3",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Green 4",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Blue 1",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Blue 2",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Blue 3",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Blue 4",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Dotz-Bar-1.4.json",
+  "id": 44
+}

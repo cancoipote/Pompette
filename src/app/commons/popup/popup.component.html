@@ -1,0 +1,53 @@
+<div class="popup-header" >
+	<span [innerHTML]="title_label" ></span>
+</div>
+<div class="popup-content" >
+	<div class="content-list">
+		<div [innerHTML]="content" ></div>
+        <div *ngIf="mode_prompt == true" >
+            <br>
+            <br>
+            <form class="prompt-form">
+                <mat-form-field class="prompt-full-width">
+                    <mat-label>{{prompt_value}}</mat-label>
+                    <textarea *ngIf="mode_prompt_type=='textarea'" matInput [(ngModel)]="prompt" name="value"  [ngModelOptions]="{standalone: true}"></textarea>
+                    <input *ngIf="mode_prompt_type=='text'" matInput [(ngModel)]="prompt" name="value"  [ngModelOptions]="{standalone: true}"/>
+
+                    <div *ngIf="mode_prompt_type=='select'">
+                        <mat-select name="item" [(ngModel)]="prompt">
+                          <mat-option *ngFor="let item of items" [value]="item">
+                            {{item.label}}
+                          </mat-option>
+                        </mat-select>
+                    </div>
+
+
+                </mat-form-field>
+            </form>
+        </div>
+        <div *ngIf="mode_date == true" >
+            <br>
+            <br>
+            <mat-grid-list cols="2" rowHeight="70px" >
+                <mat-grid-tile colspan="2" rowspan="1">
+                    <div fxFlex="5"></div>
+                    <mat-form-field color="accent">
+                        <mat-label>Date</mat-label>
+                        <input matInput [matDatepicker]="picker" placeholder="Date"  [(ngModel)]="date" [ngModelOptions]="{standalone: true}">
+                        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                        <mat-datepicker #picker></mat-datepicker>
+                    </mat-form-field>
+                    <div fxFlex></div>
+                </mat-grid-tile>
+            </mat-grid-list>
+        </div>
+    </div>
+</div>
+<mat-divider></mat-divider>
+<div class="popup-footer" >
+    <button *ngIf="mode_question == false && display_close == true" mat-button (click)="on_close()" >{{close_button_label}}</button>
+    <button *ngIf="mode_prompt == true || display_cancel == true" mat-button (click)="on_cancel()" [disabled]="disable_cancel == true" >{{cancel_button_label}}</button>
+    <button *ngIf="mode_question == true || mode_prompt == true" mat-button (click)="on_yes()" color="accent" >{{yes_button_label}}</button>
+    <button *ngIf="mode_question == true" mat-button (click)="on_no()" >{{no_button_label}}</button>
+    <button *ngIf="mode_date == true" color="accent" mat-button (click)="on_save_date()" >{{set_date_button_label}}</button>
+</div>

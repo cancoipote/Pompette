@@ -1,0 +1,159 @@
+{
+  "version": "1.0.0",
+  "label": "LED Moving Head Mini Beam 18x3W RGB CREE",
+  "manufacturer": "Flash-Butrym",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 190,
+  "dimension_height": 270,
+  "dimension_depth": 190,
+  "lens_label": "PC",
+  "lens_degree_min": 14,
+  "lens_degree_max": 35,
+  "focus_type": "Fixed",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 90,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "auto movement/color",
+      "capabilities": [
+        {
+          "label": "no program",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "program 1",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Color Macro",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Red",
+          "min": 11,
+          "max": 18
+        },
+        {
+          "label": "Red - Green",
+          "min": 19,
+          "max": 86
+        },
+        {
+          "label": "Green",
+          "min": 87,
+          "max": 94
+        },
+        {
+          "label": "Green - Blue",
+          "min": 95,
+          "max": 163
+        },
+        {
+          "label": "Blue",
+          "min": 164,
+          "max": 171
+        },
+        {
+          "label": "Blue - Red",
+          "min": 172,
+          "max": 240
+        },
+        {
+          "label": "Red",
+          "min": 241,
+          "max": 248
+        },
+        {
+          "label": "White",
+          "min": 249,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "shutter off",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "shutter slow to fast",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Flash-Butrym/Flash-Butrym-LED-Moving-Head-Mini-Beam-18x3W-RGB-CREE.json",
+  "id": 776
+}

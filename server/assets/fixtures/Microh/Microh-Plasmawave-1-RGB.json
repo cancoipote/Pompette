@@ -1,0 +1,616 @@
+{
+  "version": "1.0.0",
+  "label": "Plasmawave 1 RGB",
+  "manufacturer": "Microh",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 340,
+  "dimension_height": 150,
+  "dimension_depth": 250,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 50,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "Laser off",
+          "min": 0,
+          "max": 18
+        },
+        {
+          "label": "AUT Auto show with mixed 5 effect",
+          "min": 19,
+          "max": 36
+        },
+        {
+          "label": "A3D Laser 3D effect auto show",
+          "min": 37,
+          "max": 54
+        },
+        {
+          "label": "AUB Scanned beam effect auto show",
+          "min": 55,
+          "max": 72
+        },
+        {
+          "label": "AUL Laser lumia effect auto show",
+          "min": 73,
+          "max": 90
+        },
+        {
+          "label": "AUN Burst grating effect auto show",
+          "min": 91,
+          "max": 108
+        },
+        {
+          "label": "AUO Laser universal effect auto show",
+          "min": 109,
+          "max": 126
+        },
+        {
+          "label": "SOU Sound show with mixed 5 effect",
+          "min": 127,
+          "max": 144
+        },
+        {
+          "label": "S3D Sound show with laser 3D",
+          "min": 145,
+          "max": 162
+        },
+        {
+          "label": "SOB Sound show with scanned beam",
+          "min": 163,
+          "max": 180
+        },
+        {
+          "label": "SOL Sound show with laser lumia",
+          "min": 181,
+          "max": 198
+        },
+        {
+          "label": "SON Sound show with burst grating",
+          "min": 199,
+          "max": 216
+        },
+        {
+          "label": "SOO Sound show with laser universal",
+          "min": 217,
+          "max": 234
+        },
+        {
+          "label": "DMX mode",
+          "min": 235,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Patterns - Columns",
+      "capabilities": [
+        {
+          "label": 1,
+          "min": 0,
+          "max": 51
+        },
+        {
+          "label": 2,
+          "min": 52,
+          "max": 103
+        },
+        {
+          "label": 3,
+          "min": 104,
+          "max": 155
+        },
+        {
+          "label": 4,
+          "min": 156,
+          "max": 207
+        },
+        {
+          "label": 5,
+          "min": 208,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 3,
+      "type_description": "Patterns - Rows",
+      "capabilities": [
+        {
+          "label": 1,
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": 2,
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": 3,
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": 4,
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": 5,
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": 6,
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": 7,
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": 8,
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": 9,
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": 10,
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": 11,
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": 12,
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": 13,
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": 14,
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": 15,
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": 16,
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "Original",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Red",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Green",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Yellow",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Blue",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Purple",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Light blue",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "White",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Rolling",
+          "min": 64,
+          "max": 111
+        },
+        {
+          "label": "Jumping",
+          "min": 112,
+          "max": 159
+        },
+        {
+          "label": "Moving",
+          "min": 160,
+          "max": 207
+        },
+        {
+          "label": "Strobe slow to fast",
+          "min": 208,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Clipping",
+      "capabilities": [
+        {
+          "label": "Full pattern without clipping",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "0%~99% fixed pattern clipped",
+          "min": 1,
+          "max": 127
+        },
+        {
+          "label": "Clipping speed slow to fast",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Zooming",
+      "capabilities": [
+        {
+          "label": "100%~5% fixed pattern",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "In",
+          "min": 128,
+          "max": 169
+        },
+        {
+          "label": "Out",
+          "min": 170,
+          "max": 209
+        },
+        {
+          "label": "Alternately",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 22,
+      "type_description": "Zoom Speed",
+      "capabilities": [
+        {
+          "label": "Fast to slow",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Y-Axis Rolling",
+      "capabilities": [
+        {
+          "label": "0-359 degree fixed Y axis",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Clockwise",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Counterclockwise",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Y-Axis Roll Speed",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "X-Axis Rolling",
+      "capabilities": [
+        {
+          "label": "0-359 degree fixed X axis",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Clockwise",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Counterclockwise",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "X-Axis Roll Speed",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 3,
+      "type_description": "Z-Axis Rolling",
+      "capabilities": [
+        {
+          "label": "0-359 degree fixed Z axis",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Clockwise",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Counterclockwise",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 22,
+      "type_description": "Z-Axis Roll Speed",
+      "capabilities": [
+        {
+          "label": "Fast to slow",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 3,
+      "type_description": "Y-Axis Move",
+      "capabilities": [
+        {
+          "label": "128 different fixed position on X axis",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Clockwise",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Counterclockwise",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Y-Axis Move Speed",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 3,
+      "type_description": "X-Axis Move",
+      "capabilities": [
+        {
+          "label": "128 different fixed position on Y axis",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Clockwise",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Counterclockwise",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "X-Axis Move Speed",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 3,
+      "type_description": "Grating Rotation",
+      "capabilities": [
+        {
+          "label": "No",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Clockwise",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "No",
+          "min": 128,
+          "max": 133
+        },
+        {
+          "label": "Counterclockwise",
+          "min": 134,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 3,
+      "type_description": "Different Effect",
+      "capabilities": [
+        {
+          "label": "Laser 3D",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Scanned beam (pattern)",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Laser lumia",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Scanned beam (pattern)",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Burst grating",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Scanned beam (pattern)",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Laser universal",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Do not use",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 3,
+      "type_description": "Grating Effect",
+      "capabilities": [
+        {
+          "label": "Laser 3D",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Scanned beam (pattern)",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Laser lumia",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Scanned beam (pattern)",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Burst grating",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Scanned beam (pattern)",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Laser universal",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Scanned beam (pattern)",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Microh/Microh-Plasmawave-1-RGB.json",
+  "id": 1032
+}

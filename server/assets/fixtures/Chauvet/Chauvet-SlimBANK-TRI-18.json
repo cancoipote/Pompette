@@ -1,0 +1,363 @@
+{
+  "version": "1.0.0",
+  "label": "SlimBANK TRI-18",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 1530,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 197,
+  "dimension_height": 187,
+  "dimension_depth": 389,
+  "lens_label": "Other",
+  "lens_degree_min": 17,
+  "lens_degree_max": 17,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 109,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red 1",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green 1",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue 1",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Red 2",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Red 3",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Green 2",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Green 3",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Blue 2",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Blue 3",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Auto Programs",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Chase 1",
+          "min": 11,
+          "max": 28
+        },
+        {
+          "label": "Chase 2",
+          "min": 29,
+          "max": 45
+        },
+        {
+          "label": "Chase 3",
+          "min": 46,
+          "max": 62
+        },
+        {
+          "label": "Chase 4",
+          "min": 63,
+          "max": 79
+        },
+        {
+          "label": "Chase 5",
+          "min": 80,
+          "max": 96
+        },
+        {
+          "label": "Chase 6",
+          "min": 97,
+          "max": 113
+        },
+        {
+          "label": "Chase 7",
+          "min": 114,
+          "max": 130
+        },
+        {
+          "label": "Chase 8",
+          "min": 131,
+          "max": 147
+        },
+        {
+          "label": "Chase 9",
+          "min": 148,
+          "max": 164
+        },
+        {
+          "label": "Chase 10",
+          "min": 165,
+          "max": 181
+        },
+        {
+          "label": "Chase 11",
+          "min": 182,
+          "max": 198
+        },
+        {
+          "label": "Chase 12",
+          "min": 199,
+          "max": 215
+        },
+        {
+          "label": "Chase 13",
+          "min": 216,
+          "max": 232
+        },
+        {
+          "label": "Chase 14 (random chases 1-13)",
+          "min": 233,
+          "max": 250
+        },
+        {
+          "label": "Sound-active mode",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 22,
+      "type_description": "Speed",
+      "capabilities": [
+        {
+          "label": "Auto programs speed (slow to fast)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Strobe (slow to fast)",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 17,
+      "type_description": "Dimmer Mode",
+      "capabilities": [
+        {
+          "label": "Manually set in menu options",
+          "min": 0,
+          "max": 51
+        },
+        {
+          "label": "Off",
+          "min": 52,
+          "max": 101
+        },
+        {
+          "label": "1 (fast speed)",
+          "min": 102,
+          "max": 152
+        },
+        {
+          "label": "2 (middle speed)",
+          "min": 153,
+          "max": 203
+        },
+        {
+          "label": "3 (slow speed)",
+          "min": 204,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Custom Color and Color Temperature",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Red 100% + green 0 to 100%",
+          "min": 11,
+          "max": 30
+        },
+        {
+          "label": "Red 100% to 0 + green 100%",
+          "min": 31,
+          "max": 50
+        },
+        {
+          "label": "Green 100% + blue 0 to 100%",
+          "min": 51,
+          "max": 70
+        },
+        {
+          "label": "Green 100% to 0 + blue 100%",
+          "min": 71,
+          "max": 90
+        },
+        {
+          "label": "Red 0 to 100% + blue 100%",
+          "min": 91,
+          "max": 110
+        },
+        {
+          "label": "Red 100% + blue 100% to 0",
+          "min": 111,
+          "max": 130
+        },
+        {
+          "label": "Red 100% + green 0 to 100% + blue 0 to 100%",
+          "min": 131,
+          "max": 150
+        },
+        {
+          "label": "Red 100% to 0 + green 100% to 0 + blue 100%",
+          "min": 151,
+          "max": 170
+        },
+        {
+          "label": "Red 100% + green 100% + blue 100%",
+          "min": 171,
+          "max": 200
+        },
+        {
+          "label": "Color temperature 1",
+          "min": 201,
+          "max": 205
+        },
+        {
+          "label": "Color temperature 2",
+          "min": 206,
+          "max": 210
+        },
+        {
+          "label": "Color temperature 3",
+          "min": 211,
+          "max": 215
+        },
+        {
+          "label": "Color temperature 4",
+          "min": 216,
+          "max": 220
+        },
+        {
+          "label": "Color temperature 5",
+          "min": 221,
+          "max": 225
+        },
+        {
+          "label": "Color temperature 6",
+          "min": 226,
+          "max": 230
+        },
+        {
+          "label": "Color temperature 7",
+          "min": 231,
+          "max": 235
+        },
+        {
+          "label": "Color temperature 8",
+          "min": 236,
+          "max": 240
+        },
+        {
+          "label": "Color temperature 9",
+          "min": 241,
+          "max": 245
+        },
+        {
+          "label": "Color temperature 10",
+          "min": 246,
+          "max": 250
+        },
+        {
+          "label": "Color temperature 11",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-SlimBANK-TRI-18.json",
+  "id": 530
+}

@@ -1,0 +1,278 @@
+{
+  "version": "1.0.0",
+  "label": "LED Devil",
+  "manufacturer": "JB Systems",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 215,
+  "dimension_height": 195,
+  "dimension_depth": 172,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 23,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 5,
+      "type_description": "Dimmer / Shutter",
+      "capabilities": [
+        {
+          "label": "Dimmer dark to bright",
+          "min": 0,
+          "max": 199
+        },
+        {
+          "label": "Strobo slow to fast",
+          "min": 200,
+          "max": 247
+        },
+        {
+          "label": "Open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "colour 1",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "colour 2",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "colour 3",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "colour 4",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "colour 5",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "colour 6",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "colour 7",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "colour 8",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "colour 9",
+          "min": 64,
+          "max": 72
+        },
+        {
+          "label": "colour 10",
+          "min": 73,
+          "max": 79
+        },
+        {
+          "label": "colour 11",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "colour 12",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "colour 13",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "colour 14",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "colour 15",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "colour 16",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "colour 17",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "colour 18",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "colour 19",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "colour 20",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "colour 21",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "colour 22",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "colour 23",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "colour 24",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "colour 25",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "colour 26",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "colour 27",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "colour 28",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "colour 29",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "colour 30",
+          "min": 232,
+          "max": 240
+        },
+        {
+          "label": "colour 31",
+          "min": 241,
+          "max": 247
+        },
+        {
+          "label": "colour 32",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 3,
+      "type_description": "Rotation",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "CCW fast to slow",
+          "min": 10,
+          "max": 120
+        },
+        {
+          "label": "Stop",
+          "min": 121,
+          "max": 134
+        },
+        {
+          "label": "CW slow to fast",
+          "min": 135,
+          "max": 245
+        },
+        {
+          "label": "Stop",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Function",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 14
+        },
+        {
+          "label": "Random colors fast to slow rotation CCW",
+          "min": 15,
+          "max": 124
+        },
+        {
+          "label": "Stop rotation",
+          "min": 125,
+          "max": 139
+        },
+        {
+          "label": "Random colors  slow to fast rotation CW",
+          "min": 140,
+          "max": 249
+        },
+        {
+          "label": "Random music",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/JB_Systems/JB-Systems-LED-Devil.json",
+  "id": 928
+}

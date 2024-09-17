@@ -1,0 +1,218 @@
+{
+  "version": "1.0.0",
+  "label": "Green 30",
+  "manufacturer": "Ghost",
+  "bulb_type": "",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 260,
+  "dimension_height": 85,
+  "dimension_depth": 330,
+  "lens_label": "Other",
+  "lens_degree_min": 30,
+  "lens_degree_max": 30,
+  "focus_type": "Fixed",
+  "focus_pan_max": 90,
+  "focus_tilt_max": 90,
+  "technical_power_consumption": 30,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 17,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "Laser source switch",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "DMX-512 control mode",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Automatic mode",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Audio mode",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 4,
+      "type_description": "Pattern",
+      "capabilities": [
+        {
+          "label": "H-Line",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Pattern 2",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "V-Line",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Open half H Circle",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Open half V Circle",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Dot + H Line",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Pattern 7",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Rotating line",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Rectangle",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "H dash",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Double triangle",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Dots in rectangle",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Closed half H circle",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "3 circles",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Closed half H circle",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Closed half V Right circle",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "3 circles",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Closed moving half H circle",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Closed half V Left circle",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Cross",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Double lines",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Pattern 22",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "3 H lines",
+          "min": 220,
+          "max": 229
+        },
+        {
+          "label": "3 V lines",
+          "min": 230,
+          "max": 239
+        },
+        {
+          "label": "3 moving circles",
+          "min": 240,
+          "max": 249
+        },
+        {
+          "label": "3 moving circles",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 19,
+      "type_description": "Pattern Left/Right turning",
+      "capabilities": [
+        {
+          "label": "Left/Right turning",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Special effects",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 23,
+      "type_description": "Pattern Up/down turning",
+      "capabilities": [
+        {
+          "label": "Up/Down turning",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Ghost/Ghost-Green-30.json",
+  "id": 839
+}

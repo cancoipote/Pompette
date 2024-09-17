@@ -1,0 +1,472 @@
+{
+  "version": "1.0.0",
+  "label": "BL252A",
+  "manufacturer": "Talent",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 1090,
+  "dimension_height": 67,
+  "dimension_depth": 67,
+  "lens_label": "Other",
+  "lens_degree_min": 40,
+  "lens_degree_max": 40,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 23,
+  "technical_dmx_connector": "3-pin",
+  "type": 14,
+  "channels": [
+    {
+      "index": 0,
+      "type": 17,
+      "type_description": "Modes 2 Channel",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Effect chase 1",
+          "min": 128,
+          "max": 131
+        },
+        {
+          "label": "Effect chase 2",
+          "min": 132,
+          "max": 135
+        },
+        {
+          "label": "Effect chase 3",
+          "min": 136,
+          "max": 139
+        },
+        {
+          "label": "Effect chase 4",
+          "min": 140,
+          "max": 143
+        },
+        {
+          "label": "Effect chase 5",
+          "min": 144,
+          "max": 147
+        },
+        {
+          "label": "Effect chase 6",
+          "min": 148,
+          "max": 151
+        },
+        {
+          "label": "Effect chase 7",
+          "min": 152,
+          "max": 155
+        },
+        {
+          "label": "Effect chase 8",
+          "min": 156,
+          "max": 159
+        },
+        {
+          "label": "Effect chase 9",
+          "min": 160,
+          "max": 163
+        },
+        {
+          "label": "Effect chase 10",
+          "min": 164,
+          "max": 167
+        },
+        {
+          "label": "Effect chase 11",
+          "min": 168,
+          "max": 171
+        },
+        {
+          "label": "Effect chase 12",
+          "min": 172,
+          "max": 175
+        },
+        {
+          "label": "Effect chase 13",
+          "min": 176,
+          "max": 179
+        },
+        {
+          "label": "Effect chase 14",
+          "min": 180,
+          "max": 183
+        },
+        {
+          "label": "Effect chase 15",
+          "min": 184,
+          "max": 187
+        },
+        {
+          "label": "Effect chase 16 (All chases cycle)",
+          "min": 188,
+          "max": 191
+        },
+        {
+          "label": "Sound active mode",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 17,
+      "type_description": "Modes 7 Channel",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "7-Channel mode",
+          "min": 11,
+          "max": 42
+        },
+        {
+          "label": "No function",
+          "min": 43,
+          "max": 191
+        },
+        {
+          "label": "Sound active mode",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 17,
+      "type_description": "Modes 10 Channel",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 84
+        },
+        {
+          "label": "10-Channel mode",
+          "min": 85,
+          "max": 127
+        },
+        {
+          "label": "No function",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Sound active mode",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 17,
+      "type_description": "Modes 31 Channel",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 42
+        },
+        {
+          "label": "31-Channel mode",
+          "min": 43,
+          "max": 84
+        },
+        {
+          "label": "No function",
+          "min": 85,
+          "max": 191
+        },
+        {
+          "label": "Sound active mode",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Speed",
+      "capabilities": [
+        {
+          "label": "Speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Strobo (slow to fast)",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Global Red Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Global Green Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Global Blue Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Global White Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Pixel 1 Global Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Pixel 2 Global Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Pixel 3 Global Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Pixel 4 Global Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Pixel 5 Global Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Pixel 6 Global Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Pixel 7 Global Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Pixel 1 Red Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Pixel 1 Green Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Pixel 1 Blue Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Pixel 1 White Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Pixel 2 Red Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Pixel 2 Green Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Pixel 2 Blue Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Pixel 2 White Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Pixel 3 Red Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Pixel 3 Green Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "Pixel 3 Blue Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "Pixel 3 White Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 0,
+      "type_description": "Pixel 4 Red Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "Pixel 4 Green Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 32,
+      "type": 0,
+      "type_description": "Pixel 4 Blue Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 33,
+      "type": 0,
+      "type_description": "Pixel 4 White Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 34,
+      "type": 0,
+      "type_description": "Pixel 5 Red Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 35,
+      "type": 0,
+      "type_description": "Pixel 5 Green Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 36,
+      "type": 0,
+      "type_description": "Pixel 5 Blue Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 37,
+      "type": 0,
+      "type_description": "Pixel 5 White Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 38,
+      "type": 0,
+      "type_description": "Pixel 6 Red Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 39,
+      "type": 0,
+      "type_description": "Pixel 6 Green Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 40,
+      "type": 0,
+      "type_description": "Pixel 6 Blue Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 41,
+      "type": 0,
+      "type_description": "Pixel 6 White Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 42,
+      "type": 0,
+      "type_description": "Pixel 7 Red Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 43,
+      "type": 0,
+      "type_description": "Pixel 7 Green Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 44,
+      "type": 0,
+      "type_description": "Pixel 7 Blue Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 45,
+      "type": 0,
+      "type_description": "Pixel 7 White Intensity",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Talent/Talent-BL252A.json",
+  "id": 1458
+}

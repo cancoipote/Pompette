@@ -1,0 +1,306 @@
+{
+  "version": "1.0.0",
+  "label": "Mega QA Par38",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 221,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 195,
+  "dimension_height": 92,
+  "dimension_depth": 202,
+  "lens_label": "Other",
+  "lens_degree_min": 25,
+  "lens_degree_max": 25,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 20,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Color Macros",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Red",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Green",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Blue",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Amber",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Red & green",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Red & blue",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Red & amber",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Green & blue",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Green & amber",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Blue & amber",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Red & green & blue",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Red & green & amber",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "Red & blue & amber",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "Green & blue & amber",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "Red & green & blue & amber",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 21,
+      "type_description": "Strobing",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Slow - fast",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 22,
+      "type_description": "Strobing/Program Speed/Sound Sensitivity",
+      "capabilities": [
+        {
+          "label": "Off/Slow - fast/Off",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Slow - fast/Slow - fast/Off",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Slow - fast/Slow - fast/Least - most",
+          "min": 32,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 17,
+      "type_description": "Dimming/Static Color/Color Change/Color Fade Select",
+      "capabilities": [
+        {
+          "label": "Dimmer mode",
+          "min": 0,
+          "max": 51
+        },
+        {
+          "label": "Color macro mode",
+          "min": 52,
+          "max": 102
+        },
+        {
+          "label": "Color change mode",
+          "min": 103,
+          "max": 153
+        },
+        {
+          "label": "Color fade mode",
+          "min": 154,
+          "max": 204
+        },
+        {
+          "label": "Sound active mode",
+          "min": 205,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Color Macros & Modes",
+      "capabilities": [
+        {
+          "label": "Off/Color change/Color fade/Sound active 1",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Red/Color change/Color fade/Sound active 2",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Green/Color change/Color fade/Sound active 3",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Blue/Color change/Color fade/Sound active 4",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Amber/Color change/Color fade/Sound active 5",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Red & green/Color change/Color fade/Sound active 6",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Red & blue/Color change/Color fade/Sound active 7",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Red & amber/Color change/Color fade/Sound active 8",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Green & blue/Color change/Color fade/Sound active 9",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Green & amber/Color change/Color fade/Sound active 10",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Blue & amber/Color change/Color fade/Sound active 11",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Red & green & blue/Color change/Color fade/Sound active 12",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Red & green & amber/Color change/Color fade/Sound active 13",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "Red & bue & amber/Color change/Color fade/Sound active 14",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "Green & blue & amber/Color change/Color fade/Sound active 15",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "Red & green & blue & amber/Color change/Color fade/Sound active 16",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Mega-QA-Par38.json",
+  "id": 108
+}

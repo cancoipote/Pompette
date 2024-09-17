@@ -1,0 +1,671 @@
+{
+  "version": "1.0.0",
+  "label": "PLProfile1 MkII",
+  "manufacturer": "Philips Selecon",
+  "bulb_type": "True RGBW 120 Watt LED chip",
+  "bulb_lumens": 2000,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 7,
+  "dimension_width": 310,
+  "dimension_height": 405,
+  "dimension_depth": 665,
+  "lens_label": "Other",
+  "lens_degree_min": 18,
+  "lens_degree_max": 44,
+  "focus_type": "Barrel",
+  "focus_pan_max": 360,
+  "focus_tilt_max": 90,
+  "technical_power_consumption": 140,
+  "technical_dmx_connector": "5-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Intensity - High Byte",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Intenisty - Low Byte",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Red - High Byte",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Red - Low Byte",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Green - High Byte",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Green - Low Byte",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Blue - High Byte",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Blue - Low Byte",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "White - High Byte",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "White - Low Byte",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Preset Color Selection",
+      "capabilities": [
+        {
+          "label": "No Preset Activated",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Off",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "Scratch Pad",
+          "min": 8,
+          "max": 11
+        },
+        {
+          "label": "Warm White",
+          "min": 12,
+          "max": 15
+        },
+        {
+          "label": "Cool White",
+          "min": 16,
+          "max": 19
+        },
+        {
+          "label": "Daylight",
+          "min": 20,
+          "max": 23
+        },
+        {
+          "label": "Arc White",
+          "min": 24,
+          "max": 27
+        },
+        {
+          "label": "Red",
+          "min": 28,
+          "max": 31
+        },
+        {
+          "label": "Yellow",
+          "min": 32,
+          "max": 35
+        },
+        {
+          "label": "Daylight Blue",
+          "min": 36,
+          "max": 39
+        },
+        {
+          "label": "Magenta",
+          "min": 40,
+          "max": 43
+        },
+        {
+          "label": "Aqua",
+          "min": 44,
+          "max": 47
+        },
+        {
+          "label": "Medium Amber",
+          "min": 48,
+          "max": 51
+        },
+        {
+          "label": "Lavender",
+          "min": 52,
+          "max": 55
+        },
+        {
+          "label": "Blue",
+          "min": 56,
+          "max": 59
+        },
+        {
+          "label": "Light Pink",
+          "min": 60,
+          "max": 63
+        },
+        {
+          "label": "Green",
+          "min": 64,
+          "max": 67
+        },
+        {
+          "label": "Pink",
+          "min": 68,
+          "max": 71
+        },
+        {
+          "label": "Amber White",
+          "min": 72,
+          "max": 75
+        },
+        {
+          "label": "Dark Fuchsia",
+          "min": 76,
+          "max": 79
+        },
+        {
+          "label": "Light Amber",
+          "min": 80,
+          "max": 83
+        },
+        {
+          "label": "Steel Blue",
+          "min": 84,
+          "max": 87
+        },
+        {
+          "label": "Light Green/Blue",
+          "min": 88,
+          "max": 91
+        },
+        {
+          "label": "Orange",
+          "min": 92,
+          "max": 95
+        },
+        {
+          "label": "Medium Pink",
+          "min": 96,
+          "max": 99
+        },
+        {
+          "label": "Cyan",
+          "min": 100,
+          "max": 103
+        },
+        {
+          "label": "Purple",
+          "min": 104,
+          "max": 107
+        },
+        {
+          "label": "Custom 1",
+          "min": 108,
+          "max": 111
+        },
+        {
+          "label": "Custom 2",
+          "min": 112,
+          "max": 115
+        },
+        {
+          "label": "Custom 3",
+          "min": 116,
+          "max": 119
+        },
+        {
+          "label": "Custom 4",
+          "min": 120,
+          "max": 123
+        },
+        {
+          "label": "Custom 5",
+          "min": 124,
+          "max": 127
+        },
+        {
+          "label": "Custom 6",
+          "min": 128,
+          "max": 131
+        },
+        {
+          "label": "No function",
+          "min": 132,
+          "max": 252
+        },
+        {
+          "label": "No Preset Activated",
+          "min": 253,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 22,
+      "type_description": "Intensity Time",
+      "capabilities": [
+        {
+          "label": "0s - 9.8s (0.2s per step)",
+          "min": 0,
+          "max": 49
+        },
+        {
+          "label": "10s - 19.8s (0.2s per step)",
+          "min": 50,
+          "max": 99
+        },
+        {
+          "label": "20s - 59s (1s per step)",
+          "min": 100,
+          "max": 139
+        },
+        {
+          "label": "60s - 99s (1s per step)",
+          "min": 140,
+          "max": 179
+        },
+        {
+          "label": "100s - 139s (1s per step)",
+          "min": 180,
+          "max": 219
+        },
+        {
+          "label": "140s - 169s (1s per step)",
+          "min": 220,
+          "max": 249
+        },
+        {
+          "label": "60mS - 160mS (20mS per step)",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 17,
+      "type_description": "Control",
+      "capabilities": [
+        {
+          "label": "Default setting on console",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Reserved",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "label": "Display on/off",
+          "min": 3,
+          "max": 4
+        },
+        {
+          "label": "Reset all settings to defaults",
+          "min": 5,
+          "max": 7
+        },
+        {
+          "label": "Quiet mode",
+          "min": 8,
+          "max": 10
+        },
+        {
+          "label": "Studio mode",
+          "min": 11,
+          "max": 13
+        },
+        {
+          "label": "Normal mode",
+          "min": 14,
+          "max": 15
+        },
+        {
+          "label": "No function",
+          "min": 16,
+          "max": 19
+        },
+        {
+          "label": "Preset 1 store",
+          "min": 20,
+          "max": 21
+        },
+        {
+          "label": "Preset 2 store (intensity only)",
+          "min": 22,
+          "max": 23
+        },
+        {
+          "label": "Preset 3 store (intensity only)",
+          "min": 24,
+          "max": 25
+        },
+        {
+          "label": "Preset 4 store (intensity only)",
+          "min": 26,
+          "max": 27
+        },
+        {
+          "label": "Preset 5 store",
+          "min": 28,
+          "max": 29
+        },
+        {
+          "label": "Preset 6 store",
+          "min": 30,
+          "max": 31
+        },
+        {
+          "label": "Preset 7 store",
+          "min": 32,
+          "max": 33
+        },
+        {
+          "label": "Preset 8 store",
+          "min": 34,
+          "max": 35
+        },
+        {
+          "label": "Preset 9 store",
+          "min": 36,
+          "max": 37
+        },
+        {
+          "label": "Preset 10 store",
+          "min": 38,
+          "max": 39
+        },
+        {
+          "label": "Preset 11 store",
+          "min": 40,
+          "max": 41
+        },
+        {
+          "label": "Preset 12 store",
+          "min": 42,
+          "max": 43
+        },
+        {
+          "label": "Preset 13 store",
+          "min": 44,
+          "max": 45
+        },
+        {
+          "label": "Preset 14 store",
+          "min": 46,
+          "max": 47
+        },
+        {
+          "label": "Preset 15 store",
+          "min": 48,
+          "max": 49
+        },
+        {
+          "label": "Preset 16 store",
+          "min": 50,
+          "max": 51
+        },
+        {
+          "label": "Preset 17 store",
+          "min": 52,
+          "max": 53
+        },
+        {
+          "label": "Preset 18 store",
+          "min": 54,
+          "max": 55
+        },
+        {
+          "label": "Preset 19 store",
+          "min": 56,
+          "max": 57
+        },
+        {
+          "label": "Preset 20 store",
+          "min": 58,
+          "max": 59
+        },
+        {
+          "label": "Preset 21 store",
+          "min": 60,
+          "max": 61
+        },
+        {
+          "label": "Preset 22 store",
+          "min": 62,
+          "max": 63
+        },
+        {
+          "label": "Preset 23 store",
+          "min": 64,
+          "max": 65
+        },
+        {
+          "label": "Preset 24 store",
+          "min": 66,
+          "max": 67
+        },
+        {
+          "label": "Preset 25 store",
+          "min": 68,
+          "max": 69
+        },
+        {
+          "label": "Preset 26 store",
+          "min": 70,
+          "max": 71
+        },
+        {
+          "label": "Preset 27 store",
+          "min": 72,
+          "max": 73
+        },
+        {
+          "label": "Preset 28 store",
+          "min": 74,
+          "max": 75
+        },
+        {
+          "label": "Preset 29 store",
+          "min": 76,
+          "max": 77
+        },
+        {
+          "label": "Preset 30 store",
+          "min": 78,
+          "max": 79
+        },
+        {
+          "label": "Preset 31 store",
+          "min": 80,
+          "max": 81
+        },
+        {
+          "label": "Preset 32 store",
+          "min": 82,
+          "max": 83
+        },
+        {
+          "label": "Reserved",
+          "min": 84,
+          "max": 99
+        },
+        {
+          "label": "Color normalization on",
+          "min": 100,
+          "max": 103
+        },
+        {
+          "label": "Color normalization off",
+          "min": 104,
+          "max": 107
+        },
+        {
+          "label": "Fixture reset",
+          "min": 108,
+          "max": 112
+        },
+        {
+          "label": "Red correction on",
+          "min": 113,
+          "max": 115
+        },
+        {
+          "label": "Red correction off",
+          "min": 116,
+          "max": 118
+        },
+        {
+          "label": "Reserved",
+          "min": 119,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Not used (for future use)",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 22,
+      "type_description": "Color Time",
+      "capabilities": [
+        {
+          "label": "0s - 9.8s (0.2s per step)",
+          "min": 0,
+          "max": 49
+        },
+        {
+          "label": "10s - 19.8s (0.2s per step)",
+          "min": 50,
+          "max": 99
+        },
+        {
+          "label": "20s - 59s (1s per step)",
+          "min": 100,
+          "max": 139
+        },
+        {
+          "label": "60s - 99s (1s per step)",
+          "min": 140,
+          "max": 179
+        },
+        {
+          "label": "100s - 139s (1s per step)",
+          "min": 180,
+          "max": 219
+        },
+        {
+          "label": "140s - 169s (1s per step)",
+          "min": 220,
+          "max": 249
+        },
+        {
+          "label": "60mS - 160mS (20mS per step)",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 22,
+      "type_description": "Timing",
+      "capabilities": [
+        {
+          "label": "0s - 9.8s (0.2s per step)",
+          "min": 0,
+          "max": 49
+        },
+        {
+          "label": "10s - 19.8s (0.2s per step)",
+          "min": 50,
+          "max": 99
+        },
+        {
+          "label": "20s - 59s (1s per step)",
+          "min": 100,
+          "max": 139
+        },
+        {
+          "label": "60s - 99s (1s per step)",
+          "min": 140,
+          "max": 179
+        },
+        {
+          "label": "100s - 139s (1s per step)",
+          "min": 180,
+          "max": 219
+        },
+        {
+          "label": "140s - 169s (1s per step)",
+          "min": 220,
+          "max": 249
+        },
+        {
+          "label": "60mS - 160mS (20mS per step)",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Philips_Selecon/Philips-Selecon-PLProfile1-MkII.json",
+  "id": 1119
+}

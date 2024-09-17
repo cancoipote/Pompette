@@ -1,0 +1,185 @@
+{
+  "version": "1.0.0",
+  "label": "LED BAR 252 RGB (no. 234564)",
+  "manufacturer": "Stairville",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 4500,
+  "dimension_weight": 4,
+  "dimension_width": 1100,
+  "dimension_height": 161,
+  "dimension_depth": 114,
+  "lens_label": "Other",
+  "lens_degree_min": 20,
+  "lens_degree_max": 20,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 30,
+  "technical_dmx_connector": "3-pin",
+  "type": 14,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Mode 1",
+      "capabilities": [
+        {
+          "label": "Black out",
+          "min": 0,
+          "max": 40
+        },
+        {
+          "label": "3-Segment Dimmer",
+          "min": 41,
+          "max": 80
+        },
+        {
+          "label": "1-Segment Dimmer",
+          "min": 81,
+          "max": 120
+        },
+        {
+          "label": "Color Shutter",
+          "min": 121,
+          "max": 160
+        },
+        {
+          "label": "Color Change",
+          "min": 161,
+          "max": 200
+        },
+        {
+          "label": "Color Flow",
+          "min": 201,
+          "max": 240
+        },
+        {
+          "label": "Dream Flow",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 22,
+      "type_description": "Shutter / Speed",
+      "capabilities": [
+        {
+          "label": "No Function",
+          "min": 0,
+          "max": 40
+        },
+        {
+          "label": "Shutter",
+          "min": 41,
+          "max": 160
+        },
+        {
+          "label": "Speed",
+          "min": 161,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Red1 / All Red",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Green1 / All Green",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Blue 1 / All Blue",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Red 2",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Green 2",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Blue 2",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Red 3",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Green 3",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Blue 3",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 3,
+      "type_description": "Mode 2",
+      "capabilities": [
+        {
+          "label": "Black out",
+          "min": 0,
+          "max": 40
+        },
+        {
+          "label": "<11-Channel>",
+          "min": 41,
+          "max": 80
+        },
+        {
+          "label": "1-Segment Dimmer",
+          "min": 81,
+          "max": 120
+        },
+        {
+          "label": "Color Shutter",
+          "min": 121,
+          "max": 160
+        },
+        {
+          "label": "Color Change",
+          "min": 161,
+          "max": 200
+        },
+        {
+          "label": "Color Flow",
+          "min": 201,
+          "max": 240
+        },
+        {
+          "label": "Dream Flow",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Stairville/Stairville-LED-BAR-RGB-252.json",
+  "id": 1400
+}

@@ -1,0 +1,284 @@
+{
+  "version": "1.0.0",
+  "label": "Shark 150C",
+  "manufacturer": "Studio Due",
+  "bulb_type": "HTI 150W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 6900,
+  "dimension_weight": 10,
+  "dimension_width": 350,
+  "dimension_height": 420,
+  "dimension_depth": 315,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 230,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 22,
+      "type_description": "Motors Speed",
+      "capabilities": [
+        {
+          "label": "Fast - Speed 1",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Speed 2",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Speed 3",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Speed 4",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Speed 5",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Speed 6",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Speed 7",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Slow - Speed 8",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Colours",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "C1 - Sky Blue",
+          "min": 1,
+          "max": 30
+        },
+        {
+          "label": "C2 - Magenta",
+          "min": 31,
+          "max": 58
+        },
+        {
+          "label": "C3 - Red",
+          "min": 59,
+          "max": 88
+        },
+        {
+          "label": "C4 - Orange",
+          "min": 89,
+          "max": 118
+        },
+        {
+          "label": "C5 - Yellow",
+          "min": 119,
+          "max": 145
+        },
+        {
+          "label": "C6 - Green",
+          "min": 146,
+          "max": 175
+        },
+        {
+          "label": "Rainbow",
+          "min": 176,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 4,
+      "type_description": "Gobos",
+      "capabilities": [
+        {
+          "label": "Gobo-0",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Gobo-1",
+          "min": 32,
+          "max": 95
+        },
+        {
+          "label": "Gobo-2",
+          "min": 96,
+          "max": 159
+        },
+        {
+          "label": "Gobo-3",
+          "min": 160,
+          "max": 223
+        },
+        {
+          "label": "Gobo-4",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Flash (1Hz to 10Hz)",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan Coarse",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Tilt Coarse",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 21,
+      "type_description": "Dimmer",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Mechanical Dimmer",
+          "min": 4,
+          "max": 223
+        },
+        {
+          "label": "Electronic Lamp",
+          "min": 224,
+          "max": 254
+        },
+        {
+          "label": "Open",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 4,
+      "type_description": "Rotation Gobos",
+      "capabilities": [
+        {
+          "label": "Static",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Slow To Fast CW",
+          "min": 4,
+          "max": 123
+        },
+        {
+          "label": "Static",
+          "min": 124,
+          "max": 135
+        },
+        {
+          "label": "Slow To Fast CCW",
+          "min": 136,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 17,
+      "type_description": "Remote Reset",
+      "capabilities": [
+        {
+          "label": "Normal",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Reset Fixture",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Normal",
+          "min": 192,
+          "max": 239
+        },
+        {
+          "label": "Lamp Off",
+          "min": 240,
+          "max": 250
+        },
+        {
+          "label": "Normal",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Studio_Due/Studio-Due-Shark-150C.json",
+  "id": 1457
+}

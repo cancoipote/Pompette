@@ -1,0 +1,247 @@
+{
+  "version": "1.0.0",
+  "label": "CY-200",
+  "manufacturer": "Futurelight",
+  "bulb_type": "HSD 250W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 15,
+  "dimension_width": 300,
+  "dimension_height": 150,
+  "dimension_depth": 525,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Mirror",
+  "focus_pan_max": 180,
+  "focus_tilt_max": 90,
+  "technical_power_consumption": 500,
+  "technical_dmx_connector": "3-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 22,
+      "type_description": "Cylinder rotation",
+      "capabilities": [
+        {
+          "label": "No rotation",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Clockwise rotation",
+          "min": 20,
+          "max": 135
+        },
+        {
+          "label": "No rotation",
+          "min": 136,
+          "max": 139
+        },
+        {
+          "label": "Anti-clockwise Rotation",
+          "min": 140,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Cherry Red",
+          "min": 11,
+          "max": 21
+        },
+        {
+          "label": "Yellow",
+          "min": 22,
+          "max": 32
+        },
+        {
+          "label": "Dark Blue",
+          "min": 33,
+          "max": 43
+        },
+        {
+          "label": "Light Green",
+          "min": 44,
+          "max": 54
+        },
+        {
+          "label": "Pink",
+          "min": 55,
+          "max": 65
+        },
+        {
+          "label": "Purple Blue",
+          "min": 66,
+          "max": 76
+        },
+        {
+          "label": "Red",
+          "min": 77,
+          "max": 87
+        },
+        {
+          "label": "Pale Yellow",
+          "min": 88,
+          "max": 98
+        },
+        {
+          "label": "Light Blue",
+          "min": 99,
+          "max": 109
+        },
+        {
+          "label": "Orange",
+          "min": 110,
+          "max": 120
+        },
+        {
+          "label": "Dark Green",
+          "min": 121,
+          "max": 127
+        },
+        {
+          "label": "Forward Rainbow Speed",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Backward Rainbow Speed",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Open",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Gobo 1",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Gobo 2",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Gobo 3",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Gobo 4",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Gobo 5",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Gobo 6",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Gobo 7",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Gobo 8",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Gobo 9",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Gobo 10",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Gobo 11",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Gobo 12",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Gobo 13",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Gobo 14",
+          "min": 120,
+          "max": 132
+        },
+        {
+          "label": "Reset after 3-5 seconds",
+          "min": 133,
+          "max": 137
+        },
+        {
+          "label": "Forward Gobo Change Speed",
+          "min": 138,
+          "max": 159
+        },
+        {
+          "label": "Strobe Speed",
+          "min": 160,
+          "max": 200
+        },
+        {
+          "label": "Random Strobe Speed",
+          "min": 201,
+          "max": 250
+        },
+        {
+          "label": "Open",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Futurelight/Futurelight-CY-200.json",
+  "id": 794
+}

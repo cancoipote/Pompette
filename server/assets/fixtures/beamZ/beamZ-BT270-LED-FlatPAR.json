@@ -1,0 +1,180 @@
+{
+  "version": "1.0.0",
+  "label": "BT270 LED FlatPAR",
+  "manufacturer": "beamZ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 210,
+  "dimension_height": 235,
+  "dimension_depth": 120,
+  "lens_label": "Other",
+  "lens_degree_min": 72,
+  "lens_degree_max": 72,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 30,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimming",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 29
+        },
+        {
+          "label": "Green",
+          "min": 30,
+          "max": 49
+        },
+        {
+          "label": "Blue",
+          "min": 50,
+          "max": 69
+        },
+        {
+          "label": "Amber",
+          "min": 70,
+          "max": 89
+        },
+        {
+          "label": "Red + Green",
+          "min": 90,
+          "max": 109
+        },
+        {
+          "label": "Red + Blue",
+          "min": 110,
+          "max": 129
+        },
+        {
+          "label": "Red + Amber",
+          "min": 130,
+          "max": 149
+        },
+        {
+          "label": "Green + Blue",
+          "min": 150,
+          "max": 169
+        },
+        {
+          "label": "Green + Amber",
+          "min": 170,
+          "max": 189
+        },
+        {
+          "label": "Blue + Amber",
+          "min": 190,
+          "max": 209
+        },
+        {
+          "label": "Red + Green + Blue",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "Red + Green + Amber",
+          "min": 220,
+          "max": 229
+        },
+        {
+          "label": "Red + Blue + Amber",
+          "min": 230,
+          "max": 239
+        },
+        {
+          "label": "Green + Blue + Amber",
+          "min": 240,
+          "max": 249
+        },
+        {
+          "label": "Red + Green + Blue + Amber",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Colour Macro",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Auto Colour blending",
+          "min": 10,
+          "max": 69
+        },
+        {
+          "label": "Auto Colour change",
+          "min": 70,
+          "max": 129
+        },
+        {
+          "label": "Sound Colour blending",
+          "min": 130,
+          "max": 189
+        },
+        {
+          "label": "Sound Colour change",
+          "min": 190,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/beamZ/beamZ-BT270-LED-FlatPAR.json",
+  "id": 194
+}

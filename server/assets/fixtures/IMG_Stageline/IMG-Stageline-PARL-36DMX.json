@@ -1,0 +1,120 @@
+{
+  "version": "1.0.0",
+  "label": "PARL-36DMX",
+  "manufacturer": "IMG Stageline",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 116,
+  "dimension_height": 116,
+  "dimension_depth": 155,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 12,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Operating Mode",
+      "capabilities": [
+        {
+          "label": "Manual colour adjustment",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "Automatic fading between 7 colours",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Automatic change between 7 colours",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Automatic change between red, green and blue",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Fast Change of Colour, Music Control",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Fast change of colour red/green/blue - speed fast to slow",
+          "min": 11,
+          "max": 100
+        },
+        {
+          "label": "No function",
+          "min": 101,
+          "max": 150
+        },
+        {
+          "label": "Music-controlled change of colour - sensitivity max to min",
+          "min": 151,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "No function",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 22,
+      "type_description": "Speed",
+      "capabilities": [
+        {
+          "label": "Minimum speed",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Speed (Fast to slow)",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/IMG_Stageline/IMG-Stageline-PARL-36DMX.json",
+  "id": 882
+}

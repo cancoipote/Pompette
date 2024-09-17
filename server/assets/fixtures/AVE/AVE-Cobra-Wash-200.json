@@ -1,0 +1,236 @@
+{
+  "version": "1.0.0",
+  "label": "Cobra Wash 200",
+  "manufacturer": "AVE",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 177,
+  "dimension_height": 240,
+  "dimension_depth": 177,
+  "lens_label": "Other",
+  "lens_degree_min": 45,
+  "lens_degree_max": 45,
+  "focus_type": "Fixed",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 75,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Color-Jump 5ch",
+      "capabilities": [
+        {
+          "label": "Ch4 effectivity?",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Colours",
+          "min": 1,
+          "max": 223
+        },
+        {
+          "label": "Gradual Change mode",
+          "min": 224,
+          "max": 235
+        },
+        {
+          "label": "Jump Change mode",
+          "min": 236,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Pan-Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Color-Jump 13ch",
+      "capabilities": [
+        {
+          "label": "Ch7~Ch10 dimmer mode",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Colours",
+          "min": 1,
+          "max": 223
+        },
+        {
+          "label": "Gradual Change mode",
+          "min": 224,
+          "max": 235
+        },
+        {
+          "label": "Jump Change mode",
+          "min": 236,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 17,
+      "type_description": "Machine Restoration",
+      "capabilities": [
+        {
+          "label": "Machine Restoration",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 3,
+      "type_description": "Auto Modes",
+      "capabilities": [
+        {
+          "label": "None",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Slow running in Auto",
+          "min": 3,
+          "max": 84
+        },
+        {
+          "label": "Fast running in Auto",
+          "min": 85,
+          "max": 169
+        },
+        {
+          "label": "Sound Mode",
+          "min": 170,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 5,
+      "type_description": "Dimmer-Strobe 5ch",
+      "capabilities": [
+        {
+          "label": "None",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "RGB Dimmer",
+          "min": 8,
+          "max": 134
+        },
+        {
+          "label": "Strobe",
+          "min": 135,
+          "max": 239
+        },
+        {
+          "label": "None",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 3,
+      "type_description": "Dimmer-Strobe 13ch",
+      "capabilities": [
+        {
+          "label": "RGBW off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "RGBW On-Needs to be set here for RGB operation",
+          "min": 8,
+          "max": 8
+        },
+        {
+          "label": "Adds White Dimmer",
+          "min": 9,
+          "max": 134
+        },
+        {
+          "label": "Strobe",
+          "min": 135,
+          "max": 239
+        },
+        {
+          "label": "Ch7~C10 effectivity",
+          "min": 240,
+          "max": 254
+        },
+        {
+          "label": "No function",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/AVE/AVE-Cobra-Wash-200.json",
+  "id": 180
+}

@@ -1,0 +1,71 @@
+{
+  "version": "1.0.0",
+  "label": "LEDSplash Jr",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 538,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 121,
+  "dimension_height": 168,
+  "dimension_depth": 102,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 24,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Reserved",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Shutter/Strobe/Dimmer",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "label": "Strobe",
+          "min": 2,
+          "max": 127
+        },
+        {
+          "label": "Intensity",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-LEDSplash-Jr.json",
+  "id": 496
+}

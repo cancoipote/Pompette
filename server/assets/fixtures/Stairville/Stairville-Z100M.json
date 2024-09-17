@@ -1,0 +1,64 @@
+{
+  "version": "1.0.0",
+  "label": "Z100M",
+  "manufacturer": "Stairville",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 3000,
+  "dimension_weight": 3,
+  "dimension_width": 275,
+  "dimension_height": 224,
+  "dimension_depth": 491,
+  "lens_label": "Other",
+  "lens_degree_min": 11,
+  "lens_degree_max": 35,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 115,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Stroboscope",
+      "capabilities": [
+        {
+          "label": "Strobe Effect",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Stroboscope Effect, Speed increasing (1 Hz ... 25 Hz)",
+          "min": 16,
+          "max": 95
+        },
+        {
+          "label": "Stroboscope Effect, Speed increasing (1 Hz)",
+          "min": 96,
+          "max": 175
+        },
+        {
+          "label": "Stroboscope Effect, random speed",
+          "min": 176,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Fine Dimmer",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Stairville/Stairville-Z100M.json",
+  "id": 1456
+}

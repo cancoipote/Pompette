@@ -1,0 +1,4701 @@
+{
+  "version": "1.0.0",
+  "label": "VL4000 Spot",
+  "manufacturer": "Vari-Lite",
+  "bulb_type": "Philips MSR 1200W Gold FastFit",
+  "bulb_lumens": 33000,
+  "bulb_color_temperature": 6000,
+  "dimension_weight": 41,
+  "dimension_width": 571,
+  "dimension_height": 808,
+  "dimension_depth": 624,
+  "lens_label": "",
+  "lens_degree_min": 9,
+  "lens_degree_max": 47,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 1850,
+  "technical_dmx_connector": "5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Edge",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "CTO",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Cyan",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Yellow",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Magenta",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Color Wheel 1",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 23
+        },
+        {
+          "label": "Open/Red",
+          "min": 24,
+          "max": 45
+        },
+        {
+          "label": "Red",
+          "min": 46,
+          "max": 69
+        },
+        {
+          "label": "Red/Dark Fuchsia",
+          "min": 70,
+          "max": 92
+        },
+        {
+          "label": "Dark Fuchsia",
+          "min": 93,
+          "max": 116
+        },
+        {
+          "label": "Dark Fuchsia/Orange",
+          "min": 117,
+          "max": 138
+        },
+        {
+          "label": "Orange",
+          "min": 139,
+          "max": 162
+        },
+        {
+          "label": "Orange/Kelly Green",
+          "min": 163,
+          "max": 185
+        },
+        {
+          "label": "Kelly Green",
+          "min": 186,
+          "max": 209
+        },
+        {
+          "label": "Kelly Green/Congo Blue",
+          "min": 210,
+          "max": 231
+        },
+        {
+          "label": "Congo Blue",
+          "min": 232,
+          "max": 243
+        },
+        {
+          "label": "Congo Blue/Open",
+          "min": 244,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 4,
+      "type_description": "Gobo Wheel 1",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Gobo 1 (Alpha Waves) Index",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Gobo 2 (Leafy Breakup) Index",
+          "min": 11,
+          "max": 15
+        },
+        {
+          "label": "Gobo 3 (Neurons V2) Index",
+          "min": 16,
+          "max": 20
+        },
+        {
+          "label": "Gobo 4 (Night Sky) Index",
+          "min": 21,
+          "max": 25
+        },
+        {
+          "label": "Gobo 5 (Bricked Out) Index",
+          "min": 26,
+          "max": 30
+        },
+        {
+          "label": "Gobo 6 (On The Rocks) Index",
+          "min": 31,
+          "max": 35
+        },
+        {
+          "label": "Gobo 7 (Droplets) Index",
+          "min": 36,
+          "max": 40
+        },
+        {
+          "label": "Open",
+          "min": 41,
+          "max": 45
+        },
+        {
+          "label": "Gobo 1 (Alpha Waves) Rotate",
+          "min": 46,
+          "max": 50
+        },
+        {
+          "label": "Gobo 2 (Leafy Breakup) Rotate",
+          "min": 51,
+          "max": 55
+        },
+        {
+          "label": "Gobo 3 (Neurons V2) Rotate",
+          "min": 56,
+          "max": 60
+        },
+        {
+          "label": "Gobo 4 (Night Sky) Rotate",
+          "min": 61,
+          "max": 65
+        },
+        {
+          "label": "Gobo 5 (Bricked Out) Rotate",
+          "min": 66,
+          "max": 70
+        },
+        {
+          "label": "Gobo 6 (On The Rocks) Rotate",
+          "min": 71,
+          "max": 75
+        },
+        {
+          "label": "Gobo 7 (Droplets) Rotate",
+          "min": 76,
+          "max": 80
+        },
+        {
+          "label": "Open",
+          "min": 81,
+          "max": 85
+        },
+        {
+          "label": "Gobo 1 (Alpha Waves) Rotate with Mega Stepping",
+          "min": 86,
+          "max": 90
+        },
+        {
+          "label": "Gobo 2 (Leafy Breakup) Rotate with Mega Stepping",
+          "min": 91,
+          "max": 95
+        },
+        {
+          "label": "Gobo 3 (Neurons V2) Rotate with Mega Stepping",
+          "min": 96,
+          "max": 100
+        },
+        {
+          "label": "Gobo 4 (Night Sky) Rotate with Mega Stepping",
+          "min": 101,
+          "max": 105
+        },
+        {
+          "label": "Gobo 5 (Bricked Out) Rotate with Mega Stepping",
+          "min": 106,
+          "max": 110
+        },
+        {
+          "label": "Gobo 6 (On The Rocks) Rotate with Mega Stepping",
+          "min": 111,
+          "max": 115
+        },
+        {
+          "label": "Gobo 7 (Droplets) Rotate with Mega Stepping",
+          "min": 116,
+          "max": 120
+        },
+        {
+          "label": "Reserved",
+          "min": 121,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Shutter Frame 1A",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Shutter Frame 1B",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Shutter Frame 2A",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Shutter Frame 2B",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Shutter Frame 3A",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Shutter Frame 3B",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Shutter Frame 4A",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Shutter Frame 4B",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 21,
+      "type_description": "Shutter Frame Rotation",
+      "capabilities": [
+        {
+          "label": "-50°",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "0°",
+          "min": 128,
+          "max": 128
+        },
+        {
+          "label": "+50°",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "type": 17,
+      "type_description": "Focus Timing",
+      "capabilities": [
+        {
+          "label": "Full Speed",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "0.2s",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "label": "0.4s",
+          "min": 2,
+          "max": 2
+        },
+        {
+          "label": "0.6s",
+          "min": 3,
+          "max": 3
+        },
+        {
+          "label": "0.8s",
+          "min": 4,
+          "max": 4
+        },
+        {
+          "label": "1.0s",
+          "min": 5,
+          "max": 5
+        },
+        {
+          "label": "1.2s",
+          "min": 6,
+          "max": 6
+        },
+        {
+          "label": "1.4s",
+          "min": 7,
+          "max": 7
+        },
+        {
+          "label": "1.6s",
+          "min": 8,
+          "max": 8
+        },
+        {
+          "label": "1.8s",
+          "min": 9,
+          "max": 9
+        },
+        {
+          "label": "2.0s",
+          "min": 10,
+          "max": 10
+        },
+        {
+          "label": "2.2s",
+          "min": 11,
+          "max": 11
+        },
+        {
+          "label": "2.4s",
+          "min": 12,
+          "max": 12
+        },
+        {
+          "label": "2.6s",
+          "min": 13,
+          "max": 13
+        },
+        {
+          "label": "2.8s",
+          "min": 14,
+          "max": 14
+        },
+        {
+          "label": "3.0s",
+          "min": 15,
+          "max": 15
+        },
+        {
+          "label": "3.2s",
+          "min": 16,
+          "max": 16
+        },
+        {
+          "label": "3.4s",
+          "min": 17,
+          "max": 17
+        },
+        {
+          "label": "3.6s",
+          "min": 18,
+          "max": 18
+        },
+        {
+          "label": "3.8s",
+          "min": 19,
+          "max": 19
+        },
+        {
+          "label": "4.0s",
+          "min": 20,
+          "max": 20
+        },
+        {
+          "label": "4.2s",
+          "min": 21,
+          "max": 21
+        },
+        {
+          "label": "4.4s",
+          "min": 22,
+          "max": 22
+        },
+        {
+          "label": "4.6s",
+          "min": 23,
+          "max": 23
+        },
+        {
+          "label": "4.8s",
+          "min": 24,
+          "max": 24
+        },
+        {
+          "label": "5.0s",
+          "min": 25,
+          "max": 25
+        },
+        {
+          "label": "5.2s",
+          "min": 26,
+          "max": 26
+        },
+        {
+          "label": "5.4s",
+          "min": 27,
+          "max": 27
+        },
+        {
+          "label": "5.6s",
+          "min": 28,
+          "max": 28
+        },
+        {
+          "label": "5.8s",
+          "min": 29,
+          "max": 29
+        },
+        {
+          "label": "6.0s",
+          "min": 30,
+          "max": 30
+        },
+        {
+          "label": "6.2s",
+          "min": 31,
+          "max": 31
+        },
+        {
+          "label": "6.4s",
+          "min": 32,
+          "max": 32
+        },
+        {
+          "label": "6.6s",
+          "min": 33,
+          "max": 33
+        },
+        {
+          "label": "6.8s",
+          "min": 34,
+          "max": 34
+        },
+        {
+          "label": "7.0s",
+          "min": 35,
+          "max": 35
+        },
+        {
+          "label": "7.2s",
+          "min": 36,
+          "max": 36
+        },
+        {
+          "label": "7.4s",
+          "min": 37,
+          "max": 37
+        },
+        {
+          "label": "7.6s",
+          "min": 38,
+          "max": 38
+        },
+        {
+          "label": "7.8s",
+          "min": 39,
+          "max": 39
+        },
+        {
+          "label": "8.0s",
+          "min": 40,
+          "max": 40
+        },
+        {
+          "label": "8.2s",
+          "min": 41,
+          "max": 41
+        },
+        {
+          "label": "8.4s",
+          "min": 42,
+          "max": 42
+        },
+        {
+          "label": "8.6s",
+          "min": 43,
+          "max": 43
+        },
+        {
+          "label": "8.8s",
+          "min": 44,
+          "max": 44
+        },
+        {
+          "label": "9.0s",
+          "min": 45,
+          "max": 45
+        },
+        {
+          "label": "9.2s",
+          "min": 46,
+          "max": 46
+        },
+        {
+          "label": "9.4s",
+          "min": 47,
+          "max": 47
+        },
+        {
+          "label": "9.6s",
+          "min": 48,
+          "max": 48
+        },
+        {
+          "label": "9.8s",
+          "min": 49,
+          "max": 49
+        },
+        {
+          "label": "10.0s",
+          "min": 50,
+          "max": 50
+        },
+        {
+          "label": "10.2s",
+          "min": 51,
+          "max": 51
+        },
+        {
+          "label": "10.4s",
+          "min": 52,
+          "max": 52
+        },
+        {
+          "label": "10.6s",
+          "min": 53,
+          "max": 53
+        },
+        {
+          "label": "11s",
+          "min": 54,
+          "max": 55
+        },
+        {
+          "label": "12s",
+          "min": 56,
+          "max": 57
+        },
+        {
+          "label": "13s",
+          "min": 58,
+          "max": 59
+        },
+        {
+          "label": "14s",
+          "min": 60,
+          "max": 62
+        },
+        {
+          "label": "15s",
+          "min": 63,
+          "max": 64
+        },
+        {
+          "label": "16s",
+          "min": 65,
+          "max": 67
+        },
+        {
+          "label": "17s",
+          "min": 68,
+          "max": 69
+        },
+        {
+          "label": "18s",
+          "min": 70,
+          "max": 72
+        },
+        {
+          "label": "19s",
+          "min": 73,
+          "max": 74
+        },
+        {
+          "label": "20s",
+          "min": 75,
+          "max": 77
+        },
+        {
+          "label": "21s",
+          "min": 78,
+          "max": 80
+        },
+        {
+          "label": "22s",
+          "min": 81,
+          "max": 82
+        },
+        {
+          "label": "23s",
+          "min": 83,
+          "max": 85
+        },
+        {
+          "label": "24s",
+          "min": 86,
+          "max": 87
+        },
+        {
+          "label": "25s",
+          "min": 88,
+          "max": 90
+        },
+        {
+          "label": "26s",
+          "min": 91,
+          "max": 92
+        },
+        {
+          "label": "27s",
+          "min": 93,
+          "max": 95
+        },
+        {
+          "label": "28s",
+          "min": 96,
+          "max": 97
+        },
+        {
+          "label": "29s",
+          "min": 98,
+          "max": 100
+        },
+        {
+          "label": "30s",
+          "min": 101,
+          "max": 103
+        },
+        {
+          "label": "31s",
+          "min": 104,
+          "max": 105
+        },
+        {
+          "label": "32s",
+          "min": 106,
+          "max": 108
+        },
+        {
+          "label": "33s",
+          "min": 109,
+          "max": 110
+        },
+        {
+          "label": "34s",
+          "min": 111,
+          "max": 113
+        },
+        {
+          "label": "35s",
+          "min": 114,
+          "max": 115
+        },
+        {
+          "label": "36s",
+          "min": 116,
+          "max": 118
+        },
+        {
+          "label": "37s",
+          "min": 119,
+          "max": 120
+        },
+        {
+          "label": "38s",
+          "min": 121,
+          "max": 123
+        },
+        {
+          "label": "39s",
+          "min": 124,
+          "max": 126
+        },
+        {
+          "label": "40s",
+          "min": 127,
+          "max": 128
+        },
+        {
+          "label": "41s",
+          "min": 129,
+          "max": 131
+        },
+        {
+          "label": "42s",
+          "min": 132,
+          "max": 133
+        },
+        {
+          "label": "43s",
+          "min": 134,
+          "max": 136
+        },
+        {
+          "label": "44s",
+          "min": 137,
+          "max": 138
+        },
+        {
+          "label": "45s",
+          "min": 139,
+          "max": 141
+        },
+        {
+          "label": "46s",
+          "min": 142,
+          "max": 143
+        },
+        {
+          "label": "47s",
+          "min": 144,
+          "max": 146
+        },
+        {
+          "label": "48s",
+          "min": 147,
+          "max": 148
+        },
+        {
+          "label": "49s",
+          "min": 149,
+          "max": 151
+        },
+        {
+          "label": "50s",
+          "min": 152,
+          "max": 154
+        },
+        {
+          "label": "51s",
+          "min": 155,
+          "max": 156
+        },
+        {
+          "label": "52s",
+          "min": 157,
+          "max": 159
+        },
+        {
+          "label": "53s",
+          "min": 160,
+          "max": 161
+        },
+        {
+          "label": "54s",
+          "min": 162,
+          "max": 164
+        },
+        {
+          "label": "55s",
+          "min": 165,
+          "max": 166
+        },
+        {
+          "label": "56s",
+          "min": 167,
+          "max": 169
+        },
+        {
+          "label": "57s",
+          "min": 170,
+          "max": 171
+        },
+        {
+          "label": "58s",
+          "min": 172,
+          "max": 174
+        },
+        {
+          "label": "59s",
+          "min": 175,
+          "max": 177
+        },
+        {
+          "label": "60s",
+          "min": 178,
+          "max": 179
+        },
+        {
+          "label": "65s",
+          "min": 180,
+          "max": 182
+        },
+        {
+          "label": "70s",
+          "min": 183,
+          "max": 184
+        },
+        {
+          "label": "75s",
+          "min": 185,
+          "max": 187
+        },
+        {
+          "label": "80s",
+          "min": 188,
+          "max": 189
+        },
+        {
+          "label": "85s",
+          "min": 190,
+          "max": 192
+        },
+        {
+          "label": "90s",
+          "min": 193,
+          "max": 194
+        },
+        {
+          "label": "95s",
+          "min": 195,
+          "max": 197
+        },
+        {
+          "label": "100s",
+          "min": 198,
+          "max": 199
+        },
+        {
+          "label": "110s",
+          "min": 200,
+          "max": 202
+        },
+        {
+          "label": "120s",
+          "min": 203,
+          "max": 205
+        },
+        {
+          "label": "130s",
+          "min": 206,
+          "max": 207
+        },
+        {
+          "label": "140s",
+          "min": 208,
+          "max": 210
+        },
+        {
+          "label": "150s",
+          "min": 211,
+          "max": 212
+        },
+        {
+          "label": "160s",
+          "min": 213,
+          "max": 215
+        },
+        {
+          "label": "170s",
+          "min": 216,
+          "max": 217
+        },
+        {
+          "label": "180s",
+          "min": 218,
+          "max": 220
+        },
+        {
+          "label": "190s",
+          "min": 221,
+          "max": 222
+        },
+        {
+          "label": "200s",
+          "min": 223,
+          "max": 225
+        },
+        {
+          "label": "210s",
+          "min": 226,
+          "max": 228
+        },
+        {
+          "label": "220s",
+          "min": 229,
+          "max": 230
+        },
+        {
+          "label": "230s",
+          "min": 231,
+          "max": 233
+        },
+        {
+          "label": "240s",
+          "min": 234,
+          "max": 235
+        },
+        {
+          "label": "250s",
+          "min": 236,
+          "max": 238
+        },
+        {
+          "label": "260s",
+          "min": 239,
+          "max": 240
+        },
+        {
+          "label": "270s",
+          "min": 241,
+          "max": 243
+        },
+        {
+          "label": "280s",
+          "min": 244,
+          "max": 245
+        },
+        {
+          "label": "290s",
+          "min": 246,
+          "max": 248
+        },
+        {
+          "label": "300s",
+          "min": 249,
+          "max": 250
+        },
+        {
+          "label": "310s",
+          "min": 251,
+          "max": 254
+        },
+        {
+          "label": "Follows Cue Data",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "type": 17,
+      "type_description": "Control",
+      "capabilities": [
+        {
+          "label": "Idle",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Full Recalibration",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Lamp On",
+          "min": 11,
+          "max": 15
+        },
+        {
+          "label": "Lamp Off",
+          "min": 16,
+          "max": 20
+        },
+        {
+          "label": "Fixture Shutdown",
+          "min": 21,
+          "max": 25
+        },
+        {
+          "label": "Display On",
+          "min": 26,
+          "max": 30
+        },
+        {
+          "label": "Display Off",
+          "min": 31,
+          "max": 35
+        },
+        {
+          "label": "Recalibrate Position",
+          "min": 36,
+          "max": 40
+        },
+        {
+          "label": "Recalibrate Color",
+          "min": 41,
+          "max": 45
+        },
+        {
+          "label": "Recalibrate Gobo",
+          "min": 46,
+          "max": 50
+        },
+        {
+          "label": "Recalibrate Beam",
+          "min": 51,
+          "max": 55
+        },
+        {
+          "label": "Recalibrate Optics",
+          "min": 56,
+          "max": 60
+        },
+        {
+          "label": "Recalibrate Dimmer/Strobe",
+          "min": 61,
+          "max": 65
+        },
+        {
+          "label": "Reset Fixture to Defaults",
+          "min": 66,
+          "max": 70
+        },
+        {
+          "label": "Full Reboot",
+          "min": 71,
+          "max": 75
+        },
+        {
+          "label": "Display Status Toggle",
+          "min": 76,
+          "max": 80
+        },
+        {
+          "label": "Standard Mode",
+          "min": 81,
+          "max": 85
+        },
+        {
+          "label": "Studio Mode",
+          "min": 86,
+          "max": 90
+        },
+        {
+          "label": "Reserved",
+          "min": 91,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Edge Fine",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Zoom Fine",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 17,
+      "type_description": "Programming Control",
+      "capabilities": [
+        {
+          "label": "Idle",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Reserved",
+          "min": 3,
+          "max": 10
+        },
+        {
+          "label": "Dimmer Snap OFF (hold 3s)",
+          "min": 11,
+          "max": 15
+        },
+        {
+          "label": "Dimmer Snap ON (Fixture Default)",
+          "min": 16,
+          "max": 20
+        },
+        {
+          "label": "No function",
+          "min": 21,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Color Wheel 2",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 23
+        },
+        {
+          "label": "Open/Blue",
+          "min": 24,
+          "max": 45
+        },
+        {
+          "label": "Blue",
+          "min": 46,
+          "max": 69
+        },
+        {
+          "label": "Blue/Green",
+          "min": 70,
+          "max": 92
+        },
+        {
+          "label": "Green",
+          "min": 93,
+          "max": 116
+        },
+        {
+          "label": "Green/Minus Green",
+          "min": 117,
+          "max": 138
+        },
+        {
+          "label": "Minus Green",
+          "min": 139,
+          "max": 162
+        },
+        {
+          "label": "Minus Green/Lavender",
+          "min": 163,
+          "max": 185
+        },
+        {
+          "label": "Lavender",
+          "min": 186,
+          "max": 209
+        },
+        {
+          "label": "Lavender/Amber",
+          "min": 210,
+          "max": 231
+        },
+        {
+          "label": "Amber",
+          "min": 232,
+          "max": 243
+        },
+        {
+          "label": "Amber/Open",
+          "min": 244,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "Color Wheel 1 Control",
+      "capabilities": [
+        {
+          "label": "Linear Movement Quickest Path",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Linear Movement Normal Path",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Wheel Spin Forward (Fast to Slow)",
+          "min": 11,
+          "max": 15
+        },
+        {
+          "label": "Wheel Spin STOP",
+          "min": 16,
+          "max": 20
+        },
+        {
+          "label": "Wheel Spin Reverse (Slow to Fast)",
+          "min": 21,
+          "max": 25
+        },
+        {
+          "label": "Color Shake Quickest Path (Slow to Fast)",
+          "min": 26,
+          "max": 56
+        },
+        {
+          "label": "Color Shake Normal Path (Slow to Fast)",
+          "min": 57,
+          "max": 87
+        },
+        {
+          "label": "Reserved",
+          "min": 88,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "Color Wheel 2 Control",
+      "capabilities": [
+        {
+          "label": "Linear Movement Quickest Path",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Linear Movement Normal Path",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Wheel Spin Forward (Fast to Slow)",
+          "min": 11,
+          "max": 15
+        },
+        {
+          "label": "Wheel Spin STOP",
+          "min": 16,
+          "max": 20
+        },
+        {
+          "label": "Wheel Spin Reverse (Slow to Fast)",
+          "min": 21,
+          "max": 25
+        },
+        {
+          "label": "Color Shake Quickest Path (Slow to Fast)",
+          "min": 26,
+          "max": 56
+        },
+        {
+          "label": "Color Shake Normal Path (Slow to Fast)",
+          "min": 57,
+          "max": 87
+        },
+        {
+          "label": "Reserved",
+          "min": 88,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "type": 4,
+      "type_description": "Gobo Wheel 2",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Gobo 1 (Circle of Eights) Index",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Gobo 2 (Punch Card) Index",
+          "min": 11,
+          "max": 15
+        },
+        {
+          "label": "Gobo 3 (Vertical Bars) Index",
+          "min": 16,
+          "max": 20
+        },
+        {
+          "label": "Gobo 4 (Lattice) Index",
+          "min": 21,
+          "max": 25
+        },
+        {
+          "label": "Gobo 5 (Wavy Triangle) Index",
+          "min": 26,
+          "max": 30
+        },
+        {
+          "label": "Gobo 6 (Dot Buffet) Index",
+          "min": 31,
+          "max": 35
+        },
+        {
+          "label": "Gobo 7 (Quadcone Red) Index",
+          "min": 36,
+          "max": 40
+        },
+        {
+          "label": "Open",
+          "min": 41,
+          "max": 45
+        },
+        {
+          "label": "Gobo 1 (Circle of Eights) Rotate",
+          "min": 46,
+          "max": 50
+        },
+        {
+          "label": "Gobo 2 (Punch Card) Rotate",
+          "min": 51,
+          "max": 55
+        },
+        {
+          "label": "Gobo 3 (Vertical Bars) Rotate",
+          "min": 56,
+          "max": 60
+        },
+        {
+          "label": "Gobo 4 (Lattice) Rotate",
+          "min": 61,
+          "max": 65
+        },
+        {
+          "label": "Gobo 5 (Wavy Triangle) Rotate",
+          "min": 66,
+          "max": 70
+        },
+        {
+          "label": "Gobo 6 (Dot Buffet) Rotate",
+          "min": 71,
+          "max": 75
+        },
+        {
+          "label": "Gobo 7 (Quadcone Red) Rotate",
+          "min": 76,
+          "max": 80
+        },
+        {
+          "label": "Open",
+          "min": 81,
+          "max": 85
+        },
+        {
+          "label": "Gobo 1 (Circle of Eights) Rotate with Mega Stepping",
+          "min": 86,
+          "max": 90
+        },
+        {
+          "label": "Gobo 2 (Punch Card) Rotate with Mega Stepping",
+          "min": 91,
+          "max": 95
+        },
+        {
+          "label": "Gobo 3 (Vertical Bars) Rotate with Mega Stepping",
+          "min": 96,
+          "max": 100
+        },
+        {
+          "label": "Gobo 4 (Lattice) Rotate with Mega Stepping",
+          "min": 101,
+          "max": 105
+        },
+        {
+          "label": "Gobo 5 (Wavy Triangle) Rotate with Mega Stepping",
+          "min": 106,
+          "max": 110
+        },
+        {
+          "label": "Gobo 6 (Dot Buffet) Rotate with Mega Stepping",
+          "min": 111,
+          "max": 115
+        },
+        {
+          "label": "Gobo 7 (Quadcone Red) Rotate with Mega Stepping",
+          "min": 116,
+          "max": 120
+        },
+        {
+          "label": "Reserved",
+          "min": 121,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "type": 4,
+      "type_description": "Gobo Wheel 1 Index/Rotate",
+      "capabilities": [
+        {
+          "label": "Rotate Fast to Slow",
+          "min": 0,
+          "max": 126
+        },
+        {
+          "label": "Rotate Stop",
+          "min": 127,
+          "max": 127
+        },
+        {
+          "label": "Rotate Slow to Fast",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "type": 4,
+      "type_description": "Gobo Wheel 1 Index/Rotate Fine",
+      "capabilities": [
+        {
+          "label": "Index/Rotate Fine",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "type": 4,
+      "type_description": "Gobo Wheel 2 Index/Rotate",
+      "capabilities": [
+        {
+          "label": "Rotate Fast to Slow",
+          "min": 0,
+          "max": 126
+        },
+        {
+          "label": "Rotate Stop",
+          "min": 127,
+          "max": 127
+        },
+        {
+          "label": "Rotate Slow to Fast",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "type": 4,
+      "type_description": "Gobo Wheel 2 Index/Rotate Fine",
+      "capabilities": [
+        {
+          "label": "Index/Rotate Fine",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "type": 4,
+      "type_description": "Gobo Wheel 1 Control",
+      "capabilities": [
+        {
+          "label": "Gobo Selection Quickest Path",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Gobo Selection Normal Path",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Reserved",
+          "min": 11,
+          "max": 20
+        },
+        {
+          "label": "Wheel Spin Forward (Fast to Slow)",
+          "min": 21,
+          "max": 50
+        },
+        {
+          "label": "Wheel Spin Stop",
+          "min": 51,
+          "max": 60
+        },
+        {
+          "label": "Wheel Spin Reverse (Slow to Fast)",
+          "min": 61,
+          "max": 90
+        },
+        {
+          "label": "Gobo Shake Quickest Path (Slow to Fast)",
+          "min": 91,
+          "max": 120
+        },
+        {
+          "label": "Gobo Shake Normal Path (Slow to Fast)",
+          "min": 121,
+          "max": 150
+        },
+        {
+          "label": "Gobo Twist Quickest Path (Slow to Fast)",
+          "min": 151,
+          "max": 180
+        },
+        {
+          "label": "Gobo Twist Normal Path (Slow to Fast)",
+          "min": 181,
+          "max": 210
+        },
+        {
+          "label": "Reserved",
+          "min": 211,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "type": 4,
+      "type_description": "Gobo Wheel 2 Control",
+      "capabilities": [
+        {
+          "label": "Gobo Selection Quickest Path",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Gobo Selection Normal Path",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Reserved",
+          "min": 11,
+          "max": 20
+        },
+        {
+          "label": "Wheel Spin Forward (Fast to Slow)",
+          "min": 21,
+          "max": 50
+        },
+        {
+          "label": "Wheel Spin Stop",
+          "min": 51,
+          "max": 60
+        },
+        {
+          "label": "Wheel Spin Reverse (Slow to Fast)",
+          "min": 61,
+          "max": 90
+        },
+        {
+          "label": "Gobo Shake Quickest Path (Slow to Fast)",
+          "min": 91,
+          "max": 120
+        },
+        {
+          "label": "Gobo Shake Normal Path (Slow to Fast)",
+          "min": 121,
+          "max": 150
+        },
+        {
+          "label": "Gobo Twist Quickest Path (Slow to Fast)",
+          "min": 151,
+          "max": 180
+        },
+        {
+          "label": "Gobo Twist Normal Path (Slow to Fast)",
+          "min": 181,
+          "max": 210
+        },
+        {
+          "label": "Reserved",
+          "min": 211,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "type": 3,
+      "type_description": "Animation Wheel 1 (Dichro*Fusion)",
+      "capabilities": [
+        {
+          "label": "Animation Wheel",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "type": 3,
+      "type_description": "Animation Wheel 2 (Wicked Waves)",
+      "capabilities": [
+        {
+          "label": "Animation Wheel",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "type": 3,
+      "type_description": "Animation Wheel 1 (Dichro*Fusion) Index/Rotate",
+      "capabilities": [
+        {
+          "label": "Rotate Fast to Slow",
+          "min": 0,
+          "max": 126
+        },
+        {
+          "label": "Rotate Stop",
+          "min": 127,
+          "max": 127
+        },
+        {
+          "label": "Rotate Slow to Fast",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "type": 3,
+      "type_description": "Animation Wheel 1 (Dichro*Fusion) Index/Rotate Fine",
+      "capabilities": [
+        {
+          "label": "Index/Rotate Fine",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "type": 3,
+      "type_description": "Animation Wheel 2 (Wicked Waves) Index/Rotate",
+      "capabilities": [
+        {
+          "label": "Rotate Fast to Slow",
+          "min": 0,
+          "max": 126
+        },
+        {
+          "label": "Rotate Stop",
+          "min": 127,
+          "max": 127
+        },
+        {
+          "label": "Rotate Slow to Fast",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "type": 3,
+      "type_description": "Animation Wheel 2 (Wicked Waves) Index/Rotate Fine",
+      "capabilities": [
+        {
+          "label": "Index/Rotate Fine",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "type": 3,
+      "type_description": "Animation Wheel 1 (Dichro*Fusion) Control",
+      "capabilities": [
+        {
+          "label": "Gobo Selection Quickest Path",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Gobo Selection Normal Path",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Rotate Normal",
+          "min": 11,
+          "max": 15
+        },
+        {
+          "label": "Rotate with Mega Stepping",
+          "min": 16,
+          "max": 20
+        },
+        {
+          "label": "Reserved",
+          "min": 21,
+          "max": 25
+        },
+        {
+          "label": "Image Shake Quickest Path (Slow to Fast)",
+          "min": 26,
+          "max": 56
+        },
+        {
+          "label": "Image Shake Normal Path (Slow to Fast)",
+          "min": 57,
+          "max": 87
+        },
+        {
+          "label": "Reserved",
+          "min": 88,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "type": 3,
+      "type_description": "Animation Wheel 2 (Wicked Waves) Control",
+      "capabilities": [
+        {
+          "label": "Gobo Selection Quickest Path",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Gobo Selection Normal Path",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Rotate Normal",
+          "min": 11,
+          "max": 15
+        },
+        {
+          "label": "Rotate with Mega Stepping",
+          "min": 16,
+          "max": 20
+        },
+        {
+          "label": "Reserved",
+          "min": 21,
+          "max": 25
+        },
+        {
+          "label": "Image Shake Quickest Path (Slow to Fast)",
+          "min": 26,
+          "max": 56
+        },
+        {
+          "label": "Image Shake Normal Path (Slow to Fast)",
+          "min": 57,
+          "max": 87
+        },
+        {
+          "label": "Reserved",
+          "min": 88,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "type": 0,
+      "type_description": "Beam Iris",
+      "capabilities": []
+    },
+    {
+      "index": 46,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Index",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Rotate Normal",
+          "min": 11,
+          "max": 15
+        },
+        {
+          "label": "Rotate with Mega Stepping",
+          "min": 16,
+          "max": 20
+        },
+        {
+          "label": "Reserved",
+          "min": 21,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "type": 20,
+      "type_description": "Prism Index/Rotate",
+      "capabilities": [
+        {
+          "label": "Rotate (Fast to Slow)",
+          "min": 0,
+          "max": 126
+        },
+        {
+          "label": "Rotate Stop",
+          "min": 127,
+          "max": 127
+        },
+        {
+          "label": "Rotate (Slow to Fast)",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "type": 20,
+      "type_description": "Prism Index/Rotate Fine",
+      "capabilities": [
+        {
+          "label": "Index/Rotate Fine",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "type": 20,
+      "type_description": "Prism Diverge",
+      "capabilities": [
+        {
+          "label": "Spread (Small to Big)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "type": 1,
+      "type_description": "Frost",
+      "capabilities": [
+        {
+          "label": "Frost (Small to Big)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "type": 0,
+      "type_description": "Strobe Speed",
+      "capabilities": []
+    },
+    {
+      "index": 52,
+      "type": 21,
+      "type_description": "Strobe Control",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Closed",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Normal Strobe",
+          "min": 11,
+          "max": 15
+        },
+        {
+          "label": "Random Strobe",
+          "min": 16,
+          "max": 20
+        },
+        {
+          "label": "Random Sync",
+          "min": 21,
+          "max": 25
+        },
+        {
+          "label": "Reserved",
+          "min": 26,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "type": 17,
+      "type_description": "Optics Timing",
+      "capabilities": [
+        {
+          "label": "Full Speed",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "0.2s",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "label": "0.4s",
+          "min": 2,
+          "max": 2
+        },
+        {
+          "label": "0.6s",
+          "min": 3,
+          "max": 3
+        },
+        {
+          "label": "0.8s",
+          "min": 4,
+          "max": 4
+        },
+        {
+          "label": "1.0s",
+          "min": 5,
+          "max": 5
+        },
+        {
+          "label": "1.2s",
+          "min": 6,
+          "max": 6
+        },
+        {
+          "label": "1.4s",
+          "min": 7,
+          "max": 7
+        },
+        {
+          "label": "1.6s",
+          "min": 8,
+          "max": 8
+        },
+        {
+          "label": "1.8s",
+          "min": 9,
+          "max": 9
+        },
+        {
+          "label": "2.0s",
+          "min": 10,
+          "max": 10
+        },
+        {
+          "label": "2.2s",
+          "min": 11,
+          "max": 11
+        },
+        {
+          "label": "2.4s",
+          "min": 12,
+          "max": 12
+        },
+        {
+          "label": "2.6s",
+          "min": 13,
+          "max": 13
+        },
+        {
+          "label": "2.8s",
+          "min": 14,
+          "max": 14
+        },
+        {
+          "label": "3.0s",
+          "min": 15,
+          "max": 15
+        },
+        {
+          "label": "3.2s",
+          "min": 16,
+          "max": 16
+        },
+        {
+          "label": "3.4s",
+          "min": 17,
+          "max": 17
+        },
+        {
+          "label": "3.6s",
+          "min": 18,
+          "max": 18
+        },
+        {
+          "label": "3.8s",
+          "min": 19,
+          "max": 19
+        },
+        {
+          "label": "4.0s",
+          "min": 20,
+          "max": 20
+        },
+        {
+          "label": "4.2s",
+          "min": 21,
+          "max": 21
+        },
+        {
+          "label": "4.4s",
+          "min": 22,
+          "max": 22
+        },
+        {
+          "label": "4.6s",
+          "min": 23,
+          "max": 23
+        },
+        {
+          "label": "4.8s",
+          "min": 24,
+          "max": 24
+        },
+        {
+          "label": "5.0s",
+          "min": 25,
+          "max": 25
+        },
+        {
+          "label": "5.2s",
+          "min": 26,
+          "max": 26
+        },
+        {
+          "label": "5.4s",
+          "min": 27,
+          "max": 27
+        },
+        {
+          "label": "5.6s",
+          "min": 28,
+          "max": 28
+        },
+        {
+          "label": "5.8s",
+          "min": 29,
+          "max": 29
+        },
+        {
+          "label": "6.0s",
+          "min": 30,
+          "max": 30
+        },
+        {
+          "label": "6.2s",
+          "min": 31,
+          "max": 31
+        },
+        {
+          "label": "6.4s",
+          "min": 32,
+          "max": 32
+        },
+        {
+          "label": "6.6s",
+          "min": 33,
+          "max": 33
+        },
+        {
+          "label": "6.8s",
+          "min": 34,
+          "max": 34
+        },
+        {
+          "label": "7.0s",
+          "min": 35,
+          "max": 35
+        },
+        {
+          "label": "7.2s",
+          "min": 36,
+          "max": 36
+        },
+        {
+          "label": "7.4s",
+          "min": 37,
+          "max": 37
+        },
+        {
+          "label": "7.6s",
+          "min": 38,
+          "max": 38
+        },
+        {
+          "label": "7.8s",
+          "min": 39,
+          "max": 39
+        },
+        {
+          "label": "8.0s",
+          "min": 40,
+          "max": 40
+        },
+        {
+          "label": "8.2s",
+          "min": 41,
+          "max": 41
+        },
+        {
+          "label": "8.4s",
+          "min": 42,
+          "max": 42
+        },
+        {
+          "label": "8.6s",
+          "min": 43,
+          "max": 43
+        },
+        {
+          "label": "8.8s",
+          "min": 44,
+          "max": 44
+        },
+        {
+          "label": "9.0s",
+          "min": 45,
+          "max": 45
+        },
+        {
+          "label": "9.2s",
+          "min": 46,
+          "max": 46
+        },
+        {
+          "label": "9.4s",
+          "min": 47,
+          "max": 47
+        },
+        {
+          "label": "9.6s",
+          "min": 48,
+          "max": 48
+        },
+        {
+          "label": "9.8s",
+          "min": 49,
+          "max": 49
+        },
+        {
+          "label": "10.0s",
+          "min": 50,
+          "max": 50
+        },
+        {
+          "label": "10.2s",
+          "min": 51,
+          "max": 51
+        },
+        {
+          "label": "10.4s",
+          "min": 52,
+          "max": 52
+        },
+        {
+          "label": "10.6s",
+          "min": 53,
+          "max": 53
+        },
+        {
+          "label": "11s",
+          "min": 54,
+          "max": 55
+        },
+        {
+          "label": "12s",
+          "min": 56,
+          "max": 57
+        },
+        {
+          "label": "13s",
+          "min": 58,
+          "max": 59
+        },
+        {
+          "label": "14s",
+          "min": 60,
+          "max": 62
+        },
+        {
+          "label": "15s",
+          "min": 63,
+          "max": 64
+        },
+        {
+          "label": "16s",
+          "min": 65,
+          "max": 67
+        },
+        {
+          "label": "17s",
+          "min": 68,
+          "max": 69
+        },
+        {
+          "label": "18s",
+          "min": 70,
+          "max": 72
+        },
+        {
+          "label": "19s",
+          "min": 73,
+          "max": 74
+        },
+        {
+          "label": "20s",
+          "min": 75,
+          "max": 77
+        },
+        {
+          "label": "21s",
+          "min": 78,
+          "max": 80
+        },
+        {
+          "label": "22s",
+          "min": 81,
+          "max": 82
+        },
+        {
+          "label": "23s",
+          "min": 83,
+          "max": 85
+        },
+        {
+          "label": "24s",
+          "min": 86,
+          "max": 87
+        },
+        {
+          "label": "25s",
+          "min": 88,
+          "max": 90
+        },
+        {
+          "label": "26s",
+          "min": 91,
+          "max": 92
+        },
+        {
+          "label": "27s",
+          "min": 93,
+          "max": 95
+        },
+        {
+          "label": "28s",
+          "min": 96,
+          "max": 97
+        },
+        {
+          "label": "29s",
+          "min": 98,
+          "max": 100
+        },
+        {
+          "label": "30s",
+          "min": 101,
+          "max": 103
+        },
+        {
+          "label": "31s",
+          "min": 104,
+          "max": 105
+        },
+        {
+          "label": "32s",
+          "min": 106,
+          "max": 108
+        },
+        {
+          "label": "33s",
+          "min": 109,
+          "max": 110
+        },
+        {
+          "label": "34s",
+          "min": 111,
+          "max": 113
+        },
+        {
+          "label": "35s",
+          "min": 114,
+          "max": 115
+        },
+        {
+          "label": "36s",
+          "min": 116,
+          "max": 118
+        },
+        {
+          "label": "37s",
+          "min": 119,
+          "max": 120
+        },
+        {
+          "label": "38s",
+          "min": 121,
+          "max": 123
+        },
+        {
+          "label": "39s",
+          "min": 124,
+          "max": 126
+        },
+        {
+          "label": "40s",
+          "min": 127,
+          "max": 128
+        },
+        {
+          "label": "41s",
+          "min": 129,
+          "max": 131
+        },
+        {
+          "label": "42s",
+          "min": 132,
+          "max": 133
+        },
+        {
+          "label": "43s",
+          "min": 134,
+          "max": 136
+        },
+        {
+          "label": "44s",
+          "min": 137,
+          "max": 138
+        },
+        {
+          "label": "45s",
+          "min": 139,
+          "max": 141
+        },
+        {
+          "label": "46s",
+          "min": 142,
+          "max": 143
+        },
+        {
+          "label": "47s",
+          "min": 144,
+          "max": 146
+        },
+        {
+          "label": "48s",
+          "min": 147,
+          "max": 148
+        },
+        {
+          "label": "49s",
+          "min": 149,
+          "max": 151
+        },
+        {
+          "label": "50s",
+          "min": 152,
+          "max": 154
+        },
+        {
+          "label": "51s",
+          "min": 155,
+          "max": 156
+        },
+        {
+          "label": "52s",
+          "min": 157,
+          "max": 159
+        },
+        {
+          "label": "53s",
+          "min": 160,
+          "max": 161
+        },
+        {
+          "label": "54s",
+          "min": 162,
+          "max": 164
+        },
+        {
+          "label": "55s",
+          "min": 165,
+          "max": 166
+        },
+        {
+          "label": "56s",
+          "min": 167,
+          "max": 169
+        },
+        {
+          "label": "57s",
+          "min": 170,
+          "max": 171
+        },
+        {
+          "label": "58s",
+          "min": 172,
+          "max": 174
+        },
+        {
+          "label": "59s",
+          "min": 175,
+          "max": 177
+        },
+        {
+          "label": "60s",
+          "min": 178,
+          "max": 179
+        },
+        {
+          "label": "65s",
+          "min": 180,
+          "max": 182
+        },
+        {
+          "label": "70s",
+          "min": 183,
+          "max": 184
+        },
+        {
+          "label": "75s",
+          "min": 185,
+          "max": 187
+        },
+        {
+          "label": "80s",
+          "min": 188,
+          "max": 189
+        },
+        {
+          "label": "85s",
+          "min": 190,
+          "max": 192
+        },
+        {
+          "label": "90s",
+          "min": 193,
+          "max": 194
+        },
+        {
+          "label": "95s",
+          "min": 195,
+          "max": 197
+        },
+        {
+          "label": "100s",
+          "min": 198,
+          "max": 199
+        },
+        {
+          "label": "110s",
+          "min": 200,
+          "max": 202
+        },
+        {
+          "label": "120s",
+          "min": 203,
+          "max": 205
+        },
+        {
+          "label": "130s",
+          "min": 206,
+          "max": 207
+        },
+        {
+          "label": "140s",
+          "min": 208,
+          "max": 210
+        },
+        {
+          "label": "150s",
+          "min": 211,
+          "max": 212
+        },
+        {
+          "label": "160s",
+          "min": 213,
+          "max": 215
+        },
+        {
+          "label": "170s",
+          "min": 216,
+          "max": 217
+        },
+        {
+          "label": "180s",
+          "min": 218,
+          "max": 220
+        },
+        {
+          "label": "190s",
+          "min": 221,
+          "max": 222
+        },
+        {
+          "label": "200s",
+          "min": 223,
+          "max": 225
+        },
+        {
+          "label": "210s",
+          "min": 226,
+          "max": 228
+        },
+        {
+          "label": "210s",
+          "min": 229,
+          "max": 230
+        },
+        {
+          "label": "230s",
+          "min": 231,
+          "max": 233
+        },
+        {
+          "label": "240s",
+          "min": 234,
+          "max": 235
+        },
+        {
+          "label": "250s",
+          "min": 236,
+          "max": 238
+        },
+        {
+          "label": "260s",
+          "min": 239,
+          "max": 240
+        },
+        {
+          "label": "270s",
+          "min": 241,
+          "max": 243
+        },
+        {
+          "label": "280s",
+          "min": 244,
+          "max": 245
+        },
+        {
+          "label": "290s",
+          "min": 246,
+          "max": 248
+        },
+        {
+          "label": "300s",
+          "min": 249,
+          "max": 250
+        },
+        {
+          "label": "310s",
+          "min": 251,
+          "max": 254
+        },
+        {
+          "label": "Follows Cue Data",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "type": 17,
+      "type_description": "Color Timing",
+      "capabilities": [
+        {
+          "label": "Full Speed",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "0.2s",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "label": "0.4s",
+          "min": 2,
+          "max": 2
+        },
+        {
+          "label": "0.6s",
+          "min": 3,
+          "max": 3
+        },
+        {
+          "label": "0.8s",
+          "min": 4,
+          "max": 4
+        },
+        {
+          "label": "1.0s",
+          "min": 5,
+          "max": 5
+        },
+        {
+          "label": "1.2s",
+          "min": 6,
+          "max": 6
+        },
+        {
+          "label": "1.4s",
+          "min": 7,
+          "max": 7
+        },
+        {
+          "label": "1.6s",
+          "min": 8,
+          "max": 8
+        },
+        {
+          "label": "1.8s",
+          "min": 9,
+          "max": 9
+        },
+        {
+          "label": "2.0s",
+          "min": 10,
+          "max": 10
+        },
+        {
+          "label": "2.2s",
+          "min": 11,
+          "max": 11
+        },
+        {
+          "label": "2.4s",
+          "min": 12,
+          "max": 12
+        },
+        {
+          "label": "2.6s",
+          "min": 13,
+          "max": 13
+        },
+        {
+          "label": "2.8s",
+          "min": 14,
+          "max": 14
+        },
+        {
+          "label": "3.0s",
+          "min": 15,
+          "max": 15
+        },
+        {
+          "label": "3.2s",
+          "min": 16,
+          "max": 16
+        },
+        {
+          "label": "3.4s",
+          "min": 17,
+          "max": 17
+        },
+        {
+          "label": "3.6s",
+          "min": 18,
+          "max": 18
+        },
+        {
+          "label": "3.8s",
+          "min": 19,
+          "max": 19
+        },
+        {
+          "label": "4.0s",
+          "min": 20,
+          "max": 20
+        },
+        {
+          "label": "4.2s",
+          "min": 21,
+          "max": 21
+        },
+        {
+          "label": "4.4s",
+          "min": 22,
+          "max": 22
+        },
+        {
+          "label": "4.6s",
+          "min": 23,
+          "max": 23
+        },
+        {
+          "label": "4.8s",
+          "min": 24,
+          "max": 24
+        },
+        {
+          "label": "5.0s",
+          "min": 25,
+          "max": 25
+        },
+        {
+          "label": "5.2s",
+          "min": 26,
+          "max": 26
+        },
+        {
+          "label": "5.4s",
+          "min": 27,
+          "max": 27
+        },
+        {
+          "label": "5.6s",
+          "min": 28,
+          "max": 28
+        },
+        {
+          "label": "5.8s",
+          "min": 29,
+          "max": 29
+        },
+        {
+          "label": "6.0s",
+          "min": 30,
+          "max": 30
+        },
+        {
+          "label": "6.2s",
+          "min": 31,
+          "max": 31
+        },
+        {
+          "label": "6.4s",
+          "min": 32,
+          "max": 32
+        },
+        {
+          "label": "6.6s",
+          "min": 33,
+          "max": 33
+        },
+        {
+          "label": "6.8s",
+          "min": 34,
+          "max": 34
+        },
+        {
+          "label": "7.0s",
+          "min": 35,
+          "max": 35
+        },
+        {
+          "label": "7.2s",
+          "min": 36,
+          "max": 36
+        },
+        {
+          "label": "7.4s",
+          "min": 37,
+          "max": 37
+        },
+        {
+          "label": "7.6s",
+          "min": 38,
+          "max": 38
+        },
+        {
+          "label": "7.8s",
+          "min": 39,
+          "max": 39
+        },
+        {
+          "label": "8.0s",
+          "min": 40,
+          "max": 40
+        },
+        {
+          "label": "8.2s",
+          "min": 41,
+          "max": 41
+        },
+        {
+          "label": "8.4s",
+          "min": 42,
+          "max": 42
+        },
+        {
+          "label": "8.6s",
+          "min": 43,
+          "max": 43
+        },
+        {
+          "label": "8.8s",
+          "min": 44,
+          "max": 44
+        },
+        {
+          "label": "9.0s",
+          "min": 45,
+          "max": 45
+        },
+        {
+          "label": "9.2s",
+          "min": 46,
+          "max": 46
+        },
+        {
+          "label": "9.4s",
+          "min": 47,
+          "max": 47
+        },
+        {
+          "label": "9.6s",
+          "min": 48,
+          "max": 48
+        },
+        {
+          "label": "9.8s",
+          "min": 49,
+          "max": 49
+        },
+        {
+          "label": "10.0s",
+          "min": 50,
+          "max": 50
+        },
+        {
+          "label": "10.2s",
+          "min": 51,
+          "max": 51
+        },
+        {
+          "label": "10.4s",
+          "min": 52,
+          "max": 52
+        },
+        {
+          "label": "10.6s",
+          "min": 53,
+          "max": 53
+        },
+        {
+          "label": "11s",
+          "min": 54,
+          "max": 55
+        },
+        {
+          "label": "12s",
+          "min": 56,
+          "max": 57
+        },
+        {
+          "label": "13s",
+          "min": 58,
+          "max": 59
+        },
+        {
+          "label": "14s",
+          "min": 60,
+          "max": 62
+        },
+        {
+          "label": "15s",
+          "min": 63,
+          "max": 64
+        },
+        {
+          "label": "16s",
+          "min": 65,
+          "max": 67
+        },
+        {
+          "label": "17s",
+          "min": 68,
+          "max": 69
+        },
+        {
+          "label": "18s",
+          "min": 70,
+          "max": 72
+        },
+        {
+          "label": "19s",
+          "min": 73,
+          "max": 74
+        },
+        {
+          "label": "20s",
+          "min": 75,
+          "max": 77
+        },
+        {
+          "label": "21s",
+          "min": 78,
+          "max": 80
+        },
+        {
+          "label": "22s",
+          "min": 81,
+          "max": 82
+        },
+        {
+          "label": "23s",
+          "min": 83,
+          "max": 85
+        },
+        {
+          "label": "24s",
+          "min": 86,
+          "max": 87
+        },
+        {
+          "label": "25s",
+          "min": 88,
+          "max": 90
+        },
+        {
+          "label": "26s",
+          "min": 91,
+          "max": 92
+        },
+        {
+          "label": "27s",
+          "min": 93,
+          "max": 95
+        },
+        {
+          "label": "28s",
+          "min": 96,
+          "max": 97
+        },
+        {
+          "label": "29s",
+          "min": 98,
+          "max": 100
+        },
+        {
+          "label": "30s",
+          "min": 101,
+          "max": 103
+        },
+        {
+          "label": "31s",
+          "min": 104,
+          "max": 105
+        },
+        {
+          "label": "32s",
+          "min": 106,
+          "max": 108
+        },
+        {
+          "label": "33s",
+          "min": 109,
+          "max": 110
+        },
+        {
+          "label": "34s",
+          "min": 111,
+          "max": 113
+        },
+        {
+          "label": "35s",
+          "min": 114,
+          "max": 115
+        },
+        {
+          "label": "36s",
+          "min": 116,
+          "max": 118
+        },
+        {
+          "label": "37s",
+          "min": 119,
+          "max": 120
+        },
+        {
+          "label": "38s",
+          "min": 121,
+          "max": 123
+        },
+        {
+          "label": "39s",
+          "min": 124,
+          "max": 126
+        },
+        {
+          "label": "40s",
+          "min": 127,
+          "max": 128
+        },
+        {
+          "label": "41s",
+          "min": 129,
+          "max": 131
+        },
+        {
+          "label": "42s",
+          "min": 132,
+          "max": 133
+        },
+        {
+          "label": "43s",
+          "min": 134,
+          "max": 136
+        },
+        {
+          "label": "44s",
+          "min": 137,
+          "max": 138
+        },
+        {
+          "label": "45s",
+          "min": 139,
+          "max": 141
+        },
+        {
+          "label": "46s",
+          "min": 142,
+          "max": 143
+        },
+        {
+          "label": "47s",
+          "min": 144,
+          "max": 146
+        },
+        {
+          "label": "48s",
+          "min": 147,
+          "max": 148
+        },
+        {
+          "label": "49s",
+          "min": 149,
+          "max": 151
+        },
+        {
+          "label": "50s",
+          "min": 152,
+          "max": 154
+        },
+        {
+          "label": "51s",
+          "min": 155,
+          "max": 156
+        },
+        {
+          "label": "52s",
+          "min": 157,
+          "max": 159
+        },
+        {
+          "label": "53s",
+          "min": 160,
+          "max": 161
+        },
+        {
+          "label": "54s",
+          "min": 162,
+          "max": 164
+        },
+        {
+          "label": "55s",
+          "min": 165,
+          "max": 166
+        },
+        {
+          "label": "56s",
+          "min": 167,
+          "max": 169
+        },
+        {
+          "label": "57s",
+          "min": 170,
+          "max": 171
+        },
+        {
+          "label": "58s",
+          "min": 172,
+          "max": 174
+        },
+        {
+          "label": "59s",
+          "min": 175,
+          "max": 177
+        },
+        {
+          "label": "60s",
+          "min": 178,
+          "max": 179
+        },
+        {
+          "label": "65s",
+          "min": 180,
+          "max": 182
+        },
+        {
+          "label": "70s",
+          "min": 183,
+          "max": 184
+        },
+        {
+          "label": "75s",
+          "min": 185,
+          "max": 187
+        },
+        {
+          "label": "80s",
+          "min": 188,
+          "max": 189
+        },
+        {
+          "label": "85s",
+          "min": 190,
+          "max": 192
+        },
+        {
+          "label": "90s",
+          "min": 193,
+          "max": 194
+        },
+        {
+          "label": "95s",
+          "min": 195,
+          "max": 197
+        },
+        {
+          "label": "100s",
+          "min": 198,
+          "max": 199
+        },
+        {
+          "label": "110s",
+          "min": 200,
+          "max": 202
+        },
+        {
+          "label": "120s",
+          "min": 203,
+          "max": 205
+        },
+        {
+          "label": "130s",
+          "min": 206,
+          "max": 207
+        },
+        {
+          "label": "140s",
+          "min": 208,
+          "max": 210
+        },
+        {
+          "label": "150s",
+          "min": 211,
+          "max": 212
+        },
+        {
+          "label": "160s",
+          "min": 213,
+          "max": 215
+        },
+        {
+          "label": "170s",
+          "min": 216,
+          "max": 217
+        },
+        {
+          "label": "180s",
+          "min": 218,
+          "max": 220
+        },
+        {
+          "label": "190s",
+          "min": 221,
+          "max": 222
+        },
+        {
+          "label": "200s",
+          "min": 223,
+          "max": 225
+        },
+        {
+          "label": "210s",
+          "min": 226,
+          "max": 228
+        },
+        {
+          "label": "210s",
+          "min": 229,
+          "max": 230
+        },
+        {
+          "label": "230s",
+          "min": 231,
+          "max": 233
+        },
+        {
+          "label": "240s",
+          "min": 234,
+          "max": 235
+        },
+        {
+          "label": "250s",
+          "min": 236,
+          "max": 238
+        },
+        {
+          "label": "260s",
+          "min": 239,
+          "max": 240
+        },
+        {
+          "label": "270s",
+          "min": 241,
+          "max": 243
+        },
+        {
+          "label": "280s",
+          "min": 244,
+          "max": 245
+        },
+        {
+          "label": "290s",
+          "min": 246,
+          "max": 248
+        },
+        {
+          "label": "300s",
+          "min": 249,
+          "max": 250
+        },
+        {
+          "label": "310s",
+          "min": 251,
+          "max": 254
+        },
+        {
+          "label": "Follows Cue Data",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "type": 17,
+      "type_description": "Beam Timing",
+      "capabilities": [
+        {
+          "label": "Full Speed",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "0.2s",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "label": "0.4s",
+          "min": 2,
+          "max": 2
+        },
+        {
+          "label": "0.6s",
+          "min": 3,
+          "max": 3
+        },
+        {
+          "label": "0.8s",
+          "min": 4,
+          "max": 4
+        },
+        {
+          "label": "1.0s",
+          "min": 5,
+          "max": 5
+        },
+        {
+          "label": "1.2s",
+          "min": 6,
+          "max": 6
+        },
+        {
+          "label": "1.4s",
+          "min": 7,
+          "max": 7
+        },
+        {
+          "label": "1.6s",
+          "min": 8,
+          "max": 8
+        },
+        {
+          "label": "1.8s",
+          "min": 9,
+          "max": 9
+        },
+        {
+          "label": "2.0s",
+          "min": 10,
+          "max": 10
+        },
+        {
+          "label": "2.2s",
+          "min": 11,
+          "max": 11
+        },
+        {
+          "label": "2.4s",
+          "min": 12,
+          "max": 12
+        },
+        {
+          "label": "2.6s",
+          "min": 13,
+          "max": 13
+        },
+        {
+          "label": "2.8s",
+          "min": 14,
+          "max": 14
+        },
+        {
+          "label": "3.0s",
+          "min": 15,
+          "max": 15
+        },
+        {
+          "label": "3.2s",
+          "min": 16,
+          "max": 16
+        },
+        {
+          "label": "3.4s",
+          "min": 17,
+          "max": 17
+        },
+        {
+          "label": "3.6s",
+          "min": 18,
+          "max": 18
+        },
+        {
+          "label": "3.8s",
+          "min": 19,
+          "max": 19
+        },
+        {
+          "label": "4.0s",
+          "min": 20,
+          "max": 20
+        },
+        {
+          "label": "4.2s",
+          "min": 21,
+          "max": 21
+        },
+        {
+          "label": "4.4s",
+          "min": 22,
+          "max": 22
+        },
+        {
+          "label": "4.6s",
+          "min": 23,
+          "max": 23
+        },
+        {
+          "label": "4.8s",
+          "min": 24,
+          "max": 24
+        },
+        {
+          "label": "5.0s",
+          "min": 25,
+          "max": 25
+        },
+        {
+          "label": "5.2s",
+          "min": 26,
+          "max": 26
+        },
+        {
+          "label": "5.4s",
+          "min": 27,
+          "max": 27
+        },
+        {
+          "label": "5.6s",
+          "min": 28,
+          "max": 28
+        },
+        {
+          "label": "5.8s",
+          "min": 29,
+          "max": 29
+        },
+        {
+          "label": "6.0s",
+          "min": 30,
+          "max": 30
+        },
+        {
+          "label": "6.2s",
+          "min": 31,
+          "max": 31
+        },
+        {
+          "label": "6.4s",
+          "min": 32,
+          "max": 32
+        },
+        {
+          "label": "6.6s",
+          "min": 33,
+          "max": 33
+        },
+        {
+          "label": "6.8s",
+          "min": 34,
+          "max": 34
+        },
+        {
+          "label": "7.0s",
+          "min": 35,
+          "max": 35
+        },
+        {
+          "label": "7.2s",
+          "min": 36,
+          "max": 36
+        },
+        {
+          "label": "7.4s",
+          "min": 37,
+          "max": 37
+        },
+        {
+          "label": "7.6s",
+          "min": 38,
+          "max": 38
+        },
+        {
+          "label": "7.8s",
+          "min": 39,
+          "max": 39
+        },
+        {
+          "label": "8.0s",
+          "min": 40,
+          "max": 40
+        },
+        {
+          "label": "8.2s",
+          "min": 41,
+          "max": 41
+        },
+        {
+          "label": "8.4s",
+          "min": 42,
+          "max": 42
+        },
+        {
+          "label": "8.6s",
+          "min": 43,
+          "max": 43
+        },
+        {
+          "label": "8.8s",
+          "min": 44,
+          "max": 44
+        },
+        {
+          "label": "9.0s",
+          "min": 45,
+          "max": 45
+        },
+        {
+          "label": "9.2s",
+          "min": 46,
+          "max": 46
+        },
+        {
+          "label": "9.4s",
+          "min": 47,
+          "max": 47
+        },
+        {
+          "label": "9.6s",
+          "min": 48,
+          "max": 48
+        },
+        {
+          "label": "9.8s",
+          "min": 49,
+          "max": 49
+        },
+        {
+          "label": "10.0s",
+          "min": 50,
+          "max": 50
+        },
+        {
+          "label": "10.2s",
+          "min": 51,
+          "max": 51
+        },
+        {
+          "label": "10.4s",
+          "min": 52,
+          "max": 52
+        },
+        {
+          "label": "10.6s",
+          "min": 53,
+          "max": 53
+        },
+        {
+          "label": "11s",
+          "min": 54,
+          "max": 55
+        },
+        {
+          "label": "12s",
+          "min": 56,
+          "max": 57
+        },
+        {
+          "label": "13s",
+          "min": 58,
+          "max": 59
+        },
+        {
+          "label": "14s",
+          "min": 60,
+          "max": 62
+        },
+        {
+          "label": "15s",
+          "min": 63,
+          "max": 64
+        },
+        {
+          "label": "16s",
+          "min": 65,
+          "max": 67
+        },
+        {
+          "label": "17s",
+          "min": 68,
+          "max": 69
+        },
+        {
+          "label": "18s",
+          "min": 70,
+          "max": 72
+        },
+        {
+          "label": "19s",
+          "min": 73,
+          "max": 74
+        },
+        {
+          "label": "20s",
+          "min": 75,
+          "max": 77
+        },
+        {
+          "label": "21s",
+          "min": 78,
+          "max": 80
+        },
+        {
+          "label": "22s",
+          "min": 81,
+          "max": 82
+        },
+        {
+          "label": "23s",
+          "min": 83,
+          "max": 85
+        },
+        {
+          "label": "24s",
+          "min": 86,
+          "max": 87
+        },
+        {
+          "label": "25s",
+          "min": 88,
+          "max": 90
+        },
+        {
+          "label": "26s",
+          "min": 91,
+          "max": 92
+        },
+        {
+          "label": "27s",
+          "min": 93,
+          "max": 95
+        },
+        {
+          "label": "28s",
+          "min": 96,
+          "max": 97
+        },
+        {
+          "label": "29s",
+          "min": 98,
+          "max": 100
+        },
+        {
+          "label": "30s",
+          "min": 101,
+          "max": 103
+        },
+        {
+          "label": "31s",
+          "min": 104,
+          "max": 105
+        },
+        {
+          "label": "32s",
+          "min": 106,
+          "max": 108
+        },
+        {
+          "label": "33s",
+          "min": 109,
+          "max": 110
+        },
+        {
+          "label": "34s",
+          "min": 111,
+          "max": 113
+        },
+        {
+          "label": "35s",
+          "min": 114,
+          "max": 115
+        },
+        {
+          "label": "36s",
+          "min": 116,
+          "max": 118
+        },
+        {
+          "label": "37s",
+          "min": 119,
+          "max": 120
+        },
+        {
+          "label": "38s",
+          "min": 121,
+          "max": 123
+        },
+        {
+          "label": "39s",
+          "min": 124,
+          "max": 126
+        },
+        {
+          "label": "40s",
+          "min": 127,
+          "max": 128
+        },
+        {
+          "label": "41s",
+          "min": 129,
+          "max": 131
+        },
+        {
+          "label": "42s",
+          "min": 132,
+          "max": 133
+        },
+        {
+          "label": "43s",
+          "min": 134,
+          "max": 136
+        },
+        {
+          "label": "44s",
+          "min": 137,
+          "max": 138
+        },
+        {
+          "label": "45s",
+          "min": 139,
+          "max": 141
+        },
+        {
+          "label": "46s",
+          "min": 142,
+          "max": 143
+        },
+        {
+          "label": "47s",
+          "min": 144,
+          "max": 146
+        },
+        {
+          "label": "48s",
+          "min": 147,
+          "max": 148
+        },
+        {
+          "label": "49s",
+          "min": 149,
+          "max": 151
+        },
+        {
+          "label": "50s",
+          "min": 152,
+          "max": 154
+        },
+        {
+          "label": "51s",
+          "min": 155,
+          "max": 156
+        },
+        {
+          "label": "52s",
+          "min": 157,
+          "max": 159
+        },
+        {
+          "label": "53s",
+          "min": 160,
+          "max": 161
+        },
+        {
+          "label": "54s",
+          "min": 162,
+          "max": 164
+        },
+        {
+          "label": "55s",
+          "min": 165,
+          "max": 166
+        },
+        {
+          "label": "56s",
+          "min": 167,
+          "max": 169
+        },
+        {
+          "label": "57s",
+          "min": 170,
+          "max": 171
+        },
+        {
+          "label": "58s",
+          "min": 172,
+          "max": 174
+        },
+        {
+          "label": "59s",
+          "min": 175,
+          "max": 177
+        },
+        {
+          "label": "60s",
+          "min": 178,
+          "max": 179
+        },
+        {
+          "label": "65s",
+          "min": 180,
+          "max": 182
+        },
+        {
+          "label": "70s",
+          "min": 183,
+          "max": 184
+        },
+        {
+          "label": "75s",
+          "min": 185,
+          "max": 187
+        },
+        {
+          "label": "80s",
+          "min": 188,
+          "max": 189
+        },
+        {
+          "label": "85s",
+          "min": 190,
+          "max": 192
+        },
+        {
+          "label": "90s",
+          "min": 193,
+          "max": 194
+        },
+        {
+          "label": "95s",
+          "min": 195,
+          "max": 197
+        },
+        {
+          "label": "100s",
+          "min": 198,
+          "max": 199
+        },
+        {
+          "label": "110s",
+          "min": 200,
+          "max": 202
+        },
+        {
+          "label": "120s",
+          "min": 203,
+          "max": 205
+        },
+        {
+          "label": "130s",
+          "min": 206,
+          "max": 207
+        },
+        {
+          "label": "140s",
+          "min": 208,
+          "max": 210
+        },
+        {
+          "label": "150s",
+          "min": 211,
+          "max": 212
+        },
+        {
+          "label": "160s",
+          "min": 213,
+          "max": 215
+        },
+        {
+          "label": "170s",
+          "min": 216,
+          "max": 217
+        },
+        {
+          "label": "180s",
+          "min": 218,
+          "max": 220
+        },
+        {
+          "label": "190s",
+          "min": 221,
+          "max": 222
+        },
+        {
+          "label": "200s",
+          "min": 223,
+          "max": 225
+        },
+        {
+          "label": "210s",
+          "min": 226,
+          "max": 228
+        },
+        {
+          "label": "220s",
+          "min": 229,
+          "max": 230
+        },
+        {
+          "label": "230s",
+          "min": 231,
+          "max": 233
+        },
+        {
+          "label": "240s",
+          "min": 234,
+          "max": 235
+        },
+        {
+          "label": "250s",
+          "min": 236,
+          "max": 238
+        },
+        {
+          "label": "260s",
+          "min": 239,
+          "max": 240
+        },
+        {
+          "label": "270s",
+          "min": 241,
+          "max": 243
+        },
+        {
+          "label": "280s",
+          "min": 244,
+          "max": 245
+        },
+        {
+          "label": "290s",
+          "min": 246,
+          "max": 248
+        },
+        {
+          "label": "300s",
+          "min": 249,
+          "max": 250
+        },
+        {
+          "label": "310s",
+          "min": 251,
+          "max": 254
+        },
+        {
+          "label": "Follows Cue Data",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "type": 17,
+      "type_description": "Gobo Timing",
+      "capabilities": [
+        {
+          "label": "Full Speed",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "0.2s",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "label": "0.4s",
+          "min": 2,
+          "max": 2
+        },
+        {
+          "label": "0.6s",
+          "min": 3,
+          "max": 3
+        },
+        {
+          "label": "0.8s",
+          "min": 4,
+          "max": 4
+        },
+        {
+          "label": "1.0s",
+          "min": 5,
+          "max": 5
+        },
+        {
+          "label": "1.2s",
+          "min": 6,
+          "max": 6
+        },
+        {
+          "label": "1.4s",
+          "min": 7,
+          "max": 7
+        },
+        {
+          "label": "1.6s",
+          "min": 8,
+          "max": 8
+        },
+        {
+          "label": "1.8s",
+          "min": 9,
+          "max": 9
+        },
+        {
+          "label": "2.0s",
+          "min": 10,
+          "max": 10
+        },
+        {
+          "label": "2.2s",
+          "min": 11,
+          "max": 11
+        },
+        {
+          "label": "2.4s",
+          "min": 12,
+          "max": 12
+        },
+        {
+          "label": "2.6s",
+          "min": 13,
+          "max": 13
+        },
+        {
+          "label": "2.8s",
+          "min": 14,
+          "max": 14
+        },
+        {
+          "label": "3.0s",
+          "min": 15,
+          "max": 15
+        },
+        {
+          "label": "3.2s",
+          "min": 16,
+          "max": 16
+        },
+        {
+          "label": "3.4s",
+          "min": 17,
+          "max": 17
+        },
+        {
+          "label": "3.6s",
+          "min": 18,
+          "max": 18
+        },
+        {
+          "label": "3.8s",
+          "min": 19,
+          "max": 19
+        },
+        {
+          "label": "4.0s",
+          "min": 20,
+          "max": 20
+        },
+        {
+          "label": "4.2s",
+          "min": 21,
+          "max": 21
+        },
+        {
+          "label": "4.4s",
+          "min": 22,
+          "max": 22
+        },
+        {
+          "label": "4.6s",
+          "min": 23,
+          "max": 23
+        },
+        {
+          "label": "4.8s",
+          "min": 24,
+          "max": 24
+        },
+        {
+          "label": "5.0s",
+          "min": 25,
+          "max": 25
+        },
+        {
+          "label": "5.2s",
+          "min": 26,
+          "max": 26
+        },
+        {
+          "label": "5.4s",
+          "min": 27,
+          "max": 27
+        },
+        {
+          "label": "5.6s",
+          "min": 28,
+          "max": 28
+        },
+        {
+          "label": "5.8s",
+          "min": 29,
+          "max": 29
+        },
+        {
+          "label": "6.0s",
+          "min": 30,
+          "max": 30
+        },
+        {
+          "label": "6.2s",
+          "min": 31,
+          "max": 31
+        },
+        {
+          "label": "6.4s",
+          "min": 32,
+          "max": 32
+        },
+        {
+          "label": "6.6s",
+          "min": 33,
+          "max": 33
+        },
+        {
+          "label": "6.8s",
+          "min": 34,
+          "max": 34
+        },
+        {
+          "label": "7.0s",
+          "min": 35,
+          "max": 35
+        },
+        {
+          "label": "7.2s",
+          "min": 36,
+          "max": 36
+        },
+        {
+          "label": "7.4s",
+          "min": 37,
+          "max": 37
+        },
+        {
+          "label": "7.6s",
+          "min": 38,
+          "max": 38
+        },
+        {
+          "label": "7.8s",
+          "min": 39,
+          "max": 39
+        },
+        {
+          "label": "8.0s",
+          "min": 40,
+          "max": 40
+        },
+        {
+          "label": "8.2s",
+          "min": 41,
+          "max": 41
+        },
+        {
+          "label": "8.4s",
+          "min": 42,
+          "max": 42
+        },
+        {
+          "label": "8.6s",
+          "min": 43,
+          "max": 43
+        },
+        {
+          "label": "8.8s",
+          "min": 44,
+          "max": 44
+        },
+        {
+          "label": "9.0s",
+          "min": 45,
+          "max": 45
+        },
+        {
+          "label": "9.2s",
+          "min": 46,
+          "max": 46
+        },
+        {
+          "label": "9.4s",
+          "min": 47,
+          "max": 47
+        },
+        {
+          "label": "9.6s",
+          "min": 48,
+          "max": 48
+        },
+        {
+          "label": "9.8s",
+          "min": 49,
+          "max": 49
+        },
+        {
+          "label": "10.0s",
+          "min": 50,
+          "max": 50
+        },
+        {
+          "label": "10.2s",
+          "min": 51,
+          "max": 51
+        },
+        {
+          "label": "10.4s",
+          "min": 52,
+          "max": 52
+        },
+        {
+          "label": "10.6s",
+          "min": 53,
+          "max": 53
+        },
+        {
+          "label": "11s",
+          "min": 54,
+          "max": 55
+        },
+        {
+          "label": "12s",
+          "min": 56,
+          "max": 57
+        },
+        {
+          "label": "13s",
+          "min": 58,
+          "max": 59
+        },
+        {
+          "label": "14s",
+          "min": 60,
+          "max": 62
+        },
+        {
+          "label": "15s",
+          "min": 63,
+          "max": 64
+        },
+        {
+          "label": "16s",
+          "min": 65,
+          "max": 67
+        },
+        {
+          "label": "17s",
+          "min": 68,
+          "max": 69
+        },
+        {
+          "label": "18s",
+          "min": 70,
+          "max": 72
+        },
+        {
+          "label": "19s",
+          "min": 73,
+          "max": 74
+        },
+        {
+          "label": "20s",
+          "min": 75,
+          "max": 77
+        },
+        {
+          "label": "21s",
+          "min": 78,
+          "max": 80
+        },
+        {
+          "label": "22s",
+          "min": 81,
+          "max": 82
+        },
+        {
+          "label": "23s",
+          "min": 83,
+          "max": 85
+        },
+        {
+          "label": "24s",
+          "min": 86,
+          "max": 87
+        },
+        {
+          "label": "25s",
+          "min": 88,
+          "max": 90
+        },
+        {
+          "label": "26s",
+          "min": 91,
+          "max": 92
+        },
+        {
+          "label": "27s",
+          "min": 93,
+          "max": 95
+        },
+        {
+          "label": "28s",
+          "min": 96,
+          "max": 97
+        },
+        {
+          "label": "29s",
+          "min": 98,
+          "max": 100
+        },
+        {
+          "label": "30s",
+          "min": 101,
+          "max": 103
+        },
+        {
+          "label": "31s",
+          "min": 104,
+          "max": 105
+        },
+        {
+          "label": "32s",
+          "min": 106,
+          "max": 108
+        },
+        {
+          "label": "33s",
+          "min": 109,
+          "max": 110
+        },
+        {
+          "label": "34s",
+          "min": 111,
+          "max": 113
+        },
+        {
+          "label": "35s",
+          "min": 114,
+          "max": 115
+        },
+        {
+          "label": "36s",
+          "min": 116,
+          "max": 118
+        },
+        {
+          "label": "37s",
+          "min": 119,
+          "max": 120
+        },
+        {
+          "label": "38s",
+          "min": 121,
+          "max": 123
+        },
+        {
+          "label": "39s",
+          "min": 124,
+          "max": 126
+        },
+        {
+          "label": "40s",
+          "min": 127,
+          "max": 128
+        },
+        {
+          "label": "41s",
+          "min": 129,
+          "max": 131
+        },
+        {
+          "label": "42s",
+          "min": 132,
+          "max": 133
+        },
+        {
+          "label": "43s",
+          "min": 134,
+          "max": 136
+        },
+        {
+          "label": "44s",
+          "min": 137,
+          "max": 138
+        },
+        {
+          "label": "45s",
+          "min": 139,
+          "max": 141
+        },
+        {
+          "label": "46s",
+          "min": 142,
+          "max": 143
+        },
+        {
+          "label": "47s",
+          "min": 144,
+          "max": 146
+        },
+        {
+          "label": "48s",
+          "min": 147,
+          "max": 148
+        },
+        {
+          "label": "49s",
+          "min": 149,
+          "max": 151
+        },
+        {
+          "label": "50s",
+          "min": 152,
+          "max": 154
+        },
+        {
+          "label": "51s",
+          "min": 155,
+          "max": 156
+        },
+        {
+          "label": "52s",
+          "min": 157,
+          "max": 159
+        },
+        {
+          "label": "53s",
+          "min": 160,
+          "max": 161
+        },
+        {
+          "label": "54s",
+          "min": 162,
+          "max": 164
+        },
+        {
+          "label": "55s",
+          "min": 165,
+          "max": 166
+        },
+        {
+          "label": "56s",
+          "min": 167,
+          "max": 169
+        },
+        {
+          "label": "57s",
+          "min": 170,
+          "max": 171
+        },
+        {
+          "label": "58s",
+          "min": 172,
+          "max": 174
+        },
+        {
+          "label": "59s",
+          "min": 175,
+          "max": 177
+        },
+        {
+          "label": "60s",
+          "min": 178,
+          "max": 179
+        },
+        {
+          "label": "65s",
+          "min": 180,
+          "max": 182
+        },
+        {
+          "label": "70s",
+          "min": 183,
+          "max": 184
+        },
+        {
+          "label": "75s",
+          "min": 185,
+          "max": 187
+        },
+        {
+          "label": "80s",
+          "min": 188,
+          "max": 189
+        },
+        {
+          "label": "85s",
+          "min": 190,
+          "max": 192
+        },
+        {
+          "label": "90s",
+          "min": 193,
+          "max": 194
+        },
+        {
+          "label": "95s",
+          "min": 195,
+          "max": 197
+        },
+        {
+          "label": "100s",
+          "min": 198,
+          "max": 199
+        },
+        {
+          "label": "110s",
+          "min": 200,
+          "max": 202
+        },
+        {
+          "label": "120s",
+          "min": 203,
+          "max": 205
+        },
+        {
+          "label": "130s",
+          "min": 206,
+          "max": 207
+        },
+        {
+          "label": "140s",
+          "min": 208,
+          "max": 210
+        },
+        {
+          "label": "150s",
+          "min": 211,
+          "max": 212
+        },
+        {
+          "label": "160s",
+          "min": 213,
+          "max": 215
+        },
+        {
+          "label": "170s",
+          "min": 216,
+          "max": 217
+        },
+        {
+          "label": "180s",
+          "min": 218,
+          "max": 220
+        },
+        {
+          "label": "190s",
+          "min": 221,
+          "max": 222
+        },
+        {
+          "label": "200s",
+          "min": 223,
+          "max": 225
+        },
+        {
+          "label": "210s",
+          "min": 226,
+          "max": 228
+        },
+        {
+          "label": "220s",
+          "min": 229,
+          "max": 230
+        },
+        {
+          "label": "230s",
+          "min": 231,
+          "max": 233
+        },
+        {
+          "label": "240s",
+          "min": 234,
+          "max": 235
+        },
+        {
+          "label": "250s",
+          "min": 236,
+          "max": 238
+        },
+        {
+          "label": "260s",
+          "min": 239,
+          "max": 240
+        },
+        {
+          "label": "270s",
+          "min": 241,
+          "max": 243
+        },
+        {
+          "label": "280s",
+          "min": 244,
+          "max": 245
+        },
+        {
+          "label": "290s",
+          "min": 246,
+          "max": 248
+        },
+        {
+          "label": "300s",
+          "min": 249,
+          "max": 250
+        },
+        {
+          "label": "310s",
+          "min": 251,
+          "max": 254
+        },
+        {
+          "label": "Follows Cue Data",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Vari-Lite/Vari-Lite-VL4000-Spot.json",
+  "id": 1494
+}

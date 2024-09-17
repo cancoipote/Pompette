@@ -1,0 +1,255 @@
+{
+  "version": "1.0.0",
+  "label": "PCC-250",
+  "manufacturer": "Futurelight",
+  "bulb_type": "MSD 250W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 14,
+  "dimension_width": 380,
+  "dimension_height": 380,
+  "dimension_depth": 480,
+  "lens_label": "Other",
+  "lens_degree_min": 7,
+  "lens_degree_max": 28,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 440,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Deep red",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Deep blue",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Primary green",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Orange",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "3200K correction filter",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "6500K correction filter",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "UV filter",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Forwards rainbow speed",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "No rotation",
+          "min": 190,
+          "max": 191
+        },
+        {
+          "label": "Backwards rainbow speed",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Effect",
+      "capabilities": [
+        {
+          "label": "Full beam",
+          "min": 0,
+          "max": 70
+        },
+        {
+          "label": "Beam shaper",
+          "min": 71,
+          "max": 230
+        },
+        {
+          "label": "Frost filter",
+          "min": 231,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 21,
+      "type_description": "Shutter, strobe",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Dimmer activation",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe speed",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Shutter open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse sequence",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Shutter open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random strobe speed",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Shutter open, dimmer deactivation",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Dimmer intensity",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 17,
+      "type_description": "Lamp switch, reset, programs",
+      "capabilities": [
+        {
+          "label": "Normal color change",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Normal colour change, search clockwise",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Colour change at every position, shortest distance",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Colour change at every position, search clockwise",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Lamp on",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Reset",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Internal program 1",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Internal program 2",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Internal program 3",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Internal program 4",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Internal program 5",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Internal program 6",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Internal program 7",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "Internal program 8",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "Lamp off",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "No function",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Futurelight/Futurelight-PCC-250.json",
+  "id": 812
+}

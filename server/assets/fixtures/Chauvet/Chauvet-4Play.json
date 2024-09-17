@@ -1,0 +1,872 @@
+{
+  "version": "1.0.0",
+  "label": "4Play",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 5,
+  "dimension_width": 838,
+  "dimension_height": 318,
+  "dimension_depth": 89,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 12,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Operating Mode 1",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Group 1 White",
+          "min": 11,
+          "max": 16
+        },
+        {
+          "label": "Group 2 White",
+          "min": 17,
+          "max": 22
+        },
+        {
+          "label": "Group 3 White",
+          "min": 23,
+          "max": 28
+        },
+        {
+          "label": "Group 1 Red",
+          "min": 29,
+          "max": 34
+        },
+        {
+          "label": "Group 2 Red",
+          "min": 35,
+          "max": 40
+        },
+        {
+          "label": "Group 3 Red",
+          "min": 41,
+          "max": 46
+        },
+        {
+          "label": "Group 1 Green",
+          "min": 47,
+          "max": 52
+        },
+        {
+          "label": "Group 2 Green",
+          "min": 53,
+          "max": 58
+        },
+        {
+          "label": "Group 3 Green",
+          "min": 59,
+          "max": 64
+        },
+        {
+          "label": "Group 1 Blue",
+          "min": 65,
+          "max": 70
+        },
+        {
+          "label": "Group 2 Blue",
+          "min": 71,
+          "max": 76
+        },
+        {
+          "label": "Group 3 Blue",
+          "min": 77,
+          "max": 82
+        },
+        {
+          "label": "All White",
+          "min": 83,
+          "max": 88
+        },
+        {
+          "label": "All Red",
+          "min": 89,
+          "max": 94
+        },
+        {
+          "label": "All Green",
+          "min": 95,
+          "max": 100
+        },
+        {
+          "label": "All Blue",
+          "min": 101,
+          "max": 106
+        },
+        {
+          "label": "All Red & Green",
+          "min": 107,
+          "max": 112
+        },
+        {
+          "label": "All Red & Blue",
+          "min": 113,
+          "max": 118
+        },
+        {
+          "label": "All Green & Blue",
+          "min": 119,
+          "max": 124
+        },
+        {
+          "label": "All Red, Green & Blue",
+          "min": 125,
+          "max": 130
+        },
+        {
+          "label": "All Red & White",
+          "min": 131,
+          "max": 136
+        },
+        {
+          "label": "All Green & White",
+          "min": 137,
+          "max": 142
+        },
+        {
+          "label": "All Blue & White",
+          "min": 143,
+          "max": 148
+        },
+        {
+          "label": "Group 1 Blue, All White",
+          "min": 149,
+          "max": 154
+        },
+        {
+          "label": "Group 2 Blue, All White",
+          "min": 155,
+          "max": 160
+        },
+        {
+          "label": "Group 3 Blue, All White",
+          "min": 161,
+          "max": 166
+        },
+        {
+          "label": "Group 1 Blue & Group 3 Red",
+          "min": 167,
+          "max": 172
+        },
+        {
+          "label": "Group 2 Blue & Group 2 Red",
+          "min": 173,
+          "max": 178
+        },
+        {
+          "label": "Group 3 Blue & Group 1 Red",
+          "min": 179,
+          "max": 184
+        },
+        {
+          "label": "Group 1 Green & Group 3 White",
+          "min": 185,
+          "max": 190
+        },
+        {
+          "label": "Group 2 Green & Group 2 White",
+          "min": 191,
+          "max": 196
+        },
+        {
+          "label": "Group 3 Green & Group 1 White",
+          "min": 197,
+          "max": 202
+        },
+        {
+          "label": "Group 1 Blue. Group 3 Green, Group 1 Red, Group 3 White",
+          "min": 203,
+          "max": 208
+        },
+        {
+          "label": "Group 2 Blue. Group 2 Green, Group 2 Red, Group 2 White",
+          "min": 209,
+          "max": 214
+        },
+        {
+          "label": "Group 3 Blue. Group 1 Green, Group 3 Red, Group 1 White",
+          "min": 215,
+          "max": 220
+        },
+        {
+          "label": "All White Red Green Blue",
+          "min": 221,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Operating Mode 2",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Group 1 White",
+          "min": 11,
+          "max": 16
+        },
+        {
+          "label": "Group 2 White",
+          "min": 17,
+          "max": 22
+        },
+        {
+          "label": "Group 3 White",
+          "min": 23,
+          "max": 28
+        },
+        {
+          "label": "Group 1 Red",
+          "min": 29,
+          "max": 34
+        },
+        {
+          "label": "Group 2 Red",
+          "min": 35,
+          "max": 40
+        },
+        {
+          "label": "Group 3 Red",
+          "min": 41,
+          "max": 46
+        },
+        {
+          "label": "Group 1 Green",
+          "min": 47,
+          "max": 52
+        },
+        {
+          "label": "Group 2 Green",
+          "min": 53,
+          "max": 58
+        },
+        {
+          "label": "Group 3 Green",
+          "min": 59,
+          "max": 64
+        },
+        {
+          "label": "Group 1 Blue",
+          "min": 65,
+          "max": 70
+        },
+        {
+          "label": "Group 2 Blue",
+          "min": 71,
+          "max": 76
+        },
+        {
+          "label": "Group 3 Blue",
+          "min": 77,
+          "max": 82
+        },
+        {
+          "label": "All White",
+          "min": 83,
+          "max": 88
+        },
+        {
+          "label": "All Red",
+          "min": 89,
+          "max": 94
+        },
+        {
+          "label": "All Green",
+          "min": 95,
+          "max": 100
+        },
+        {
+          "label": "All Blue",
+          "min": 101,
+          "max": 106
+        },
+        {
+          "label": "All Red & Green",
+          "min": 107,
+          "max": 112
+        },
+        {
+          "label": "All Red & Blue",
+          "min": 113,
+          "max": 118
+        },
+        {
+          "label": "All Green & Blue",
+          "min": 119,
+          "max": 124
+        },
+        {
+          "label": "All Red, Green & Blue",
+          "min": 125,
+          "max": 130
+        },
+        {
+          "label": "All Red & White",
+          "min": 131,
+          "max": 136
+        },
+        {
+          "label": "All Green & White",
+          "min": 137,
+          "max": 142
+        },
+        {
+          "label": "All Blue & White",
+          "min": 143,
+          "max": 148
+        },
+        {
+          "label": "Group 1 Blue, All White",
+          "min": 149,
+          "max": 154
+        },
+        {
+          "label": "Group 2 Blue, All White",
+          "min": 155,
+          "max": 160
+        },
+        {
+          "label": "Group 3 Blue, All White",
+          "min": 161,
+          "max": 166
+        },
+        {
+          "label": "Group 1 Blue & Group 3 Red",
+          "min": 167,
+          "max": 172
+        },
+        {
+          "label": "Group 2 Blue & Group 2 Red",
+          "min": 173,
+          "max": 178
+        },
+        {
+          "label": "Group 3 Blue & Group 1 Red",
+          "min": 179,
+          "max": 184
+        },
+        {
+          "label": "Group 1 Green & Group 3 White",
+          "min": 185,
+          "max": 190
+        },
+        {
+          "label": "Group 2 Green & Group 2 White",
+          "min": 191,
+          "max": 196
+        },
+        {
+          "label": "Group 3 Green & Group 1 White",
+          "min": 197,
+          "max": 202
+        },
+        {
+          "label": "Group 1 Blue. Group 3 Green, Group 1 Red, Group 3 White",
+          "min": 203,
+          "max": 208
+        },
+        {
+          "label": "Group 2 Blue. Group 2 Green, Group 2 Red, Group 2 White",
+          "min": 209,
+          "max": 214
+        },
+        {
+          "label": "Group 3 Blue. Group 1 Green, Group 3 Red, Group 1 White",
+          "min": 215,
+          "max": 220
+        },
+        {
+          "label": "All White Red Green Blue",
+          "min": 221,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Operating Mode 3",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Group 1 White",
+          "min": 11,
+          "max": 16
+        },
+        {
+          "label": "Group 2 White",
+          "min": 17,
+          "max": 22
+        },
+        {
+          "label": "Group 3 White",
+          "min": 23,
+          "max": 28
+        },
+        {
+          "label": "Group 1 Red",
+          "min": 29,
+          "max": 34
+        },
+        {
+          "label": "Group 2 Red",
+          "min": 35,
+          "max": 40
+        },
+        {
+          "label": "Group 3 Red",
+          "min": 41,
+          "max": 46
+        },
+        {
+          "label": "Group 1 Green",
+          "min": 47,
+          "max": 52
+        },
+        {
+          "label": "Group 2 Green",
+          "min": 53,
+          "max": 58
+        },
+        {
+          "label": "Group 3 Green",
+          "min": 59,
+          "max": 64
+        },
+        {
+          "label": "Group 1 Blue",
+          "min": 65,
+          "max": 70
+        },
+        {
+          "label": "Group 2 Blue",
+          "min": 71,
+          "max": 76
+        },
+        {
+          "label": "Group 3 Blue",
+          "min": 77,
+          "max": 82
+        },
+        {
+          "label": "All White",
+          "min": 83,
+          "max": 88
+        },
+        {
+          "label": "All Red",
+          "min": 89,
+          "max": 94
+        },
+        {
+          "label": "All Green",
+          "min": 95,
+          "max": 100
+        },
+        {
+          "label": "All Blue",
+          "min": 101,
+          "max": 106
+        },
+        {
+          "label": "All Red & Green",
+          "min": 107,
+          "max": 112
+        },
+        {
+          "label": "All Red & Blue",
+          "min": 113,
+          "max": 118
+        },
+        {
+          "label": "All Green & Blue",
+          "min": 119,
+          "max": 124
+        },
+        {
+          "label": "All Red, Green & Blue",
+          "min": 125,
+          "max": 130
+        },
+        {
+          "label": "All Red & White",
+          "min": 131,
+          "max": 136
+        },
+        {
+          "label": "All Green & White",
+          "min": 137,
+          "max": 142
+        },
+        {
+          "label": "All Blue & White",
+          "min": 143,
+          "max": 148
+        },
+        {
+          "label": "Group 1 Blue, All White",
+          "min": 149,
+          "max": 154
+        },
+        {
+          "label": "Group 2 Blue, All White",
+          "min": 155,
+          "max": 160
+        },
+        {
+          "label": "Group 3 Blue, All White",
+          "min": 161,
+          "max": 166
+        },
+        {
+          "label": "Group 1 Blue & Group 3 Red",
+          "min": 167,
+          "max": 172
+        },
+        {
+          "label": "Group 2 Blue & Group 2 Red",
+          "min": 173,
+          "max": 178
+        },
+        {
+          "label": "Group 3 Blue & Group 1 Red",
+          "min": 179,
+          "max": 184
+        },
+        {
+          "label": "Group 1 Green & Group 3 White",
+          "min": 185,
+          "max": 190
+        },
+        {
+          "label": "Group 2 Green & Group 2 White",
+          "min": 191,
+          "max": 196
+        },
+        {
+          "label": "Group 3 Green & Group 1 White",
+          "min": 197,
+          "max": 202
+        },
+        {
+          "label": "Group 1 Blue. Group 3 Green, Group 1 Red, Group 3 White",
+          "min": 203,
+          "max": 208
+        },
+        {
+          "label": "Group 2 Blue. Group 2 Green, Group 2 Red, Group 2 White",
+          "min": 209,
+          "max": 214
+        },
+        {
+          "label": "Group 3 Blue. Group 1 Green, Group 3 Red, Group 1 White",
+          "min": 215,
+          "max": 220
+        },
+        {
+          "label": "All White Red Green Blue",
+          "min": 221,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Operating Mode 4",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Group 1 White",
+          "min": 11,
+          "max": 16
+        },
+        {
+          "label": "Group 2 White",
+          "min": 17,
+          "max": 22
+        },
+        {
+          "label": "Group 3 White",
+          "min": 23,
+          "max": 28
+        },
+        {
+          "label": "Group 1 Red",
+          "min": 29,
+          "max": 34
+        },
+        {
+          "label": "Group 2 Red",
+          "min": 35,
+          "max": 40
+        },
+        {
+          "label": "Group 3 Red",
+          "min": 41,
+          "max": 46
+        },
+        {
+          "label": "Group 1 Green",
+          "min": 47,
+          "max": 52
+        },
+        {
+          "label": "Group 2 Green",
+          "min": 53,
+          "max": 58
+        },
+        {
+          "label": "Group 3 Green",
+          "min": 59,
+          "max": 64
+        },
+        {
+          "label": "Group 1 Blue",
+          "min": 65,
+          "max": 70
+        },
+        {
+          "label": "Group 2 Blue",
+          "min": 71,
+          "max": 76
+        },
+        {
+          "label": "Group 3 Blue",
+          "min": 77,
+          "max": 82
+        },
+        {
+          "label": "All White",
+          "min": 83,
+          "max": 88
+        },
+        {
+          "label": "All Red",
+          "min": 89,
+          "max": 94
+        },
+        {
+          "label": "All Green",
+          "min": 95,
+          "max": 100
+        },
+        {
+          "label": "All Blue",
+          "min": 101,
+          "max": 106
+        },
+        {
+          "label": "All Red & Green",
+          "min": 107,
+          "max": 112
+        },
+        {
+          "label": "All Red & Blue",
+          "min": 113,
+          "max": 118
+        },
+        {
+          "label": "All Green & Blue",
+          "min": 119,
+          "max": 124
+        },
+        {
+          "label": "All Red, Green & Blue",
+          "min": 125,
+          "max": 130
+        },
+        {
+          "label": "All Red & White",
+          "min": 131,
+          "max": 136
+        },
+        {
+          "label": "All Green & White",
+          "min": 137,
+          "max": 142
+        },
+        {
+          "label": "All Blue & White",
+          "min": 143,
+          "max": 148
+        },
+        {
+          "label": "Group 1 Blue, All White",
+          "min": 149,
+          "max": 154
+        },
+        {
+          "label": "Group 2 Blue, All White",
+          "min": 155,
+          "max": 160
+        },
+        {
+          "label": "Group 3 Blue, All White",
+          "min": 161,
+          "max": 166
+        },
+        {
+          "label": "Group 1 Blue & Group 3 Red",
+          "min": 167,
+          "max": 172
+        },
+        {
+          "label": "Group 2 Blue & Group 2 Red",
+          "min": 173,
+          "max": 178
+        },
+        {
+          "label": "Group 3 Blue & Group 1 Red",
+          "min": 179,
+          "max": 184
+        },
+        {
+          "label": "Group 1 Green & Group 3 White",
+          "min": 185,
+          "max": 190
+        },
+        {
+          "label": "Group 2 Green & Group 2 White",
+          "min": 191,
+          "max": 196
+        },
+        {
+          "label": "Group 3 Green & Group 1 White",
+          "min": 197,
+          "max": 202
+        },
+        {
+          "label": "Group 1 Blue. Group 3 Green, Group 1 Red, Group 3 White",
+          "min": 203,
+          "max": 208
+        },
+        {
+          "label": "Group 2 Blue. Group 2 Green, Group 2 Red, Group 2 White",
+          "min": 209,
+          "max": 214
+        },
+        {
+          "label": "Group 3 Blue. Group 1 Green, Group 3 Red, Group 1 White",
+          "min": 215,
+          "max": 220
+        },
+        {
+          "label": "All White Red Green Blue",
+          "min": 221,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Strobe Off",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Strobe Slow -> Fast",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Automatic Modes",
+      "capabilities": [
+        {
+          "label": "Auto Mode Off",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Program 1",
+          "min": 11,
+          "max": 34
+        },
+        {
+          "label": "Program 2",
+          "min": 35,
+          "max": 58
+        },
+        {
+          "label": "Program 3",
+          "min": 59,
+          "max": 82
+        },
+        {
+          "label": "Program 4",
+          "min": 83,
+          "max": 106
+        },
+        {
+          "label": "Program 5",
+          "min": 107,
+          "max": 131
+        },
+        {
+          "label": "Program 6",
+          "min": 132,
+          "max": 154
+        },
+        {
+          "label": "Program 7",
+          "min": 155,
+          "max": 178
+        },
+        {
+          "label": "Program 8",
+          "min": 179,
+          "max": 226
+        },
+        {
+          "label": "Random Automatic Mode",
+          "min": 227,
+          "max": 250
+        },
+        {
+          "label": "Sound-active Mode",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-4Play.json",
+  "id": 399
+}

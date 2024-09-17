@@ -1,0 +1,1327 @@
+{
+  "version": "1.0.0",
+  "label": "Moonstone",
+  "manufacturer": "Pro-Lights",
+  "bulb_type": "LED",
+  "bulb_lumens": 5000,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 13,
+  "dimension_width": 338,
+  "dimension_height": 472,
+  "dimension_depth": 235,
+  "lens_label": "Other",
+  "lens_degree_min": 12,
+  "lens_degree_max": 12,
+  "focus_type": "Head",
+  "focus_pan_max": 630,
+  "focus_tilt_max": 265,
+  "technical_power_consumption": 210,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Movement Speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 17,
+      "type_description": "Movement Function",
+      "capabilities": [
+        {
+          "label": "Normal",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Movement with backout",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "TBD",
+          "min": 32,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 17,
+      "type_description": "Shutter Function",
+      "capabilities": [
+        {
+          "label": "Normal shutter functions",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Pulse effect forward",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Pulse effect reverse",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Random strobe",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "TBD",
+          "min": 64,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 21,
+      "type_description": "Shutter (14/16 channel)",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "No function (shutter open)",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe effect (slow to fast)",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "No function (shutter open)",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse effect in sequences",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "No function (shutter open)",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random strobe effect (slow to fast)",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "No function (shutter open)",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 21,
+      "type_description": "Shutter (21/24 Channel)",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Strobe rate (slow to fast)",
+          "min": 32,
+          "max": 223
+        },
+        {
+          "label": "Open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Color Function",
+      "capabilities": [
+        {
+          "label": "Indexed",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Indexed with backout",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Forward spin",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Reverse spin",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Continuous",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Color bounce",
+          "min": 80,
+          "max": 111
+        },
+        {
+          "label": "TBD",
+          "min": 112,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Color (14/16 Channel)",
+      "capabilities": [
+        {
+          "label": "Position 1 (open) - indexed",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Position 2 (half open plus half red) - indexed",
+          "min": 3,
+          "max": 5
+        },
+        {
+          "label": "Position 3 (red) - indexed",
+          "min": 6,
+          "max": 8
+        },
+        {
+          "label": "Position 4 (half red plus half blue) - indexed",
+          "min": 9,
+          "max": 11
+        },
+        {
+          "label": "Position 5 (blue) - indexed",
+          "min": 12,
+          "max": 14
+        },
+        {
+          "label": "Position 6 (half blue plus half green) - indexed",
+          "min": 15,
+          "max": 17
+        },
+        {
+          "label": "Position 7 (green) - indexed",
+          "min": 18,
+          "max": 20
+        },
+        {
+          "label": "Position 8 (half green plus half yellow) - indexed",
+          "min": 21,
+          "max": 23
+        },
+        {
+          "label": "Position 9 (yellow) - indexed",
+          "min": 24,
+          "max": 26
+        },
+        {
+          "label": "Position 10 (half yellow plus half pink) - indexed",
+          "min": 27,
+          "max": 29
+        },
+        {
+          "label": "Position 11 (pink) - indexed",
+          "min": 30,
+          "max": 32
+        },
+        {
+          "label": "Position 12 (half pink plus half sky blue) - indexed",
+          "min": 33,
+          "max": 35
+        },
+        {
+          "label": "Position 13 (sky blue) - indexed",
+          "min": 36,
+          "max": 38
+        },
+        {
+          "label": "Position 14 (half sky blue plus half orange) - indexed",
+          "min": 39,
+          "max": 41
+        },
+        {
+          "label": "Position 15 (orange) - indexed",
+          "min": 42,
+          "max": 44
+        },
+        {
+          "label": "Position 16 (half orange plus half magenta) - indexed",
+          "min": 45,
+          "max": 47
+        },
+        {
+          "label": "Position 17 (magenta) - indexed",
+          "min": 48,
+          "max": 50
+        },
+        {
+          "label": "Position 18 (half magenta plus half open) - indexed",
+          "min": 51,
+          "max": 53
+        },
+        {
+          "label": "Position 1 (Open) - indexed with backout",
+          "min": 54,
+          "max": 56
+        },
+        {
+          "label": "Position 2 (half open plus half red) - indexed with backout",
+          "min": 57,
+          "max": 59
+        },
+        {
+          "label": "Position 3 (red) - indexed with backout",
+          "min": 60,
+          "max": 62
+        },
+        {
+          "label": "Position 4 (half red plus half blue) - indexed with backout",
+          "min": 63,
+          "max": 65
+        },
+        {
+          "label": "Position 5 (blue) - indexed with backout",
+          "min": 66,
+          "max": 68
+        },
+        {
+          "label": "Position 6 (half blue plus half green) - indexed with backout",
+          "min": 69,
+          "max": 71
+        },
+        {
+          "label": "Position 7 (green) - indexed with backout",
+          "min": 72,
+          "max": 74
+        },
+        {
+          "label": "Position 8 (half green plus half yellow) - indexed with backout",
+          "min": 75,
+          "max": 77
+        },
+        {
+          "label": "Position 9 (yellow) - indexed with backout",
+          "min": 78,
+          "max": 80
+        },
+        {
+          "label": "Position 10 (half yellow plus half pink) - indexed with backout",
+          "min": 81,
+          "max": 83
+        },
+        {
+          "label": "Position 11 (pink) - indexed with backout",
+          "min": 84,
+          "max": 86
+        },
+        {
+          "label": "Position 12 (half pink plus half sky blue) - indexed with backout",
+          "min": 87,
+          "max": 89
+        },
+        {
+          "label": "Position 13 (sky blue) - indexed with backout",
+          "min": 90,
+          "max": 92
+        },
+        {
+          "label": "Position 14 (half sky blue plus half orange) - indexed with backout",
+          "min": 93,
+          "max": 95
+        },
+        {
+          "label": "Position 15 (orange) - indexed with backout",
+          "min": 96,
+          "max": 98
+        },
+        {
+          "label": "Position 16 (half orange plus half magenta) - indexed with backout",
+          "min": 99,
+          "max": 101
+        },
+        {
+          "label": "Position 17 (magenta) - indexed with backout",
+          "min": 102,
+          "max": 104
+        },
+        {
+          "label": "Position 18 (half magenta plus half open) - indexed with backout",
+          "min": 105,
+          "max": 106
+        },
+        {
+          "label": "Position 1 (open) - indexed with bounce",
+          "min": 107,
+          "max": 119
+        },
+        {
+          "label": "Position 2 (red) - indexed with bounce",
+          "min": 120,
+          "max": 132
+        },
+        {
+          "label": "Position 3 (blue) - indexed with bounce",
+          "min": 133,
+          "max": 145
+        },
+        {
+          "label": "Position 4 (green) - indexed with bounce",
+          "min": 146,
+          "max": 158
+        },
+        {
+          "label": "Position 5 (yellow) - indexed with bounce",
+          "min": 159,
+          "max": 171
+        },
+        {
+          "label": "Position 6 (pink) - indexed with bounce",
+          "min": 172,
+          "max": 184
+        },
+        {
+          "label": "Position 7 (sky blue) - indexed with bounce",
+          "min": 185,
+          "max": 197
+        },
+        {
+          "label": "Position 8 (orange) - indexed with bounce",
+          "min": 198,
+          "max": 210
+        },
+        {
+          "label": "Position 9 (magenta) - indexed with bounce",
+          "min": 211,
+          "max": 223
+        },
+        {
+          "label": "Forward wheel spin (stop to fastest)",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "Reverse wheel spin (stop to fastest)",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 4,
+      "type_description": "Rotating Gobo Function",
+      "capabilities": [
+        {
+          "label": "Indexed",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Indexed with backout",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Forward spin",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Reverse spin",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Continuous",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Shake",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "TBD",
+          "min": 96,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 4,
+      "type_description": "Rotating Gobo/Stop to Fastest Spin/Continuous Position (21/24 Channel)",
+      "capabilities": [
+        {
+          "label": "Position 1 (open)",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Position 2",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Position 3",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Position 4",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Position 5",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Position 6",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Position 7",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Position 8",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 4,
+      "type_description": "Rotating Gobo/Stop to Fastest Spin/Continuous Position (14/16 Channel)",
+      "capabilities": [
+        {
+          "label": "Position 1 (open) - indexed",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Position 2 - indexed",
+          "min": 6,
+          "max": 11
+        },
+        {
+          "label": "Position 3 - indexed",
+          "min": 12,
+          "max": 17
+        },
+        {
+          "label": "Position 4 - indexed",
+          "min": 18,
+          "max": 23
+        },
+        {
+          "label": "Position 5 - indexed",
+          "min": 24,
+          "max": 29
+        },
+        {
+          "label": "Position 6 - indexed",
+          "min": 30,
+          "max": 35
+        },
+        {
+          "label": "Position 7 - indexed",
+          "min": 36,
+          "max": 41
+        },
+        {
+          "label": "Position 8 - indexed",
+          "min": 42,
+          "max": 47
+        },
+        {
+          "label": "Position 1 (open) - indexed with backout",
+          "min": 48,
+          "max": 53
+        },
+        {
+          "label": "Position 2 - indexed with backout",
+          "min": 54,
+          "max": 59
+        },
+        {
+          "label": "Position 3 - indexed with backout",
+          "min": 60,
+          "max": 65
+        },
+        {
+          "label": "Position 4 - indexed with backout",
+          "min": 66,
+          "max": 71
+        },
+        {
+          "label": "Position 5 - indexed with backout",
+          "min": 72,
+          "max": 77
+        },
+        {
+          "label": "Position 6 - indexed with backout",
+          "min": 78,
+          "max": 83
+        },
+        {
+          "label": "Position 7 - indexed with backout",
+          "min": 84,
+          "max": 89
+        },
+        {
+          "label": "Position 8 - indexed with backout",
+          "min": 90,
+          "max": 97
+        },
+        {
+          "label": "Position 2 - indexed with shake",
+          "min": 98,
+          "max": 115
+        },
+        {
+          "label": "Position 3 - indexed with shake",
+          "min": 116,
+          "max": 133
+        },
+        {
+          "label": "Position 4 - indexed with shake",
+          "min": 134,
+          "max": 151
+        },
+        {
+          "label": "Position 5 - indexed with shake",
+          "min": 152,
+          "max": 169
+        },
+        {
+          "label": "Position 6 - indexed with shake",
+          "min": 170,
+          "max": 187
+        },
+        {
+          "label": "Position 7 - indexed with shake",
+          "min": 188,
+          "max": 205
+        },
+        {
+          "label": "Position 8 - indexed with shake",
+          "min": 206,
+          "max": 223
+        },
+        {
+          "label": "Forward wheel spin (stop to fastest)",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "Reverse wheel spin (stop to fastest)",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 4,
+      "type_description": "Gobo Rotating Function",
+      "capabilities": [
+        {
+          "label": "Continuous",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Forward spin",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Reverse spin",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Forward animate rotate",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Forward animate rotate with backout",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Reverse animate rotate",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Reverse animate rotate with backout",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "TBD",
+          "min": 112,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 4,
+      "type_description": "Gobo Rotating - Continuous/Forward/Reverse Spin/Forward/Reverse Animate Rotate with Backout",
+      "capabilities": [
+        {
+          "label": "0-360°/Stop to fastest",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 4,
+      "type_description": "Fixed Gobo (14/16 Channel)",
+      "capabilities": [
+        {
+          "label": "Position 1 (open) - indexed",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Position 2 - indexed",
+          "min": 6,
+          "max": 11
+        },
+        {
+          "label": "Position 3 - indexed",
+          "min": 12,
+          "max": 17
+        },
+        {
+          "label": "Position 4 - indexed",
+          "min": 18,
+          "max": 23
+        },
+        {
+          "label": "Position 5 - indexed",
+          "min": 24,
+          "max": 29
+        },
+        {
+          "label": "Position 6 - indexed",
+          "min": 30,
+          "max": 35
+        },
+        {
+          "label": "Position 7 - indexed",
+          "min": 36,
+          "max": 41
+        },
+        {
+          "label": "Position 8 - indexed",
+          "min": 42,
+          "max": 47
+        },
+        {
+          "label": "Position 1 (open) - indexed with backout",
+          "min": 48,
+          "max": 53
+        },
+        {
+          "label": "Position 2 - indexed with backout",
+          "min": 54,
+          "max": 59
+        },
+        {
+          "label": "Position 3 - indexed with backout",
+          "min": 60,
+          "max": 65
+        },
+        {
+          "label": "Position 4 - indexed with backout",
+          "min": 66,
+          "max": 71
+        },
+        {
+          "label": "Position 5 - indexed with backout",
+          "min": 72,
+          "max": 77
+        },
+        {
+          "label": "Position 6 - indexed with backout",
+          "min": 78,
+          "max": 83
+        },
+        {
+          "label": "Position 7 - indexed with backout",
+          "min": 84,
+          "max": 89
+        },
+        {
+          "label": "Position 8 - indexed with backout",
+          "min": 90,
+          "max": 97
+        },
+        {
+          "label": "Position 2 - indexed with shake",
+          "min": 98,
+          "max": 115
+        },
+        {
+          "label": "Position 3 - indexed with shake",
+          "min": 116,
+          "max": 133
+        },
+        {
+          "label": "Position 4 - indexed with shake",
+          "min": 134,
+          "max": 151
+        },
+        {
+          "label": "Position 5 - indexed with shake",
+          "min": 152,
+          "max": 169
+        },
+        {
+          "label": "Position 6 - indexed with shake",
+          "min": 170,
+          "max": 187
+        },
+        {
+          "label": "Position 7 - indexed with shake",
+          "min": 188,
+          "max": 205
+        },
+        {
+          "label": "Position 8 - indexed with shake",
+          "min": 206,
+          "max": 223
+        },
+        {
+          "label": "Forward wheel spin - stop to fastest",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "Reverse wheel spin - stop to fastest",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "Position 1 (open)",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "3 facet prism",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "8 facet prism",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Frost",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 17,
+      "type_description": "Control",
+      "capabilities": [
+        {
+          "label": "Normal",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Reset all",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Pan & tilt reset",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Color reset",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Gobo reset",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "TBD",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Other reset",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Display off",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Display on",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "TBD",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "TBD",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Hibernation",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "TBD",
+          "min": 96,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 1,
+      "type_description": "Iris",
+      "capabilities": [
+        {
+          "label": "Indexed",
+          "min": 0,
+          "max": 191
+        },
+        {
+          "label": "Pulse opening with forward backout",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "Pulse opening with reverse backout",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "Pulse closing with forward backout",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "Pulse closing with reverse backout",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "type": 1,
+      "type_description": "Iris - Indexed/Pulse Opening with Reverse Backout",
+      "capabilities": [
+        {
+          "label": "Max. to min. diameter/Slow to fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "type": 1,
+      "type_description": "Iris Function",
+      "capabilities": [
+        {
+          "label": "Indexed",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Pulse opening with forward backout",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Pulse opening with reverse backout",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Pulse closing with forward backout",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Pulse closing with reverse backout",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "TBD",
+          "min": 96,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "type": 1,
+      "type_description": "Focus - Continuous/Autofocus",
+      "capabilities": [
+        {
+          "label": "In to out/In to out fine",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "type": 1,
+      "type_description": "Focus Function",
+      "capabilities": [
+        {
+          "label": "Continuous",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "5m autofocus",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "7.5m autofocus",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "10m autofocus",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "15m autofocus",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": ">20m autofocus",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "TBD",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "type": 20,
+      "type_description": "Prism Rotation",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Forward slow to fastest",
+          "min": 4,
+          "max": 127
+        },
+        {
+          "label": "Stop",
+          "min": 128,
+          "max": 131
+        },
+        {
+          "label": "Backward slow to fastest",
+          "min": 132,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "type": 4,
+      "type_description": "Fixed Gobo (21/24 Channel) - Indexed/Forward/Reverse/Continuous Position",
+      "capabilities": [
+        {
+          "label": "Position 1 (open)/Stop to fastest/Stop to fastest/0-360 degrees",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Position 2/Stop to fastest/Stop to fastest/0-360 degrees",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Position 3/Stop to fastest/Stop to fastest/0-360 degrees",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Position 4/Stop to fastest/Stop to fastest/0-360 degrees",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Position 5/Stop to fastest/Stop to fastest/0-360 degrees",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Position 6/Stop to fastest/Stop to fastest/0-360 degrees",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Position 7/Stop to fastest/Stop to fastest/0-360 degrees",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Position 8/Stop to fastest/Stop to fastest/0-360 degrees",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Color (21/24 Channel)/Forward/Reverse Spin - Stop to Fastest",
+      "capabilities": [
+        {
+          "label": "Position 1 (open) - indexed, indexed with backout and bounce",
+          "min": 0,
+          "max": 13
+        },
+        {
+          "label": "Position 2 (half open plus half red) - indexed, indexed with backout and bounce",
+          "min": 14,
+          "max": 27
+        },
+        {
+          "label": "Position 3 (red) - indexed, indexed with backout and bounce",
+          "min": 28,
+          "max": 41
+        },
+        {
+          "label": "Position 4 (half red plus half blue) - indexed, indexed with backout and bounce",
+          "min": 42,
+          "max": 55
+        },
+        {
+          "label": "Position 5 (blue) - indexed, indexed with backout and bounce",
+          "min": 56,
+          "max": 69
+        },
+        {
+          "label": "Position 6 (half blue plus half green) - indexed, indexed with backout and bounce",
+          "min": 70,
+          "max": 83
+        },
+        {
+          "label": "Position 7 (green) - indexed, indexed with backout and bounce",
+          "min": 84,
+          "max": 97
+        },
+        {
+          "label": "Position 8 (half green plus half yellow) - indexed, indexed with backout and bounce",
+          "min": 98,
+          "max": 111
+        },
+        {
+          "label": "Position 9 (yellow) - indexed, indexed with backout and bounce",
+          "min": 112,
+          "max": 125
+        },
+        {
+          "label": "Position 10 (half yellow plus half pink) - indexed, indexed with backout and bounce",
+          "min": 126,
+          "max": 139
+        },
+        {
+          "label": "Position 11 (pink) - indexed, indexed with backout and bounce",
+          "min": 140,
+          "max": 153
+        },
+        {
+          "label": "Position 12 (half pink plus half sky blue) - indexed, indexed with backout and bounce",
+          "min": 154,
+          "max": 167
+        },
+        {
+          "label": "Position 13 (sky blue) - indexed, indexed with backout and bounce",
+          "min": 168,
+          "max": 181
+        },
+        {
+          "label": "Position 14 (half sky blue plus half orange) - indexed, indexed with backout and bounce",
+          "min": 182,
+          "max": 195
+        },
+        {
+          "label": "Position 15 (orange) - indexed, indexed with backout and bounce",
+          "min": 196,
+          "max": 209
+        },
+        {
+          "label": "Position 16 (half orange plus half magenta) - indexed, indexed with backout and bounce",
+          "min": 210,
+          "max": 223
+        },
+        {
+          "label": "Position 17 (magenta) - indexed, indexed with backout and bounce",
+          "min": 224,
+          "max": 237
+        },
+        {
+          "label": "Position 18 (half magenta plus half open) - indexed, indexed with backout and bounce",
+          "min": 238,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "type": 4,
+      "type_description": "Fixed Gobo Function",
+      "capabilities": [
+        {
+          "label": "Indexed",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Indexed with backout",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Forward spin",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Reverse spin",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Continuous",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Shake",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "TBD",
+          "min": 96,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Pro-Lights/Pro-Lights-Moonstone.json",
+  "id": 1145
+}

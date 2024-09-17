@@ -1,0 +1,159 @@
+{
+  "version": "1.0.0",
+  "label": "Fusion 50 MkII",
+  "manufacturer": "Equinox",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 175,
+  "dimension_height": 245,
+  "dimension_depth": 180,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 180,
+  "technical_power_consumption": 85,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 5,
+      "type_description": "Master Dimmer 0-100% / Strobe/Strobe Speed",
+      "capabilities": [
+        {
+          "label": "Master Dimmer (0 - 90%)",
+          "min": 0,
+          "max": 134
+        },
+        {
+          "label": "Strobe/Strobe Speed",
+          "min": 135,
+          "max": 239
+        },
+        {
+          "label": "Master Dimmer (90-100%)",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Red 0-100%",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Green 0-100%",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Blue 0-100%",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "White 0-100%",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Colour Change",
+      "capabilities": [
+        {
+          "label": "Manual Preset Colour Change",
+          "min": 0,
+          "max": 231
+        },
+        {
+          "label": "Auto Colour Preset Change",
+          "min": 232,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 22,
+      "type_description": "Colour Change Speed",
+      "capabilities": [
+        {
+          "label": "Colour Change Speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 3,
+      "type_description": "Auto/Sound Active",
+      "capabilities": [
+        {
+          "label": "Auto",
+          "min": 0,
+          "max": 155
+        },
+        {
+          "label": "Sound Active",
+          "min": 156,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 17,
+      "type_description": "Reset",
+      "capabilities": [
+        {
+          "label": "Reset",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Equinox/Equinox-Fusion-50-Mkii.json",
+  "id": 645
+}

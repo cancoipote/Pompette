@@ -1,0 +1,53 @@
+<div class="fixtures-container">
+    <div class="fixtures-container-menu" *ngIf="display_menu == true">
+        <div class="fixtures-container-title">
+          <i class="fixtures-container-title-label">Select fixtures</i>
+          <div class="fixtures-container-title-separator"></div>
+          <button mat-icon-button class="sequences-container-title-button" (click)="display_menu = false" >
+            <mat-icon>menu</mat-icon>
+          </button>
+        </div>
+        
+        <br>
+        <search-box class="fixtures-search" [disableFilters]="false" (onChange)="onSearch($event)"></search-box>
+        <mat-list class="fixtures-container-menu-list">
+            <mat-accordion class="fixtures-container-menu-list">
+                <mat-expansion-panel *ngFor="let manufacturer of manufacturers">
+                  <mat-expansion-panel-header>
+                    <mat-panel-title>
+                      {{ manufacturer.label }}
+                    </mat-panel-title>
+                  </mat-expansion-panel-header>
+                  <mat-list>
+                    <mat-list-item *ngFor="let fixture of manufacturer.fixtures" class="fixtures-container-menu-list-submenu-thumb">
+                        <button mat-button (click)="selectFixtures( fixture )">
+                            {{fixture.label}}
+                          </button>
+                    </mat-list-item>
+                  </mat-list>
+                </mat-expansion-panel>
+              </mat-accordion>
+        </mat-list>
+    </div>
+    <div class="fixtures-container-menu-light" *ngIf="display_menu == false">
+      <button mat-icon-button class="fixtures-container-title-button" (click)="display_menu = true" >
+          <mat-icon>menu</mat-icon>
+      </button>
+  </div>
+    <div class="fixtures-container-content">
+        <div class="fixtures-container-title"><i>Fixtures</i></div>
+        <br>
+        <div class="project-fixtures-list" >
+            <div class="project-fictures-thumb" *ngFor="let fixture of appService.project.fixtures" >
+                <fixture 
+                    [fixture]="fixture" 
+                    [displayReference]="true"
+                    [openDmxConfigurationAtStart]="true"
+                    [displayCloseButton]="true"
+                    (onClose)="closeFixture(fixture)"
+                    >
+                </fixture>
+            </div>
+        </div>
+    </div>
+</div>

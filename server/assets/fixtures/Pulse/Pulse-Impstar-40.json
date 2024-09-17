@@ -1,0 +1,385 @@
+{
+  "version": "1.0.0",
+  "label": "Impstar 40",
+  "manufacturer": "Pulse",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 155,
+  "dimension_height": 280,
+  "dimension_depth": 160,
+  "lens_label": "Other",
+  "lens_degree_min": 8,
+  "lens_degree_max": 8,
+  "focus_type": "Fixed",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 210,
+  "technical_power_consumption": 60,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "LED Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 8
+        },
+        {
+          "label": "Increasing speed",
+          "min": 9,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 17,
+      "type_description": "Special Functions 16",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 199
+        },
+        {
+          "label": "Reset",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "No function",
+          "min": 210,
+          "max": 239
+        },
+        {
+          "label": "Sound active",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 17,
+      "type_description": "Special Functions 21",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 199
+        },
+        {
+          "label": "Reset",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "No function",
+          "min": 210,
+          "max": 239
+        },
+        {
+          "label": "Automatic sound-to-light-show",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "5050 SMD Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 21,
+      "type_description": "5050 SMD Strobe",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 8
+        },
+        {
+          "label": "Increasing speed",
+          "min": 9,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "5050 SMD Red",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "5050 SMD Green",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "5050 SMD Blue",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "5050 SMD Section 1",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Red",
+          "min": 11,
+          "max": 44
+        },
+        {
+          "label": "Green",
+          "min": 45,
+          "max": 79
+        },
+        {
+          "label": "Blue",
+          "min": 80,
+          "max": 114
+        },
+        {
+          "label": "Red + Green",
+          "min": 115,
+          "max": 149
+        },
+        {
+          "label": "Red + Blue",
+          "min": 150,
+          "max": 184
+        },
+        {
+          "label": "Green + Blue",
+          "min": 185,
+          "max": 219
+        },
+        {
+          "label": "Red + Green + Blue",
+          "min": 220,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "5050 SMD Section 2",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Red",
+          "min": 11,
+          "max": 44
+        },
+        {
+          "label": "Green",
+          "min": 45,
+          "max": 79
+        },
+        {
+          "label": "Blue",
+          "min": 80,
+          "max": 114
+        },
+        {
+          "label": "Red + Green",
+          "min": 115,
+          "max": 149
+        },
+        {
+          "label": "Red + Blue",
+          "min": 150,
+          "max": 184
+        },
+        {
+          "label": "Green + Blue",
+          "min": 185,
+          "max": 219
+        },
+        {
+          "label": "Red + Green + Blue",
+          "min": 220,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "5050 SMD Section 3",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Red",
+          "min": 11,
+          "max": 44
+        },
+        {
+          "label": "Green",
+          "min": 45,
+          "max": 79
+        },
+        {
+          "label": "Blue",
+          "min": 80,
+          "max": 114
+        },
+        {
+          "label": "Red + Green",
+          "min": 115,
+          "max": 149
+        },
+        {
+          "label": "Red + Blue",
+          "min": 150,
+          "max": 184
+        },
+        {
+          "label": "Green + Blue",
+          "min": 185,
+          "max": 219
+        },
+        {
+          "label": "Red + Green + Blue",
+          "min": 220,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "5050 SMD Section 4",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Red",
+          "min": 11,
+          "max": 44
+        },
+        {
+          "label": "Green",
+          "min": 45,
+          "max": 79
+        },
+        {
+          "label": "Blue",
+          "min": 80,
+          "max": 114
+        },
+        {
+          "label": "Red + Green",
+          "min": 115,
+          "max": 149
+        },
+        {
+          "label": "Red + Blue",
+          "min": 150,
+          "max": 184
+        },
+        {
+          "label": "Green + Blue",
+          "min": 185,
+          "max": 219
+        },
+        {
+          "label": "Red + Green + Blue",
+          "min": 220,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Pulse/Pulse-Impstar-40.json",
+  "id": 1174
+}

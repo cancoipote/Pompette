@@ -1,0 +1,1091 @@
+{
+  "version": "1.0.0",
+  "label": "QFX Multi",
+  "manufacturer": "Showtec",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 6,
+  "dimension_width": 1185,
+  "dimension_height": 110,
+  "dimension_depth": 387,
+  "lens_label": "",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 45,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Built-in Programs",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Auto PAR",
+          "min": 10,
+          "max": 31
+        },
+        {
+          "label": "Auto Laser",
+          "min": 32,
+          "max": 65
+        },
+        {
+          "label": "Auto Flash LED",
+          "min": 66,
+          "max": 95
+        },
+        {
+          "label": "Auto MIX",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Sound PAR",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Sound Laser",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Sound Flash LED",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Sound MIX",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "PAR and Derby Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "PAR and Derby Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "PAR and Derby Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 5,
+      "type_description": "PAR and Derby Dimmer",
+      "capabilities": [
+        {
+          "label": "Brightness of all lights",
+          "min": 0,
+          "max": 191
+        },
+        {
+          "label": "Sound strobe",
+          "min": 192,
+          "max": 200
+        },
+        {
+          "label": "Strobe effect (slow to fast, 0-18Hz)",
+          "min": 201,
+          "max": 249
+        },
+        {
+          "label": "Full on",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 22,
+      "type_description": "Derby LED Motor rotating speed",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Rotate clockwise (slow to fast)",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "Stop",
+          "min": 128,
+          "max": 133
+        },
+        {
+          "label": "Rotate counterclockwise (slow to fast)",
+          "min": 134,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Reserved",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 21,
+      "type_description": "LED Strobe",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Open",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "Strobe %",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 21,
+      "type_description": "Red Laser Dimmer/Strobe",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Full on",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "Strobe effect (slow to fast, 0-18Hz)",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 21,
+      "type_description": "Green Laser Dimmer/Strobe",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Full on",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "Strobe effect (slow to fast, 0-18Hz)",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 21,
+      "type_description": "4pcs Strobe LED",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Full on",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "Strobe effect (slow to fast, 0-18Hz)",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 1,
+      "type_description": "Laser Motor rotating speed",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Rotate clockwise, from slow to fast",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "Stop",
+          "min": 128,
+          "max": 133
+        },
+        {
+          "label": "Rotate counterclockwise, from slow to fast",
+          "min": 134,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 5,
+      "type_description": "Derby 1 Red",
+      "capabilities": [
+        {
+          "label": "Red C-Mix",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 5,
+      "type_description": "Derby 2 Red",
+      "capabilities": [
+        {
+          "label": "Red C-Mix",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 5,
+      "type_description": "PAR 1 Red",
+      "capabilities": [
+        {
+          "label": "Red C-Mix",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 5,
+      "type_description": "PAR 2 Red",
+      "capabilities": [
+        {
+          "label": "Red C-Mix",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 5,
+      "type_description": "Derby 1 Green",
+      "capabilities": [
+        {
+          "label": "Green C-Mix",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 5,
+      "type_description": "Derby 2 Green",
+      "capabilities": [
+        {
+          "label": "Green C-Mix",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 5,
+      "type_description": "PAR 1 Green",
+      "capabilities": [
+        {
+          "label": "Green C-Mix",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 5,
+      "type_description": "PAR 2 Green",
+      "capabilities": [
+        {
+          "label": "Green C-Mix",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 5,
+      "type_description": "Derby 1 Blue",
+      "capabilities": [
+        {
+          "label": "Blue C-Mix",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "type": 5,
+      "type_description": "Derby 2 Blue",
+      "capabilities": [
+        {
+          "label": "Blue C-Mix",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "type": 5,
+      "type_description": "PAR 1 Blue",
+      "capabilities": [
+        {
+          "label": "Blue C-Mix",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "type": 5,
+      "type_description": "PAR 2 Blue",
+      "capabilities": [
+        {
+          "label": "Blue C-Mix",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "type": 21,
+      "type_description": "Derby 1 Shutter",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe effect (slow to fast, 0-18Hz)",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "type": 21,
+      "type_description": "Derby 2 Shutter",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe effect (slow to fast, 0-18Hz)",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "type": 21,
+      "type_description": "PAR 1 Shutter",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe effect (slow to fast, 0-18Hz)",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "type": 21,
+      "type_description": "PAR 2 Shutter",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe effect (slow to fast, 0-18Hz)",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "PAR 1 Reserved",
+      "capabilities": []
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "PAR 2 Reserved",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 1,
+      "type_description": "Derby 1 Motor rotating speed",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Rotate clockwise, from slow to fast",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "Stop",
+          "min": 128,
+          "max": 133
+        },
+        {
+          "label": "Rotate counterclockwise, from slow to fast",
+          "min": 134,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "type": 1,
+      "type_description": "Derby 2 Motor rotating speed",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Rotate clockwise, from slow to fast",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "Stop",
+          "min": 128,
+          "max": 133
+        },
+        {
+          "label": "Rotate counterclockwise, from slow to fast",
+          "min": 134,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "type": 21,
+      "type_description": "LED Strobe 1",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Full on",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "Strobe effect (slow to fast, 0-18Hz)",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "type": 21,
+      "type_description": "LED Strobe 2",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Full on",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "Strobe effect (slow to fast, 0-18Hz)",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "type": 21,
+      "type_description": "LED Strobe 3",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Full on",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "Strobe effect (slow to fast, 0-18Hz)",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "type": 21,
+      "type_description": "LED Strobe 4",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Full on",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "Strobe effect (slow to fast, 0-18Hz)",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "type": 3,
+      "type_description": "Auto PAR",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "AP01",
+          "min": 1,
+          "max": 9
+        },
+        {
+          "label": "AP02",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "AP03",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "AP04",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "AP05",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "AP06",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "AP07",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "AP08",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "AP09",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "AP10",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "AP11",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "AP12",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "AP13",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "AP14",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "AP15",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "AP16",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "AP17",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "AP18",
+          "min": 170,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "type": 3,
+      "type_description": "Auto Laser",
+      "capabilities": [
+        {
+          "label": "AL01",
+          "min": 0,
+          "max": 39
+        },
+        {
+          "label": "AL02",
+          "min": 40,
+          "max": 79
+        },
+        {
+          "label": "AL03",
+          "min": 80,
+          "max": 119
+        },
+        {
+          "label": "AL04",
+          "min": 120,
+          "max": 139
+        },
+        {
+          "label": "AL05",
+          "min": 140,
+          "max": 159
+        },
+        {
+          "label": "AL06",
+          "min": 160,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "type": 3,
+      "type_description": "Auto Flash LED",
+      "capabilities": [
+        {
+          "label": "AF01",
+          "min": 0,
+          "max": 14
+        },
+        {
+          "label": "AF02",
+          "min": 15,
+          "max": 29
+        },
+        {
+          "label": "AF03",
+          "min": 30,
+          "max": 44
+        },
+        {
+          "label": "AF04",
+          "min": 45,
+          "max": 59
+        },
+        {
+          "label": "AF05",
+          "min": 60,
+          "max": 74
+        },
+        {
+          "label": "AF06",
+          "min": 75,
+          "max": 89
+        },
+        {
+          "label": "AF07",
+          "min": 90,
+          "max": 104
+        },
+        {
+          "label": "AF08",
+          "min": 105,
+          "max": 119
+        },
+        {
+          "label": "AF09",
+          "min": 120,
+          "max": 134
+        },
+        {
+          "label": "AF10",
+          "min": 135,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "type": 3,
+      "type_description": "Auto MIX",
+      "capabilities": [
+        {
+          "label": "AM01",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "AM02",
+          "min": 20,
+          "max": 39
+        },
+        {
+          "label": "AM03",
+          "min": 40,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "type": 3,
+      "type_description": "Sound PAR",
+      "capabilities": [
+        {
+          "label": "SP01",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "SP02",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "SP03",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "SP04",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "SP05",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "SP06",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "SP07",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "SP08",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "SP09",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "SP10",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "SP11",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "SP12",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "SP13",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "SP14",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "SP15",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "SP16",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "SP17",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "SP18",
+          "min": 170,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "type": 3,
+      "type_description": "Sound Laser",
+      "capabilities": [
+        {
+          "label": "SL01",
+          "min": 0,
+          "max": 39
+        },
+        {
+          "label": "SL02",
+          "min": 40,
+          "max": 79
+        },
+        {
+          "label": "SL03",
+          "min": 80,
+          "max": 119
+        },
+        {
+          "label": "SL04",
+          "min": 120,
+          "max": 139
+        },
+        {
+          "label": "SL05",
+          "min": 140,
+          "max": 159
+        },
+        {
+          "label": "SL06",
+          "min": 160,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "type": 3,
+      "type_description": "Sound Flash",
+      "capabilities": [
+        {
+          "label": "SF01",
+          "min": 0,
+          "max": 14
+        },
+        {
+          "label": "SF02",
+          "min": 15,
+          "max": 29
+        },
+        {
+          "label": "SF03",
+          "min": 30,
+          "max": 44
+        },
+        {
+          "label": "SF04",
+          "min": 45,
+          "max": 59
+        },
+        {
+          "label": "SF05",
+          "min": 60,
+          "max": 74
+        },
+        {
+          "label": "SF06",
+          "min": 75,
+          "max": 89
+        },
+        {
+          "label": "SF07",
+          "min": 90,
+          "max": 104
+        },
+        {
+          "label": "SF08",
+          "min": 105,
+          "max": 119
+        },
+        {
+          "label": "SF09",
+          "min": 120,
+          "max": 134
+        },
+        {
+          "label": "SF10",
+          "min": 135,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "type": 3,
+      "type_description": "Sound MIX",
+      "capabilities": [
+        {
+          "label": "SM01",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "SM02",
+          "min": 20,
+          "max": 39
+        },
+        {
+          "label": "SM03",
+          "min": 40,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "type": 0,
+      "type_description": "No function 2",
+      "capabilities": []
+    },
+    {
+      "index": 45,
+      "type": 0,
+      "type_description": "No function 3",
+      "capabilities": []
+    },
+    {
+      "index": 46,
+      "type": 3,
+      "type_description": "Program Speed",
+      "capabilities": [
+        {
+          "label": "From slow to fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Showtec/Showtec-QFX-Multi.json",
+  "id": 1329
+}

@@ -1,0 +1,123 @@
+<div *ngIf="fixture != null" class="fixture-thumb" >
+    <div class="fixture-thumb-header">
+        <div class="fixture-thumb-header-title">
+            <span  *ngIf="title == ''" >{{fixture.label}}</span>
+            <span  *ngIf="title != ''" >{{title}}</span>
+        </div>
+        <button *ngIf="lightHeader == false && displayReference == true" class="fixture-thumb-header-reference" mat-button (click)="setFixtureReference()">
+            ref. {{fixture.reference}}
+        </button>
+        <span class="toolbar-spacer"></span>
+        <div *ngIf="lightHeader == false" class="fixture-thumb-header-tools">
+            <button class="fixture-thumb-header-tools-dmx" mat-button (click)="setFixtureDMXIP()">
+                DMX IP : {{fixture.index}}
+            </button>
+            <button mat-icon-button (click)="blackout()">
+                <mat-icon>flash_off</mat-icon>
+            </button>
+            <button mat-icon-button (click)="displayInfos()">
+                <mat-icon>info</mat-icon>
+            </button>
+            <button mat-icon-button (click)="edit()">
+                <mat-icon>edit</mat-icon>
+            </button>
+            <button *ngIf="displayCloseButton == true" mat-icon-button (click)="close()">
+                <mat-icon  color="warn">close</mat-icon>
+            </button>
+            <button *ngIf="displayRemoveButton == true" mat-icon-button (click)="remove()">
+                <mat-icon  color="warn">delete</mat-icon>
+            </button>
+            <!--
+            <mat-form-field color="accent" fxFlex="90">
+                <mat-label>Dmx ip</mat-label>
+                <input matInput type="number" style="text-align:right;"  [(ngModel)]="fixture.index" [ngModelOptions]="{standalone: true}" (change)="changeFixtuesDatas()">
+            </mat-form-field>	
+            -->
+        </div>
+        <div *ngIf="lightHeader == true" class="fixture-thumb-header-tools">
+            <button mat-icon-button (click)="play()">
+                <mat-icon>play_circle</mat-icon>
+            </button>
+        </div>
+    </div>
+    <div class="fixture-thumb-content">
+        <div  class="fixture-thumb-title">
+            <button class="fixture-thumb-title-icon" mat-icon-button (click)="hideChannels = !hideChannels" color="primary">
+                <mat-icon *ngIf="hideChannels == false">visibility_off</mat-icon>
+                <mat-icon *ngIf="hideChannels == true">visibility</mat-icon>
+            </button>
+            <div class="title fixture-thumb-title-text">Channels</div>
+        </div>
+        
+        <div *ngIf="hideChannels == false" class="fixture-thumb-content-part">
+            <div *ngFor="let channel of  fixture.channels" >
+                <div class="channel-thumb">
+                    <div class="channel-thumb-header">
+                        <span class="channel-thumb-label" *ngIf="channel.type.id !=null" >{{channel.type.label}}</span>
+                        <span class="channel-thumb-label" *ngIf="channel.type.id !=null && channel.type_description != ''" >&nbsp;-&nbsp;</span>
+                        <span class="channel-thumb-label" *ngIf="channel.type_description != ''" ><i>{{channel.type_description}}</i></span>
+                        <div class="channel-thumb-value">
+                            <button mat-button (click)="changeValueManually(channel)">
+                                <i>{{channel.value}}</i>
+                             </button>
+                        </div>
+                        <div class="channel-thumb-header-separtor"></div>
+                        <div class="channel-thumb-value">
+                            <button mat-button (click)="changeCapability(channel)" color="normal" [disabled]="channel.capabilities.length <= 1">
+                                <i>{{channel.capability.label}} - <small>( {{channel.capability.min}} - {{channel.capability.max}} )</small></i>
+                             </button>
+                        </div>
+                    </div>
+                   
+                    <div class="channel-thumb-params" >
+                        <mat-slider min="0" max="255" step="1" class="channel-thumb-slider">
+                            <input matSliderThumb [(ngModel)]="channel.value"  (input)="changeFixtuesDatas()">
+                        </mat-slider>
+                        <!--
+                        <div class="channel-thumb-params-separtor"></div>
+                        <mat-form-field  color="accent" class="channel-thumb-capabilities">
+                            <mat-label>Capabilities</mat-label>
+                            <mat-select name="capability" [(ngModel)]="channel.capability" (selectionChange)="changeCapability( channel )" [disabled]="channel.capabilities.length <= 1" >
+                              <mat-option *ngFor="let capability of channel.capabilities" [value]="capability">
+                                {{capability.label}} - <small>( {{capability.min}} - {{capability.max}} )</small>
+                              </mat-option>
+                            </mat-select>
+                        </mat-form-field>
+                        -->
+                    </div>                
+                </div>
+            </div>
+        </div>
+        
+
+        <div *ngIf="displayTools == true">
+            <div  class="fixture-thumb-title">
+                <button class="fixture-thumb-title-icon" mat-icon-button (click)="hideTools = !hideTools" color="primary">
+                    <mat-icon *ngIf="hideTools == false">visibility_off</mat-icon>
+                    <mat-icon *ngIf="hideTools == true">visibility</mat-icon>
+                </button>
+                <div class="title fixture-thumb-title-text">Tools</div>
+            </div>
+            <div *ngIf="hideTools == false"  class="fixture-thumb-content-part" >
+                <div *ngIf="displayToolsColorPicker == true" >
+                    <div class="tools-title">Color Picker</div>
+                    <form class="colorPicker" [formGroup]="colorPickerForm">
+                        <mat-form-field class="example-full-width">
+                          <mat-label>Color</mat-label>
+                          <input matInput formControlName="inputCtrl"  />
+                          <ngx-colors
+                            class="suffix"
+                            matSuffix
+                            ngx-colors-trigger
+                            format="rgba"
+                            formControlName="pickerCtrl"
+                            (slider)="onChangeColorPicker($event)"
+                            (close)="onCloseColorPicker($event)"
+                          ></ngx-colors>
+                        </mat-form-field>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  

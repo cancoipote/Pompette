@@ -1,0 +1,102 @@
+{
+  "version": "1.0.0",
+  "label": "Ovation FD-165WW",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 6481,
+  "bulb_color_temperature": 3184,
+  "dimension_weight": 6,
+  "dimension_width": 417,
+  "dimension_height": 261,
+  "dimension_depth": 284,
+  "lens_label": "Fresnel",
+  "lens_degree_min": 14,
+  "lens_degree_max": 55,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 170,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Dimmer Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Slow to fast",
+          "min": 10,
+          "max": 99
+        },
+        {
+          "label": "No function",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Lightning effect",
+          "min": 110,
+          "max": 179
+        },
+        {
+          "label": "No function",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Random",
+          "min": 190,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 17,
+      "type_description": "Motor Reset",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 200
+        },
+        {
+          "label": "Motor reset",
+          "min": 201,
+          "max": 220
+        },
+        {
+          "label": "No function",
+          "min": 221,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-Ovation-FD-165WW.json",
+  "id": 508
+}

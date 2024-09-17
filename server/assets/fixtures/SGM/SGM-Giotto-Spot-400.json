@@ -1,0 +1,771 @@
+{
+  "version": "1.0.0",
+  "label": "Giotto Spot 400",
+  "manufacturer": "SGM",
+  "bulb_type": "MSR 400W",
+  "bulb_lumens": 32000,
+  "bulb_color_temperature": 6000,
+  "dimension_weight": 33,
+  "dimension_width": 360,
+  "dimension_height": 743,
+  "dimension_depth": 412,
+  "lens_label": "Other",
+  "lens_degree_min": 9,
+  "lens_degree_max": 24,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 240,
+  "technical_power_consumption": 570,
+  "technical_dmx_connector": "5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Iris",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 27
+        },
+        {
+          "label": "Red",
+          "min": 28,
+          "max": 55
+        },
+        {
+          "label": "Yellow",
+          "min": 56,
+          "max": 83
+        },
+        {
+          "label": "Green",
+          "min": 84,
+          "max": 111
+        },
+        {
+          "label": "Cyan",
+          "min": 112,
+          "max": 139
+        },
+        {
+          "label": "Blue",
+          "min": 140,
+          "max": 167
+        },
+        {
+          "label": "Magenta",
+          "min": 168,
+          "max": 195
+        },
+        {
+          "label": "Azure",
+          "min": 196,
+          "max": 223
+        },
+        {
+          "label": "Orange",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 4,
+      "type_description": "Gobo 1",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Gobo1 1",
+          "min": 21,
+          "max": 41
+        },
+        {
+          "label": "Gobo1 2",
+          "min": 42,
+          "max": 62
+        },
+        {
+          "label": "Gobo1 3",
+          "min": 63,
+          "max": 83
+        },
+        {
+          "label": "Gobo1 4",
+          "min": 84,
+          "max": 104
+        },
+        {
+          "label": "Gobo1 5",
+          "min": 105,
+          "max": 125
+        },
+        {
+          "label": "Gobo1 6",
+          "min": 126,
+          "max": 146
+        },
+        {
+          "label": "Gobo1 7",
+          "min": 147,
+          "max": 167
+        },
+        {
+          "label": "Gobo1 8",
+          "min": 168,
+          "max": 189
+        },
+        {
+          "label": "Scrolling Speed 1",
+          "min": 190,
+          "max": 196
+        },
+        {
+          "label": "Scrolling Speed 2",
+          "min": 197,
+          "max": 203
+        },
+        {
+          "label": "Scrolling Speed 3",
+          "min": 204,
+          "max": 210
+        },
+        {
+          "label": "Scrolling Speed 4",
+          "min": 211,
+          "max": 217
+        },
+        {
+          "label": "Scrolling Speed 5",
+          "min": 218,
+          "max": 224
+        },
+        {
+          "label": "Scrolling Speed 6",
+          "min": 225,
+          "max": 231
+        },
+        {
+          "label": "Scrolling Speed 7",
+          "min": 232,
+          "max": 238
+        },
+        {
+          "label": "Scrolling Speed 8",
+          "min": 239,
+          "max": 245
+        },
+        {
+          "label": "Music change",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 21,
+      "type_description": "Shutter/Strobe",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Strobe 1.00 Hz",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Strobe 1.38 Hz",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Strobe 1.60 Hz",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Strobe 1.90 Hz",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Strobe 2.30 Hz",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Strobe 2.70 Hz",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Strobe 3.40 Hz",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Strobe 4.00 Hz",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Strobe 5.00 Hz",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Strobe 6.00 Hz",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Strobe 7.00 Hz",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Strobe 8.00 Hz",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Strobe 9.00 Hz",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Strobe 10.0 Hz",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Low strobe, max freq in sync with bass",
+          "min": 120,
+          "max": 136
+        },
+        {
+          "label": "Music flash low",
+          "min": 137,
+          "max": 153
+        },
+        {
+          "label": "Autoshade open on gobos",
+          "min": 154,
+          "max": 170
+        },
+        {
+          "label": "Autoshade open on colours",
+          "min": 171,
+          "max": 187
+        },
+        {
+          "label": "Autoshade open on gobos and colours",
+          "min": 188,
+          "max": 204
+        },
+        {
+          "label": "Open with slow gobo change",
+          "min": 205,
+          "max": 221
+        },
+        {
+          "label": "Open",
+          "min": 222,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 4,
+      "type_description": "Gobo 1 rotation or MSB position",
+      "capabilities": [
+        {
+          "label": "Rotate CW",
+          "min": 0,
+          "max": 111
+        },
+        {
+          "label": "No rotation",
+          "min": 112,
+          "max": 144
+        },
+        {
+          "label": "Rotate CCW",
+          "min": 145,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "No prism",
+          "min": 0,
+          "max": 84
+        },
+        {
+          "label": "Comet",
+          "min": 85,
+          "max": 170
+        },
+        {
+          "label": "4-Facet Prism (14° Beam)",
+          "min": 171,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 20,
+      "type_description": "Prism rotation",
+      "capabilities": [
+        {
+          "label": "Rotate CW",
+          "min": 0,
+          "max": 111
+        },
+        {
+          "label": "No rotation",
+          "min": 112,
+          "max": 143
+        },
+        {
+          "label": "Rotate CCW",
+          "min": 144,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 1,
+      "type_description": "Frost",
+      "capabilities": [
+        {
+          "label": "Frost disabled",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Frost adjustment",
+          "min": 1,
+          "max": 254
+        },
+        {
+          "label": "Full frost",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 22,
+      "type_description": "Movement speed",
+      "capabilities": [
+        {
+          "label": "Tracking mode",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Speed, slow -> fast",
+          "min": 4,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 17,
+      "type_description": "On-Off and Reset",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 60
+        },
+        {
+          "label": "Hysteresis",
+          "min": 61,
+          "max": 129
+        },
+        {
+          "label": "On",
+          "min": 130,
+          "max": 179
+        },
+        {
+          "label": "Hysteresis",
+          "min": 180,
+          "max": 239
+        },
+        {
+          "label": "Reset",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 4,
+      "type_description": "Gobo 1 shake",
+      "capabilities": [
+        {
+          "label": "No gobo 1 shake",
+          "min": 0,
+          "max": 47
+        },
+        {
+          "label": "Shake Speed 1",
+          "min": 48,
+          "max": 60
+        },
+        {
+          "label": "Shake Speed 2",
+          "min": 61,
+          "max": 73
+        },
+        {
+          "label": "Shake Speed 3",
+          "min": 74,
+          "max": 86
+        },
+        {
+          "label": "Shake Speed 4",
+          "min": 87,
+          "max": 99
+        },
+        {
+          "label": "Shake Speed 5",
+          "min": 100,
+          "max": 112
+        },
+        {
+          "label": "Shake Speed 6",
+          "min": 113,
+          "max": 125
+        },
+        {
+          "label": "Shake Speed 7",
+          "min": 126,
+          "max": 138
+        },
+        {
+          "label": "Shake Speed 8",
+          "min": 139,
+          "max": 151
+        },
+        {
+          "label": "Shake Speed 9",
+          "min": 152,
+          "max": 164
+        },
+        {
+          "label": "Shake Speed 10",
+          "min": 165,
+          "max": 177
+        },
+        {
+          "label": "Shake Speed 11",
+          "min": 178,
+          "max": 190
+        },
+        {
+          "label": "Shake Speed 12",
+          "min": 191,
+          "max": 203
+        },
+        {
+          "label": "Shake Speed 13",
+          "min": 204,
+          "max": 216
+        },
+        {
+          "label": "Shake Speed 14",
+          "min": 217,
+          "max": 229
+        },
+        {
+          "label": "Shake Speed 15",
+          "min": 230,
+          "max": 242
+        },
+        {
+          "label": "Shake Speed 16",
+          "min": 243,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Colour mode",
+      "capabilities": [
+        {
+          "label": "Full colour",
+          "min": 0,
+          "max": 50
+        },
+        {
+          "label": "Half colour",
+          "min": 51,
+          "max": 101
+        },
+        {
+          "label": "Soft colour",
+          "min": 102,
+          "max": 152
+        },
+        {
+          "label": "Soft rainbow",
+          "min": 153,
+          "max": 203
+        },
+        {
+          "label": "Hard music change",
+          "min": 204,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 4,
+      "type_description": "Gobo 1 rotation mode",
+      "capabilities": [
+        {
+          "label": "Indexing mode",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Rotation mode CW",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Rotation mode CCW",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 3,
+      "type_description": "Macro",
+      "capabilities": [
+        {
+          "label": "Macro 1, dimmer, shutter",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Macro 2, dimmer, shutter",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Macro 3, dimmer, shutter",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Macro 4, dimmer, shutter",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Macro 5, dimmer, shutter",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Macro 6, iris",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Macro 7, iris",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Macro 8, iris",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Macro 9, iris",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Macro 10, iris",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Macro 11, iris",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Macro 12, iris",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Macro 13, shutter",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Macro 14, frost",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Macro 15, frost",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Macro 16, frost",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Macro 17, dimmer, shutter",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Reserved for future use",
+          "min": 136,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "type": 3,
+      "type_description": "Effect",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 27
+        },
+        {
+          "label": "Tunnel",
+          "min": 28,
+          "max": 55
+        },
+        {
+          "label": "Stripped Texture",
+          "min": 56,
+          "max": 83
+        },
+        {
+          "label": "Honeycomb Texture",
+          "min": 84,
+          "max": 111
+        },
+        {
+          "label": "Spider",
+          "min": 112,
+          "max": 139
+        },
+        {
+          "label": "Wood",
+          "min": 140,
+          "max": 167
+        },
+        {
+          "label": "1/2 CTO",
+          "min": 168,
+          "max": 195
+        },
+        {
+          "label": "CTO",
+          "min": 196,
+          "max": 223
+        },
+        {
+          "label": "Amber",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/SGM/SGM-Giotto-Spot-400.json",
+  "id": 1246
+}

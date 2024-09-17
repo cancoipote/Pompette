@@ -1,0 +1,91 @@
+{
+  "version": "1.0.0",
+  "label": "Tri Phase",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 306,
+  "dimension_height": 334,
+  "dimension_depth": 189,
+  "lens_label": "Other",
+  "lens_degree_min": 65,
+  "lens_degree_max": 65,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 23,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Rotation",
+      "capabilities": [
+        {
+          "label": "No Rotation",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Clockwise Fast - Slow",
+          "min": 10,
+          "max": 120
+        },
+        {
+          "label": "No Rotation",
+          "min": 121,
+          "max": 134
+        },
+        {
+          "label": "Counter Clockwise Slow - Fast",
+          "min": 135,
+          "max": 245
+        },
+        {
+          "label": "No Rotation",
+          "min": 246,
+          "max": 249
+        },
+        {
+          "label": "Sound Active",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Strobing",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Strobing Slow - Fast",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Color selection",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Tri-Phase.json",
+  "id": 145
+}

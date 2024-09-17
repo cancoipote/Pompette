@@ -1,0 +1,145 @@
+{
+  "version": "1.0.0",
+  "label": "PAR LED 710",
+  "manufacturer": "Ibiza",
+  "bulb_type": "LED 7x10W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 175,
+  "dimension_height": 175,
+  "dimension_depth": 100,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 30,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 18,
+      "type_description": "Unknown",
+      "capabilities": [
+        {
+          "label": "Unknown",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 17,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "Manual",
+          "min": 0,
+          "max": 50
+        },
+        {
+          "label": "AU01 Mode",
+          "min": 51,
+          "max": 57
+        },
+        {
+          "label": "AU02 Mode",
+          "min": 58,
+          "max": 63
+        },
+        {
+          "label": "AU03 Mode",
+          "min": 64,
+          "max": 69
+        },
+        {
+          "label": "AU04 Mode",
+          "min": 70,
+          "max": 75
+        },
+        {
+          "label": "AU05 Mode",
+          "min": 76,
+          "max": 82
+        },
+        {
+          "label": "AU06 Mode",
+          "min": 83,
+          "max": 88
+        },
+        {
+          "label": "AU07 Mode",
+          "min": 89,
+          "max": 94
+        },
+        {
+          "label": "AU08 Mode",
+          "min": 95,
+          "max": 100
+        },
+        {
+          "label": "Gradual Mode",
+          "min": 101,
+          "max": 150
+        },
+        {
+          "label": "Pulse Mode",
+          "min": 151,
+          "max": 200
+        },
+        {
+          "label": "Jump Change Mode",
+          "min": 201,
+          "max": 250
+        },
+        {
+          "label": "Sound mode",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Ibiza/Ibiza-PAR-LED-710.json",
+  "id": 875
+}

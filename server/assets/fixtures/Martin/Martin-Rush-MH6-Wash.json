@@ -1,0 +1,302 @@
+{
+  "version": "1.0.0",
+  "label": "Rush MH6 Wash",
+  "manufacturer": "Martin",
+  "bulb_type": "LED",
+  "bulb_lumens": 7100,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 18,
+  "dimension_width": 418,
+  "dimension_height": 588,
+  "dimension_depth": 328,
+  "lens_label": "",
+  "lens_degree_min": 16,
+  "lens_degree_max": 16,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 300,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Open",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Strobe, slow-fast",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "Open",
+          "min": 132,
+          "max": 139
+        },
+        {
+          "label": "Fast close, slow open",
+          "min": 140,
+          "max": 181
+        },
+        {
+          "label": "Open",
+          "min": 182,
+          "max": 189
+        },
+        {
+          "label": "Slow close, fast open",
+          "min": 190,
+          "max": 231
+        },
+        {
+          "label": "Open",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Random strobe",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Dimmer fine",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Color presets",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Color presets",
+          "min": 11,
+          "max": 190
+        },
+        {
+          "label": "Open",
+          "min": 191,
+          "max": 192
+        },
+        {
+          "label": "Color scroll fast-slow",
+          "min": 193,
+          "max": 214
+        },
+        {
+          "label": "Stop at current position",
+          "min": 215,
+          "max": 221
+        },
+        {
+          "label": "Color scroll slow-fast",
+          "min": 222,
+          "max": 243
+        },
+        {
+          "label": "Random fast",
+          "min": 244,
+          "max": 247
+        },
+        {
+          "label": "Random medium",
+          "min": 248,
+          "max": 251
+        },
+        {
+          "label": "Random slow",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 17,
+      "type_description": "Fixture control",
+      "capabilities": [
+        {
+          "label": "No function (disables calibration)",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Reset fixture",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "No function",
+          "min": 15,
+          "max": 54
+        },
+        {
+          "label": "Enable calibration",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "No function",
+          "min": 60,
+          "max": 74
+        },
+        {
+          "label": "Pan & Tilt Speed = Normal",
+          "min": 75,
+          "max": 79
+        },
+        {
+          "label": "Pan & Tilt Speed = Fast (default)",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Pan & Tilt Speed = Slow",
+          "min": 90,
+          "max": 94
+        },
+        {
+          "label": "No function",
+          "min": 95,
+          "max": 144
+        },
+        {
+          "label": "Pan/tilt blackout = ON",
+          "min": 145,
+          "max": 149
+        },
+        {
+          "label": "Pan/tilt blackout = OFF",
+          "min": 150,
+          "max": 154
+        },
+        {
+          "label": "Illuminate display",
+          "min": 155,
+          "max": 159
+        },
+        {
+          "label": "Display illumination off",
+          "min": 160,
+          "max": 164
+        },
+        {
+          "label": "No function",
+          "min": 165,
+          "max": 229
+        },
+        {
+          "label": "Store zoom calibration",
+          "min": 230,
+          "max": 234
+        },
+        {
+          "label": "Store pan calibration",
+          "min": 235,
+          "max": 239
+        },
+        {
+          "label": "Store tilt calibration",
+          "min": 240,
+          "max": 244
+        },
+        {
+          "label": "Reset all calibrations to factory default",
+          "min": 245,
+          "max": 249
+        },
+        {
+          "label": "No function",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Martin/Martin-Rush-MH6-Wash.json",
+  "id": 1091
+}

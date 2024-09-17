@@ -1,0 +1,88 @@
+{
+  "version": "1.0.0",
+  "label": "LED Par 56",
+  "manufacturer": "Showtec",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 223,
+  "dimension_height": 215,
+  "dimension_depth": 220,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 15,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Full Color",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Strobe and Speed",
+      "capabilities": [
+        {
+          "label": "Strobe and speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 17,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "RGB Control",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "7 Color Fade",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "7 color change",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "music controlled",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Showtec/Showtec-LED-Par-56.json",
+  "id": 1304
+}

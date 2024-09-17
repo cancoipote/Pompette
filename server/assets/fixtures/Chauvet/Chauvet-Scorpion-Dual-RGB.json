@@ -1,0 +1,500 @@
+{
+  "version": "1.0.0",
+  "label": "Scorpion Dual RGB",
+  "manufacturer": "Chauvet",
+  "bulb_type": "Laser: Class 3R",
+  "bulb_lumens": 2,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 161,
+  "dimension_height": 180,
+  "dimension_depth": 216,
+  "lens_label": "Other",
+  "lens_degree_min": 1,
+  "lens_degree_max": 29,
+  "focus_type": "Fixed",
+  "focus_pan_max": 30,
+  "focus_tilt_max": 30,
+  "technical_power_consumption": 20,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 17,
+      "type_description": "Control Mode",
+      "capabilities": [
+        {
+          "label": "Manual control mode",
+          "min": 0,
+          "max": 17
+        },
+        {
+          "label": "Automatic mode (multi-color)",
+          "min": 18,
+          "max": 34
+        },
+        {
+          "label": "Automatic mode (red)",
+          "min": 35,
+          "max": 51
+        },
+        {
+          "label": "Automatic mode (green)",
+          "min": 52,
+          "max": 68
+        },
+        {
+          "label": "Automatic mode (blue)",
+          "min": 69,
+          "max": 85
+        },
+        {
+          "label": "Automatic mode (yellow)",
+          "min": 86,
+          "max": 102
+        },
+        {
+          "label": "Automatic mode (magenta)",
+          "min": 103,
+          "max": 119
+        },
+        {
+          "label": "Automatic mode (cyan)",
+          "min": 120,
+          "max": 136
+        },
+        {
+          "label": "Sound-active mode (multi-color)",
+          "min": 137,
+          "max": 153
+        },
+        {
+          "label": "Sound-active mode (red)",
+          "min": 154,
+          "max": 170
+        },
+        {
+          "label": "Sound-active mode (green)",
+          "min": 171,
+          "max": 187
+        },
+        {
+          "label": "Sound-active mode (blue)",
+          "min": 188,
+          "max": 204
+        },
+        {
+          "label": "Sound-active mode (yellow)",
+          "min": 205,
+          "max": 221
+        },
+        {
+          "label": "Sound-active mode (magenta)",
+          "min": 222,
+          "max": 238
+        },
+        {
+          "label": "Sound-active mode (cyan)",
+          "min": 239,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Pattern",
+      "capabilities": [
+        {
+          "label": "Circle",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Dashed Circle",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Triangle",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Square",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Dashed Square",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Square in a Square",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Cross",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Star",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Backwards L",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Bow-Tie",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Spiral",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Half Circles",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Fibonacci Spiral",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Parenthesis",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Two Triangles",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "zig-zag",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "V-Line",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Sawtooth",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Squarewave",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Line",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Dashed Line",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Strobed Line",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Parallel Lines",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Crosshair",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Two Dashes",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Four Lines (Square)",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Two Squares",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Four Squares",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Small Circle",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Dotted Line",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Dotted Half-Circle",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Cluster Dashes",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 14
+        },
+        {
+          "label": "Multi-color",
+          "min": 15,
+          "max": 30
+        },
+        {
+          "label": "Red",
+          "min": 31,
+          "max": 46
+        },
+        {
+          "label": "Green",
+          "min": 47,
+          "max": 62
+        },
+        {
+          "label": "Blue",
+          "min": 63,
+          "max": 78
+        },
+        {
+          "label": "Yellow",
+          "min": 79,
+          "max": 94
+        },
+        {
+          "label": "Magenta",
+          "min": 95,
+          "max": 110
+        },
+        {
+          "label": "Cyan",
+          "min": 111,
+          "max": 126
+        },
+        {
+          "label": "Red & Green",
+          "min": 127,
+          "max": 149
+        },
+        {
+          "label": "Green & Blue",
+          "min": 150,
+          "max": 174
+        },
+        {
+          "label": "Red & Blue",
+          "min": 175,
+          "max": 199
+        },
+        {
+          "label": "Red/Green/Blue/Yellow/Magenta/Cyan",
+          "min": 200,
+          "max": 224
+        },
+        {
+          "label": "Color Roll",
+          "min": 225,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Strobe, slow to fast",
+          "min": 5,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 1,
+      "type_description": "Zoom",
+      "capabilities": [
+        {
+          "label": "Manual zoom, 100-5%",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Auto zoom, 100-5%, slow to fast",
+          "min": 128,
+          "max": 169
+        },
+        {
+          "label": "Auto zoom, 5-100%, slow to fast",
+          "min": 170,
+          "max": 209
+        },
+        {
+          "label": "Auto zoom, 100-5-100%, slow to fast",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 19,
+      "type_description": "Pan",
+      "capabilities": [
+        {
+          "label": "Manual pan (128 horizontal points)",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Auto pan, slow to fast",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Reverse auto pan, fast to slow",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 23,
+      "type_description": "Tilt",
+      "capabilities": [
+        {
+          "label": "Manual tilt (128 vertical points)",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Auto tilt, slow to fast",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Reverse auto tilt, fast to slow",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "X-Axis Rolling",
+      "capabilities": [
+        {
+          "label": "Manual x-axis rolling (0-359º)",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Auto rolling, slow to fast",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Reverse auto rolling, fast to slow",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Y-Axis Rolling",
+      "capabilities": [
+        {
+          "label": "Manual Y-Axis rolling (0-359º)",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Auto rolling, slow to fast",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Reverse auto rolling, fast to slow",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Z-Axis Rolling",
+      "capabilities": [
+        {
+          "label": "Manual Z-Axis rolling (0-359º)",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Auto rolling, slow to fast",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Reverse auto rolling, fast to slow",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-Scorpion-Dual-RGB.json",
+  "id": 523
+}

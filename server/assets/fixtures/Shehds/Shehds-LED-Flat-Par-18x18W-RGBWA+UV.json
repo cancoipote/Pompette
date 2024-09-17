@@ -1,0 +1,180 @@
+{
+  "version": "1.0.0",
+  "label": "LED Flat Par 18x18W RGBWA+UV",
+  "manufacturer": "Shehds",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 200,
+  "dimension_height": 265,
+  "dimension_depth": 115,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 324,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Violet",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Shutter open",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Strobe 0…20Hz",
+          "min": 5,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Function",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 50
+        },
+        {
+          "label": "Static color",
+          "min": 51,
+          "max": 100
+        },
+        {
+          "label": "Color jump (Random colors)",
+          "min": 101,
+          "max": 150
+        },
+        {
+          "label": "Color fade (Random colors)",
+          "min": 151,
+          "max": 200
+        },
+        {
+          "label": "Color fade (Random colors, fade to black)",
+          "min": 201,
+          "max": 250
+        },
+        {
+          "label": "Sound Mode (Static color flashing on beat)",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 22,
+      "type_description": "Function Speed",
+      "capabilities": [
+        {
+          "label": "Effect speed slow…fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Color Presets",
+      "capabilities": [
+        {
+          "label": "Red",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Green",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Blue",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "White",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Amber",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "UV",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Cyan",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Warm White",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Shehds/Shehds-LED-Flat-Par-18x18W-RGBWA+UV.json",
+  "id": 1261
+}

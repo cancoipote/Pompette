@@ -1,0 +1,310 @@
+{
+  "version": "1.0.0",
+  "label": "ELP-CL Profile",
+  "manufacturer": "Martin",
+  "bulb_type": "91 RGBAL Luxeon Rebel LEDs",
+  "bulb_lumens": 5900,
+  "bulb_color_temperature": 6000,
+  "dimension_weight": 7,
+  "dimension_width": 259,
+  "dimension_height": 254,
+  "dimension_depth": 648,
+  "lens_label": "Other",
+  "lens_degree_min": 19,
+  "lens_degree_max": 50,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 249,
+  "technical_dmx_connector": "5-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Open",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Strobe (Slow-Fast)",
+          "min": 20,
+          "max": 89
+        },
+        {
+          "label": "Open",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Pulse effect in sequences",
+          "min": 100,
+          "max": 169
+        },
+        {
+          "label": "Open",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Random strobe effect (Slow-Fast)",
+          "min": 180,
+          "max": 249
+        },
+        {
+          "label": "Open",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Dimmer 0-100%",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Dimmer fine",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 5,
+      "type_description": "Dimmer fade time",
+      "capabilities": [
+        {
+          "label": "Dimmer fade time time",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "CTC 2000K – 10000K",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "CTC fine",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Red fine",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Green fine",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Blue fine",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Lime",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Lime fine",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Amber fine",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Color Scene",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "2000K-2700K",
+          "min": 11,
+          "max": 19
+        },
+        {
+          "label": "2700K-3200K",
+          "min": 20,
+          "max": 28
+        },
+        {
+          "label": "3200K-4200K",
+          "min": 29,
+          "max": 37
+        },
+        {
+          "label": "4200K-5600K",
+          "min": 38,
+          "max": 46
+        },
+        {
+          "label": "5600K-8000K",
+          "min": 47,
+          "max": 55
+        },
+        {
+          "label": "8000K-10,000K",
+          "min": 56,
+          "max": 65
+        },
+        {
+          "label": "Light Pink",
+          "min": 66,
+          "max": 74
+        },
+        {
+          "label": "Pale Amber Gold",
+          "min": 75,
+          "max": 84
+        },
+        {
+          "label": "Yellow",
+          "min": 85,
+          "max": 93
+        },
+        {
+          "label": "Deep straw",
+          "min": 94,
+          "max": 103
+        },
+        {
+          "label": "Deep Amber",
+          "min": 104,
+          "max": 112
+        },
+        {
+          "label": "Orange",
+          "min": 113,
+          "max": 122
+        },
+        {
+          "label": "Primary Red",
+          "min": 123,
+          "max": 131
+        },
+        {
+          "label": "Medium Pink",
+          "min": 132,
+          "max": 141
+        },
+        {
+          "label": "Dark Pink",
+          "min": 142,
+          "max": 150
+        },
+        {
+          "label": "Magenta",
+          "min": 151,
+          "max": 160
+        },
+        {
+          "label": "Medium Purple",
+          "min": 161,
+          "max": 169
+        },
+        {
+          "label": "Dark Lavender",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Deep Purple",
+          "min": 180,
+          "max": 188
+        },
+        {
+          "label": "Sky Blue",
+          "min": 189,
+          "max": 198
+        },
+        {
+          "label": "Light Blue",
+          "min": 199,
+          "max": 207
+        },
+        {
+          "label": "Medium Blue",
+          "min": 208,
+          "max": 217
+        },
+        {
+          "label": "Deep Blue",
+          "min": 218,
+          "max": 226
+        },
+        {
+          "label": "Blue Green",
+          "min": 227,
+          "max": 236
+        },
+        {
+          "label": "Moss Green",
+          "min": 237,
+          "max": 246
+        },
+        {
+          "label": "Primary Green",
+          "min": 247,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Martin/Martin-ELP-CL-Profile.json",
+  "id": 1046
+}

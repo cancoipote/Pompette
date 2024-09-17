@@ -1,0 +1,128 @@
+{
+  "version": "1.0.0",
+  "label": "BEL4 - Battery Event Light 4x15W",
+  "manufacturer": "Stairville",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 138,
+  "dimension_height": 201,
+  "dimension_depth": 138,
+  "lens_label": "Other",
+  "lens_degree_min": 20,
+  "lens_degree_max": 20,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 50,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "UV",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 22,
+      "type_description": "Effect Speed",
+      "capabilities": [
+        {
+          "label": "Effect Speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Function Selection",
+      "capabilities": [
+        {
+          "label": "Colour and brightness settings via channels 1...8",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Selection of a mixed colour",
+          "min": 5,
+          "max": 80
+        },
+        {
+          "label": "Colour change effect",
+          "min": 81,
+          "max": 150
+        },
+        {
+          "label": "Colour transition effect",
+          "min": 151,
+          "max": 220
+        },
+        {
+          "label": "Automatic sound controlled show",
+          "min": 221,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Slow to Fast",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Stairville/Stairville-BEL4-Battery-Event-Light-4x15W.json",
+  "id": 1378
+}

@@ -1,0 +1,226 @@
+{
+  "version": "1.0.0",
+  "label": "Inno Pocket Beam Q4",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 1231,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 147,
+  "dimension_height": 265,
+  "dimension_depth": 159,
+  "lens_label": "Other",
+  "lens_degree_min": 4,
+  "lens_degree_max": 4,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 210,
+  "technical_power_consumption": 46,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan Movement",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt Movement",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fiine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Red LED",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Green LED",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Blue LED",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "White LED",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 21,
+      "type_description": "Shutter/Strobe",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Shutter open",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Strobing slow - fast",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "Shutter open",
+          "min": 132,
+          "max": 139
+        },
+        {
+          "label": "Shutter slow open - fast close",
+          "min": 140,
+          "max": 181
+        },
+        {
+          "label": "Shutter open",
+          "min": 182,
+          "max": 189
+        },
+        {
+          "label": "Shutter fast open - slow close",
+          "min": 190,
+          "max": 231
+        },
+        {
+          "label": "Shutter open",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Random strobe",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Shutter open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 17,
+      "type_description": "Blackout/Reset",
+      "capabilities": [
+        {
+          "label": "Nothing",
+          "min": 0,
+          "max": 69
+        },
+        {
+          "label": "Blackout w/pan/tilt movement",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Nothing",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Blackout w/Color Change",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Nothing",
+          "min": 100,
+          "max": 199
+        },
+        {
+          "label": "Reset all",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Nothing",
+          "min": 210,
+          "max": 249
+        },
+        {
+          "label": "Sound active",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 17,
+      "type_description": "Dimmer Curves",
+      "capabilities": [
+        {
+          "label": "Standard",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Stage",
+          "min": 21,
+          "max": 40
+        },
+        {
+          "label": "TV",
+          "min": 41,
+          "max": 60
+        },
+        {
+          "label": "Architectural",
+          "min": 61,
+          "max": 80
+        },
+        {
+          "label": "Theater",
+          "min": 81,
+          "max": 100
+        },
+        {
+          "label": "Default to unit curve setting",
+          "min": 101,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Inno-Pocket-Beam-Q4.json",
+  "id": 84
+}

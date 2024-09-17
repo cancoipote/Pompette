@@ -1,0 +1,171 @@
+{
+  "version": "1.0.0",
+  "label": "Jellydome",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 210,
+  "dimension_height": 179,
+  "dimension_depth": 210,
+  "lens_label": "Other",
+  "lens_degree_min": 138,
+  "lens_degree_max": 138,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 13,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 5,
+      "type_description": "Dimmer/Strobe",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "0 to 100 %",
+          "min": 8,
+          "max": 199
+        },
+        {
+          "label": "Strobe fast to slow",
+          "min": 200,
+          "max": 247
+        },
+        {
+          "label": "Open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "Color 1",
+          "min": 0,
+          "max": 16
+        },
+        {
+          "label": "Color 2",
+          "min": 17,
+          "max": 33
+        },
+        {
+          "label": "Color 3",
+          "min": 34,
+          "max": 50
+        },
+        {
+          "label": "Color 4",
+          "min": 51,
+          "max": 67
+        },
+        {
+          "label": "Color 5",
+          "min": 68,
+          "max": 84
+        },
+        {
+          "label": "Color 6",
+          "min": 85,
+          "max": 101
+        },
+        {
+          "label": "Color 7",
+          "min": 102,
+          "max": 118
+        },
+        {
+          "label": "Color 8",
+          "min": 119,
+          "max": 135
+        },
+        {
+          "label": "Color 9",
+          "min": 136,
+          "max": 152
+        },
+        {
+          "label": "Color 10",
+          "min": 153,
+          "max": 169
+        },
+        {
+          "label": "Color 11",
+          "min": 170,
+          "max": 186
+        },
+        {
+          "label": "Color 12",
+          "min": 187,
+          "max": 203
+        },
+        {
+          "label": "Color 13",
+          "min": 204,
+          "max": 220
+        },
+        {
+          "label": "Color 14",
+          "min": 221,
+          "max": 237
+        },
+        {
+          "label": "Color 15",
+          "min": 238,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Rotation",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Fast to slow CW",
+          "min": 10,
+          "max": 120
+        },
+        {
+          "label": "Stop",
+          "min": 121,
+          "max": 134
+        },
+        {
+          "label": "Slow to fast CCW",
+          "min": 135,
+          "max": 245
+        },
+        {
+          "label": "Stop",
+          "min": 246,
+          "max": 249
+        },
+        {
+          "label": "Sound active",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Jellydome.json",
+  "id": 95
+}

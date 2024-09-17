@@ -1,0 +1,386 @@
+{
+  "version": "1.0.0",
+  "label": "Twinscan 20",
+  "manufacturer": "Cameo",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 5,
+  "dimension_width": 545,
+  "dimension_height": 151,
+  "dimension_depth": 180,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 55,
+  "focus_type": "Mirror",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 55,
+  "technical_power_consumption": 35,
+  "technical_dmx_connector": "3-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Stroboscope speed 1 - 20Hz",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt 1",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "White 1",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 4,
+      "type_description": "Gobo 1",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 6
+        },
+        {
+          "label": "Gobo 1 Yellow",
+          "min": 7,
+          "max": 12
+        },
+        {
+          "label": "Gobo 2 Green",
+          "min": 13,
+          "max": 18
+        },
+        {
+          "label": "Gobo 3 Four color",
+          "min": 19,
+          "max": 25
+        },
+        {
+          "label": "Gobo 4 Magenta",
+          "min": 26,
+          "max": 31
+        },
+        {
+          "label": "Gobo 5 White",
+          "min": 32,
+          "max": 37
+        },
+        {
+          "label": "Gobo 6 Blue",
+          "min": 38,
+          "max": 44
+        },
+        {
+          "label": "Gobo 7 Orange",
+          "min": 45,
+          "max": 50
+        },
+        {
+          "label": "Gobo 8 GreenYellow",
+          "min": 51,
+          "max": 56
+        },
+        {
+          "label": "Gobo 9 Blue Green",
+          "min": 57,
+          "max": 63
+        },
+        {
+          "label": "Spot Shake effect",
+          "min": 64,
+          "max": 70
+        },
+        {
+          "label": "Shake effects gobo 1..9",
+          "min": 71,
+          "max": 127
+        },
+        {
+          "label": "Clockwise slow-fast",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Counterclockwise slow-fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Tilt 2",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "White 2",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 4,
+      "type_description": "Gobo 2",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 6
+        },
+        {
+          "label": "Gobo 1 Yellow",
+          "min": 7,
+          "max": 12
+        },
+        {
+          "label": "Gobo 2 Green",
+          "min": 13,
+          "max": 18
+        },
+        {
+          "label": "Gobo 3 Four color",
+          "min": 19,
+          "max": 25
+        },
+        {
+          "label": "Gobo 4 Magenta",
+          "min": 26,
+          "max": 31
+        },
+        {
+          "label": "Gobo 5 White",
+          "min": 32,
+          "max": 37
+        },
+        {
+          "label": "Gobo 6 Blue",
+          "min": 38,
+          "max": 44
+        },
+        {
+          "label": "Gobo 7 Orange",
+          "min": 45,
+          "max": 50
+        },
+        {
+          "label": "Gobo 8 GreenYellow",
+          "min": 51,
+          "max": 56
+        },
+        {
+          "label": "Gobo 9 Blue Green",
+          "min": 57,
+          "max": 63
+        },
+        {
+          "label": "Spot Shake effect",
+          "min": 64,
+          "max": 70
+        },
+        {
+          "label": "Shake effects gobo 1..9",
+          "min": 71,
+          "max": 127
+        },
+        {
+          "label": "Clockwise slow-fast",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Counterclockwise slow-fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Tilt-both",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 4,
+      "type_description": "Gobo-both",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 6
+        },
+        {
+          "label": "Gobo 1 Yellow",
+          "min": 7,
+          "max": 12
+        },
+        {
+          "label": "Gobo 2 Green",
+          "min": 13,
+          "max": 18
+        },
+        {
+          "label": "Gobo 3 Four color",
+          "min": 19,
+          "max": 25
+        },
+        {
+          "label": "Gobo 4 Magenta",
+          "min": 26,
+          "max": 31
+        },
+        {
+          "label": "Gobo 5 White",
+          "min": 32,
+          "max": 37
+        },
+        {
+          "label": "Gobo 6 Blue",
+          "min": 38,
+          "max": 44
+        },
+        {
+          "label": "Gobo 7 Orange",
+          "min": 45,
+          "max": 50
+        },
+        {
+          "label": "Gobo 8 GreenYellow",
+          "min": 51,
+          "max": 56
+        },
+        {
+          "label": "Gobo 9 Blue Green",
+          "min": 57,
+          "max": 63
+        },
+        {
+          "label": "Spot Shake effect",
+          "min": 64,
+          "max": 70
+        },
+        {
+          "label": "Shake effects gobo 1..9",
+          "min": 71,
+          "max": 127
+        },
+        {
+          "label": "Clockwise slow-fast",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Counterclockwise slow-fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Auto",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "AUTO 1",
+          "min": 10,
+          "max": 33
+        },
+        {
+          "label": "AUTO 2",
+          "min": 34,
+          "max": 57
+        },
+        {
+          "label": "AUTO 3",
+          "min": 58,
+          "max": 81
+        },
+        {
+          "label": "AUTO 4",
+          "min": 82,
+          "max": 105
+        },
+        {
+          "label": "AUTO 5",
+          "min": 106,
+          "max": 129
+        },
+        {
+          "label": "AUTO 6",
+          "min": 130,
+          "max": 153
+        },
+        {
+          "label": "AUTO 7",
+          "min": 154,
+          "max": 177
+        },
+        {
+          "label": "AUTO 8",
+          "min": 178,
+          "max": 201
+        },
+        {
+          "label": "AUTO 9",
+          "min": 202,
+          "max": 225
+        },
+        {
+          "label": "Sound control - sensitivity 0-100%",
+          "min": 226,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Cameo/Cameo-Twinscan-20.json",
+  "id": 337
+}

@@ -1,0 +1,647 @@
+{
+  "version": "1.0.0",
+  "label": "SunPix 12TRI",
+  "manufacturer": "Pro-Lights",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 10000,
+  "dimension_weight": 3,
+  "dimension_width": 260,
+  "dimension_height": 195,
+  "dimension_depth": 220,
+  "lens_label": "Other",
+  "lens_degree_min": 20,
+  "lens_degree_max": 20,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 45,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Color Macro",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Red 100% / Green 0-100% / Blue 0%",
+          "min": 11,
+          "max": 30
+        },
+        {
+          "label": "Red 100-0% / Green 100% / Blue 0%",
+          "min": 31,
+          "max": 50
+        },
+        {
+          "label": "Red 0% / Green 100% / Blue 0-100%",
+          "min": 51,
+          "max": 70
+        },
+        {
+          "label": "Red 0% / Green 100-0% / Blue 100%",
+          "min": 71,
+          "max": 90
+        },
+        {
+          "label": "Red 0-100% / Green 0% / Blue 100%",
+          "min": 91,
+          "max": 110
+        },
+        {
+          "label": "Red 100% / Green 0% / Blue 100-0%",
+          "min": 111,
+          "max": 130
+        },
+        {
+          "label": "Red 100% / Green 100% / Blue 0-100%",
+          "min": 131,
+          "max": 150
+        },
+        {
+          "label": "Red 0-100% / Green 100-0% / Blue 100%",
+          "min": 151,
+          "max": 170
+        },
+        {
+          "label": "Red 100% / Green 100% / Blue 100%",
+          "min": 171,
+          "max": 200
+        },
+        {
+          "label": "White 1: 3200K",
+          "min": 201,
+          "max": 205
+        },
+        {
+          "label": "White 2: 3400K",
+          "min": 206,
+          "max": 210
+        },
+        {
+          "label": "White 3: 4200K",
+          "min": 211,
+          "max": 215
+        },
+        {
+          "label": "White 4: 4900K",
+          "min": 216,
+          "max": 220
+        },
+        {
+          "label": "White 5: 5600K",
+          "min": 221,
+          "max": 225
+        },
+        {
+          "label": "White 6: 5900K",
+          "min": 226,
+          "max": 230
+        },
+        {
+          "label": "White 7: 6500K",
+          "min": 231,
+          "max": 235
+        },
+        {
+          "label": "White 8: 7200K",
+          "min": 236,
+          "max": 240
+        },
+        {
+          "label": "White 9: 8000K",
+          "min": 241,
+          "max": 245
+        },
+        {
+          "label": "White 10: 8500K",
+          "min": 246,
+          "max": 250
+        },
+        {
+          "label": "White 11: 10000K",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe 0-100% (0-30 Hz)",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Auto Programs",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Fade Transition (R,G,B,C,M,Y,W) 0-100-0 %",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Fade Transition (R,G,B,C,M,Y,W) 0-100 %",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Fade Transition (R,G,B,C,M,Y,W) 100-0 %",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Auto Fade Transition (color randomly)",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Loop P1-P4",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Pixel Program 1",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Pixel Program 2",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Pixel Program 3",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Pixel Program 4",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Pixel Program 5",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Pixel Program 6",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Pixel Program 7",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Pixel Program 8",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Pixel Program 9",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Pixel Program 10",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Pixel Program 11",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Pixel Program 12",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Pixel Program 13",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Pixel Program 14",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Pixel Program 15",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Pixel Program 16",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "Pixel Program 17",
+          "min": 220,
+          "max": 229
+        },
+        {
+          "label": "Random Pixel Program",
+          "min": 230,
+          "max": 239
+        },
+        {
+          "label": "Pixel Program Scroll 1-17",
+          "min": 240,
+          "max": 249
+        },
+        {
+          "label": "Pixel Program Scroll Sound 1-17 (Ch8 for sound sensitivity)",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 22,
+      "type_description": "Speed",
+      "capabilities": [
+        {
+          "label": "0-100% (Slow - Fast)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 22,
+      "type_description": "Dimmer Curve",
+      "capabilities": [
+        {
+          "label": "Default Dimmer Speed",
+          "min": 0,
+          "max": 51
+        },
+        {
+          "label": "Linear Dimmer",
+          "min": 52,
+          "max": 101
+        },
+        {
+          "label": "Non-linear Dimmer 1",
+          "min": 102,
+          "max": 152
+        },
+        {
+          "label": "Non-linear Dimmer 2",
+          "min": 153,
+          "max": 203
+        },
+        {
+          "label": "Non-linear Dimmer 3",
+          "min": 204,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Group 1 Red",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Group 1 Green",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Group 1 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Group 2 Red",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Group 2 Green",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Group 2 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Group 3 Red",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Group 3 Green",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Group 3 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Group 4 Red",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Group 4 Green",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Group 4 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Red 1",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Green 1",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Blue 1",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Red 2",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Green 2",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Blue 2",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Red 3",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "Green 3",
+      "capabilities": []
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "Blue 3",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 0,
+      "type_description": "Red 4",
+      "capabilities": []
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "Green 4",
+      "capabilities": []
+    },
+    {
+      "index": 32,
+      "type": 0,
+      "type_description": "Blue 4",
+      "capabilities": []
+    },
+    {
+      "index": 33,
+      "type": 0,
+      "type_description": "Red 5",
+      "capabilities": []
+    },
+    {
+      "index": 34,
+      "type": 0,
+      "type_description": "Green 5",
+      "capabilities": []
+    },
+    {
+      "index": 35,
+      "type": 0,
+      "type_description": "Blue 5",
+      "capabilities": []
+    },
+    {
+      "index": 36,
+      "type": 0,
+      "type_description": "Red 6",
+      "capabilities": []
+    },
+    {
+      "index": 37,
+      "type": 0,
+      "type_description": "Green 6",
+      "capabilities": []
+    },
+    {
+      "index": 38,
+      "type": 0,
+      "type_description": "Blue 6",
+      "capabilities": []
+    },
+    {
+      "index": 39,
+      "type": 0,
+      "type_description": "Red 7",
+      "capabilities": []
+    },
+    {
+      "index": 40,
+      "type": 0,
+      "type_description": "Green 7",
+      "capabilities": []
+    },
+    {
+      "index": 41,
+      "type": 0,
+      "type_description": "Blue 7",
+      "capabilities": []
+    },
+    {
+      "index": 42,
+      "type": 0,
+      "type_description": "Red 8",
+      "capabilities": []
+    },
+    {
+      "index": 43,
+      "type": 0,
+      "type_description": "Green 8",
+      "capabilities": []
+    },
+    {
+      "index": 44,
+      "type": 0,
+      "type_description": "Blue 8",
+      "capabilities": []
+    },
+    {
+      "index": 45,
+      "type": 0,
+      "type_description": "Red 9",
+      "capabilities": []
+    },
+    {
+      "index": 46,
+      "type": 0,
+      "type_description": "Green 9",
+      "capabilities": []
+    },
+    {
+      "index": 47,
+      "type": 0,
+      "type_description": "Blue 9",
+      "capabilities": []
+    },
+    {
+      "index": 48,
+      "type": 0,
+      "type_description": "Red 10",
+      "capabilities": []
+    },
+    {
+      "index": 49,
+      "type": 0,
+      "type_description": "Green 10",
+      "capabilities": []
+    },
+    {
+      "index": 50,
+      "type": 0,
+      "type_description": "Blue 10",
+      "capabilities": []
+    },
+    {
+      "index": 51,
+      "type": 0,
+      "type_description": "Red 11",
+      "capabilities": []
+    },
+    {
+      "index": 52,
+      "type": 0,
+      "type_description": "Green 11",
+      "capabilities": []
+    },
+    {
+      "index": 53,
+      "type": 0,
+      "type_description": "Blue 11",
+      "capabilities": []
+    },
+    {
+      "index": 54,
+      "type": 0,
+      "type_description": "Red 12",
+      "capabilities": []
+    },
+    {
+      "index": 55,
+      "type": 0,
+      "type_description": "Green 12",
+      "capabilities": []
+    },
+    {
+      "index": 56,
+      "type": 0,
+      "type_description": "Blue 12",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Pro-Lights/Pro-Lights-SunPix-12TRI.json",
+  "id": 1151
+}

@@ -1,0 +1,403 @@
+{
+  "version": "1.0.0",
+  "label": "Vizi Beam 5R",
+  "manufacturer": "American DJ",
+  "bulb_type": "Philips Platinum 5R",
+  "bulb_lumens": 13500,
+  "bulb_color_temperature": 8000,
+  "dimension_weight": 11,
+  "dimension_width": 310,
+  "dimension_height": 448,
+  "dimension_depth": 335,
+  "lens_label": "Other",
+  "lens_degree_min": 2,
+  "lens_degree_max": 2,
+  "focus_type": "Fixed",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 200,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "Open / White",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Blue",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Green",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Yellow",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Magenta",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": 6,
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": 7,
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": 8,
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": 9,
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": 10,
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": 11,
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "UV",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Clockwise rainbow Fast to Slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Counterclockwise Rainbow Slow to Fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 4,
+      "type_description": "Gobos",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Gobo 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Gobo 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Gobo 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Gobo 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Gobo 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Gobo 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Gobo 7",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Gobo 8",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Gobo 9",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Gobo 10",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Gobo 11",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Gobo 12",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Gobo 13",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Gobo 14",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Shakes",
+          "min": 120,
+          "max": 217
+        },
+        {
+          "label": "Wheel Rotation Slow to Fast",
+          "min": 218,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Clockwise rotation Fast to Slow",
+          "min": 4,
+          "max": 63
+        },
+        {
+          "label": "Stop",
+          "min": 64,
+          "max": 67
+        },
+        {
+          "label": "Counterclockwise rotation Slow to Fast",
+          "min": 68,
+          "max": 127
+        },
+        {
+          "label": "Macros",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Open",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe Slow to Fast",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse Effect in Sequences",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random Slow to Fast",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 1,
+      "type_description": "Frost",
+      "capabilities": [
+        {
+          "label": "Intensity 0 - 100%",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Pan / Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 17,
+      "type_description": "Maintenance",
+      "capabilities": [
+        {
+          "label": "Colour Change normal",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Color Change to any position",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Color and Gobo Chane to any Position",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Lamp On",
+          "min": 40,
+          "max": 59
+        },
+        {
+          "label": "Lamp Off",
+          "min": 60,
+          "max": 79
+        },
+        {
+          "label": "All Motor Reset",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "Scan Motor Reset",
+          "min": 85,
+          "max": 87
+        },
+        {
+          "label": "Colour Motor Reset",
+          "min": 88,
+          "max": 90
+        },
+        {
+          "label": "Gobo Motor Reset",
+          "min": 91,
+          "max": 93
+        },
+        {
+          "label": "Shutter / Dimmer motor reset",
+          "min": 94,
+          "max": 96
+        },
+        {
+          "label": "Other Motor Reset",
+          "min": 97,
+          "max": 99
+        },
+        {
+          "label": "Internal Programs",
+          "min": 100,
+          "max": 239
+        },
+        {
+          "label": "Sound Active Programs",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Vizi-Beam-5R.json",
+  "id": 157
+}

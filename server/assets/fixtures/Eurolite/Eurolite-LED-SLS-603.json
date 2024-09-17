@@ -1,0 +1,193 @@
+{
+  "version": "1.0.0",
+  "label": "LED SLS-603",
+  "manufacturer": "Eurolite",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 230,
+  "dimension_height": 230,
+  "dimension_depth": 110,
+  "lens_label": "Other",
+  "lens_degree_min": 11,
+  "lens_degree_max": 11,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 20,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "UV",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Programs",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Auto Mode via DMX",
+          "min": 10,
+          "max": 199
+        },
+        {
+          "label": "Sound Mode via DMX",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 22,
+      "type_description": "Speed",
+      "capabilities": [
+        {
+          "label": "Increasing Speed in Auto Mode",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Color Presets",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 29
+        },
+        {
+          "label": "Green",
+          "min": 30,
+          "max": 49
+        },
+        {
+          "label": "Blue",
+          "min": 50,
+          "max": 69
+        },
+        {
+          "label": "UV",
+          "min": 70,
+          "max": 89
+        },
+        {
+          "label": "Yellow",
+          "min": 90,
+          "max": 109
+        },
+        {
+          "label": "Magenta",
+          "min": 110,
+          "max": 129
+        },
+        {
+          "label": "Red + UV",
+          "min": 130,
+          "max": 149
+        },
+        {
+          "label": "Cyan",
+          "min": 150,
+          "max": 169
+        },
+        {
+          "label": "Green + UV",
+          "min": 170,
+          "max": 189
+        },
+        {
+          "label": "Blue + UV",
+          "min": 190,
+          "max": 209
+        },
+        {
+          "label": "White",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "Yellow + UV",
+          "min": 220,
+          "max": 229
+        },
+        {
+          "label": "Magenta + UV",
+          "min": 230,
+          "max": 239
+        },
+        {
+          "label": "Cyan + UV",
+          "min": 240,
+          "max": 249
+        },
+        {
+          "label": "White + UV",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-LED-SLS-603.json",
+  "id": 718
+}

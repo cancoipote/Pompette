@@ -1,0 +1,878 @@
+{
+  "version": "1.0.0",
+  "label": "Pixbar 12x12W",
+  "manufacturer": "Event Lighting",
+  "bulb_type": "LED",
+  "bulb_lumens": 1756,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 1050,
+  "dimension_height": 165,
+  "dimension_depth": 80,
+  "lens_label": "Other",
+  "lens_degree_min": 30,
+  "lens_degree_max": 30,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 150,
+  "technical_dmx_connector": "3-pin",
+  "type": 13,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "UV",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe (slow to fast)",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 5,
+      "type_description": "White Colour Temperature",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "White colour temperature 01",
+          "min": 10,
+          "max": 31
+        },
+        {
+          "label": "White colour temperature 02",
+          "min": 32,
+          "max": 54
+        },
+        {
+          "label": "White colour temperature 03",
+          "min": 55,
+          "max": 77
+        },
+        {
+          "label": "White colour temperature 04",
+          "min": 78,
+          "max": 100
+        },
+        {
+          "label": "White colour temperature 05",
+          "min": 101,
+          "max": 123
+        },
+        {
+          "label": "White colour temperature 06",
+          "min": 124,
+          "max": 146
+        },
+        {
+          "label": "White colour temperature 07",
+          "min": 147,
+          "max": 169
+        },
+        {
+          "label": "White colour temperature 08",
+          "min": 170,
+          "max": 192
+        },
+        {
+          "label": "White colour temperature 09",
+          "min": 193,
+          "max": 215
+        },
+        {
+          "label": "White colour temperature 10",
+          "min": 216,
+          "max": 238
+        },
+        {
+          "label": "White colour temperature 11",
+          "min": 239,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Auto Run Mode",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "4 colors switching",
+          "min": 10,
+          "max": 21
+        },
+        {
+          "label": "36 colors switching",
+          "min": 22,
+          "max": 34
+        },
+        {
+          "label": "6 colors fading (slow in slow out)",
+          "min": 35,
+          "max": 47
+        },
+        {
+          "label": "36 colors fading (slow in slow out)",
+          "min": 48,
+          "max": 60
+        },
+        {
+          "label": "6 colors fading (slow in fast out)",
+          "min": 61,
+          "max": 73
+        },
+        {
+          "label": "36 colors fading (slow in fast out)",
+          "min": 74,
+          "max": 86
+        },
+        {
+          "label": "6 colors fading (fast in slow out)",
+          "min": 87,
+          "max": 99
+        },
+        {
+          "label": "36 colors fading (fast in slow out)",
+          "min": 100,
+          "max": 112
+        },
+        {
+          "label": "Color Macros",
+          "min": 113,
+          "max": 125
+        },
+        {
+          "label": "Auto chasing 1",
+          "min": 126,
+          "max": 138
+        },
+        {
+          "label": "Auto chasing 2",
+          "min": 139,
+          "max": 151
+        },
+        {
+          "label": "Auto chasing 3",
+          "min": 152,
+          "max": 164
+        },
+        {
+          "label": "Auto chasing 4",
+          "min": 165,
+          "max": 177
+        },
+        {
+          "label": "Auto chasing 5",
+          "min": 178,
+          "max": 190
+        },
+        {
+          "label": "Auto chasing 6",
+          "min": 191,
+          "max": 203
+        },
+        {
+          "label": "Auto chasing 7",
+          "min": 204,
+          "max": 216
+        },
+        {
+          "label": "Auto chasing 8",
+          "min": 217,
+          "max": 229
+        },
+        {
+          "label": "Auto chasing 9",
+          "min": 230,
+          "max": 242
+        },
+        {
+          "label": "Sound active mode",
+          "min": 243,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 22,
+      "type_description": "Auto Run Speed",
+      "capabilities": [
+        {
+          "label": "Auto Run Speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 22,
+      "type_description": "Dimmer Curve",
+      "capabilities": [
+        {
+          "label": "Use preset dimming curve",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Dimmer curve 1",
+          "min": 10,
+          "max": 70
+        },
+        {
+          "label": "Dimmer curve 2",
+          "min": 71,
+          "max": 132
+        },
+        {
+          "label": "Dimmer curve 3",
+          "min": 133,
+          "max": 194
+        },
+        {
+          "label": "Dimmer curve 4",
+          "min": 195,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "LED1-LED3 Red",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "LED1-LED3 Green",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "LED1-LED3 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "LED1-LED3 White",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "LED1-LED3 Amber",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "LED1-LED3 UV",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "LED4-LED6 Red",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "LED4-LED6 Green",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "LED4-LED6 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "LED4-LED6 White",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "LED4-LED6 Amber",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "LED4-LED6 UV",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "LED7-LED9 Red",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "LED7-LED9 Green",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "LED7-LED9 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "LED7-LED9 White",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "LED7-LED9 Amber",
+      "capabilities": []
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "LED7-LED9 UV",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 0,
+      "type_description": "LED10-LED12 Red",
+      "capabilities": []
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "LED10-LED12 Green",
+      "capabilities": []
+    },
+    {
+      "index": 32,
+      "type": 0,
+      "type_description": "LED10-LED12 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 33,
+      "type": 0,
+      "type_description": "LED10-LED12 White",
+      "capabilities": []
+    },
+    {
+      "index": 34,
+      "type": 0,
+      "type_description": "LED10-LED12 Amber",
+      "capabilities": []
+    },
+    {
+      "index": 35,
+      "type": 0,
+      "type_description": "LED10-LED12 UV",
+      "capabilities": []
+    },
+    {
+      "index": 36,
+      "type": 0,
+      "type_description": "LED1 Red",
+      "capabilities": []
+    },
+    {
+      "index": 37,
+      "type": 0,
+      "type_description": "LED1 Green",
+      "capabilities": []
+    },
+    {
+      "index": 38,
+      "type": 0,
+      "type_description": "LED1 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 39,
+      "type": 0,
+      "type_description": "LED1 White",
+      "capabilities": []
+    },
+    {
+      "index": 40,
+      "type": 0,
+      "type_description": "LED1 Amber",
+      "capabilities": []
+    },
+    {
+      "index": 41,
+      "type": 0,
+      "type_description": "LED1 UV",
+      "capabilities": []
+    },
+    {
+      "index": 42,
+      "type": 0,
+      "type_description": "LED2 Red",
+      "capabilities": []
+    },
+    {
+      "index": 43,
+      "type": 0,
+      "type_description": "LED2 Green",
+      "capabilities": []
+    },
+    {
+      "index": 44,
+      "type": 0,
+      "type_description": "LED2 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 45,
+      "type": 0,
+      "type_description": "LED2 White",
+      "capabilities": []
+    },
+    {
+      "index": 46,
+      "type": 0,
+      "type_description": "LED2 Amber",
+      "capabilities": []
+    },
+    {
+      "index": 47,
+      "type": 0,
+      "type_description": "LED2 UV",
+      "capabilities": []
+    },
+    {
+      "index": 48,
+      "type": 0,
+      "type_description": "LED3 Red",
+      "capabilities": []
+    },
+    {
+      "index": 49,
+      "type": 0,
+      "type_description": "LED3 Green",
+      "capabilities": []
+    },
+    {
+      "index": 50,
+      "type": 0,
+      "type_description": "LED3 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 51,
+      "type": 0,
+      "type_description": "LED3 White",
+      "capabilities": []
+    },
+    {
+      "index": 52,
+      "type": 0,
+      "type_description": "LED3 Amber",
+      "capabilities": []
+    },
+    {
+      "index": 53,
+      "type": 0,
+      "type_description": "LED3 UV",
+      "capabilities": []
+    },
+    {
+      "index": 54,
+      "type": 0,
+      "type_description": "LED4 Red",
+      "capabilities": []
+    },
+    {
+      "index": 55,
+      "type": 0,
+      "type_description": "LED4 Green",
+      "capabilities": []
+    },
+    {
+      "index": 56,
+      "type": 0,
+      "type_description": "LED4 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 57,
+      "type": 0,
+      "type_description": "LED4 White",
+      "capabilities": []
+    },
+    {
+      "index": 58,
+      "type": 0,
+      "type_description": "LED4 Amber",
+      "capabilities": []
+    },
+    {
+      "index": 59,
+      "type": 0,
+      "type_description": "LED4 UV",
+      "capabilities": []
+    },
+    {
+      "index": 60,
+      "type": 0,
+      "type_description": "LED5 Red",
+      "capabilities": []
+    },
+    {
+      "index": 61,
+      "type": 0,
+      "type_description": "LED5 Green",
+      "capabilities": []
+    },
+    {
+      "index": 62,
+      "type": 0,
+      "type_description": "LED5 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 63,
+      "type": 0,
+      "type_description": "LED5 White",
+      "capabilities": []
+    },
+    {
+      "index": 64,
+      "type": 0,
+      "type_description": "LED5 Amber",
+      "capabilities": []
+    },
+    {
+      "index": 65,
+      "type": 0,
+      "type_description": "LED5 UV",
+      "capabilities": []
+    },
+    {
+      "index": 66,
+      "type": 0,
+      "type_description": "LED6 Red",
+      "capabilities": []
+    },
+    {
+      "index": 67,
+      "type": 0,
+      "type_description": "LED6 Green",
+      "capabilities": []
+    },
+    {
+      "index": 68,
+      "type": 0,
+      "type_description": "LED6 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 69,
+      "type": 0,
+      "type_description": "LED6 White",
+      "capabilities": []
+    },
+    {
+      "index": 70,
+      "type": 0,
+      "type_description": "LED6 Amber",
+      "capabilities": []
+    },
+    {
+      "index": 71,
+      "type": 0,
+      "type_description": "LED6 UV",
+      "capabilities": []
+    },
+    {
+      "index": 72,
+      "type": 0,
+      "type_description": "LED7 Red",
+      "capabilities": []
+    },
+    {
+      "index": 73,
+      "type": 0,
+      "type_description": "LED7 Green",
+      "capabilities": []
+    },
+    {
+      "index": 74,
+      "type": 0,
+      "type_description": "LED7 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 75,
+      "type": 0,
+      "type_description": "LED7 White",
+      "capabilities": []
+    },
+    {
+      "index": 76,
+      "type": 0,
+      "type_description": "LED7 Amber",
+      "capabilities": []
+    },
+    {
+      "index": 77,
+      "type": 0,
+      "type_description": "LED7 UV",
+      "capabilities": []
+    },
+    {
+      "index": 78,
+      "type": 0,
+      "type_description": "LED8 Red",
+      "capabilities": []
+    },
+    {
+      "index": 79,
+      "type": 0,
+      "type_description": "LED8 Green",
+      "capabilities": []
+    },
+    {
+      "index": 80,
+      "type": 0,
+      "type_description": "LED8 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 81,
+      "type": 0,
+      "type_description": "LED8 White",
+      "capabilities": []
+    },
+    {
+      "index": 82,
+      "type": 0,
+      "type_description": "LED8 Amber",
+      "capabilities": []
+    },
+    {
+      "index": 83,
+      "type": 0,
+      "type_description": "LED8 UV",
+      "capabilities": []
+    },
+    {
+      "index": 84,
+      "type": 0,
+      "type_description": "LED9 Red",
+      "capabilities": []
+    },
+    {
+      "index": 85,
+      "type": 0,
+      "type_description": "LED9 Green",
+      "capabilities": []
+    },
+    {
+      "index": 86,
+      "type": 0,
+      "type_description": "LED9 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 87,
+      "type": 0,
+      "type_description": "LED9 White",
+      "capabilities": []
+    },
+    {
+      "index": 88,
+      "type": 0,
+      "type_description": "LED9 Amber",
+      "capabilities": []
+    },
+    {
+      "index": 89,
+      "type": 0,
+      "type_description": "LED9 UV",
+      "capabilities": []
+    },
+    {
+      "index": 90,
+      "type": 0,
+      "type_description": "LED10 Red",
+      "capabilities": []
+    },
+    {
+      "index": 91,
+      "type": 0,
+      "type_description": "LED10 Green",
+      "capabilities": []
+    },
+    {
+      "index": 92,
+      "type": 0,
+      "type_description": "LED10 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 93,
+      "type": 0,
+      "type_description": "LED10 White",
+      "capabilities": []
+    },
+    {
+      "index": 94,
+      "type": 0,
+      "type_description": "LED10 Amber",
+      "capabilities": []
+    },
+    {
+      "index": 95,
+      "type": 0,
+      "type_description": "LED10 UV",
+      "capabilities": []
+    },
+    {
+      "index": 96,
+      "type": 0,
+      "type_description": "LED11 Red",
+      "capabilities": []
+    },
+    {
+      "index": 97,
+      "type": 0,
+      "type_description": "LED11 Green",
+      "capabilities": []
+    },
+    {
+      "index": 98,
+      "type": 0,
+      "type_description": "LED11 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 99,
+      "type": 0,
+      "type_description": "LED11 White",
+      "capabilities": []
+    },
+    {
+      "index": 100,
+      "type": 0,
+      "type_description": "LED11 Amber",
+      "capabilities": []
+    },
+    {
+      "index": 101,
+      "type": 0,
+      "type_description": "LED11 UV",
+      "capabilities": []
+    },
+    {
+      "index": 102,
+      "type": 0,
+      "type_description": "LED12 Red",
+      "capabilities": []
+    },
+    {
+      "index": 103,
+      "type": 0,
+      "type_description": "LED12 Green",
+      "capabilities": []
+    },
+    {
+      "index": 104,
+      "type": 0,
+      "type_description": "LED12 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 105,
+      "type": 0,
+      "type_description": "LED12 White",
+      "capabilities": []
+    },
+    {
+      "index": 106,
+      "type": 0,
+      "type_description": "LED12 Amber",
+      "capabilities": []
+    },
+    {
+      "index": 107,
+      "type": 0,
+      "type_description": "LED12 UV",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Event_Lighting/Event-Lighting-Pixbar12x12.json",
+  "id": 661
+}

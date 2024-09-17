@@ -1,0 +1,163 @@
+{
+  "version": "1.0.0",
+  "label": "PAR 64 CX-3 RGBW",
+  "manufacturer": "Stairville",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 270,
+  "dimension_height": 270,
+  "dimension_depth": 330,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 152,
+  "technical_dmx_connector": "5-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Fixed Color Pattern",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "31 Preprogrammed color macro",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No Effect",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Strobe Speed",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Operating mode",
+      "capabilities": [
+        {
+          "label": "Constant Color",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Fade-out effect (Speed ch 6)",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Fade-in effect (Speed ch 6)",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Fade-in-out effect (Speed ch 6)",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Auto-mix effect (speed ch 6)",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Chase 4 colors (Speed Ch6)",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Chase 12 colors (speed ch 6)",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Sound-Control",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Operating Mode 2",
+      "capabilities": [
+        {
+          "label": "Constant color",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "7 Automatic colors change",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "12 Automatic colors change",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "4 Automatic colors change",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Stairville/Stairville-PAR64-CX-3-RGBW.json",
+  "id": 1434
+}

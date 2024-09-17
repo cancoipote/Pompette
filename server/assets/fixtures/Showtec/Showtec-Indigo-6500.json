@@ -1,0 +1,726 @@
+{
+  "version": "1.0.0",
+  "label": "Indigo 6500",
+  "manufacturer": "Showtec",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 19,
+  "dimension_width": 296,
+  "dimension_height": 523,
+  "dimension_depth": 405,
+  "lens_label": "Other",
+  "lens_degree_min": 18,
+  "lens_degree_max": 18,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 295,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Colourwheel",
+      "capabilities": [
+        {
+          "label": "Open/White",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Green",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Yellow",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Blue",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Orange",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Magenta",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Light Blue",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Light Blue->Magenta",
+          "min": 80,
+          "max": 99
+        },
+        {
+          "label": "Magenta->Orange",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "Orange->Blue",
+          "min": 120,
+          "max": 139
+        },
+        {
+          "label": "Blue->Yellow",
+          "min": 140,
+          "max": 159
+        },
+        {
+          "label": "Yellow->Green",
+          "min": 160,
+          "max": 179
+        },
+        {
+          "label": "Green->Red",
+          "min": 180,
+          "max": 199
+        },
+        {
+          "label": "Red->Open/White",
+          "min": 200,
+          "max": 219
+        },
+        {
+          "label": "Rainbow effect from slow to fast",
+          "min": 220,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 4,
+      "type_description": "Static Gobo-wheel + Gobo Shake",
+      "capabilities": [
+        {
+          "label": "Open/White",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Metal Gobo 1",
+          "min": 11,
+          "max": 20
+        },
+        {
+          "label": "Metal Gobo 2",
+          "min": 21,
+          "max": 30
+        },
+        {
+          "label": "Metal Gobo 3",
+          "min": 31,
+          "max": 40
+        },
+        {
+          "label": "Metal Gobo 4",
+          "min": 41,
+          "max": 50
+        },
+        {
+          "label": "Metal Gobo 5",
+          "min": 51,
+          "max": 60
+        },
+        {
+          "label": "Metal Gobo 6",
+          "min": 61,
+          "max": 70
+        },
+        {
+          "label": "Metal Gobo 7",
+          "min": 71,
+          "max": 80
+        },
+        {
+          "label": "Shake 7 Slow->Fast",
+          "min": 81,
+          "max": 95
+        },
+        {
+          "label": "Shake 6 Slow->Fast",
+          "min": 96,
+          "max": 110
+        },
+        {
+          "label": "Shake 5 Slow->Fast",
+          "min": 111,
+          "max": 125
+        },
+        {
+          "label": "Shake 4 Slow->Fast",
+          "min": 126,
+          "max": 140
+        },
+        {
+          "label": "Shake 3 Slow->Fast",
+          "min": 141,
+          "max": 155
+        },
+        {
+          "label": "Shake 2 Slow->Fast",
+          "min": 156,
+          "max": 170
+        },
+        {
+          "label": "Shake 1 Slow->Fast",
+          "min": 171,
+          "max": 185
+        },
+        {
+          "label": "Backwards (CCW) Rotation Slow->Fast",
+          "min": 186,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 4,
+      "type_description": "Rotating Gobo-wheel + Gobo Shake",
+      "capabilities": [
+        {
+          "label": "Open/White",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Metal Gobo 1",
+          "min": 11,
+          "max": 20
+        },
+        {
+          "label": "Metal Gobo 2",
+          "min": 21,
+          "max": 30
+        },
+        {
+          "label": "Metal Gobo 3",
+          "min": 31,
+          "max": 40
+        },
+        {
+          "label": "Glass Gobo 4",
+          "min": 41,
+          "max": 50
+        },
+        {
+          "label": "Metal Gobo 5",
+          "min": 51,
+          "max": 60
+        },
+        {
+          "label": "Glass Gobo 6",
+          "min": 61,
+          "max": 70
+        },
+        {
+          "label": "Shake 6 Slow->Fast",
+          "min": 71,
+          "max": 85
+        },
+        {
+          "label": "Shake 5 Slow->Fast",
+          "min": 86,
+          "max": 100
+        },
+        {
+          "label": "Shake 4 Slow->Fast",
+          "min": 101,
+          "max": 115
+        },
+        {
+          "label": "Shake 3 Slow->Fast",
+          "min": 116,
+          "max": 130
+        },
+        {
+          "label": "Shake 2 Slow->Fast",
+          "min": 131,
+          "max": 145
+        },
+        {
+          "label": "Shake 1 Slow->Fast",
+          "min": 146,
+          "max": 160
+        },
+        {
+          "label": "Gobo-Wheel Rotation Slow->Fast",
+          "min": 161,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 22,
+      "type_description": "Rotation Gobo",
+      "capabilities": [
+        {
+          "label": "CCW Indexing",
+          "min": 0,
+          "max": 60
+        },
+        {
+          "label": "CW Rotation Slow->Fast",
+          "min": 61,
+          "max": 150
+        },
+        {
+          "label": "No function",
+          "min": 151,
+          "max": 165
+        },
+        {
+          "label": "CCW Rotation Slow->Fast",
+          "min": 166,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Prism/Effects",
+      "capabilities": [
+        {
+          "label": "No Prism",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Prism Rotation",
+          "min": 10,
+          "max": 39
+        },
+        {
+          "label": "Prism Effect 1",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Prism Effect 2",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Prism Effect 3",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Prism Effect 4",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Prism Effect 5",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Prism Effect 6",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Prism Effect 7",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Prism Effect 8",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Prism Effect 9",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Prism Effect 10",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Effect 11",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Effect 12",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Effect 13",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Effect 14",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Effect 15",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Effect 16",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Effect 17",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Effect 18",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "Effect 19",
+          "min": 220,
+          "max": 229
+        },
+        {
+          "label": "Effect 20",
+          "min": 230,
+          "max": 239
+        },
+        {
+          "label": "Prism Rotation",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 22,
+      "type_description": "Prism Rotation Control",
+      "capabilities": [
+        {
+          "label": "No Prism Rotation",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "CCW Rotation Slow->Fast",
+          "min": 10,
+          "max": 119
+        },
+        {
+          "label": "No Prism Rotation",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "CW Rotation Slow->Fast",
+          "min": 130,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 1,
+      "type_description": "Iris",
+      "capabilities": [
+        {
+          "label": "Linear Iris",
+          "min": 0,
+          "max": 199
+        },
+        {
+          "label": "Slow Open, Fast Close Slow->Fast",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Slow Open, Slow Close Slow->Fast",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "Fast Open, Slow Close Slow->Fast",
+          "min": 220,
+          "max": 229
+        },
+        {
+          "label": "Fast Open, Fast Close Slow->Fast",
+          "min": 230,
+          "max": 239
+        },
+        {
+          "label": "Random Slow->Fast",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 1,
+      "type_description": "Focus Fine",
+      "capabilities": [
+        {
+          "label": "Near->Far",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Dimmer Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 21,
+      "type_description": "Shutter/Strobe",
+      "capabilities": [
+        {
+          "label": "Close",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Shutter open",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe Slow->Fast",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Shutter open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse Effect Slow->Fast",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Shutter open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random Strobe Slow->Fast",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Shutter open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 17,
+      "type_description": "Channel Functions",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Blackout during Pan/Tilt",
+          "min": 20,
+          "max": 39
+        },
+        {
+          "label": "No function",
+          "min": 40,
+          "max": 139
+        },
+        {
+          "label": "Auto 1",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Auto 2",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Test",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Custom",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Sound 1",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Sound 2",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Reset",
+          "min": 200,
+          "max": 219
+        },
+        {
+          "label": "No function",
+          "min": 220,
+          "max": 236
+        },
+        {
+          "label": "DIM 0",
+          "min": 237,
+          "max": 239
+        },
+        {
+          "label": "DIM 1",
+          "min": 240,
+          "max": 243
+        },
+        {
+          "label": "DIM 2",
+          "min": 244,
+          "max": 247
+        },
+        {
+          "label": "DIM 3",
+          "min": 248,
+          "max": 251
+        },
+        {
+          "label": "DIM 4",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 3,
+      "type_description": "Prism (Basic Mode)",
+      "capabilities": [
+        {
+          "label": "No Prism",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "CW Slow->Fast",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 22,
+      "type_description": "Prism Rotation Control (Basic Mode)",
+      "capabilities": [
+        {
+          "label": "No Prism",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "No Prism Rotation",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "CCW Rotation Slow->Fast",
+          "min": 10,
+          "max": 127
+        },
+        {
+          "label": "No Prism Rotation",
+          "min": 128,
+          "max": 132
+        },
+        {
+          "label": "CW Rotation Slow->Fast",
+          "min": 133,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Showtec/Showtec-Indigo-6500.json",
+  "id": 1293
+}

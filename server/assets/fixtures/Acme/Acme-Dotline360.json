@@ -1,0 +1,581 @@
+{
+  "version": "1.0.0",
+  "label": "Dotline360",
+  "manufacturer": "Acme",
+  "bulb_type": "LED",
+  "bulb_lumens": 4790,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 18,
+  "dimension_width": 278,
+  "dimension_height": 113,
+  "dimension_depth": 1000,
+  "lens_label": "Other",
+  "lens_degree_min": 3,
+  "lens_degree_max": 38,
+  "focus_type": "Head",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 220,
+  "technical_power_consumption": 440,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Tilt speed",
+      "capabilities": [
+        {
+          "label": "Auto speed",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Tilt (Slow to fast)",
+          "min": 8,
+          "max": 247
+        },
+        {
+          "label": "Auto speed",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Dimmer fine",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Shutter open",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe effect (Fast to slow)",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Shutter open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse-effect in sequences",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Shutter open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random strobe effect (Slow to fast)",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Shutter open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "LED1 Red",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "LED1 Green",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "LED1 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "LED1 White",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "LED2 Red",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "LED2 Green",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "LED2 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "LED2 White",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "LED3 Red",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "LED3 Green",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "LED3 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "LED3 White",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "LED4 Red",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "LED4 Green",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "LED4 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "LED4 White",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "LED5 Red",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "LED5 Green",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "LED5 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "LED5 White",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "LED6 Red",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "LED6 Green",
+      "capabilities": []
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "LED6 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 0,
+      "type_description": "LED6 White",
+      "capabilities": []
+    },
+    {
+      "index": 31,
+      "type": 17,
+      "type_description": "Special Function",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 60
+        },
+        {
+          "label": "Black out when Tilt moving",
+          "min": 61,
+          "max": 80
+        },
+        {
+          "label": "Disable Black out when Tilt moving",
+          "min": 81,
+          "max": 100
+        },
+        {
+          "label": "Reset All Motor",
+          "min": 101,
+          "max": 120
+        },
+        {
+          "label": "Reset Tilt Motor",
+          "min": 121,
+          "max": 140
+        },
+        {
+          "label": "Reset Zoom Motor",
+          "min": 141,
+          "max": 160
+        },
+        {
+          "label": "Dimmer Speed: Smooth",
+          "min": 161,
+          "max": 180
+        },
+        {
+          "label": "Dimmer Speed: Fast",
+          "min": 181,
+          "max": 200
+        },
+        {
+          "label": "Invert Pixel Order: No",
+          "min": 201,
+          "max": 220
+        },
+        {
+          "label": "Invert Pixel Order: Yes",
+          "min": 221,
+          "max": 240
+        },
+        {
+          "label": "No function",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "type": 3,
+      "type_description": "Macro",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 8
+        },
+        {
+          "label": "Macro 1",
+          "min": 9,
+          "max": 38
+        },
+        {
+          "label": "Macro 2",
+          "min": 39,
+          "max": 68
+        },
+        {
+          "label": "Macro 3",
+          "min": 69,
+          "max": 98
+        },
+        {
+          "label": "Macro 4",
+          "min": 99,
+          "max": 128
+        },
+        {
+          "label": "Macro 5",
+          "min": 129,
+          "max": 158
+        },
+        {
+          "label": "Macro 6",
+          "min": 159,
+          "max": 187
+        },
+        {
+          "label": "Macro 7",
+          "min": 188,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "type": 0,
+      "type_description": "Foreground Color",
+      "capabilities": [
+        {
+          "label": "Foreground Color",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "type": 0,
+      "type_description": "Background Color",
+      "capabilities": [
+        {
+          "label": "Background Color",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 36,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 37,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 38,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 39,
+      "type": 0,
+      "type_description": "LED7 Red",
+      "capabilities": []
+    },
+    {
+      "index": 40,
+      "type": 0,
+      "type_description": "LED7 Green",
+      "capabilities": []
+    },
+    {
+      "index": 41,
+      "type": 0,
+      "type_description": "LED7 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 42,
+      "type": 0,
+      "type_description": "LED7 White",
+      "capabilities": []
+    },
+    {
+      "index": 43,
+      "type": 0,
+      "type_description": "LED8 Red",
+      "capabilities": []
+    },
+    {
+      "index": 44,
+      "type": 0,
+      "type_description": "LED8 Green",
+      "capabilities": []
+    },
+    {
+      "index": 45,
+      "type": 0,
+      "type_description": "LED8 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 46,
+      "type": 0,
+      "type_description": "LED8 White",
+      "capabilities": []
+    },
+    {
+      "index": 47,
+      "type": 0,
+      "type_description": "LED9 Red",
+      "capabilities": []
+    },
+    {
+      "index": 48,
+      "type": 0,
+      "type_description": "LED9 Green",
+      "capabilities": []
+    },
+    {
+      "index": 49,
+      "type": 0,
+      "type_description": "LED9 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 50,
+      "type": 0,
+      "type_description": "LED9 White",
+      "capabilities": []
+    },
+    {
+      "index": 51,
+      "type": 0,
+      "type_description": "LED10 Red",
+      "capabilities": []
+    },
+    {
+      "index": 52,
+      "type": 0,
+      "type_description": "LED10 Green",
+      "capabilities": []
+    },
+    {
+      "index": 53,
+      "type": 0,
+      "type_description": "LED10 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 54,
+      "type": 0,
+      "type_description": "LED10 White",
+      "capabilities": []
+    },
+    {
+      "index": 55,
+      "type": 0,
+      "type_description": "LED11 Red",
+      "capabilities": []
+    },
+    {
+      "index": 56,
+      "type": 0,
+      "type_description": "LED11 Green",
+      "capabilities": []
+    },
+    {
+      "index": 57,
+      "type": 0,
+      "type_description": "LED11 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 58,
+      "type": 0,
+      "type_description": "LED11 White",
+      "capabilities": []
+    },
+    {
+      "index": 59,
+      "type": 0,
+      "type_description": "LED12 Red",
+      "capabilities": []
+    },
+    {
+      "index": 60,
+      "type": 0,
+      "type_description": "LED12 Green",
+      "capabilities": []
+    },
+    {
+      "index": 61,
+      "type": 0,
+      "type_description": "LED12 Blue",
+      "capabilities": []
+    },
+    {
+      "index": 62,
+      "type": 0,
+      "type_description": "LED12 White",
+      "capabilities": []
+    },
+    {
+      "index": 63,
+      "type": 0,
+      "type_description": "Zoom 1",
+      "capabilities": []
+    },
+    {
+      "index": 64,
+      "type": 0,
+      "type_description": "Zoom 2",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Acme/Acme-Dotline360.json",
+  "id": 2
+}

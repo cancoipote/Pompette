@@ -1,0 +1,278 @@
+{
+  "version": "1.0.0",
+  "label": "TourSpot 60",
+  "manufacturer": "Expolite",
+  "bulb_type": "LED",
+  "bulb_lumens": 2000,
+  "bulb_color_temperature": 6500,
+  "dimension_weight": 8,
+  "dimension_width": 250,
+  "dimension_height": 401,
+  "dimension_depth": 325,
+  "lens_label": "Fresnel",
+  "lens_degree_min": 18,
+  "lens_degree_max": 18,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 60,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Iris",
+      "capabilities": [
+        {
+          "label": "Shutter off",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Shutter on",
+          "min": 11,
+          "max": 39
+        },
+        {
+          "label": "Stobe, slow to fast",
+          "min": 40,
+          "max": 240
+        },
+        {
+          "label": "Shutter on",
+          "min": 241,
+          "max": 245
+        },
+        {
+          "label": "Reset",
+          "min": 246,
+          "max": 250
+        },
+        {
+          "label": "Shutter on",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "Open / White",
+          "min": 0,
+          "max": 18
+        },
+        {
+          "label": "Red",
+          "min": 19,
+          "max": 37
+        },
+        {
+          "label": "Blue",
+          "min": 38,
+          "max": 56
+        },
+        {
+          "label": "Yellow",
+          "min": 57,
+          "max": 75
+        },
+        {
+          "label": "Green",
+          "min": 76,
+          "max": 94
+        },
+        {
+          "label": "Orange",
+          "min": 95,
+          "max": 113
+        },
+        {
+          "label": "Violet",
+          "min": 114,
+          "max": 127
+        },
+        {
+          "label": "Rainbow Effect, CW, fast to slow",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Rainbow Effect, counter CW, slow to fast",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 4,
+      "type_description": "Gobo Pattern",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Gobo 1",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Gobo 2",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Gobo 3",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Gobo 4",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Gobo 5",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Gobo 6",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Gobo 7",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Rainbow effect, CW, fast to slow",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Rainbow effect, counter CW, slow to fast",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Gobo Rotation",
+      "capabilities": [
+        {
+          "label": "Rotating Angle",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Clockwise Rotating, slow to fast",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Counterclockwise Rotating, slow to fast",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 20,
+      "type_description": "Prism + Rotating",
+      "capabilities": [
+        {
+          "label": "No prism",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Prism",
+          "min": 5,
+          "max": 19
+        },
+        {
+          "label": "Prism angle adjustment",
+          "min": 20,
+          "max": 139
+        },
+        {
+          "label": "Clockwise rotating, fast to slow",
+          "min": 140,
+          "max": 197
+        },
+        {
+          "label": "Counterclockwise rotating, slow to fast",
+          "min": 198,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 22,
+      "type_description": "Pan & Tilt Speed + Vector Mode",
+      "capabilities": [
+        {
+          "label": "Fast to Slow",
+          "min": 0,
+          "max": 251
+        },
+        {
+          "label": "Vector Mode",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Expolite/Expolite-TourSpot-60.json",
+  "id": 667
+}

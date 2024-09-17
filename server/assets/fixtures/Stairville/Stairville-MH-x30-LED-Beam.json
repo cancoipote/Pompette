@@ -1,0 +1,369 @@
+{
+  "version": "1.0.0",
+  "label": "MH-x30 LED Beam",
+  "manufacturer": "Stairville",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 6000,
+  "dimension_weight": 5,
+  "dimension_width": 260,
+  "dimension_height": 386,
+  "dimension_depth": 150,
+  "lens_label": "PC",
+  "lens_degree_min": 2,
+  "lens_degree_max": 2,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 68,
+  "technical_dmx_connector": "5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan & Tilt speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Strobe effect off",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Random Strobe effect, increasing speed",
+          "min": 11,
+          "max": 128
+        },
+        {
+          "label": "Strobe effect, decreasing speed",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Colour wheel",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 11
+        },
+        {
+          "label": "Red",
+          "min": 12,
+          "max": 23
+        },
+        {
+          "label": "Green",
+          "min": 24,
+          "max": 35
+        },
+        {
+          "label": "Light blue",
+          "min": 36,
+          "max": 47
+        },
+        {
+          "label": "Purple",
+          "min": 48,
+          "max": 59
+        },
+        {
+          "label": "Yellow",
+          "min": 60,
+          "max": 71
+        },
+        {
+          "label": "Blue",
+          "min": 72,
+          "max": 83
+        },
+        {
+          "label": "Orange",
+          "min": 84,
+          "max": 95
+        },
+        {
+          "label": "White + red",
+          "min": 96,
+          "max": 107
+        },
+        {
+          "label": "Red + green",
+          "min": 108,
+          "max": 119
+        },
+        {
+          "label": "Green + light blue",
+          "min": 120,
+          "max": 131
+        },
+        {
+          "label": "Light blue + purple",
+          "min": 132,
+          "max": 143
+        },
+        {
+          "label": "Purple + yellow",
+          "min": 144,
+          "max": 155
+        },
+        {
+          "label": "Yellow + blue",
+          "min": 156,
+          "max": 167
+        },
+        {
+          "label": "Blue + orange",
+          "min": 168,
+          "max": 179
+        },
+        {
+          "label": "Orange + white",
+          "min": 180,
+          "max": 191
+        },
+        {
+          "label": "Rainbow effect (gobo wheel rotation) in positive rotation direction, decreasing speed",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Rainbow effect (gobo wheel rotation) in negative rotation direction, increasing speed",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 4,
+      "type_description": "Gobo wheel",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Gobo 1",
+          "min": 6,
+          "max": 11
+        },
+        {
+          "label": "Gobo 2",
+          "min": 12,
+          "max": 17
+        },
+        {
+          "label": "Gobo 3",
+          "min": 18,
+          "max": 23
+        },
+        {
+          "label": "Gobo 4",
+          "min": 24,
+          "max": 29
+        },
+        {
+          "label": "Gobo 5",
+          "min": 30,
+          "max": 35
+        },
+        {
+          "label": "Gobo 6",
+          "min": 36,
+          "max": 41
+        },
+        {
+          "label": "Gobo 7",
+          "min": 42,
+          "max": 47
+        },
+        {
+          "label": "Gobo 8",
+          "min": 48,
+          "max": 53
+        },
+        {
+          "label": "Gobo 9",
+          "min": 54,
+          "max": 59
+        },
+        {
+          "label": "Gobo 10",
+          "min": 60,
+          "max": 65
+        },
+        {
+          "label": "Gobo 11",
+          "min": 66,
+          "max": 71
+        },
+        {
+          "label": "Gobo 12",
+          "min": 72,
+          "max": 77
+        },
+        {
+          "label": "Gobo 13",
+          "min": 78,
+          "max": 83
+        },
+        {
+          "label": "Gobo 14",
+          "min": 84,
+          "max": 89
+        },
+        {
+          "label": "Gobo 14 shake, increasing speed",
+          "min": 90,
+          "max": 95
+        },
+        {
+          "label": "Gobo 13 shake, increasing speed",
+          "min": 96,
+          "max": 101
+        },
+        {
+          "label": "Gobo 12 shake, increasing speed",
+          "min": 102,
+          "max": 107
+        },
+        {
+          "label": "Gobo 11 shake, increasing speed",
+          "min": 108,
+          "max": 113
+        },
+        {
+          "label": "Gobo 10 shake, increasing speed",
+          "min": 114,
+          "max": 119
+        },
+        {
+          "label": "Gobo 9 shake, increasing speed",
+          "min": 120,
+          "max": 125
+        },
+        {
+          "label": "Gobo 8 shake, increasing speed",
+          "min": 126,
+          "max": 131
+        },
+        {
+          "label": "Gobo 7 shake, increasing speed",
+          "min": 132,
+          "max": 137
+        },
+        {
+          "label": "Gobo 6 shake, increasing speed",
+          "min": 138,
+          "max": 143
+        },
+        {
+          "label": "Gobo 5 shake, increasing speed",
+          "min": 144,
+          "max": 149
+        },
+        {
+          "label": "Gobo 4 shake, increasing speed",
+          "min": 150,
+          "max": 155
+        },
+        {
+          "label": "Gobo 3 shake, increasing speed",
+          "min": 156,
+          "max": 161
+        },
+        {
+          "label": "Gobo 2 shake, increasing speed",
+          "min": 162,
+          "max": 167
+        },
+        {
+          "label": "Gobo 1 shake, increasing speed",
+          "min": 168,
+          "max": 173
+        },
+        {
+          "label": "Open",
+          "min": 174,
+          "max": 179
+        },
+        {
+          "label": "Rainbow effect (gobo wheel rotation) in positive rotation direction, decreasing speed",
+          "min": 180,
+          "max": 217
+        },
+        {
+          "label": "Rainbow effect (gobo wheel rotation) in negative rotation direction, increasing speed",
+          "min": 218,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 17,
+      "type_description": "Special settings",
+      "capabilities": [
+        {
+          "label": "Without function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Reset after five seconds",
+          "min": 10,
+          "max": 20
+        },
+        {
+          "label": "Without function",
+          "min": 21,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Stairville/Stairville-MH-x30-LED-Beam.json",
+  "id": 1425
+}

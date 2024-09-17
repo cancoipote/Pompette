@@ -1,0 +1,413 @@
+{
+  "version": "1.0.0",
+  "label": "LED Flood Panel 7x3W",
+  "manufacturer": "Stairville",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 300,
+  "dimension_height": 200,
+  "dimension_depth": 60,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 30,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 5,
+      "type_description": "Red/Colour preset/Speed (slow to fast)/Sensitivity (low to high)",
+      "capabilities": [
+        {
+          "label": "Red: 255",
+          "min": 0,
+          "max": 8
+        },
+        {
+          "label": "Red: 255, Green: 50",
+          "min": 9,
+          "max": 17
+        },
+        {
+          "label": "Red: 255, Green: 150",
+          "min": 18,
+          "max": 26
+        },
+        {
+          "label": "Red: 255, Green: 255",
+          "min": 27,
+          "max": 35
+        },
+        {
+          "label": "Red: 200, Green: 255",
+          "min": 36,
+          "max": 44
+        },
+        {
+          "label": "Red: 100, Green: 255",
+          "min": 45,
+          "max": 53
+        },
+        {
+          "label": "Red: 40, Green: 255",
+          "min": 54,
+          "max": 62
+        },
+        {
+          "label": "Green: 255",
+          "min": 63,
+          "max": 71
+        },
+        {
+          "label": "Green: 255, Blue:50",
+          "min": 72,
+          "max": 80
+        },
+        {
+          "label": "Green: 255, Blue: 150",
+          "min": 81,
+          "max": 89
+        },
+        {
+          "label": "Green: 255, Blue: 255",
+          "min": 90,
+          "max": 98
+        },
+        {
+          "label": "Green: 150, Blue: 255",
+          "min": 99,
+          "max": 107
+        },
+        {
+          "label": "Green: 50, Blue: 255",
+          "min": 108,
+          "max": 116
+        },
+        {
+          "label": "Blue: 255",
+          "min": 117,
+          "max": 125
+        },
+        {
+          "label": "Red: 50, Blue: 255",
+          "min": 126,
+          "max": 134
+        },
+        {
+          "label": "Red: 150, Blue: 255",
+          "min": 135,
+          "max": 143
+        },
+        {
+          "label": "Red: 255, Blue: 255",
+          "min": 144,
+          "max": 152
+        },
+        {
+          "label": "Red: 220, Blue: 255",
+          "min": 153,
+          "max": 161
+        },
+        {
+          "label": "Red: 150, Green: 50, Blue: 100",
+          "min": 162,
+          "max": 170
+        },
+        {
+          "label": "Red: 50, Green: 180, Blue: 220",
+          "min": 171,
+          "max": 179
+        },
+        {
+          "label": "Red: 50, Green: 220, Blue: 100",
+          "min": 180,
+          "max": 188
+        },
+        {
+          "label": "Red: 150, Green: 220",
+          "min": 189,
+          "max": 197
+        },
+        {
+          "label": "Red: 150, Blue: 220",
+          "min": 198,
+          "max": 206
+        },
+        {
+          "label": "Green: 180, Blue: 220",
+          "min": 207,
+          "max": 215
+        },
+        {
+          "label": "Green: 220, Blue: 50",
+          "min": 216,
+          "max": 224
+        },
+        {
+          "label": "Red: 220, Green 180, Blue: 220",
+          "min": 225,
+          "max": 233
+        },
+        {
+          "label": "Red: 220, Green: 200, Blue: 100",
+          "min": 234,
+          "max": 242
+        },
+        {
+          "label": "Red: 255, Green: 200, Blue: 150",
+          "min": 243,
+          "max": 251
+        },
+        {
+          "label": "Red: 255, Green: 255, Blue: 255",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe (slow to fast)",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "Static RGB mix as defined with channels 2, 3 and 4",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Static colour, as defined with channel 2",
+          "min": 1,
+          "max": 24
+        },
+        {
+          "label": "Sets Pr02 (7-colour gradual change)",
+          "min": 25,
+          "max": 49
+        },
+        {
+          "label": "Sets Pr03 (3-colour gradual change)",
+          "min": 50,
+          "max": 74
+        },
+        {
+          "label": "Sets Pr04 (7-colour jumping change)",
+          "min": 75,
+          "max": 99
+        },
+        {
+          "label": "Sets Pr05 (3-colour jumping change)",
+          "min": 100,
+          "max": 124
+        },
+        {
+          "label": "Sets Pr06 (fantasy change 1)",
+          "min": 125,
+          "max": 149
+        },
+        {
+          "label": "Sets Pr07 (fantasy change 2)",
+          "min": 150,
+          "max": 174
+        },
+        {
+          "label": "Sets Pr08 (red gradual change)",
+          "min": 175,
+          "max": 199
+        },
+        {
+          "label": "Sets Pr09 (green gradual change)",
+          "min": 200,
+          "max": 224
+        },
+        {
+          "label": "Sets Pr10 (blue gradual change)",
+          "min": 225,
+          "max": 249
+        },
+        {
+          "label": "Sets the sound active mode",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "ID control",
+      "capabilities": [
+        {
+          "label": "All IDs (ID1...ID66)",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "ID1",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "ID2",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "ID3",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "ID4",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "ID5",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "ID6",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "ID7",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "ID8",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "ID9",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "ID10",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "ID11",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "ID12",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "ID13",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "ID14",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "ID15",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "ID16",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "ID17",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "ID18",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "ID19",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "ID20",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "ID21...ID66",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Fader response",
+      "capabilities": [
+        {
+          "label": "Instant fader response for channel 1, 2, 3, 4",
+          "min": 0,
+          "max": 250
+        },
+        {
+          "label": "Delayed fader response for channel 1, 2, 3, 4",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Stairville/Stairville-LED-Flood-Panel-7x3W.json",
+  "id": 1402
+}

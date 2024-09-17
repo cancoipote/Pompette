@@ -1,0 +1,155 @@
+{
+  "version": "1.0.0",
+  "label": "LPC-007",
+  "manufacturer": "Betopper",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 235,
+  "dimension_height": 235,
+  "dimension_depth": 295,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 180,
+  "technical_dmx_connector": "Other",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No Function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Slow to Fast",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Color Macro",
+      "capabilities": [
+        {
+          "label": "DMX Dimming",
+          "min": 0,
+          "max": 50
+        },
+        {
+          "label": "Color Output (8 type)",
+          "min": 51,
+          "max": 100
+        },
+        {
+          "label": "Color Shade",
+          "min": 101,
+          "max": 150
+        },
+        {
+          "label": "Color Transform",
+          "min": 151,
+          "max": 200
+        },
+        {
+          "label": "Color Pulse",
+          "min": 201,
+          "max": 250
+        },
+        {
+          "label": "Sound Trigger",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 22,
+      "type_description": "Selector for Channel 6",
+      "capabilities": [
+        {
+          "label": "Red",
+          "min": 0,
+          "max": 30
+        },
+        {
+          "label": "Green",
+          "min": 31,
+          "max": 60
+        },
+        {
+          "label": "Blue",
+          "min": 61,
+          "max": 92
+        },
+        {
+          "label": "White",
+          "min": 93,
+          "max": 123
+        },
+        {
+          "label": "Yellow",
+          "min": 124,
+          "max": 154
+        },
+        {
+          "label": "Violet",
+          "min": 155,
+          "max": 185
+        },
+        {
+          "label": "Color Change",
+          "min": 186,
+          "max": 216
+        },
+        {
+          "label": "White 2",
+          "min": 217,
+          "max": 247
+        },
+        {
+          "label": "Color Change 2",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Betopper/Betopper-LPC007.json",
+  "id": 191
+}

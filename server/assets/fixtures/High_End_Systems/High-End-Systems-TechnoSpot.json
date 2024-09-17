@@ -1,0 +1,928 @@
+{
+  "version": "1.0.0",
+  "label": "TechnoSpot",
+  "manufacturer": "High End Systems",
+  "bulb_type": "MSR 575W",
+  "bulb_lumens": 12000,
+  "bulb_color_temperature": 7000,
+  "dimension_weight": 41,
+  "dimension_width": 483,
+  "dimension_height": 348,
+  "dimension_depth": 793,
+  "lens_label": "Other",
+  "lens_degree_min": 11,
+  "lens_degree_max": 34,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 245,
+  "technical_power_consumption": 850,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Color Mix Function",
+      "capabilities": [
+        {
+          "label": "Pure mix",
+          "min": 0,
+          "max": 47
+        },
+        {
+          "label": "Cycle",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Random",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "No function",
+          "min": 80,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Cyan",
+      "capabilities": [
+        {
+          "label": "Full saturation to open (white)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Magenta",
+      "capabilities": [
+        {
+          "label": "Full saturation to open (white)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Yellow",
+      "capabilities": [
+        {
+          "label": "Full saturation to open (white)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Static Color Function",
+      "capabilities": [
+        {
+          "label": "Indexed",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Forward spin",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Reverse spin",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Continuous",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Fast scan",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Random",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "No function",
+          "min": 96,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Static Color Position/Wheel Motion/Wheel Position",
+      "capabilities": [
+        {
+          "label": "White (open)",
+          "min": 0,
+          "max": 24
+        },
+        {
+          "label": "Red",
+          "min": 25,
+          "max": 49
+        },
+        {
+          "label": "Blue",
+          "min": 50,
+          "max": 74
+        },
+        {
+          "label": "Green",
+          "min": 75,
+          "max": 99
+        },
+        {
+          "label": "Yellow",
+          "min": 100,
+          "max": 124
+        },
+        {
+          "label": "Amber",
+          "min": 125,
+          "max": 149
+        },
+        {
+          "label": "Pink",
+          "min": 150,
+          "max": 174
+        },
+        {
+          "label": "Indigo",
+          "min": 175,
+          "max": 199
+        },
+        {
+          "label": "CTO",
+          "min": 200,
+          "max": 224
+        },
+        {
+          "label": "White (open)",
+          "min": 225,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 4,
+      "type_description": "Gobo 1 Function",
+      "capabilities": [
+        {
+          "label": "Indexed",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Forward wheel spin",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Reverse wheel spin",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Scan",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Random",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "No function",
+          "min": 80,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 4,
+      "type_description": "Gobo 1 Position",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "1 - dense foliage",
+          "min": 16,
+          "max": 47
+        },
+        {
+          "label": "2 - fracture",
+          "min": 48,
+          "max": 79
+        },
+        {
+          "label": "3 - psy spin, red",
+          "min": 80,
+          "max": 111
+        },
+        {
+          "label": "4 - skull or hollywood stars",
+          "min": 112,
+          "max": 143
+        },
+        {
+          "label": "5 - lava",
+          "min": 144,
+          "max": 175
+        },
+        {
+          "label": "6 - triangle",
+          "min": 176,
+          "max": 207
+        },
+        {
+          "label": "Open",
+          "min": 208,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 4,
+      "type_description": "Gobo 1 Rotate Function",
+      "capabilities": [
+        {
+          "label": "Indexed",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Forward rotate",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Reverse rotate",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Forward animate",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Reverse animate",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "No function",
+          "min": 80,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 4,
+      "type_description": "Gobo 1 Rotate Position/Speed - Coarse",
+      "capabilities": [
+        {
+          "label": "Indexed/Rotation speed from slowest to fastest",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 4,
+      "type_description": "Gobo 1 Rotate Position/Speed - Fine",
+      "capabilities": [
+        {
+          "label": "Indexed/Rotation speed from slowest to fastest",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 4,
+      "type_description": "Gobo 2 Function",
+      "capabilities": [
+        {
+          "label": "Indexed",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Forward wheel spin",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Reverse wheel spin",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Scan",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Random",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "No function",
+          "min": 80,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 4,
+      "type_description": "Gobo 2 Position",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "1 - red chicklet",
+          "min": 16,
+          "max": 47
+        },
+        {
+          "label": "2 - animated litho",
+          "min": 48,
+          "max": 79
+        },
+        {
+          "label": "3 - fusion fire, clear",
+          "min": 80,
+          "max": 111
+        },
+        {
+          "label": "4 - valiant",
+          "min": 112,
+          "max": 143
+        },
+        {
+          "label": "5 - Gatlin gun, indigo",
+          "min": 144,
+          "max": 175
+        },
+        {
+          "label": "6 - multidot",
+          "min": 176,
+          "max": 207
+        },
+        {
+          "label": "Open",
+          "min": 208,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 4,
+      "type_description": "Gobo 2 Rotate Function",
+      "capabilities": [
+        {
+          "label": "Indexed",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Forward rotate",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Reverse rotate",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Forward animate",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Reverse animate",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "No function",
+          "min": 80,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 4,
+      "type_description": "Gobo 2 Rotate Position/Speed - Coarse",
+      "capabilities": [
+        {
+          "label": "Indexed/Rotation speed from slowest to fastest",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 4,
+      "type_description": "Gobo 2 Rotate Position/Speed - Fine",
+      "capabilities": [
+        {
+          "label": "Indexed/Rotation speed from slowest to fastest",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 20,
+      "type_description": "Prism Function",
+      "capabilities": [
+        {
+          "label": "Disengaged",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Forward spin",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Reverse spin",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Forward animate",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Reverse animate",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "No function",
+          "min": 96,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "type": 20,
+      "type_description": "Prism Rotate Position/Speed",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Set rotation speed from slowest to fastest",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "type": 3,
+      "type_description": "Animation Function",
+      "capabilities": [
+        {
+          "label": "Disengage",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Continuous",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Forward spin",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Reverse spin",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Forward animate",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Reverse animate",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "No function",
+          "min": 96,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "type": 3,
+      "type_description": "Animation Rotate Position/Speed",
+      "capabilities": [
+        {
+          "label": "Position/Stop",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Position/Speed from slowest to fastest",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "type": 3,
+      "type_description": "Frost",
+      "capabilities": [
+        {
+          "label": "Open (hard edge)",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Full frost",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Periodic strobe",
+          "min": 32,
+          "max": 97
+        },
+        {
+          "label": "Random strobe",
+          "min": 98,
+          "max": 163
+        },
+        {
+          "label": "Open (hard edge)",
+          "min": 164,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "type": 1,
+      "type_description": "Focus - Coarse",
+      "capabilities": [
+        {
+          "label": "0=in 255=out",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "type": 1,
+      "type_description": "Focus - Fine",
+      "capabilities": [
+        {
+          "label": "0=in 255=out",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "type": 1,
+      "type_description": "Zoom - Coarse",
+      "capabilities": [
+        {
+          "label": "0=in 255=out",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "type": 1,
+      "type_description": "Zoom - Fine",
+      "capabilities": [
+        {
+          "label": "0=in 255=out",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "type": 1,
+      "type_description": "Iris",
+      "capabilities": [
+        {
+          "label": "Closed - open",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 23
+        },
+        {
+          "label": "Set strobe rate from slowest to fastest",
+          "min": 24,
+          "max": 229
+        },
+        {
+          "label": "open",
+          "min": 230,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "Dim",
+      "capabilities": []
+    },
+    {
+      "index": 32,
+      "type": 22,
+      "type_description": "Motor Speed",
+      "capabilities": [
+        {
+          "label": "Disable",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Longest (252.7 sec.) to shortest (0.15 sec.) duration",
+          "min": 4,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "type": 17,
+      "type_description": "Control functions",
+      "capabilities": [
+        {
+          "label": "Safe",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "No function",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Display off",
+          "min": 20,
+          "max": 28
+        },
+        {
+          "label": "No function",
+          "min": 29,
+          "max": 39
+        },
+        {
+          "label": "Display on",
+          "min": 40,
+          "max": 48
+        },
+        {
+          "label": "No function",
+          "min": 49,
+          "max": 59
+        },
+        {
+          "label": "Home all",
+          "min": 60,
+          "max": 68
+        },
+        {
+          "label": "No function",
+          "min": 69,
+          "max": 79
+        },
+        {
+          "label": "Lamp on",
+          "min": 80,
+          "max": 88
+        },
+        {
+          "label": "No function",
+          "min": 89,
+          "max": 89
+        },
+        {
+          "label": "Lamp off",
+          "min": 90,
+          "max": 98
+        },
+        {
+          "label": "No function",
+          "min": 99,
+          "max": 119
+        },
+        {
+          "label": "Shutdown",
+          "min": 120,
+          "max": 130
+        },
+        {
+          "label": "Pan and tilt home",
+          "min": 131,
+          "max": 140
+        },
+        {
+          "label": "Color home",
+          "min": 141,
+          "max": 150
+        },
+        {
+          "label": "Gobo home",
+          "min": 151,
+          "max": 160
+        },
+        {
+          "label": "Shutter & dimmer home",
+          "min": 161,
+          "max": 170
+        },
+        {
+          "label": "Other motor home",
+          "min": 171,
+          "max": 180
+        },
+        {
+          "label": "Audio sync",
+          "min": 181,
+          "max": 190
+        },
+        {
+          "label": "No function",
+          "min": 191,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "type": 3,
+      "type_description": "Indigo Highlighter Function",
+      "capabilities": [
+        {
+          "label": "Continuous fixture dimming",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Periodic fixture dimming strobe from slowest to fastest",
+          "min": 16,
+          "max": 41
+        },
+        {
+          "label": "No function",
+          "min": 42,
+          "max": 127
+        },
+        {
+          "label": "Continuous independent",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Periodic independent strobe from slowest to fastest",
+          "min": 144,
+          "max": 169
+        },
+        {
+          "label": "No function",
+          "min": 170,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "type": 0,
+      "type_description": "Indigo Highlighter Dim",
+      "capabilities": []
+    },
+    {
+      "index": 36,
+      "type": 21,
+      "type_description": "Shutter Functions",
+      "capabilities": [
+        {
+          "label": "Normal shutter functions",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Random strobe",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Synchronous random strobe",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Normal shutter functions",
+          "min": 96,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/High_End_Systems/High-End-Systems-TechnoSpot.json",
+  "id": 869
+}

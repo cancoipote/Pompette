@@ -1,0 +1,142 @@
+{
+  "version": "1.0.0",
+  "label": "LED PAR 64 AT3",
+  "manufacturer": "Litecraft",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 274,
+  "dimension_height": 268,
+  "dimension_depth": 433,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 69,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Strobe/Speed",
+      "capabilities": [
+        {
+          "label": "No strobe",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "16 speed values",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 35
+        },
+        {
+          "label": "Automatic ramp up",
+          "min": 36,
+          "max": 71
+        },
+        {
+          "label": "Automatic ramp down",
+          "min": 72,
+          "max": 107
+        },
+        {
+          "label": "Automatic ramp up/down",
+          "min": 108,
+          "max": 143
+        },
+        {
+          "label": "Automatic color mix mode",
+          "min": 144,
+          "max": 179
+        },
+        {
+          "label": "Random 3-colors",
+          "min": 180,
+          "max": 215
+        },
+        {
+          "label": "Random 7-colors",
+          "min": 216,
+          "max": 251
+        },
+        {
+          "label": "Audio",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Color Macro Mode (1/2-Channel Mode)",
+      "capabilities": [
+        {
+          "label": "35 colors + black",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Color Macro Mode (7-Channel Mode)",
+      "capabilities": [
+        {
+          "label": "No macro",
+          "min": 0,
+          "max": 13
+        },
+        {
+          "label": "Pre-programmed colors",
+          "min": 14,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Litecraft/Litecraft-LED-PAR-64-AT3.json",
+  "id": 1002
+}

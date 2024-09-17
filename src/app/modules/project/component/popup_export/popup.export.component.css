@@ -1,0 +1,21 @@
+.content-list
+{
+    overflow: auto;
+    margin-top: 15px;
+
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Occupe 100% de la hauteur de son conteneur parent */
+}
+
+.popup-export-menu-list-item
+{
+    background: #f7f7f7;
+    cursor: pointer;
+}
+
+.popup-export-menu-list-item:hover
+{
+  background: #ebebeb;
+  cursor: pointer;
+}

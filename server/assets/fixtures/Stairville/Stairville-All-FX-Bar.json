@@ -1,0 +1,1051 @@
+{
+  "version": "1.0.0",
+  "label": "All FX Bar",
+  "manufacturer": "Stairville",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 5,
+  "dimension_width": 760,
+  "dimension_height": 245,
+  "dimension_depth": 180,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 35,
+  "technical_dmx_connector": "3-pin",
+  "type": 3,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Automatic show for all components",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "AUT1",
+          "min": 6,
+          "max": 22
+        },
+        {
+          "label": "AUT2",
+          "min": 23,
+          "max": 40
+        },
+        {
+          "label": "AUT3",
+          "min": 41,
+          "max": 58
+        },
+        {
+          "label": "AUT4",
+          "min": 59,
+          "max": 76
+        },
+        {
+          "label": "AUT5",
+          "min": 77,
+          "max": 94
+        },
+        {
+          "label": "AUT6",
+          "min": 95,
+          "max": 112
+        },
+        {
+          "label": "AUT7",
+          "min": 113,
+          "max": 129
+        },
+        {
+          "label": "AUT8",
+          "min": 130,
+          "max": 147
+        },
+        {
+          "label": "AUT9",
+          "min": 148,
+          "max": 165
+        },
+        {
+          "label": "AUT10",
+          "min": 166,
+          "max": 183
+        },
+        {
+          "label": "AUT11",
+          "min": 184,
+          "max": 201
+        },
+        {
+          "label": "AUT12",
+          "min": 202,
+          "max": 219
+        },
+        {
+          "label": "AUT13",
+          "min": 220,
+          "max": 237
+        },
+        {
+          "label": "AUT14",
+          "min": 238,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Sound controlled automatic show for all components",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "SOU1",
+          "min": 6,
+          "max": 22
+        },
+        {
+          "label": "SOU2",
+          "min": 23,
+          "max": 40
+        },
+        {
+          "label": "SOU3",
+          "min": 41,
+          "max": 58
+        },
+        {
+          "label": "SOU4",
+          "min": 59,
+          "max": 76
+        },
+        {
+          "label": "SOU5",
+          "min": 77,
+          "max": 94
+        },
+        {
+          "label": "SOU6",
+          "min": 95,
+          "max": 112
+        },
+        {
+          "label": "SOU7",
+          "min": 113,
+          "max": 129
+        },
+        {
+          "label": "SOU8",
+          "min": 130,
+          "max": 147
+        },
+        {
+          "label": "SOU9",
+          "min": 148,
+          "max": 165
+        },
+        {
+          "label": "SOU10",
+          "min": 166,
+          "max": 183
+        },
+        {
+          "label": "SOU11",
+          "min": 184,
+          "max": 201
+        },
+        {
+          "label": "SOU12",
+          "min": 202,
+          "max": 219
+        },
+        {
+          "label": "SOU13",
+          "min": 220,
+          "max": 237
+        },
+        {
+          "label": "SOU14",
+          "min": 238,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Show speed/Microphone sensitivity",
+      "capabilities": [
+        {
+          "label": "Run speed of the automatic show, from slow to fast",
+          "min": 0,
+          "max": 250
+        },
+        {
+          "label": "Sensitivity of the music control microphone from low to high",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Automatic show for UV LEDs",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "AP01",
+          "min": 6,
+          "max": 55
+        },
+        {
+          "label": "AP02",
+          "min": 56,
+          "max": 106
+        },
+        {
+          "label": "AP03",
+          "min": 107,
+          "max": 155
+        },
+        {
+          "label": "AP04",
+          "min": 156,
+          "max": 205
+        },
+        {
+          "label": "APM (mix program)",
+          "min": 206,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Sound controlled automatic show for UV LEDs",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "SP01",
+          "min": 6,
+          "max": 55
+        },
+        {
+          "label": "SP02",
+          "min": 56,
+          "max": 106
+        },
+        {
+          "label": "SP03",
+          "min": 107,
+          "max": 155
+        },
+        {
+          "label": "SP04",
+          "min": 156,
+          "max": 205
+        },
+        {
+          "label": "SPM (mix program)",
+          "min": 206,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Automatic show for beam LEDs",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "AB01",
+          "min": 6,
+          "max": 13
+        },
+        {
+          "label": "AB02",
+          "min": 14,
+          "max": 21
+        },
+        {
+          "label": "AB03",
+          "min": 22,
+          "max": 29
+        },
+        {
+          "label": "AB04",
+          "min": 30,
+          "max": 37
+        },
+        {
+          "label": "AB05",
+          "min": 38,
+          "max": 45
+        },
+        {
+          "label": "AB06",
+          "min": 46,
+          "max": 53
+        },
+        {
+          "label": "AB07",
+          "min": 54,
+          "max": 61
+        },
+        {
+          "label": "AB08",
+          "min": 62,
+          "max": 69
+        },
+        {
+          "label": "AB09",
+          "min": 70,
+          "max": 77
+        },
+        {
+          "label": "AB10",
+          "min": 78,
+          "max": 85
+        },
+        {
+          "label": "AB11",
+          "min": 86,
+          "max": 93
+        },
+        {
+          "label": "AB12",
+          "min": 94,
+          "max": 101
+        },
+        {
+          "label": "AB13",
+          "min": 102,
+          "max": 109
+        },
+        {
+          "label": "AB14",
+          "min": 110,
+          "max": 117
+        },
+        {
+          "label": "AB15",
+          "min": 118,
+          "max": 125
+        },
+        {
+          "label": "AB16",
+          "min": 126,
+          "max": 133
+        },
+        {
+          "label": "AB17",
+          "min": 134,
+          "max": 141
+        },
+        {
+          "label": "AB18",
+          "min": 142,
+          "max": 149
+        },
+        {
+          "label": "AB19",
+          "min": 150,
+          "max": 157
+        },
+        {
+          "label": "AB20",
+          "min": 158,
+          "max": 165
+        },
+        {
+          "label": "AB21",
+          "min": 166,
+          "max": 173
+        },
+        {
+          "label": "AB22",
+          "min": 174,
+          "max": 181
+        },
+        {
+          "label": "AB23",
+          "min": 182,
+          "max": 189
+        },
+        {
+          "label": "AB24",
+          "min": 190,
+          "max": 197
+        },
+        {
+          "label": "AB25",
+          "min": 198,
+          "max": 205
+        },
+        {
+          "label": "AB26",
+          "min": 206,
+          "max": 213
+        },
+        {
+          "label": "AB27",
+          "min": 214,
+          "max": 221
+        },
+        {
+          "label": "AB28",
+          "min": 222,
+          "max": 229
+        },
+        {
+          "label": "AB29",
+          "min": 230,
+          "max": 237
+        },
+        {
+          "label": "AB30",
+          "min": 238,
+          "max": 245
+        },
+        {
+          "label": "ABM (mix program)",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Sound controlled automatic show for beam LEDs",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "SB01",
+          "min": 6,
+          "max": 13
+        },
+        {
+          "label": "SB02",
+          "min": 14,
+          "max": 21
+        },
+        {
+          "label": "SB03",
+          "min": 22,
+          "max": 29
+        },
+        {
+          "label": "SB04",
+          "min": 30,
+          "max": 37
+        },
+        {
+          "label": "SB05",
+          "min": 38,
+          "max": 45
+        },
+        {
+          "label": "SB06",
+          "min": 46,
+          "max": 53
+        },
+        {
+          "label": "SB07",
+          "min": 54,
+          "max": 61
+        },
+        {
+          "label": "SB08",
+          "min": 62,
+          "max": 69
+        },
+        {
+          "label": "SB09",
+          "min": 70,
+          "max": 77
+        },
+        {
+          "label": "SB10",
+          "min": 78,
+          "max": 85
+        },
+        {
+          "label": "SB11",
+          "min": 86,
+          "max": 93
+        },
+        {
+          "label": "SB12",
+          "min": 94,
+          "max": 101
+        },
+        {
+          "label": "SB13",
+          "min": 102,
+          "max": 109
+        },
+        {
+          "label": "SB14",
+          "min": 110,
+          "max": 117
+        },
+        {
+          "label": "SB15",
+          "min": 118,
+          "max": 125
+        },
+        {
+          "label": "SB16",
+          "min": 126,
+          "max": 133
+        },
+        {
+          "label": "SB17",
+          "min": 134,
+          "max": 141
+        },
+        {
+          "label": "SB18",
+          "min": 142,
+          "max": 149
+        },
+        {
+          "label": "SB19",
+          "min": 150,
+          "max": 157
+        },
+        {
+          "label": "SB20",
+          "min": 158,
+          "max": 165
+        },
+        {
+          "label": "SB21",
+          "min": 166,
+          "max": 173
+        },
+        {
+          "label": "SB22",
+          "min": 174,
+          "max": 181
+        },
+        {
+          "label": "SB23",
+          "min": 182,
+          "max": 189
+        },
+        {
+          "label": "SB24",
+          "min": 190,
+          "max": 197
+        },
+        {
+          "label": "SB25",
+          "min": 198,
+          "max": 205
+        },
+        {
+          "label": "SB26",
+          "min": 206,
+          "max": 213
+        },
+        {
+          "label": "SB27",
+          "min": 214,
+          "max": 221
+        },
+        {
+          "label": "SB28",
+          "min": 222,
+          "max": 229
+        },
+        {
+          "label": "SB29",
+          "min": 230,
+          "max": 237
+        },
+        {
+          "label": "SB30",
+          "min": 238,
+          "max": 245
+        },
+        {
+          "label": "SBM (mix program)",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Automatic show for laser",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "AL01",
+          "min": 6,
+          "max": 40
+        },
+        {
+          "label": "AL02",
+          "min": 41,
+          "max": 76
+        },
+        {
+          "label": "AL03",
+          "min": 77,
+          "max": 112
+        },
+        {
+          "label": "AL04",
+          "min": 113,
+          "max": 147
+        },
+        {
+          "label": "AL05",
+          "min": 148,
+          "max": 183
+        },
+        {
+          "label": "AL06",
+          "min": 184,
+          "max": 219
+        },
+        {
+          "label": "ALM (mix program)",
+          "min": 220,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Sound controlled automatic show for laser",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "SL01",
+          "min": 6,
+          "max": 40
+        },
+        {
+          "label": "SL02",
+          "min": 41,
+          "max": 76
+        },
+        {
+          "label": "SL03",
+          "min": 77,
+          "max": 112
+        },
+        {
+          "label": "SL04",
+          "min": 113,
+          "max": 147
+        },
+        {
+          "label": "SL05",
+          "min": 148,
+          "max": 183
+        },
+        {
+          "label": "SL06",
+          "min": 184,
+          "max": 219
+        },
+        {
+          "label": "SLM (mix program)",
+          "min": 220,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Automatic show for strobe LEDs",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "AF01",
+          "min": 6,
+          "max": 27
+        },
+        {
+          "label": "AF02",
+          "min": 28,
+          "max": 50
+        },
+        {
+          "label": "AF03",
+          "min": 51,
+          "max": 73
+        },
+        {
+          "label": "AF04",
+          "min": 74,
+          "max": 95
+        },
+        {
+          "label": "AF05",
+          "min": 96,
+          "max": 118
+        },
+        {
+          "label": "AF06",
+          "min": 119,
+          "max": 141
+        },
+        {
+          "label": "AF07",
+          "min": 142,
+          "max": 163
+        },
+        {
+          "label": "AF08",
+          "min": 164,
+          "max": 186
+        },
+        {
+          "label": "AF09",
+          "min": 187,
+          "max": 209
+        },
+        {
+          "label": "AF10",
+          "min": 210,
+          "max": 232
+        },
+        {
+          "label": "AFM (mix program)",
+          "min": 233,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Sound controlled automatic show for strobe LEDs",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "SF01",
+          "min": 6,
+          "max": 27
+        },
+        {
+          "label": "SF02",
+          "min": 28,
+          "max": 50
+        },
+        {
+          "label": "SF03",
+          "min": 51,
+          "max": 73
+        },
+        {
+          "label": "SF04",
+          "min": 74,
+          "max": 95
+        },
+        {
+          "label": "SF05",
+          "min": 96,
+          "max": 118
+        },
+        {
+          "label": "SF06",
+          "min": 119,
+          "max": 141
+        },
+        {
+          "label": "SF07",
+          "min": 142,
+          "max": 163
+        },
+        {
+          "label": "SF08",
+          "min": 164,
+          "max": 186
+        },
+        {
+          "label": "SF09",
+          "min": 187,
+          "max": 209
+        },
+        {
+          "label": "SF10",
+          "min": 210,
+          "max": 232
+        },
+        {
+          "label": "SFM (mix program)",
+          "min": 233,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 5,
+      "type_description": "Dimmer/Strobe",
+      "capabilities": [
+        {
+          "label": "Dimmer (0% to 100%)",
+          "min": 0,
+          "max": 128
+        },
+        {
+          "label": "Strobe effect with increasing speed",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 3,
+      "type_description": "Laser selection",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Red laser switched on",
+          "min": 6,
+          "max": 48
+        },
+        {
+          "label": "Green laser switched on",
+          "min": 49,
+          "max": 89
+        },
+        {
+          "label": "Red and green laser switched on",
+          "min": 90,
+          "max": 131
+        },
+        {
+          "label": "Strobe effect red laser, green laser switched on",
+          "min": 132,
+          "max": 173
+        },
+        {
+          "label": "Red laser switched on, strobe effect green laser",
+          "min": 174,
+          "max": 215
+        },
+        {
+          "label": "Strobe effect red and green lasers",
+          "min": 216,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 3,
+      "type_description": "Laser rotation",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Clockwise rotation, increasing speed",
+          "min": 1,
+          "max": 127
+        },
+        {
+          "label": "Laser paused",
+          "min": 128,
+          "max": 128
+        },
+        {
+          "label": "Counter-clockwise rotation, increasing speed",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 22,
+      "type_description": "Strobe LEDs show run speed",
+      "capabilities": [
+        {
+          "label": "Run speed of the automatic show, from slow to fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 3,
+      "type_description": "Sound control selection",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 35
+        },
+        {
+          "label": "Sound-controlled automatic show for beam LEDs",
+          "min": 36,
+          "max": 71
+        },
+        {
+          "label": "Sound-controlled automatic show for laser",
+          "min": 72,
+          "max": 106
+        },
+        {
+          "label": "Sound-controlled automatic show for strobe LEDs",
+          "min": 107,
+          "max": 141
+        },
+        {
+          "label": "Sound-controlled automatic show for beam LEDs and laser",
+          "min": 142,
+          "max": 176
+        },
+        {
+          "label": "Sound-controlled automatic show for strobe LEDs and laser",
+          "min": 177,
+          "max": 211
+        },
+        {
+          "label": "Sound-controlled automatic show for beam LEDs, laser and strobe LEDs",
+          "min": 212,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 22,
+      "type_description": "Beam LEDs show run speed",
+      "capabilities": [
+        {
+          "label": "Run speed of the automatic show, from slow to fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "UV LED 1",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "UV LED 2",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 3,
+      "type_description": "UV LEDs strobe/sound control",
+      "capabilities": [
+        {
+          "label": "Strobe effect with increasing speed",
+          "min": 0,
+          "max": 250
+        },
+        {
+          "label": "Sound-controlled strobe effect",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "type": 3,
+      "type_description": "Laser strobe/sound control",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Strobe effect with increasing speed",
+          "min": 6,
+          "max": 250
+        },
+        {
+          "label": "Sound-controlled strobe effect",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Stairville/Stairville-All-FX-Bar.json",
+  "id": 1379
+}

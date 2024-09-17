@@ -1,0 +1,125 @@
+<div class="sequence-fixture-transition-thumb" >
+    <div class="sequence-fixture-transition-thumb-header">
+        <div class="sequence-fixture-transition-thumb-header-title">
+           
+            <button mat-button (click)="onChangeTransitionLabel()" color="accent">
+                <i>{{sequenceFixtureTransition.label}} </i> - <small>{{sequenceFixtureTransition.getDurationString()}}</small>
+            </button>
+        </div>
+        <span class="toolbar-spacer"></span>
+       
+        
+        <button *ngIf="sequenceFixtureTransition.isPlayging == false" mat-icon-button (click)="play()" matTooltip="Play transition">
+            <mat-icon  color="accent">play_circle_outline</mat-icon>
+        </button>
+        <button  *ngIf="sequenceFixtureTransition.isPlayging == true" mat-icon-button (click)="stop()" matTooltip="Stop transition">
+            <mat-icon  color="accent">stop</mat-icon>
+        </button>    
+        <div >
+            <button mat-icon-button (click)="duplicate()" matTooltip="Duplicate transition">
+                <mat-icon  color="accent">content_copy</mat-icon>
+            </button>
+        </div>
+        <div >
+            <button mat-icon-button (click)="remove()" matTooltip="Delete transition">
+                <mat-icon  color="warn">delete</mat-icon>
+            </button>
+        </div>
+    </div>
+    <div class="sequence-fixture-transition-thumb-content">
+        
+        <div class="sequence-fixture-transition-thumb-content-two-columns">
+            <div>
+                <div class="title">Transition type</div>
+                <div class="sequence-fixture-transition-thumb-content-part">
+                    <mat-form-field color="accent" fxFlex="90">
+                        <mat-label>Transition type</mat-label>
+                        <mat-select [(value)]="sequenceFixtureTransition.type" (selectionChange)="onChangeTransitionType()" >
+                            <mat-option *ngFor="let transitionType of fixtureService.transitionTypes" [value]="transitionType">
+                                {{transitionType.label}}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                    <br>
+                    <mat-form-field color="accent" fxFlex="90">
+                        <mat-label>Transition sub type</mat-label>
+                        <mat-select [(value)]="sequenceFixtureTransition.subType" [disabled]="sequenceFixtureTransition.type.subTypes.length == 0" >
+                            <mat-option *ngFor="let transitionSubType of sequenceFixtureTransition.type.subTypes" [value]="transitionSubType">
+                                {{transitionSubType.label}}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+            </div>
+            <div>
+                <div class="title">Duration</div>
+
+                <mat-radio-group [(ngModel)]="sequenceFixtureTransition.fixedDuration" >
+                    <mat-radio-button  (change)="onChangeDurationType($event)"  [value]="true">Fixed duration</mat-radio-button>
+                    <mat-radio-button  (change)="onChangeDurationType($event)"  [value]="false">Randomized duration</mat-radio-button>
+                </mat-radio-group>
+
+                <div class="duration-container" >
+                    <mat-form-field  color="accent" *ngIf="sequenceFixtureTransition.fixedDuration == true">
+                        <mat-label>Fixed duration (ms)</mat-label>
+                        <input matInput [(ngModel)]="sequenceFixtureTransition.duration" [ngModelOptions]="{standalone: true}" />
+                    </mat-form-field>
+                    <mat-form-field  color="accent" *ngIf="sequenceFixtureTransition.fixedDuration == false">
+                        <mat-label>Min duration (ms)</mat-label>
+                        <input matInput [(ngModel)]="sequenceFixtureTransition.durationMin" [ngModelOptions]="{standalone: true}" />
+                    </mat-form-field>
+                    <mat-form-field  color="accent" *ngIf="sequenceFixtureTransition.fixedDuration == false">
+                        <mat-label>Max duration (ms)</mat-label>
+                        <input matInput [(ngModel)]="sequenceFixtureTransition.durationMax" [ngModelOptions]="{standalone: true}" />
+                    </mat-form-field>
+                </div>
+            </div>
+        </div>
+
+
+        <div *ngIf="sequenceFixtureTransition.type != null" >
+            <div *ngIf="sequenceFixtureTransition.type.useStartEndChannel == true" >
+                <div class="title">Channels</div>
+
+                <div class="fixture-container" >
+                    <fixture 
+                        class="fixture-container-thumb"
+                        title="start"
+                        [fixture]="sequenceFixtureTransition.startFixture"  
+                        [displayRemoveButton]="false"
+                        [lightHeader]="true"
+                     ></fixture>
+                     <div>
+                        <button mat-icon-button (click)="switchChannels()" matTooltip="Switch Channels">
+                            <mat-icon  color="accent">swap_horiz</mat-icon>
+                        </button>
+                    </div>
+                     <fixture 
+                        class="fixture-container-thumb"
+                        title="end"
+                        [fixture]="sequenceFixtureTransition.endFixture"  
+                        [displayRemoveButton]="false"
+                        [lightHeader]="true"
+                      ></fixture>
+                </div>
+
+            </div>
+        </div>
+        <div *ngIf="sequenceFixtureTransition.type != null" >
+            <div *ngIf="sequenceFixtureTransition.type.useChannel == true" >
+                <div class="title">Channels</div>
+
+                <div class="fixture-container" >
+                    <fixture 
+                        class="fixture-container-thumb"
+                        title="static"
+                        [fixture]="sequenceFixtureTransition.fixFixture"  
+                        [displayRemoveButton]="false"
+                        [lightHeader]="true"
+                     ></fixture>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

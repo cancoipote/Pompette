@@ -1,0 +1,323 @@
+{
+  "version": "1.0.0",
+  "label": "RS400G",
+  "manufacturer": "Laserworld",
+  "bulb_type": "Laser",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 15,
+  "dimension_width": 550,
+  "dimension_height": 310,
+  "dimension_depth": 320,
+  "lens_label": "Other",
+  "lens_degree_min": 40,
+  "lens_degree_max": 60,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 120,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Control",
+      "capabilities": [
+        {
+          "label": "Auto-music mode (ch 1 & 2 valid)",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "Auto-mode (ch 1 & 2 valid)",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Music-edit mode (all channels valid)",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Manual mode (all channels valid)",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "No beam",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "Single colour: Strobe, Multicolour: Colours",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Single colour: Fluxion blanking, Multicolour: Colour change",
+          "min": 128,
+          "max": 192
+        },
+        {
+          "label": "On",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 4,
+      "type_description": "Pattern group",
+      "capabilities": [
+        {
+          "label": "Pattern group 1",
+          "min": 0,
+          "max": 42
+        },
+        {
+          "label": "Pattern group 2",
+          "min": 43,
+          "max": 85
+        },
+        {
+          "label": "Pattern group 3",
+          "min": 86,
+          "max": 128
+        },
+        {
+          "label": "Pattern group 4",
+          "min": 129,
+          "max": 171
+        },
+        {
+          "label": "Pattern group 5",
+          "min": 172,
+          "max": 214
+        },
+        {
+          "label": "Pattern group 6",
+          "min": 215,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 4,
+      "type_description": "Pattern",
+      "capabilities": [
+        {
+          "label": "32 patterns",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Speed",
+      "capabilities": [
+        {
+          "label": "Slow to fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Rotation",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "Rotate horizontally",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Rotate vertically",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Rotate h. & v.",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Dot rotation",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "Rotating",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "No function",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Rotating & dotting",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Move",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "Move horizontally",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Move vertically",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Move h. & v.",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Extend",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "Extend horizontally",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Extend vertically",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Extend h. & v.",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 1,
+      "type_description": "Zoom",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 85
+        },
+        {
+          "label": "Small to large",
+          "min": 86,
+          "max": 169
+        },
+        {
+          "label": "Large to small",
+          "min": 170,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 22,
+      "type_description": "Drawing Speed",
+      "capabilities": [
+        {
+          "label": "Slow to fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 22,
+      "type_description": "Scan speed",
+      "capabilities": [
+        {
+          "label": "Slow to fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 22,
+      "type_description": "Colour Speed",
+      "capabilities": [
+        {
+          "label": "Slow to fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 3,
+      "type_description": "Size",
+      "capabilities": [
+        {
+          "label": "Original size",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Small to large (120 = original)",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Laserworld/Laserworld-RS400G.json",
+  "id": 961
+}

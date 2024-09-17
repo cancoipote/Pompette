@@ -1,0 +1,185 @@
+{
+  "version": "1.0.0",
+  "label": "TS-255",
+  "manufacturer": "Eurolite",
+  "bulb_type": "MSD 250W",
+  "bulb_lumens": 18000,
+  "bulb_color_temperature": 6500,
+  "dimension_weight": 8,
+  "dimension_width": 285,
+  "dimension_height": 555,
+  "dimension_depth": 270,
+  "lens_label": "Other",
+  "lens_degree_min": 18,
+  "lens_degree_max": 18,
+  "focus_type": "Mirror",
+  "focus_pan_max": 180,
+  "focus_tilt_max": 90,
+  "technical_power_consumption": 575,
+  "technical_dmx_connector": "3-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Red",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Yellow",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Violet",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Green",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Orange",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Blue",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Pink",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Gobo 1",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Gobo 2",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Gobo 3",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Gobo 4",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Gobo 5",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Gobo 6",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Gobo 7",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Shutter, strobe",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 14
+        },
+        {
+          "label": "Open",
+          "min": 15,
+          "max": 15
+        },
+        {
+          "label": "Strobe slow to fast",
+          "min": 16,
+          "max": 250
+        },
+        {
+          "label": "Open",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 22,
+      "type_description": "Gobo rotation",
+      "capabilities": [
+        {
+          "label": "Gobo indexing",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "CW rotation fast to slow",
+          "min": 5,
+          "max": 120
+        },
+        {
+          "label": "Rotation STOP",
+          "min": 121,
+          "max": 139
+        },
+        {
+          "label": "CCW rotation slow to fast",
+          "min": 140,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-TS-255.json",
+  "id": 768
+}

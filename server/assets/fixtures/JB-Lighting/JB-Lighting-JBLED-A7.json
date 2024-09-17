@@ -1,0 +1,465 @@
+{
+  "version": "1.0.0",
+  "label": "JBLED A7",
+  "manufacturer": "JB-Lighting",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 8,
+  "dimension_width": 318,
+  "dimension_height": 388,
+  "dimension_depth": 200,
+  "lens_label": "Other",
+  "lens_degree_min": 12,
+  "lens_degree_max": 36,
+  "focus_type": "Head",
+  "focus_pan_max": 430,
+  "focus_tilt_max": 300,
+  "technical_power_consumption": 350,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan (X)",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan (X) Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt (Y)",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt (Y) Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 17,
+      "type_description": "Control",
+      "capabilities": [
+        {
+          "label": "Full output power on LED fade out (slow - fast)",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Colour balance on RGB (8500K) fade out (slow - fast)",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Colour balance on RGB (6500K) fade out (slow - fast)",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Colour balance for colour picker function fade out (slow - fast)",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Safe",
+          "min": 32,
+          "max": 207
+        },
+        {
+          "label": "Camera mode 50Hz (after 2 seconds)",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Camera mode 60Hz (after 2 seconds)",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Camera mode FLEX (after 2 seconds)",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Safe",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Reset (after 2 seconds)",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Safe",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Open",
+          "min": 16,
+          "max": 95
+        },
+        {
+          "label": "Pulse opening >10Hz (0.6sec - 4.8sec)",
+          "min": 96,
+          "max": 110
+        },
+        {
+          "label": "Open",
+          "min": 111,
+          "max": 111
+        },
+        {
+          "label": "Fade effect with dimmer (slow - fast)",
+          "min": 112,
+          "max": 125
+        },
+        {
+          "label": "Open",
+          "min": 126,
+          "max": 126
+        },
+        {
+          "label": "Closed",
+          "min": 127,
+          "max": 127
+        },
+        {
+          "label": "Pulse opening <10Hz (0.6sec - 4.8sec)",
+          "min": 128,
+          "max": 142
+        },
+        {
+          "label": "Open",
+          "min": 143,
+          "max": 143
+        },
+        {
+          "label": "Pulse closing (0.6sec - 4.8sec)",
+          "min": 144,
+          "max": 158
+        },
+        {
+          "label": "Closed",
+          "min": 159,
+          "max": 159
+        },
+        {
+          "label": "Fade 0% (0,6sec - 4,8sec)",
+          "min": 160,
+          "max": 174
+        },
+        {
+          "label": "Open",
+          "min": 175,
+          "max": 175
+        },
+        {
+          "label": "Fade 100% (0,6sec - 4,8sec)",
+          "min": 176,
+          "max": 190
+        },
+        {
+          "label": "Closed",
+          "min": 191,
+          "max": 191
+        },
+        {
+          "label": "Random 100% (0.6sec - 4.8sec)",
+          "min": 192,
+          "max": 206
+        },
+        {
+          "label": "Open",
+          "min": 207,
+          "max": 207
+        },
+        {
+          "label": "Random 0% (0.6sec - 4.8sec)",
+          "min": 208,
+          "max": 222
+        },
+        {
+          "label": "Closed",
+          "min": 223,
+          "max": 223
+        },
+        {
+          "label": "Random fade 0% (0.6sec - 4.8sec)",
+          "min": 224,
+          "max": 238
+        },
+        {
+          "label": "Open",
+          "min": 239,
+          "max": 239
+        },
+        {
+          "label": "Random fade 100% (0.6sec - 4.8sec)",
+          "min": 240,
+          "max": 254
+        },
+        {
+          "label": "Open",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Red (8 Bit)",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Green (8 Bit)",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Blue (8 Bit)",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "CTC",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Colour Wheel",
+      "capabilities": [
+        {
+          "label": "Inactive. Colour mixing with RGB",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "label": "White",
+          "min": 2,
+          "max": 3
+        },
+        {
+          "label": "White/red",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "Red",
+          "min": 8,
+          "max": 11
+        },
+        {
+          "label": "Red/yellow",
+          "min": 12,
+          "max": 15
+        },
+        {
+          "label": "Yellow",
+          "min": 16,
+          "max": 19
+        },
+        {
+          "label": "Yellow/magenta",
+          "min": 20,
+          "max": 23
+        },
+        {
+          "label": "Magenta",
+          "min": 24,
+          "max": 27
+        },
+        {
+          "label": "Magenta/green",
+          "min": 28,
+          "max": 31
+        },
+        {
+          "label": "Green",
+          "min": 32,
+          "max": 35
+        },
+        {
+          "label": "Green/orange",
+          "min": 36,
+          "max": 39
+        },
+        {
+          "label": "Orange",
+          "min": 40,
+          "max": 43
+        },
+        {
+          "label": "Orange/blue",
+          "min": 44,
+          "max": 47
+        },
+        {
+          "label": "Blue",
+          "min": 48,
+          "max": 51
+        },
+        {
+          "label": "Blue/cyan",
+          "min": 52,
+          "max": 55
+        },
+        {
+          "label": "Cyan",
+          "min": 56,
+          "max": 59
+        },
+        {
+          "label": "Cyan/white",
+          "min": 60,
+          "max": 63
+        },
+        {
+          "label": "Colour positioning",
+          "min": 64,
+          "max": 191
+        },
+        {
+          "label": "Rotating clockwise (fast - slow)",
+          "min": 192,
+          "max": 222
+        },
+        {
+          "label": "Rotation stop",
+          "min": 223,
+          "max": 224
+        },
+        {
+          "label": "Rotating counterclockwise (slow - fast)",
+          "min": 225,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 22,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": [
+        {
+          "label": "Moves in realtime",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Moves delayed (fast - slow)",
+          "min": 4,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 22,
+      "type_description": "Effect Speed",
+      "capabilities": [
+        {
+          "label": "Effects in realtime",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Effects delayed (fast - slow)",
+          "min": 4,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 3,
+      "type_description": "Blackout Move",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 95
+        },
+        {
+          "label": "Blackout at pan/tilt move",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Blackout at colour changes",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "No function",
+          "min": 160,
+          "max": 223
+        },
+        {
+          "label": "Blackout at colour changes and pan/tilt moves",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Red Fine (16 Bit)",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Green Fine (16 Bit)",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Blue Fine (16 Bit)",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/JB-Lighting/JB-Lighting-JBLED-A7.json",
+  "id": 908
+}

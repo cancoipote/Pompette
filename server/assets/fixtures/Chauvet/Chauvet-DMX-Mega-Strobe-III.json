@@ -1,0 +1,59 @@
+{
+  "version": "1.0.0",
+  "label": "DMX Mega Strobe III",
+  "manufacturer": "Chauvet",
+  "bulb_type": "CH-750B",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 330,
+  "dimension_height": 211,
+  "dimension_depth": 147,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 75,
+  "technical_dmx_connector": "3-pin",
+  "type": 12,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Speed/Mode/Blinder Function",
+      "capabilities": [
+        {
+          "label": "Slow <-> fast/No function",
+          "min": 0,
+          "max": 42
+        },
+        {
+          "label": "Slow <-> fast/Blinder (requires ch. 2 to be at DMX value 000)",
+          "min": 43,
+          "max": 211
+        },
+        {
+          "label": "Sound triggered/No function",
+          "min": 212,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 5,
+      "type_description": "Dimmer",
+      "capabilities": [
+        {
+          "label": "Low <-> high (0 for Blinder effect)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-DMX-Mega-Strobe-III.json",
+  "id": 436
+}

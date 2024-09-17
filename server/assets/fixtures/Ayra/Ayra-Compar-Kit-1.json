@@ -1,0 +1,314 @@
+{
+  "version": "1.0.0",
+  "label": "Compar Kit 1",
+  "manufacturer": "Ayra",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 10,
+  "dimension_width": 1200,
+  "dimension_height": 300,
+  "dimension_depth": 140,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 80,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Strobing",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Strobe ( Slow to Fast )",
+          "min": 8,
+          "max": 247
+        },
+        {
+          "label": "Sound Strobe",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Color Macros and Programs",
+      "capabilities": [
+        {
+          "label": "Manual",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Color Chase 1",
+          "min": 8,
+          "max": 22
+        },
+        {
+          "label": "Color Chase 2",
+          "min": 23,
+          "max": 37
+        },
+        {
+          "label": "Color Chase 3",
+          "min": 38,
+          "max": 52
+        },
+        {
+          "label": "Color Chase 4",
+          "min": 53,
+          "max": 67
+        },
+        {
+          "label": "Color Chase 5",
+          "min": 68,
+          "max": 82
+        },
+        {
+          "label": "Color Chase 6",
+          "min": 83,
+          "max": 97
+        },
+        {
+          "label": "Color Chase 7",
+          "min": 98,
+          "max": 112
+        },
+        {
+          "label": "Color Chase 8",
+          "min": 113,
+          "max": 127
+        },
+        {
+          "label": "Color Chase 9",
+          "min": 128,
+          "max": 142
+        },
+        {
+          "label": "Color Chase 10",
+          "min": 143,
+          "max": 157
+        },
+        {
+          "label": "Color Chase 11",
+          "min": 158,
+          "max": 172
+        },
+        {
+          "label": "Color Chase 12",
+          "min": 173,
+          "max": 187
+        },
+        {
+          "label": "Color Chase 13",
+          "min": 188,
+          "max": 202
+        },
+        {
+          "label": "Color Chase 14",
+          "min": 203,
+          "max": 217
+        },
+        {
+          "label": "Color Chase 15",
+          "min": 218,
+          "max": 232
+        },
+        {
+          "label": "Color Chase 16",
+          "min": 233,
+          "max": 247
+        },
+        {
+          "label": "Stand Alone",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 22,
+      "type_description": "Program Speed/Sound Sense",
+      "capabilities": [
+        {
+          "label": "Hold",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Program Speed (slow to fast)",
+          "min": 8,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Red 1",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Red 2",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Red 3",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Red 4",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Green 1",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Green 2",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Green 3",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Green 4",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Blue 1",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Blue 2",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Blue 3",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Blue 4",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Shows",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Show 01",
+          "min": 8,
+          "max": 37
+        },
+        {
+          "label": "Show 02",
+          "min": 38,
+          "max": 67
+        },
+        {
+          "label": "Show 03",
+          "min": 68,
+          "max": 97
+        },
+        {
+          "label": "Show 04",
+          "min": 98,
+          "max": 127
+        },
+        {
+          "label": "Show 05",
+          "min": 128,
+          "max": 157
+        },
+        {
+          "label": "Show 06",
+          "min": 158,
+          "max": 187
+        },
+        {
+          "label": "Show 07",
+          "min": 188,
+          "max": 217
+        },
+        {
+          "label": "Show 08",
+          "min": 218,
+          "max": 247
+        },
+        {
+          "label": "Random Show",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Ayra/Ayra-Compar-Kit-1.json",
+  "id": 230
+}

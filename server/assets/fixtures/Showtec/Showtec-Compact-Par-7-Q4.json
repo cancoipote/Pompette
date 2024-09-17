@@ -1,0 +1,382 @@
+{
+  "version": "1.0.0",
+  "label": "Compact Par 7 Q4",
+  "manufacturer": "Showtec",
+  "bulb_type": "LED",
+  "bulb_lumens": 681,
+  "bulb_color_temperature": 4000,
+  "dimension_weight": 2,
+  "dimension_width": 260,
+  "dimension_height": 92,
+  "dimension_depth": 272,
+  "lens_label": "Other",
+  "lens_degree_min": 18,
+  "lens_degree_max": 18,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 32,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No Strobe",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Strobe 0-20 Hz",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Random Strobe",
+      "capabilities": [
+        {
+          "label": "No Strobe",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Random Strobe",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Color Presets",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Fixed Colour 1 (R255; G000; B000; W000)",
+          "min": 8,
+          "max": 13
+        },
+        {
+          "label": "Fixed Colour 2 (R255; G000; B000; W100)",
+          "min": 14,
+          "max": 20
+        },
+        {
+          "label": "Fixed Colour 3 (R255; G000; B000; W200)",
+          "min": 21,
+          "max": 27
+        },
+        {
+          "label": "Fixed Colour 4 (R255; G050; B000; W000)",
+          "min": 28,
+          "max": 34
+        },
+        {
+          "label": "Fixed Colour 5 (R255; G150; B000; W000)",
+          "min": 35,
+          "max": 41
+        },
+        {
+          "label": "Fixed Colour 6 (R255; G255; B000; W000)",
+          "min": 42,
+          "max": 48
+        },
+        {
+          "label": "Fixed Colour 7 (R255; G255; B000; W075)",
+          "min": 49,
+          "max": 55
+        },
+        {
+          "label": "Fixed Colour 8 (R255; G255; B000; W255)",
+          "min": 56,
+          "max": 62
+        },
+        {
+          "label": "Fixed Colour 9 (R000; G255; B000; W150)",
+          "min": 63,
+          "max": 69
+        },
+        {
+          "label": "Fixed Colour 10 (R000; G255; B000; W050)",
+          "min": 70,
+          "max": 76
+        },
+        {
+          "label": "Fixed Colour 11 (R000; G255; B000; W000)",
+          "min": 77,
+          "max": 83
+        },
+        {
+          "label": "Fixed Colour 12 (R000; G255; B050; W000)",
+          "min": 84,
+          "max": 90
+        },
+        {
+          "label": "Fixed Colour 13 (R000; G255; B150; W000)",
+          "min": 91,
+          "max": 97
+        },
+        {
+          "label": "Fixed Colour 14 (R000; G255; B255; W000)",
+          "min": 98,
+          "max": 104
+        },
+        {
+          "label": "Fixed Colour 15 (R000; G255; B255; W075)",
+          "min": 105,
+          "max": 111
+        },
+        {
+          "label": "Fixed Colour 16 (R000; G255; B255; W150)",
+          "min": 112,
+          "max": 118
+        },
+        {
+          "label": "Fixed Colour 17 (R000; G100; B255; W255)",
+          "min": 119,
+          "max": 125
+        },
+        {
+          "label": "Fixed Colour 18 (R000; G000; B255; W100)",
+          "min": 126,
+          "max": 132
+        },
+        {
+          "label": "Fixed Colour 19 (R000; G000; B255; W050)",
+          "min": 133,
+          "max": 139
+        },
+        {
+          "label": "Fixed Colour 20 (R000; G000; B255; W000)",
+          "min": 140,
+          "max": 146
+        },
+        {
+          "label": "Fixed Colour 21 (R075; G000; B255; W000)",
+          "min": 147,
+          "max": 153
+        },
+        {
+          "label": "Fixed Colour 22 (R160; G000; B255; W000)",
+          "min": 154,
+          "max": 160
+        },
+        {
+          "label": "Fixed Colour 23 (R255; G000; B255; W000)",
+          "min": 161,
+          "max": 167
+        },
+        {
+          "label": "Fixed Colour 24 (R255; G000; B175; W000)",
+          "min": 168,
+          "max": 174
+        },
+        {
+          "label": "Fixed Colour 25 (R255; G000; B100; W000)",
+          "min": 175,
+          "max": 181
+        },
+        {
+          "label": "Fixed Colour 26 (R255; G000; B100; W050)",
+          "min": 182,
+          "max": 188
+        },
+        {
+          "label": "Fixed Colour 27 (R255; G000; B025; W050)",
+          "min": 189,
+          "max": 195
+        },
+        {
+          "label": "Fixed Colour 28 (R255; G000; B025; W025)",
+          "min": 196,
+          "max": 202
+        },
+        {
+          "label": "Fixed Colour 29 (R255; G000; B025; W000)",
+          "min": 203,
+          "max": 209
+        },
+        {
+          "label": "Fixed Colour 30 (R000; G000; B000; W255)",
+          "min": 210,
+          "max": 216
+        },
+        {
+          "label": "Fixed Colour 31 (R075; G075; B100; W255)",
+          "min": 217,
+          "max": 223
+        },
+        {
+          "label": "Fixed Colour 32 (R000; G000; B100; W255)",
+          "min": 224,
+          "max": 230
+        },
+        {
+          "label": "Fixed Colour 33 (R255; G255; B225; W255)",
+          "min": 231,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Color Running",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Jump 1",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Jump 2",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Jump 3",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Jump 4",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Jump 5",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Jump 6",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Jump 7",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Jump 8",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Fade 1",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Fade 2",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Fade 3",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Fade 4",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "Fade 5",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "Fade 6",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "Fade 7",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 22,
+      "type_description": "Speed color running",
+      "capabilities": [
+        {
+          "label": "Gradual speed adjustment, from slow to fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Sound mode",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 50
+        },
+        {
+          "label": "Gradual adjustment sensivity, from 1-100%",
+          "min": 51,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Showtec/Showtec-Compact-Par-7-Q4.json",
+  "id": 1280
+}

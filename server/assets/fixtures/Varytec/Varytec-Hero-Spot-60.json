@@ -1,0 +1,426 @@
+{
+  "version": "1.0.0",
+  "label": "Hero Spot 60",
+  "manufacturer": "Varytec",
+  "bulb_type": "LED",
+  "bulb_lumens": 44600,
+  "bulb_color_temperature": 8000,
+  "dimension_weight": 4,
+  "dimension_width": 214,
+  "dimension_height": 355,
+  "dimension_depth": 144,
+  "lens_label": "Other",
+  "lens_degree_min": 15,
+  "lens_degree_max": 15,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 190,
+  "technical_power_consumption": 100,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe (slow to fast)",
+          "min": 10,
+          "max": 250
+        },
+        {
+          "label": "Open",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Automatic Shows",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Preprogrammed automatic show 1",
+          "min": 11,
+          "max": 20
+        },
+        {
+          "label": "Preprogrammed automatic show 2",
+          "min": 21,
+          "max": 30
+        },
+        {
+          "label": "Preprogrammed automatic show 3",
+          "min": 31,
+          "max": 40
+        },
+        {
+          "label": "Preprogrammed automatic show 4",
+          "min": 41,
+          "max": 50
+        },
+        {
+          "label": "Preprogrammed automatic show 5",
+          "min": 51,
+          "max": 60
+        },
+        {
+          "label": "Preprogrammed automatic show 6",
+          "min": 61,
+          "max": 70
+        },
+        {
+          "label": "Preprogrammed automatic show 7",
+          "min": 71,
+          "max": 80
+        },
+        {
+          "label": "Preprogrammed automatic show 8",
+          "min": 81,
+          "max": 90
+        },
+        {
+          "label": "Music Control (off to high sensitivity)",
+          "min": 91,
+          "max": 230
+        },
+        {
+          "label": "Reset (when held for 3 seconds)",
+          "min": 231,
+          "max": 240
+        },
+        {
+          "label": "No function",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Moving Programs (Open Shutter)",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "White, Open",
+          "min": 11,
+          "max": 20
+        },
+        {
+          "label": "Blue, Gobo 1",
+          "min": 21,
+          "max": 30
+        },
+        {
+          "label": "Violett, Gobo 2",
+          "min": 31,
+          "max": 40
+        },
+        {
+          "label": "Orange, Gobo 3",
+          "min": 41,
+          "max": 50
+        },
+        {
+          "label": "White, Gobo 4",
+          "min": 51,
+          "max": 60
+        },
+        {
+          "label": "White, Gobo 5",
+          "min": 61,
+          "max": 70
+        },
+        {
+          "label": "White, Open, Prism",
+          "min": 71,
+          "max": 80
+        },
+        {
+          "label": "Blue, Gobo 1, medium speed, Prism",
+          "min": 81,
+          "max": 90
+        },
+        {
+          "label": "Violett, Gobo 2, medium speed, Prism",
+          "min": 91,
+          "max": 100
+        },
+        {
+          "label": "Orange, Gobo 3, medium speed, Prism",
+          "min": 101,
+          "max": 110
+        },
+        {
+          "label": "White, Gobo 4, medium speed, Prism",
+          "min": 111,
+          "max": 120
+        },
+        {
+          "label": "White, Gobo 5, medium speed, Prism",
+          "min": 121,
+          "max": 130
+        },
+        {
+          "label": "Automatic color, Prism, Gobo 1",
+          "min": 131,
+          "max": 140
+        },
+        {
+          "label": "Automatic color, Prism, Gobo 2",
+          "min": 141,
+          "max": 150
+        },
+        {
+          "label": "Automatic color, Prism, Gobo 3",
+          "min": 151,
+          "max": 160
+        },
+        {
+          "label": "Automatic color, Prism, Gobo 4",
+          "min": 161,
+          "max": 170
+        },
+        {
+          "label": "Automatic color, Prism, Gobo 5",
+          "min": 171,
+          "max": 180
+        },
+        {
+          "label": "Automatic color, Gobo, music controlled Prism",
+          "min": 181,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 24
+        },
+        {
+          "label": "Red",
+          "min": 25,
+          "max": 50
+        },
+        {
+          "label": "Yellow",
+          "min": 51,
+          "max": 75
+        },
+        {
+          "label": "Light Blue",
+          "min": 76,
+          "max": 100
+        },
+        {
+          "label": "Green",
+          "min": 101,
+          "max": 125
+        },
+        {
+          "label": "Amber",
+          "min": 126,
+          "max": 150
+        },
+        {
+          "label": "Violet",
+          "min": 151,
+          "max": 175
+        },
+        {
+          "label": "Blue",
+          "min": 176,
+          "max": 200
+        },
+        {
+          "label": "Rainbow Counterclockwise",
+          "min": 201,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Gobo 1",
+          "min": 10,
+          "max": 26
+        },
+        {
+          "label": "Gobo 2",
+          "min": 27,
+          "max": 43
+        },
+        {
+          "label": "Gobo 3",
+          "min": 44,
+          "max": 60
+        },
+        {
+          "label": "Gobo 4",
+          "min": 61,
+          "max": 77
+        },
+        {
+          "label": "Gobo 5",
+          "min": 78,
+          "max": 94
+        },
+        {
+          "label": "Gobo 1 Shake, slow to fast",
+          "min": 95,
+          "max": 114
+        },
+        {
+          "label": "Gobo 2 shake, slow to fast",
+          "min": 115,
+          "max": 134
+        },
+        {
+          "label": "Gobo 3 shake, slow to fast",
+          "min": 135,
+          "max": 154
+        },
+        {
+          "label": "Gobo 4 shake, slow to fast",
+          "min": 155,
+          "max": 174
+        },
+        {
+          "label": "Gobo 5 shake, slow to fast",
+          "min": 175,
+          "max": 194
+        },
+        {
+          "label": "Rainbow Clockwise",
+          "min": 195,
+          "max": 224
+        },
+        {
+          "label": "Rainbow Counterclockwise",
+          "min": 225,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 4,
+      "type_description": "Gobo Rotation",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Clockwise",
+          "min": 10,
+          "max": 129
+        },
+        {
+          "label": "Stop",
+          "min": 130,
+          "max": 134
+        },
+        {
+          "label": "Counterclockwise",
+          "min": 135,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 128
+        },
+        {
+          "label": "Prism",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Moving Speed",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Varytec/Varytec-Hero-Spot-60.json",
+  "id": 1496
+}

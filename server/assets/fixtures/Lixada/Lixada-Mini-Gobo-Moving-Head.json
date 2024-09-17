@@ -1,0 +1,271 @@
+{
+  "version": "1.0.0",
+  "label": "Mini Gobo Moving Head",
+  "manufacturer": "Lixada",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 210,
+  "dimension_height": 260,
+  "dimension_depth": 280,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 180,
+  "technical_power_consumption": 25,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Color Control",
+      "capabilities": [
+        {
+          "label": "Color Selection",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Color Rotation Fast to Slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Rotation Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Color Rotation Slow to Fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 4,
+      "type_description": "Gobo Selection",
+      "capabilities": [
+        {
+          "label": "Gobo Selection",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "Gobo Jitter",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Gobo Rotation Fast to Slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Gobo Rotation Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Gobo Rotation Slow to Fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 5,
+      "type_description": "Lamp Control",
+      "capabilities": [
+        {
+          "label": "Lamp Off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Lamp On",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Lamp Strobe Speed - Slow to Fast",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "Lamp On",
+          "min": 132,
+          "max": 139
+        },
+        {
+          "label": "Fade On Fast, Fade Off Slow",
+          "min": 140,
+          "max": 181
+        },
+        {
+          "label": "Lamp On",
+          "min": 182,
+          "max": 189
+        },
+        {
+          "label": "Lamp on Fast, Lamp off Slow",
+          "min": 190,
+          "max": 231
+        },
+        {
+          "label": "Lamp On",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Random Strobe Control",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Lamp On",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Master dimmer fine",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Pan/Tilt speed",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 21,
+      "type_description": "Function Controls",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 69
+        },
+        {
+          "label": "Lamp Off During X/Y Rotation",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "No function",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Lamp Off During Color Wheel Rotation",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "No function",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Lamp Off During Gobo Rotation",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "No function",
+          "min": 120,
+          "max": 199
+        },
+        {
+          "label": "Reset",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "No function",
+          "min": 210,
+          "max": 249
+        },
+        {
+          "label": "Sound Mode On/Off",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Effects",
+      "capabilities": [
+        {
+          "label": "Standard Lighting Effects",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Stage Lighting Effects",
+          "min": 21,
+          "max": 40
+        },
+        {
+          "label": "TV Lighting Effects",
+          "min": 41,
+          "max": 60
+        },
+        {
+          "label": "Architectural Lighting Effects",
+          "min": 61,
+          "max": 80
+        },
+        {
+          "label": "Theater Lighting Effects",
+          "min": 81,
+          "max": 100
+        },
+        {
+          "label": "Default Lamp Effect",
+          "min": 101,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Lixada/Lixada-Mini-Gobo-Moving-Head.json",
+  "id": 1014
+}

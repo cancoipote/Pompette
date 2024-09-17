@@ -1,0 +1,135 @@
+{
+  "version": "1.0.0",
+  "label": "AF-180 LED Fogger Co2 FX",
+  "manufacturer": "Stairville",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 8,
+  "dimension_width": 190,
+  "dimension_height": 300,
+  "dimension_depth": 340,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 850,
+  "technical_dmx_connector": "3-pin",
+  "type": 11,
+  "channels": [
+    {
+      "index": 0,
+      "type": 5,
+      "type_description": "Amount of Fog",
+      "capabilities": [
+        {
+          "label": "No fog output (0%)",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Fog output (100%)",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Brightness of All LEDs",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Colour effect",
+      "capabilities": [
+        {
+          "label": "All LEDs off",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Red steady light",
+          "min": 21,
+          "max": 35
+        },
+        {
+          "label": "Green steady light",
+          "min": 36,
+          "max": 50
+        },
+        {
+          "label": "Blue steady light",
+          "min": 51,
+          "max": 65
+        },
+        {
+          "label": "Red / green steady light",
+          "min": 66,
+          "max": 80
+        },
+        {
+          "label": "Red / blue steady light",
+          "min": 81,
+          "max": 95
+        },
+        {
+          "label": "Blue / green steady light",
+          "min": 96,
+          "max": 110
+        },
+        {
+          "label": "Red / green / blue steady light",
+          "min": 111,
+          "max": 127
+        },
+        {
+          "label": "Automatic colour change, all LEDs, increasing speed",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Stroboscope Effect",
+      "capabilities": [
+        {
+          "label": "Stroboscope effect off",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Stroboscope effect from slow to fast",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Intensity Colour Effect Red",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Intensity Colour Effect Green",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Intensity Colour Effect Blue",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Stairville/Stairville-AF-180-LED-Fogger-Co2-FX.json",
+  "id": 1374
+}

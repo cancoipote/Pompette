@@ -1,0 +1,35 @@
+<div *ngIf="appService.isApplicationReady == false">
+  <div class="dashboard-loading" >
+    Loading ...
+  </div>
+</div>
+
+<div *ngIf="appService.isApplicationReady == true">
+  <div *ngIf="appService.is_project == false">
+    <div class="dashboard-project" >
+      <button class="dashboard-project-button" mat-raised-button (click)="createNewProject()"  color="warn">Create Project</button>
+      <button class="dashboard-project-button" mat-raised-button (click)="fileInputHome.click()"  color="warn">Load Project</button>
+      <input  style="display: none" (change)="loadProject($event)" accept=".pompette" #fileInputHome type="file" id="file">
+    </div>
+  </div>
+  
+  <div *ngIf="appService.is_project == true">
+    <mat-tab-group animationDuration="0">
+      <mat-tab label="Fixtures">
+        <div class="project-tab-container" >
+          <project-fixture></project-fixture>
+        </div>
+      </mat-tab>
+      <mat-tab label="Sequences / FX">
+        <div class="project-tab-container" >
+          <project-sequence></project-sequence>
+        </div>
+      </mat-tab>
+      <mat-tab label="Shows">
+        <div class="project-tab-container" >
+          <project-show></project-show>
+        </div>
+      </mat-tab>
+    </mat-tab-group>
+  </div>
+</div>

@@ -1,0 +1,432 @@
+{
+  "version": "1.0.0",
+  "label": "Nick NRG1201",
+  "manufacturer": "DTS",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 10,
+  "dimension_width": 369,
+  "dimension_height": 497,
+  "dimension_depth": 218,
+  "lens_label": "Other",
+  "lens_degree_min": 8,
+  "lens_degree_max": 50,
+  "focus_type": "Head",
+  "focus_pan_max": 360,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 340,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan Coarse",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt Coarse",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Speed Move",
+      "capabilities": [
+        {
+          "label": "Standard",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Fast Move",
+          "min": 11,
+          "max": 25
+        },
+        {
+          "label": "Vector Mode Fast to Slow",
+          "min": 26,
+          "max": 127
+        },
+        {
+          "label": "Variable Reaction",
+          "min": 128,
+          "max": 247
+        },
+        {
+          "label": "Slow Reaction",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 17,
+      "type_description": "Pan FPR",
+      "capabilities": [
+        {
+          "label": "Standard",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "1 turn",
+          "min": 11,
+          "max": 20
+        },
+        {
+          "label": "2 turn",
+          "min": 21,
+          "max": 30
+        },
+        {
+          "label": "3 turn",
+          "min": 31,
+          "max": 40
+        },
+        {
+          "label": "4 turn",
+          "min": 41,
+          "max": 50
+        },
+        {
+          "label": "5 turn",
+          "min": 51,
+          "max": 60
+        },
+        {
+          "label": "6 turn",
+          "min": 61,
+          "max": 70
+        },
+        {
+          "label": "7 turn",
+          "min": 71,
+          "max": 80
+        },
+        {
+          "label": "8 turn",
+          "min": 81,
+          "max": 90
+        },
+        {
+          "label": "9 turn",
+          "min": 91,
+          "max": 100
+        },
+        {
+          "label": "10 turn",
+          "min": 101,
+          "max": 110
+        },
+        {
+          "label": "Smart path",
+          "min": 111,
+          "max": 120
+        },
+        {
+          "label": "Forward Spin",
+          "min": 121,
+          "max": 182
+        },
+        {
+          "label": "Stop",
+          "min": 183,
+          "max": 193
+        },
+        {
+          "label": "Reverse Spin",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "No function",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Open",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Blackout",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Strobe",
+          "min": 30,
+          "max": 119
+        },
+        {
+          "label": "Pulse up",
+          "min": 120,
+          "max": 149
+        },
+        {
+          "label": "Pulse down",
+          "min": 150,
+          "max": 179
+        },
+        {
+          "label": "Random Strobe",
+          "min": 180,
+          "max": 204
+        },
+        {
+          "label": "Full Random Strobe",
+          "min": 205,
+          "max": 229
+        },
+        {
+          "label": "Open",
+          "min": 230,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "White Preprogrammed",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 55
+        },
+        {
+          "label": "Full RGB",
+          "min": 56,
+          "max": 105
+        },
+        {
+          "label": "White DTS",
+          "min": 106,
+          "max": 155
+        },
+        {
+          "label": "Custom White Create",
+          "min": 156,
+          "max": 205
+        },
+        {
+          "label": "White CTC",
+          "min": 206,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "CTC",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Macros",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 14
+        },
+        {
+          "label": "Macro 1",
+          "min": 15,
+          "max": 29
+        },
+        {
+          "label": "Macro 2",
+          "min": 30,
+          "max": 44
+        },
+        {
+          "label": "Macro 3",
+          "min": 45,
+          "max": 59
+        },
+        {
+          "label": "Macro 4",
+          "min": 60,
+          "max": 74
+        },
+        {
+          "label": "Macro 5",
+          "min": 75,
+          "max": 89
+        },
+        {
+          "label": "Macro 6",
+          "min": 90,
+          "max": 104
+        },
+        {
+          "label": "Macro 7",
+          "min": 105,
+          "max": 119
+        },
+        {
+          "label": "Macro 8",
+          "min": 120,
+          "max": 134
+        },
+        {
+          "label": "Macro 9",
+          "min": 135,
+          "max": 149
+        },
+        {
+          "label": "Macro 10",
+          "min": 150,
+          "max": 164
+        },
+        {
+          "label": "Macro 11",
+          "min": 165,
+          "max": 179
+        },
+        {
+          "label": "Macro 12",
+          "min": 180,
+          "max": 194
+        },
+        {
+          "label": "Macro 13",
+          "min": 195,
+          "max": 209
+        },
+        {
+          "label": "Macro 14",
+          "min": 210,
+          "max": 225
+        },
+        {
+          "label": "Macro 15",
+          "min": 226,
+          "max": 239
+        },
+        {
+          "label": "Macro 16",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Custom White",
+      "capabilities": [
+        {
+          "label": "CW Recall",
+          "min": 0,
+          "max": 79
+        },
+        {
+          "label": "CW Create",
+          "min": 80,
+          "max": 160
+        },
+        {
+          "label": "CW Store",
+          "min": 161,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "No function2",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 17,
+      "type_description": "Reset",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Total Reset",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/DTS/DTS-Nick-NRG1201.json",
+  "id": 587
+}

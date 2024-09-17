@@ -1,0 +1,118 @@
+{
+  "version": "1.0.0",
+  "label": "Octopod DP-80",
+  "manufacturer": "Alkalite",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 11,
+  "dimension_width": 175,
+  "dimension_height": 139,
+  "dimension_depth": 163,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 12,
+  "technical_dmx_connector": "5-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Rainbow",
+      "capabilities": [
+        {
+          "label": "Rainbow",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 17,
+      "type_description": "Programs",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Chase 1",
+          "min": 1,
+          "max": 30
+        },
+        {
+          "label": "Chase 2",
+          "min": 31,
+          "max": 60
+        },
+        {
+          "label": "Chase 3",
+          "min": 61,
+          "max": 90
+        },
+        {
+          "label": "Chase 4",
+          "min": 91,
+          "max": 120
+        },
+        {
+          "label": "Chase 5",
+          "min": 121,
+          "max": 150
+        },
+        {
+          "label": "Chase 6",
+          "min": 151,
+          "max": 180
+        },
+        {
+          "label": "Chase 7",
+          "min": 181,
+          "max": 210
+        },
+        {
+          "label": "Chase 8",
+          "min": 211,
+          "max": 240
+        },
+        {
+          "label": "Sound Active",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Alkalite/Alkalite-Octopod-DP-80.json",
+  "id": 11
+}

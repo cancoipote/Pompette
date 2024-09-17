@@ -1,0 +1,76 @@
+{
+  "version": "1.0.0",
+  "label": "LED ACS BAR-12",
+  "manufacturer": "Eurolite",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 285,
+  "dimension_height": 130,
+  "dimension_depth": 80,
+  "lens_label": "Other",
+  "lens_degree_min": 16,
+  "lens_degree_max": 16,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 12,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 17,
+      "type_description": "Function",
+      "capabilities": [
+        {
+          "label": "On",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Sound Control (7colors)",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "label": "On",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Strobe (increasing)",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-LED-ACS-BAR-12.json",
+  "id": 673
+}

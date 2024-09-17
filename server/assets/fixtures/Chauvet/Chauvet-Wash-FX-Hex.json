@@ -1,0 +1,631 @@
+{
+  "version": "1.0.0",
+  "label": "Wash FX Hex",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 30000,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 285,
+  "dimension_height": 330,
+  "dimension_depth": 160,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 200,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Auto programs",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Auto program 1",
+          "min": 6,
+          "max": 20
+        },
+        {
+          "label": "Auto program 2",
+          "min": 21,
+          "max": 35
+        },
+        {
+          "label": "Auto program 3",
+          "min": 36,
+          "max": 50
+        },
+        {
+          "label": "Auto program 4",
+          "min": 51,
+          "max": 65
+        },
+        {
+          "label": "Auto program 5",
+          "min": 66,
+          "max": 80
+        },
+        {
+          "label": "Auto program 6",
+          "min": 81,
+          "max": 95
+        },
+        {
+          "label": "Auto program 7",
+          "min": 96,
+          "max": 110
+        },
+        {
+          "label": "Auto program 8",
+          "min": 111,
+          "max": 125
+        },
+        {
+          "label": "Auto program 9",
+          "min": 126,
+          "max": 140
+        },
+        {
+          "label": "Auto program 10",
+          "min": 141,
+          "max": 155
+        },
+        {
+          "label": "Auto program 11",
+          "min": 156,
+          "max": 170
+        },
+        {
+          "label": "Auto program 12",
+          "min": 171,
+          "max": 185
+        },
+        {
+          "label": "Auto program 13",
+          "min": 186,
+          "max": 200
+        },
+        {
+          "label": "Auto program 14",
+          "min": 201,
+          "max": 215
+        },
+        {
+          "label": "Auto program 15",
+          "min": 216,
+          "max": 230
+        },
+        {
+          "label": "Auto program 16",
+          "min": 231,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 22,
+      "type_description": "Auto program speed",
+      "capabilities": [
+        {
+          "label": "Speed, slow to fast",
+          "min": 0,
+          "max": 250
+        },
+        {
+          "label": "Sound-active Mode",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "UV",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Zone macro",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Zone macro",
+          "min": 6,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 5,
+      "type_description": "Red zone 1",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 5,
+      "type_description": "Red zone 2",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 5,
+      "type_description": "Red zone 3",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 5,
+      "type_description": "Red zone 4",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 5,
+      "type_description": "Red zone 5",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 5,
+      "type_description": "Red zone 6",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 5,
+      "type_description": "Green zone 1",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 5,
+      "type_description": "Green zone 2",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 5,
+      "type_description": "Green zone 3",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 5,
+      "type_description": "Green zone 4",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "type": 5,
+      "type_description": "Green zone 5",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "type": 5,
+      "type_description": "Green zone 6",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "type": 5,
+      "type_description": "Blue zone 1",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "type": 5,
+      "type_description": "Blue zone 2",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "type": 5,
+      "type_description": "Blue zone 3",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "type": 5,
+      "type_description": "Blue zone 4",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "type": 5,
+      "type_description": "Blue zone 5",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "type": 5,
+      "type_description": "Blue zone 6",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "type": 5,
+      "type_description": "Amber zone 1",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "type": 5,
+      "type_description": "Amber zone 2",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "type": 5,
+      "type_description": "Amber zone 3",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "type": 5,
+      "type_description": "Amber zone 4",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "type": 5,
+      "type_description": "Amber zone 5",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "type": 5,
+      "type_description": "Amber zone 6",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "type": 5,
+      "type_description": "White zone 1",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "type": 5,
+      "type_description": "White zone 2",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "type": 5,
+      "type_description": "White zone 3",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "type": 5,
+      "type_description": "White zone 4",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "type": 5,
+      "type_description": "White zone 5",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "type": 5,
+      "type_description": "White zone 6",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "type": 5,
+      "type_description": "UV zone 1",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "type": 5,
+      "type_description": "UV zone 2",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "type": 5,
+      "type_description": "UV zone 3",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "type": 5,
+      "type_description": "UV zone 4",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "type": 5,
+      "type_description": "UV zone 5",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "type": 5,
+      "type_description": "UV zone 6",
+      "capabilities": [
+        {
+          "label": "0 -100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-Wash-FX-Hex.json",
+  "id": 561
+}

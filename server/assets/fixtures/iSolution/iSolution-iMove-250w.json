@@ -1,0 +1,402 @@
+{
+  "version": "1.0.0",
+  "label": "iMove 250W",
+  "manufacturer": "iSolution",
+  "bulb_type": "MSD 250W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 24,
+  "dimension_width": 428,
+  "dimension_height": 481,
+  "dimension_depth": 369,
+  "lens_label": "Other",
+  "lens_degree_min": 16,
+  "lens_degree_max": 26,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 390,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan 16 bit",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt 16 bit",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan/Tilt speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Open",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Shutter slow to fast",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "Open",
+          "min": 132,
+          "max": 239
+        },
+        {
+          "label": "Audio",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 18
+        },
+        {
+          "label": "Red",
+          "min": 19,
+          "max": 36
+        },
+        {
+          "label": "Yellow",
+          "min": 37,
+          "max": 54
+        },
+        {
+          "label": "Orange",
+          "min": 55,
+          "max": 72
+        },
+        {
+          "label": "Green",
+          "min": 73,
+          "max": 90
+        },
+        {
+          "label": "Light Blue",
+          "min": 91,
+          "max": 108
+        },
+        {
+          "label": "Purple",
+          "min": 109,
+          "max": 127
+        },
+        {
+          "label": "Slow to fast anticlockwise rotation",
+          "min": 128,
+          "max": 187
+        },
+        {
+          "label": "Fast to slow rotation clockwise",
+          "min": 188,
+          "max": 247
+        },
+        {
+          "label": "Audio",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Cyan",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Magenta",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Yellow",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "CYM Color Mix",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 38
+        },
+        {
+          "label": "Color1",
+          "min": 39,
+          "max": 45
+        },
+        {
+          "label": "Color2",
+          "min": 46,
+          "max": 52
+        },
+        {
+          "label": "Color3",
+          "min": 53,
+          "max": 58
+        },
+        {
+          "label": "Color4",
+          "min": 59,
+          "max": 65
+        },
+        {
+          "label": "Color5",
+          "min": 66,
+          "max": 72
+        },
+        {
+          "label": "Color6",
+          "min": 73,
+          "max": 79
+        },
+        {
+          "label": "Color7",
+          "min": 80,
+          "max": 85
+        },
+        {
+          "label": "Color8",
+          "min": 86,
+          "max": 92
+        },
+        {
+          "label": "Color9",
+          "min": 93,
+          "max": 99
+        },
+        {
+          "label": "Color10",
+          "min": 100,
+          "max": 105
+        },
+        {
+          "label": "Color11",
+          "min": 106,
+          "max": 112
+        },
+        {
+          "label": "Color12",
+          "min": 113,
+          "max": 119
+        },
+        {
+          "label": "Color13",
+          "min": 120,
+          "max": 126
+        },
+        {
+          "label": "Color14",
+          "min": 127,
+          "max": 132
+        },
+        {
+          "label": "Color15",
+          "min": 133,
+          "max": 139
+        },
+        {
+          "label": "Color16",
+          "min": 140,
+          "max": 146
+        },
+        {
+          "label": "Color17",
+          "min": 147,
+          "max": 153
+        },
+        {
+          "label": "Color18",
+          "min": 154,
+          "max": 159
+        },
+        {
+          "label": "Color19",
+          "min": 160,
+          "max": 166
+        },
+        {
+          "label": "Color20",
+          "min": 167,
+          "max": 173
+        },
+        {
+          "label": "Color21",
+          "min": 174,
+          "max": 179
+        },
+        {
+          "label": "Color22",
+          "min": 180,
+          "max": 186
+        },
+        {
+          "label": "Color23",
+          "min": 187,
+          "max": 193
+        },
+        {
+          "label": "Color24",
+          "min": 194,
+          "max": 200
+        },
+        {
+          "label": "Color25",
+          "min": 201,
+          "max": 206
+        },
+        {
+          "label": "Color26",
+          "min": 207,
+          "max": 213
+        },
+        {
+          "label": "Color27",
+          "min": 214,
+          "max": 220
+        },
+        {
+          "label": "Color28",
+          "min": 221,
+          "max": 226
+        },
+        {
+          "label": "Color29",
+          "min": 227,
+          "max": 233
+        },
+        {
+          "label": "Color30",
+          "min": 234,
+          "max": 240
+        },
+        {
+          "label": "Color31",
+          "min": 241,
+          "max": 247
+        },
+        {
+          "label": "Audio",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 22,
+      "type_description": "CMY Speed",
+      "capabilities": [
+        {
+          "label": "Fast to slow",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 3,
+      "type_description": "Effect Wheel",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Beam shape",
+          "min": 16,
+          "max": 32
+        },
+        {
+          "label": "Beam shape rotation",
+          "min": 33,
+          "max": 239
+        },
+        {
+          "label": "Frost",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "No function",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 17,
+      "type_description": "Lamp On/Off/Reset",
+      "capabilities": [
+        {
+          "label": "Normal to reset",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/iSolution/iSolution-iMove-250w.json",
+  "id": 905
+}

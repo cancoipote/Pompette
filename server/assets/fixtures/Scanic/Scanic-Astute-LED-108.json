@@ -1,0 +1,159 @@
+{
+  "version": "1.0.0",
+  "label": "Astute LED 108",
+  "manufacturer": "Scanic",
+  "bulb_type": "LED",
+  "bulb_lumens": 1000,
+  "bulb_color_temperature": 7000,
+  "dimension_weight": 7,
+  "dimension_width": 250,
+  "dimension_height": 220,
+  "dimension_depth": 376,
+  "lens_label": "PC",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 230,
+  "technical_power_consumption": 150,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "RGB Control Mode",
+      "capabilities": [
+        {
+          "label": "RGB",
+          "min": 0,
+          "max": 24
+        },
+        {
+          "label": "Auto Pro 1",
+          "min": 25,
+          "max": 49
+        },
+        {
+          "label": "Auto Pro 2",
+          "min": 50,
+          "max": 74
+        },
+        {
+          "label": "Auto Pro 3",
+          "min": 75,
+          "max": 99
+        },
+        {
+          "label": "Auto Pro 4",
+          "min": 100,
+          "max": 124
+        },
+        {
+          "label": "Auto Pro 5",
+          "min": 125,
+          "max": 149
+        },
+        {
+          "label": "Auto Pro 6",
+          "min": 150,
+          "max": 174
+        },
+        {
+          "label": "Auto Pro 7",
+          "min": 175,
+          "max": 199
+        },
+        {
+          "label": "Auto Pro 8",
+          "min": 200,
+          "max": 224
+        },
+        {
+          "label": "Auto Pro",
+          "min": 225,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Schutter",
+      "capabilities": [
+        {
+          "label": "Strobe speed",
+          "min": 0,
+          "max": 24
+        },
+        {
+          "label": "Auto speed",
+          "min": 25,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Tilt coarse",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Pan coarse",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 22,
+      "type_description": "Speed",
+      "capabilities": [
+        {
+          "label": "Fast - slow",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Scanic/Scanic-Astute-LED-108.json",
+  "id": 1237
+}

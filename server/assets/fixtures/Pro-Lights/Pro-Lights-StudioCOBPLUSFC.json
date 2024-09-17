@@ -1,0 +1,280 @@
+{
+  "version": "1.0.0",
+  "label": "STUDIOCOBPLUSFC",
+  "manufacturer": "Pro-Lights",
+  "bulb_type": "LED",
+  "bulb_lumens": 4261,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 259,
+  "dimension_height": 187,
+  "dimension_depth": 370,
+  "lens_label": "Fresnel",
+  "lens_degree_min": 18,
+  "lens_degree_max": 38,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 135,
+  "technical_dmx_connector": "5-pin IP65",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 30
+        },
+        {
+          "label": "Strobe slow to Fast",
+          "min": 31,
+          "max": 100
+        },
+        {
+          "label": "No function",
+          "min": 101,
+          "max": 130
+        },
+        {
+          "label": "Random strobe effect slow to fast",
+          "min": 131,
+          "max": 200
+        },
+        {
+          "label": "No function",
+          "min": 201,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Color function",
+      "capabilities": [
+        {
+          "label": "No presets",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Color function",
+          "min": 11,
+          "max": 85
+        },
+        {
+          "label": "White presets",
+          "min": 86,
+          "max": 170
+        },
+        {
+          "label": "Color macro",
+          "min": 171,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Color presets",
+      "capabilities": [
+        {
+          "label": "RGB 100%, 0 - 100%, 0%",
+          "min": 0,
+          "max": 28
+        },
+        {
+          "label": "RGB 0 - 100%, 100%, 0%",
+          "min": 29,
+          "max": 56
+        },
+        {
+          "label": "RGB 0%, 100%, 0 - 100%",
+          "min": 57,
+          "max": 84
+        },
+        {
+          "label": "RGB 0%, 0 - 100%, 100%",
+          "min": 85,
+          "max": 112
+        },
+        {
+          "label": "RGB 0 - 100%, 0%, 100%",
+          "min": 113,
+          "max": 140
+        },
+        {
+          "label": "RGB 100%, 0%, 0 - 100%",
+          "min": 141,
+          "max": 168
+        },
+        {
+          "label": "RGB 100%, 0 - 100%, 0 - 100%",
+          "min": 169,
+          "max": 196
+        },
+        {
+          "label": "RGB 0 - 100%, 0 - 100%, 100%",
+          "min": 197,
+          "max": 224
+        },
+        {
+          "label": "RGB 0 - 100%, 0 - 100%, 0 - 100%",
+          "min": 225,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 5,
+      "type_description": "White presets",
+      "capabilities": [
+        {
+          "label": "RGB W 2000K",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "RGB W 2000K ~ 3000K",
+          "min": 1,
+          "max": 40
+        },
+        {
+          "label": "RGB W 3000K ~ 4000K",
+          "min": 41,
+          "max": 70
+        },
+        {
+          "label": "RGB W 4000K ~ 5000K",
+          "min": 71,
+          "max": 100
+        },
+        {
+          "label": "RGB W 5000K ~ 6000K",
+          "min": 101,
+          "max": 130
+        },
+        {
+          "label": "RGB W 6000K ~ 7000K",
+          "min": 131,
+          "max": 160
+        },
+        {
+          "label": "RGB W 7000K ~ 8000K",
+          "min": 161,
+          "max": 190
+        },
+        {
+          "label": "RGB W 8000K ~ 9000K",
+          "min": 191,
+          "max": 220
+        },
+        {
+          "label": "RGB W 9000K ~ 10000K",
+          "min": 221,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Color macro",
+      "capabilities": [
+        {
+          "label": "Auto program 1",
+          "min": 0,
+          "max": 60
+        },
+        {
+          "label": "Auto Program 2",
+          "min": 61,
+          "max": 110
+        },
+        {
+          "label": "Auto Program 3",
+          "min": 111,
+          "max": 160
+        },
+        {
+          "label": "Auto Program 4",
+          "min": 161,
+          "max": 210
+        },
+        {
+          "label": "Auto Program 5",
+          "min": 211,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 22,
+      "type_description": "Color Macro Speed",
+      "capabilities": [
+        {
+          "label": "Color macro speed Slow to Fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 22,
+      "type_description": "Dimmer fade",
+      "capabilities": [
+        {
+          "label": "Dimmer fade from fast to slow",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "No presets",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Pro-Lights/Pro-Lights-StudioCOBPLUSFC.json",
+  "id": 1150
+}

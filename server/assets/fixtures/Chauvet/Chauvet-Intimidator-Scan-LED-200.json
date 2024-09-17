@@ -1,0 +1,443 @@
+{
+  "version": "1.0.0",
+  "label": "Intimidator Scan LED 200",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 9000,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 355,
+  "dimension_height": 368,
+  "dimension_depth": 168,
+  "lens_label": "Other",
+  "lens_degree_min": 15,
+  "lens_degree_max": 15,
+  "focus_type": "Mirror",
+  "focus_pan_max": 180,
+  "focus_tilt_max": 90,
+  "technical_power_consumption": 86,
+  "technical_dmx_connector": "3-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "Open (White)",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Dark Blue",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Yellow",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Pink",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Green",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Red",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Blue",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Salmon Pink",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "White/Dark Blue",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Dark Blue/Yellow",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Yellow/Pink",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Pink/Green",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Green/Red",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Red/Blue",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Blue/Salmon Pink",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Salmon Pink/White",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Rotate clockwise (slow ~ fast)",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": ">Rotate Counterclockwise (slow ~ fast)",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Open",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "Strobe (slow ~ fast)",
+          "min": 8,
+          "max": 215
+        },
+        {
+          "label": "Open",
+          "min": 216,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 4,
+      "type_description": "Gobo, Gobo Shake, & Gobo Scroll",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Gobo 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Gobo 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Gobo 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Gobo 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Gobo 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Gobo 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Gobo 7",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Gobo 7 shake, fast to slow",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Gobo 6 shake, fast to slow",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Gobo 5 shake, fast to slow",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Gobo 4 shake, fast to slow",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Gobo 3 shake, fast to slow",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Gobo 2 Shake shake, fast to slow",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Gobo 1 Shake shake, fast to slow",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Open",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Gobo scroll: clockwise rotation",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Gobo scroll: Counterclockwise rotation",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Function",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Pan/tilt move-in-black",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Pan/tilt move-in-black (disabled)",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Colour wheel move-in-black",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Colour wheel move-in-black (disabled)",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Gobo wheel move-in-black",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Gobo wheel move-in-black (disabled)",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "No function",
+          "min": 56,
+          "max": 87
+        },
+        {
+          "label": "All movement move-in-black (disabled)",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Reset pan/tilt",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "No function",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Reset color wheel",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Reset gobo wheel",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "No function",
+          "min": 128,
+          "max": 151
+        },
+        {
+          "label": "Reset all",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "No function",
+          "min": 160,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Movement Macros",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Automatic 1",
+          "min": 8,
+          "max": 23
+        },
+        {
+          "label": "Automatic 2",
+          "min": 24,
+          "max": 39
+        },
+        {
+          "label": "Automatic 3",
+          "min": 40,
+          "max": 55
+        },
+        {
+          "label": "Automatic 4",
+          "min": 56,
+          "max": 71
+        },
+        {
+          "label": "Automatic 5",
+          "min": 72,
+          "max": 87
+        },
+        {
+          "label": "Automatic 6",
+          "min": 88,
+          "max": 103
+        },
+        {
+          "label": "Automatic 7",
+          "min": 104,
+          "max": 119
+        },
+        {
+          "label": "Automatic 8",
+          "min": 120,
+          "max": 135
+        },
+        {
+          "label": "Sound 1",
+          "min": 136,
+          "max": 151
+        },
+        {
+          "label": "Sound 2",
+          "min": 152,
+          "max": 167
+        },
+        {
+          "label": "Sound 3",
+          "min": 168,
+          "max": 183
+        },
+        {
+          "label": "Sound 4",
+          "min": 184,
+          "max": 199
+        },
+        {
+          "label": "Sound 5",
+          "min": 200,
+          "max": 215
+        },
+        {
+          "label": "Sound 6",
+          "min": 216,
+          "max": 231
+        },
+        {
+          "label": "Sound 7",
+          "min": 232,
+          "max": 247
+        },
+        {
+          "label": "Sound 8",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-Intimidator-Scan-LED-200.json",
+  "id": 465
+}

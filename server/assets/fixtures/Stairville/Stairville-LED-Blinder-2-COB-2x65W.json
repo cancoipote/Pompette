@@ -1,0 +1,85 @@
+{
+  "version": "1.0.0",
+  "label": "LED Blinder 2 COB 2x65W",
+  "manufacturer": "Stairville",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 2700,
+  "dimension_weight": 4,
+  "dimension_width": 530,
+  "dimension_height": 330,
+  "dimension_depth": 150,
+  "lens_label": "Other",
+  "lens_degree_min": 70,
+  "lens_degree_max": 70,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 200,
+  "technical_dmx_connector": "3-pin",
+  "type": 12,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "LED Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "LED 1 Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "LED 2 Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Strobe effect, increasing frequency",
+          "min": 6,
+          "max": 123
+        },
+        {
+          "label": "Open",
+          "min": 124,
+          "max": 127
+        },
+        {
+          "label": "Strobe effect, random frequency, LED 1 and 2 synchronous",
+          "min": 128,
+          "max": 185
+        },
+        {
+          "label": "Open",
+          "min": 186,
+          "max": 190
+        },
+        {
+          "label": "Strobe effect, random frequency, LED 1 and 2 asynchronous",
+          "min": 191,
+          "max": 249
+        },
+        {
+          "label": "Open",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Stairville/Stairville-LED-Blinder-2-COB-2x65W.json",
+  "id": 1399
+}

@@ -1,0 +1,207 @@
+{
+  "version": "1.0.0",
+  "label": "VL2500 Wash",
+  "manufacturer": "Vari-Lite",
+  "bulb_type": "HMI 700W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 5600,
+  "dimension_weight": 26,
+  "dimension_width": 478,
+  "dimension_height": 480,
+  "dimension_depth": 650,
+  "lens_label": "Other",
+  "lens_degree_min": 14,
+  "lens_degree_max": 55,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 900,
+  "technical_dmx_connector": "5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Cyan",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Yellow",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Magenta",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Color Wheel",
+      "capabilities": [
+        {
+          "label": "Index",
+          "min": 0,
+          "max": 216
+        },
+        {
+          "label": "Spins",
+          "min": 217,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 1,
+      "type_description": "Beam Diffuser",
+      "capabilities": [
+        {
+          "label": "0 < Max",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Open/Closed",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Random",
+          "min": 6,
+          "max": 12
+        },
+        {
+          "label": "Speed Range",
+          "min": 13,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 22,
+      "type_description": "F Time",
+      "capabilities": [
+        {
+          "label": "0 < Max",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 22,
+      "type_description": "C Time",
+      "capabilities": [
+        {
+          "label": "0 < Max",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 22,
+      "type_description": "B Time",
+      "capabilities": [
+        {
+          "label": "0 < Max",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 17,
+      "type_description": "Control",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "label": "Display On",
+          "min": 2,
+          "max": 4
+        },
+        {
+          "label": "No function",
+          "min": 5,
+          "max": 80
+        },
+        {
+          "label": "Luminaire Reset",
+          "min": 81,
+          "max": 87
+        },
+        {
+          "label": "No function",
+          "min": 88,
+          "max": 164
+        },
+        {
+          "label": "Lamp Off",
+          "min": 165,
+          "max": 171
+        },
+        {
+          "label": "No function",
+          "min": 172,
+          "max": 248
+        },
+        {
+          "label": "Lamp On",
+          "min": 249,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Vari-Lite/Vari-Lite-VL2500-Wash.json",
+  "id": 1478
+}

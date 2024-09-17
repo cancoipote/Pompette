@@ -1,0 +1,76 @@
+{
+  "version": "1.0.0",
+  "label": "LED H2O Water Effect",
+  "manufacturer": "Eurolite",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 0,
+  "dimension_width": 165,
+  "dimension_height": 170,
+  "dimension_depth": 135,
+  "lens_label": "Other",
+  "lens_degree_min": 35,
+  "lens_degree_max": 35,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 26,
+  "technical_dmx_connector": "3-pin",
+  "type": 3,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "On",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Off",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "label": "On",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Strobe intensity",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-LED-H2O-Water-Effect.json",
+  "id": 687
+}

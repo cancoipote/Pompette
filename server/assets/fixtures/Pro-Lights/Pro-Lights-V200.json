@@ -1,0 +1,445 @@
+{
+  "version": "1.0.0",
+  "label": "V200",
+  "manufacturer": "Pro-Lights",
+  "bulb_type": "HTI 150W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 5500,
+  "dimension_weight": 11,
+  "dimension_width": 276,
+  "dimension_height": 369,
+  "dimension_depth": 266,
+  "lens_label": "Other",
+  "lens_degree_min": 14,
+  "lens_degree_max": 14,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 200,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Open",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Strobe speed",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "Open",
+          "min": 132,
+          "max": 139
+        },
+        {
+          "label": "Gobo shake",
+          "min": 140,
+          "max": 239
+        },
+        {
+          "label": "Random strobe",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Shutter open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 14
+        },
+        {
+          "label": "Gobo 1",
+          "min": 15,
+          "max": 28
+        },
+        {
+          "label": "Gobo 2",
+          "min": 29,
+          "max": 42
+        },
+        {
+          "label": "Gobo 3",
+          "min": 43,
+          "max": 56
+        },
+        {
+          "label": "Gobo 4",
+          "min": 57,
+          "max": 70
+        },
+        {
+          "label": "Gobo 5",
+          "min": 71,
+          "max": 84
+        },
+        {
+          "label": "Gobo 6",
+          "min": 85,
+          "max": 98
+        },
+        {
+          "label": "Gobo 7",
+          "min": 99,
+          "max": 112
+        },
+        {
+          "label": "Gobo 8",
+          "min": 113,
+          "max": 127
+        },
+        {
+          "label": "Gobo Change, fast to slow",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Gobo Change, slow to fast",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Green",
+          "min": 8,
+          "max": 14
+        },
+        {
+          "label": "Green + magenta",
+          "min": 15,
+          "max": 22
+        },
+        {
+          "label": "Magenta",
+          "min": 23,
+          "max": 29
+        },
+        {
+          "label": "Light blue",
+          "min": 30,
+          "max": 37
+        },
+        {
+          "label": "Yellow",
+          "min": 38,
+          "max": 44
+        },
+        {
+          "label": "Red",
+          "min": 45,
+          "max": 52
+        },
+        {
+          "label": "Blue + red",
+          "min": 53,
+          "max": 59
+        },
+        {
+          "label": "Blue",
+          "min": 60,
+          "max": 67
+        },
+        {
+          "label": "UV purple",
+          "min": 68,
+          "max": 74
+        },
+        {
+          "label": "Deep green",
+          "min": 75,
+          "max": 82
+        },
+        {
+          "label": "Green + orange",
+          "min": 83,
+          "max": 89
+        },
+        {
+          "label": "Orange",
+          "min": 90,
+          "max": 97
+        },
+        {
+          "label": "Yellow + orange",
+          "min": 98,
+          "max": 104
+        },
+        {
+          "label": "Yellow 2",
+          "min": 105,
+          "max": 112
+        },
+        {
+          "label": "Yellow + pink",
+          "min": 113,
+          "max": 119
+        },
+        {
+          "label": "Pink",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Rainbow CW speed",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Rainbow CCW speed",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 22,
+      "type_description": "Gobo rotation",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Forwards",
+          "min": 10,
+          "max": 120
+        },
+        {
+          "label": "Stop",
+          "min": 121,
+          "max": 134
+        },
+        {
+          "label": "Backwards",
+          "min": 135,
+          "max": 245
+        },
+        {
+          "label": "Pattern",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 17,
+      "type_description": "Special function",
+      "capabilities": [
+        {
+          "label": "Safe",
+          "min": 0,
+          "max": 69
+        },
+        {
+          "label": "BO on movement",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "No BO on movement",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "BO on colour",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "No BO on colour",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "BO on gobo",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "No BO on gobo",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Safe",
+          "min": 130,
+          "max": 199
+        },
+        {
+          "label": "Reset",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Safe",
+          "min": 210,
+          "max": 239
+        },
+        {
+          "label": "Stand Alone",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Pan/Tilt speed",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 3,
+      "type_description": "Macros",
+      "capabilities": [
+        {
+          "label": "No macro",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Macro 1",
+          "min": 16,
+          "max": 35
+        },
+        {
+          "label": "Macro 2",
+          "min": 36,
+          "max": 55
+        },
+        {
+          "label": "Macro 3",
+          "min": 56,
+          "max": 75
+        },
+        {
+          "label": "Macro 4",
+          "min": 76,
+          "max": 95
+        },
+        {
+          "label": "Macro 5",
+          "min": 96,
+          "max": 115
+        },
+        {
+          "label": "Macro 6",
+          "min": 116,
+          "max": 135
+        },
+        {
+          "label": "Macro 7",
+          "min": 136,
+          "max": 155
+        },
+        {
+          "label": "Macro 8",
+          "min": 156,
+          "max": 175
+        },
+        {
+          "label": "Macro 9",
+          "min": 176,
+          "max": 195
+        },
+        {
+          "label": "Macro 10",
+          "min": 196,
+          "max": 215
+        },
+        {
+          "label": "Macro 11",
+          "min": 216,
+          "max": 235
+        },
+        {
+          "label": "Macro 12",
+          "min": 236,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 22,
+      "type_description": "Macro speed",
+      "capabilities": [
+        {
+          "label": "Macro speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Pro-Lights/Pro-Lights-V200.json",
+  "id": 1155
+}

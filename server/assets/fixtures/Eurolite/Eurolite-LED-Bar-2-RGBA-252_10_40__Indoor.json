@@ -1,0 +1,388 @@
+{
+  "version": "1.0.0",
+  "label": "LED Bar 2 RGBA 252/10 40° Indoor",
+  "manufacturer": "Eurolite",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 4500,
+  "dimension_weight": 2,
+  "dimension_width": 1070,
+  "dimension_height": 90,
+  "dimension_depth": 65,
+  "lens_label": "Other",
+  "lens_degree_min": 40,
+  "lens_degree_max": 40,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 50,
+  "technical_dmx_connector": "3-pin",
+  "type": 14,
+  "channels": [
+    {
+      "index": 0,
+      "type": 17,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "Black out",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Dimmer 1",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Dimmer 2",
+          "min": 11,
+          "max": 15
+        },
+        {
+          "label": "R",
+          "min": 16,
+          "max": 20
+        },
+        {
+          "label": "G",
+          "min": 21,
+          "max": 25
+        },
+        {
+          "label": "B",
+          "min": 26,
+          "max": 30
+        },
+        {
+          "label": "A",
+          "min": 31,
+          "max": 35
+        },
+        {
+          "label": "RA",
+          "min": 36,
+          "max": 40
+        },
+        {
+          "label": "RG",
+          "min": 41,
+          "max": 45
+        },
+        {
+          "label": "RB",
+          "min": 46,
+          "max": 50
+        },
+        {
+          "label": "GB",
+          "min": 51,
+          "max": 55
+        },
+        {
+          "label": "AB",
+          "min": 56,
+          "max": 60
+        },
+        {
+          "label": "AG",
+          "min": 61,
+          "max": 65
+        },
+        {
+          "label": "RGB",
+          "min": 66,
+          "max": 70
+        },
+        {
+          "label": "RGA",
+          "min": 71,
+          "max": 75
+        },
+        {
+          "label": "RBA",
+          "min": 76,
+          "max": 80
+        },
+        {
+          "label": "GBA",
+          "min": 81,
+          "max": 85
+        },
+        {
+          "label": "RGBA",
+          "min": 86,
+          "max": 90
+        },
+        {
+          "label": "Color jump",
+          "min": 91,
+          "max": 100
+        },
+        {
+          "label": "Color fade (in/out)",
+          "min": 101,
+          "max": 110
+        },
+        {
+          "label": "Color dream",
+          "min": 111,
+          "max": 120
+        },
+        {
+          "label": "Color flow",
+          "min": 121,
+          "max": 130
+        },
+        {
+          "label": "Overlap flow",
+          "min": 131,
+          "max": 140
+        },
+        {
+          "label": "Color chase",
+          "min": 141,
+          "max": 150
+        },
+        {
+          "label": "Multi color",
+          "min": 151,
+          "max": 160
+        },
+        {
+          "label": "Fade flow",
+          "min": 161,
+          "max": 170
+        },
+        {
+          "label": "2 flow",
+          "min": 171,
+          "max": 180
+        },
+        {
+          "label": "1 direction",
+          "min": 181,
+          "max": 190
+        },
+        {
+          "label": "2 directions",
+          "min": 191,
+          "max": 200
+        },
+        {
+          "label": "Two color flow",
+          "min": 201,
+          "max": 210
+        },
+        {
+          "label": "Sound activity",
+          "min": 211,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "All dimm",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Flash",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "All Red",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "All Green",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "All Blue",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "All Amber",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Red 1",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Green 1",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Blue 1",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Amber 1",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Red 2",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Green 2",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Amber 2",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Blue 2",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Red 3",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Green 3",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Blue 3",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Amber 3",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Red 4",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Green 4",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Blue 4",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Amber 4",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "No function",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 22,
+      "type_description": "Speed",
+      "capabilities": [
+        {
+          "label": "Speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "type": 3,
+      "type_description": "Sensitivity",
+      "capabilities": [
+        {
+          "label": "Sound sensitivity",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Color select",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Color select 2",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 17,
+      "type_description": "Mode 2",
+      "capabilities": [
+        {
+          "label": "On",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Sound activated",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "label": "On",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Flash",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-LED-Bar-2-RGBA-252_10_40__Indoor.json",
+  "id": 676
+}

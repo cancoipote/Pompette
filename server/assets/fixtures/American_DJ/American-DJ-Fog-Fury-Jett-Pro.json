@@ -1,0 +1,295 @@
+{
+  "version": "1.0.0",
+  "label": "Fog Fury Jett Pro",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 9,
+  "dimension_width": 315,
+  "dimension_height": 206,
+  "dimension_depth": 419,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 1550,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 11,
+  "channels": [
+    {
+      "index": 0,
+      "type": 5,
+      "type_description": "Fog",
+      "capabilities": [
+        {
+          "label": "Fog off",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Max fog",
+          "min": 32,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Color macros",
+      "capabilities": [
+        {
+          "label": "off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "color 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "color 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "color 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "color 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "color 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "color 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "color 7",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "color 8",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "color 9",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "color 10",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "color 11",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "color 12",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "color 13",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "color 14",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "color 15",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "color 16",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "color 17",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "color 18",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "color 19",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "color 20",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "color 21",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "color 22",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "color 23",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "color 24",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "color 25",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "color 26",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "color 27",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "color 28",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "color 29",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "random_1",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "random_2",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Green 1 (outer leds)",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Green 2 (inner leds)",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "UV",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 21,
+      "type_description": "Strobing",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Strobing slow-fast",
+          "min": 32,
+          "max": 95
+        },
+        {
+          "label": "Pulse effect",
+          "min": 96,
+          "max": 159
+        },
+        {
+          "label": "Random strobe slow-fast",
+          "min": 160,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Fog and random color change",
+      "capabilities": [
+        {
+          "label": "off",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "max fog and color change",
+          "min": 32,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Fog-Fury-Jett-Pro.json",
+  "id": 66
+}

@@ -1,0 +1,193 @@
+{
+  "version": "1.0.0",
+  "label": "Explo 3000D",
+  "manufacturer": "Pro-Lights",
+  "bulb_type": "",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 5600,
+  "dimension_weight": 6,
+  "dimension_width": 472,
+  "dimension_height": 255,
+  "dimension_depth": 152,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 3000,
+  "technical_dmx_connector": "3-pin",
+  "type": 12,
+  "channels": [
+    {
+      "index": 0,
+      "type": 5,
+      "type_description": "Flash Intensity",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Flash Intensity Min. > Max.",
+          "min": 6,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Flash Duration (0-650 ms @ 50Hz or 0-530 ms @ 60Hz)",
+      "capabilities": [
+        {
+          "label": "Flash Duration 1",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Flash Duration 2",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Flash Duration 3",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Flash Duration 4",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Flash Duration 5",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Flash Duration 6",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Flash Duration 7",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Flash Duration 8",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Flash Duration 9",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Flash Duration 10",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Flash Duration 11",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Flash Duration 12",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Flash Duration 13",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "Flash Duration 14",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "Flash Duration 15",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "Flash Duration 16",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Flash Rate",
+      "capabilities": [
+        {
+          "label": "No flash (single flash with ch.1)",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Flash Rate (0,5-17 Hz @ 50 Hz or 0,6-20 Hz @ 60 Hz)",
+          "min": 6,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Build-In Effect",
+      "capabilities": [
+        {
+          "label": "No effect",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Ramp Up",
+          "min": 6,
+          "max": 42
+        },
+        {
+          "label": "Ramp Down",
+          "min": 43,
+          "max": 85
+        },
+        {
+          "label": "Ramp Up-Down",
+          "min": 86,
+          "max": 128
+        },
+        {
+          "label": "Lightning",
+          "min": 129,
+          "max": 171
+        },
+        {
+          "label": "Random",
+          "min": 172,
+          "max": 214
+        },
+        {
+          "label": "No function",
+          "min": 215,
+          "max": 250
+        },
+        {
+          "label": "Spikes",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Pro-Lights/Pro-Lights-Explo-3000D.json",
+  "id": 1129
+}

@@ -1,0 +1,75 @@
+{
+  "version": "1.0.0",
+  "label": "CPL-3DMX",
+  "manufacturer": "Monacor",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 0,
+  "dimension_width": 193,
+  "dimension_height": 40,
+  "dimension_depth": 72,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 108,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Proportion of red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Proportion of green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Proportion of blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Dimmer / music control / stroboscope",
+      "capabilities": [
+        {
+          "label": "light off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "dimmer: dark → bright",
+          "min": 8,
+          "max": 190
+        },
+        {
+          "label": "music-controlled change of colour via integrated microphone",
+          "min": 191,
+          "max": 200
+        },
+        {
+          "label": "stroboscope: slow → fast",
+          "min": 201,
+          "max": 247
+        },
+        {
+          "label": "maximum brightness",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Monacor/Monacor-CPL-3DMX.json",
+  "id": 1033
+}

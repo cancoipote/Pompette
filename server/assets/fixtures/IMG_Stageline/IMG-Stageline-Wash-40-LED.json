@@ -1,0 +1,207 @@
+{
+  "version": "1.0.0",
+  "label": "Wash-40 LED",
+  "manufacturer": "IMG Stageline",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 180,
+  "dimension_height": 230,
+  "dimension_depth": 180,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 560,
+  "focus_tilt_max": 180,
+  "technical_power_consumption": 70,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Movement speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 5,
+      "type_description": "Dimmer/strobe",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 8
+        },
+        {
+          "label": "Dark -> bright",
+          "min": 9,
+          "max": 134
+        },
+        {
+          "label": "Strobe speed (slow -> fast)",
+          "min": 135,
+          "max": 239
+        },
+        {
+          "label": "Open",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Color macros",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Red",
+          "min": 1,
+          "max": 15
+        },
+        {
+          "label": "Yellow",
+          "min": 16,
+          "max": 63
+        },
+        {
+          "label": "Green",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Cyan",
+          "min": 80,
+          "max": 127
+        },
+        {
+          "label": "Blue",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Magenta",
+          "min": 144,
+          "max": 175
+        },
+        {
+          "label": "White (RGB)",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "White (RGBW)",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Color change with fading",
+          "min": 224,
+          "max": 237
+        },
+        {
+          "label": "Color change without fading",
+          "min": 238,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 3,
+      "type_description": "Program",
+      "capabilities": [
+        {
+          "label": "No program",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Automatic programs",
+          "min": 3,
+          "max": 203
+        },
+        {
+          "label": "Sound controlled",
+          "min": 204,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 17,
+      "type_description": "Reset",
+      "capabilities": [
+        {
+          "label": "Normal operation",
+          "min": 0,
+          "max": 254
+        },
+        {
+          "label": "Reset (reference move)",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/IMG_Stageline/IMG-Stageline-Wash-40-LED.json",
+  "id": 887
+}

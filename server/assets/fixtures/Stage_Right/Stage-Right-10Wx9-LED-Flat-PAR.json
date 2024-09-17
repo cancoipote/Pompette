@@ -1,0 +1,156 @@
+{
+  "version": "1.0.0",
+  "label": "10Wx9 LED Flat PAR",
+  "manufacturer": "Stage Right",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 250,
+  "dimension_height": 250,
+  "dimension_depth": 100,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 90,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Green Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "White Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No Strobe",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Strobe Speed (slow to fast)",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Macro",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Four color jumping change",
+          "min": 1,
+          "max": 29
+        },
+        {
+          "label": "Full color jumping change",
+          "min": 30,
+          "max": 59
+        },
+        {
+          "label": "Full color gradient mode",
+          "min": 60,
+          "max": 89
+        },
+        {
+          "label": "Variable pulse mode",
+          "min": 90,
+          "max": 119
+        },
+        {
+          "label": "Jumping change, gradient, and variable pulse modes combined",
+          "min": 120,
+          "max": 149
+        },
+        {
+          "label": "Gradient fast strobe mode (color change speed)",
+          "min": 150,
+          "max": 179
+        },
+        {
+          "label": "Save disabled",
+          "min": 180,
+          "max": 199
+        },
+        {
+          "label": "Strobe follow mode color selections (1-9)",
+          "min": 200,
+          "max": 229
+        },
+        {
+          "label": "Strobe follow mode effect selection (1-13)",
+          "min": 230,
+          "max": 243
+        },
+        {
+          "label": "Recycle effect",
+          "min": 244,
+          "max": 245
+        },
+        {
+          "label": "Sound activated strobe mode (sensitivity)",
+          "min": 246,
+          "max": 250
+        },
+        {
+          "label": "Sound activated jumping change mode (sensitivity)",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 22,
+      "type_description": "Macro Speed",
+      "capabilities": [
+        {
+          "label": "LED speed slow to fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Stage_Right/Stage-Right-10Wx9-LED-Flat-PAR.json",
+  "id": 1346
+}

@@ -1,0 +1,153 @@
+{
+  "version": "1.0.0",
+  "label": "Mini Max LED RGB",
+  "manufacturer": "Showtec",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 5,
+  "dimension_width": 260,
+  "dimension_height": 350,
+  "dimension_depth": 220,
+  "lens_label": "Other",
+  "lens_degree_min": 9,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 230,
+  "technical_power_consumption": 160,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan coarse",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt coarse",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Speed",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "RGB Control Mode",
+      "capabilities": [
+        {
+          "label": "RGB",
+          "min": 0,
+          "max": 24
+        },
+        {
+          "label": "Auto Pro 1",
+          "min": 25,
+          "max": 49
+        },
+        {
+          "label": "Auto Pro 2",
+          "min": 50,
+          "max": 74
+        },
+        {
+          "label": "Auto Pro 3",
+          "min": 75,
+          "max": 99
+        },
+        {
+          "label": "Auto Pro 4",
+          "min": 100,
+          "max": 124
+        },
+        {
+          "label": "Auto Pro 5 No Pan/Tilt",
+          "min": 125,
+          "max": 149
+        },
+        {
+          "label": "Auto Pro 6 No Pan/Tilt",
+          "min": 150,
+          "max": 174
+        },
+        {
+          "label": "Auto Pro 7 No Pan/Tilt",
+          "min": 175,
+          "max": 199
+        },
+        {
+          "label": "Auto Pro 8 No Pan/Tilt",
+          "min": 200,
+          "max": 224
+        },
+        {
+          "label": "Sound-active",
+          "min": 225,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 21,
+      "type_description": "Strobe / Auto speed",
+      "capabilities": [
+        {
+          "label": "Full on",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Strobe, from slow to fast",
+          "min": 8,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Showtec/Showtec-Mini-Max-LED-RGB.json",
+  "id": 1310
+}

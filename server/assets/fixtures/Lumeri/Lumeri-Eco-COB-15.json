@@ -1,0 +1,129 @@
+{
+  "version": "1.0.0",
+  "label": "Eco COB 15",
+  "manufacturer": "Lumeri",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 0,
+  "dimension_width": 100,
+  "dimension_height": 100,
+  "dimension_depth": 95,
+  "lens_label": "Other",
+  "lens_degree_min": 40,
+  "lens_degree_max": 40,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 15,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Color Macro",
+      "capabilities": [
+        {
+          "label": "No Function",
+          "min": 0,
+          "max": 50
+        },
+        {
+          "label": "Red",
+          "min": 51,
+          "max": 57
+        },
+        {
+          "label": "Green",
+          "min": 58,
+          "max": 64
+        },
+        {
+          "label": "Blue",
+          "min": 65,
+          "max": 71
+        },
+        {
+          "label": "Yellow",
+          "min": 72,
+          "max": 78
+        },
+        {
+          "label": "Magenta",
+          "min": 79,
+          "max": 85
+        },
+        {
+          "label": "Cyan",
+          "min": 86,
+          "max": 92
+        },
+        {
+          "label": "White",
+          "min": 93,
+          "max": 100
+        },
+        {
+          "label": "Color Fade",
+          "min": 101,
+          "max": 200
+        },
+        {
+          "label": "Color Jump",
+          "min": 201,
+          "max": 250
+        },
+        {
+          "label": "Sound Control",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 22,
+      "type_description": "Macro Speed",
+      "capabilities": [
+        {
+          "label": "Macro speed (slow to fast)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Lumeri/Lumeri-Eco-COB-15.json",
+  "id": 1015
+}

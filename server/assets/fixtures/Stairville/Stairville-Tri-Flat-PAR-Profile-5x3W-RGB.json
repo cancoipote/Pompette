@@ -1,0 +1,174 @@
+{
+  "version": "1.0.0",
+  "label": "Tri Flat PAR Profile 5x3W RGB",
+  "manufacturer": "Stairville",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 164,
+  "dimension_height": 164,
+  "dimension_depth": 105,
+  "lens_label": "Other",
+  "lens_degree_min": 25,
+  "lens_degree_max": 25,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 18,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 17,
+      "type_description": "Operating Mode",
+      "capabilities": [
+        {
+          "label": "Manual mode; colours can be adjusted via channels 2 to 4",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Preprogrammed automatic show no. 1",
+          "min": 1,
+          "max": 27
+        },
+        {
+          "label": "Preprogrammed automatic show no. 2",
+          "min": 28,
+          "max": 55
+        },
+        {
+          "label": "Preprogrammed automatic show no. 3",
+          "min": 56,
+          "max": 83
+        },
+        {
+          "label": "Preprogrammed automatic show no. 4",
+          "min": 84,
+          "max": 111
+        },
+        {
+          "label": "Preprogrammed automatic show no. 5",
+          "min": 112,
+          "max": 139
+        },
+        {
+          "label": "Preprogrammed automatic show no. 6",
+          "min": 140,
+          "max": 167
+        },
+        {
+          "label": "Preprogrammed automatic show no. 7",
+          "min": 168,
+          "max": 195
+        },
+        {
+          "label": "Preprogrammed automatic show no. 8",
+          "min": 196,
+          "max": 223
+        },
+        {
+          "label": "Preprogrammed automatic show no. 9",
+          "min": 224,
+          "max": 251
+        },
+        {
+          "label": "Sound-controlled show",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Constant Colour / Progress Speed",
+      "capabilities": [
+        {
+          "label": "Dark, when channel 5 = 1...24",
+          "min": 0,
+          "max": 27
+        },
+        {
+          "label": "Red, when channel 5 = 1...24",
+          "min": 28,
+          "max": 55
+        },
+        {
+          "label": "Orange, when channel 5 = 1...24",
+          "min": 56,
+          "max": 83
+        },
+        {
+          "label": "Yellow, when channel 5 = 1...24",
+          "min": 84,
+          "max": 111
+        },
+        {
+          "label": "Light green, when channel 5 = 1...24",
+          "min": 112,
+          "max": 139
+        },
+        {
+          "label": "Light blue, when channel 5 = 1...24",
+          "min": 140,
+          "max": 167
+        },
+        {
+          "label": "Blue, when channel 5 = 1...24",
+          "min": 168,
+          "max": 195
+        },
+        {
+          "label": "Purple, when channel 5 = 1...24",
+          "min": 196,
+          "max": 223
+        },
+        {
+          "label": "Pink, when channel 5 = 1...24",
+          "min": 224,
+          "max": 251
+        },
+        {
+          "label": "Red + green + blue, when channel 5 = 1...24",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Stairville/Stairville-Tri-Flat-PAR-Profile-5x3W-RGB.json",
+  "id": 1445
+}

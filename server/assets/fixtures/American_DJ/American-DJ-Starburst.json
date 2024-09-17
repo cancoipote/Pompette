@@ -1,0 +1,282 @@
+{
+  "version": "1.0.0",
+  "label": "Starburst",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 318,
+  "dimension_height": 4125,
+  "dimension_depth": 318,
+  "lens_label": "Other",
+  "lens_degree_min": 1,
+  "lens_degree_max": 1,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 55,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Yellow",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Purple",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Strobing",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "LED on",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Slow - fast",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "LED on",
+          "min": 132,
+          "max": 139
+        },
+        {
+          "label": "Slow open - fast close",
+          "min": 140,
+          "max": 181
+        },
+        {
+          "label": "LED on",
+          "min": 182,
+          "max": 189
+        },
+        {
+          "label": "Fast open - slow close",
+          "min": 190,
+          "max": 231
+        },
+        {
+          "label": "LED on",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Random",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "LED on",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Rotation",
+      "capabilities": [
+        {
+          "label": "No",
+          "min": 0,
+          "max": 30
+        },
+        {
+          "label": "Clockwise fast - slow",
+          "min": 31,
+          "max": 140
+        },
+        {
+          "label": "Stop",
+          "min": 141,
+          "max": 145
+        },
+        {
+          "label": "Counterclockwise slow - fast",
+          "min": 146,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Color Macros",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 25
+        },
+        {
+          "label": "Red",
+          "min": 26,
+          "max": 45
+        },
+        {
+          "label": "Green",
+          "min": 46,
+          "max": 65
+        },
+        {
+          "label": "Blue",
+          "min": 66,
+          "max": 85
+        },
+        {
+          "label": "White",
+          "min": 86,
+          "max": 105
+        },
+        {
+          "label": "Yellow",
+          "min": 106,
+          "max": 125
+        },
+        {
+          "label": "Green",
+          "min": 126,
+          "max": 145
+        },
+        {
+          "label": "White",
+          "min": 146,
+          "max": 165
+        },
+        {
+          "label": "Yellow (Red/Green)",
+          "min": 166,
+          "max": 185
+        },
+        {
+          "label": "Purple (Red/Blue)",
+          "min": 186,
+          "max": 205
+        },
+        {
+          "label": "Color changing fast - slow",
+          "min": 206,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Pan/Color Macros",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 55
+        },
+        {
+          "label": "Sound active",
+          "min": 56,
+          "max": 75
+        },
+        {
+          "label": "Red clockwise rotation",
+          "min": 76,
+          "max": 105
+        },
+        {
+          "label": "Blue counterclockwise",
+          "min": 106,
+          "max": 135
+        },
+        {
+          "label": "7 color change clockwise rotation",
+          "min": 136,
+          "max": 165
+        },
+        {
+          "label": "7 color change counterclockwise rotation",
+          "min": 166,
+          "max": 195
+        },
+        {
+          "label": "7 color change with strobe clockwise rotation",
+          "min": 196,
+          "max": 225
+        },
+        {
+          "label": "7 color change with strobe counterclockwise rotation",
+          "min": 226,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 17,
+      "type_description": "Reset",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 69
+        },
+        {
+          "label": "Reset",
+          "min": 70,
+          "max": 85
+        },
+        {
+          "label": "No function",
+          "min": 86,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Starburst.json",
+  "id": 139
+}

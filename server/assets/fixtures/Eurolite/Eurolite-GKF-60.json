@@ -1,0 +1,172 @@
+{
+  "version": "1.0.0",
+  "label": "GKF-60",
+  "manufacturer": "Eurolite",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 235,
+  "dimension_height": 210,
+  "dimension_depth": 370,
+  "lens_label": "Other",
+  "lens_degree_min": 30,
+  "lens_degree_max": 30,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 82,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Home",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Index-Position 1",
+          "min": 8,
+          "max": 8
+        },
+        {
+          "label": "Index-Position 2",
+          "min": 9,
+          "max": 9
+        },
+        {
+          "label": "Index-Position 3",
+          "min": 10,
+          "max": 10
+        },
+        {
+          "label": "Index-Position 4",
+          "min": 11,
+          "max": 11
+        },
+        {
+          "label": "Index-Position 5",
+          "min": 12,
+          "max": 12
+        },
+        {
+          "label": "Index-Position 6",
+          "min": 13,
+          "max": 13
+        },
+        {
+          "label": "Index-Position 7",
+          "min": 14,
+          "max": 14
+        },
+        {
+          "label": "Index-Position 8",
+          "min": 15,
+          "max": 15
+        },
+        {
+          "label": "Rainbow effect, increasing speed",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 20,
+      "type_description": "Effect Wheel",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Forward rotation with increasing speed",
+          "min": 8,
+          "max": 127
+        },
+        {
+          "label": "Stop",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Backward rotation with increasing speed",
+          "min": 136,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 21,
+      "type_description": "Shutter/Strobe",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Shutter Open",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Strobe-Effect with increasing speed",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "Shutter Open",
+          "min": 132,
+          "max": 139
+        },
+        {
+          "label": "Pulse opening with decreasing speed",
+          "min": 140,
+          "max": 180
+        },
+        {
+          "label": "Shutter Open",
+          "min": 181,
+          "max": 189
+        },
+        {
+          "label": "Pulse closing with decreasing speed",
+          "min": 190,
+          "max": 231
+        },
+        {
+          "label": "Reset after 3-5 seconds",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Random strobe-effect",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Shutter Open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-GKF-60.json",
+  "id": 672
+}

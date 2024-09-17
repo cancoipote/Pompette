@@ -1,0 +1,163 @@
+{
+  "version": "1.0.0",
+  "label": "ZQ-B93 Pinspot RGBW",
+  "manufacturer": "UKing",
+  "bulb_type": "LED",
+  "bulb_lumens": 48,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 0,
+  "dimension_width": 106,
+  "dimension_height": 187,
+  "dimension_depth": 215,
+  "lens_label": "Fresnel",
+  "lens_degree_min": 11,
+  "lens_degree_max": 11,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 17,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Total function control",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 8
+        },
+        {
+          "label": "White Dimmer",
+          "min": 9,
+          "max": 134
+        },
+        {
+          "label": "RGBW Strobe",
+          "min": 135,
+          "max": 239
+        },
+        {
+          "label": "RGBW On",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red LED Dimming",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green LED Dimming",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue LED Dimming",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "White LED Dimming",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Auto FX",
+      "capabilities": [
+        {
+          "label": "No operation",
+          "min": 0,
+          "max": 8
+        },
+        {
+          "label": "Mode 1",
+          "min": 9,
+          "max": 31
+        },
+        {
+          "label": "Mode 2",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Mode 3",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Mode 4",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Mode 5",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Mode 6",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Mode 7",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Mode 8",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Mode 9",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Mode 10",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Mode 11",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "Mode 12",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "Sound Mode 1",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "Sound Mode 2",
+          "min": 240,
+          "max": 249
+        },
+        {
+          "label": "Sound Mode 3",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/UKing/UKing-ZQ-B93-Pinspot-RGBW.json",
+  "id": 1477
+}

@@ -1,0 +1,366 @@
+{
+  "version": "1.0.0",
+  "label": "ZQ-B370",
+  "manufacturer": "UKing",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 6,
+  "dimension_width": 600,
+  "dimension_height": 180,
+  "dimension_depth": 150,
+  "lens_label": "Other",
+  "lens_degree_min": 30,
+  "lens_degree_max": 50,
+  "focus_type": "Mirror",
+  "focus_pan_max": 30,
+  "focus_tilt_max": 30,
+  "technical_power_consumption": 30,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "Laser Off",
+          "min": 0,
+          "max": 49
+        },
+        {
+          "label": "Static Pattern",
+          "min": 50,
+          "max": 99
+        },
+        {
+          "label": "Dynamic Pattern",
+          "min": 100,
+          "max": 149
+        },
+        {
+          "label": "Sound active",
+          "min": 150,
+          "max": 199
+        },
+        {
+          "label": "Auto mode",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Pattern Selection",
+      "capabilities": [
+        {
+          "label": "Circle",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Dot Circle 1",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "Dot Circle 2",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "Scan Circle",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "Horizontal line",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "Horizontal dot line",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "Vertical line",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "Vertical dot line",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "45' diagonal",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "Dot Diagonal 1",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "135' Diagonal",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "Dot Diagonal 2",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "V Line 1",
+          "min": 60,
+          "max": 64
+        },
+        {
+          "label": "V Dot Line 1",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "V line 2",
+          "min": 70,
+          "max": 74
+        },
+        {
+          "label": "V Dot line 2",
+          "min": 75,
+          "max": 79
+        },
+        {
+          "label": "Triangle 1",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "Dot triangle 1",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "Triangle 2",
+          "min": 90,
+          "max": 94
+        },
+        {
+          "label": "Dot Triangle 2",
+          "min": 95,
+          "max": 99
+        },
+        {
+          "label": "Square",
+          "min": 100,
+          "max": 104
+        },
+        {
+          "label": "Dot Square",
+          "min": 105,
+          "max": 109
+        },
+        {
+          "label": "Rectangle 1",
+          "min": 110,
+          "max": 114
+        },
+        {
+          "label": "Dot Rectangle 1",
+          "min": 115,
+          "max": 119
+        },
+        {
+          "label": "Rectangle 2",
+          "min": 120,
+          "max": 124
+        },
+        {
+          "label": "Dot Rectangle 2",
+          "min": 125,
+          "max": 129
+        },
+        {
+          "label": "Christcross",
+          "min": 130,
+          "max": 134
+        },
+        {
+          "label": "Chiasma Line",
+          "min": 135,
+          "max": 139
+        },
+        {
+          "label": "Horizontal Extend Line",
+          "min": 140,
+          "max": 144
+        },
+        {
+          "label": "Horizontal Shrink Line",
+          "min": 145,
+          "max": 149
+        },
+        {
+          "label": "Horizontal Flex Line",
+          "min": 150,
+          "max": 154
+        },
+        {
+          "label": "Horizontal Flex Dot Line",
+          "min": 155,
+          "max": 159
+        },
+        {
+          "label": "Vertical Extend Line",
+          "min": 160,
+          "max": 164
+        },
+        {
+          "label": "Vertical Shrink Line",
+          "min": 165,
+          "max": 169
+        },
+        {
+          "label": "Vertical Flex Line",
+          "min": 170,
+          "max": 174
+        },
+        {
+          "label": "Vertical Flex Dot Line",
+          "min": 175,
+          "max": 179
+        },
+        {
+          "label": "Ladder Line 1",
+          "min": 180,
+          "max": 184
+        },
+        {
+          "label": "Ladder Line 2",
+          "min": 185,
+          "max": 189
+        },
+        {
+          "label": "Ladder Line 3",
+          "min": 190,
+          "max": 194
+        },
+        {
+          "label": "Ladder Line 4",
+          "min": 195,
+          "max": 199
+        },
+        {
+          "label": "Tetragon 1",
+          "min": 200,
+          "max": 204
+        },
+        {
+          "label": "Tetragon 2",
+          "min": 205,
+          "max": 209
+        },
+        {
+          "label": "Pentagon 1",
+          "min": 210,
+          "max": 214
+        },
+        {
+          "label": "Pentagon 2",
+          "min": 215,
+          "max": 219
+        },
+        {
+          "label": "Pentagon 3",
+          "min": 220,
+          "max": 224
+        },
+        {
+          "label": "Pentagon 4",
+          "min": 225,
+          "max": 229
+        },
+        {
+          "label": "Wave Line",
+          "min": 230,
+          "max": 234
+        },
+        {
+          "label": "Wave Dot Line",
+          "min": 235,
+          "max": 239
+        },
+        {
+          "label": "Spirality line",
+          "min": 240,
+          "max": 244
+        },
+        {
+          "label": "Many Dot 1",
+          "min": 245,
+          "max": 249
+        },
+        {
+          "label": "Many Dot 2",
+          "min": 250,
+          "max": 254
+        },
+        {
+          "label": "Square Dot",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Scanning Speed",
+      "capabilities": [
+        {
+          "label": "Speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 22,
+      "type_description": "Dynamic Pattern Play Speed",
+      "capabilities": [
+        {
+          "label": "Dynamic Speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Static Pattern Size",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/UKing/UKing-ZQ-B370-Laser.json",
+  "id": 1476
+}

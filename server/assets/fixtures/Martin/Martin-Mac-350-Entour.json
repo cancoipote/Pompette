@@ -1,0 +1,1278 @@
+{
+  "version": "1.0.0",
+  "label": "MAC 350 Entour",
+  "manufacturer": "Martin",
+  "bulb_type": "LED",
+  "bulb_lumens": 8000,
+  "bulb_color_temperature": 6500,
+  "dimension_weight": 16,
+  "dimension_width": 377,
+  "dimension_height": 471,
+  "dimension_depth": 220,
+  "lens_label": "",
+  "lens_degree_min": 8,
+  "lens_degree_max": 16,
+  "focus_type": "Head",
+  "focus_pan_max": 630,
+  "focus_tilt_max": 300,
+  "technical_power_consumption": 463,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Shutter Strobe",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Open",
+          "min": 20,
+          "max": 49
+        },
+        {
+          "label": "Strobe 1, fast → slow",
+          "min": 50,
+          "max": 64
+        },
+        {
+          "label": "Open",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "Strobe 2, fast → slow - Opening Pulse",
+          "min": 70,
+          "max": 84
+        },
+        {
+          "label": "Open",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "Strobe 3, fast → slow - Closing Pulse",
+          "min": 90,
+          "max": 104
+        },
+        {
+          "label": "Open",
+          "min": 105,
+          "max": 109
+        },
+        {
+          "label": "Strobe 4, fast → slow - Random Strobe",
+          "min": 110,
+          "max": 124
+        },
+        {
+          "label": "Open",
+          "min": 125,
+          "max": 129
+        },
+        {
+          "label": "Strobe 5, fast → slow - Random Opening Pulse",
+          "min": 130,
+          "max": 144
+        },
+        {
+          "label": "Open",
+          "min": 145,
+          "max": 149
+        },
+        {
+          "label": "Strobe 6, fast → slow - Random Closing Pulse",
+          "min": 150,
+          "max": 164
+        },
+        {
+          "label": "Open",
+          "min": 165,
+          "max": 169
+        },
+        {
+          "label": "Strobe 7, fast → slow - Burst Pulse",
+          "min": 170,
+          "max": 184
+        },
+        {
+          "label": "Open",
+          "min": 185,
+          "max": 189
+        },
+        {
+          "label": "Strobe 8, fast → slow - Random Burst Pulse",
+          "min": 190,
+          "max": 204
+        },
+        {
+          "label": "Open",
+          "min": 205,
+          "max": 209
+        },
+        {
+          "label": "Strobe 9, fast → slow - Electronic Sinewave",
+          "min": 210,
+          "max": 224
+        },
+        {
+          "label": "Open",
+          "min": 225,
+          "max": 229
+        },
+        {
+          "label": "Strobe 10, fast → slow - Electronic Burst",
+          "min": 230,
+          "max": 244
+        },
+        {
+          "label": "Open",
+          "min": 245,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Open/Blue",
+          "min": 1,
+          "max": 15
+        },
+        {
+          "label": "Blue",
+          "min": 16,
+          "max": 16
+        },
+        {
+          "label": "Blue/Green",
+          "min": 17,
+          "max": 31
+        },
+        {
+          "label": "Green",
+          "min": 32,
+          "max": 32
+        },
+        {
+          "label": "Green/Orange",
+          "min": 33,
+          "max": 47
+        },
+        {
+          "label": "Orange",
+          "min": 48,
+          "max": 48
+        },
+        {
+          "label": "Orange/Yellow",
+          "min": 49,
+          "max": 63
+        },
+        {
+          "label": "Yellow",
+          "min": 64,
+          "max": 64
+        },
+        {
+          "label": "Yellow/Pink",
+          "min": 65,
+          "max": 79
+        },
+        {
+          "label": "Pink",
+          "min": 80,
+          "max": 80
+        },
+        {
+          "label": "Pink/Magenta",
+          "min": 81,
+          "max": 95
+        },
+        {
+          "label": "Magenta",
+          "min": 96,
+          "max": 96
+        },
+        {
+          "label": "Mag/Congo",
+          "min": 97,
+          "max": 111
+        },
+        {
+          "label": "Congo",
+          "min": 112,
+          "max": 112
+        },
+        {
+          "label": "Congo/Red",
+          "min": 113,
+          "max": 127
+        },
+        {
+          "label": "Red",
+          "min": 128,
+          "max": 128
+        },
+        {
+          "label": "Red/Open",
+          "min": 129,
+          "max": 143
+        },
+        {
+          "label": "Open",
+          "min": 144,
+          "max": 144
+        },
+        {
+          "label": "Red",
+          "min": 145,
+          "max": 148
+        },
+        {
+          "label": "Congo Blue",
+          "min": 149,
+          "max": 152
+        },
+        {
+          "label": "Magenta",
+          "min": 153,
+          "max": 156
+        },
+        {
+          "label": "Pink",
+          "min": 157,
+          "max": 160
+        },
+        {
+          "label": "Yellow",
+          "min": 161,
+          "max": 164
+        },
+        {
+          "label": "Orange",
+          "min": 165,
+          "max": 168
+        },
+        {
+          "label": "Green",
+          "min": 169,
+          "max": 172
+        },
+        {
+          "label": "Blue",
+          "min": 173,
+          "max": 176
+        },
+        {
+          "label": "Open",
+          "min": 177,
+          "max": 180
+        },
+        {
+          "label": "Scroll CW",
+          "min": 181,
+          "max": 203
+        },
+        {
+          "label": "No Scroll",
+          "min": 204,
+          "max": 207
+        },
+        {
+          "label": "Scroll CCW",
+          "min": 208,
+          "max": 230
+        },
+        {
+          "label": "Chase Music Fast",
+          "min": 231,
+          "max": 235
+        },
+        {
+          "label": "Chase Music Medium",
+          "min": 236,
+          "max": 239
+        },
+        {
+          "label": "Chase Music Slow",
+          "min": 240,
+          "max": 243
+        },
+        {
+          "label": "Chase Rnd Fast",
+          "min": 244,
+          "max": 247
+        },
+        {
+          "label": "Chase Rnd Medium",
+          "min": 248,
+          "max": 251
+        },
+        {
+          "label": "Chase Rnd Slow",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Jessica Rose",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "Cathedral Spikes",
+          "min": 8,
+          "max": 11
+        },
+        {
+          "label": "Galaxy Breakup",
+          "min": 12,
+          "max": 15
+        },
+        {
+          "label": "Fabrick",
+          "min": 16,
+          "max": 19
+        },
+        {
+          "label": "Dipple",
+          "min": 20,
+          "max": 23
+        },
+        {
+          "label": "Blue Ripple",
+          "min": 24,
+          "max": 27
+        },
+        {
+          "label": "Open",
+          "min": 28,
+          "max": 31
+        },
+        {
+          "label": "Jessica Rose",
+          "min": 32,
+          "max": 35
+        },
+        {
+          "label": "Cathedral Spikes",
+          "min": 36,
+          "max": 39
+        },
+        {
+          "label": "Galaxy Breakup",
+          "min": 40,
+          "max": 43
+        },
+        {
+          "label": "Fabrick",
+          "min": 44,
+          "max": 47
+        },
+        {
+          "label": "Dipple",
+          "min": 48,
+          "max": 51
+        },
+        {
+          "label": "Blue Ripple",
+          "min": 52,
+          "max": 55
+        },
+        {
+          "label": "Rose Shk",
+          "min": 56,
+          "max": 66
+        },
+        {
+          "label": "Cathedral Shk",
+          "min": 67,
+          "max": 77
+        },
+        {
+          "label": "Galaxy Shk",
+          "min": 78,
+          "max": 88
+        },
+        {
+          "label": "Fabrick Shk",
+          "min": 89,
+          "max": 99
+        },
+        {
+          "label": "Dipple Shk",
+          "min": 100,
+          "max": 110
+        },
+        {
+          "label": "Ripple Shk",
+          "min": 111,
+          "max": 121
+        },
+        {
+          "label": "Rose Shk",
+          "min": 122,
+          "max": 132
+        },
+        {
+          "label": "Cathedral Shk",
+          "min": 133,
+          "max": 143
+        },
+        {
+          "label": "Galaxy Shk",
+          "min": 144,
+          "max": 154
+        },
+        {
+          "label": "Fabrick Shk",
+          "min": 155,
+          "max": 165
+        },
+        {
+          "label": "Dipple Shk",
+          "min": 166,
+          "max": 176
+        },
+        {
+          "label": "Ripple Shk",
+          "min": 177,
+          "max": 187
+        },
+        {
+          "label": "Spin CW",
+          "min": 188,
+          "max": 215
+        },
+        {
+          "label": "Spin CCW",
+          "min": 216,
+          "max": 243
+        },
+        {
+          "label": "Chase Fast",
+          "min": 244,
+          "max": 247
+        },
+        {
+          "label": "Chase Medium",
+          "min": 248,
+          "max": 251
+        },
+        {
+          "label": "Chase Slow",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 22,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": [
+        {
+          "label": "Tracking",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Vector mode, fast → slow",
+          "min": 3,
+          "max": 245
+        },
+        {
+          "label": "Reserved",
+          "min": 246,
+          "max": 251
+        },
+        {
+          "label": "Blackout while moving",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 4,
+      "type_description": "Gobo Rotating",
+      "capabilities": [
+        {
+          "label": "No rotation",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "CW, slow → fast",
+          "min": 3,
+          "max": 121
+        },
+        {
+          "label": "CCW, fast → slow",
+          "min": 122,
+          "max": 240
+        },
+        {
+          "label": "No rotation",
+          "min": 241,
+          "max": 243
+        },
+        {
+          "label": "Music Rot Fast",
+          "min": 244,
+          "max": 247
+        },
+        {
+          "label": "Music Rot Medium",
+          "min": 248,
+          "max": 251
+        },
+        {
+          "label": "Music Rot Slow",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 4,
+      "type_description": "Gobo Rot Fine",
+      "capabilities": [
+        {
+          "label": "Index Fine",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 3,
+      "type_description": "Pan/Tilt Macros",
+      "capabilities": [
+        {
+          "label": "No Macro",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Macro 1.1",
+          "min": 6,
+          "max": 11
+        },
+        {
+          "label": "Macro 1.2",
+          "min": 12,
+          "max": 17
+        },
+        {
+          "label": "Macro 1.3",
+          "min": 18,
+          "max": 23
+        },
+        {
+          "label": "Macro 1.4",
+          "min": 24,
+          "max": 29
+        },
+        {
+          "label": "Macro 2.1",
+          "min": 30,
+          "max": 35
+        },
+        {
+          "label": "Macro 2.2",
+          "min": 36,
+          "max": 41
+        },
+        {
+          "label": "Macro 2.3",
+          "min": 42,
+          "max": 47
+        },
+        {
+          "label": "Macro 2.4",
+          "min": 48,
+          "max": 53
+        },
+        {
+          "label": "Macro 3.1",
+          "min": 54,
+          "max": 59
+        },
+        {
+          "label": "Macro 3.2",
+          "min": 60,
+          "max": 65
+        },
+        {
+          "label": "Macro 3.3",
+          "min": 66,
+          "max": 71
+        },
+        {
+          "label": "Macro 3.4",
+          "min": 72,
+          "max": 77
+        },
+        {
+          "label": "Macro 4.1",
+          "min": 78,
+          "max": 83
+        },
+        {
+          "label": "Macro 4.2",
+          "min": 84,
+          "max": 89
+        },
+        {
+          "label": "Macro 4.3",
+          "min": 90,
+          "max": 95
+        },
+        {
+          "label": "Macro 4.4",
+          "min": 96,
+          "max": 101
+        },
+        {
+          "label": "Macro 5.1",
+          "min": 102,
+          "max": 107
+        },
+        {
+          "label": "Macro 5.2",
+          "min": 108,
+          "max": 113
+        },
+        {
+          "label": "Macro 5.3",
+          "min": 114,
+          "max": 119
+        },
+        {
+          "label": "Macro 5.4",
+          "min": 120,
+          "max": 125
+        },
+        {
+          "label": "Macro 6.1",
+          "min": 126,
+          "max": 131
+        },
+        {
+          "label": "Macro 6.2",
+          "min": 132,
+          "max": 137
+        },
+        {
+          "label": "Macro 6.3",
+          "min": 138,
+          "max": 143
+        },
+        {
+          "label": "Macro 6.4",
+          "min": 144,
+          "max": 149
+        },
+        {
+          "label": "Macro 7.1",
+          "min": 150,
+          "max": 155
+        },
+        {
+          "label": "Macro 7.2",
+          "min": 156,
+          "max": 161
+        },
+        {
+          "label": "Macro 7.3",
+          "min": 162,
+          "max": 167
+        },
+        {
+          "label": "Macro 7.4",
+          "min": 168,
+          "max": 173
+        },
+        {
+          "label": "Macro 8.1",
+          "min": 174,
+          "max": 179
+        },
+        {
+          "label": "Macro 8.2",
+          "min": 180,
+          "max": 185
+        },
+        {
+          "label": "Macro 8.3",
+          "min": 186,
+          "max": 191
+        },
+        {
+          "label": "Macro 8.4",
+          "min": 192,
+          "max": 197
+        },
+        {
+          "label": "Macro 9.1",
+          "min": 198,
+          "max": 203
+        },
+        {
+          "label": "Macro 9.2",
+          "min": 204,
+          "max": 209
+        },
+        {
+          "label": "Macro 9.3",
+          "min": 210,
+          "max": 215
+        },
+        {
+          "label": "Macro 9.4",
+          "min": 216,
+          "max": 221
+        },
+        {
+          "label": "Macro 10.1",
+          "min": 222,
+          "max": 227
+        },
+        {
+          "label": "Macro 10.2",
+          "min": 228,
+          "max": 233
+        },
+        {
+          "label": "Macro 10.3",
+          "min": 234,
+          "max": 239
+        },
+        {
+          "label": "Macro 10.4",
+          "min": 240,
+          "max": 245
+        },
+        {
+          "label": "Reserved",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 3,
+      "type_description": "Effects macros",
+      "capabilities": [
+        {
+          "label": "No Macro",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Macro 1.1",
+          "min": 6,
+          "max": 11
+        },
+        {
+          "label": "Macro 1.2",
+          "min": 12,
+          "max": 17
+        },
+        {
+          "label": "Macro 1.3",
+          "min": 18,
+          "max": 23
+        },
+        {
+          "label": "Macro 1.4",
+          "min": 24,
+          "max": 29
+        },
+        {
+          "label": "Macro 2.1",
+          "min": 30,
+          "max": 35
+        },
+        {
+          "label": "Macro 2.2",
+          "min": 36,
+          "max": 41
+        },
+        {
+          "label": "Macro 2.3",
+          "min": 42,
+          "max": 47
+        },
+        {
+          "label": "Macro 2.4",
+          "min": 48,
+          "max": 53
+        },
+        {
+          "label": "Macro 3.1",
+          "min": 54,
+          "max": 59
+        },
+        {
+          "label": "Macro 3.2",
+          "min": 60,
+          "max": 65
+        },
+        {
+          "label": "Macro 3.3",
+          "min": 66,
+          "max": 71
+        },
+        {
+          "label": "Macro 3.4",
+          "min": 72,
+          "max": 77
+        },
+        {
+          "label": "Macro 4.1",
+          "min": 78,
+          "max": 83
+        },
+        {
+          "label": "Macro 4.2",
+          "min": 84,
+          "max": 89
+        },
+        {
+          "label": "Macro 4.3",
+          "min": 90,
+          "max": 95
+        },
+        {
+          "label": "Macro 4.4",
+          "min": 96,
+          "max": 101
+        },
+        {
+          "label": "Macro 5.1",
+          "min": 102,
+          "max": 107
+        },
+        {
+          "label": "Macro 5.2",
+          "min": 108,
+          "max": 113
+        },
+        {
+          "label": "Macro 5.3",
+          "min": 114,
+          "max": 119
+        },
+        {
+          "label": "Macro 5.4",
+          "min": 120,
+          "max": 125
+        },
+        {
+          "label": "Macro 6.1",
+          "min": 126,
+          "max": 131
+        },
+        {
+          "label": "Macro 6.2",
+          "min": 132,
+          "max": 137
+        },
+        {
+          "label": "Macro 6.3",
+          "min": 138,
+          "max": 143
+        },
+        {
+          "label": "Macro 6.4",
+          "min": 144,
+          "max": 149
+        },
+        {
+          "label": "Macro 7.1",
+          "min": 150,
+          "max": 155
+        },
+        {
+          "label": "Macro 7.2",
+          "min": 156,
+          "max": 161
+        },
+        {
+          "label": "Macro 7.3",
+          "min": 162,
+          "max": 167
+        },
+        {
+          "label": "Macro 7.4",
+          "min": 168,
+          "max": 173
+        },
+        {
+          "label": "Macro 8.1",
+          "min": 174,
+          "max": 179
+        },
+        {
+          "label": "Macro 8.2",
+          "min": 180,
+          "max": 185
+        },
+        {
+          "label": "Macro 8.3",
+          "min": 186,
+          "max": 191
+        },
+        {
+          "label": "Macro 8.4",
+          "min": 192,
+          "max": 197
+        },
+        {
+          "label": "Macro 9.1",
+          "min": 198,
+          "max": 203
+        },
+        {
+          "label": "Macro 9.2",
+          "min": 204,
+          "max": 209
+        },
+        {
+          "label": "Macro 9.3",
+          "min": 210,
+          "max": 215
+        },
+        {
+          "label": "Macro 9.4",
+          "min": 216,
+          "max": 221
+        },
+        {
+          "label": "Macro 10.1",
+          "min": 222,
+          "max": 227
+        },
+        {
+          "label": "Macro 10.2",
+          "min": 228,
+          "max": 233
+        },
+        {
+          "label": "Macro 10.3",
+          "min": 234,
+          "max": 239
+        },
+        {
+          "label": "Macro 10.4",
+          "min": 240,
+          "max": 245
+        },
+        {
+          "label": "Reserved",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 22,
+      "type_description": "Effects Speed",
+      "capabilities": [
+        {
+          "label": "Tracking",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Vector mode, fast -> slow",
+          "min": 3,
+          "max": 245
+        },
+        {
+          "label": "Tracking",
+          "min": 246,
+          "max": 251
+        },
+        {
+          "label": "Vector mode, maximum speed",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 17,
+      "type_description": "Fixture control settings",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Reset All",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "No function",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "Reset Effects",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "No function",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "Reset Pan/Tilt",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "No function",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "Pan/Tilt Speed Norm",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "Pan/Tilt Speed Fast",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "Pan/Tilt Speed Slow",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "Reserved",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "No function",
+          "min": 60,
+          "max": 64
+        },
+        {
+          "label": "Fan Mode Full",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "No function",
+          "min": 70,
+          "max": 74
+        },
+        {
+          "label": "Fan Mode Regulated",
+          "min": 75,
+          "max": 79
+        },
+        {
+          "label": "No function",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "Fan Mode Silent",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "No function",
+          "min": 90,
+          "max": 94
+        },
+        {
+          "label": "Dimmer Curve LIN",
+          "min": 95,
+          "max": 99
+        },
+        {
+          "label": "No function",
+          "min": 100,
+          "max": 104
+        },
+        {
+          "label": "Dimmer Curve SQR",
+          "min": 105,
+          "max": 109
+        },
+        {
+          "label": "No function",
+          "min": 110,
+          "max": 114
+        },
+        {
+          "label": "Dimmer curv ISQR",
+          "min": 115,
+          "max": 119
+        },
+        {
+          "label": "No function",
+          "min": 120,
+          "max": 124
+        },
+        {
+          "label": "Dimmer Curve SCUR",
+          "min": 125,
+          "max": 129
+        },
+        {
+          "label": "No function",
+          "min": 130,
+          "max": 134
+        },
+        {
+          "label": "Calibrated Output",
+          "min": 135,
+          "max": 139
+        },
+        {
+          "label": "No function",
+          "min": 140,
+          "max": 144
+        },
+        {
+          "label": "Raw Output",
+          "min": 145,
+          "max": 149
+        },
+        {
+          "label": "No function",
+          "min": 150,
+          "max": 154
+        },
+        {
+          "label": "Reserved",
+          "min": 155,
+          "max": 249
+        },
+        {
+          "label": "Illuminate Display",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 1,
+      "type_description": "Iris",
+      "capabilities": [
+        {
+          "label": "Open -> Closed",
+          "min": 0,
+          "max": 199
+        },
+        {
+          "label": "Closed",
+          "min": 200,
+          "max": 215
+        },
+        {
+          "label": "Open Pulse Fast -> Slow",
+          "min": 216,
+          "max": 229
+        },
+        {
+          "label": "Close Pulse Fast -> Slow",
+          "min": 230,
+          "max": 243
+        },
+        {
+          "label": "Rnd Op Pls Fast -> Slow",
+          "min": 244,
+          "max": 249
+        },
+        {
+          "label": "Rnd Cl Pls Fast -> Slow",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Martin/Martin-Mac-350-Entour.json",
+  "id": 1059
+}

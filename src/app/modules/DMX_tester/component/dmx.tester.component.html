@@ -1,0 +1,30 @@
+
+<div class="dmx-tester-toolbar">
+   <!-- <button class="dmx-tester-toolbar-action" mat-raised-button (click)="blackout()"  color="warn">Blackout</button> -->
+    <mat-form-field class="dmx-tester-toolbar-action">
+        <mat-label>DMX page</mat-label>
+        <mat-select name="index" [(ngModel)]="dmx_buffer_tmp_page" (selectionChange)="onChangeIndexPage()">
+            <mat-option *ngFor="let index of dmx_buffer_tmp_pages" [value]="index">{{index}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+</div>
+
+
+<div class="dmx-tester-container">
+    <div *ngFor="let channel of dmx_buffer_tmp; let i = index" [attr.data-index]="i"  >
+        <div class="dmx-tester-thumb">
+            <div class="dmx-tester-thumb-index">
+                {{channel.id}}
+            </div>
+            <div class="dmx-tester-thumb-slider">
+                <mat-slider showTickMarks min="0" max="255" step="1">
+                    <input matSliderThumb [(ngModel)]="channel.value" (input)="onInputChannelChange(i,$event)">
+                </mat-slider>
+            </div>
+            <div class="dmx-tester-thumb-result">
+                <i>{{channel.value_str}}</i>
+            </div>
+        </div>
+    </div>
+</div>

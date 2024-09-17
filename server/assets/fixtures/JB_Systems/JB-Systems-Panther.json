@@ -1,0 +1,183 @@
+{
+  "version": "1.0.0",
+  "label": "Panther",
+  "manufacturer": "JB Systems",
+  "bulb_type": "ELC 250W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 10,
+  "dimension_width": 470,
+  "dimension_height": 314,
+  "dimension_depth": 245,
+  "lens_label": "",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Mirror",
+  "focus_pan_max": 160,
+  "focus_tilt_max": 50,
+  "technical_power_consumption": 250,
+  "technical_dmx_connector": "3-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 14
+        },
+        {
+          "label": "Shaking slow to fast",
+          "min": 15,
+          "max": 135
+        },
+        {
+          "label": "Strobe slow to fast",
+          "min": 136,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 4,
+      "type_description": "Gobo / Color",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Open",
+          "min": 5,
+          "max": 12
+        },
+        {
+          "label": "Gobo 1 / Multicolor",
+          "min": 13,
+          "max": 20
+        },
+        {
+          "label": "Gobo 2 / Blue",
+          "min": 21,
+          "max": 28
+        },
+        {
+          "label": "Gobo 3 / Yellow",
+          "min": 29,
+          "max": 36
+        },
+        {
+          "label": "Gobo 4 / Green",
+          "min": 37,
+          "max": 44
+        },
+        {
+          "label": "Gobo 5 / Orange",
+          "min": 45,
+          "max": 52
+        },
+        {
+          "label": "Gobo 6 / Red",
+          "min": 53,
+          "max": 60
+        },
+        {
+          "label": "Gobo 7 / Magenta",
+          "min": 61,
+          "max": 68
+        },
+        {
+          "label": "Gobo 8 / Light Blue",
+          "min": 69,
+          "max": 76
+        },
+        {
+          "label": "Gobo 9 / Pink",
+          "min": 77,
+          "max": 84
+        },
+        {
+          "label": "Gobo 10 / Magenta",
+          "min": 85,
+          "max": 92
+        },
+        {
+          "label": "Gobo 11 / Orange",
+          "min": 93,
+          "max": 100
+        },
+        {
+          "label": "Gobo 12 / Blue",
+          "min": 101,
+          "max": 108
+        },
+        {
+          "label": "Gobo 13 / White",
+          "min": 109,
+          "max": 116
+        },
+        {
+          "label": "Gobo 14 / Green+Pink",
+          "min": 117,
+          "max": 124
+        },
+        {
+          "label": "CW / CCW Slow to Fast",
+          "min": 125,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 18,
+      "type_description": "Reflector mirror",
+      "capabilities": [
+        {
+          "label": "Stopped",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Left - fast to slow",
+          "min": 10,
+          "max": 120
+        },
+        {
+          "label": "Stopped",
+          "min": 121,
+          "max": 134
+        },
+        {
+          "label": "Right - slow to fast",
+          "min": 135,
+          "max": 245
+        },
+        {
+          "label": "Stopped",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/JB_Systems/JB-Systems-Panther.json",
+  "id": 930
+}

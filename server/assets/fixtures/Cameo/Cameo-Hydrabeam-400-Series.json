@@ -1,0 +1,944 @@
+{
+  "version": "1.0.0",
+  "label": "Hydrabeam 400 Series",
+  "manufacturer": "Cameo",
+  "bulb_type": "LED",
+  "bulb_lumens": 440,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 7,
+  "dimension_width": 810,
+  "dimension_height": 250,
+  "dimension_depth": 130,
+  "lens_label": "PC",
+  "lens_degree_min": 0,
+  "lens_degree_max": 4,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 100,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No strobe",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Strobe (slow to fast)",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 3,
+      "type_description": "Show mode",
+      "capabilities": [
+        {
+          "label": "No movement",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Show mode 1",
+          "min": 8,
+          "max": 22
+        },
+        {
+          "label": "Show mode 2",
+          "min": 23,
+          "max": 37
+        },
+        {
+          "label": "Show mode 3",
+          "min": 38,
+          "max": 52
+        },
+        {
+          "label": "Show mode 4",
+          "min": 53,
+          "max": 67
+        },
+        {
+          "label": "Show mode 5",
+          "min": 68,
+          "max": 82
+        },
+        {
+          "label": "Show mode 6",
+          "min": 83,
+          "max": 97
+        },
+        {
+          "label": "Show mode 7",
+          "min": 98,
+          "max": 112
+        },
+        {
+          "label": "Show mode 8",
+          "min": 113,
+          "max": 127
+        },
+        {
+          "label": "Show mode 9",
+          "min": 128,
+          "max": 142
+        },
+        {
+          "label": "Show mode 10",
+          "min": 143,
+          "max": 157
+        },
+        {
+          "label": "Show mode 11",
+          "min": 158,
+          "max": 172
+        },
+        {
+          "label": "Show mode 12",
+          "min": 173,
+          "max": 187
+        },
+        {
+          "label": "Show mode 13",
+          "min": 188,
+          "max": 202
+        },
+        {
+          "label": "Show mode 14",
+          "min": 203,
+          "max": 217
+        },
+        {
+          "label": "Show mode 15",
+          "min": 218,
+          "max": 232
+        },
+        {
+          "label": "Show mode 16",
+          "min": 233,
+          "max": 247
+        },
+        {
+          "label": "Sound control mode",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 22,
+      "type_description": "Show mode speed",
+      "capabilities": [
+        {
+          "label": "Show mode speed (slow to fast) / sound sensitivity",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Light control",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Lighting pattern 1",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Lighting pattern 2",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Lighting pattern 3",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Lighting pattern 4",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Lighting pattern 5",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Lighting pattern 6",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Full on",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 22,
+      "type_description": "Lighting pattern speed",
+      "capabilities": [
+        {
+          "label": "Lighting pattern speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Heads speed",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Pan (Head 1)",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Pan fine (Head 1)",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Tilt (Head 1)",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Tilt fine (Head 1)",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 22,
+      "type_description": "Speed (Head 1)",
+      "capabilities": [
+        {
+          "label": "Fastest value till 11 is reached)",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Head 1 speed (fast to slow)",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Dimmer (Head 1)",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Pan (Head 2)",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Pan fine (Head 2)",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Tilt (Head 2)",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Tilt fine (Head 2)",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 22,
+      "type_description": "Speed (Head 2)",
+      "capabilities": [
+        {
+          "label": "Fastest value till 11 is reached)",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Head 2 speed (fast to slow)",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Dimmer (Head 2)",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Pan (Head 3)",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Pan fine (Head 3)",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Tilt (Head 3)",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Tilt fine (Head 3)",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 22,
+      "type_description": "Speed (Head 3)",
+      "capabilities": [
+        {
+          "label": "Fastest value till 11 is reached)",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Head 3 speed (fast to slow)",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "Dimmer (Head 3)",
+      "capabilities": []
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "Pan (Head 4)",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 0,
+      "type_description": "Pan fine (Head 4)",
+      "capabilities": []
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "Tilt (Head 4)",
+      "capabilities": []
+    },
+    {
+      "index": 32,
+      "type": 0,
+      "type_description": "Tilt fine (Head 4)",
+      "capabilities": []
+    },
+    {
+      "index": 33,
+      "type": 22,
+      "type_description": "Speed (Head 4)",
+      "capabilities": [
+        {
+          "label": "Fastest value till 11 is reached)",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Head 4 speed (fast to slow)",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "type": 0,
+      "type_description": "Dimmer (Head 4)",
+      "capabilities": []
+    },
+    {
+      "index": 35,
+      "type": 3,
+      "type_description": "Sound mode / Reset",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 199
+        },
+        {
+          "label": "Reset",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "No function",
+          "min": 210,
+          "max": 240
+        },
+        {
+          "label": "Sound control mode",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "type": 3,
+      "type_description": "Sound sensitivity",
+      "capabilities": [
+        {
+          "label": "Sound sensitivity in sound mode",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "type": 0,
+      "type_description": "Colour macros",
+      "capabilities": [
+        {
+          "label": "Automatic colour change",
+          "min": 0,
+          "max": 30
+        },
+        {
+          "label": "Red",
+          "min": 31,
+          "max": 45
+        },
+        {
+          "label": "Green",
+          "min": 46,
+          "max": 60
+        },
+        {
+          "label": "Blue",
+          "min": 61,
+          "max": 75
+        },
+        {
+          "label": "White",
+          "min": 76,
+          "max": 90
+        },
+        {
+          "label": "Red / Green",
+          "min": 91,
+          "max": 105
+        },
+        {
+          "label": "Red / Blue",
+          "min": 106,
+          "max": 120
+        },
+        {
+          "label": "Red / White",
+          "min": 121,
+          "max": 135
+        },
+        {
+          "label": "Green / Blue",
+          "min": 136,
+          "max": 150
+        },
+        {
+          "label": "Green / White",
+          "min": 151,
+          "max": 165
+        },
+        {
+          "label": "Blue / White",
+          "min": 166,
+          "max": 180
+        },
+        {
+          "label": "Red / Green / Blue",
+          "min": 181,
+          "max": 195
+        },
+        {
+          "label": "Red / Green / White",
+          "min": 196,
+          "max": 210
+        },
+        {
+          "label": "Red / Blue / White",
+          "min": 211,
+          "max": 225
+        },
+        {
+          "label": "Green / Blue / White",
+          "min": 226,
+          "max": 240
+        },
+        {
+          "label": "Red / Green / Blue / White",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "type": 22,
+      "type_description": "Automatic colour change speed",
+      "capabilities": [
+        {
+          "label": "Automatic colour change speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 40,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 41,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 42,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 43,
+      "type": 0,
+      "type_description": "Colour macros (Head 1)",
+      "capabilities": [
+        {
+          "label": "Use CH29-CH32 to control colour",
+          "min": 0,
+          "max": 30
+        },
+        {
+          "label": "Red",
+          "min": 31,
+          "max": 45
+        },
+        {
+          "label": "Green",
+          "min": 46,
+          "max": 60
+        },
+        {
+          "label": "Blue",
+          "min": 61,
+          "max": 75
+        },
+        {
+          "label": "White",
+          "min": 76,
+          "max": 90
+        },
+        {
+          "label": "Red / Green",
+          "min": 91,
+          "max": 105
+        },
+        {
+          "label": "Red / Blue",
+          "min": 106,
+          "max": 120
+        },
+        {
+          "label": "Red / White",
+          "min": 121,
+          "max": 135
+        },
+        {
+          "label": "Green / Blue",
+          "min": 136,
+          "max": 150
+        },
+        {
+          "label": "Green / White",
+          "min": 151,
+          "max": 165
+        },
+        {
+          "label": "Blue / White",
+          "min": 166,
+          "max": 180
+        },
+        {
+          "label": "Red / Green / Blue",
+          "min": 181,
+          "max": 195
+        },
+        {
+          "label": "Red / Green / White",
+          "min": 196,
+          "max": 210
+        },
+        {
+          "label": "Red / Blue / White",
+          "min": 211,
+          "max": 225
+        },
+        {
+          "label": "Green / Blue / White",
+          "min": 226,
+          "max": 240
+        },
+        {
+          "label": "Red / Green / Blue / White",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "type": 0,
+      "type_description": "Colour macros (Head 2)",
+      "capabilities": [
+        {
+          "label": "Use CH29-CH32 to control colour",
+          "min": 0,
+          "max": 30
+        },
+        {
+          "label": "Red",
+          "min": 31,
+          "max": 45
+        },
+        {
+          "label": "Green",
+          "min": 46,
+          "max": 60
+        },
+        {
+          "label": "Blue",
+          "min": 61,
+          "max": 75
+        },
+        {
+          "label": "White",
+          "min": 76,
+          "max": 90
+        },
+        {
+          "label": "Red / Green",
+          "min": 91,
+          "max": 105
+        },
+        {
+          "label": "Red / Blue",
+          "min": 106,
+          "max": 120
+        },
+        {
+          "label": "Red / White",
+          "min": 121,
+          "max": 135
+        },
+        {
+          "label": "Green / Blue",
+          "min": 136,
+          "max": 150
+        },
+        {
+          "label": "Green / White",
+          "min": 151,
+          "max": 165
+        },
+        {
+          "label": "Blue / White",
+          "min": 166,
+          "max": 180
+        },
+        {
+          "label": "Red / Green / Blue",
+          "min": 181,
+          "max": 195
+        },
+        {
+          "label": "Red / Green / White",
+          "min": 196,
+          "max": 210
+        },
+        {
+          "label": "Red / Blue / White",
+          "min": 211,
+          "max": 225
+        },
+        {
+          "label": "Green / Blue / White",
+          "min": 226,
+          "max": 240
+        },
+        {
+          "label": "Red / Green / Blue / White",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "type": 0,
+      "type_description": "Colour macros (Head 3)",
+      "capabilities": [
+        {
+          "label": "Use CH29-CH32 to control colour",
+          "min": 0,
+          "max": 30
+        },
+        {
+          "label": "Red",
+          "min": 31,
+          "max": 45
+        },
+        {
+          "label": "Green",
+          "min": 46,
+          "max": 60
+        },
+        {
+          "label": "Blue",
+          "min": 61,
+          "max": 75
+        },
+        {
+          "label": "White",
+          "min": 76,
+          "max": 90
+        },
+        {
+          "label": "Red / Green",
+          "min": 91,
+          "max": 105
+        },
+        {
+          "label": "Red / Blue",
+          "min": 106,
+          "max": 120
+        },
+        {
+          "label": "Red / White",
+          "min": 121,
+          "max": 135
+        },
+        {
+          "label": "Green / Blue",
+          "min": 136,
+          "max": 150
+        },
+        {
+          "label": "Green / White",
+          "min": 151,
+          "max": 165
+        },
+        {
+          "label": "Blue / White",
+          "min": 166,
+          "max": 180
+        },
+        {
+          "label": "Red / Green / Blue",
+          "min": 181,
+          "max": 195
+        },
+        {
+          "label": "Red / Green / White",
+          "min": 196,
+          "max": 210
+        },
+        {
+          "label": "Red / Blue / White",
+          "min": 211,
+          "max": 225
+        },
+        {
+          "label": "Green / Blue / White",
+          "min": 226,
+          "max": 240
+        },
+        {
+          "label": "Red / Green / Blue / White",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "type": 0,
+      "type_description": "Colour macros (Head 4)",
+      "capabilities": [
+        {
+          "label": "Use CH29-CH32 to control colour",
+          "min": 0,
+          "max": 30
+        },
+        {
+          "label": "Red",
+          "min": 31,
+          "max": 45
+        },
+        {
+          "label": "Green",
+          "min": 46,
+          "max": 60
+        },
+        {
+          "label": "Blue",
+          "min": 61,
+          "max": 75
+        },
+        {
+          "label": "White",
+          "min": 76,
+          "max": 90
+        },
+        {
+          "label": "Red / Green",
+          "min": 91,
+          "max": 105
+        },
+        {
+          "label": "Red / Blue",
+          "min": 106,
+          "max": 120
+        },
+        {
+          "label": "Red / White",
+          "min": 121,
+          "max": 135
+        },
+        {
+          "label": "Green / Blue",
+          "min": 136,
+          "max": 150
+        },
+        {
+          "label": "Green / White",
+          "min": 151,
+          "max": 165
+        },
+        {
+          "label": "Blue / White",
+          "min": 166,
+          "max": 180
+        },
+        {
+          "label": "Red / Green / Blue",
+          "min": 181,
+          "max": 195
+        },
+        {
+          "label": "Red / Green / White",
+          "min": 196,
+          "max": 210
+        },
+        {
+          "label": "Red / Blue / White",
+          "min": 211,
+          "max": 225
+        },
+        {
+          "label": "Green / Blue / White",
+          "min": 226,
+          "max": 240
+        },
+        {
+          "label": "Red / Green / Blue / White",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Cameo/Cameo-Hydrabeam-400-Series.json",
+  "id": 300
+}

@@ -1,0 +1,448 @@
+{
+  "version": "1.0.0",
+  "label": "SCX-500",
+  "manufacturer": "Martin",
+  "bulb_type": "EFR 150W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 3100,
+  "dimension_weight": 7,
+  "dimension_width": 204,
+  "dimension_height": 445,
+  "dimension_depth": 178,
+  "lens_label": "Other",
+  "lens_degree_min": 15,
+  "lens_degree_max": 15,
+  "focus_type": "Mirror",
+  "focus_pan_max": 180,
+  "focus_tilt_max": 72,
+  "technical_power_consumption": 173,
+  "technical_dmx_connector": "3-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Strobe, macros",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Strobe fast to slow",
+          "min": 5,
+          "max": 68
+        },
+        {
+          "label": "Remote stand-alone, auto trigger",
+          "min": 69,
+          "max": 100
+        },
+        {
+          "label": "Macro 1",
+          "min": 101,
+          "max": 112
+        },
+        {
+          "label": "Macro 2",
+          "min": 113,
+          "max": 124
+        },
+        {
+          "label": "Macro 3",
+          "min": 125,
+          "max": 136
+        },
+        {
+          "label": "Macro 4",
+          "min": 137,
+          "max": 148
+        },
+        {
+          "label": "Macro 5",
+          "min": 149,
+          "max": 160
+        },
+        {
+          "label": "Macro 6",
+          "min": 161,
+          "max": 172
+        },
+        {
+          "label": "Macro 7",
+          "min": 173,
+          "max": 184
+        },
+        {
+          "label": "Macro 8",
+          "min": 185,
+          "max": 196
+        },
+        {
+          "label": "Macro 9",
+          "min": 197,
+          "max": 208
+        },
+        {
+          "label": "Macro 10",
+          "min": 209,
+          "max": 220
+        },
+        {
+          "label": "Macro 11",
+          "min": 221,
+          "max": 232
+        },
+        {
+          "label": "Macro 12",
+          "min": 233,
+          "max": 249
+        },
+        {
+          "label": "RESET (5sec)",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "White / Blue B04",
+          "min": 6,
+          "max": 11
+        },
+        {
+          "label": "Blue B04",
+          "min": 12,
+          "max": 17
+        },
+        {
+          "label": "Blue B04 / Orange B09",
+          "min": 18,
+          "max": 23
+        },
+        {
+          "label": "Orange B09",
+          "min": 24,
+          "max": 29
+        },
+        {
+          "label": "Orange B09 / Red B01",
+          "min": 30,
+          "max": 35
+        },
+        {
+          "label": "Red B01",
+          "min": 36,
+          "max": 41
+        },
+        {
+          "label": "Red B01 / Light Yellow B03",
+          "min": 42,
+          "max": 47
+        },
+        {
+          "label": "Light Yellow B03",
+          "min": 48,
+          "max": 53
+        },
+        {
+          "label": "Light Yellow B03 / Pink B12",
+          "min": 54,
+          "max": 59
+        },
+        {
+          "label": "Pink B12",
+          "min": 60,
+          "max": 65
+        },
+        {
+          "label": "Pink B12 / Medium Blue B13",
+          "min": 66,
+          "max": 71
+        },
+        {
+          "label": "Medium Blue B13",
+          "min": 72,
+          "max": 77
+        },
+        {
+          "label": "Medium Blue B13 / Light Red B19",
+          "min": 78,
+          "max": 83
+        },
+        {
+          "label": "Light Red B19",
+          "min": 84,
+          "max": 89
+        },
+        {
+          "label": "Light Red B19 / Light Green B08",
+          "min": 90,
+          "max": 95
+        },
+        {
+          "label": "Light Green B08",
+          "min": 96,
+          "max": 101
+        },
+        {
+          "label": "Light Green B08 / Blue B05",
+          "min": 102,
+          "max": 107
+        },
+        {
+          "label": "Blue B05",
+          "min": 108,
+          "max": 113
+        },
+        {
+          "label": "Blue B05 / Pink B11",
+          "min": 114,
+          "max": 119
+        },
+        {
+          "label": "Pink B11",
+          "min": 120,
+          "max": 125
+        },
+        {
+          "label": "Pink B11 / Light Blue B06",
+          "min": 126,
+          "max": 131
+        },
+        {
+          "label": "Light Blue B06",
+          "min": 132,
+          "max": 137
+        },
+        {
+          "label": "Light Blue B06 / Yellow B02",
+          "min": 138,
+          "max": 143
+        },
+        {
+          "label": "Yellow B02",
+          "min": 144,
+          "max": 149
+        },
+        {
+          "label": "Yellow B02 / Primary Red B14",
+          "min": 150,
+          "max": 155
+        },
+        {
+          "label": "Primary Red B14",
+          "min": 156,
+          "max": 161
+        },
+        {
+          "label": "Primary Red B14 / Green B07",
+          "min": 162,
+          "max": 167
+        },
+        {
+          "label": "Green B07",
+          "min": 168,
+          "max": 173
+        },
+        {
+          "label": "Mix 1",
+          "min": 174,
+          "max": 179
+        },
+        {
+          "label": "Mix 2",
+          "min": 180,
+          "max": 185
+        },
+        {
+          "label": "Mix 3",
+          "min": 186,
+          "max": 191
+        },
+        {
+          "label": "Mix 4",
+          "min": 192,
+          "max": 197
+        },
+        {
+          "label": "Mix 5",
+          "min": 198,
+          "max": 203
+        },
+        {
+          "label": "CW rotation fast to slow",
+          "min": 204,
+          "max": 229
+        },
+        {
+          "label": "CCW rotation slow to fast",
+          "min": 230,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 11
+        },
+        {
+          "label": "Dune",
+          "min": 12,
+          "max": 23
+        },
+        {
+          "label": "Sunburst",
+          "min": 24,
+          "max": 35
+        },
+        {
+          "label": "Gemini",
+          "min": 36,
+          "max": 47
+        },
+        {
+          "label": "Mr. Spok",
+          "min": 48,
+          "max": 59
+        },
+        {
+          "label": "Triptych",
+          "min": 60,
+          "max": 71
+        },
+        {
+          "label": "Space lice",
+          "min": 72,
+          "max": 83
+        },
+        {
+          "label": "Nova",
+          "min": 84,
+          "max": 95
+        },
+        {
+          "label": "Circular saw",
+          "min": 96,
+          "max": 107
+        },
+        {
+          "label": "Racer",
+          "min": 108,
+          "max": 119
+        },
+        {
+          "label": "Black hole",
+          "min": 120,
+          "max": 131
+        },
+        {
+          "label": "Bat",
+          "min": 132,
+          "max": 143
+        },
+        {
+          "label": "Beep",
+          "min": 144,
+          "max": 155
+        },
+        {
+          "label": "Fame",
+          "min": 156,
+          "max": 167
+        },
+        {
+          "label": "Thatch",
+          "min": 168,
+          "max": 179
+        },
+        {
+          "label": "Blackout",
+          "min": 180,
+          "max": 191
+        },
+        {
+          "label": "CW rotation fast to slow",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "CCW rotation slow to fast",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 22,
+      "type_description": "Movement speed",
+      "capabilities": [
+        {
+          "label": "Tracking",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Vector speed fast to slow",
+          "min": 3,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 5,
+      "type_description": "Color & gobo speed",
+      "capabilities": [
+        {
+          "label": "Tracking",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Vector speed fast to slow",
+          "min": 3,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Martin/Martin-SCX-500.json",
+  "id": 1097
+}

@@ -1,0 +1,69 @@
+{
+  "version": "1.0.0",
+  "label": "LED THA-250F",
+  "manufacturer": "Eurolite",
+  "bulb_type": "LED COB 250 W, white",
+  "bulb_lumens": 7000,
+  "bulb_color_temperature": 2800,
+  "dimension_weight": 5,
+  "dimension_width": 3356,
+  "dimension_height": 3985,
+  "dimension_depth": 4573,
+  "lens_label": "PC",
+  "lens_degree_min": 13,
+  "lens_degree_max": 45,
+  "focus_type": "Head",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 265,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "LED OFF",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Linear strobe effect with increasing speed",
+          "min": 32,
+          "max": 95
+        },
+        {
+          "label": "Pulse strobe effect with increasing speed",
+          "min": 96,
+          "max": 159
+        },
+        {
+          "label": "Random strobe effect with increasing speed",
+          "min": 160,
+          "max": 223
+        },
+        {
+          "label": "LED ON",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-LED-THA-250F.json",
+  "id": 727
+}

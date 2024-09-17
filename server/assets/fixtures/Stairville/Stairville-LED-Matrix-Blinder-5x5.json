@@ -1,0 +1,647 @@
+{
+  "version": "1.0.0",
+  "label": "LED Matrix Blinder 5x5",
+  "manufacturer": "Stairville",
+  "bulb_type": "25 × 3 W LEDs (warm white)",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 10,
+  "dimension_width": 638,
+  "dimension_height": 664,
+  "dimension_depth": 114,
+  "lens_label": "Other",
+  "lens_degree_min": 55,
+  "lens_degree_max": 55,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 96,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Operating-Mode (28-Channel Mode)",
+      "capabilities": [
+        {
+          "label": "LEDs off",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "All LEDs on",
+          "min": 1,
+          "max": 9
+        },
+        {
+          "label": "Letter display, to be selected with channel 28",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Number display, to be selected with channel 28",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Preprogrammed automatic show no. 1",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Preprogrammed automatic show no. 2",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Preprogrammed automatic show no. 3",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Preprogrammed automatic show no. 4",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Preprogrammed automatic show no. 5",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Preprogrammed automatic show no. 6",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Preprogrammed automatic show no. 7",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Preprogrammed automatic show no. 8",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Preprogrammed automatic show no. 9",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Preprogrammed automatic show no. 10",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Preprogrammed automatic show no. 11",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Preprogrammed automatic show no. 12",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Preprogrammed automatic show no. 13",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Preprogrammed automatic show no. 14",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Preprogrammed automatic show no. 15",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Preprogrammed automatic show no. 16",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Preprogrammed automatic show no. 17",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Preprogrammed automatic show no. 18",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Preprogrammed automatic show no. 19",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "Preprogrammed automatic show no. 20",
+          "min": 220,
+          "max": 229
+        },
+        {
+          "label": "Preprogrammed automatic show no. 21",
+          "min": 230,
+          "max": 239
+        },
+        {
+          "label": "Sound-controlled show",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 3,
+      "type_description": "Letter/Number/Speed Adjustment (Increasing Speed 0..255)",
+      "capabilities": [
+        {
+          "label": "Letter 'A'/Number '0'",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Letter 'B'/Number '0'",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Letter 'C'/Number '0'",
+          "min": 20,
+          "max": 27
+        },
+        {
+          "label": "Letter 'C'/Number '1'",
+          "min": 28,
+          "max": 29
+        },
+        {
+          "label": "Letter 'D'/Number '1'",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Letter 'E'/Number '1'",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Letter 'F'/Number '1'",
+          "min": 50,
+          "max": 55
+        },
+        {
+          "label": "Letter 'F'/Number '2'",
+          "min": 56,
+          "max": 59
+        },
+        {
+          "label": "Letter 'G'/Number '2'",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Letter 'H'/Number '2'",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Letter 'I'/Number '2'",
+          "min": 80,
+          "max": 83
+        },
+        {
+          "label": "Letter 'I'/Number '3'",
+          "min": 84,
+          "max": 89
+        },
+        {
+          "label": "Letter 'J'/Number '3'",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Letter 'K'/Number '3'",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Letter 'L'/Number '3'",
+          "min": 110,
+          "max": 111
+        },
+        {
+          "label": "Letter 'L'/Number '4'",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Letter 'M'/Number '4'",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Letter 'N'/Number '4'",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Letter 'O'/Number '5'",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Letter 'P'/Number '5'",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Letter 'Q'/Number '5'",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Letter 'Q'/Number '6'",
+          "min": 168,
+          "max": 169
+        },
+        {
+          "label": "Letter 'R'/Number '6'",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Letter 'S'/Number '6'",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Letter 'T'/Number '6'",
+          "min": 190,
+          "max": 195
+        },
+        {
+          "label": "Letter 'T'/Number '7'",
+          "min": 196,
+          "max": 199
+        },
+        {
+          "label": "Letter 'U'/Number '7'",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Letter 'V'/Number '7'",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "Letter 'W'/Number '7'",
+          "min": 220,
+          "max": 224
+        },
+        {
+          "label": "Letter 'W'/Number '8'",
+          "min": 225,
+          "max": 229
+        },
+        {
+          "label": "Letter 'X'/Number '8'",
+          "min": 230,
+          "max": 239
+        },
+        {
+          "label": "Letter 'Y'/Number '8'",
+          "min": 240,
+          "max": 249
+        },
+        {
+          "label": "Letter 'Z'/Number '8'",
+          "min": 250,
+          "max": 251
+        },
+        {
+          "label": "Letter 'Z'/Number '9'",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 22,
+      "type_description": "Speed Adjustment (chan 27=30...255)",
+      "capabilities": [
+        {
+          "label": "Increasing speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Dimmer for LED No. 1",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Dimmer for LED No. 2",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Dimmer for LED No. 3",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Dimmer for LED No. 4",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Dimmer for LED No. 5",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Dimmer for LED No. 6",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Dimmer for LED No. 7",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Dimmer for LED No. 8",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Dimmer for LED No. 9",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Dimmer for LED No. 10",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Dimmer for LED No. 11",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Dimmer for LED No. 12",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Dimmer for LED No. 13",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Dimmer for LED No. 14",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Dimmer for LED No. 15",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Dimmer for LED No. 16",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Dimmer for LED No. 17",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Dimmer for LED No. 18",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Dimmer for LED No. 19",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Dimmer for LED No. 20",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Dimmer for LED No. 21",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Dimmer for LED No. 22",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Dimmer for LED No. 23",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Dimmer for LED No. 24",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "Dimmer for LED No. 25",
+      "capabilities": []
+    },
+    {
+      "index": 29,
+      "type": 3,
+      "type_description": "Operating Mode (4-Channel Mode)",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Preprogrammed automatic show no. 1",
+          "min": 1,
+          "max": 11
+        },
+        {
+          "label": "Preprogrammed automatic show no. 2",
+          "min": 12,
+          "max": 23
+        },
+        {
+          "label": "Preprogrammed automatic show no. 3",
+          "min": 24,
+          "max": 35
+        },
+        {
+          "label": "Preprogrammed automatic show no. 4",
+          "min": 36,
+          "max": 47
+        },
+        {
+          "label": "Preprogrammed automatic show no. 5",
+          "min": 48,
+          "max": 59
+        },
+        {
+          "label": "Preprogrammed automatic show no. 6",
+          "min": 60,
+          "max": 71
+        },
+        {
+          "label": "Preprogrammed automatic show no. 7",
+          "min": 72,
+          "max": 83
+        },
+        {
+          "label": "Preprogrammed automatic show no. 8",
+          "min": 84,
+          "max": 95
+        },
+        {
+          "label": "Preprogrammed automatic show no. 9",
+          "min": 96,
+          "max": 107
+        },
+        {
+          "label": "Preprogrammed automatic show no. 10",
+          "min": 108,
+          "max": 119
+        },
+        {
+          "label": "Preprogrammed automatic show no. 11",
+          "min": 120,
+          "max": 131
+        },
+        {
+          "label": "Preprogrammed automatic show no. 12",
+          "min": 132,
+          "max": 143
+        },
+        {
+          "label": "Preprogrammed automatic show no. 13",
+          "min": 144,
+          "max": 155
+        },
+        {
+          "label": "Preprogrammed automatic show no. 14",
+          "min": 156,
+          "max": 167
+        },
+        {
+          "label": "Preprogrammed automatic show no. 15",
+          "min": 168,
+          "max": 179
+        },
+        {
+          "label": "Preprogrammed automatic show no. 16",
+          "min": 180,
+          "max": 191
+        },
+        {
+          "label": "Preprogrammed automatic show no. 17",
+          "min": 192,
+          "max": 203
+        },
+        {
+          "label": "Preprogrammed automatic show no. 18",
+          "min": 204,
+          "max": 215
+        },
+        {
+          "label": "Preprogrammed automatic show no. 19",
+          "min": 216,
+          "max": 227
+        },
+        {
+          "label": "Preprogrammed automatic show no. 20",
+          "min": 228,
+          "max": 239
+        },
+        {
+          "label": "Preprogrammed automatic show no. 21",
+          "min": 240,
+          "max": 251
+        },
+        {
+          "label": "Sound-controlled show",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "type": 22,
+      "type_description": "Speed",
+      "capabilities": [
+        {
+          "label": "Increasing",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "Strobe Effect",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Stairville/Stairville-LED-Matrix-Blinder-5x5.json",
+  "id": 1403
+}

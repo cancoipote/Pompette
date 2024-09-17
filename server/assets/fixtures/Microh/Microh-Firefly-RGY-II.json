@@ -1,0 +1,239 @@
+{
+  "version": "1.0.0",
+  "label": "Firefly RGY II",
+  "manufacturer": "Microh",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 240,
+  "dimension_height": 163,
+  "dimension_depth": 365,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 30,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 17,
+      "type_description": "Control mode",
+      "capabilities": [
+        {
+          "label": "Sound Control",
+          "min": 0,
+          "max": 49
+        },
+        {
+          "label": "Auto-beam",
+          "min": 50,
+          "max": 99
+        },
+        {
+          "label": "Auto-animation",
+          "min": 100,
+          "max": 149
+        },
+        {
+          "label": "Manual",
+          "min": 150,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Color select",
+      "capabilities": [
+        {
+          "label": "Laser off",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Green, Red, Yellow",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 4,
+      "type_description": "Pattern Select",
+      "capabilities": [
+        {
+          "label": "Patterns",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 1,
+      "type_description": "Vertical Move",
+      "capabilities": [
+        {
+          "label": "Manual",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Down to Up (fast)",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Up to Down (fast)",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 1,
+      "type_description": "Horizontal Move",
+      "capabilities": [
+        {
+          "label": "Manual",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Right to Left",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Left to Right",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Vertical Rotate",
+      "capabilities": [
+        {
+          "label": "Slow-Fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Horizontal Rotate",
+      "capabilities": [
+        {
+          "label": "Slow-Fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Rotate",
+      "capabilities": [
+        {
+          "label": "Manual",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "CCW Rotate",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "CW Rotate",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Zoom",
+      "capabilities": [
+        {
+          "label": "Static",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Zoom In",
+          "min": 1,
+          "max": 85
+        },
+        {
+          "label": "Zoom Out",
+          "min": 86,
+          "max": 170
+        },
+        {
+          "label": "Auto Zoom",
+          "min": 171,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Pattern Size",
+      "capabilities": [
+        {
+          "label": "Normal Size",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Small to Large",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Spot and Line",
+      "capabilities": [
+        {
+          "label": "Line to Spot",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 22,
+      "type_description": "Twinkle Speed",
+      "capabilities": [
+        {
+          "label": "Slow to Fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Microh/Microh-Firefly-RGY-II.json",
+  "id": 1030
+}

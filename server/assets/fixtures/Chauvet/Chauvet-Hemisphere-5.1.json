@@ -1,0 +1,204 @@
+{
+  "version": "1.0.0",
+  "label": "Hemisphere 5.1",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 272,
+  "dimension_height": 254,
+  "dimension_depth": 272,
+  "lens_label": "Other",
+  "lens_degree_min": 360,
+  "lens_degree_max": 360,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 38,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Auto Programs",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Green",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Blue",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "White",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Amber",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Red/Green",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Red/Blue",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Red/White",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Red/Amber",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Green/Blue",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Green/White",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Green/Amber",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Blue/White",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Blue/Amber",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "White/Amber",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Red/Green/Blue",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Red/Green/Blue/White",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Red/Green/Blue/Amber",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Red/Green/Blue/White/Amber",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Auto Program",
+          "min": 200,
+          "max": 229
+        },
+        {
+          "label": "Sound-Active Mode",
+          "min": 230,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe (0-13 Hz)",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Auto Program Speed",
+      "capabilities": [
+        {
+          "label": "0~100% (Ch. 1: 200~229)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Rotation",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Rotate left (slow to fast)",
+          "min": 10,
+          "max": 119
+        },
+        {
+          "label": "Stop",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Rotate right (slow to fast)",
+          "min": 130,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-Hemisphere-5.1.json",
+  "id": 454
+}

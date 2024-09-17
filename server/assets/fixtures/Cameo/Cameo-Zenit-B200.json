@@ -1,0 +1,425 @@
+{
+  "version": "1.0.0",
+  "label": "Zenit B200",
+  "manufacturer": "Cameo",
+  "bulb_type": "LED",
+  "bulb_lumens": 6600,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 9,
+  "dimension_width": 377,
+  "dimension_height": 256,
+  "dimension_depth": 140,
+  "lens_label": "Other",
+  "lens_degree_min": 21,
+  "lens_degree_max": 100,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 180,
+  "technical_dmx_connector": "5-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Dimmer fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 21,
+      "type_description": "Strobe functions",
+      "capabilities": [
+        {
+          "label": "Strobe open",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Strobe close",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Pulse random slow -> fast",
+          "min": 11,
+          "max": 33
+        },
+        {
+          "label": "Ramp up random slow -> fast",
+          "min": 34,
+          "max": 56
+        },
+        {
+          "label": "Ramp down random slow -> fast",
+          "min": 57,
+          "max": 79
+        },
+        {
+          "label": "Random strobe effect slow -> fast",
+          "min": 80,
+          "max": 102
+        },
+        {
+          "label": "Strobe break effect, 5s.....1s (short burst with break)",
+          "min": 103,
+          "max": 127
+        },
+        {
+          "label": "Strobe break effect, 5s.....1s (short burst with break)",
+          "min": 128,
+          "max": 250
+        },
+        {
+          "label": "Strobe open",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Red fine",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Green fine",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Blue fine",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "White fine",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Color Macros (override RGBW)",
+      "capabilities": [
+        {
+          "label": "Color off",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Red",
+          "min": 6,
+          "max": 13
+        },
+        {
+          "label": "Amber",
+          "min": 14,
+          "max": 21
+        },
+        {
+          "label": "Yellow warm",
+          "min": 22,
+          "max": 29
+        },
+        {
+          "label": "Yellow",
+          "min": 30,
+          "max": 37
+        },
+        {
+          "label": "Green",
+          "min": 38,
+          "max": 45
+        },
+        {
+          "label": "Turquoise",
+          "min": 46,
+          "max": 53
+        },
+        {
+          "label": "Cyan",
+          "min": 54,
+          "max": 61
+        },
+        {
+          "label": "Blue",
+          "min": 62,
+          "max": 69
+        },
+        {
+          "label": "Lavender",
+          "min": 70,
+          "max": 77
+        },
+        {
+          "label": "Mauve",
+          "min": 78,
+          "max": 85
+        },
+        {
+          "label": "Magenta",
+          "min": 86,
+          "max": 93
+        },
+        {
+          "label": "Pink",
+          "min": 94,
+          "max": 101
+        },
+        {
+          "label": "Warm White",
+          "min": 102,
+          "max": 109
+        },
+        {
+          "label": "White",
+          "min": 110,
+          "max": 117
+        },
+        {
+          "label": "Cold White",
+          "min": 118,
+          "max": 125
+        },
+        {
+          "label": "Color Jumping stop",
+          "min": 126,
+          "max": 127
+        },
+        {
+          "label": "Color Jumping speed slow -> fast / color 1 -> 12",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Color Fading speed slow -> fast / color 1 -> 12",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Color Temperature Correction (affects RGBW & Color Macros)",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Cold -> warm",
+          "min": 6,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 3,
+      "type_description": "Set dimmer curve",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Linear dimmer curve",
+          "min": 6,
+          "max": 63
+        },
+        {
+          "label": "Exponential dimmer curve",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Exponential dimmer curve",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "S-Curve dimmer curve",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 17,
+      "type_description": "Device settings",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 77
+        },
+        {
+          "label": "Dimmer response LED (hold 1,5 s)",
+          "min": 78,
+          "max": 79
+        },
+        {
+          "label": "Dimmer response halogen (hold 1,5s)",
+          "min": 80,
+          "max": 81
+        },
+        {
+          "label": "No function",
+          "min": 82,
+          "max": 101
+        },
+        {
+          "label": "Silent fan (hold 3s)",
+          "min": 102,
+          "max": 103
+        },
+        {
+          "label": "Auto fan (hold 3s)",
+          "min": 104,
+          "max": 105
+        },
+        {
+          "label": "No function",
+          "min": 106,
+          "max": 123
+        },
+        {
+          "label": "PWM 1 (800 Hz) (hold 3s)",
+          "min": 124,
+          "max": 125
+        },
+        {
+          "label": "PWM 2 (1200 Hz) (hold 3s)",
+          "min": 126,
+          "max": 127
+        },
+        {
+          "label": "PWM 3 (2000 Hz) (hold 3s)",
+          "min": 128,
+          "max": 129
+        },
+        {
+          "label": "PWM 4 (3600 Hz) (hold 3s)",
+          "min": 130,
+          "max": 131
+        },
+        {
+          "label": "PWM 5 (12 kHz) (hold 3s)",
+          "min": 132,
+          "max": 133
+        },
+        {
+          "label": "PWM 6 (25 kHz) (hold 3s)",
+          "min": 134,
+          "max": 135
+        },
+        {
+          "label": "No function",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Display on (hold 3s)",
+          "min": 144,
+          "max": 145
+        },
+        {
+          "label": "Display off (hold 3s)",
+          "min": 146,
+          "max": 147
+        },
+        {
+          "label": "No function",
+          "min": 148,
+          "max": 195
+        },
+        {
+          "label": "No runtime / full LED power (hold 3s)",
+          "min": 196,
+          "max": 197
+        },
+        {
+          "label": "Set runtime 8h (hold 3S)",
+          "min": 198,
+          "max": 199
+        },
+        {
+          "label": "Set runtime 12h (hold 3S)",
+          "min": 200,
+          "max": 201
+        },
+        {
+          "label": "Set runtime 16h (hold 3S)",
+          "min": 202,
+          "max": 203
+        },
+        {
+          "label": "Set runtime 20h (hold 3S)",
+          "min": 204,
+          "max": 205
+        },
+        {
+          "label": "Raw mode (hold 3s)",
+          "min": 206,
+          "max": 207
+        },
+        {
+          "label": "Factory calibrated mode (hold 3s)",
+          "min": 208,
+          "max": 209
+        },
+        {
+          "label": "User calibrated mode (hold 3s)",
+          "min": 210,
+          "max": 211
+        },
+        {
+          "label": "No function",
+          "min": 212,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Cameo/Cameo-Zenit-B200.json",
+  "id": 339
+}

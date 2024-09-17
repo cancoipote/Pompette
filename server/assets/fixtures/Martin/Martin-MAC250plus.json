@@ -1,0 +1,580 @@
+{
+  "version": "1.0.0",
+  "label": "MAC250+",
+  "manufacturer": "Martin",
+  "bulb_type": "MSD 250W",
+  "bulb_lumens": 3180,
+  "bulb_color_temperature": 6500,
+  "dimension_weight": 22,
+  "dimension_width": 384,
+  "dimension_height": 525,
+  "dimension_depth": 330,
+  "lens_label": "PC",
+  "lens_degree_min": 18,
+  "lens_degree_max": 18,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 350,
+  "technical_dmx_connector": "5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Shutter, strobe, reset, lamp",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Shutter open",
+          "min": 20,
+          "max": 49
+        },
+        {
+          "label": "Strobe, fast -> slow",
+          "min": 50,
+          "max": 72
+        },
+        {
+          "label": "Shutter open",
+          "min": 73,
+          "max": 79
+        },
+        {
+          "label": "Opening pulse, fast -> slow",
+          "min": 80,
+          "max": 99
+        },
+        {
+          "label": "Closing pulse, fast -> slow",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "Shutter open",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Random strobe, fast -> slow",
+          "min": 128,
+          "max": 187
+        },
+        {
+          "label": "Shutter open",
+          "min": 188,
+          "max": 190
+        },
+        {
+          "label": "Random opening pulse, fast",
+          "min": 191,
+          "max": 193
+        },
+        {
+          "label": "Random opening pulse, slow",
+          "min": 194,
+          "max": 196
+        },
+        {
+          "label": "Random closing pulse, fast",
+          "min": 197,
+          "max": 199
+        },
+        {
+          "label": "Random closing pulse, slow",
+          "min": 200,
+          "max": 202
+        },
+        {
+          "label": "Shutter open",
+          "min": 203,
+          "max": 207
+        },
+        {
+          "label": "Reset",
+          "min": 208,
+          "max": 217
+        },
+        {
+          "label": "Shutter open",
+          "min": 218,
+          "max": 227
+        },
+        {
+          "label": "Lamp on",
+          "min": 228,
+          "max": 237
+        },
+        {
+          "label": "Shutter open",
+          "min": 238,
+          "max": 247
+        },
+        {
+          "label": "Lamp off",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 11
+        },
+        {
+          "label": "CTC",
+          "min": 12,
+          "max": 23
+        },
+        {
+          "label": "Yellow 603",
+          "min": 24,
+          "max": 35
+        },
+        {
+          "label": "Blue 104",
+          "min": 36,
+          "max": 47
+        },
+        {
+          "label": "Pink 312",
+          "min": 48,
+          "max": 59
+        },
+        {
+          "label": "Green 206",
+          "min": 60,
+          "max": 71
+        },
+        {
+          "label": "Blue 108",
+          "min": 72,
+          "max": 83
+        },
+        {
+          "label": "Red 301",
+          "min": 84,
+          "max": 95
+        },
+        {
+          "label": "Magenta 507",
+          "min": 96,
+          "max": 107
+        },
+        {
+          "label": "Blue 101",
+          "min": 108,
+          "max": 119
+        },
+        {
+          "label": "Orange 306",
+          "min": 120,
+          "max": 131
+        },
+        {
+          "label": "Green 202",
+          "min": 132,
+          "max": 143
+        },
+        {
+          "label": "Purple 502",
+          "min": 144,
+          "max": 155
+        },
+        {
+          "label": "Purple 502",
+          "min": 156,
+          "max": 159
+        },
+        {
+          "label": "Green 202",
+          "min": 160,
+          "max": 163
+        },
+        {
+          "label": "Orange 306",
+          "min": 164,
+          "max": 167
+        },
+        {
+          "label": "Blue 101",
+          "min": 168,
+          "max": 171
+        },
+        {
+          "label": "Magenta 507",
+          "min": 172,
+          "max": 175
+        },
+        {
+          "label": "Red 301",
+          "min": 176,
+          "max": 179
+        },
+        {
+          "label": "Blue 108",
+          "min": 180,
+          "max": 183
+        },
+        {
+          "label": "Green 206",
+          "min": 184,
+          "max": 187
+        },
+        {
+          "label": "Pink 312",
+          "min": 188,
+          "max": 191
+        },
+        {
+          "label": "Blue 104",
+          "min": 192,
+          "max": 195
+        },
+        {
+          "label": "Yellow 603",
+          "min": 196,
+          "max": 199
+        },
+        {
+          "label": "CTC",
+          "min": 200,
+          "max": 203
+        },
+        {
+          "label": "White",
+          "min": 204,
+          "max": 207
+        },
+        {
+          "label": "CW, fast -> slow",
+          "min": 208,
+          "max": 226
+        },
+        {
+          "label": "CCW, slow -> fast",
+          "min": 227,
+          "max": 245
+        },
+        {
+          "label": "Random, fast -> slow",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Gobo 1",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Gobo 2",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Gobo 3",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Gobo 4",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Gobo 5",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Gobo 6",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Gobo 7",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Gobo 8",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Gobo 8 shake speed",
+          "min": 90,
+          "max": 104
+        },
+        {
+          "label": "Gobo 7 shake speed",
+          "min": 105,
+          "max": 119
+        },
+        {
+          "label": "Gobo 6 shake speed",
+          "min": 120,
+          "max": 134
+        },
+        {
+          "label": "Gobo 5 shake speed",
+          "min": 135,
+          "max": 149
+        },
+        {
+          "label": "Gobo 4 shake speed",
+          "min": 150,
+          "max": 164
+        },
+        {
+          "label": "Gobo 3 shake speed",
+          "min": 165,
+          "max": 179
+        },
+        {
+          "label": "Gobo 2 shake speed",
+          "min": 180,
+          "max": 194
+        },
+        {
+          "label": "Gobo 1 shake speed",
+          "min": 195,
+          "max": 209
+        },
+        {
+          "label": "CW, slow -> fast",
+          "min": 210,
+          "max": 232
+        },
+        {
+          "label": "CCW, fast -> slow",
+          "min": 233,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 4,
+      "type_description": "Gobo rotation",
+      "capabilities": [
+        {
+          "label": "No rotation",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "CW, slow -> fast",
+          "min": 3,
+          "max": 127
+        },
+        {
+          "label": "CCW, fast -> slow",
+          "min": 128,
+          "max": 252
+        },
+        {
+          "label": "No rotation",
+          "min": 253,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "Prism off",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "CCW, fast -> slow",
+          "min": 20,
+          "max": 79
+        },
+        {
+          "label": "No rotation",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "CW, slow -> fast",
+          "min": 90,
+          "max": 149
+        },
+        {
+          "label": "Prism off",
+          "min": 150,
+          "max": 215
+        },
+        {
+          "label": "Macro 1",
+          "min": 216,
+          "max": 220
+        },
+        {
+          "label": "Macro 2",
+          "min": 221,
+          "max": 225
+        },
+        {
+          "label": "Macro 3",
+          "min": 226,
+          "max": 230
+        },
+        {
+          "label": "Macro 4",
+          "min": 231,
+          "max": 235
+        },
+        {
+          "label": "Macro 5",
+          "min": 236,
+          "max": 240
+        },
+        {
+          "label": "Macro 6",
+          "min": 241,
+          "max": 245
+        },
+        {
+          "label": "Macro 7",
+          "min": 246,
+          "max": 250
+        },
+        {
+          "label": "Macro 8",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 22,
+      "type_description": "Pan/tilt speed",
+      "capabilities": [
+        {
+          "label": "Tracking mode",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Fast -> slow",
+          "min": 3,
+          "max": 245
+        },
+        {
+          "label": "Tracking, PTSP NORM",
+          "min": 246,
+          "max": 248
+        },
+        {
+          "label": "Tracking, PTSP FAST",
+          "min": 249,
+          "max": 251
+        },
+        {
+          "label": "Blackout while moving",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 22,
+      "type_description": "Effect speed",
+      "capabilities": [
+        {
+          "label": "Tracking mode",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Fast -> slow",
+          "min": 3,
+          "max": 245
+        },
+        {
+          "label": "Tracking, SCUT OFF",
+          "min": 246,
+          "max": 248
+        },
+        {
+          "label": "Tracking, SCUT ON",
+          "min": 249,
+          "max": 251
+        },
+        {
+          "label": "Blackout while moving",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Martin/Martin-MAC250plus.json",
+  "id": 1070
+}

@@ -1,0 +1,263 @@
+{
+  "version": "1.0.0",
+  "label": "Wookie series",
+  "manufacturer": "Cameo",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 192,
+  "dimension_height": 154,
+  "dimension_depth": 83,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 60,
+  "focus_tilt_max": 60,
+  "technical_power_consumption": 50,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 17,
+      "type_description": "Mode select",
+      "capabilities": [
+        {
+          "label": "Laser off",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "Auto Mode",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Sound mode",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "DMX mode (CH2-CH8)",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Colours RGB",
+      "capabilities": [
+        {
+          "label": "Original colour",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "Red",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Green",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Blue",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Yellow",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Magenta",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Cyan",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 17,
+      "type_description": "Pattern select",
+      "capabilities": [
+        {
+          "label": "32 Pattern",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 1,
+      "type_description": "Zooming",
+      "capabilities": [
+        {
+          "label": "Manual pattern size",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Loop zooming in out",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "X axis rolling",
+      "capabilities": [
+        {
+          "label": "Manual rolling",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Rolling speed",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Y axis rolling",
+      "capabilities": [
+        {
+          "label": "Manual rolling",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Rolling speed",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Z axis rolling",
+      "capabilities": [
+        {
+          "label": "Manual rolling",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Speed rolling",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 19,
+      "type_description": "X axis moving",
+      "capabilities": [
+        {
+          "label": "Manual position",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Horizontal moving speed",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 23,
+      "type_description": "Y axis moving",
+      "capabilities": [
+        {
+          "label": "Manual position",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Vertical moving speed",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "No function",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 17,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "Laser Off",
+          "min": 0,
+          "max": 100
+        },
+        {
+          "label": "Auto Mode",
+          "min": 101,
+          "max": 155
+        },
+        {
+          "label": "Auto Mode with rising speed (0-100%)",
+          "min": 156,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Colours RGY",
+      "capabilities": [
+        {
+          "label": "Original colour",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "Red",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Green",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Yellow",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Cameo/Cameo-Wookie-series.json",
+  "id": 338
+}

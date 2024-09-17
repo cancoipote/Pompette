@@ -1,0 +1,437 @@
+{
+  "version": "1.0.0",
+  "label": "ColorSpot 170 AT",
+  "manufacturer": "Robe",
+  "bulb_type": "CDM 150W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 11,
+  "dimension_width": 326,
+  "dimension_height": 416,
+  "dimension_depth": 362,
+  "lens_label": "Other",
+  "lens_degree_min": 19,
+  "lens_degree_max": 19,
+  "focus_type": "Fixed",
+  "focus_pan_max": 530,
+  "focus_tilt_max": 280,
+  "technical_power_consumption": 300,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": [
+        {
+          "label": "Tracking",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Speed",
+          "min": 1,
+          "max": 249
+        },
+        {
+          "label": "BO during Col/Gobo",
+          "min": 250,
+          "max": 252
+        },
+        {
+          "label": "BO Col/Gobo/Pan/Tilt",
+          "min": 253,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 11
+        },
+        {
+          "label": "Gobo 1",
+          "min": 12,
+          "max": 23
+        },
+        {
+          "label": "Gobo 2",
+          "min": 24,
+          "max": 35
+        },
+        {
+          "label": "Gobo 3",
+          "min": 36,
+          "max": 47
+        },
+        {
+          "label": "Gobo 4",
+          "min": 48,
+          "max": 59
+        },
+        {
+          "label": "Gobo 5",
+          "min": 60,
+          "max": 71
+        },
+        {
+          "label": "Gobo 6",
+          "min": 72,
+          "max": 83
+        },
+        {
+          "label": "Gobo 7",
+          "min": 84,
+          "max": 95
+        },
+        {
+          "label": "Gobo 1r",
+          "min": 96,
+          "max": 115
+        },
+        {
+          "label": "Gobo 2r",
+          "min": 116,
+          "max": 135
+        },
+        {
+          "label": "Gobo 3r",
+          "min": 136,
+          "max": 155
+        },
+        {
+          "label": "Gobo 4r",
+          "min": 156,
+          "max": 175
+        },
+        {
+          "label": "Gobo 5r",
+          "min": 176,
+          "max": 195
+        },
+        {
+          "label": "Gobo 6r",
+          "min": 196,
+          "max": 215
+        },
+        {
+          "label": "Gobo 7r",
+          "min": 216,
+          "max": 235
+        },
+        {
+          "label": "Scroll CW",
+          "min": 236,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 4,
+      "type_description": "Gobo Rotation",
+      "capabilities": [
+        {
+          "label": "Index",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Scroll CW",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "No Scroll",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Scroll CCW",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 17,
+      "type_description": "Lamp on/off, reset",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Lamp on, reset",
+          "min": 128,
+          "max": 139
+        },
+        {
+          "label": "No function",
+          "min": 140,
+          "max": 229
+        },
+        {
+          "label": "Lamp off after 3 secs",
+          "min": 230,
+          "max": 239
+        },
+        {
+          "label": "No function",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Colours",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "White/Dark green",
+          "min": 1,
+          "max": 10
+        },
+        {
+          "label": "Dark Green",
+          "min": 11,
+          "max": 11
+        },
+        {
+          "label": "Dark Green/Red",
+          "min": 12,
+          "max": 22
+        },
+        {
+          "label": "Red",
+          "min": 23,
+          "max": 23
+        },
+        {
+          "label": "Red/Cyan",
+          "min": 24,
+          "max": 34
+        },
+        {
+          "label": "Cyan",
+          "min": 35,
+          "max": 35
+        },
+        {
+          "label": "Cyan/Magenta",
+          "min": 36,
+          "max": 45
+        },
+        {
+          "label": "Magenta",
+          "min": 46,
+          "max": 46
+        },
+        {
+          "label": "Magenta/Blue",
+          "min": 47,
+          "max": 57
+        },
+        {
+          "label": "Blue",
+          "min": 58,
+          "max": 58
+        },
+        {
+          "label": "Blue/Yellow",
+          "min": 59,
+          "max": 69
+        },
+        {
+          "label": "Yellow",
+          "min": 70,
+          "max": 70
+        },
+        {
+          "label": "Yellow/Green",
+          "min": 71,
+          "max": 80
+        },
+        {
+          "label": "Green",
+          "min": 81,
+          "max": 81
+        },
+        {
+          "label": "Green/Pink",
+          "min": 82,
+          "max": 92
+        },
+        {
+          "label": "Pink",
+          "min": 93,
+          "max": 93
+        },
+        {
+          "label": "Pink/Dark Blue",
+          "min": 94,
+          "max": 104
+        },
+        {
+          "label": "Dark Blue",
+          "min": 105,
+          "max": 105
+        },
+        {
+          "label": "Dark Blue/Orange",
+          "min": 106,
+          "max": 115
+        },
+        {
+          "label": "Orange",
+          "min": 116,
+          "max": 116
+        },
+        {
+          "label": "Orange/White",
+          "min": 117,
+          "max": 127
+        },
+        {
+          "label": "Forwards rainbow fast to slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "No rotation",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Backwards rainbow slow to fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 21,
+      "type_description": "Shutter, strobe",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Shutter open",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe speed slow to fast",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Shutter open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Shutter open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random strobe slow to fast",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Shutter open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "No function 8",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "No function 9",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "No function 10",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "No function 13",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Robe/Robe-ColorSpot-170-AT.json",
+  "id": 1195
+}

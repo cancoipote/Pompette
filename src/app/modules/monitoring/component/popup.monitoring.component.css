@@ -1,0 +1,60 @@
+.popup-content
+{
+    margin-top: 0px !important;
+}
+
+
+.content-list
+{
+    overflow: auto;
+    margin-top: 15px;
+
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Occupe 100% de la hauteur de son conteneur parent */
+}
+
+.header
+{
+    display: flex;
+}
+
+.header-separator
+{
+    flex: 1;
+}
+
+
+.monitoring-popup-container
+{
+    resize: both;
+}
+
+
+.dmx-container
+{
+    display: grid;
+    grid-template-columns: repeat(40, 1fr);
+    gap: 1px
+}
+
+.dmx-thumb
+{
+    border-style: solid;
+    border-width: thin;
+    border-color: #e4e4e4;
+    text-align: center;
+    line-height: 14px;
+}
+
+.dmx-thumb-label
+{
+    font-size: 8px;
+    font-style: italic;
+}
+
+.dmx-thumb-value
+{
+    font-size: 8px;
+    color: #4f4e4e;
+}

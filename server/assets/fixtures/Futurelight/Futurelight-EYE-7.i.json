@@ -1,0 +1,466 @@
+{
+  "version": "1.0.0",
+  "label": "EYE-7.i",
+  "manufacturer": "Futurelight",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 5,
+  "dimension_width": 1790,
+  "dimension_height": 350,
+  "dimension_depth": 244,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 110,
+  "technical_dmx_connector": "5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Horizontal Movement (PAN)/Speed PAN function",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "PAN-movement with 16-bit resolution",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Vertical Movement (TILT)/Speed TILT function",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "TILT-movement with 16-bit resolution",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "PAN/TILT speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 17,
+      "type_description": "PAN/TILT function",
+      "capabilities": [
+        {
+          "label": "Normal",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Blackout at PAN/TILT-movement",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "PAN rotation forwards",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "PAN rotation backwards",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "TILT rotation forwards",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "TILT rotation backwards",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "PAN/TILT rotation forwards",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "PAN/TILT rotation backwards",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "PAN rotation forwards, TILT rotation backwards",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "PAN rotation backwards, TILT rotation forwards",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "No function",
+          "min": 160,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Shutter, strobe function",
+      "capabilities": [
+        {
+          "label": "Normal Shutter Functions",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Opening pulse-effect",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Closing pulse-effect",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Random pulse-effect",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "No function",
+          "min": 64,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 21,
+      "type_description": "Shutter, strobe normal shutter functions",
+      "capabilities": [
+        {
+          "label": "Close",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Strobe-effect with increasing speed",
+          "min": 32,
+          "max": 223
+        },
+        {
+          "label": "Open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 21,
+      "type_description": "Shutter, strobe",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "No function (shutter open)",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe-effect with increasing speed",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "No function (shutter open)",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse-effect in sequences",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "No function (shutter open)",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random strobe-effect with increasing speed",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "No function (shutter open)",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Dimmer intensity",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Dimmer intensity fine",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Color function",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Color temperature correction",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Forwards rainbow effect",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Backwards rainbow effect",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Color-change linear",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Color Bounce",
+          "min": 80,
+          "max": 111
+        },
+        {
+          "label": "No function",
+          "min": 112,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Color presets 1 color temperature correction",
+      "capabilities": [
+        {
+          "label": "Color temperature correction 200K-2700K",
+          "min": 0,
+          "max": 223
+        },
+        {
+          "label": "White 3200K",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "White 4200K",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "White 5600K",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "White 8000K",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Color presets 2 (only for Color Bounce)",
+      "capabilities": [
+        {
+          "label": "Black",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Red",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "label": "Green",
+          "min": 2,
+          "max": 2
+        },
+        {
+          "label": "White",
+          "min": 3,
+          "max": 4
+        },
+        {
+          "label": "Red 0% / green increasing / blue 100% / white 0%",
+          "min": 5,
+          "max": 46
+        },
+        {
+          "label": "Red 0% / green 100% / blue decreasing / white 0%",
+          "min": 47,
+          "max": 88
+        },
+        {
+          "label": "Red increasing / green 100% / blue 0% / white 0%",
+          "min": 89,
+          "max": 130
+        },
+        {
+          "label": "Red 100% / green decreasing / blue 0% / white 0%",
+          "min": 131,
+          "max": 172
+        },
+        {
+          "label": "Red 100% / green 0% / blue increasing / white 0%",
+          "min": 173,
+          "max": 214
+        },
+        {
+          "label": "Red decreasing / green 0% / blue 100% / white 0%",
+          "min": 215,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Red fine",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Green fine",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Blue fine",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "White fine",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 17,
+      "type_description": "Reset, display control",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Reset all motors",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Reset only Pan/Tilt",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "No function",
+          "min": 24,
+          "max": 55
+        },
+        {
+          "label": "Display Off",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Display On",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "No function",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "No function",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Hibernation",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "No function",
+          "min": 96,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Futurelight/Futurelight-EYE-7.i.json",
+  "id": 803
+}

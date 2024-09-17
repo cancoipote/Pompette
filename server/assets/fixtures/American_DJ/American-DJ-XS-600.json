@@ -1,0 +1,712 @@
+{
+  "version": "1.0.0",
+  "label": "XS 600",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 454,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 126,
+  "dimension_height": 318,
+  "dimension_depth": 196,
+  "lens_label": "Other",
+  "lens_degree_min": 5,
+  "lens_degree_max": 5,
+  "focus_type": "Head",
+  "focus_pan_max": 360,
+  "focus_tilt_max": 360,
+  "technical_power_consumption": 72,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt Head 1",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt Head 2",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 19,
+      "type_description": "Pan Continuous Rotation",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 55
+        },
+        {
+          "label": "Clockwise rotation",
+          "min": 56,
+          "max": 127
+        },
+        {
+          "label": "Counter-clockwise rotation",
+          "min": 128,
+          "max": 199
+        },
+        {
+          "label": "No function",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan Continuous Rotation Speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 23,
+      "type_description": "Tilt 1 Continuous Rotation",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 55
+        },
+        {
+          "label": "Clockwise rotation",
+          "min": 56,
+          "max": 127
+        },
+        {
+          "label": "Counter-clockwise rotation",
+          "min": 128,
+          "max": 199
+        },
+        {
+          "label": "No function",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Tilt 1 Continuous Rotation Speed",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 23,
+      "type_description": "Tilt 2 Continuous Rotation",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 55
+        },
+        {
+          "label": "Clockwise rotation",
+          "min": 56,
+          "max": 127
+        },
+        {
+          "label": "Counter-clockwise rotation",
+          "min": 128,
+          "max": 199
+        },
+        {
+          "label": "No function",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Tilt 2 Continuous Rotation Speed",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Head 1 RED LED",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Head 1 Green LED",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Head 1 Blue LED",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Head 1 White LED",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Head 2 RED LED",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Head 2 Green LED",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Head 2 Blue LED",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Head 2 White LED",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 3,
+      "type_description": "Color Macros & Effects",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Red",
+          "min": 11,
+          "max": 20
+        },
+        {
+          "label": "Green",
+          "min": 21,
+          "max": 30
+        },
+        {
+          "label": "Red & green",
+          "min": 31,
+          "max": 40
+        },
+        {
+          "label": "Blue",
+          "min": 41,
+          "max": 50
+        },
+        {
+          "label": "Red & blue",
+          "min": 51,
+          "max": 60
+        },
+        {
+          "label": "Green & blue",
+          "min": 61,
+          "max": 70
+        },
+        {
+          "label": "Red & green & blue",
+          "min": 71,
+          "max": 80
+        },
+        {
+          "label": "Single color change slow - fast",
+          "min": 81,
+          "max": 123
+        },
+        {
+          "label": "Color mix slow - fast",
+          "min": 124,
+          "max": 166
+        },
+        {
+          "label": "Color fade slow - fast",
+          "min": 167,
+          "max": 209
+        },
+        {
+          "label": "Color change slow - fast",
+          "min": 210,
+          "max": 249
+        },
+        {
+          "label": "Sound active color effect",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 21,
+      "type_description": "Strobing",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Slow - fast",
+          "min": 8,
+          "max": 139
+        },
+        {
+          "label": "Slow open - fast close",
+          "min": 140,
+          "max": 189
+        },
+        {
+          "label": "Fast open - slow close",
+          "min": 190,
+          "max": 231
+        },
+        {
+          "label": "No function",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Random",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 3,
+      "type_description": "Programs",
+      "capabilities": [
+        {
+          "label": "Nothing",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Program 1",
+          "min": 16,
+          "max": 40
+        },
+        {
+          "label": "Program 2",
+          "min": 41,
+          "max": 65
+        },
+        {
+          "label": "Program 3",
+          "min": 66,
+          "max": 90
+        },
+        {
+          "label": "Program 4",
+          "min": 91,
+          "max": 115
+        },
+        {
+          "label": "Program 5",
+          "min": 116,
+          "max": 140
+        },
+        {
+          "label": "Program 6",
+          "min": 141,
+          "max": 165
+        },
+        {
+          "label": "Program 7",
+          "min": 166,
+          "max": 190
+        },
+        {
+          "label": "Program 8",
+          "min": 191,
+          "max": 215
+        },
+        {
+          "label": "Random program playing 5 times each",
+          "min": 216,
+          "max": 240
+        },
+        {
+          "label": "Random program 2 min. each",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "type": 22,
+      "type_description": "Program Speed",
+      "capabilities": [
+        {
+          "label": "Slow - fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 17,
+      "type_description": "Special Functions",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 69
+        },
+        {
+          "label": "Blackout with pan/tilt movement",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "No function",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Blackout with RGBW value changes",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "No function",
+          "min": 100,
+          "max": 199
+        },
+        {
+          "label": "Reset all",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "No function",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "type": 17,
+      "type_description": "Dimmer Mode",
+      "capabilities": [
+        {
+          "label": "Standard",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Stage",
+          "min": 21,
+          "max": 40
+        },
+        {
+          "label": "TV",
+          "min": 41,
+          "max": 60
+        },
+        {
+          "label": "Architectural",
+          "min": 61,
+          "max": 80
+        },
+        {
+          "label": "Theatre",
+          "min": 81,
+          "max": 100
+        },
+        {
+          "label": "Default dimmer setting",
+          "min": 101,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Tilt Fine Head 1",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Tilt Fine Head 2",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 3,
+      "type_description": "Head 1 Color Macros & Effects",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Red",
+          "min": 11,
+          "max": 20
+        },
+        {
+          "label": "Green",
+          "min": 21,
+          "max": 30
+        },
+        {
+          "label": "Red & green",
+          "min": 31,
+          "max": 40
+        },
+        {
+          "label": "Blue",
+          "min": 41,
+          "max": 50
+        },
+        {
+          "label": "Red & blue",
+          "min": 51,
+          "max": 60
+        },
+        {
+          "label": "Green & blue",
+          "min": 61,
+          "max": 70
+        },
+        {
+          "label": "Red & green & blue",
+          "min": 71,
+          "max": 80
+        },
+        {
+          "label": "Single color change slow - fast",
+          "min": 81,
+          "max": 123
+        },
+        {
+          "label": "Color mix slow - fast",
+          "min": 124,
+          "max": 166
+        },
+        {
+          "label": "Color fade slow - fast",
+          "min": 167,
+          "max": 209
+        },
+        {
+          "label": "Color change slow - fast",
+          "min": 210,
+          "max": 249
+        },
+        {
+          "label": "Sound active color effect",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "type": 3,
+      "type_description": "Head 2 Color Macros & Effects",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Red",
+          "min": 11,
+          "max": 20
+        },
+        {
+          "label": "Green",
+          "min": 21,
+          "max": 30
+        },
+        {
+          "label": "Red & green",
+          "min": 31,
+          "max": 40
+        },
+        {
+          "label": "Blue",
+          "min": 41,
+          "max": 50
+        },
+        {
+          "label": "Red & blue",
+          "min": 51,
+          "max": 60
+        },
+        {
+          "label": "Green & blue",
+          "min": 61,
+          "max": 70
+        },
+        {
+          "label": "Red & green & blue",
+          "min": 71,
+          "max": 80
+        },
+        {
+          "label": "Single color change slow - fast",
+          "min": 81,
+          "max": 123
+        },
+        {
+          "label": "Color mix slow - fast",
+          "min": 124,
+          "max": 166
+        },
+        {
+          "label": "Color fade slow - fast",
+          "min": 167,
+          "max": 209
+        },
+        {
+          "label": "Color change slow - fast",
+          "min": 210,
+          "max": 249
+        },
+        {
+          "label": "Sound active color effect",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "type": 21,
+      "type_description": "Strobing Head 1",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Slow - fast",
+          "min": 8,
+          "max": 139
+        },
+        {
+          "label": "Slow open - fast close",
+          "min": 140,
+          "max": 189
+        },
+        {
+          "label": "Fast open - slow close",
+          "min": 190,
+          "max": 231
+        },
+        {
+          "label": "No function",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Random",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "type": 21,
+      "type_description": "Strobing Head 2",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Slow - fast",
+          "min": 8,
+          "max": 139
+        },
+        {
+          "label": "Slow open - fast close",
+          "min": 140,
+          "max": 189
+        },
+        {
+          "label": "Fast open - slow close",
+          "min": 190,
+          "max": 231
+        },
+        {
+          "label": "No function",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Random",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "type": 0,
+      "type_description": "Master Dimmer Head 1",
+      "capabilities": []
+    },
+    {
+      "index": 33,
+      "type": 0,
+      "type_description": "Master Dimmer Head 2",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-XS-600.json",
+  "id": 176
+}

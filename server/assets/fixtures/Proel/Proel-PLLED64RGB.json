@@ -1,0 +1,142 @@
+{
+  "version": "1.0.0",
+  "label": "PLLED64RGB",
+  "manufacturer": "Proel",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 255,
+  "dimension_height": 255,
+  "dimension_depth": 240,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 120,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Macro Colour",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Sequence R-G-B-RG-G",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Sequence G-GB-B-RB-R",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Sequence R-B-G-RG-G",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Sequence R-G-GB-RBG-G",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Sequence B-BG-RGB-RG-G",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Strobe + colours",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Color fade",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Colour change",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Colour change + strobe",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Colour fade fast in, slow out",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Colour fade slow in, fast out",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Colour fade slow in, slow out",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "Colour macros",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "Sound mode 1",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "Sound mode 2",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Proel/Proel-PLLED64RGB.json",
+  "id": 1160
+}

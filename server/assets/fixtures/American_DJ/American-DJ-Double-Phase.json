@@ -1,0 +1,374 @@
+{
+  "version": "1.0.0",
+  "label": "Double Phase",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 478,
+  "dimension_height": 134,
+  "dimension_depth": 195,
+  "lens_label": "Other",
+  "lens_degree_min": 150,
+  "lens_degree_max": 150,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 40,
+  "technical_dmx_connector": "3-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Dimmer / Strobe (Mirror 1)",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Master Dimmer 0% - 100%",
+          "min": 8,
+          "max": 199
+        },
+        {
+          "label": "Strobing Slow - Fast",
+          "min": 200,
+          "max": 247
+        },
+        {
+          "label": "Full On",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Colors (Mirror 1)",
+      "capabilities": [
+        {
+          "label": "Black",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Color 1",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Color 2",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Color 3",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Color 4",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Color 5",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Color 6",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Color 7",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Color 8",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Color 9",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Color 10",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Color 11",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Color 12",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "Color 13",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "Color 14",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "Color 15",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Barrel Rotation (Mirror 1)",
+      "capabilities": [
+        {
+          "label": "STOP",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Rotation Fast - Slow",
+          "min": 10,
+          "max": 120
+        },
+        {
+          "label": "STOP",
+          "min": 121,
+          "max": 134
+        },
+        {
+          "label": "Rotation Slow - Fast",
+          "min": 135,
+          "max": 245
+        },
+        {
+          "label": "STOP",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Dimmer / Strobe (Mirror 2)",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Master Dimmer 0% - 100%",
+          "min": 8,
+          "max": 199
+        },
+        {
+          "label": "Strobing Slow - Fast",
+          "min": 200,
+          "max": 247
+        },
+        {
+          "label": "Full On",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Colors (Mirror 2)",
+      "capabilities": [
+        {
+          "label": "Black",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Color 1",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Color 2",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Color 3",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Color 4",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Color 5",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Color 6",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Color 7",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Color 8",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Color 9",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Color 10",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Color 11",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Color 12",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "Color 13",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "Color 14",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "Color 15",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 22,
+      "type_description": "Barrel Rotation (Mirror 2)",
+      "capabilities": [
+        {
+          "label": "STOP",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Rotation Fast - Slow",
+          "min": 10,
+          "max": 120
+        },
+        {
+          "label": "STOP",
+          "min": 121,
+          "max": 134
+        },
+        {
+          "label": "Rotation Slow - Fast",
+          "min": 135,
+          "max": 245
+        },
+        {
+          "label": "STOP",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Show Modes",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Show 1",
+          "min": 8,
+          "max": 37
+        },
+        {
+          "label": "Show 2",
+          "min": 38,
+          "max": 67
+        },
+        {
+          "label": "Show 3",
+          "min": 68,
+          "max": 97
+        },
+        {
+          "label": "Show 4",
+          "min": 98,
+          "max": 127
+        },
+        {
+          "label": "Show 5",
+          "min": 128,
+          "max": 157
+        },
+        {
+          "label": "Show 6",
+          "min": 158,
+          "max": 187
+        },
+        {
+          "label": "Show 7",
+          "min": 188,
+          "max": 217
+        },
+        {
+          "label": "Show 8",
+          "min": 218,
+          "max": 247
+        },
+        {
+          "label": "Random Shows 1 - 8",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Double-Phase.json",
+  "id": 50
+}

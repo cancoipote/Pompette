@@ -1,0 +1,223 @@
+{
+  "version": "1.0.0",
+  "label": "LED SLS-7 HCL",
+  "manufacturer": "Eurolite",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 220,
+  "dimension_height": 210,
+  "dimension_depth": 110,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 20,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Color Presets",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Green",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Blue",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "White",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Amber",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "UV",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Yellow",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Magenta",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Cyan",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Dark Orange",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Green Yellow",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Salmon",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Ice Blue",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Light Green",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Orange",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Lavender",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Steel Blue",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Dark Blue",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Pink",
+          "min": 190,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Strobe with increasing speed",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Internal Programs",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Color fade with increasing speed",
+          "min": 10,
+          "max": 69
+        },
+        {
+          "label": "Color change with increasing speed",
+          "min": 70,
+          "max": 129
+        },
+        {
+          "label": "Sound mode color fade with increasing speed",
+          "min": 130,
+          "max": 189
+        },
+        {
+          "label": "Sound mode color change with increasing speed",
+          "min": 190,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "UV",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-LED-SLS-7-HCL.json",
+  "id": 719
+}

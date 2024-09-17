@@ -1,0 +1,556 @@
+{
+  "version": "1.0.0",
+  "label": "Varyscan P2",
+  "manufacturer": "JB-Lighting",
+  "bulb_type": "HTI 250W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 21,
+  "dimension_width": 389,
+  "dimension_height": 559,
+  "dimension_depth": 320,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 480,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan coarse",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt coarse",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 17,
+      "type_description": "Lamp/Reset",
+      "capabilities": [
+        {
+          "label": "Safe",
+          "min": 0,
+          "max": 231
+        },
+        {
+          "label": "Lamp off after 3 seconds",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Reset after 1 second",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Lamp on",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Open",
+          "min": 16,
+          "max": 111
+        },
+        {
+          "label": "Periodic strobe slow to fast",
+          "min": 112,
+          "max": 125
+        },
+        {
+          "label": "Open",
+          "min": 126,
+          "max": 126
+        },
+        {
+          "label": "Closed",
+          "min": 127,
+          "max": 127
+        },
+        {
+          "label": "Periodic pulse open fast to slow",
+          "min": 128,
+          "max": 142
+        },
+        {
+          "label": "Open",
+          "min": 143,
+          "max": 143
+        },
+        {
+          "label": "Periodic pulse close fast to slow",
+          "min": 144,
+          "max": 158
+        },
+        {
+          "label": "Closed",
+          "min": 159,
+          "max": 159
+        },
+        {
+          "label": "Close fade fast to slow",
+          "min": 160,
+          "max": 174
+        },
+        {
+          "label": "Open",
+          "min": 175,
+          "max": 175
+        },
+        {
+          "label": "Open fade fast to slow",
+          "min": 176,
+          "max": 190
+        },
+        {
+          "label": "Closed",
+          "min": 191,
+          "max": 191
+        },
+        {
+          "label": "Random open fast to slow",
+          "min": 192,
+          "max": 206
+        },
+        {
+          "label": "Open",
+          "min": 207,
+          "max": 207
+        },
+        {
+          "label": "Random close fast to slow",
+          "min": 208,
+          "max": 222
+        },
+        {
+          "label": "Closed",
+          "min": 223,
+          "max": 223
+        },
+        {
+          "label": "Random close fast to slow",
+          "min": 224,
+          "max": 238
+        },
+        {
+          "label": "Open",
+          "min": 239,
+          "max": 239
+        },
+        {
+          "label": "Random open fast to slow",
+          "min": 240,
+          "max": 254
+        },
+        {
+          "label": "Open",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "No function 6",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "No function 10",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "No function 11",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Gobo 1",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Gobo 2",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Gobo 3",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Gobo 4",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Gobo 5",
+          "min": 80,
+          "max": 127
+        },
+        {
+          "label": "Open shake",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Gobo 1 shake",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Gobo 2 shake",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Gobo 3 shake",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Gobo 4 shake",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Gobo 5 shake",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Safe",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 4,
+      "type_description": "Gobo rotation",
+      "capabilities": [
+        {
+          "label": "Gobo positioning",
+          "min": 0,
+          "max": 191
+        },
+        {
+          "label": "Rotation CCW fast to slow",
+          "min": 192,
+          "max": 222
+        },
+        {
+          "label": "No rotation",
+          "min": 223,
+          "max": 224
+        },
+        {
+          "label": "Rotation CW slow to fast",
+          "min": 225,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "White/Red",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "Red",
+          "min": 8,
+          "max": 11
+        },
+        {
+          "label": "Red/Yellow",
+          "min": 12,
+          "max": 15
+        },
+        {
+          "label": "Yellow",
+          "min": 16,
+          "max": 19
+        },
+        {
+          "label": "Yellow/Magenta",
+          "min": 20,
+          "max": 23
+        },
+        {
+          "label": "Magenta",
+          "min": 24,
+          "max": 27
+        },
+        {
+          "label": "Magenta/Green",
+          "min": 28,
+          "max": 31
+        },
+        {
+          "label": "Green",
+          "min": 32,
+          "max": 35
+        },
+        {
+          "label": "Green/Orange",
+          "min": 36,
+          "max": 39
+        },
+        {
+          "label": "Orange",
+          "min": 40,
+          "max": 43
+        },
+        {
+          "label": "Orange/Blue",
+          "min": 44,
+          "max": 47
+        },
+        {
+          "label": "Blue",
+          "min": 48,
+          "max": 51
+        },
+        {
+          "label": "Blue/Cyan",
+          "min": 52,
+          "max": 55
+        },
+        {
+          "label": "Cyan",
+          "min": 56,
+          "max": 59
+        },
+        {
+          "label": "Cyan/White",
+          "min": 60,
+          "max": 63
+        },
+        {
+          "label": "Colour positioning",
+          "min": 64,
+          "max": 191
+        },
+        {
+          "label": "Rainbow CW fast to slow",
+          "min": 192,
+          "max": 222
+        },
+        {
+          "label": "No rotation",
+          "min": 223,
+          "max": 224
+        },
+        {
+          "label": "Rainbow CCW slow to fast",
+          "min": 225,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 3,
+      "type_description": "Effect",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "CTB daylight filter",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "CTO artificial light filter",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Pink",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Cyan",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Frost",
+          "min": 80,
+          "max": 127
+        },
+        {
+          "label": "Colour macros with colour wheel 1",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "No function 16",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "Inactive, colour wheel 2 active",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Active, colour wheel 2 inactive",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 20,
+      "type_description": "Prism positioning",
+      "capabilities": [
+        {
+          "label": "Positioning",
+          "min": 0,
+          "max": 191
+        },
+        {
+          "label": "Rotation CW fast to slow",
+          "min": 192,
+          "max": 222
+        },
+        {
+          "label": "No rotation",
+          "min": 223,
+          "max": 224
+        },
+        {
+          "label": "Rotation CCW slow to fast",
+          "min": 225,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "No function 19",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 22,
+      "type_description": "Movement speed",
+      "capabilities": [
+        {
+          "label": "Tracking",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Vector speed",
+          "min": 4,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 22,
+      "type_description": "Effect speed",
+      "capabilities": [
+        {
+          "label": "Tracking",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Vector speed",
+          "min": 4,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/JB-Lighting/JB-Lighting-Varyscan-P2.json",
+  "id": 913
+}

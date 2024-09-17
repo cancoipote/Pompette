@@ -1,0 +1,396 @@
+{
+  "version": "1.0.0",
+  "label": "ALO Micro Scan",
+  "manufacturer": "Ayra",
+  "bulb_type": "LED",
+  "bulb_lumens": 1200,
+  "bulb_color_temperature": 7000,
+  "dimension_weight": 2,
+  "dimension_width": 130,
+  "dimension_height": 280,
+  "dimension_depth": 130,
+  "lens_label": "Other",
+  "lens_degree_min": 13,
+  "lens_degree_max": 13,
+  "focus_type": "Mirror",
+  "focus_pan_max": 170,
+  "focus_tilt_max": 85,
+  "technical_power_consumption": 35,
+  "technical_dmx_connector": "3-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Color wheel",
+      "capabilities": [
+        {
+          "label": "Open White",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "SPLC 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Red",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "SPLC 2",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Orange",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "SPLC 3",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Yellow",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "SPLC 4",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Green",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "SPLC 5",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Dark Blue",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "SPLC 6",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Light Blue",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "SPLC 7",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Magenta",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Rainbow effect, slow -> fast",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Gobo 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Gobo 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Gobo 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Gobo 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Gobo 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Gobo 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Gobo 7",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Open Shake",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Gobo 1 Shake",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Gobo 2 Shake",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Gobo 3 Shake",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Gobo 4 Shake",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Gobo 5 Shake",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Gobo 6 Shake",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Gobo 7 Shake",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Gobo Scroll, slow -> fast",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Open",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Stroboscope mode, slow -> fast",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "Open",
+          "min": 132,
+          "max": 139
+        },
+        {
+          "label": "Shutter slow open, close fast, slow -> fast",
+          "min": 140,
+          "max": 181
+        },
+        {
+          "label": "Open",
+          "min": 182,
+          "max": 189
+        },
+        {
+          "label": "Shutter slow close, open fast, slow -> fast",
+          "min": 190,
+          "max": 231
+        },
+        {
+          "label": "Open",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Random Strobe",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Diverse functions",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 69
+        },
+        {
+          "label": "Blackout during pan/tilt movement, fast LED switching",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Disable Blackout during pan/tilt movement",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "No function",
+          "min": 90,
+          "max": 199
+        },
+        {
+          "label": "Reset after 3 seconds within these values",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "No Function",
+          "min": 210,
+          "max": 239
+        },
+        {
+          "label": "Sound activated mode",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Sound-controlled Shows",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Show 1",
+          "min": 8,
+          "max": 37
+        },
+        {
+          "label": "Show 2",
+          "min": 38,
+          "max": 67
+        },
+        {
+          "label": "Show 3",
+          "min": 68,
+          "max": 97
+        },
+        {
+          "label": "Show 4",
+          "min": 98,
+          "max": 127
+        },
+        {
+          "label": "Show 5",
+          "min": 128,
+          "max": 157
+        },
+        {
+          "label": "Show 6",
+          "min": 158,
+          "max": 187
+        },
+        {
+          "label": "Show 7",
+          "min": 188,
+          "max": 217
+        },
+        {
+          "label": "Show 8",
+          "min": 218,
+          "max": 247
+        },
+        {
+          "label": "Random Show",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Pan/Tilt speed",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Ayra/Ayra-ALO-Micro-Scan.json",
+  "id": 229
+}

@@ -1,0 +1,157 @@
+{
+  "version": "1.0.0",
+  "label": "SlimPAR Q12ILS",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 2684,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 92,
+  "dimension_height": 293,
+  "dimension_depth": 247,
+  "lens_label": "Other",
+  "lens_degree_min": 17,
+  "lens_degree_max": 17,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 55,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Color Macros",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Strobe, slow to fast",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Program",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Pulse effect, 0-100%",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Pulse effect, 100-0%",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Pulse effect, 100-0-100%",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Automatic fade",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Automatic 4-color snap",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Automatic 19-color snap",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Sound-active 19-color snap",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 22,
+      "type_description": "Dimmer Speed",
+      "capabilities": [
+        {
+          "label": "Dimmer speed set from display menu",
+          "min": 0,
+          "max": 51
+        },
+        {
+          "label": "Dimmer speed mode off",
+          "min": 52,
+          "max": 101
+        },
+        {
+          "label": "Dimmer speed mode 1 (fast)",
+          "min": 102,
+          "max": 152
+        },
+        {
+          "label": "Dimmer speed mode 2 (medium)",
+          "min": 153,
+          "max": 203
+        },
+        {
+          "label": "Dimmer speed mode 3 (slow)",
+          "min": 204,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-SlimPAR-Q12ILS.json",
+  "id": 544
+}

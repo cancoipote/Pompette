@@ -1,0 +1,1005 @@
+{
+  "version": "1.0.0",
+  "label": "Rush MH5 Profile",
+  "manufacturer": "Martin",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 9,
+  "dimension_width": 290,
+  "dimension_height": 416,
+  "dimension_depth": 187,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 40,
+  "focus_type": "Fixed",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 75,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Dimmer fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Open",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Strobe, slow to fast",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "Fast close, slow open",
+          "min": 132,
+          "max": 167
+        },
+        {
+          "label": "Slow close, fast open",
+          "min": 168,
+          "max": 203
+        },
+        {
+          "label": "Pulse open and close",
+          "min": 204,
+          "max": 239
+        },
+        {
+          "label": "Random strobe",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Color Wheel 1",
+      "capabilities": [
+        {
+          "label": "White - Continuous scrolling",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "White to Red - Continuous scrolling",
+          "min": 1,
+          "max": 14
+        },
+        {
+          "label": "Red (Color 1) - Continuous scrolling",
+          "min": 15,
+          "max": 15
+        },
+        {
+          "label": "Red to Deep Blue - Continuous scrolling",
+          "min": 16,
+          "max": 29
+        },
+        {
+          "label": "Deep Blue (Color 2) - Continuous scrolling",
+          "min": 30,
+          "max": 30
+        },
+        {
+          "label": "Deep Blue to Lavender - Continuous scrolling",
+          "min": 31,
+          "max": 44
+        },
+        {
+          "label": "Lavender (Color 3) - Continuous scrolling",
+          "min": 45,
+          "max": 45
+        },
+        {
+          "label": "Lavender to Magenta - Continuous scrolling",
+          "min": 46,
+          "max": 59
+        },
+        {
+          "label": "Magenta (Color 4) - Continuous scrolling",
+          "min": 60,
+          "max": 60
+        },
+        {
+          "label": "Magenta to Yellow - Continuous scrolling",
+          "min": 61,
+          "max": 74
+        },
+        {
+          "label": "Yellow (Color 5) - Continuous scrolling",
+          "min": 75,
+          "max": 75
+        },
+        {
+          "label": "Yelow to Orange - Continuous scrolling",
+          "min": 76,
+          "max": 89
+        },
+        {
+          "label": "Orange (Color 6) - Continuous scrolling",
+          "min": 90,
+          "max": 90
+        },
+        {
+          "label": "Orange to Light Green - Continuous scrolling",
+          "min": 91,
+          "max": 104
+        },
+        {
+          "label": "Light Green (Color 7) - Continuous scrolling",
+          "min": 105,
+          "max": 105
+        },
+        {
+          "label": "Light Green to Light Blue - Continuous scrolling",
+          "min": 106,
+          "max": 119
+        },
+        {
+          "label": "Light Blue (Color 8) - Continuous scrolling",
+          "min": 120,
+          "max": 120
+        },
+        {
+          "label": "Light Blue to White - Continuous scrolling",
+          "min": 121,
+          "max": 134
+        },
+        {
+          "label": "White - Continuous scrolling",
+          "min": 135,
+          "max": 160
+        },
+        {
+          "label": "Color 1 - Red - Stepped scrolling",
+          "min": 161,
+          "max": 163
+        },
+        {
+          "label": "Color 2 - Deep Blue - Stepped scrolling",
+          "min": 164,
+          "max": 166
+        },
+        {
+          "label": "Color 3 - Lavender - Stepped scrolling",
+          "min": 167,
+          "max": 169
+        },
+        {
+          "label": "Color 4 - Magenta - Stepped scrolling",
+          "min": 170,
+          "max": 172
+        },
+        {
+          "label": "Color 5 - Yellow - Stepped scrolling",
+          "min": 173,
+          "max": 175
+        },
+        {
+          "label": "Color 6 - Orange - Stepped scrolling",
+          "min": 176,
+          "max": 178
+        },
+        {
+          "label": "Color 7 - Light Green - Stepped scrolling",
+          "min": 179,
+          "max": 181
+        },
+        {
+          "label": "Color 8 - Light Blue - Stepped scrolling",
+          "min": 182,
+          "max": 184
+        },
+        {
+          "label": "White - Stepped scrolling",
+          "min": 185,
+          "max": 192
+        },
+        {
+          "label": "Continuous rotation - Clockwise, fast to slow",
+          "min": 193,
+          "max": 214
+        },
+        {
+          "label": "Continuous rotation - Stop",
+          "min": 215,
+          "max": 221
+        },
+        {
+          "label": "Continuous rotation - Counter-clockwise, slow to fast",
+          "min": 222,
+          "max": 243
+        },
+        {
+          "label": "Random color - Fast",
+          "min": 244,
+          "max": 247
+        },
+        {
+          "label": "Random color - Medium",
+          "min": 248,
+          "max": 251
+        },
+        {
+          "label": "Random color - Slow",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Color Wheel 2",
+      "capabilities": [
+        {
+          "label": "White - Continuous scrolling",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "White to Pink - Continuous scrolling",
+          "min": 1,
+          "max": 14
+        },
+        {
+          "label": "Pink (Color 1) - Continuous scrolling",
+          "min": 15,
+          "max": 15
+        },
+        {
+          "label": "Pink to CTO 3200K - Continuous scrolling",
+          "min": 16,
+          "max": 29
+        },
+        {
+          "label": "CTO 3200K (Color 2) - Continuous scrolling",
+          "min": 30,
+          "max": 30
+        },
+        {
+          "label": "CTO 3200K to UV Purple - Continuous scrolling",
+          "min": 31,
+          "max": 44
+        },
+        {
+          "label": "UV Purple (Color 3) - Continuous scrolling",
+          "min": 45,
+          "max": 45
+        },
+        {
+          "label": "UV Purple to Light Yellow - Continuous scrolling",
+          "min": 46,
+          "max": 59
+        },
+        {
+          "label": "Light Yellow (Color 4) - Continuous scrolling",
+          "min": 60,
+          "max": 60
+        },
+        {
+          "label": "Light Yellow to Green - Continuous scrolling",
+          "min": 61,
+          "max": 74
+        },
+        {
+          "label": "Green (Color 5) - Continuous scrolling",
+          "min": 75,
+          "max": 75
+        },
+        {
+          "label": "Green to Aquamarine - Continuous scrolling",
+          "min": 76,
+          "max": 89
+        },
+        {
+          "label": "Aquamarine (Color 6) - Continuous scrolling",
+          "min": 90,
+          "max": 90
+        },
+        {
+          "label": "Aquamarine to CTO 5600K - Continuous scrolling",
+          "min": 91,
+          "max": 104
+        },
+        {
+          "label": "CTO 5600K (Color 7) - Continuous scrolling",
+          "min": 105,
+          "max": 105
+        },
+        {
+          "label": "CTO 5600K to Blue - Continuous scrolling",
+          "min": 106,
+          "max": 119
+        },
+        {
+          "label": "Blue (Color 8) - Continuous scrolling",
+          "min": 120,
+          "max": 120
+        },
+        {
+          "label": "Blue to white - Continuous scrolling",
+          "min": 121,
+          "max": 134
+        },
+        {
+          "label": "White - Continuous scrolling",
+          "min": 135,
+          "max": 160
+        },
+        {
+          "label": "Color 1 - Pink - Stepped scrolling",
+          "min": 161,
+          "max": 163
+        },
+        {
+          "label": "Color 2 - CTO 3200K - Stepped scrolling",
+          "min": 164,
+          "max": 166
+        },
+        {
+          "label": "Color 3 - UV Purple - Stepped scrolling",
+          "min": 167,
+          "max": 169
+        },
+        {
+          "label": "Color 4 - Light Yellow - Stepped scrolling",
+          "min": 170,
+          "max": 172
+        },
+        {
+          "label": "Color 5 - Light Green - Stepped scrolling",
+          "min": 173,
+          "max": 175
+        },
+        {
+          "label": "Color 6 - Aquamarine - Stepped scrolling",
+          "min": 176,
+          "max": 178
+        },
+        {
+          "label": "Color 7 - CTO 5600K - Stepped scrolling",
+          "min": 179,
+          "max": 181
+        },
+        {
+          "label": "Color 8 - Blue - Stepped scrolling",
+          "min": 182,
+          "max": 184
+        },
+        {
+          "label": "White - Stepped scrolling",
+          "min": 185,
+          "max": 192
+        },
+        {
+          "label": "Continuous rotation - Clockwise, fast to slow",
+          "min": 193,
+          "max": 214
+        },
+        {
+          "label": "Continuous rotation - Stop",
+          "min": 215,
+          "max": 221
+        },
+        {
+          "label": "Continuous rotation - Counter clockwise, slow to fast",
+          "min": 222,
+          "max": 243
+        },
+        {
+          "label": "Random color - Fast",
+          "min": 244,
+          "max": 247
+        },
+        {
+          "label": "Random color - Medium",
+          "min": 248,
+          "max": 251
+        },
+        {
+          "label": "Random color - Slow",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 4,
+      "type_description": "Gobo Wheel 1 (rotating gobos)",
+      "capabilities": [
+        {
+          "label": "Open - Gobo selection",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Gobo 1 - Gobo selection",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "Gobo 2 - Gobo selection",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "Gobo 3 - Gobo selection",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "Gobo 4 - Gobo selection",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "Gobo 5 - Gobo selection",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "Gobo 6 - Gobo selection",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "Gobo 1 - Gobo rotation",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "Gobo 2 - Gobo rotation",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "Gobo 3 - Gobo rotation",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "Gobo 4 - Gobo rotation",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "Gobo 5 - Gobo rotation",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "Gobo 6 - Gobo rotation",
+          "min": 60,
+          "max": 64
+        },
+        {
+          "label": "Gobo 1 - shake",
+          "min": 65,
+          "max": 88
+        },
+        {
+          "label": "Gobo 2 - shake",
+          "min": 89,
+          "max": 112
+        },
+        {
+          "label": "Gobo 3 - shake",
+          "min": 113,
+          "max": 136
+        },
+        {
+          "label": "Gobo 4 - shake",
+          "min": 137,
+          "max": 160
+        },
+        {
+          "label": "Gobo 5 - shake",
+          "min": 161,
+          "max": 184
+        },
+        {
+          "label": "Gobo 6 - shake",
+          "min": 185,
+          "max": 208
+        },
+        {
+          "label": "No function",
+          "min": 209,
+          "max": 209
+        },
+        {
+          "label": "Continuous wheel rotation, clockwise, fast to slow",
+          "min": 210,
+          "max": 232
+        },
+        {
+          "label": "Continuous wheel rotation, counter-clockwise, slow to fast",
+          "min": 233,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 4,
+      "type_description": "Gobo Wheel 1 Indexing / Rotation",
+      "capabilities": [
+        {
+          "label": "Wheel rotation - No rotation",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Wheel rotation - Clockwise rotation, fast to slow",
+          "min": 3,
+          "max": 126
+        },
+        {
+          "label": "Wheel rotation - Stop",
+          "min": 127,
+          "max": 129
+        },
+        {
+          "label": "Wheel rotation - Counter- clockwise, slow to fast",
+          "min": 130,
+          "max": 253
+        },
+        {
+          "label": "Wheel rotation - Stop",
+          "min": 254,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 4,
+      "type_description": "Gobo Wheel 2 (static gobos)",
+      "capabilities": [
+        {
+          "label": "Open - Continuous scrolling",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Open to Gobo 1 - Continuous scrolling",
+          "min": 1,
+          "max": 14
+        },
+        {
+          "label": "Gobo 1 - Continuous scrolling",
+          "min": 15,
+          "max": 15
+        },
+        {
+          "label": "Gobo 1 to Gobo 2 - Continuous scrolling",
+          "min": 16,
+          "max": 29
+        },
+        {
+          "label": "Gobo 2 - Continuous scrolling",
+          "min": 30,
+          "max": 30
+        },
+        {
+          "label": "Gobo 2 to Gobo 3 - Continuous scrolling",
+          "min": 31,
+          "max": 44
+        },
+        {
+          "label": "Gobo 3 - Continuous scrolling",
+          "min": 45,
+          "max": 45
+        },
+        {
+          "label": "Gobo 3 to Gobo 4 - Continuous scrolling",
+          "min": 46,
+          "max": 59
+        },
+        {
+          "label": "Gobo 4 - Continuous scrolling",
+          "min": 60,
+          "max": 60
+        },
+        {
+          "label": "Gobo 4 to Gobo 5 - Continuous scrolling",
+          "min": 61,
+          "max": 74
+        },
+        {
+          "label": "Gobo 5 - Continuous scrolling",
+          "min": 75,
+          "max": 75
+        },
+        {
+          "label": "Gobo 5 to Gobo 6 - Continuous scrolling",
+          "min": 76,
+          "max": 89
+        },
+        {
+          "label": "Gobo 6 - Continuous scrolling",
+          "min": 90,
+          "max": 90
+        },
+        {
+          "label": "Gobo 6 to Gobo 7 - Continuous scrolling",
+          "min": 91,
+          "max": 104
+        },
+        {
+          "label": "Gobo 7",
+          "min": 105,
+          "max": 105
+        },
+        {
+          "label": "Gobo 7 to Open - Continuous scrolling",
+          "min": 106,
+          "max": 119
+        },
+        {
+          "label": "Open - Continuous scrolling",
+          "min": 120,
+          "max": 160
+        },
+        {
+          "label": "Gobo 1 - Stepped scrolling",
+          "min": 161,
+          "max": 163
+        },
+        {
+          "label": "Gobo 2 - Stepped scrolling",
+          "min": 164,
+          "max": 166
+        },
+        {
+          "label": "Gobo 3 - Stepped scrolling",
+          "min": 167,
+          "max": 169
+        },
+        {
+          "label": "Gobo 4 - Stepped scrolling",
+          "min": 170,
+          "max": 172
+        },
+        {
+          "label": "Gobo 5 - Stepped scrolling",
+          "min": 173,
+          "max": 175
+        },
+        {
+          "label": "Gobo 6 - Stepped scrolling",
+          "min": 176,
+          "max": 178
+        },
+        {
+          "label": "Gobo 7 - Stepped scrolling",
+          "min": 179,
+          "max": 181
+        },
+        {
+          "label": "Open - Stepped scrolling",
+          "min": 182,
+          "max": 192
+        },
+        {
+          "label": "Continuous wheel rotation - Clockwise - Fast to slow",
+          "min": 193,
+          "max": 214
+        },
+        {
+          "label": "Continuous wheel rotation - Stop",
+          "min": 215,
+          "max": 221
+        },
+        {
+          "label": "Continuous wheel rotation - Counter clockwise - Slow to fast",
+          "min": 222,
+          "max": 243
+        },
+        {
+          "label": "Random Gobo - Fast",
+          "min": 244,
+          "max": 247
+        },
+        {
+          "label": "Random Gobo - Medium",
+          "min": 248,
+          "max": 251
+        },
+        {
+          "label": "Random Gobo - Slow",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "Prism - Open",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Prism indexing (set angle on channel 10)",
+          "min": 11,
+          "max": 138
+        },
+        {
+          "label": "Prism rotation (set direction and speed on channel 10)",
+          "min": 139,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 20,
+      "type_description": "Prism Indexing / Rotation",
+      "capabilities": [
+        {
+          "label": "No rotation",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Prism rotation - Clockwise - Fast to slow",
+          "min": 3,
+          "max": 126
+        },
+        {
+          "label": "Prism rotation - Stop",
+          "min": 127,
+          "max": 129
+        },
+        {
+          "label": "Prism rotation - Counter Clockwise - Slow to fast",
+          "min": 130,
+          "max": 253
+        },
+        {
+          "label": "Prism rotation - Stop",
+          "min": 254,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Pan (fine control)",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Tilt (fine control)",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 17,
+      "type_description": "Functions / Fixture settings",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Reset all",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "Reset color",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "Reset gobo",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "Reset focus",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "Reset prism",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "Reset pan/tilt",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "No function",
+          "min": 40,
+          "max": 54
+        },
+        {
+          "label": "Enable calibration",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "No function",
+          "min": 60,
+          "max": 79
+        },
+        {
+          "label": "Pan/tilt speed = Normal",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "Pan/tilt speed = Fast (default setting)",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "Pan7tilt speed = Slow",
+          "min": 90,
+          "max": 94
+        },
+        {
+          "label": "Parameter shortcuts = On (default setting)",
+          "min": 95,
+          "max": 99
+        },
+        {
+          "label": "Parameter shortcuts = Off",
+          "min": 100,
+          "max": 104
+        },
+        {
+          "label": "No function",
+          "min": 105,
+          "max": 144
+        },
+        {
+          "label": "Blackout during pan/tilt movement = on",
+          "min": 145,
+          "max": 149
+        },
+        {
+          "label": "Blackout during pan/tilt movement = off (default setting)",
+          "min": 150,
+          "max": 154
+        },
+        {
+          "label": "Illuminate control panel display",
+          "min": 155,
+          "max": 159
+        },
+        {
+          "label": "Turn off control panel display",
+          "min": 160,
+          "max": 164
+        },
+        {
+          "label": "No function",
+          "min": 165,
+          "max": 194
+        },
+        {
+          "label": "Store color wheel 1 calibration",
+          "min": 195,
+          "max": 199
+        },
+        {
+          "label": "Store color wheel 2 calibration",
+          "min": 200,
+          "max": 204
+        },
+        {
+          "label": "Store gobo wheel 1 wheel calibration",
+          "min": 205,
+          "max": 209
+        },
+        {
+          "label": "Store gobo wheel 1 gobo calibration",
+          "min": 210,
+          "max": 214
+        },
+        {
+          "label": "Store gobo wheel 2 calibration",
+          "min": 215,
+          "max": 219
+        },
+        {
+          "label": "Store focus calibration",
+          "min": 220,
+          "max": 224
+        },
+        {
+          "label": "Store prism calibration",
+          "min": 225,
+          "max": 229
+        },
+        {
+          "label": "Store prism rotation calibration",
+          "min": 230,
+          "max": 234
+        },
+        {
+          "label": "Store pan calibration",
+          "min": 235,
+          "max": 239
+        },
+        {
+          "label": "Store tilt calibration",
+          "min": 240,
+          "max": 244
+        },
+        {
+          "label": "Reset all calibration settings for factory defaults",
+          "min": 245,
+          "max": 249
+        },
+        {
+          "label": "No function",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Martin/Martin-Rush-MH5-Profile.json",
+  "id": 1094
+}

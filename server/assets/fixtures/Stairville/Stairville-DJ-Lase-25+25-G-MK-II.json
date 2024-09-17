@@ -1,0 +1,356 @@
+{
+  "version": "1.0.0",
+  "label": "DJ Lase 25+25-G MK-II",
+  "manufacturer": "Stairville",
+  "bulb_type": "Laser",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 195,
+  "dimension_height": 85,
+  "dimension_depth": 145,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 90,
+  "focus_type": "Head",
+  "focus_pan_max": 90,
+  "focus_tilt_max": 90,
+  "technical_power_consumption": 12,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Operating Mode Selection",
+      "capabilities": [
+        {
+          "label": "Laser off",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "Automatic show in random order",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Sound controlled automatic show in random order",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Operating mode 'DMX'",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 4,
+      "type_description": "Pattern selection",
+      "capabilities": [
+        {
+          "label": "Circle",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Circle (dashed)",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Triangle",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Square",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Square (dashed)",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Square (in square)",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Cross (thick)",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Star",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "L",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Bow tie",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Spiral",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "ƆC",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Spiral (displaced)",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Spiral (partial)",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Triangle (x2)",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Line (big - ZigZag)",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "V",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "W (M)",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Lines",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Line (small)",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Line (small - dashed)",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Line (big)",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Line (big - two)",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Cross (thin)",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Line (small - two - displaced)",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Line (small - four - displaced)",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Square (small - two - displaced)",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Square (small - four)",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Circle (small)",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Line (big - dashed)",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Circle (half - dashed)",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Line (small - a lot)",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 1,
+      "type_description": "Zoom",
+      "capabilities": [
+        {
+          "label": "Fixed zoom",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Zoom-in effect, increasing speed",
+          "min": 128,
+          "max": 169
+        },
+        {
+          "label": "Zoom-out effect, increasing speed",
+          "min": 170,
+          "max": 209
+        },
+        {
+          "label": "Alternating zoom effect, increasing speed",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Rotation around the Y-axis (rolling)",
+      "capabilities": [
+        {
+          "label": "Fixed position of Y-axis (0…359°)",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Rotation effect clockwise, increasing speed",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Rotation effect anti-clockwise, increasing speed",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Rotation around the X-axis (rolling)",
+      "capabilities": [
+        {
+          "label": "Fixed position of X-axis (0…359°)",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Rotation effect clockwise, increasing speed",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Rotation effect anti-clockwise, increasing speed",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Rotation around the Z-axis (rolling)",
+      "capabilities": [
+        {
+          "label": "Fixed position of Z-axis (0…359°)",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Rotation effect anti-clockwise, increasing speed",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Rotation effect clockwise, increasing speed",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 19,
+      "type_description": "X-axis movement",
+      "capabilities": [
+        {
+          "label": "Fixed positions on X-axis",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Movement effect clockwise, increasing speed",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Movement effect anti-clockwise, increasing speed",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 23,
+      "type_description": "Y-axis movement",
+      "capabilities": [
+        {
+          "label": "Fixed positions on Y-axis",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Movement effect clockwise, increasing speed",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Movement effect anti-clockwise, increasing speed",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Stairville/Stairville-DJ-Lase-25+25-G-MK-II.json",
+  "id": 1390
+}

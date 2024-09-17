@@ -1,0 +1,532 @@
+{
+  "version": "1.0.0",
+  "label": "5P Hex",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 1184,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 213,
+  "dimension_height": 120,
+  "dimension_depth": 224,
+  "lens_label": "Other",
+  "lens_degree_min": 30,
+  "lens_degree_max": 30,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 60,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "UV",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 21,
+      "type_description": "Strobing",
+      "capabilities": [
+        {
+          "label": "No strobe",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Slow - fast",
+          "min": 32,
+          "max": 95
+        },
+        {
+          "label": "LED on",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse slow - fast",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "LED on",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random slow - fast",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "LED on",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Color Macro",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Red",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "Green",
+          "min": 8,
+          "max": 11
+        },
+        {
+          "label": "Blue",
+          "min": 12,
+          "max": 15
+        },
+        {
+          "label": "White",
+          "min": 16,
+          "max": 19
+        },
+        {
+          "label": "Amber",
+          "min": 20,
+          "max": 23
+        },
+        {
+          "label": "UV",
+          "min": 24,
+          "max": 27
+        },
+        {
+          "label": "R+G",
+          "min": 28,
+          "max": 31
+        },
+        {
+          "label": "R+B",
+          "min": 32,
+          "max": 35
+        },
+        {
+          "label": "R+W",
+          "min": 36,
+          "max": 39
+        },
+        {
+          "label": "R+A",
+          "min": 40,
+          "max": 43
+        },
+        {
+          "label": "R+UV",
+          "min": 44,
+          "max": 47
+        },
+        {
+          "label": "G+B",
+          "min": 48,
+          "max": 51
+        },
+        {
+          "label": "G+W",
+          "min": 52,
+          "max": 55
+        },
+        {
+          "label": "G+A",
+          "min": 56,
+          "max": 59
+        },
+        {
+          "label": "G+UV",
+          "min": 60,
+          "max": 63
+        },
+        {
+          "label": "B+W",
+          "min": 64,
+          "max": 67
+        },
+        {
+          "label": "B+A",
+          "min": 68,
+          "max": 71
+        },
+        {
+          "label": "B+UV",
+          "min": 72,
+          "max": 75
+        },
+        {
+          "label": "W+A",
+          "min": 76,
+          "max": 79
+        },
+        {
+          "label": "W+UV",
+          "min": 80,
+          "max": 83
+        },
+        {
+          "label": "A+UV",
+          "min": 84,
+          "max": 87
+        },
+        {
+          "label": "R+G+B",
+          "min": 88,
+          "max": 91
+        },
+        {
+          "label": "R+G+W",
+          "min": 92,
+          "max": 95
+        },
+        {
+          "label": "R+G+A",
+          "min": 96,
+          "max": 99
+        },
+        {
+          "label": "R+G+UV",
+          "min": 100,
+          "max": 103
+        },
+        {
+          "label": "R+B+W",
+          "min": 104,
+          "max": 107
+        },
+        {
+          "label": "R+B+A",
+          "min": 108,
+          "max": 111
+        },
+        {
+          "label": "R+B+UV",
+          "min": 112,
+          "max": 115
+        },
+        {
+          "label": "R+W+A",
+          "min": 116,
+          "max": 119
+        },
+        {
+          "label": "R+W+UV",
+          "min": 120,
+          "max": 123
+        },
+        {
+          "label": "R+A+UV",
+          "min": 124,
+          "max": 127
+        },
+        {
+          "label": "G+B+W",
+          "min": 128,
+          "max": 131
+        },
+        {
+          "label": "G+B+A",
+          "min": 132,
+          "max": 135
+        },
+        {
+          "label": "G+B+UV",
+          "min": 136,
+          "max": 139
+        },
+        {
+          "label": "G+W+A",
+          "min": 140,
+          "max": 143
+        },
+        {
+          "label": "G+W+UV",
+          "min": 144,
+          "max": 147
+        },
+        {
+          "label": "G+A+UV",
+          "min": 148,
+          "max": 151
+        },
+        {
+          "label": "B+W+A",
+          "min": 152,
+          "max": 155
+        },
+        {
+          "label": "B+W+UV",
+          "min": 156,
+          "max": 159
+        },
+        {
+          "label": "B+A+UV",
+          "min": 160,
+          "max": 163
+        },
+        {
+          "label": "W+A+UV",
+          "min": 164,
+          "max": 167
+        },
+        {
+          "label": "R+G+B+W",
+          "min": 168,
+          "max": 171
+        },
+        {
+          "label": "R+B+G+A",
+          "min": 172,
+          "max": 175
+        },
+        {
+          "label": "R+G+B+UV",
+          "min": 176,
+          "max": 179
+        },
+        {
+          "label": "R+G+W+A",
+          "min": 180,
+          "max": 183
+        },
+        {
+          "label": "R+G+W+UV",
+          "min": 184,
+          "max": 187
+        },
+        {
+          "label": "R+G+A+UV",
+          "min": 188,
+          "max": 191
+        },
+        {
+          "label": "R+B+W+A",
+          "min": 192,
+          "max": 195
+        },
+        {
+          "label": "R+B+W+UV",
+          "min": 196,
+          "max": 199
+        },
+        {
+          "label": "R+B+A+UV",
+          "min": 200,
+          "max": 203
+        },
+        {
+          "label": "R+W+A+UV",
+          "min": 204,
+          "max": 207
+        },
+        {
+          "label": "G+B+W+A",
+          "min": 208,
+          "max": 211
+        },
+        {
+          "label": "G+B+W+UV",
+          "min": 212,
+          "max": 215
+        },
+        {
+          "label": "G+B+A+UV",
+          "min": 216,
+          "max": 219
+        },
+        {
+          "label": "G+W+A+UV",
+          "min": 220,
+          "max": 223
+        },
+        {
+          "label": "B+W+A+UV",
+          "min": 224,
+          "max": 227
+        },
+        {
+          "label": "R+G+B+W+A",
+          "min": 228,
+          "max": 231
+        },
+        {
+          "label": "R+G+B+W+UV",
+          "min": 232,
+          "max": 235
+        },
+        {
+          "label": "R+G+B+A+UV",
+          "min": 236,
+          "max": 239
+        },
+        {
+          "label": "R+G+W+A+UV",
+          "min": 240,
+          "max": 243
+        },
+        {
+          "label": "R+B+W+A+UV",
+          "min": 244,
+          "max": 247
+        },
+        {
+          "label": "G+B+W+A+UV",
+          "min": 248,
+          "max": 251
+        },
+        {
+          "label": "R+G+B+W+A+UV",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Programs",
+      "capabilities": [
+        {
+          "label": "No program",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "30 color change",
+          "min": 21,
+          "max": 40
+        },
+        {
+          "label": "6 color change",
+          "min": 41,
+          "max": 60
+        },
+        {
+          "label": "Color fade",
+          "min": 61,
+          "max": 80
+        },
+        {
+          "label": "Sound active 30 color change",
+          "min": 81,
+          "max": 100
+        },
+        {
+          "label": "Sound active 6 color change",
+          "min": 101,
+          "max": 120
+        },
+        {
+          "label": "Sound active 6 color fade",
+          "min": 121,
+          "max": 140
+        },
+        {
+          "label": "No program",
+          "min": 141,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Program Speed/Sound Sensitive",
+      "capabilities": [
+        {
+          "label": "Slow - fast/Least - most sensitive",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 3,
+      "type_description": "Dimmer Mode",
+      "capabilities": [
+        {
+          "label": "Standard",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Stage",
+          "min": 21,
+          "max": 40
+        },
+        {
+          "label": "TV",
+          "min": 41,
+          "max": 60
+        },
+        {
+          "label": "Architectural",
+          "min": 61,
+          "max": 80
+        },
+        {
+          "label": "Theatre",
+          "min": 81,
+          "max": 100
+        },
+        {
+          "label": "Default setting",
+          "min": 101,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-5P-Hex.json",
+  "id": 23
+}

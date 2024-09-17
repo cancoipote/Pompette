@@ -1,0 +1,184 @@
+{
+  "version": "1.0.0",
+  "label": "TF-5",
+  "manufacturer": "Eurolite",
+  "bulb_type": "ELC 250W",
+  "bulb_lumens": 5000,
+  "bulb_color_temperature": 3200,
+  "dimension_weight": 8,
+  "dimension_width": 280,
+  "dimension_height": 250,
+  "dimension_depth": 360,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 300,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Strobe",
+          "min": 6,
+          "max": 31
+        },
+        {
+          "label": "Open",
+          "min": 32,
+          "max": 41
+        },
+        {
+          "label": "Gobo 1",
+          "min": 42,
+          "max": 52
+        },
+        {
+          "label": "Gobo 2",
+          "min": 53,
+          "max": 63
+        },
+        {
+          "label": "Gobo 3",
+          "min": 64,
+          "max": 73
+        },
+        {
+          "label": "Gobo 4",
+          "min": 74,
+          "max": 84
+        },
+        {
+          "label": "Gobo 5",
+          "min": 85,
+          "max": 95
+        },
+        {
+          "label": "Gobo 6",
+          "min": 96,
+          "max": 105
+        },
+        {
+          "label": "Gobo 7",
+          "min": 106,
+          "max": 116
+        },
+        {
+          "label": "Gobo 8",
+          "min": 117,
+          "max": 127
+        },
+        {
+          "label": "Gobo 9",
+          "min": 128,
+          "max": 137
+        },
+        {
+          "label": "No function",
+          "min": 138,
+          "max": 147
+        },
+        {
+          "label": "Gobo 1 shake slow to fast",
+          "min": 148,
+          "max": 155
+        },
+        {
+          "label": "Gobo 2 shake slow to fast",
+          "min": 156,
+          "max": 163
+        },
+        {
+          "label": "Gobo 3 shake slow to fast",
+          "min": 164,
+          "max": 171
+        },
+        {
+          "label": "Gobo 4 shake slow to fast",
+          "min": 172,
+          "max": 179
+        },
+        {
+          "label": "Gobo 5 shake slow to fast",
+          "min": 180,
+          "max": 187
+        },
+        {
+          "label": "Gobo 6 shake slow to fast",
+          "min": 188,
+          "max": 195
+        },
+        {
+          "label": "Gobo 7 shake slow to fast",
+          "min": 196,
+          "max": 203
+        },
+        {
+          "label": "Gobo 8 shake slow to fast",
+          "min": 204,
+          "max": 210
+        },
+        {
+          "label": "Gobo 9 shake slow to fast",
+          "min": 211,
+          "max": 217
+        },
+        {
+          "label": "Sound-controlled",
+          "min": 218,
+          "max": 223
+        },
+        {
+          "label": "Stop",
+          "min": 224,
+          "max": 225
+        },
+        {
+          "label": "Rotation slow to fast",
+          "min": 226,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 22,
+      "type_description": "Rotation",
+      "capabilities": [
+        {
+          "label": "STOP",
+          "min": 0,
+          "max": 26
+        },
+        {
+          "label": "CW rotation slow to fast",
+          "min": 27,
+          "max": 130
+        },
+        {
+          "label": "STOP",
+          "min": 131,
+          "max": 149
+        },
+        {
+          "label": "CCW rotation fast to slow",
+          "min": 150,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-TF-5.json",
+  "id": 750
+}

@@ -1,0 +1,265 @@
+{
+  "version": "1.0.0",
+  "label": "Accent1Q",
+  "manufacturer": "Pro-Lights",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 0,
+  "dimension_width": 172,
+  "dimension_height": 110,
+  "dimension_depth": 67,
+  "lens_label": "Other",
+  "lens_degree_min": 10,
+  "lens_degree_max": 10,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 15,
+  "technical_dmx_connector": "5-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Slow to fast",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 5,
+      "type_description": "Color Macro + White Balance",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "R: 100% / G: 0->100% / B: 0%",
+          "min": 11,
+          "max": 30
+        },
+        {
+          "label": "R: 100->0% / G: 100% / B: 0%",
+          "min": 31,
+          "max": 50
+        },
+        {
+          "label": "R: 0% / G: 100% / B: 0->100%",
+          "min": 51,
+          "max": 70
+        },
+        {
+          "label": "R: 0% / G: 100->0% / B: 100%",
+          "min": 71,
+          "max": 90
+        },
+        {
+          "label": "R: 0->100% / G: 0% / B: 100%",
+          "min": 91,
+          "max": 110
+        },
+        {
+          "label": "R: 100% / G: 0% / B: 100->0%",
+          "min": 111,
+          "max": 130
+        },
+        {
+          "label": "R: 100% - G: 0->100% - B: 0-100%",
+          "min": 131,
+          "max": 150
+        },
+        {
+          "label": "R: 100->0% / G: 100->0% / B: 100%",
+          "min": 151,
+          "max": 170
+        },
+        {
+          "label": "R: 100% / G: 100% / B: 100% / W: 100%",
+          "min": 171,
+          "max": 200
+        },
+        {
+          "label": "White 1",
+          "min": 201,
+          "max": 205
+        },
+        {
+          "label": "White 2",
+          "min": 206,
+          "max": 210
+        },
+        {
+          "label": "White 3",
+          "min": 211,
+          "max": 215
+        },
+        {
+          "label": "White 4",
+          "min": 216,
+          "max": 220
+        },
+        {
+          "label": "White 5",
+          "min": 221,
+          "max": 225
+        },
+        {
+          "label": "White 6",
+          "min": 226,
+          "max": 230
+        },
+        {
+          "label": "White 7",
+          "min": 231,
+          "max": 235
+        },
+        {
+          "label": "White 8",
+          "min": 236,
+          "max": 240
+        },
+        {
+          "label": "White 9",
+          "min": 241,
+          "max": 245
+        },
+        {
+          "label": "White 10",
+          "min": 246,
+          "max": 250
+        },
+        {
+          "label": "White 11",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Auto Programs",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 51
+        },
+        {
+          "label": "Auto Program 1",
+          "min": 52,
+          "max": 101
+        },
+        {
+          "label": "Auto Program 2",
+          "min": 102,
+          "max": 152
+        },
+        {
+          "label": "Auto Program 3",
+          "min": 153,
+          "max": 203
+        },
+        {
+          "label": "Auto Program 4",
+          "min": 204,
+          "max": 254
+        },
+        {
+          "label": "Auto Program 5",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 22,
+      "type_description": "Auto Speed",
+      "capabilities": [
+        {
+          "label": "Slow to fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 22,
+      "type_description": "Dimmer Speed",
+      "capabilities": [
+        {
+          "label": "Preset dimmer speed from display menu",
+          "min": 0,
+          "max": 51
+        },
+        {
+          "label": "Dimmer speed mode off",
+          "min": 52,
+          "max": 101
+        },
+        {
+          "label": "Dimmer speed mode 1 (fast speed)",
+          "min": 102,
+          "max": 152
+        },
+        {
+          "label": "Dimmer speed mode 2 (middle speed)",
+          "min": 153,
+          "max": 203
+        },
+        {
+          "label": "Dimmer speed mode 3 (slow speed)",
+          "min": 204,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Pro-Lights/Pro-Lights-Accent1Q.json",
+  "id": 1122
+}

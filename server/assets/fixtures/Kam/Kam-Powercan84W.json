@@ -1,0 +1,112 @@
+{
+  "version": "1.0.0",
+  "label": "Powercan84W",
+  "manufacturer": "Kam",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 0,
+  "dimension_width": 214,
+  "dimension_height": 211,
+  "dimension_depth": 100,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 25,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 85,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "UV",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Effects",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Single effect built-in program in Auto mode",
+          "min": 11,
+          "max": 240
+        },
+        {
+          "label": "Built-in program in Sound-to-Light mode",
+          "min": 241,
+          "max": 250
+        },
+        {
+          "label": "Mixed effect built-in programs in Auto mode",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 22,
+      "type_description": "Effect speed",
+      "capabilities": [
+        {
+          "label": "Auto speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Kam/Kam-Powercan84W.json",
+  "id": 945
+}

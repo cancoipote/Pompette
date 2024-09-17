@@ -1,0 +1,192 @@
+{
+  "version": "1.0.0",
+  "label": "SF-1500",
+  "manufacturer": "Stairville",
+  "bulb_type": "None",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 15,
+  "dimension_width": 300,
+  "dimension_height": 210,
+  "dimension_depth": 620,
+  "lens_label": "None",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "None",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 1500,
+  "technical_dmx_connector": "3-pin",
+  "type": 11,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "On-Off",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 13
+        },
+        {
+          "label": "Continuos CH2",
+          "min": 14,
+          "max": 127
+        },
+        {
+          "label": "Timer-Controlled CH2,3,4",
+          "min": 128,
+          "max": 231
+        },
+        {
+          "label": "Continuos to MAX",
+          "min": 232,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 22,
+      "type_description": "Fog Duration",
+      "capabilities": [
+        {
+          "label": "Duration 1s",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Duration 13s",
+          "min": 5,
+          "max": 29
+        },
+        {
+          "label": "Duration 33s",
+          "min": 30,
+          "max": 54
+        },
+        {
+          "label": "Duration 53s",
+          "min": 55,
+          "max": 79
+        },
+        {
+          "label": "Duration 73s",
+          "min": 80,
+          "max": 104
+        },
+        {
+          "label": "Duration 92s",
+          "min": 105,
+          "max": 129
+        },
+        {
+          "label": "Duration 112s",
+          "min": 130,
+          "max": 154
+        },
+        {
+          "label": "Duration 131s",
+          "min": 155,
+          "max": 179
+        },
+        {
+          "label": "Duration 151s",
+          "min": 180,
+          "max": 204
+        },
+        {
+          "label": "Duration 107s",
+          "min": 205,
+          "max": 229
+        },
+        {
+          "label": "Duration 190s",
+          "min": 230,
+          "max": 254
+        },
+        {
+          "label": "Duration 200s",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 22,
+      "type_description": "Time interval",
+      "capabilities": [
+        {
+          "label": "Interval 1s",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Interval 13s",
+          "min": 5,
+          "max": 29
+        },
+        {
+          "label": "Interval33s",
+          "min": 30,
+          "max": 54
+        },
+        {
+          "label": "Interval 53s",
+          "min": 55,
+          "max": 79
+        },
+        {
+          "label": "Interval 73s",
+          "min": 80,
+          "max": 104
+        },
+        {
+          "label": "Interval 92s",
+          "min": 105,
+          "max": 129
+        },
+        {
+          "label": "Interval 112s",
+          "min": 130,
+          "max": 154
+        },
+        {
+          "label": "Interval 131s",
+          "min": 155,
+          "max": 179
+        },
+        {
+          "label": "Interval 151s",
+          "min": 180,
+          "max": 204
+        },
+        {
+          "label": "Interval 107s",
+          "min": 205,
+          "max": 229
+        },
+        {
+          "label": "Interval 190s",
+          "min": 230,
+          "max": 254
+        },
+        {
+          "label": "Interval 200s",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Stairville/Stairville-SF-1500.json",
+  "id": 1444
+}

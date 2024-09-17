@@ -1,0 +1,369 @@
+{
+  "version": "1.0.0",
+  "label": "Mayhem",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 439,
+  "dimension_height": 203,
+  "dimension_depth": 208,
+  "lens_label": "Other",
+  "lens_degree_min": 79,
+  "lens_degree_max": 79,
+  "focus_type": "Fixed",
+  "focus_pan_max": 79,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 31,
+  "technical_dmx_connector": "3-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "Static color",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Mode 1",
+          "min": 21,
+          "max": 40
+        },
+        {
+          "label": "Mode 2",
+          "min": 41,
+          "max": 60
+        },
+        {
+          "label": "Mode 3",
+          "min": 61,
+          "max": 80
+        },
+        {
+          "label": "Mode 4",
+          "min": 81,
+          "max": 100
+        },
+        {
+          "label": "Mode 5",
+          "min": 101,
+          "max": 120
+        },
+        {
+          "label": "Mode 6",
+          "min": 121,
+          "max": 140
+        },
+        {
+          "label": "Mode 7",
+          "min": 141,
+          "max": 160
+        },
+        {
+          "label": "Mode 8",
+          "min": 161,
+          "max": 180
+        },
+        {
+          "label": "Mode 9",
+          "min": 181,
+          "max": 200
+        },
+        {
+          "label": "Mode 10",
+          "min": 201,
+          "max": 220
+        },
+        {
+          "label": "Mode 11",
+          "min": 221,
+          "max": 240
+        },
+        {
+          "label": "Sound",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Slow -> fast",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 1,
+      "type_description": "Speed",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Slow -> fast",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Pod 1 Static Color",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Red",
+          "min": 21,
+          "max": 40
+        },
+        {
+          "label": "Green",
+          "min": 41,
+          "max": 60
+        },
+        {
+          "label": "Blue",
+          "min": 61,
+          "max": 80
+        },
+        {
+          "label": "Red/green",
+          "min": 81,
+          "max": 100
+        },
+        {
+          "label": "Red/blue",
+          "min": 101,
+          "max": 120
+        },
+        {
+          "label": "Green/blue",
+          "min": 121,
+          "max": 140
+        },
+        {
+          "label": "Red/green/blue",
+          "min": 141,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Pod 2 Static Color",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Red",
+          "min": 21,
+          "max": 40
+        },
+        {
+          "label": "Green",
+          "min": 41,
+          "max": 60
+        },
+        {
+          "label": "Blue",
+          "min": 61,
+          "max": 80
+        },
+        {
+          "label": "Red/green",
+          "min": 81,
+          "max": 100
+        },
+        {
+          "label": "Red/blue",
+          "min": 101,
+          "max": 120
+        },
+        {
+          "label": "Green/blue",
+          "min": 121,
+          "max": 140
+        },
+        {
+          "label": "Red/green/blue",
+          "min": 141,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 19,
+      "type_description": "Pod 1 Rotation",
+      "capabilities": [
+        {
+          "label": "Static color",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Clockwise speed 1 (slowest)",
+          "min": 21,
+          "max": 40
+        },
+        {
+          "label": "Clockwise speed 2",
+          "min": 41,
+          "max": 60
+        },
+        {
+          "label": "Clockwise speed 3",
+          "min": 61,
+          "max": 80
+        },
+        {
+          "label": "Clockwise speed 4",
+          "min": 81,
+          "max": 100
+        },
+        {
+          "label": "Clockwise speed 5 (fastest)",
+          "min": 101,
+          "max": 120
+        },
+        {
+          "label": "No rotation",
+          "min": 121,
+          "max": 140
+        },
+        {
+          "label": "Anti-clockwise speed 1 (slowest)",
+          "min": 141,
+          "max": 160
+        },
+        {
+          "label": "Anti-clockwise speed 2",
+          "min": 161,
+          "max": 180
+        },
+        {
+          "label": "Anti-clockwise speed 3",
+          "min": 181,
+          "max": 200
+        },
+        {
+          "label": "Anti-clockwise speed 4",
+          "min": 201,
+          "max": 220
+        },
+        {
+          "label": "Anti-clockwise speed 5 (fastest)",
+          "min": 221,
+          "max": 240
+        },
+        {
+          "label": "Sound",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 19,
+      "type_description": "Pod 2 Rotation",
+      "capabilities": [
+        {
+          "label": "Static color",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Clockwise speed 1 (slowest)",
+          "min": 21,
+          "max": 40
+        },
+        {
+          "label": "Clockwise speed 2",
+          "min": 41,
+          "max": 60
+        },
+        {
+          "label": "Clockwise speed 3",
+          "min": 61,
+          "max": 80
+        },
+        {
+          "label": "Clockwise speed 4",
+          "min": 81,
+          "max": 100
+        },
+        {
+          "label": "Clockwise speed 5 (fastest)",
+          "min": 101,
+          "max": 120
+        },
+        {
+          "label": "No rotation",
+          "min": 121,
+          "max": 140
+        },
+        {
+          "label": "Anti-clockwise speed 1 (slowest)",
+          "min": 141,
+          "max": 160
+        },
+        {
+          "label": "Anti-clockwise speed 2",
+          "min": 161,
+          "max": 180
+        },
+        {
+          "label": "Anti-clockwise speed 3",
+          "min": 181,
+          "max": 200
+        },
+        {
+          "label": "Anti-clockwise speed 4",
+          "min": 201,
+          "max": 220
+        },
+        {
+          "label": "Anti-clockwise speed 5 (fastest)",
+          "min": 221,
+          "max": 240
+        },
+        {
+          "label": "Sound",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-Mayhem.json",
+  "id": 499
+}

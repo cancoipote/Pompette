@@ -1,0 +1,354 @@
+{
+  "version": "1.0.0",
+  "label": "Stealth Beam",
+  "manufacturer": "Eliminator Lighting",
+  "bulb_type": "LED",
+  "bulb_lumens": 786,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 158,
+  "dimension_height": 239,
+  "dimension_depth": 285,
+  "lens_label": "Other",
+  "lens_degree_min": 11,
+  "lens_degree_max": 11,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 75,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Color Effect",
+      "capabilities": [
+        {
+          "label": "Nothing",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Red",
+          "min": 8,
+          "max": 17
+        },
+        {
+          "label": "Green",
+          "min": 18,
+          "max": 27
+        },
+        {
+          "label": "Blue",
+          "min": 28,
+          "max": 37
+        },
+        {
+          "label": "White",
+          "min": 38,
+          "max": 47
+        },
+        {
+          "label": "Red/Green",
+          "min": 48,
+          "max": 57
+        },
+        {
+          "label": "Green/Blue",
+          "min": 58,
+          "max": 67
+        },
+        {
+          "label": "Blue/White",
+          "min": 68,
+          "max": 77
+        },
+        {
+          "label": "Red/White",
+          "min": 78,
+          "max": 87
+        },
+        {
+          "label": "Red/Green/Blue",
+          "min": 88,
+          "max": 97
+        },
+        {
+          "label": "Green/Blue/White",
+          "min": 98,
+          "max": 107
+        },
+        {
+          "label": "Red/Blue/White",
+          "min": 108,
+          "max": 117
+        },
+        {
+          "label": "Red/Green/White",
+          "min": 118,
+          "max": 127
+        },
+        {
+          "label": "Red/Green/Blue/White",
+          "min": 128,
+          "max": 137
+        },
+        {
+          "label": "Macro Color Change",
+          "min": 138,
+          "max": 188
+        },
+        {
+          "label": "Macro Color Line",
+          "min": 189,
+          "max": 239
+        },
+        {
+          "label": "Sound Active Change",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 22,
+      "type_description": "Color change/Fade Speed",
+      "capabilities": [
+        {
+          "label": "Slow - Fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Pan/Tilt Programs",
+      "capabilities": [
+        {
+          "label": "Nothing",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Program 1",
+          "min": 8,
+          "max": 32
+        },
+        {
+          "label": "Program 2",
+          "min": 33,
+          "max": 58
+        },
+        {
+          "label": "Program 3",
+          "min": 59,
+          "max": 84
+        },
+        {
+          "label": "Program 4",
+          "min": 85,
+          "max": 110
+        },
+        {
+          "label": "Program 5",
+          "min": 111,
+          "max": 136
+        },
+        {
+          "label": "Program 6",
+          "min": 137,
+          "max": 162
+        },
+        {
+          "label": "Program 7",
+          "min": 163,
+          "max": 188
+        },
+        {
+          "label": "Program 8",
+          "min": 189,
+          "max": 214
+        },
+        {
+          "label": "Program 9",
+          "min": 215,
+          "max": 240
+        },
+        {
+          "label": "Sond active",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 21,
+      "type_description": "Shutter/Strobe",
+      "capabilities": [
+        {
+          "label": "Shutter Closed",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Strobing Slow-Fast",
+          "min": 5,
+          "max": 250
+        },
+        {
+          "label": "Shutter Open",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 3,
+      "type_description": "Pan Movement",
+      "capabilities": [
+        {
+          "label": "Nothing",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Pan moves clockwise (slow to fast)",
+          "min": 8,
+          "max": 127
+        },
+        {
+          "label": "Pan moves counter-clockwise (fast to slow)",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 3,
+      "type_description": "Tilt Movement",
+      "capabilities": [
+        {
+          "label": "Nothing",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Tilt moves clockwise (slow to fast)",
+          "min": 8,
+          "max": 127
+        },
+        {
+          "label": "Tilt moves counter-clockwise (fast to slow)",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 22,
+      "type_description": "Pan/Tilt Program Speed",
+      "capabilities": [
+        {
+          "label": "Nothing",
+          "min": 0,
+          "max": 50
+        },
+        {
+          "label": "Speed mode to high (10s)",
+          "min": 51,
+          "max": 100
+        },
+        {
+          "label": "Nothing",
+          "min": 101,
+          "max": 150
+        },
+        {
+          "label": "Speed mode to low (10s)",
+          "min": 151,
+          "max": 200
+        },
+        {
+          "label": "Nothing",
+          "min": 201,
+          "max": 250
+        },
+        {
+          "label": "Reset (will take 10s to reset)",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Pan Movement Speed",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Eliminator_Lighting/Eliminator-Lighting-Stealth-Beam.json",
+  "id": 623
+}

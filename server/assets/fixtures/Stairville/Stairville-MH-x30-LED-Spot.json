@@ -1,0 +1,327 @@
+{
+  "version": "1.0.0",
+  "label": "MH-x30 LED Spot",
+  "manufacturer": "Stairville",
+  "bulb_type": "LED",
+  "bulb_lumens": 18000,
+  "bulb_color_temperature": 6000,
+  "dimension_weight": 5,
+  "dimension_width": 280,
+  "dimension_height": 374,
+  "dimension_depth": 150,
+  "lens_label": "Other",
+  "lens_degree_min": 14,
+  "lens_degree_max": 14,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 200,
+  "technical_power_consumption": 94,
+  "technical_dmx_connector": "5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Speed pan/tilt",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Strobe effect",
+      "capabilities": [
+        {
+          "label": "Strobe off",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Random strobe effect, increasing speed",
+          "min": 11,
+          "max": 128
+        },
+        {
+          "label": "Strobe effect, increasing speed",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Colour wheel",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 11
+        },
+        {
+          "label": "Red",
+          "min": 12,
+          "max": 23
+        },
+        {
+          "label": "Green",
+          "min": 24,
+          "max": 35
+        },
+        {
+          "label": "Light Blue",
+          "min": 36,
+          "max": 47
+        },
+        {
+          "label": "Purple",
+          "min": 48,
+          "max": 59
+        },
+        {
+          "label": "Light yellow",
+          "min": 60,
+          "max": 71
+        },
+        {
+          "label": "Blue",
+          "min": 72,
+          "max": 83
+        },
+        {
+          "label": "Yellow",
+          "min": 84,
+          "max": 95
+        },
+        {
+          "label": "White + red",
+          "min": 96,
+          "max": 107
+        },
+        {
+          "label": "Red + green",
+          "min": 108,
+          "max": 119
+        },
+        {
+          "label": "Green + light blue",
+          "min": 120,
+          "max": 131
+        },
+        {
+          "label": "Light blue + purple",
+          "min": 132,
+          "max": 143
+        },
+        {
+          "label": "Light yellow + purple",
+          "min": 144,
+          "max": 155
+        },
+        {
+          "label": "Blue + light yellow",
+          "min": 156,
+          "max": 167
+        },
+        {
+          "label": "Yellow + blue",
+          "min": 168,
+          "max": 179
+        },
+        {
+          "label": "Yellow + white",
+          "min": 180,
+          "max": 191
+        },
+        {
+          "label": "Rainbow effect (gobo wheel rotation) in positive rotation direction, decreasing speed",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Rainbow effect (gobo wheel rotation) in negative rotation direction, increasing speed",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 4,
+      "type_description": "Gobo wheel",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 11
+        },
+        {
+          "label": "Gobo 1",
+          "min": 12,
+          "max": 23
+        },
+        {
+          "label": "Gobo 2",
+          "min": 24,
+          "max": 35
+        },
+        {
+          "label": "Gobo 3",
+          "min": 36,
+          "max": 47
+        },
+        {
+          "label": "Gobo 4",
+          "min": 48,
+          "max": 59
+        },
+        {
+          "label": "Gobo 5",
+          "min": 60,
+          "max": 71
+        },
+        {
+          "label": "Gobo 6",
+          "min": 72,
+          "max": 83
+        },
+        {
+          "label": "Gobo 7",
+          "min": 84,
+          "max": 95
+        },
+        {
+          "label": "Gobo 1 shake, increasing speed",
+          "min": 96,
+          "max": 107
+        },
+        {
+          "label": "Gobo 2 shake, increasing speed",
+          "min": 108,
+          "max": 119
+        },
+        {
+          "label": "Gobo 3 shake, increasing speed",
+          "min": 120,
+          "max": 131
+        },
+        {
+          "label": "Gobo 4 shake, increasing speed",
+          "min": 132,
+          "max": 143
+        },
+        {
+          "label": "Gobo 5 shake, increasing speed",
+          "min": 144,
+          "max": 155
+        },
+        {
+          "label": "Gobo 6 shake, increasing speed",
+          "min": 156,
+          "max": 167
+        },
+        {
+          "label": "Gobo 7 shake, increasing speed",
+          "min": 168,
+          "max": 179
+        },
+        {
+          "label": "Open",
+          "min": 180,
+          "max": 191
+        },
+        {
+          "label": "Rainbow effect (gobo wheel rotation) in positive rotation direction, decreasing speed",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Rainbow effect (gobo wheel rotation) in negative rotation direction, increasing speed",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 4,
+      "type_description": "Gobo rotation",
+      "capabilities": [
+        {
+          "label": "Rotation to a fixed position",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Positive rotation direction with increasing speed",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Negative rotation direction with increasing speed",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 17,
+      "type_description": "Special settings",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Reset after 5 seconds",
+          "min": 10,
+          "max": 20
+        },
+        {
+          "label": "No function",
+          "min": 21,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Stairville/Stairville-MH-x30-LED-Spot.json",
+  "id": 1424
+}

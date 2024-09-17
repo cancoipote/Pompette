@@ -1,0 +1,105 @@
+{
+  "version": "1.0.0",
+  "label": "FS-x75 Follow Spot",
+  "manufacturer": "Stairville",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 7,
+  "dimension_width": 200,
+  "dimension_height": 565,
+  "dimension_depth": 190,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Head",
+  "focus_pan_max": 360,
+  "focus_tilt_max": 90,
+  "technical_power_consumption": 120,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Colour Selection",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Dark Blue",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Yellow",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Magenta",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Green",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Red",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Cyan",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Orange",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Open",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "Strobe Effect, Speed Increasing",
+          "min": 8,
+          "max": 215
+        },
+        {
+          "label": "Open",
+          "min": 216,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Stairville/Stairville-FS-x75-Follow-Spot.json",
+  "id": 1392
+}

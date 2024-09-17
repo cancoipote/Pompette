@@ -1,0 +1,265 @@
+{
+  "version": "1.0.0",
+  "label": "SmartBat",
+  "manufacturer": "Pro-Lights",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 10000,
+  "dimension_weight": 3,
+  "dimension_width": 138,
+  "dimension_height": 184,
+  "dimension_depth": 145,
+  "lens_label": "Other",
+  "lens_degree_min": 15,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 45,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Color + Color Temperature",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "R 100% G 0-100% B 0",
+          "min": 11,
+          "max": 30
+        },
+        {
+          "label": "R 100%~0 G 100% B 0",
+          "min": 31,
+          "max": 50
+        },
+        {
+          "label": "R 0 G 100% B 0~100%",
+          "min": 51,
+          "max": 70
+        },
+        {
+          "label": "R 0 G 100%~0 B 100%",
+          "min": 71,
+          "max": 90
+        },
+        {
+          "label": "R 0~100% G 0 B 100%",
+          "min": 91,
+          "max": 110
+        },
+        {
+          "label": "R 100% G 0 B 100%~0",
+          "min": 111,
+          "max": 130
+        },
+        {
+          "label": "R: 100% / G: Up / B: Up",
+          "min": 131,
+          "max": 150
+        },
+        {
+          "label": "R 100% G 100%~0 B 100%",
+          "min": 151,
+          "max": 170
+        },
+        {
+          "label": "R 100% G 100% B 100% W 100%",
+          "min": 171,
+          "max": 200
+        },
+        {
+          "label": "Colot temperature 1: 3200K",
+          "min": 201,
+          "max": 205
+        },
+        {
+          "label": "Color temperature 2: 3400K",
+          "min": 206,
+          "max": 210
+        },
+        {
+          "label": "Color temperature 3: 4200K",
+          "min": 211,
+          "max": 215
+        },
+        {
+          "label": "Color temperature 4: 4900K",
+          "min": 216,
+          "max": 220
+        },
+        {
+          "label": "Color temperature 5: 5600K",
+          "min": 221,
+          "max": 225
+        },
+        {
+          "label": "Color temperature 6: 5900K",
+          "min": 226,
+          "max": 230
+        },
+        {
+          "label": "Color temperature 7: 6500K",
+          "min": 231,
+          "max": 235
+        },
+        {
+          "label": "Color temperature 8: 7200K",
+          "min": 236,
+          "max": 240
+        },
+        {
+          "label": "Color temperature 9: 8000K",
+          "min": 241,
+          "max": 245
+        },
+        {
+          "label": "Color temperature 10: 8500K",
+          "min": 246,
+          "max": 250
+        },
+        {
+          "label": "Color temperature 11: 10000K",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Strobe slow to fast",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Auto/Sound Programs",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Auto program 1",
+          "min": 11,
+          "max": 60
+        },
+        {
+          "label": "Auto program 2",
+          "min": 61,
+          "max": 120
+        },
+        {
+          "label": "Auto program 3",
+          "min": 121,
+          "max": 180
+        },
+        {
+          "label": "Auto program 4",
+          "min": 181,
+          "max": 240
+        },
+        {
+          "label": "Sound show",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 22,
+      "type_description": "Auto Speed",
+      "capabilities": [
+        {
+          "label": "Speed slow to fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Dim Mode",
+      "capabilities": [
+        {
+          "label": "Preset dimmer speed from display menu",
+          "min": 0,
+          "max": 51
+        },
+        {
+          "label": "Dimmer speed mode off",
+          "min": 52,
+          "max": 101
+        },
+        {
+          "label": "Dimmer speed mode 1 (fast speed)",
+          "min": 102,
+          "max": 152
+        },
+        {
+          "label": "Dimmer speed mode 2 (middle speed)",
+          "min": 153,
+          "max": 203
+        },
+        {
+          "label": "Dimmer speed mode 3 (slow speed)",
+          "min": 204,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Pro-Lights/Pro-Lights-SmartBat.json",
+  "id": 1146
+}

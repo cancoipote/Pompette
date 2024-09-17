@@ -1,0 +1,181 @@
+{
+  "version": "1.0.0",
+  "label": "BL63 10\" LED Bar",
+  "manufacturer": "Talent",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 326,
+  "dimension_height": 120,
+  "dimension_depth": 150,
+  "lens_label": "Other",
+  "lens_degree_min": 20,
+  "lens_degree_max": 40,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 12,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Dimmer mode",
+          "min": 0,
+          "max": 6
+        },
+        {
+          "label": "Strobe from slow to fast",
+          "min": 7,
+          "max": 65
+        },
+        {
+          "label": "None",
+          "min": 66,
+          "max": 69
+        },
+        {
+          "label": "Pulse strobe from slow to fast",
+          "min": 70,
+          "max": 128
+        },
+        {
+          "label": "None",
+          "min": 129,
+          "max": 132
+        },
+        {
+          "label": "Strobe fading in from slow to fast",
+          "min": 133,
+          "max": 191
+        },
+        {
+          "label": "None",
+          "min": 192,
+          "max": 195
+        },
+        {
+          "label": "Strobe fading out from slow to fast",
+          "min": 196,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Static Color",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Function",
+      "capabilities": [
+        {
+          "label": "Dimmer mode",
+          "min": 0,
+          "max": 59
+        },
+        {
+          "label": "Static color mode",
+          "min": 60,
+          "max": 119
+        },
+        {
+          "label": "Color jump change mode",
+          "min": 120,
+          "max": 179
+        },
+        {
+          "label": "Color gradual change mode",
+          "min": 180,
+          "max": 239
+        },
+        {
+          "label": "Sound active mode",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Strobe/Sound Active Speed/Running Speed",
+      "capabilities": [
+        {
+          "label": "Dimmer mode/Speed",
+          "min": 0,
+          "max": 6
+        },
+        {
+          "label": "Strobe from slow to fast/Speed",
+          "min": 7,
+          "max": 65
+        },
+        {
+          "label": "None/Speed",
+          "min": 66,
+          "max": 69
+        },
+        {
+          "label": "Pulse strobe from slow to fast/Speed",
+          "min": 70,
+          "max": 128
+        },
+        {
+          "label": "None/Speed",
+          "min": 129,
+          "max": 132
+        },
+        {
+          "label": "Strobe fading in from slow to fast/Speed",
+          "min": 133,
+          "max": 191
+        },
+        {
+          "label": "None/Speed",
+          "min": 192,
+          "max": 195
+        },
+        {
+          "label": "Strobe fading out from slow to fast/Speed",
+          "min": 196,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Talent/Talent-BL63-10-LED-Bar.json",
+  "id": 1459
+}

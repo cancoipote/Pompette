@@ -1,0 +1,490 @@
+{
+  "version": "1.0.0",
+  "label": "Explorer 250 Pro MKII",
+  "manufacturer": "Showtec",
+  "bulb_type": "MSD 250W",
+  "bulb_lumens": 6700,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 28,
+  "dimension_width": 350,
+  "dimension_height": 470,
+  "dimension_depth": 380,
+  "lens_label": "Other",
+  "lens_degree_min": 15,
+  "lens_degree_max": 26,
+  "focus_type": "Fixed",
+  "focus_pan_max": 530,
+  "focus_tilt_max": 280,
+  "technical_power_consumption": 350,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 17,
+      "type_description": "Lamp On, Off & Reset",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Lamp on after 3 seconds, reset",
+          "min": 128,
+          "max": 139
+        },
+        {
+          "label": "No function",
+          "min": 140,
+          "max": 229
+        },
+        {
+          "label": "Lamp off after 3 seconds",
+          "min": 230,
+          "max": 239
+        },
+        {
+          "label": "No function",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Colourwheel",
+      "capabilities": [
+        {
+          "label": "Open / white",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Red",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Yellow",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Magenta",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Green",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Orange",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Blue",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Pink",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Forwards rainbow effect from fast to slow",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Prism + Lambency",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "3-facet prism",
+          "min": 128,
+          "max": 187
+        },
+        {
+          "label": "Lambency",
+          "min": 188,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Prism Rotating Control",
+      "capabilities": [
+        {
+          "label": "No rotation",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Backwards rotation from slow to fast",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "No rotation",
+          "min": 128,
+          "max": 132
+        },
+        {
+          "label": "Forwards rotation from slow to fast",
+          "min": 133,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 4,
+      "type_description": "Gobowheel 1 + Gobo Shake",
+      "capabilities": [
+        {
+          "label": "Open / white",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "1 (metal)",
+          "min": 32,
+          "max": 57
+        },
+        {
+          "label": "Shaking 1",
+          "min": 58,
+          "max": 73
+        },
+        {
+          "label": "2 (metal)",
+          "min": 74,
+          "max": 94
+        },
+        {
+          "label": "Shaking 2",
+          "min": 95,
+          "max": 110
+        },
+        {
+          "label": "3 (glass)",
+          "min": 111,
+          "max": 131
+        },
+        {
+          "label": "Shaking 3",
+          "min": 132,
+          "max": 147
+        },
+        {
+          "label": "4 (glass)",
+          "min": 148,
+          "max": 168
+        },
+        {
+          "label": "Shaking 4",
+          "min": 169,
+          "max": 184
+        },
+        {
+          "label": "5 (glass)",
+          "min": 185,
+          "max": 205
+        },
+        {
+          "label": "Shaking 5",
+          "min": 206,
+          "max": 221
+        },
+        {
+          "label": "6 (glass)",
+          "min": 222,
+          "max": 242
+        },
+        {
+          "label": "Shaking 6",
+          "min": 243,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 4,
+      "type_description": "Gobowheel 2 + Gobo Shake",
+      "capabilities": [
+        {
+          "label": "Open / white",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "1 (glass)",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Shaking 1",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "2 (glass)",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Shaking 2",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "3 (glass)",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Shaking 3",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "4 (metal)",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Shaking 4",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "5 (metal)",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Shaking 5",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "No",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Continuous rotation from slow to fast",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 4,
+      "type_description": "Gobowheel 2 Rotation",
+      "capabilities": [
+        {
+          "label": "Indexing",
+          "min": 0,
+          "max": 60
+        },
+        {
+          "label": "Forwards rotation from fast to slow",
+          "min": 61,
+          "max": 158
+        },
+        {
+          "label": "Backwards rotation from slow to fast",
+          "min": 159,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 3,
+      "type_description": "Zoom, Frost, UV Filter",
+      "capabilities": [
+        {
+          "label": "Zoom 15° (without focus correction)",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Zoom 18° (without focus correction)",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Zoom 21° (without focus correction)",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Zoom 24° (without focus correction)",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Zoom 26° (without focus correction)",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Frost",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "UV-filter",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Zoom 15° (with focus correction)",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Zoom 18° (with focus correction)",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Zoom 21° (with focus correction)",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Zoom 24° (with focus correction)",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "Zoom 26° (with focus correction)",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "224-239 Frost°",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "UV-filter",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "From Far Distance to Close Distance",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 21,
+      "type_description": "Shutter / Strobe",
+      "capabilities": [
+        {
+          "label": "Shutter closed / blackout",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Shutter open",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe effect, from slow to fast (0-10 flashes/sec.)",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Shutter open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse-effect 1, in sequences from slow to fast",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Shutter open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random strobe effect, from slow to fast",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Shutter open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Showtec/Showtec-Explorer-250-Pro-MKII.json",
+  "id": 1286
+}

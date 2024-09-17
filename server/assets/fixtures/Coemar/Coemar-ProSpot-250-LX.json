@@ -1,0 +1,789 @@
+{
+  "version": "1.0.0",
+  "label": "ProSpot 250 LX",
+  "manufacturer": "Coemar",
+  "bulb_type": "Philips MSD 250W/2",
+  "bulb_lumens": 18000,
+  "bulb_color_temperature": 8500,
+  "dimension_weight": 23,
+  "dimension_width": 350,
+  "dimension_height": 510,
+  "dimension_depth": 377,
+  "lens_label": "Other",
+  "lens_degree_min": 15,
+  "lens_degree_max": 15,
+  "focus_type": "Head",
+  "focus_pan_max": 530,
+  "focus_tilt_max": 284,
+  "technical_power_consumption": 460,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Pan / Tilt Speed",
+      "capabilities": [
+        {
+          "label": "Fast (standard)",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Ultra fast (for programming)",
+          "min": 11,
+          "max": 25
+        },
+        {
+          "label": "Vector mode fast - slow",
+          "min": 26,
+          "max": 127
+        },
+        {
+          "label": "Tracking mode fast - slow",
+          "min": 128,
+          "max": 247
+        },
+        {
+          "label": "Tracking mode slow",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 5,
+      "type_description": "Dimmer",
+      "capabilities": [
+        {
+          "label": "closed",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "0 - 100%",
+          "min": 8,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Shutter / Strobe",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Synchro strobe 0 - 10Hz",
+          "min": 10,
+          "max": 66
+        },
+        {
+          "label": "Open",
+          "min": 67,
+          "max": 68
+        },
+        {
+          "label": "Pulse sequences (close slow, open fast) slow - fast",
+          "min": 69,
+          "max": 125
+        },
+        {
+          "label": "Open",
+          "min": 126,
+          "max": 127
+        },
+        {
+          "label": "Pulse sequences (close fast, open slow) slow - fast",
+          "min": 128,
+          "max": 184
+        },
+        {
+          "label": "Open",
+          "min": 185,
+          "max": 187
+        },
+        {
+          "label": "Random strobe (slow to fast)",
+          "min": 188,
+          "max": 244
+        },
+        {
+          "label": "Open",
+          "min": 245,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 4,
+      "type_description": "Gobo selection",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Rotating gobo 1",
+          "min": 11,
+          "max": 30
+        },
+        {
+          "label": "Rotating gobo 2",
+          "min": 31,
+          "max": 50
+        },
+        {
+          "label": "Rotating gobo 3",
+          "min": 51,
+          "max": 70
+        },
+        {
+          "label": "Rotating gobo 4",
+          "min": 71,
+          "max": 90
+        },
+        {
+          "label": "Rotating gobo 5",
+          "min": 91,
+          "max": 110
+        },
+        {
+          "label": "Rotating gobo 6",
+          "min": 111,
+          "max": 127
+        },
+        {
+          "label": "360° positioning",
+          "min": 128,
+          "max": 192
+        },
+        {
+          "label": "Gobo wheel rotation slow - fast",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 4,
+      "type_description": "Gobo 360° positioning",
+      "capabilities": [
+        {
+          "label": "No effect",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Gobo positioning 0 - 360°",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 4,
+      "type_description": "Gobo rotation",
+      "capabilities": [
+        {
+          "label": "No effect",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Continuous CW rotation fast - slow",
+          "min": 11,
+          "max": 131
+        },
+        {
+          "label": "Stop rotation",
+          "min": 132,
+          "max": 134
+        },
+        {
+          "label": "Continuous CCW rotation slow - fast",
+          "min": 135,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "No prism",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "3 facet prism",
+          "min": 11,
+          "max": 20
+        },
+        {
+          "label": "Continuous CW rotation fast - slow",
+          "min": 21,
+          "max": 136
+        },
+        {
+          "label": "Stop prism rotation",
+          "min": 137,
+          "max": 139
+        },
+        {
+          "label": "Continuous CCW rotation slow - fast",
+          "min": 140,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Colors",
+      "capabilities": [
+        {
+          "label": "Open / white",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Color 1",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "Color 2",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "Color 3",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "Color 4",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "Color 5",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "Color 6",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "Color 7",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "Color 8",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "Color 9",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "Color 10",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "Color 11",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "360° positioning",
+          "min": 60,
+          "max": 127
+        },
+        {
+          "label": "Forwards rainbow effect fast - slow",
+          "min": 128,
+          "max": 190
+        },
+        {
+          "label": "No rotation",
+          "min": 191,
+          "max": 192
+        },
+        {
+          "label": "Backwards rainbow effect slow - fast",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 3,
+      "type_description": "Gobo shake / Blackout effect",
+      "capabilities": [
+        {
+          "label": "No effect",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Gobo shake slow - fast",
+          "min": 10,
+          "max": 249
+        },
+        {
+          "label": "Blackout during movements",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 4,
+      "type_description": "Gobo shake amplitute",
+      "capabilities": [
+        {
+          "label": "Gobo shake size 1 (maximum)",
+          "min": 0,
+          "max": 23
+        },
+        {
+          "label": "Gobo shake size 2",
+          "min": 24,
+          "max": 47
+        },
+        {
+          "label": "Gobo shake size 3",
+          "min": 48,
+          "max": 71
+        },
+        {
+          "label": "Gobo shake size 4",
+          "min": 72,
+          "max": 95
+        },
+        {
+          "label": "Gobo shake size 5",
+          "min": 96,
+          "max": 119
+        },
+        {
+          "label": "Gobo shake size 6",
+          "min": 120,
+          "max": 143
+        },
+        {
+          "label": "Gobo shake size 7",
+          "min": 144,
+          "max": 167
+        },
+        {
+          "label": "Gobo shake size 8",
+          "min": 168,
+          "max": 191
+        },
+        {
+          "label": "Gobo shake size 9",
+          "min": 192,
+          "max": 215
+        },
+        {
+          "label": "Gobo shake size 10",
+          "min": 216,
+          "max": 239
+        },
+        {
+          "label": "Gobo shake size 11 (minimum)",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 17,
+      "type_description": "Lamp on / Motor reset (hold 6s)",
+      "capabilities": [
+        {
+          "label": "Lamp off",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "No effects (idle)",
+          "min": 20,
+          "max": 100
+        },
+        {
+          "label": "Effects reset (once), no Pan / Tilt movement",
+          "min": 101,
+          "max": 170
+        },
+        {
+          "label": "All motor reset (once)",
+          "min": 171,
+          "max": 200
+        },
+        {
+          "label": "Silent fans (if external temperature allows it)",
+          "min": 201,
+          "max": 240
+        },
+        {
+          "label": "Lamp on",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 22,
+      "type_description": "Pan / Tilt Speed 2",
+      "capabilities": [
+        {
+          "label": "Vector mode max speed",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Vector mode fast - slow",
+          "min": 1,
+          "max": 249
+        },
+        {
+          "label": "Tracking mode max speed: Blackout during movements",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 17,
+      "type_description": "Lamp on / Fan speed",
+      "capabilities": [
+        {
+          "label": "Fan speed fast - slow",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Lamp on, reset",
+          "min": 128,
+          "max": 139
+        },
+        {
+          "label": "No function",
+          "min": 140,
+          "max": 229
+        },
+        {
+          "label": "Lamp off after 3s",
+          "min": 230,
+          "max": 239
+        },
+        {
+          "label": "No function",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 3,
+      "type_description": "Effect wheel",
+      "capabilities": [
+        {
+          "label": "Open / hole",
+          "min": 0,
+          "max": 95
+        },
+        {
+          "label": "3 facet rotating prism",
+          "min": 96,
+          "max": 159
+        },
+        {
+          "label": "Prism / Gobo macro 1",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Prism / Gobo macro 2",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Prism / Gobo macro 3",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Prism / Gobo macro 4",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Prism / Gobo macro 5",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Prism / Gobo macro 6",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Prism / Gobo macro 7",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Prism / Gobo macro 8",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Prism / Gobo macro 9",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Prism / Gobo macro 10",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Prism / Gobo macro 11",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Prism / Gobo macro 12",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 20,
+      "type_description": "3 facet prism rotation",
+      "capabilities": [
+        {
+          "label": "No rotation",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Forwards rotation fast - slow",
+          "min": 1,
+          "max": 126
+        },
+        {
+          "label": "No rotation",
+          "min": 127,
+          "max": 128
+        },
+        {
+          "label": "Backwards rotation slow - fast",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 4,
+      "type_description": "Gobo selection 2",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Rotating gobo 1",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Rotating gobo 2",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Rotating gobo 3",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Rotating gobo 4",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Rotating gobo 5",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Rotating gobo 6",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Gobo wheel rotation slow - fast",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "type": 4,
+      "type_description": "Gobo rotation / positioning",
+      "capabilities": [
+        {
+          "label": "Fine gobo indexing",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Forwards gobo rotation fast - slow",
+          "min": 128,
+          "max": 190
+        },
+        {
+          "label": "No rotation",
+          "min": 191,
+          "max": 192
+        },
+        {
+          "label": "Backwards gobo rotation slow - fast",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "type": 21,
+      "type_description": "Shutter / Strobe 2",
+      "capabilities": [
+        {
+          "label": "closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "open",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe 0 - 10Hz",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse sequences slow - fast",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random strobe slow - fast",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Dimmer 2",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "No function",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "No function 2",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Coemar/Coemar-ProSpot-250-LX.json",
+  "id": 392
+}

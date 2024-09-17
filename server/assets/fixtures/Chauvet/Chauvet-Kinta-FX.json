@@ -1,0 +1,402 @@
+{
+  "version": "1.0.0",
+  "label": "Kinta FX",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 262,
+  "dimension_height": 187,
+  "dimension_depth": 187,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 55,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Auto Program",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Beams/Laser/Strobe",
+          "min": 10,
+          "max": 44
+        },
+        {
+          "label": "Beams/Strobe",
+          "min": 45,
+          "max": 79
+        },
+        {
+          "label": "Beams/Laser",
+          "min": 80,
+          "max": 114
+        },
+        {
+          "label": "Laser/Strobe",
+          "min": 115,
+          "max": 149
+        },
+        {
+          "label": "Beams Only",
+          "min": 150,
+          "max": 184
+        },
+        {
+          "label": "Strobe Only",
+          "min": 185,
+          "max": 219
+        },
+        {
+          "label": "Laser Only",
+          "min": 220,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 22,
+      "type_description": "Program Speed",
+      "capabilities": [
+        {
+          "label": "Auto Program Speed (Slow to Fast)",
+          "min": 0,
+          "max": 250
+        },
+        {
+          "label": "Sound Active Sensitivity",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Manual LED Colour",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Red",
+          "min": 6,
+          "max": 20
+        },
+        {
+          "label": "Green",
+          "min": 21,
+          "max": 35
+        },
+        {
+          "label": "Blue",
+          "min": 36,
+          "max": 50
+        },
+        {
+          "label": "White",
+          "min": 51,
+          "max": 65
+        },
+        {
+          "label": "Red/Green",
+          "min": 66,
+          "max": 80
+        },
+        {
+          "label": "Red/Blue",
+          "min": 81,
+          "max": 95
+        },
+        {
+          "label": "Red/White",
+          "min": 96,
+          "max": 110
+        },
+        {
+          "label": "Green/Blue",
+          "min": 111,
+          "max": 125
+        },
+        {
+          "label": "Green/White",
+          "min": 126,
+          "max": 140
+        },
+        {
+          "label": "Blue/White",
+          "min": 141,
+          "max": 155
+        },
+        {
+          "label": "Red/Green/Blue",
+          "min": 156,
+          "max": 170
+        },
+        {
+          "label": "Red/Green/White",
+          "min": 171,
+          "max": 185
+        },
+        {
+          "label": "Green/Blue/White",
+          "min": 186,
+          "max": 200
+        },
+        {
+          "label": "Red/Green/White",
+          "min": 201,
+          "max": 215
+        },
+        {
+          "label": "Automatic 4 Colour Chase",
+          "min": 216,
+          "max": 230
+        },
+        {
+          "label": "Automatic 7 Colour Chase",
+          "min": 231,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Motor",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Indexing",
+          "min": 1,
+          "max": 127
+        },
+        {
+          "label": "Speed",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Pattern Options",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Pattern 1 Speed (Slow - Fast)",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Pattern 2 Speed (Slow - Fast)",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Pattern 3 Speed (Slow - Fast)",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Pattern 4 Speed (Slow - Fast)",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Pattern 5 Speed (Slow - Fast)",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Pattern 6 Speed (Slow - Fast)",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Pattern 7 Speed (Slow - Fast)",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Pattern 8 Speed (Slow - Fast)",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Pattern 9 Speed (Slow - Fast)",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Pattern 10 Speed (Slow - Fast)",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Pattern 11 Speed (Slow - Fast)",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Pattern 12 Speed (Slow - Fast)",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Pattern 13 Speed (Slow - Fast)",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Pattern 14 Speed (Slow - Fast)",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Pattern 15 Speed (Slow - Fast)",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Pattern 16 Speed (Slow - Fast)",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Pattern 17 Speed (Slow - Fast)",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Pattern 18 Speed (Slow - Fast) Solid On",
+          "min": 180,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Laser Colours",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 49
+        },
+        {
+          "label": "Green",
+          "min": 50,
+          "max": 89
+        },
+        {
+          "label": "Red/Green",
+          "min": 90,
+          "max": 129
+        },
+        {
+          "label": "Red On/Green Strobe",
+          "min": 130,
+          "max": 169
+        },
+        {
+          "label": "Green On/Red Strobe",
+          "min": 170,
+          "max": 209
+        },
+        {
+          "label": "Red & Green Alternating Strobe",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 21,
+      "type_description": "Laser Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe Speed (Slow - Fast: 0-30Hz)",
+          "min": 10,
+          "max": 254
+        },
+        {
+          "label": "Sound Strobe",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 21,
+      "type_description": "Laser Rotation",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Rotate Clockwise (Fast - Slow)",
+          "min": 5,
+          "max": 127
+        },
+        {
+          "label": "Stop",
+          "min": 128,
+          "max": 133
+        },
+        {
+          "label": "Rotate Anti-Clockwise (Slow - Fast)",
+          "min": 134,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-Kinta-FX.json",
+  "id": 488
+}

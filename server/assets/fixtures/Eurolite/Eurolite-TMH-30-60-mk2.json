@@ -1,0 +1,418 @@
+{
+  "version": "1.0.0",
+  "label": "TMH-30/60 MK2",
+  "manufacturer": "Eurolite",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 7,
+  "dimension_width": 245,
+  "dimension_height": 315,
+  "dimension_depth": 250,
+  "lens_label": "Other",
+  "lens_degree_min": 14,
+  "lens_degree_max": 14,
+  "focus_type": "Fixed",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 135,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 19,
+      "type_description": "Pan",
+      "capabilities": [
+        {
+          "label": "Horizontal movement",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 23,
+      "type_description": "Tilt",
+      "capabilities": [
+        {
+          "label": "Vertical movement",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Pan/Tilt speed",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "Open/white",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Blue",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Light green",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Rose",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Light yellow",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Dark blue",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Green",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Red",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Rainbow forwards decresing speed",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Rainbow backwards increasing speed",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 4,
+      "type_description": "Rotating gobo",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 18
+        },
+        {
+          "label": "Gobo 1",
+          "min": 19,
+          "max": 37
+        },
+        {
+          "label": "Gobo 2",
+          "min": 38,
+          "max": 56
+        },
+        {
+          "label": "Gobo 3",
+          "min": 57,
+          "max": 75
+        },
+        {
+          "label": "Gobo 4",
+          "min": 76,
+          "max": 94
+        },
+        {
+          "label": "Gobo 5",
+          "min": 95,
+          "max": 113
+        },
+        {
+          "label": "Gobo 6",
+          "min": 114,
+          "max": 127
+        },
+        {
+          "label": "Forwards rotation decreasing speed",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Backwards rotation increasing speed",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 4,
+      "type_description": "Gobo rotation",
+      "capabilities": [
+        {
+          "label": "No rotation",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Forwards gobo rotation with decreasing speed",
+          "min": 10,
+          "max": 115
+        },
+        {
+          "label": "No rotation",
+          "min": 116,
+          "max": 119
+        },
+        {
+          "label": "Backwards gobo rotation with increasing speed",
+          "min": 120,
+          "max": 225
+        },
+        {
+          "label": "Rocking gobo",
+          "min": 226,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 4,
+      "type_description": "Static gobo",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 6
+        },
+        {
+          "label": "Gobo 1",
+          "min": 7,
+          "max": 13
+        },
+        {
+          "label": "Gobo 2",
+          "min": 14,
+          "max": 20
+        },
+        {
+          "label": "Gobo 3",
+          "min": 21,
+          "max": 27
+        },
+        {
+          "label": "Gobo 4",
+          "min": 28,
+          "max": 34
+        },
+        {
+          "label": "Gobo 5",
+          "min": 35,
+          "max": 41
+        },
+        {
+          "label": "Gobo 6",
+          "min": 42,
+          "max": 48
+        },
+        {
+          "label": "Gobo 7",
+          "min": 49,
+          "max": 55
+        },
+        {
+          "label": "Gobo 8",
+          "min": 56,
+          "max": 62
+        },
+        {
+          "label": "Gobo 8 shake with increasing speed",
+          "min": 63,
+          "max": 69
+        },
+        {
+          "label": "Gobo 7 shake with increasing speed",
+          "min": 70,
+          "max": 76
+        },
+        {
+          "label": "Gobo 6 shake with increasing speed",
+          "min": 77,
+          "max": 83
+        },
+        {
+          "label": "Gobo 5 shake with increasing speed",
+          "min": 84,
+          "max": 90
+        },
+        {
+          "label": "Gobo 4 shake with increasing speed",
+          "min": 91,
+          "max": 97
+        },
+        {
+          "label": "Gobo 3 shake with increasing speed",
+          "min": 98,
+          "max": 104
+        },
+        {
+          "label": "Gobo 2 shake with increasing speed",
+          "min": 105,
+          "max": 111
+        },
+        {
+          "label": "Gobo 1 shake with increasing speed",
+          "min": 112,
+          "max": 118
+        },
+        {
+          "label": "Open",
+          "min": 119,
+          "max": 127
+        },
+        {
+          "label": "Cont. gobo-wheel forwards rotation with decreasing speed",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Cont. gobo-wheel backwards rotation with increasing speed",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Prism (no rotation)",
+          "min": 16,
+          "max": 50
+        },
+        {
+          "label": "Prism rotation with increasing speed",
+          "min": 51,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 21,
+      "type_description": "Switching LEDs, Strobe",
+      "capabilities": [
+        {
+          "label": "Neutral",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Strobe-effect with increasing speed",
+          "min": 16,
+          "max": 200
+        },
+        {
+          "label": "Random strobe-effect with increasing speed",
+          "min": 201,
+          "max": 250
+        },
+        {
+          "label": "LEDs on",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 3,
+      "type_description": "Reset, internal programs",
+      "capabilities": [
+        {
+          "label": "Neutral",
+          "min": 0,
+          "max": 44
+        },
+        {
+          "label": "Blackout during PAN/TILT movement",
+          "min": 45,
+          "max": 64
+        },
+        {
+          "label": "Reset",
+          "min": 65,
+          "max": 94
+        },
+        {
+          "label": "Internal program low speed",
+          "min": 95,
+          "max": 134
+        },
+        {
+          "label": "Internal program medium speed",
+          "min": 135,
+          "max": 174
+        },
+        {
+          "label": "Internal program high speed",
+          "min": 175,
+          "max": 214
+        },
+        {
+          "label": "Music control",
+          "min": 215,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-TMH-30-60-mk2.json",
+  "id": 757
+}

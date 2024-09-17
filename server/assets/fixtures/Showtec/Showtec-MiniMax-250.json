@@ -1,0 +1,246 @@
+{
+  "version": "1.0.0",
+  "label": "MiniMax 250",
+  "manufacturer": "Showtec",
+  "bulb_type": "ELC 250W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 3400,
+  "dimension_weight": 6,
+  "dimension_width": 220,
+  "dimension_height": 350,
+  "dimension_depth": 220,
+  "lens_label": "Other",
+  "lens_degree_min": 17,
+  "lens_degree_max": 17,
+  "focus_type": "Fixed",
+  "focus_pan_max": 510,
+  "focus_tilt_max": 260,
+  "technical_power_consumption": 250,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Colour Wheel",
+      "capabilities": [
+        {
+          "label": "Open/White",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Red",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Green",
+          "min": 32,
+          "max": 43
+        },
+        {
+          "label": "Blue",
+          "min": 44,
+          "max": 55
+        },
+        {
+          "label": "Yellow",
+          "min": 56,
+          "max": 67
+        },
+        {
+          "label": "Magenta",
+          "min": 68,
+          "max": 79
+        },
+        {
+          "label": "Cyan",
+          "min": 80,
+          "max": 91
+        },
+        {
+          "label": "Orange",
+          "min": 92,
+          "max": 107
+        },
+        {
+          "label": "Pink",
+          "min": 108,
+          "max": 119
+        },
+        {
+          "label": "Mix Red-Green",
+          "min": 120,
+          "max": 135
+        },
+        {
+          "label": "Mix Green-Blue",
+          "min": 136,
+          "max": 151
+        },
+        {
+          "label": "Mix Blue-Yellow",
+          "min": 152,
+          "max": 167
+        },
+        {
+          "label": "Mix Yellow-Magenta",
+          "min": 168,
+          "max": 183
+        },
+        {
+          "label": "Mix Magenta-Cyan",
+          "min": 184,
+          "max": 199
+        },
+        {
+          "label": "Mix Cyan-Orange",
+          "min": 200,
+          "max": 215
+        },
+        {
+          "label": "Mix Orange-Pink",
+          "min": 216,
+          "max": 227
+        },
+        {
+          "label": "Mix Pink-White",
+          "min": 228,
+          "max": 239
+        },
+        {
+          "label": "Rainbow",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 4,
+      "type_description": "Gobo Wheel",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 23
+        },
+        {
+          "label": "Gobo 1 (Stars)",
+          "min": 24,
+          "max": 47
+        },
+        {
+          "label": "Gobo 2",
+          "min": 48,
+          "max": 71
+        },
+        {
+          "label": "Gobo 3 (Flowers)",
+          "min": 72,
+          "max": 95
+        },
+        {
+          "label": "Gobo 4 (Stars & Spirals)",
+          "min": 96,
+          "max": 119
+        },
+        {
+          "label": "Gobo 5",
+          "min": 120,
+          "max": 143
+        },
+        {
+          "label": "Gobo 6",
+          "min": 144,
+          "max": 167
+        },
+        {
+          "label": "Gobot 7",
+          "min": 168,
+          "max": 191
+        },
+        {
+          "label": "Wheel rotation",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 5,
+      "type_description": "Strobe / Dimmer",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Intensity",
+          "min": 16,
+          "max": 127
+        },
+        {
+          "label": "Strobe effect",
+          "min": 128,
+          "max": 239
+        },
+        {
+          "label": "Open",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 17,
+      "type_description": "Lamp Control",
+      "capabilities": [
+        {
+          "label": "Lamp ON",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Reset after 5 seconds",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Lamp OFF",
+          "min": 192,
+          "max": 250
+        },
+        {
+          "label": "Lamp OFF after 10 seconds",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Showtec/Showtec-MiniMax-250.json",
+  "id": 1309
+}

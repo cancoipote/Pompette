@@ -1,0 +1,468 @@
+{
+  "version": "1.0.0",
+  "label": "Roboscan 518",
+  "manufacturer": "Martin",
+  "bulb_type": "MSD 250W",
+  "bulb_lumens": 2000,
+  "bulb_color_temperature": 8500,
+  "dimension_weight": 14,
+  "dimension_width": 280,
+  "dimension_height": 533,
+  "dimension_depth": 325,
+  "lens_label": "Other",
+  "lens_degree_min": 16,
+  "lens_degree_max": 16,
+  "focus_type": "Mirror",
+  "focus_pan_max": 176,
+  "focus_tilt_max": 85,
+  "technical_power_consumption": 335,
+  "technical_dmx_connector": "3-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Strobe, Stand-alone, Reset, Lamp",
+      "capabilities": [
+        {
+          "label": "Default",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Fan low",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Strobe speed",
+          "min": 11,
+          "max": 138
+        },
+        {
+          "label": "Remote, stand-alone, auto trigger",
+          "min": 139,
+          "max": 170
+        },
+        {
+          "label": "Remote, stand-alone, music trigger",
+          "min": 171,
+          "max": 202
+        },
+        {
+          "label": "Reset",
+          "min": 203,
+          "max": 235
+        },
+        {
+          "label": "Lamp on",
+          "min": 236,
+          "max": 252
+        },
+        {
+          "label": "Lamp off",
+          "min": 253,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 5,
+      "type_description": "Dimmer",
+      "capabilities": [
+        {
+          "label": "Full dimming",
+          "min": 0,
+          "max": 14
+        },
+        {
+          "label": "Dimmer 100 -> 0",
+          "min": 15,
+          "max": 239
+        },
+        {
+          "label": "No dimming",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "White / Pink",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "Pink",
+          "min": 8,
+          "max": 11
+        },
+        {
+          "label": "Pink / Magenta",
+          "min": 12,
+          "max": 15
+        },
+        {
+          "label": "Magenta",
+          "min": 16,
+          "max": 19
+        },
+        {
+          "label": "Magenta / Primary red",
+          "min": 20,
+          "max": 23
+        },
+        {
+          "label": "Primary red",
+          "min": 24,
+          "max": 27
+        },
+        {
+          "label": "Primary red / Flame red",
+          "min": 28,
+          "max": 31
+        },
+        {
+          "label": "Flame red",
+          "min": 32,
+          "max": 35
+        },
+        {
+          "label": "Flame red / Dark orange",
+          "min": 36,
+          "max": 39
+        },
+        {
+          "label": "Dark orange",
+          "min": 40,
+          "max": 43
+        },
+        {
+          "label": "Dark orange / Orange",
+          "min": 44,
+          "max": 47
+        },
+        {
+          "label": "Orange",
+          "min": 48,
+          "max": 51
+        },
+        {
+          "label": "Orange / Yellow",
+          "min": 52,
+          "max": 55
+        },
+        {
+          "label": "Yellow",
+          "min": 56,
+          "max": 59
+        },
+        {
+          "label": "Yellow / Light green",
+          "min": 60,
+          "max": 63
+        },
+        {
+          "label": "Light green",
+          "min": 64,
+          "max": 67
+        },
+        {
+          "label": "Light green / Fern green",
+          "min": 68,
+          "max": 71
+        },
+        {
+          "label": "Fern green",
+          "min": 72,
+          "max": 75
+        },
+        {
+          "label": "Fern green / Turquoise",
+          "min": 76,
+          "max": 79
+        },
+        {
+          "label": "Turquoise",
+          "min": 80,
+          "max": 83
+        },
+        {
+          "label": "Turquoise / Cyan",
+          "min": 84,
+          "max": 87
+        },
+        {
+          "label": "Cyan",
+          "min": 88,
+          "max": 91
+        },
+        {
+          "label": "Cyan / Light blue",
+          "min": 92,
+          "max": 95
+        },
+        {
+          "label": "Light blue",
+          "min": 96,
+          "max": 99
+        },
+        {
+          "label": "Light blue / Dark lavender",
+          "min": 100,
+          "max": 103
+        },
+        {
+          "label": "Dark lavender",
+          "min": 104,
+          "max": 107
+        },
+        {
+          "label": "Dark lavender / Dark blue",
+          "min": 108,
+          "max": 111
+        },
+        {
+          "label": "Dark blue",
+          "min": 112,
+          "max": 115
+        },
+        {
+          "label": "Dark blue / UV pass",
+          "min": 116,
+          "max": 119
+        },
+        {
+          "label": "UV pass",
+          "min": 120,
+          "max": 123
+        },
+        {
+          "label": "UV pass / Multi color 1",
+          "min": 124,
+          "max": 127
+        },
+        {
+          "label": "Multi color 1",
+          "min": 128,
+          "max": 131
+        },
+        {
+          "label": "Multi color 1 / Multi color 2",
+          "min": 132,
+          "max": 135
+        },
+        {
+          "label": "Multi color 2",
+          "min": 136,
+          "max": 139
+        },
+        {
+          "label": "CW rotation, fast -> slow",
+          "min": 140,
+          "max": 197
+        },
+        {
+          "label": "CCW rotation, slow -> fast",
+          "min": 198,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Gobo 1, CCW, fast -> slow",
+          "min": 1,
+          "max": 24
+        },
+        {
+          "label": "Gobo 1, static",
+          "min": 25,
+          "max": 27
+        },
+        {
+          "label": "Gobo 1, CW, slow -> fast",
+          "min": 28,
+          "max": 51
+        },
+        {
+          "label": "Gobo 2, CCW, fast -> slow",
+          "min": 52,
+          "max": 75
+        },
+        {
+          "label": "Gobo 2, static",
+          "min": 76,
+          "max": 78
+        },
+        {
+          "label": "Gobo 2, CW, slow -> fast",
+          "min": 79,
+          "max": 102
+        },
+        {
+          "label": "Gobo 3, CCW, fast -> slow",
+          "min": 103,
+          "max": 126
+        },
+        {
+          "label": "Gobo 3, static",
+          "min": 127,
+          "max": 129
+        },
+        {
+          "label": "Gobo 3, CW, slow -> fast",
+          "min": 130,
+          "max": 153
+        },
+        {
+          "label": "Gobo 4, CCW, fast -> slow",
+          "min": 154,
+          "max": 177
+        },
+        {
+          "label": "Gobo 4, static",
+          "min": 178,
+          "max": 180
+        },
+        {
+          "label": "Gobo 4, CW, slow -> fast",
+          "min": 181,
+          "max": 204
+        },
+        {
+          "label": "Gobo 5, CCW, fast -> slow",
+          "min": 205,
+          "max": 228
+        },
+        {
+          "label": "Gobo 5, static",
+          "min": 229,
+          "max": 231
+        },
+        {
+          "label": "Gobo 5, CW, slow -> fast",
+          "min": 232,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Effect",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "5500 -> 3400K CTC filter",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Frost filter",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Prism",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 22,
+      "type_description": "Color/dimmer speed",
+      "capabilities": [
+        {
+          "label": "Tracking mode",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Fast -> slow",
+          "min": 1,
+          "max": 251
+        },
+        {
+          "label": "Blackout while moving, fast dimmer",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 22,
+      "type_description": "Pan/tilt speed",
+      "capabilities": [
+        {
+          "label": "Tracking mode",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Fast -> slow",
+          "min": 1,
+          "max": 251
+        },
+        {
+          "label": "Blackout while moving",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Martin/Martin-Roboscan-518.json",
+  "id": 1087
+}

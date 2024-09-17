@@ -1,0 +1,627 @@
+{
+  "version": "1.0.0",
+  "label": "IQ 28x12 Wash",
+  "manufacturer": "FOS Technologies",
+  "bulb_type": "LED",
+  "bulb_lumens": 600,
+  "bulb_color_temperature": 8000,
+  "dimension_weight": 6,
+  "dimension_width": 315,
+  "dimension_height": 355,
+  "dimension_depth": 177,
+  "lens_label": "PC",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 215,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Shutter Closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Shutter Open",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe effect slow to fast",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Shutter open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse-effect slow to fast",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Shutter open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random strobe slow to fast",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Shutter open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Speed Pan/Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "CTO",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 3,
+      "type_description": "Macro Run",
+      "capabilities": [
+        {
+          "label": "Raw DMX",
+          "min": 0,
+          "max": 17
+        },
+        {
+          "label": "Macro 1",
+          "min": 18,
+          "max": 35
+        },
+        {
+          "label": "Macro 2",
+          "min": 36,
+          "max": 53
+        },
+        {
+          "label": "Macro 3",
+          "min": 54,
+          "max": 71
+        },
+        {
+          "label": "Macro 4",
+          "min": 72,
+          "max": 89
+        },
+        {
+          "label": "Macro 6",
+          "min": 90,
+          "max": 107
+        },
+        {
+          "label": "Macro 7",
+          "min": 108,
+          "max": 125
+        },
+        {
+          "label": "Macro 8",
+          "min": 126,
+          "max": 143
+        },
+        {
+          "label": "Sound Macro 1",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Sound Macro 2",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Sound Macro 3",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Sound Macro 4",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "Sound Macro 5",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "Sound Macro 6",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "Sound Macro 7",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 22,
+      "type_description": "Macro Speed",
+      "capabilities": [
+        {
+          "label": "Raw DMX",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 17,
+      "type_description": "Dynamic Rotate",
+      "capabilities": [
+        {
+          "label": "No Function",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Dynamic Rotate 1",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Dynamic Rotate 2",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Dynamic Rotate 3",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Dynamic Rotate 4",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Dynamic Rotate 5",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Dynamic Rotate 6",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Dynamic Rotate 7",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Dynamic Rotate 8",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Dynamic Rotate 9",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Dynamic Rotate 10",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Dynamic Rotate 11",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Dynamic Rotate 12",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "Dynamic Rotate 13",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "Dynamic Rotate 14",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "Dynamic Rotate 15",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 22,
+      "type_description": "DynRot. Speed",
+      "capabilities": [
+        {
+          "label": "Raw DMX",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 17,
+      "type_description": "Special",
+      "capabilities": [
+        {
+          "label": "No Function",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "No Function",
+          "min": 20,
+          "max": 39
+        },
+        {
+          "label": "Enter power saving mode",
+          "min": 40,
+          "max": 59
+        },
+        {
+          "label": "Exit power saving mode",
+          "min": 60,
+          "max": 79
+        },
+        {
+          "label": "All Motor reset",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "SCAN motor reset",
+          "min": 85,
+          "max": 94
+        },
+        {
+          "label": "Zoom motor reset",
+          "min": 95,
+          "max": 99
+        },
+        {
+          "label": "Internal program 1",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "Internal program 2",
+          "min": 120,
+          "max": 139
+        },
+        {
+          "label": "Internal program 3",
+          "min": 140,
+          "max": 159
+        },
+        {
+          "label": "Internal program 4",
+          "min": 160,
+          "max": 179
+        },
+        {
+          "label": "Internal program 5",
+          "min": 180,
+          "max": 199
+        },
+        {
+          "label": "Internal program 6",
+          "min": 200,
+          "max": 219
+        },
+        {
+          "label": "Internal program 7",
+          "min": 220,
+          "max": 239
+        },
+        {
+          "label": "Internal sound program",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Red 1",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Red 2",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Red 3",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Red 4",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Green 1",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Green 2",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Green 3",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Green 4",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Blue 1",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Blue 2",
+      "capabilities": []
+    },
+    {
+      "index": 28,
+      "type": 0,
+      "type_description": "Blue 3",
+      "capabilities": []
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "Blue 4",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 0,
+      "type_description": "White 1",
+      "capabilities": []
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "White 2",
+      "capabilities": []
+    },
+    {
+      "index": 32,
+      "type": 0,
+      "type_description": "White 3",
+      "capabilities": []
+    },
+    {
+      "index": 33,
+      "type": 0,
+      "type_description": "White 4",
+      "capabilities": []
+    },
+    {
+      "index": 34,
+      "type": 3,
+      "type_description": "Macro Color",
+      "capabilities": [
+        {
+          "label": "No Function",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Red",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Green",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Blue",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "White",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Red+Green",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Red+Blue",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Red+White",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Green+Blue",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Green+White",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Blue+White",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "R+G+B",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "R+G+B+W",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "2700K",
+          "min": 208,
+          "max": 212
+        },
+        {
+          "label": "3200K",
+          "min": 213,
+          "max": 217
+        },
+        {
+          "label": "3500K",
+          "min": 218,
+          "max": 222
+        },
+        {
+          "label": "5500K",
+          "min": 223,
+          "max": 232
+        },
+        {
+          "label": "6000K",
+          "min": 233,
+          "max": 237
+        },
+        {
+          "label": "6500K",
+          "min": 238,
+          "max": 242
+        },
+        {
+          "label": "7000K",
+          "min": 243,
+          "max": 247
+        },
+        {
+          "label": "8000K",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/FOS_Technologies/FOS-Technologies-IQ-28x12-Wash.json",
+  "id": 779
+}

@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "label": "Strobe 6x10W",
+  "manufacturer": "Cameo",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 380,
+  "dimension_height": 130,
+  "dimension_depth": 105,
+  "lens_label": "Other",
+  "lens_degree_min": 80,
+  "lens_degree_max": 80,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 40,
+  "technical_dmx_connector": "3-pin",
+  "type": 12,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Flash Frequency",
+      "capabilities": [
+        {
+          "label": "Flash frequency (0-20Hz)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Brightness",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Cameo/Cameo-Strobe-6x10W.json",
+  "id": 324
+}

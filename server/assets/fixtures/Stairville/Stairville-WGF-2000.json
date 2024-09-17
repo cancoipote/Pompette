@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "label": "WGF 2000",
+  "manufacturer": "Stairville",
+  "bulb_type": "",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 345,
+  "dimension_height": 360,
+  "dimension_depth": 785,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 2000,
+  "technical_dmx_connector": "3-pin",
+  "type": 11,
+  "channels": [
+    {
+      "index": 0,
+      "type": 5,
+      "type_description": "Smoke",
+      "capabilities": [
+        {
+          "label": "Smoke Intensity (0%-100%)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 5,
+      "type_description": "Fan",
+      "capabilities": [
+        {
+          "label": "Van Intensity (0%-100%)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 3,
+      "type_description": "Program",
+      "capabilities": [
+        {
+          "label": "Heavy Mode (Fluid and Water)",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Light Mode (Water only)",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Stairville/Stairville-WGF-2000.json",
+  "id": 1446
+}

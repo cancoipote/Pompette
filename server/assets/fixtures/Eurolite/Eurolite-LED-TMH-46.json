@@ -1,0 +1,279 @@
+{
+  "version": "1.0.0",
+  "label": "LED TMH-46",
+  "manufacturer": "Eurolite",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 145,
+  "dimension_height": 180,
+  "dimension_depth": 140,
+  "lens_label": "Other",
+  "lens_degree_min": 24,
+  "lens_degree_max": 24,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 220,
+  "technical_power_consumption": 45,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe with increasing speed",
+          "min": 10,
+          "max": 249
+        },
+        {
+          "label": "No function",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Motion Macros",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Internal program 1",
+          "min": 16,
+          "max": 44
+        },
+        {
+          "label": "Internal program 2",
+          "min": 45,
+          "max": 74
+        },
+        {
+          "label": "Internal program 3",
+          "min": 75,
+          "max": 104
+        },
+        {
+          "label": "Internal program 4",
+          "min": 105,
+          "max": 128
+        },
+        {
+          "label": "Sound controlled internal program 1",
+          "min": 129,
+          "max": 157
+        },
+        {
+          "label": "Sound controlled internal program 2",
+          "min": 158,
+          "max": 187
+        },
+        {
+          "label": "Sound controlled internal program 3",
+          "min": 188,
+          "max": 217
+        },
+        {
+          "label": "Sound controlled internal program 4",
+          "min": 218,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 22,
+      "type_description": "Motion Macro Speed",
+      "capabilities": [
+        {
+          "label": "Decreasing speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 3,
+      "type_description": "Color Macros",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Color fade",
+          "min": 1,
+          "max": 7
+        },
+        {
+          "label": "Internal program 1",
+          "min": 8,
+          "max": 39
+        },
+        {
+          "label": "Internal program 2",
+          "min": 40,
+          "max": 72
+        },
+        {
+          "label": "Internal program 3",
+          "min": 73,
+          "max": 105
+        },
+        {
+          "label": "Internal program 4",
+          "min": 106,
+          "max": 138
+        },
+        {
+          "label": "Internal program 5",
+          "min": 139,
+          "max": 140
+        },
+        {
+          "label": "Sound controlled internal program 1",
+          "min": 141,
+          "max": 167
+        },
+        {
+          "label": "Sound controlled internal program 2",
+          "min": 168,
+          "max": 195
+        },
+        {
+          "label": "Sound controlled internal program 3",
+          "min": 196,
+          "max": 223
+        },
+        {
+          "label": "Sound controlled internal program 4",
+          "min": 224,
+          "max": 251
+        },
+        {
+          "label": "Sound controlled internal program 5",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 22,
+      "type_description": "Color Macro Speed",
+      "capabilities": [
+        {
+          "label": "Increasing speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 17,
+      "type_description": "Reset",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 249
+        },
+        {
+          "label": "Reset",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "UV",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Pan/Tilt speed",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-LED-TMH-46.json",
+  "id": 730
+}

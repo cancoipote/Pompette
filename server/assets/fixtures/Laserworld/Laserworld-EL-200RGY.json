@@ -1,0 +1,166 @@
+{
+  "version": "1.0.0",
+  "label": "EL-200RGY",
+  "manufacturer": "Laserworld",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 265,
+  "dimension_height": 125,
+  "dimension_depth": 192,
+  "lens_label": "Other",
+  "lens_degree_min": 30,
+  "lens_degree_max": 50,
+  "focus_type": "Fixed",
+  "focus_pan_max": 40,
+  "focus_tilt_max": 40,
+  "technical_power_consumption": 40,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "Laser Off",
+          "min": 0,
+          "max": 69
+        },
+        {
+          "label": "Sound Mode",
+          "min": 70,
+          "max": 209
+        },
+        {
+          "label": "DMX Mode",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 1,
+      "type_description": "Pattern",
+      "capabilities": [
+        {
+          "label": "Pattern",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Point Speed",
+      "capabilities": [
+        {
+          "label": "Point Speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Horizontal movement",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Vertical movement",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "Yellow",
+          "min": 0,
+          "max": 39
+        },
+        {
+          "label": "Red",
+          "min": 40,
+          "max": 79
+        },
+        {
+          "label": "Green",
+          "min": 80,
+          "max": 119
+        },
+        {
+          "label": "Original pattern",
+          "min": 120,
+          "max": 159
+        },
+        {
+          "label": "Colour change",
+          "min": 160,
+          "max": 199
+        },
+        {
+          "label": "No function",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 17,
+      "type_description": "Reset",
+      "capabilities": [
+        {
+          "label": "(Above 200 Shortly)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Colour Effect",
+      "capabilities": [
+        {
+          "label": "draw (increasing) part of the pattern",
+          "min": 0,
+          "max": 79
+        },
+        {
+          "label": "Increase Speed",
+          "min": 80,
+          "max": 119
+        },
+        {
+          "label": "Change Colours",
+          "min": 120,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Laserworld/Laserworld-EL-200RGY.json",
+  "id": 956
+}

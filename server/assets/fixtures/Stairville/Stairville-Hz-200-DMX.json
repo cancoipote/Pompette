@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "label": "Hz-200 DMX",
+  "manufacturer": "Stairville",
+  "bulb_type": "",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 7,
+  "dimension_width": 280,
+  "dimension_height": 380,
+  "dimension_depth": 330,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 615,
+  "technical_dmx_connector": "3-pin",
+  "type": 6,
+  "channels": [
+    {
+      "index": 0,
+      "type": 5,
+      "type_description": "Haze",
+      "capabilities": [
+        {
+          "label": "Amount of haze 0-100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 22,
+      "type_description": "Fan Speed",
+      "capabilities": [
+        {
+          "label": "Fan speed 0-100 %",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Stairville/Stairville-Hz-200-DMX.json",
+  "id": 1396
+}

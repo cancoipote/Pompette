@@ -1,0 +1,344 @@
+{
+  "version": "1.0.0",
+  "label": "Studio Command 1200",
+  "manufacturer": "High End Systems",
+  "bulb_type": "MSR 1200W",
+  "bulb_lumens": 15000,
+  "bulb_color_temperature": 5900,
+  "dimension_weight": 24,
+  "dimension_width": 352,
+  "dimension_height": 544,
+  "dimension_depth": 526,
+  "lens_label": "Fresnel",
+  "lens_degree_min": 8,
+  "lens_degree_max": 32,
+  "focus_type": "Fixed",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 240,
+  "technical_power_consumption": 1400,
+  "technical_dmx_connector": "5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan (coarse)",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan (fine)",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt (Coarse)",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt (Fine)",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Color Function",
+      "capabilities": [
+        {
+          "label": "Full Speed, Continuous",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Full Speed, Cycle (Speed is set by the Cyan Channel)",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Full Speed, Random (Speed is set by the Cyan Channel)",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "TBD",
+          "min": 48,
+          "max": 127
+        },
+        {
+          "label": "MSpeed, Continuous",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "MSpeed, Cycle (Speed is set by the Cyan Channel)",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "MSpeed, Random (Speed is set by the Cyan Channel)",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "TBD",
+          "min": 176,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Cyan",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Magenta",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Yellow",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 21,
+      "type_description": "Shutter Function",
+      "capabilities": [
+        {
+          "label": "Close",
+          "min": 0,
+          "max": 23
+        },
+        {
+          "label": "Periodic Strobe (Mechanical from 1-4Hz operation)",
+          "min": 24,
+          "max": 27
+        },
+        {
+          "label": "Periodic Strobe (Electronic from 5-33Hz operation)",
+          "min": 28,
+          "max": 49
+        },
+        {
+          "label": "Random Random Strobe",
+          "min": 50,
+          "max": 75
+        },
+        {
+          "label": "Synchronous Random Strobe",
+          "min": 76,
+          "max": 101
+        },
+        {
+          "label": "Open",
+          "min": 102,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 22,
+      "type_description": "MSpeed",
+      "capabilities": [
+        {
+          "label": "Disable",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Duration (252.7sec - 0.15sec)",
+          "min": 4,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 3,
+      "type_description": "Macro",
+      "capabilities": [
+        {
+          "label": "Macro Off",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Pan sweep, small to large angle",
+          "min": 6,
+          "max": 62
+        },
+        {
+          "label": "Macro Off",
+          "min": 63,
+          "max": 65
+        },
+        {
+          "label": "Tilt sweep, small to large angle",
+          "min": 66,
+          "max": 122
+        },
+        {
+          "label": "Macro Off",
+          "min": 123,
+          "max": 125
+        },
+        {
+          "label": "Clockwise circle, small to large",
+          "min": 126,
+          "max": 160
+        },
+        {
+          "label": "Macro Off",
+          "min": 161,
+          "max": 163
+        },
+        {
+          "label": "Counterclockwise circle, small to large",
+          "min": 164,
+          "max": 198
+        },
+        {
+          "label": "Reserved",
+          "min": 199,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 17,
+      "type_description": "Control",
+      "capabilities": [
+        {
+          "label": "Safe (Disables all Control settings)",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Pan & Tilt MSpeed off",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Display Off",
+          "min": 20,
+          "max": 28
+        },
+        {
+          "label": "No function",
+          "min": 29,
+          "max": 29
+        },
+        {
+          "label": "Display Dim",
+          "min": 30,
+          "max": 38
+        },
+        {
+          "label": "No function",
+          "min": 39,
+          "max": 39
+        },
+        {
+          "label": "Display Bright",
+          "min": 40,
+          "max": 48
+        },
+        {
+          "label": "No function",
+          "min": 49,
+          "max": 59
+        },
+        {
+          "label": "Home",
+          "min": 60,
+          "max": 68
+        },
+        {
+          "label": "No function",
+          "min": 69,
+          "max": 79
+        },
+        {
+          "label": "Lamp On",
+          "min": 80,
+          "max": 88
+        },
+        {
+          "label": "No function",
+          "min": 89,
+          "max": 89
+        },
+        {
+          "label": "Lamp Off",
+          "min": 90,
+          "max": 98
+        },
+        {
+          "label": "No function",
+          "min": 99,
+          "max": 119
+        },
+        {
+          "label": "Shutdown (send for 5 secs)",
+          "min": 120,
+          "max": 130
+        },
+        {
+          "label": "No function",
+          "min": 131,
+          "max": 133
+        },
+        {
+          "label": "Lamp Assisted Strobes",
+          "min": 134,
+          "max": 137
+        },
+        {
+          "label": "Lamp Functions (modifies the shutter channel)",
+          "min": 138,
+          "max": 141
+        },
+        {
+          "label": "Lamp/mechanical dimming",
+          "min": 142,
+          "max": 145
+        },
+        {
+          "label": "Lamp only dimming",
+          "min": 146,
+          "max": 149
+        },
+        {
+          "label": "Reserved",
+          "min": 150,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Dim",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/High_End_Systems/High-End-Systems-Studio-Command-1200.json",
+  "id": 865
+}

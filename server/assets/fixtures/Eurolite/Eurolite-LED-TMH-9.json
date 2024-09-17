@@ -1,0 +1,204 @@
+{
+  "version": "1.0.0",
+  "label": "LED TMH-9",
+  "manufacturer": "Eurolite",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 175,
+  "dimension_height": 245,
+  "dimension_depth": 175,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 180,
+  "technical_power_consumption": 80,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Colour macros",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Red",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Green",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Blue",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "White",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Red/Green",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Red/Blue",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Red/White",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Green/Blue",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Green/White",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Blue/White",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Red/Green/Blue",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Red/Green/White",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "Green/Blue/White",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "Blue/Red/White",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "Red/Blue/Green/White",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Neutral",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Reset",
+          "min": 21,
+          "max": 30
+        },
+        {
+          "label": "Strobe effect with increasing speed",
+          "min": 31,
+          "max": 200
+        },
+        {
+          "label": "Random strobe effect with increasing speed",
+          "min": 201,
+          "max": 250
+        },
+        {
+          "label": "Open",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Dimmer Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Pan 16 bit",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Tilt 16 bit",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-LED-TMH-9.json",
+  "id": 734
+}

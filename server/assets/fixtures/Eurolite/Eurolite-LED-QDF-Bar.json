@@ -1,0 +1,1695 @@
+{
+  "version": "1.0.0",
+  "label": "LED QDF-Bar RGBAW Light Set",
+  "manufacturer": "Eurolite",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 850,
+  "dimension_height": 110,
+  "dimension_depth": 310,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Head",
+  "focus_pan_max": 180,
+  "focus_tilt_max": 180,
+  "technical_power_consumption": 20,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Amber (Spot1)",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "White (Spot1)",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Red (Spot1)",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Green (Spot1)",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Blue (Spot1)",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Amber (Spot2)",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "White (Spot2)",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Red (Spot2)",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Green (Spot2)",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Blue (Spot2)",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Amber (Spot3)",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "White (Spot3)",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Red (Spot3)",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Green (Spot3)",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Blue (Spot3)",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Amber (Spot4)",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "White (Spot4)",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Red (Spot4)",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Green (Spot4)",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Blue (Spot4)",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 3,
+      "type_description": "Programs via DMX",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Auto mode via DMX",
+          "min": 10,
+          "max": 199
+        },
+        {
+          "label": "Sound mode via DMX",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "type": 22,
+      "type_description": "Speed",
+      "capabilities": [
+        {
+          "label": "Auto program, increasing speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Colors",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Amber",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "White",
+          "min": 11,
+          "max": 15
+        },
+        {
+          "label": "Red",
+          "min": 16,
+          "max": 20
+        },
+        {
+          "label": "Green",
+          "min": 21,
+          "max": 25
+        },
+        {
+          "label": "Blue",
+          "min": 26,
+          "max": 30
+        },
+        {
+          "label": "LED Group 1: White",
+          "min": 31,
+          "max": 35
+        },
+        {
+          "label": "LED Group 2: White",
+          "min": 36,
+          "max": 40
+        },
+        {
+          "label": "LED Group 3: White",
+          "min": 41,
+          "max": 45
+        },
+        {
+          "label": "LED Group 1: Red",
+          "min": 46,
+          "max": 50
+        },
+        {
+          "label": "LED Group 2: Red",
+          "min": 51,
+          "max": 55
+        },
+        {
+          "label": "LED Group 3: Red",
+          "min": 56,
+          "max": 60
+        },
+        {
+          "label": "LED Group 1: Green",
+          "min": 61,
+          "max": 65
+        },
+        {
+          "label": "LED Group 2: Green",
+          "min": 66,
+          "max": 70
+        },
+        {
+          "label": "LED Group 3: Green",
+          "min": 71,
+          "max": 75
+        },
+        {
+          "label": "LED Group 1: Blue",
+          "min": 76,
+          "max": 80
+        },
+        {
+          "label": "LED Group 2: Blue",
+          "min": 81,
+          "max": 85
+        },
+        {
+          "label": "LED Group 3: Blue",
+          "min": 86,
+          "max": 90
+        },
+        {
+          "label": "LED Group 1: Red + all White",
+          "min": 91,
+          "max": 95
+        },
+        {
+          "label": "LED Group 2: Red + all White",
+          "min": 96,
+          "max": 100
+        },
+        {
+          "label": "LED Group 3: Red + all White",
+          "min": 101,
+          "max": 105
+        },
+        {
+          "label": "LED Group 1: Green + all Blue",
+          "min": 106,
+          "max": 110
+        },
+        {
+          "label": "LED Group 2: Green + all Blue",
+          "min": 111,
+          "max": 115
+        },
+        {
+          "label": "LED Group 3: Green + all Blue",
+          "min": 116,
+          "max": 120
+        },
+        {
+          "label": "LED Group 1: White + all Green",
+          "min": 121,
+          "max": 125
+        },
+        {
+          "label": "LED Group 2: White + all Green",
+          "min": 126,
+          "max": 130
+        },
+        {
+          "label": "LED Group 3: White + all Green",
+          "min": 131,
+          "max": 135
+        },
+        {
+          "label": "LED Group 1: Blue + all Red",
+          "min": 136,
+          "max": 140
+        },
+        {
+          "label": "LED Group 2: Blue + all Red",
+          "min": 141,
+          "max": 145
+        },
+        {
+          "label": "LED Group 3: Blue + all Red",
+          "min": 146,
+          "max": 150
+        },
+        {
+          "label": "LED Group 1: White + LED Group 1: Red",
+          "min": 151,
+          "max": 155
+        },
+        {
+          "label": "LED Group 2: White + LED Group 2: Red",
+          "min": 156,
+          "max": 160
+        },
+        {
+          "label": "LED Group 3: White + LED Group 3: Red",
+          "min": 161,
+          "max": 165
+        },
+        {
+          "label": "LED Group 1: Green + LED Group 1: Blue",
+          "min": 166,
+          "max": 170
+        },
+        {
+          "label": "LED Group 2: Green + LED Group 2: Blue",
+          "min": 171,
+          "max": 175
+        },
+        {
+          "label": "LED Group 3: Green + LED Group 3: Blue",
+          "min": 176,
+          "max": 180
+        },
+        {
+          "label": "LED Group 1: White + LED Group 1: Green",
+          "min": 181,
+          "max": 185
+        },
+        {
+          "label": "LED Group 2: White + LED Group 2: Green",
+          "min": 186,
+          "max": 190
+        },
+        {
+          "label": "LED Group 3: White + LED Group 3: Green",
+          "min": 191,
+          "max": 195
+        },
+        {
+          "label": "LED Group 1: Red + LED Group 1: Blue",
+          "min": 196,
+          "max": 200
+        },
+        {
+          "label": "LED Group 2: Red + LED Group 2: Blue",
+          "min": 201,
+          "max": 203
+        },
+        {
+          "label": "LED Group 3: Red + LED Group 3: Blue",
+          "min": 204,
+          "max": 206
+        },
+        {
+          "label": "LED Group 1: White + LED Group 3: Green",
+          "min": 207,
+          "max": 209
+        },
+        {
+          "label": "LED Group 2: White + LED Group 2: Green",
+          "min": 210,
+          "max": 212
+        },
+        {
+          "label": "LED Group 3: White + LED Group 1: Green",
+          "min": 213,
+          "max": 215
+        },
+        {
+          "label": "LED Group 1: Red, Green, Blue, White",
+          "min": 216,
+          "max": 218
+        },
+        {
+          "label": "LED Group 2: Red, Green, Blue, White",
+          "min": 219,
+          "max": 221
+        },
+        {
+          "label": "LED Group 3: Red, Green, Blue, White",
+          "min": 222,
+          "max": 224
+        },
+        {
+          "label": "All Red + all Green",
+          "min": 225,
+          "max": 227
+        },
+        {
+          "label": "All Red + all Blue + all Amber",
+          "min": 228,
+          "max": 230
+        },
+        {
+          "label": "All Red + all White",
+          "min": 231,
+          "max": 233
+        },
+        {
+          "label": "All Green + all Blue",
+          "min": 234,
+          "max": 236
+        },
+        {
+          "label": "All Green + all White",
+          "min": 237,
+          "max": 239
+        },
+        {
+          "label": "All Blue + all White",
+          "min": 240,
+          "max": 242
+        },
+        {
+          "label": "All Red + all Green + all Blue",
+          "min": 243,
+          "max": 245
+        },
+        {
+          "label": "All Red + all Green + all White",
+          "min": 246,
+          "max": 248
+        },
+        {
+          "label": "All Red + all Blue + all White",
+          "min": 249,
+          "max": 251
+        },
+        {
+          "label": "All Green + all Blue + all White",
+          "min": 252,
+          "max": 254
+        },
+        {
+          "label": "All colors on",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Colors - Spot 1",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Amber",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "White",
+          "min": 11,
+          "max": 15
+        },
+        {
+          "label": "Red",
+          "min": 16,
+          "max": 20
+        },
+        {
+          "label": "Green",
+          "min": 21,
+          "max": 25
+        },
+        {
+          "label": "Blue",
+          "min": 26,
+          "max": 30
+        },
+        {
+          "label": "LED Group 1: White",
+          "min": 31,
+          "max": 35
+        },
+        {
+          "label": "LED Group 2: White",
+          "min": 36,
+          "max": 40
+        },
+        {
+          "label": "LED Group 3: White",
+          "min": 41,
+          "max": 45
+        },
+        {
+          "label": "LED Group 1: Red",
+          "min": 46,
+          "max": 50
+        },
+        {
+          "label": "LED Group 2: Red",
+          "min": 51,
+          "max": 55
+        },
+        {
+          "label": "LED Group 3: Red",
+          "min": 56,
+          "max": 60
+        },
+        {
+          "label": "LED Group 1: Green",
+          "min": 61,
+          "max": 65
+        },
+        {
+          "label": "LED Group 2: Green",
+          "min": 66,
+          "max": 70
+        },
+        {
+          "label": "LED Group 3: Green",
+          "min": 71,
+          "max": 75
+        },
+        {
+          "label": "LED Group 1: Blue",
+          "min": 76,
+          "max": 80
+        },
+        {
+          "label": "LED Group 2: Blue",
+          "min": 81,
+          "max": 85
+        },
+        {
+          "label": "LED Group 3: Blue",
+          "min": 86,
+          "max": 90
+        },
+        {
+          "label": "LED Group 1: Red + all White",
+          "min": 91,
+          "max": 95
+        },
+        {
+          "label": "LED Group 2: Red + all White",
+          "min": 96,
+          "max": 100
+        },
+        {
+          "label": "LED Group 3: Red + all White",
+          "min": 101,
+          "max": 105
+        },
+        {
+          "label": "LED Group 1: Green + all Blue",
+          "min": 106,
+          "max": 110
+        },
+        {
+          "label": "LED Group 2: Green + all Blue",
+          "min": 111,
+          "max": 115
+        },
+        {
+          "label": "LED Group 3: Green + all Blue",
+          "min": 116,
+          "max": 120
+        },
+        {
+          "label": "LED Group 1: White + all Green",
+          "min": 121,
+          "max": 125
+        },
+        {
+          "label": "LED Group 2: White + all Green",
+          "min": 126,
+          "max": 130
+        },
+        {
+          "label": "LED Group 3: White + all Green",
+          "min": 131,
+          "max": 135
+        },
+        {
+          "label": "LED Group 1: Blue + all Red",
+          "min": 136,
+          "max": 140
+        },
+        {
+          "label": "LED Group 2: Blue + all Red",
+          "min": 141,
+          "max": 145
+        },
+        {
+          "label": "LED Group 3: Blue + all Red",
+          "min": 146,
+          "max": 150
+        },
+        {
+          "label": "LED Group 1: White + LED Group 1: Red",
+          "min": 151,
+          "max": 155
+        },
+        {
+          "label": "LED Group 2: White + LED Group 2: Red",
+          "min": 156,
+          "max": 160
+        },
+        {
+          "label": "LED Group 3: White + LED Group 3: Red",
+          "min": 161,
+          "max": 165
+        },
+        {
+          "label": "LED Group 1: Green + LED Group 1: Blue",
+          "min": 166,
+          "max": 170
+        },
+        {
+          "label": "LED Group 2: Green + LED Group 2: Blue",
+          "min": 171,
+          "max": 175
+        },
+        {
+          "label": "LED Group 3: Green + LED Group 3: Blue",
+          "min": 176,
+          "max": 180
+        },
+        {
+          "label": "LED Group 1: White + LED Group 1: Green",
+          "min": 181,
+          "max": 185
+        },
+        {
+          "label": "LED Group 2: White + LED Group 2: Green",
+          "min": 186,
+          "max": 190
+        },
+        {
+          "label": "LED Group 3: White + LED Group 3: Green",
+          "min": 191,
+          "max": 195
+        },
+        {
+          "label": "LED Group 1: Red + LED Group 1: Blue",
+          "min": 196,
+          "max": 200
+        },
+        {
+          "label": "LED Group 2: Red + LED Group 2: Blue",
+          "min": 201,
+          "max": 203
+        },
+        {
+          "label": "LED Group 3: Red + LED Group 3: Blue",
+          "min": 204,
+          "max": 206
+        },
+        {
+          "label": "LED Group 1: White + LED Group 3: Green",
+          "min": 207,
+          "max": 209
+        },
+        {
+          "label": "LED Group 2: White + LED Group 2: Green",
+          "min": 210,
+          "max": 212
+        },
+        {
+          "label": "LED Group 3: White + LED Group 1: Green",
+          "min": 213,
+          "max": 215
+        },
+        {
+          "label": "LED Group 1: Red, Green, Blue, White",
+          "min": 216,
+          "max": 218
+        },
+        {
+          "label": "LED Group 2: Red, Green, Blue, White",
+          "min": 219,
+          "max": 221
+        },
+        {
+          "label": "LED Group 3: Red, Green, Blue, White",
+          "min": 222,
+          "max": 224
+        },
+        {
+          "label": "All Red + all Green",
+          "min": 225,
+          "max": 227
+        },
+        {
+          "label": "All Red + all Blue + all Amber",
+          "min": 228,
+          "max": 230
+        },
+        {
+          "label": "All Red + all White",
+          "min": 231,
+          "max": 233
+        },
+        {
+          "label": "All Green + all Blue",
+          "min": 234,
+          "max": 236
+        },
+        {
+          "label": "All Green + all White",
+          "min": 237,
+          "max": 239
+        },
+        {
+          "label": "All Blue + all White",
+          "min": 240,
+          "max": 242
+        },
+        {
+          "label": "All Red + all Green + all Blue",
+          "min": 243,
+          "max": 245
+        },
+        {
+          "label": "All Red + all Green + all White",
+          "min": 246,
+          "max": 248
+        },
+        {
+          "label": "All Red + all Blue + all White",
+          "min": 249,
+          "max": 251
+        },
+        {
+          "label": "All Green + all Blue + all White",
+          "min": 252,
+          "max": 254
+        },
+        {
+          "label": "All colors on",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Colors - Spot 2",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Amber",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "White",
+          "min": 11,
+          "max": 15
+        },
+        {
+          "label": "Red",
+          "min": 16,
+          "max": 20
+        },
+        {
+          "label": "Green",
+          "min": 21,
+          "max": 25
+        },
+        {
+          "label": "Blue",
+          "min": 26,
+          "max": 30
+        },
+        {
+          "label": "LED Group 1: White",
+          "min": 31,
+          "max": 35
+        },
+        {
+          "label": "LED Group 2: White",
+          "min": 36,
+          "max": 40
+        },
+        {
+          "label": "LED Group 3: White",
+          "min": 41,
+          "max": 45
+        },
+        {
+          "label": "LED Group 1: Red",
+          "min": 46,
+          "max": 50
+        },
+        {
+          "label": "LED Group 2: Red",
+          "min": 51,
+          "max": 55
+        },
+        {
+          "label": "LED Group 3: Red",
+          "min": 56,
+          "max": 60
+        },
+        {
+          "label": "LED Group 1: Green",
+          "min": 61,
+          "max": 65
+        },
+        {
+          "label": "LED Group 2: Green",
+          "min": 66,
+          "max": 70
+        },
+        {
+          "label": "LED Group 3: Green",
+          "min": 71,
+          "max": 75
+        },
+        {
+          "label": "LED Group 1: Blue",
+          "min": 76,
+          "max": 80
+        },
+        {
+          "label": "LED Group 2: Blue",
+          "min": 81,
+          "max": 85
+        },
+        {
+          "label": "LED Group 3: Blue",
+          "min": 86,
+          "max": 90
+        },
+        {
+          "label": "LED Group 1: Red + all White",
+          "min": 91,
+          "max": 95
+        },
+        {
+          "label": "LED Group 2: Red + all White",
+          "min": 96,
+          "max": 100
+        },
+        {
+          "label": "LED Group 3: Red + all White",
+          "min": 101,
+          "max": 105
+        },
+        {
+          "label": "LED Group 1: Green + all Blue",
+          "min": 106,
+          "max": 110
+        },
+        {
+          "label": "LED Group 2: Green + all Blue",
+          "min": 111,
+          "max": 115
+        },
+        {
+          "label": "LED Group 3: Green + all Blue",
+          "min": 116,
+          "max": 120
+        },
+        {
+          "label": "LED Group 1: White + all Green",
+          "min": 121,
+          "max": 125
+        },
+        {
+          "label": "LED Group 2: White + all Green",
+          "min": 126,
+          "max": 130
+        },
+        {
+          "label": "LED Group 3: White + all Green",
+          "min": 131,
+          "max": 135
+        },
+        {
+          "label": "LED Group 1: Blue + all Red",
+          "min": 136,
+          "max": 140
+        },
+        {
+          "label": "LED Group 2: Blue + all Red",
+          "min": 141,
+          "max": 145
+        },
+        {
+          "label": "LED Group 3: Blue + all Red",
+          "min": 146,
+          "max": 150
+        },
+        {
+          "label": "LED Group 1: White + LED Group 1: Red",
+          "min": 151,
+          "max": 155
+        },
+        {
+          "label": "LED Group 2: White + LED Group 2: Red",
+          "min": 156,
+          "max": 160
+        },
+        {
+          "label": "LED Group 3: White + LED Group 3: Red",
+          "min": 161,
+          "max": 165
+        },
+        {
+          "label": "LED Group 1: Green + LED Group 1: Blue",
+          "min": 166,
+          "max": 170
+        },
+        {
+          "label": "LED Group 2: Green + LED Group 2: Blue",
+          "min": 171,
+          "max": 175
+        },
+        {
+          "label": "LED Group 3: Green + LED Group 3: Blue",
+          "min": 176,
+          "max": 180
+        },
+        {
+          "label": "LED Group 1: White + LED Group 1: Green",
+          "min": 181,
+          "max": 185
+        },
+        {
+          "label": "LED Group 2: White + LED Group 2: Green",
+          "min": 186,
+          "max": 190
+        },
+        {
+          "label": "LED Group 3: White + LED Group 3: Green",
+          "min": 191,
+          "max": 195
+        },
+        {
+          "label": "LED Group 1: Red + LED Group 1: Blue",
+          "min": 196,
+          "max": 200
+        },
+        {
+          "label": "LED Group 2: Red + LED Group 2: Blue",
+          "min": 201,
+          "max": 203
+        },
+        {
+          "label": "LED Group 3: Red + LED Group 3: Blue",
+          "min": 204,
+          "max": 206
+        },
+        {
+          "label": "LED Group 1: White + LED Group 3: Green",
+          "min": 207,
+          "max": 209
+        },
+        {
+          "label": "LED Group 2: White + LED Group 2: Green",
+          "min": 210,
+          "max": 212
+        },
+        {
+          "label": "LED Group 3: White + LED Group 1: Green",
+          "min": 213,
+          "max": 215
+        },
+        {
+          "label": "LED Group 1: Red, Green, Blue, White",
+          "min": 216,
+          "max": 218
+        },
+        {
+          "label": "LED Group 2: Red, Green, Blue, White",
+          "min": 219,
+          "max": 221
+        },
+        {
+          "label": "LED Group 3: Red, Green, Blue, White",
+          "min": 222,
+          "max": 224
+        },
+        {
+          "label": "All Red + all Green",
+          "min": 225,
+          "max": 227
+        },
+        {
+          "label": "All Red + all Blue + all Amber",
+          "min": 228,
+          "max": 230
+        },
+        {
+          "label": "All Red + all White",
+          "min": 231,
+          "max": 233
+        },
+        {
+          "label": "All Green + all Blue",
+          "min": 234,
+          "max": 236
+        },
+        {
+          "label": "All Green + all White",
+          "min": 237,
+          "max": 239
+        },
+        {
+          "label": "All Blue + all White",
+          "min": 240,
+          "max": 242
+        },
+        {
+          "label": "All Red + all Green + all Blue",
+          "min": 243,
+          "max": 245
+        },
+        {
+          "label": "All Red + all Green + all White",
+          "min": 246,
+          "max": 248
+        },
+        {
+          "label": "All Red + all Blue + all White",
+          "min": 249,
+          "max": 251
+        },
+        {
+          "label": "All Green + all Blue + all White",
+          "min": 252,
+          "max": 254
+        },
+        {
+          "label": "All colors on",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Colors - Spot 3",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Amber",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "White",
+          "min": 11,
+          "max": 15
+        },
+        {
+          "label": "Red",
+          "min": 16,
+          "max": 20
+        },
+        {
+          "label": "Green",
+          "min": 21,
+          "max": 25
+        },
+        {
+          "label": "Blue",
+          "min": 26,
+          "max": 30
+        },
+        {
+          "label": "LED Group 1: White",
+          "min": 31,
+          "max": 35
+        },
+        {
+          "label": "LED Group 2: White",
+          "min": 36,
+          "max": 40
+        },
+        {
+          "label": "LED Group 3: White",
+          "min": 41,
+          "max": 45
+        },
+        {
+          "label": "LED Group 1: Red",
+          "min": 46,
+          "max": 50
+        },
+        {
+          "label": "LED Group 2: Red",
+          "min": 51,
+          "max": 55
+        },
+        {
+          "label": "LED Group 3: Red",
+          "min": 56,
+          "max": 60
+        },
+        {
+          "label": "LED Group 1: Green",
+          "min": 61,
+          "max": 65
+        },
+        {
+          "label": "LED Group 2: Green",
+          "min": 66,
+          "max": 70
+        },
+        {
+          "label": "LED Group 3: Green",
+          "min": 71,
+          "max": 75
+        },
+        {
+          "label": "LED Group 1: Blue",
+          "min": 76,
+          "max": 80
+        },
+        {
+          "label": "LED Group 2: Blue",
+          "min": 81,
+          "max": 85
+        },
+        {
+          "label": "LED Group 3: Blue",
+          "min": 86,
+          "max": 90
+        },
+        {
+          "label": "LED Group 1: Red + all White",
+          "min": 91,
+          "max": 95
+        },
+        {
+          "label": "LED Group 2: Red + all White",
+          "min": 96,
+          "max": 100
+        },
+        {
+          "label": "LED Group 3: Red + all White",
+          "min": 101,
+          "max": 105
+        },
+        {
+          "label": "LED Group 1: Green + all Blue",
+          "min": 106,
+          "max": 110
+        },
+        {
+          "label": "LED Group 2: Green + all Blue",
+          "min": 111,
+          "max": 115
+        },
+        {
+          "label": "LED Group 3: Green + all Blue",
+          "min": 116,
+          "max": 120
+        },
+        {
+          "label": "LED Group 1: White + all Green",
+          "min": 121,
+          "max": 125
+        },
+        {
+          "label": "LED Group 2: White + all Green",
+          "min": 126,
+          "max": 130
+        },
+        {
+          "label": "LED Group 3: White + all Green",
+          "min": 131,
+          "max": 135
+        },
+        {
+          "label": "LED Group 1: Blue + all Red",
+          "min": 136,
+          "max": 140
+        },
+        {
+          "label": "LED Group 2: Blue + all Red",
+          "min": 141,
+          "max": 145
+        },
+        {
+          "label": "LED Group 3: Blue + all Red",
+          "min": 146,
+          "max": 150
+        },
+        {
+          "label": "LED Group 1: White + LED Group 1: Red",
+          "min": 151,
+          "max": 155
+        },
+        {
+          "label": "LED Group 2: White + LED Group 2: Red",
+          "min": 156,
+          "max": 160
+        },
+        {
+          "label": "LED Group 3: White + LED Group 3: Red",
+          "min": 161,
+          "max": 165
+        },
+        {
+          "label": "LED Group 1: Green + LED Group 1: Blue",
+          "min": 166,
+          "max": 170
+        },
+        {
+          "label": "LED Group 2: Green + LED Group 2: Blue",
+          "min": 171,
+          "max": 175
+        },
+        {
+          "label": "LED Group 3: Green + LED Group 3: Blue",
+          "min": 176,
+          "max": 180
+        },
+        {
+          "label": "LED Group 1: White + LED Group 1: Green",
+          "min": 181,
+          "max": 185
+        },
+        {
+          "label": "LED Group 2: White + LED Group 2: Green",
+          "min": 186,
+          "max": 190
+        },
+        {
+          "label": "LED Group 3: White + LED Group 3: Green",
+          "min": 191,
+          "max": 195
+        },
+        {
+          "label": "LED Group 1: Red + LED Group 1: Blue",
+          "min": 196,
+          "max": 200
+        },
+        {
+          "label": "LED Group 2: Red + LED Group 2: Blue",
+          "min": 201,
+          "max": 203
+        },
+        {
+          "label": "LED Group 3: Red + LED Group 3: Blue",
+          "min": 204,
+          "max": 206
+        },
+        {
+          "label": "LED Group 1: White + LED Group 3: Green",
+          "min": 207,
+          "max": 209
+        },
+        {
+          "label": "LED Group 2: White + LED Group 2: Green",
+          "min": 210,
+          "max": 212
+        },
+        {
+          "label": "LED Group 3: White + LED Group 1: Green",
+          "min": 213,
+          "max": 215
+        },
+        {
+          "label": "LED Group 1: Red, Green, Blue, White",
+          "min": 216,
+          "max": 218
+        },
+        {
+          "label": "LED Group 2: Red, Green, Blue, White",
+          "min": 219,
+          "max": 221
+        },
+        {
+          "label": "LED Group 3: Red, Green, Blue, White",
+          "min": 222,
+          "max": 224
+        },
+        {
+          "label": "All Red + all Green",
+          "min": 225,
+          "max": 227
+        },
+        {
+          "label": "All Red + all Blue + all Amber",
+          "min": 228,
+          "max": 230
+        },
+        {
+          "label": "All Red + all White",
+          "min": 231,
+          "max": 233
+        },
+        {
+          "label": "All Green + all Blue",
+          "min": 234,
+          "max": 236
+        },
+        {
+          "label": "All Green + all White",
+          "min": 237,
+          "max": 239
+        },
+        {
+          "label": "All Blue + all White",
+          "min": 240,
+          "max": 242
+        },
+        {
+          "label": "All Red + all Green + all Blue",
+          "min": 243,
+          "max": 245
+        },
+        {
+          "label": "All Red + all Green + all White",
+          "min": 246,
+          "max": 248
+        },
+        {
+          "label": "All Red + all Blue + all White",
+          "min": 249,
+          "max": 251
+        },
+        {
+          "label": "All Green + all Blue + all White",
+          "min": 252,
+          "max": 254
+        },
+        {
+          "label": "All colors on",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "Colors - Spot 4",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Amber",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "White",
+          "min": 11,
+          "max": 15
+        },
+        {
+          "label": "Red",
+          "min": 16,
+          "max": 20
+        },
+        {
+          "label": "Green",
+          "min": 21,
+          "max": 25
+        },
+        {
+          "label": "Blue",
+          "min": 26,
+          "max": 30
+        },
+        {
+          "label": "LED Group 1: White",
+          "min": 31,
+          "max": 35
+        },
+        {
+          "label": "LED Group 2: White",
+          "min": 36,
+          "max": 40
+        },
+        {
+          "label": "LED Group 3: White",
+          "min": 41,
+          "max": 45
+        },
+        {
+          "label": "LED Group 1: Red",
+          "min": 46,
+          "max": 50
+        },
+        {
+          "label": "LED Group 2: Red",
+          "min": 51,
+          "max": 55
+        },
+        {
+          "label": "LED Group 3: Red",
+          "min": 56,
+          "max": 60
+        },
+        {
+          "label": "LED Group 1: Green",
+          "min": 61,
+          "max": 65
+        },
+        {
+          "label": "LED Group 2: Green",
+          "min": 66,
+          "max": 70
+        },
+        {
+          "label": "LED Group 3: Green",
+          "min": 71,
+          "max": 75
+        },
+        {
+          "label": "LED Group 1: Blue",
+          "min": 76,
+          "max": 80
+        },
+        {
+          "label": "LED Group 2: Blue",
+          "min": 81,
+          "max": 85
+        },
+        {
+          "label": "LED Group 3: Blue",
+          "min": 86,
+          "max": 90
+        },
+        {
+          "label": "LED Group 1: Red + all White",
+          "min": 91,
+          "max": 95
+        },
+        {
+          "label": "LED Group 2: Red + all White",
+          "min": 96,
+          "max": 100
+        },
+        {
+          "label": "LED Group 3: Red + all White",
+          "min": 101,
+          "max": 105
+        },
+        {
+          "label": "LED Group 1: Green + all Blue",
+          "min": 106,
+          "max": 110
+        },
+        {
+          "label": "LED Group 2: Green + all Blue",
+          "min": 111,
+          "max": 115
+        },
+        {
+          "label": "LED Group 3: Green + all Blue",
+          "min": 116,
+          "max": 120
+        },
+        {
+          "label": "LED Group 1: White + all Green",
+          "min": 121,
+          "max": 125
+        },
+        {
+          "label": "LED Group 2: White + all Green",
+          "min": 126,
+          "max": 130
+        },
+        {
+          "label": "LED Group 3: White + all Green",
+          "min": 131,
+          "max": 135
+        },
+        {
+          "label": "LED Group 1: Blue + all Red",
+          "min": 136,
+          "max": 140
+        },
+        {
+          "label": "LED Group 2: Blue + all Red",
+          "min": 141,
+          "max": 145
+        },
+        {
+          "label": "LED Group 3: Blue + all Red",
+          "min": 146,
+          "max": 150
+        },
+        {
+          "label": "LED Group 1: White + LED Group 1: Red",
+          "min": 151,
+          "max": 155
+        },
+        {
+          "label": "LED Group 2: White + LED Group 2: Red",
+          "min": 156,
+          "max": 160
+        },
+        {
+          "label": "LED Group 3: White + LED Group 3: Red",
+          "min": 161,
+          "max": 165
+        },
+        {
+          "label": "LED Group 1: Green + LED Group 1: Blue",
+          "min": 166,
+          "max": 170
+        },
+        {
+          "label": "LED Group 2: Green + LED Group 2: Blue",
+          "min": 171,
+          "max": 175
+        },
+        {
+          "label": "LED Group 3: Green + LED Group 3: Blue",
+          "min": 176,
+          "max": 180
+        },
+        {
+          "label": "LED Group 1: White + LED Group 1: Green",
+          "min": 181,
+          "max": 185
+        },
+        {
+          "label": "LED Group 2: White + LED Group 2: Green",
+          "min": 186,
+          "max": 190
+        },
+        {
+          "label": "LED Group 3: White + LED Group 3: Green",
+          "min": 191,
+          "max": 195
+        },
+        {
+          "label": "LED Group 1: Red + LED Group 1: Blue",
+          "min": 196,
+          "max": 200
+        },
+        {
+          "label": "LED Group 2: Red + LED Group 2: Blue",
+          "min": 201,
+          "max": 203
+        },
+        {
+          "label": "LED Group 3: Red + LED Group 3: Blue",
+          "min": 204,
+          "max": 206
+        },
+        {
+          "label": "LED Group 1: White + LED Group 3: Green",
+          "min": 207,
+          "max": 209
+        },
+        {
+          "label": "LED Group 2: White + LED Group 2: Green",
+          "min": 210,
+          "max": 212
+        },
+        {
+          "label": "LED Group 3: White + LED Group 1: Green",
+          "min": 213,
+          "max": 215
+        },
+        {
+          "label": "LED Group 1: Red, Green, Blue, White",
+          "min": 216,
+          "max": 218
+        },
+        {
+          "label": "LED Group 2: Red, Green, Blue, White",
+          "min": 219,
+          "max": 221
+        },
+        {
+          "label": "LED Group 3: Red, Green, Blue, White",
+          "min": 222,
+          "max": 224
+        },
+        {
+          "label": "All Red + all Green",
+          "min": 225,
+          "max": 227
+        },
+        {
+          "label": "All Red + all Blue + all Amber",
+          "min": 228,
+          "max": 230
+        },
+        {
+          "label": "All Red + all White",
+          "min": 231,
+          "max": 233
+        },
+        {
+          "label": "All Green + all Blue",
+          "min": 234,
+          "max": 236
+        },
+        {
+          "label": "All Green + all White",
+          "min": 237,
+          "max": 239
+        },
+        {
+          "label": "All Blue + all White",
+          "min": 240,
+          "max": 242
+        },
+        {
+          "label": "All Red + all Green + all Blue",
+          "min": 243,
+          "max": 245
+        },
+        {
+          "label": "All Red + all Green + all White",
+          "min": 246,
+          "max": 248
+        },
+        {
+          "label": "All Red + all Blue + all White",
+          "min": 249,
+          "max": 251
+        },
+        {
+          "label": "All Green + all Blue + all White",
+          "min": 252,
+          "max": 254
+        },
+        {
+          "label": "All colors on",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-LED-QDF-Bar.json",
+  "id": 714
+}

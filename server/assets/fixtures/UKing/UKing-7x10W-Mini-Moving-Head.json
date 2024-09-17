@@ -1,0 +1,194 @@
+{
+  "version": "1.0.0",
+  "label": "7x10W Mini Moving Head",
+  "manufacturer": "UKing",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 0,
+  "dimension_width": 173,
+  "dimension_height": 238,
+  "dimension_depth": 180,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 180,
+  "technical_power_consumption": 70,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "XY Speed",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 17,
+      "type_description": "Reset",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 149
+        },
+        {
+          "label": "Reset",
+          "min": 150,
+          "max": 200
+        },
+        {
+          "label": "No function",
+          "min": 201,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Off / Master Dimmer / Strobe / Open",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Master Dimmer",
+          "min": 8,
+          "max": 134
+        },
+        {
+          "label": "Strobe",
+          "min": 135,
+          "max": 239
+        },
+        {
+          "label": "Open",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 3,
+      "type_description": "Color source",
+      "capabilities": [
+        {
+          "label": "Mix color depend on 7CH-10CH",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Macro color",
+          "min": 8,
+          "max": 231
+        },
+        {
+          "label": "Color jumping",
+          "min": 232,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 22,
+      "type_description": "Color jumping speed",
+      "capabilities": [
+        {
+          "label": "Color jumping speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 3,
+      "type_description": "Fixture mode",
+      "capabilities": [
+        {
+          "label": "Control freely depend on 1CH-12CH",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Fast running",
+          "min": 8,
+          "max": 63
+        },
+        {
+          "label": "Slow running",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Sound 1",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Sound 2",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/UKing/UKing-7x10W-Mini-Moving-Head.json",
+  "id": 1467
+}

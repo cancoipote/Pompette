@@ -1,0 +1,276 @@
+{
+  "version": "1.0.0",
+  "label": "LED Strobe SMD PRO 132 DMX RGB",
+  "manufacturer": "Eurolite",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 350,
+  "dimension_height": 71,
+  "dimension_depth": 70,
+  "lens_label": "Other",
+  "lens_degree_min": 70,
+  "lens_degree_max": 70,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 30,
+  "technical_dmx_connector": "3-pin",
+  "type": 12,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Strobe effect white 1",
+      "capabilities": [
+        {
+          "label": "LED Off",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Strobe effect with increasing speed",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Preset colors, color change",
+      "capabilities": [
+        {
+          "label": "LED Off",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Red",
+          "min": 6,
+          "max": 13
+        },
+        {
+          "label": "Amber",
+          "min": 14,
+          "max": 21
+        },
+        {
+          "label": "Warm yellow",
+          "min": 22,
+          "max": 29
+        },
+        {
+          "label": "Yellow",
+          "min": 30,
+          "max": 37
+        },
+        {
+          "label": "Green",
+          "min": 38,
+          "max": 45
+        },
+        {
+          "label": "Turquoise",
+          "min": 46,
+          "max": 53
+        },
+        {
+          "label": "Cyan",
+          "min": 54,
+          "max": 61
+        },
+        {
+          "label": "Blue",
+          "min": 62,
+          "max": 69
+        },
+        {
+          "label": "Lavender",
+          "min": 70,
+          "max": 77
+        },
+        {
+          "label": "Mauve",
+          "min": 78,
+          "max": 85
+        },
+        {
+          "label": "Magenta",
+          "min": 86,
+          "max": 93
+        },
+        {
+          "label": "Pink",
+          "min": 94,
+          "max": 101
+        },
+        {
+          "label": "Warm White",
+          "min": 102,
+          "max": 109
+        },
+        {
+          "label": "White",
+          "min": 110,
+          "max": 117
+        },
+        {
+          "label": "Cold White",
+          "min": 118,
+          "max": 125
+        },
+        {
+          "label": "Stop",
+          "min": 126,
+          "max": 128
+        },
+        {
+          "label": "Switching colors with increasing speed",
+          "min": 129,
+          "max": 192
+        },
+        {
+          "label": "Fading colors with increasing speed",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 21,
+      "type_description": "Strobe effect white 2",
+      "capabilities": [
+        {
+          "label": "LED On",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "LED Off",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Strobe effect with increasing speed",
+          "min": 11,
+          "max": 250
+        },
+        {
+          "label": "LED On",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Flash duration",
+      "capabilities": [
+        {
+          "label": "Strobe effect with increasing flash duration (0 - 510 ms)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 21,
+      "type_description": "Strobe effect",
+      "capabilities": [
+        {
+          "label": "LED On",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "LED Off",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Random pulse effect with increasing speed",
+          "min": 11,
+          "max": 33
+        },
+        {
+          "label": "Random fade in with increasing speed",
+          "min": 34,
+          "max": 56
+        },
+        {
+          "label": "Random fade out with increasing speed",
+          "min": 57,
+          "max": 79
+        },
+        {
+          "label": "Random strobe effect with increasing speed",
+          "min": 80,
+          "max": 102
+        },
+        {
+          "label": "Lightning 5 s to 1 s",
+          "min": 103,
+          "max": 127
+        },
+        {
+          "label": "Strobe effect with increasing speed",
+          "min": 128,
+          "max": 250
+        },
+        {
+          "label": "LED On",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 21,
+      "type_description": "Sound controlled strobe effect",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Sound controlled strobe effect with increasing microphone sensitivity",
+          "min": 6,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-LED-Strobe-SMD-PRO-132-DMX-RGB.json",
+  "id": 722
+}

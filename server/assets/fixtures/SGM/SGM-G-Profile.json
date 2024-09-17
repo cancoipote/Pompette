@@ -1,0 +1,1072 @@
+{
+  "version": "1.0.0",
+  "label": "G-Profile",
+  "manufacturer": "SGM",
+  "bulb_type": "LED",
+  "bulb_lumens": 170000,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 52,
+  "dimension_width": 492,
+  "dimension_height": 821,
+  "dimension_depth": 585,
+  "lens_label": "Other",
+  "lens_degree_min": 8,
+  "lens_degree_max": 43,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 240,
+  "technical_power_consumption": 11000,
+  "technical_dmx_connector": "5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Open 1 ('pre heat' enabled)",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Strobe, slow -> fast",
+          "min": 16,
+          "max": 151
+        },
+        {
+          "label": "Pulse - open, slow -> fast",
+          "min": 152,
+          "max": 175
+        },
+        {
+          "label": "Pulse - close, slow -> fast",
+          "min": 176,
+          "max": 199
+        },
+        {
+          "label": "Strobe - random, slow -> fast",
+          "min": 200,
+          "max": 244
+        },
+        {
+          "label": "Open 2 ('pre-heat' enabled)",
+          "min": 245,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "CTC",
+      "capabilities": [
+        {
+          "label": "No CTC (raw)",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "≈2000°K",
+          "min": 5,
+          "max": 5
+        },
+        {
+          "label": "No function",
+          "min": 6,
+          "max": 14
+        },
+        {
+          "label": "≈2200°K",
+          "min": 15,
+          "max": 15
+        },
+        {
+          "label": "No function",
+          "min": 16,
+          "max": 39
+        },
+        {
+          "label": "≈2700°K",
+          "min": 40,
+          "max": 40
+        },
+        {
+          "label": "No function",
+          "min": 41,
+          "max": 53
+        },
+        {
+          "label": "≈3000°K",
+          "min": 54,
+          "max": 54
+        },
+        {
+          "label": "No function",
+          "min": 55,
+          "max": 64
+        },
+        {
+          "label": "≈3200°K",
+          "min": 65,
+          "max": 65
+        },
+        {
+          "label": "No function",
+          "min": 66,
+          "max": 104
+        },
+        {
+          "label": "≈4000°K",
+          "min": 105,
+          "max": 105
+        },
+        {
+          "label": "No function",
+          "min": 106,
+          "max": 114
+        },
+        {
+          "label": "≈4200°K",
+          "min": 115,
+          "max": 115
+        },
+        {
+          "label": "No function",
+          "min": 116,
+          "max": 176
+        },
+        {
+          "label": "≈5500°K",
+          "min": 177,
+          "max": 177
+        },
+        {
+          "label": "No function",
+          "min": 178,
+          "max": 215
+        },
+        {
+          "label": "≈6300°K",
+          "min": 216,
+          "max": 216
+        },
+        {
+          "label": "No function",
+          "min": 217,
+          "max": 237
+        },
+        {
+          "label": "≈8000°K",
+          "min": 238,
+          "max": 238
+        },
+        {
+          "label": "No function",
+          "min": 239,
+          "max": 254
+        },
+        {
+          "label": "≈10000°K",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Pan (Coarse)",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Tilt (Coarse)",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 4,
+      "type_description": "Gobo Wheel 1",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Gobo 1 - position 1",
+          "min": 21,
+          "max": 41
+        },
+        {
+          "label": "Gobo 1 - position 2",
+          "min": 42,
+          "max": 62
+        },
+        {
+          "label": "Gobo 1 - position 3",
+          "min": 63,
+          "max": 83
+        },
+        {
+          "label": "Gobo 1 - position 4",
+          "min": 84,
+          "max": 104
+        },
+        {
+          "label": "Gobo 1 - position 5",
+          "min": 105,
+          "max": 127
+        },
+        {
+          "label": "Continuous rotation CW",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "No rotation",
+          "min": 192,
+          "max": 192
+        },
+        {
+          "label": "Continuous rotation CCW",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 4,
+      "type_description": "Gobo Wheel 1 Indexing/Rotation/Shake (Coarse)",
+      "capabilities": [
+        {
+          "label": "Gobo wheel 1 indexing/rotation/shake (coarse)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 4,
+      "type_description": "Gobo Wheel 1 Indexing/Rotation/Shake (Fine)",
+      "capabilities": [
+        {
+          "label": "Gobo wheel 1 indexing/rotation/shake (fine)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 21,
+      "type_description": "Blade 1 In",
+      "capabilities": [
+        {
+          "label": "Out -> In",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 21,
+      "type_description": "Blade 2 In",
+      "capabilities": [
+        {
+          "label": "Out -> In",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 21,
+      "type_description": "Blade 3 In",
+      "capabilities": [
+        {
+          "label": "Out -> In",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 21,
+      "type_description": "Blade 4 In",
+      "capabilities": [
+        {
+          "label": "Out -> In",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 21,
+      "type_description": "Blade 1 Angle",
+      "capabilities": [
+        {
+          "label": "-30° -> +30°",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 21,
+      "type_description": "Blade 2 Angle",
+      "capabilities": [
+        {
+          "label": "-30° -> +30°",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 21,
+      "type_description": "Blade 3 Angle",
+      "capabilities": [
+        {
+          "label": "-30° -> +30°",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 21,
+      "type_description": "Blade 4 Angle",
+      "capabilities": [
+        {
+          "label": "-30° -> +30°",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 21,
+      "type_description": "Blade Assembly Rotate",
+      "capabilities": [
+        {
+          "label": "-45° -> +45°",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 3,
+      "type_description": "Effect Wheel (Coarse)",
+      "capabilities": [
+        {
+          "label": "Effect wheel (coarse)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "type": 3,
+      "type_description": "Effect Wheel (Fine)",
+      "capabilities": [
+        {
+          "label": "Effect wheel (fine)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "type": 1,
+      "type_description": "Iris",
+      "capabilities": [
+        {
+          "label": "Open -> close",
+          "min": 0,
+          "max": 200
+        },
+        {
+          "label": "Effect - \"open fast / close slow\"",
+          "min": 201,
+          "max": 205
+        },
+        {
+          "label": "Effect - \"open slow / close fast\"",
+          "min": 206,
+          "max": 210
+        },
+        {
+          "label": "Effect - \"open / close\"",
+          "min": 211,
+          "max": 215
+        },
+        {
+          "label": "Effect - \"random close / open\", slow -> fast",
+          "min": 216,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Continuous rotation CW, fast -> slow",
+          "min": 5,
+          "max": 129
+        },
+        {
+          "label": "No rotation",
+          "min": 130,
+          "max": 130
+        },
+        {
+          "label": "Continuous rotation CCW, slow to fast",
+          "min": 131,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "type": 3,
+      "type_description": "Frost",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "No frost -> maximum frost",
+          "min": 6,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 3,
+      "type_description": "Effect Channel",
+      "capabilities": [
+        {
+          "label": "No effect",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Reserved (no function)",
+          "min": 5,
+          "max": 15
+        },
+        {
+          "label": "Reserved (no function)",
+          "min": 16,
+          "max": 26
+        },
+        {
+          "label": "Shutter black = red",
+          "min": 27,
+          "max": 32
+        },
+        {
+          "label": "Shutter black = green",
+          "min": 33,
+          "max": 38
+        },
+        {
+          "label": "Shutter black = blue",
+          "min": 39,
+          "max": 44
+        },
+        {
+          "label": "Shutter black = white",
+          "min": 45,
+          "max": 50
+        },
+        {
+          "label": "Shutter black = magenta",
+          "min": 51,
+          "max": 56
+        },
+        {
+          "label": "Shutter black = yellow",
+          "min": 57,
+          "max": 62
+        },
+        {
+          "label": "Shutter black = cyan",
+          "min": 63,
+          "max": 68
+        },
+        {
+          "label": "Reserved (no function)",
+          "min": 69,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "type": 17,
+      "type_description": "Control Channel",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Full reset",
+          "min": 5,
+          "max": 9
+        },
+        {
+          "label": "Pan reset",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "Tilt reset",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "Gobo reset",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "Zoom reset",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "Sleep mode",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "Display off",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "Display on",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "LED frequency (100kHz - 1.41kHz)",
+          "min": 45,
+          "max": 115
+        },
+        {
+          "label": "Capture scene 1",
+          "min": 116,
+          "max": 119
+        },
+        {
+          "label": "Capture scene 2",
+          "min": 120,
+          "max": 123
+        },
+        {
+          "label": "Capture scene 3",
+          "min": 124,
+          "max": 127
+        },
+        {
+          "label": "Capture scene 4",
+          "min": 128,
+          "max": 131
+        },
+        {
+          "label": "Capture scene 5",
+          "min": 132,
+          "max": 135
+        },
+        {
+          "label": "Capture scene 6",
+          "min": 136,
+          "max": 139
+        },
+        {
+          "label": "Capture scene 7",
+          "min": 140,
+          "max": 143
+        },
+        {
+          "label": "Capture scene 8",
+          "min": 144,
+          "max": 147
+        },
+        {
+          "label": "Capture scene 9",
+          "min": 148,
+          "max": 151
+        },
+        {
+          "label": "Capture scene 10",
+          "min": 152,
+          "max": 155
+        },
+        {
+          "label": "Capture scene 11",
+          "min": 156,
+          "max": 159
+        },
+        {
+          "label": "Capture scene 12",
+          "min": 160,
+          "max": 163
+        },
+        {
+          "label": "Capture scene 13",
+          "min": 164,
+          "max": 167
+        },
+        {
+          "label": "Capture scene 14",
+          "min": 168,
+          "max": 171
+        },
+        {
+          "label": "Capture scene 15",
+          "min": 172,
+          "max": 175
+        },
+        {
+          "label": "Capture scene 16",
+          "min": 176,
+          "max": 179
+        },
+        {
+          "label": "Capture scene 17",
+          "min": 180,
+          "max": 183
+        },
+        {
+          "label": "Capture scene 18",
+          "min": 184,
+          "max": 187
+        },
+        {
+          "label": "Capture scene 19",
+          "min": 188,
+          "max": 191
+        },
+        {
+          "label": "Capture scene 20",
+          "min": 192,
+          "max": 195
+        },
+        {
+          "label": "Capture scene 21",
+          "min": 196,
+          "max": 199
+        },
+        {
+          "label": "Capture scene 22",
+          "min": 200,
+          "max": 203
+        },
+        {
+          "label": "Capture scene 23",
+          "min": 204,
+          "max": 207
+        },
+        {
+          "label": "Capture scene 24",
+          "min": 208,
+          "max": 211
+        },
+        {
+          "label": "Reserved (no function)",
+          "min": 212,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "type": 0,
+      "type_description": "Pan (Fine)",
+      "capabilities": []
+    },
+    {
+      "index": 30,
+      "type": 0,
+      "type_description": "Tilt (Fine)",
+      "capabilities": []
+    },
+    {
+      "index": 31,
+      "type": 0,
+      "type_description": "Red (Fine)",
+      "capabilities": []
+    },
+    {
+      "index": 32,
+      "type": 0,
+      "type_description": "Green (Fine)",
+      "capabilities": []
+    },
+    {
+      "index": 33,
+      "type": 0,
+      "type_description": "Blue (Fine)",
+      "capabilities": []
+    },
+    {
+      "index": 34,
+      "type": 0,
+      "type_description": "Intensity (Fine)",
+      "capabilities": []
+    },
+    {
+      "index": 35,
+      "type": 21,
+      "type_description": "Blade 1 In (Fine)",
+      "capabilities": [
+        {
+          "label": "Out -> In",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "type": 21,
+      "type_description": "Blade 2 In (Fine)",
+      "capabilities": [
+        {
+          "label": "Out -> In",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "type": 21,
+      "type_description": "Blade 3 In (Fine)",
+      "capabilities": [
+        {
+          "label": "Out -> In",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "type": 21,
+      "type_description": "Blade 4 In (Fine)",
+      "capabilities": [
+        {
+          "label": "Out -> In",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "type": 21,
+      "type_description": "Blade 1 Angle (Fine)",
+      "capabilities": [
+        {
+          "label": "-30° -> +30°",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "type": 21,
+      "type_description": "Blade 2 Angle (Fine)",
+      "capabilities": [
+        {
+          "label": "-30° -> +30°",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "type": 21,
+      "type_description": "Blade 3 Angle (Fine)",
+      "capabilities": [
+        {
+          "label": "-30° -> +30°",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "type": 21,
+      "type_description": "Blade 4 Angle (Fine)",
+      "capabilities": [
+        {
+          "label": "-30° -> +30°",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "type": 21,
+      "type_description": "Blade Assembly Rotate (Fine)",
+      "capabilities": [
+        {
+          "label": "-45° -> +45°",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "type": 1,
+      "type_description": "Zoom (Fine)",
+      "capabilities": [
+        {
+          "label": "Wide -> narrow",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "type": 1,
+      "type_description": "Focus (Fine)",
+      "capabilities": [
+        {
+          "label": "Far -> near",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "type": 0,
+      "type_description": "Red (Coarse)",
+      "capabilities": []
+    },
+    {
+      "index": 47,
+      "type": 0,
+      "type_description": "Green (Coarse)",
+      "capabilities": []
+    },
+    {
+      "index": 48,
+      "type": 0,
+      "type_description": "Blue (Coarse)",
+      "capabilities": []
+    },
+    {
+      "index": 49,
+      "type": 0,
+      "type_description": "Intensity (Coarse)",
+      "capabilities": []
+    },
+    {
+      "index": 50,
+      "type": 21,
+      "type_description": "Blade 1 In (Coarse)",
+      "capabilities": [
+        {
+          "label": "Out -> In",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "type": 21,
+      "type_description": "Blade 2 In (Coarse)",
+      "capabilities": [
+        {
+          "label": "Out -> In",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "type": 21,
+      "type_description": "Blade 3 In (Coarse)",
+      "capabilities": [
+        {
+          "label": "Out -> In",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "type": 21,
+      "type_description": "Blade 4 In (Coarse)",
+      "capabilities": [
+        {
+          "label": "Out -> In",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "type": 21,
+      "type_description": "Blade 1 Angle (Coarse)",
+      "capabilities": [
+        {
+          "label": "-30° -> +30°",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "type": 21,
+      "type_description": "Blade 2 Angle (Coarse)",
+      "capabilities": [
+        {
+          "label": "-30° -> +30°",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "type": 21,
+      "type_description": "Blade 3 Angle (Coarse)",
+      "capabilities": [
+        {
+          "label": "-30° -> +30°",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "type": 21,
+      "type_description": "Blade 4 Angle (Coarse)",
+      "capabilities": [
+        {
+          "label": "-30° -> +30°",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "type": 21,
+      "type_description": "Blade Assembly Rotate (Coarse)",
+      "capabilities": [
+        {
+          "label": "-45° -> +45°",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "type": 0,
+      "type_description": "Zoom (Coarse)",
+      "capabilities": []
+    },
+    {
+      "index": 60,
+      "type": 0,
+      "type_description": "Focus (Coarse)",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/SGM/SGM-G-Profile.json",
+  "id": 1244
+}

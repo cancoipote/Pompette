@@ -1,0 +1,475 @@
+{
+  "version": "1.0.0",
+  "label": "ClubSpot 500 CT",
+  "manufacturer": "Robe",
+  "bulb_type": "MSD 575W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 32,
+  "dimension_width": 467,
+  "dimension_height": 564,
+  "dimension_depth": 491,
+  "lens_label": "Other",
+  "lens_degree_min": 15,
+  "lens_degree_max": 22,
+  "focus_type": "Head",
+  "focus_pan_max": 530,
+  "focus_tilt_max": 280,
+  "technical_power_consumption": 740,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": [
+        {
+          "label": "Tracking",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Vect Mode",
+          "min": 1,
+          "max": 249
+        },
+        {
+          "label": "BO during Col",
+          "min": 250,
+          "max": 252
+        },
+        {
+          "label": "BO during Pan/Tilt/Col",
+          "min": 253,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 17,
+      "type_description": "Control",
+      "capabilities": [
+        {
+          "label": "Fan speed max to min",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Lamp on, reset",
+          "min": 128,
+          "max": 139
+        },
+        {
+          "label": "No function",
+          "min": 140,
+          "max": 229
+        },
+        {
+          "label": "Lamp off after 3 secs",
+          "min": 230,
+          "max": 239
+        },
+        {
+          "label": "No function",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Colours",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "White/Light blue",
+          "min": 1,
+          "max": 12
+        },
+        {
+          "label": "Light blue",
+          "min": 13,
+          "max": 13
+        },
+        {
+          "label": "Light blue/Red",
+          "min": 14,
+          "max": 25
+        },
+        {
+          "label": "Red",
+          "min": 26,
+          "max": 26
+        },
+        {
+          "label": "Red/Blue",
+          "min": 27,
+          "max": 37
+        },
+        {
+          "label": "Blue",
+          "min": 38,
+          "max": 38
+        },
+        {
+          "label": "Blue/Light green",
+          "min": 39,
+          "max": 50
+        },
+        {
+          "label": "Light green",
+          "min": 51,
+          "max": 51
+        },
+        {
+          "label": "Light green/Yellow",
+          "min": 52,
+          "max": 63
+        },
+        {
+          "label": "Yellow",
+          "min": 64,
+          "max": 64
+        },
+        {
+          "label": "Yellow/Magenta",
+          "min": 65,
+          "max": 76
+        },
+        {
+          "label": "Magenta",
+          "min": 77,
+          "max": 77
+        },
+        {
+          "label": "Magenta/Cyan",
+          "min": 78,
+          "max": 89
+        },
+        {
+          "label": "Cyan",
+          "min": 90,
+          "max": 90
+        },
+        {
+          "label": "Cyan/Green",
+          "min": 91,
+          "max": 101
+        },
+        {
+          "label": "Green",
+          "min": 102,
+          "max": 102
+        },
+        {
+          "label": "Green/Orange",
+          "min": 103,
+          "max": 114
+        },
+        {
+          "label": "Orange",
+          "min": 115,
+          "max": 115
+        },
+        {
+          "label": "Orange/White",
+          "min": 116,
+          "max": 127
+        },
+        {
+          "label": "Forwards rainbow fast to slow",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "No rotation",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Backwards rainbow slow to fast",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Forwards rotation fast to slow",
+          "min": 1,
+          "max": 63
+        },
+        {
+          "label": "No rotation",
+          "min": 64,
+          "max": 64
+        },
+        {
+          "label": "Backwards rotation slow to fast",
+          "min": 65,
+          "max": 127
+        },
+        {
+          "label": "Macro 1",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Macro 2",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Macro 3",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Macro 4",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Macro 5",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Macro 6",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Macro 7",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Macro 8",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Macro 9",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Macro 10",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Macro 11",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Macro 12",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Macro 13",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Macro 14",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Macro 15",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Macro 16",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Gobo 1 (multicolour)",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Gobo 2",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Gobo 3",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Gobo 4",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Gobo 5 (dichroic)",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Gobo 6",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Rotation slow to fast",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 4,
+      "type_description": "Gobo index",
+      "capabilities": [
+        {
+          "label": "Gobo indexing",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Forwards gobo rotation fast to slow",
+          "min": 128,
+          "max": 190
+        },
+        {
+          "label": "No rotation",
+          "min": 191,
+          "max": 192
+        },
+        {
+          "label": "Backwards rotation slow to fast",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 21,
+      "type_description": "Shutter, strobe",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Shutter open",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe slow to fast",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Shutter open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Closing pulse slow to fast",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Opening pulse fast to slow",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "No function",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random strobe slow to fast",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Shutter open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Robe/Robe-ClubSpot-500-CT.json",
+  "id": 1191
+}

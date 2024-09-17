@@ -1,0 +1,98 @@
+{
+  "version": "1.0.0",
+  "label": "LED PAR 64 RGB 36x1W",
+  "manufacturer": "Cameo",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 260,
+  "dimension_height": 280,
+  "dimension_depth": 300,
+  "lens_label": "Other",
+  "lens_degree_min": 30,
+  "lens_degree_max": 30,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 50,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 17,
+      "type_description": "Adjustment",
+      "capabilities": [
+        {
+          "label": "no function",
+          "min": 0,
+          "max": 16
+        },
+        {
+          "label": "Strobe/Speed Adjust/Sound Sensitivity Adjust",
+          "min": 17,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 17,
+      "type_description": "Settings",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Colour mixing",
+          "min": 32,
+          "max": 95
+        },
+        {
+          "label": "RGB colour change",
+          "min": 96,
+          "max": 159
+        },
+        {
+          "label": "7 colour change",
+          "min": 160,
+          "max": 233
+        },
+        {
+          "label": "Sound activation",
+          "min": 234,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Cameo/Cameo-LED-PAR-64-CAN-RGB-36x1W.json",
+  "id": 304
+}

@@ -1,0 +1,368 @@
+{
+  "version": "1.0.0",
+  "label": "The Winner II",
+  "manufacturer": "JB Systems",
+  "bulb_type": "ELC 250W",
+  "bulb_lumens": 1800,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 10,
+  "dimension_width": 200,
+  "dimension_height": 155,
+  "dimension_depth": 500,
+  "lens_label": "Other",
+  "lens_degree_min": 13,
+  "lens_degree_max": 13,
+  "focus_type": "Mirror",
+  "focus_pan_max": 180,
+  "focus_tilt_max": 90,
+  "technical_power_consumption": 350,
+  "technical_dmx_connector": "3-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Stopped",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Cycle gobo+color - slow to fast",
+          "min": 10,
+          "max": 91
+        },
+        {
+          "label": "Cycle color - slow to fast",
+          "min": 92,
+          "max": 173
+        },
+        {
+          "label": "Cycle gobo - slow to fast",
+          "min": 174,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Blackout --> Open",
+          "min": 1,
+          "max": 7
+        },
+        {
+          "label": "Open",
+          "min": 8,
+          "max": 8
+        },
+        {
+          "label": "Open --> Circle",
+          "min": 9,
+          "max": 15
+        },
+        {
+          "label": "1 - Circle",
+          "min": 16,
+          "max": 16
+        },
+        {
+          "label": "Circle --> Square outline",
+          "min": 17,
+          "max": 23
+        },
+        {
+          "label": "2 - Square outline",
+          "min": 24,
+          "max": 24
+        },
+        {
+          "label": "Square outline --> Circle outline",
+          "min": 25,
+          "max": 31
+        },
+        {
+          "label": "3 - Circle outline",
+          "min": 32,
+          "max": 32
+        },
+        {
+          "label": "Circle outline --> Circle dotted",
+          "min": 33,
+          "max": 39
+        },
+        {
+          "label": "4 - Circle dotted outline",
+          "min": 40,
+          "max": 40
+        },
+        {
+          "label": "Circle dotted --> Sunrise",
+          "min": 41,
+          "max": 47
+        },
+        {
+          "label": "5 - Sunrise",
+          "min": 48,
+          "max": 48
+        },
+        {
+          "label": "Sunrise --> Circle zoom",
+          "min": 49,
+          "max": 55
+        },
+        {
+          "label": "6 - Circle zoom",
+          "min": 56,
+          "max": 56
+        },
+        {
+          "label": "Circle zoom --> Four circles",
+          "min": 57,
+          "max": 63
+        },
+        {
+          "label": "7 - Four circles",
+          "min": 64,
+          "max": 64
+        },
+        {
+          "label": "Four circles --> Hand",
+          "min": 65,
+          "max": 71
+        },
+        {
+          "label": "8 - Hand",
+          "min": 72,
+          "max": 72
+        },
+        {
+          "label": "Hand --> Circle woods",
+          "min": 73,
+          "max": 79
+        },
+        {
+          "label": "10 - Circle woods texture",
+          "min": 80,
+          "max": 80
+        },
+        {
+          "label": "Circle woods --> Circle stripes",
+          "min": 81,
+          "max": 87
+        },
+        {
+          "label": "11 - Circle stripes",
+          "min": 88,
+          "max": 88
+        },
+        {
+          "label": "Circle stripes --> Circle tilted",
+          "min": 89,
+          "max": 95
+        },
+        {
+          "label": "11 - Circle tilted",
+          "min": 96,
+          "max": 96
+        },
+        {
+          "label": "Circle tilted --> Dots",
+          "min": 97,
+          "max": 103
+        },
+        {
+          "label": "12 - Dots",
+          "min": 104,
+          "max": 104
+        },
+        {
+          "label": "Dots --> Pinwheel",
+          "min": 105,
+          "max": 111
+        },
+        {
+          "label": "13 - Pinwheel",
+          "min": 112,
+          "max": 112
+        },
+        {
+          "label": "Pinwheel --> Twirl",
+          "min": 113,
+          "max": 119
+        },
+        {
+          "label": "14 - Twirl",
+          "min": 120,
+          "max": 120
+        },
+        {
+          "label": "Twirl --> Blackout",
+          "min": 121,
+          "max": 127
+        },
+        {
+          "label": "Cycle slow-fast",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "White/Green",
+          "min": 1,
+          "max": 10
+        },
+        {
+          "label": "Green",
+          "min": 11,
+          "max": 11
+        },
+        {
+          "label": "Green/Orange",
+          "min": 12,
+          "max": 21
+        },
+        {
+          "label": "Orange",
+          "min": 22,
+          "max": 22
+        },
+        {
+          "label": "Orange/Light blue",
+          "min": 23,
+          "max": 32
+        },
+        {
+          "label": "Light blue",
+          "min": 33,
+          "max": 33
+        },
+        {
+          "label": "Light blue/Amber",
+          "min": 34,
+          "max": 43
+        },
+        {
+          "label": "Amber",
+          "min": 44,
+          "max": 44
+        },
+        {
+          "label": "Amber/Red",
+          "min": 45,
+          "max": 54
+        },
+        {
+          "label": "Red",
+          "min": 55,
+          "max": 55
+        },
+        {
+          "label": "Red/Purple",
+          "min": 56,
+          "max": 65
+        },
+        {
+          "label": "Purple",
+          "min": 66,
+          "max": 66
+        },
+        {
+          "label": "Purple/Pink",
+          "min": 67,
+          "max": 76
+        },
+        {
+          "label": "Pink",
+          "min": 77,
+          "max": 77
+        },
+        {
+          "label": "Pink/Light green",
+          "min": 78,
+          "max": 87
+        },
+        {
+          "label": "Light green",
+          "min": 88,
+          "max": 88
+        },
+        {
+          "label": "Light green/Blue",
+          "min": 89,
+          "max": 98
+        },
+        {
+          "label": "Blue",
+          "min": 99,
+          "max": 99
+        },
+        {
+          "label": "Blue/Yellow",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Yellow",
+          "min": 110,
+          "max": 110
+        },
+        {
+          "label": "Yellow/Magenta",
+          "min": 111,
+          "max": 120
+        },
+        {
+          "label": "Magenta",
+          "min": 121,
+          "max": 121
+        },
+        {
+          "label": "Magenta/White",
+          "min": 122,
+          "max": 127
+        },
+        {
+          "label": "Cycle slow to fast",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/JB_Systems/JB-Systems-The-WinnerII.json",
+  "id": 937
+}

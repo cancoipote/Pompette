@@ -1,0 +1,187 @@
+{
+  "version": "1.0.0",
+  "label": "SlimPar Hex 6",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 1184,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 213,
+  "dimension_height": 120,
+  "dimension_depth": 224,
+  "lens_label": "Other",
+  "lens_degree_min": 30,
+  "lens_degree_max": 30,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 60,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "UV",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 21,
+      "type_description": "Strobing",
+      "capabilities": [
+        {
+          "label": "No strobe",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Slow - fast",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Color Macro",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Color Macros",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Programs",
+      "capabilities": [
+        {
+          "label": "No program",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Auto Program 1",
+          "min": 11,
+          "max": 50
+        },
+        {
+          "label": "Auto Program 2",
+          "min": 51,
+          "max": 100
+        },
+        {
+          "label": "Auto Program 3",
+          "min": 101,
+          "max": 150
+        },
+        {
+          "label": "Auto Program 4",
+          "min": 151,
+          "max": 200
+        },
+        {
+          "label": "Sound Active mode (6-colors)",
+          "min": 201,
+          "max": 225
+        },
+        {
+          "label": "Sound Active mode (63-colors)",
+          "min": 226,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Program Speed/Sound Sensitive",
+      "capabilities": [
+        {
+          "label": "Auto Program Speed (slow to fast)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 3,
+      "type_description": "Dimmer Mode",
+      "capabilities": [
+        {
+          "label": "Dimmer mode is manually set in Menue Options",
+          "min": 0,
+          "max": 51
+        },
+        {
+          "label": "Dimmer mode off",
+          "min": 52,
+          "max": 101
+        },
+        {
+          "label": "Dimmer Mode 1 (fast speed)",
+          "min": 102,
+          "max": 152
+        },
+        {
+          "label": "Dimmer Mode 2 (meduim speed)",
+          "min": 153,
+          "max": 203
+        },
+        {
+          "label": "Dimmer Mode 3 (slow speed)",
+          "min": 204,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-SlimPar-Hex-6.json",
+  "id": 536
+}

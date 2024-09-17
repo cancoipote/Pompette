@@ -1,0 +1,672 @@
+{
+  "version": "1.0.0",
+  "label": "CX-10 Extreme",
+  "manufacturer": "Martin",
+  "bulb_type": "HSD 250W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 19,
+  "dimension_width": 412,
+  "dimension_height": 326,
+  "dimension_depth": 340,
+  "lens_label": "",
+  "lens_degree_min": 22,
+  "lens_degree_max": 22,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 360,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Shutter, Strobe, Reset, Lamp On/Off",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Open",
+          "min": 20,
+          "max": 49
+        },
+        {
+          "label": "Strobe fast to slow",
+          "min": 50,
+          "max": 72
+        },
+        {
+          "label": "Open",
+          "min": 73,
+          "max": 79
+        },
+        {
+          "label": "Open Pulse fast to slow",
+          "min": 80,
+          "max": 99
+        },
+        {
+          "label": "Close Pulse fast to slow",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "Open",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Random Strobe",
+          "min": 128,
+          "max": 187
+        },
+        {
+          "label": "Open",
+          "min": 188,
+          "max": 190
+        },
+        {
+          "label": "Random Open Pulse fast",
+          "min": 191,
+          "max": 193
+        },
+        {
+          "label": "Random Open Pulse slow",
+          "min": 194,
+          "max": 196
+        },
+        {
+          "label": "Random Close Pulse fast",
+          "min": 197,
+          "max": 199
+        },
+        {
+          "label": "Random Close Pulse slow",
+          "min": 200,
+          "max": 202
+        },
+        {
+          "label": "Open",
+          "min": 203,
+          "max": 207
+        },
+        {
+          "label": "Reset",
+          "min": 208,
+          "max": 217
+        },
+        {
+          "label": "Open",
+          "min": 218,
+          "max": 227
+        },
+        {
+          "label": "Lamp On",
+          "min": 228,
+          "max": 237
+        },
+        {
+          "label": "Open",
+          "min": 238,
+          "max": 247
+        },
+        {
+          "label": "Lamp Off",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Open/UV",
+          "min": 1,
+          "max": 11
+        },
+        {
+          "label": "UV",
+          "min": 12,
+          "max": 12
+        },
+        {
+          "label": "UV/Yellow",
+          "min": 13,
+          "max": 23
+        },
+        {
+          "label": "Yellow",
+          "min": 24,
+          "max": 24
+        },
+        {
+          "label": "Yellow/Blue",
+          "min": 25,
+          "max": 35
+        },
+        {
+          "label": "Blue",
+          "min": 36,
+          "max": 36
+        },
+        {
+          "label": "Blue/Pink",
+          "min": 37,
+          "max": 47
+        },
+        {
+          "label": "Pink",
+          "min": 48,
+          "max": 48
+        },
+        {
+          "label": "Pink/Green",
+          "min": 49,
+          "max": 59
+        },
+        {
+          "label": "Green",
+          "min": 60,
+          "max": 60
+        },
+        {
+          "label": "Green/Blue",
+          "min": 61,
+          "max": 71
+        },
+        {
+          "label": "Blue",
+          "min": 72,
+          "max": 72
+        },
+        {
+          "label": "Blue/Red",
+          "min": 73,
+          "max": 83
+        },
+        {
+          "label": "Red",
+          "min": 84,
+          "max": 84
+        },
+        {
+          "label": "Red/Magenta",
+          "min": 85,
+          "max": 95
+        },
+        {
+          "label": "Magenta",
+          "min": 96,
+          "max": 96
+        },
+        {
+          "label": "Magenta/Blue",
+          "min": 97,
+          "max": 107
+        },
+        {
+          "label": "Blue",
+          "min": 108,
+          "max": 108
+        },
+        {
+          "label": "Blue/Orange",
+          "min": 109,
+          "max": 119
+        },
+        {
+          "label": "Orange",
+          "min": 120,
+          "max": 120
+        },
+        {
+          "label": "Orange/Dark Green",
+          "min": 121,
+          "max": 131
+        },
+        {
+          "label": "Dark Green",
+          "min": 132,
+          "max": 132
+        },
+        {
+          "label": "Dark Green/Purple",
+          "min": 133,
+          "max": 143
+        },
+        {
+          "label": "Purple",
+          "min": 144,
+          "max": 144
+        },
+        {
+          "label": "Purple/White",
+          "min": 145,
+          "max": 155
+        },
+        {
+          "label": "Purple",
+          "min": 156,
+          "max": 159
+        },
+        {
+          "label": "Dark Green",
+          "min": 160,
+          "max": 163
+        },
+        {
+          "label": "Orange",
+          "min": 164,
+          "max": 167
+        },
+        {
+          "label": "Blue",
+          "min": 168,
+          "max": 171
+        },
+        {
+          "label": "Magenta",
+          "min": 172,
+          "max": 175
+        },
+        {
+          "label": "Red",
+          "min": 176,
+          "max": 179
+        },
+        {
+          "label": "Blue",
+          "min": 180,
+          "max": 183
+        },
+        {
+          "label": "Green",
+          "min": 184,
+          "max": 187
+        },
+        {
+          "label": "Pink",
+          "min": 188,
+          "max": 191
+        },
+        {
+          "label": "Blue",
+          "min": 192,
+          "max": 195
+        },
+        {
+          "label": "Yellow",
+          "min": 196,
+          "max": 199
+        },
+        {
+          "label": "UV",
+          "min": 200,
+          "max": 203
+        },
+        {
+          "label": "Open",
+          "min": 204,
+          "max": 207
+        },
+        {
+          "label": "Random color Fast",
+          "min": 208,
+          "max": 210
+        },
+        {
+          "label": "Random color Medium",
+          "min": 211,
+          "max": 213
+        },
+        {
+          "label": "Random color Slow",
+          "min": 214,
+          "max": 217
+        },
+        {
+          "label": "Scroll CW",
+          "min": 218,
+          "max": 236
+        },
+        {
+          "label": "Scroll CCW",
+          "min": 237,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 4,
+      "type_description": "Effects",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Open --> Effect 1",
+          "min": 1,
+          "max": 11
+        },
+        {
+          "label": "Effect 1 Continuous Scroll",
+          "min": 12,
+          "max": 12
+        },
+        {
+          "label": "Effect 1 --> Effect 2",
+          "min": 13,
+          "max": 23
+        },
+        {
+          "label": "Effect 2 Continuous Scroll",
+          "min": 24,
+          "max": 24
+        },
+        {
+          "label": "Effect 2 --> Effect 3",
+          "min": 25,
+          "max": 35
+        },
+        {
+          "label": "Effect 3 Continuous Scroll",
+          "min": 36,
+          "max": 36
+        },
+        {
+          "label": "Effect 3 --> Effect 4",
+          "min": 37,
+          "max": 47
+        },
+        {
+          "label": "Effect 4 Continuous Scroll",
+          "min": 48,
+          "max": 48
+        },
+        {
+          "label": "Effect 4 --> Effect 5",
+          "min": 49,
+          "max": 59
+        },
+        {
+          "label": "Effect 5 Continuous Scroll",
+          "min": 60,
+          "max": 60
+        },
+        {
+          "label": "Effect 5 --> Effect 6",
+          "min": 61,
+          "max": 71
+        },
+        {
+          "label": "Effect 6 Continuous Scroll",
+          "min": 72,
+          "max": 72
+        },
+        {
+          "label": "Effect 6 --> Effect 7",
+          "min": 73,
+          "max": 83
+        },
+        {
+          "label": "Effect 7 Continuous Scroll",
+          "min": 84,
+          "max": 84
+        },
+        {
+          "label": "Effect 7 --> Effect 8",
+          "min": 85,
+          "max": 95
+        },
+        {
+          "label": "Effect 8 Continuous Scroll",
+          "min": 96,
+          "max": 96
+        },
+        {
+          "label": "Effect 8 --> Effect 9",
+          "min": 97,
+          "max": 107
+        },
+        {
+          "label": "Effect 9 Continuous Scroll",
+          "min": 108,
+          "max": 108
+        },
+        {
+          "label": "Effect 9 --> Effect 10",
+          "min": 109,
+          "max": 119
+        },
+        {
+          "label": "Effect 10 Continuous Scroll",
+          "min": 120,
+          "max": 120
+        },
+        {
+          "label": "Effect 10 --> Effect 11",
+          "min": 121,
+          "max": 131
+        },
+        {
+          "label": "Effect 11 Continuous Scroll",
+          "min": 132,
+          "max": 132
+        },
+        {
+          "label": "Effect 11 --> Effect 12",
+          "min": 133,
+          "max": 143
+        },
+        {
+          "label": "Effect 12 Continuous Scroll",
+          "min": 144,
+          "max": 144
+        },
+        {
+          "label": "Effect 12 --> Open",
+          "min": 145,
+          "max": 155
+        },
+        {
+          "label": "Effect 12 Stepped Scroll",
+          "min": 156,
+          "max": 159
+        },
+        {
+          "label": "Effect 11 Stepped Scroll",
+          "min": 160,
+          "max": 163
+        },
+        {
+          "label": "Effect 10 Stepped Scroll",
+          "min": 164,
+          "max": 167
+        },
+        {
+          "label": "Effect 9 Stepped Scroll",
+          "min": 168,
+          "max": 171
+        },
+        {
+          "label": "Effect 8 Stepped Scroll",
+          "min": 172,
+          "max": 175
+        },
+        {
+          "label": "Effect 7 Stepped Scroll",
+          "min": 176,
+          "max": 179
+        },
+        {
+          "label": "Effect 6 Stepped Scroll",
+          "min": 180,
+          "max": 183
+        },
+        {
+          "label": "Effect 5 Stepped Scroll",
+          "min": 184,
+          "max": 187
+        },
+        {
+          "label": "Effect 4 Stepped Scroll",
+          "min": 188,
+          "max": 191
+        },
+        {
+          "label": "Effect 3 Stepped Scroll",
+          "min": 192,
+          "max": 195
+        },
+        {
+          "label": "Effect 2 Stepped Scroll",
+          "min": 196,
+          "max": 199
+        },
+        {
+          "label": "Effect 1 Stepped Scroll",
+          "min": 200,
+          "max": 203
+        },
+        {
+          "label": "Open",
+          "min": 204,
+          "max": 207
+        },
+        {
+          "label": "Random effect Fast",
+          "min": 208,
+          "max": 210
+        },
+        {
+          "label": "Random effect Medium",
+          "min": 211,
+          "max": 213
+        },
+        {
+          "label": "Random effect Slow",
+          "min": 214,
+          "max": 217
+        },
+        {
+          "label": "Scroll CW",
+          "min": 218,
+          "max": 236
+        },
+        {
+          "label": "Scroll CCW",
+          "min": 237,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Color Speed",
+      "capabilities": [
+        {
+          "label": "No Rotation",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Slow->Fast",
+          "min": 6,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 22,
+      "type_description": "Effect Speed",
+      "capabilities": [
+        {
+          "label": "No Rotation",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Slow->Fast",
+          "min": 6,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 1,
+      "type_description": "Frost",
+      "capabilities": [
+        {
+          "label": "Sharp edge->Frost",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "No Func",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 22,
+      "type_description": "Effects Speed Dimmer, focus, frost",
+      "capabilities": [
+        {
+          "label": "Tracking mode",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Fast->slow",
+          "min": 3,
+          "max": 245
+        },
+        {
+          "label": "Tracking",
+          "min": 246,
+          "max": 251
+        },
+        {
+          "label": "Maximum speed",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Martin/Martin-CX-10-Extreme.json",
+  "id": 1038
+}

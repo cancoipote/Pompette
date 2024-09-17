@@ -1,0 +1,238 @@
+{
+  "version": "1.0.0",
+  "label": "XS-1W Mini Moving Beam",
+  "manufacturer": "Showtec",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 7000,
+  "dimension_weight": 2,
+  "dimension_width": 125,
+  "dimension_height": 236,
+  "dimension_depth": 125,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 3,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 25,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 21,
+      "type_description": "Shutter/Strobe",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Shutter open",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Strobe effect, from slow to fast",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "Shutter open",
+          "min": 132,
+          "max": 139
+        },
+        {
+          "label": "Fast Close to slow Open, from slow to fast",
+          "min": 140,
+          "max": 181
+        },
+        {
+          "label": "Shutter open",
+          "min": 182,
+          "max": 189
+        },
+        {
+          "label": "Slow Close to Fast Open, slow Open, from slow to fast",
+          "min": 190,
+          "max": 231
+        },
+        {
+          "label": "Shutter open",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Random shutters are on or off, from long to short intervals",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Shutter open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 17,
+      "type_description": "Channel Functions",
+      "capabilities": [
+        {
+          "label": "Not used",
+          "min": 0,
+          "max": 69
+        },
+        {
+          "label": "Enable Pan/tilt blackout (after 5 seconds)",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Disable Pan/tilt blackout (after 5 seconds)",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "No function",
+          "min": 90,
+          "max": 199
+        },
+        {
+          "label": "Reset All (after 5 seconds)",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "No function",
+          "min": 210,
+          "max": 249
+        },
+        {
+          "label": "Sound-controlled",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Pan fine 16 bit",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Tilt fine 16 bit",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 3,
+      "type_description": "Pan/Tilt Macro",
+      "capabilities": [
+        {
+          "label": "Not used",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Pan/Tilt Macro 1",
+          "min": 16,
+          "max": 35
+        },
+        {
+          "label": "Pan/Tilt Macro 2",
+          "min": 36,
+          "max": 55
+        },
+        {
+          "label": "Pan/Tilt Macro 3",
+          "min": 56,
+          "max": 75
+        },
+        {
+          "label": "Pan/Tilt Macro 4",
+          "min": 76,
+          "max": 95
+        },
+        {
+          "label": "Pan/Tilt Macro 5",
+          "min": 96,
+          "max": 115
+        },
+        {
+          "label": "Pan/Tilt Macro 6",
+          "min": 116,
+          "max": 135
+        },
+        {
+          "label": "Pan/Tilt Macro 7",
+          "min": 136,
+          "max": 155
+        },
+        {
+          "label": "Pan/Tilt Macro 8",
+          "min": 156,
+          "max": 175
+        },
+        {
+          "label": "Pan/Tilt Macro 9",
+          "min": 176,
+          "max": 195
+        },
+        {
+          "label": "Pan/Tilt Macro 10",
+          "min": 196,
+          "max": 215
+        },
+        {
+          "label": "Pan/Tilt Macro 11",
+          "min": 216,
+          "max": 235
+        },
+        {
+          "label": "Pan/Tilt Macro 12",
+          "min": 236,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Pan/Tilt Macro Speed",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Showtec/Showtec-XS-1W-Mini-Moving-Beam.json",
+  "id": 1344
+}

@@ -1,0 +1,64 @@
+{
+  "version": "1.0.0",
+  "label": "X-310 Pro Fazer",
+  "manufacturer": "Antari",
+  "bulb_type": "",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 18,
+  "dimension_width": 635,
+  "dimension_height": 281,
+  "dimension_depth": 275,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 1000,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 11,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Fan speed",
+      "capabilities": [
+        {
+          "label": "Slow",
+          "min": 0,
+          "max": 85
+        },
+        {
+          "label": "Medium",
+          "min": 86,
+          "max": 170
+        },
+        {
+          "label": "Fast",
+          "min": 171,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Volume control",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Volume control",
+          "min": 6,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Antari/Antari-X-310-Pro-Fazer.json",
+  "id": 14
+}

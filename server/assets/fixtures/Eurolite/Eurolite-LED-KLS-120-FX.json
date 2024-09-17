@@ -1,0 +1,596 @@
+{
+  "version": "1.0.0",
+  "label": "LED KLS-120 FX",
+  "manufacturer": "Eurolite",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 625,
+  "dimension_height": 224,
+  "dimension_depth": 155,
+  "lens_label": "Other",
+  "lens_degree_min": 18,
+  "lens_degree_max": 18,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 45,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Auto/Music Program",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Automatic Program 1 (accelerating speed)",
+          "min": 10,
+          "max": 49
+        },
+        {
+          "label": "Automatic Program 2 (accelerating speed)",
+          "min": 50,
+          "max": 89
+        },
+        {
+          "label": "Automatic Program 3 (accelerating speed)",
+          "min": 90,
+          "max": 129
+        },
+        {
+          "label": "Music Controlled Program 1 (accelerating speed)",
+          "min": 130,
+          "max": 169
+        },
+        {
+          "label": "Music Controlled Program 2 (accelerating speed)",
+          "min": 170,
+          "max": 209
+        },
+        {
+          "label": "Music Controlled Program 3 (accelerating speed)",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Strobe Effect PAR-Spot",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Color Spot 1",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Green",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Blue",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "White",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Yellow",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Magenta",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Cyan",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Dark Orange",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Green Yellow",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Salmon",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Turquoise",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Bright Green",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Orange",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Bright Yellow",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Lavender",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Bright Blue",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Dark Blue",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Pink",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "All lights on",
+          "min": 190,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Strobe Effect Derby",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Derby Color 1",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Green",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Blue",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "White",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Red+Green",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Green+Blue",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Blue+White",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Red+White",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Green+White",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Red+Blue",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Red+Green+Blue",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Red+Green+White",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Red+Blue+White",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Green+Blue+White",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "All Lights On",
+          "min": 150,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 22,
+      "type_description": "Derby Wheel Speed",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Slow Speed",
+          "min": 10,
+          "max": 29
+        },
+        {
+          "label": "Medium Speed",
+          "min": 30,
+          "max": 49
+        },
+        {
+          "label": "Fast Speed",
+          "min": 50,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Red Spot 1",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Green Spot 1",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Blue Spot 1",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "White Spot 1",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Color Spot 2",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Green",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Blue",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "White",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Yellow",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Magenta",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Cyan",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Dark Orange",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Green Yellow",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Salmon",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Turquoise",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Bright Green",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Orange",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Bright Yellow",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Lavender",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Bright Blue",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Dark Blue",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Pink",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "All lights on",
+          "min": 190,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Derby Color 2",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Green",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Blue",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "White",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Red+Green",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Green+Blue",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Blue+White",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Red+White",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Green+White",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Red+Blue",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Red+Green+Blue",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Red+Green+White",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Red+Blue+White",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Green+Blue+White",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "All Lights On",
+          "min": 150,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Red Spot 2",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Green Spot 2",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Blue Spot 2",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "White Spot 2",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Red Derby 1",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 0,
+      "type_description": "Green Derby 1",
+      "capabilities": []
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Blue Derby 1",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "White Derby 1",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Red Derby 2",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Green Derby 2",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Blue Derby 2",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "White Derby 2",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-LED-KLS-120-FX.json",
+  "id": 688
+}

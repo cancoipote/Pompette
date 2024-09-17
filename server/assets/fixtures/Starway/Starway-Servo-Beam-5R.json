@@ -1,0 +1,710 @@
+{
+  "version": "1.0.0",
+  "label": "Servo Beam 5R",
+  "manufacturer": "Starway",
+  "bulb_type": "JENBO NSK TITANIUM 5R",
+  "bulb_lumens": 7950,
+  "bulb_color_temperature": 8000,
+  "dimension_weight": 18,
+  "dimension_width": 523,
+  "dimension_height": 337,
+  "dimension_depth": 511,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 4,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 350,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Colour Wheel",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "White + Red",
+          "min": 5,
+          "max": 8
+        },
+        {
+          "label": "Red",
+          "min": 9,
+          "max": 12
+        },
+        {
+          "label": "Red + Orange",
+          "min": 13,
+          "max": 17
+        },
+        {
+          "label": "Orange",
+          "min": 18,
+          "max": 21
+        },
+        {
+          "label": "Orange + Cyan",
+          "min": 22,
+          "max": 25
+        },
+        {
+          "label": "Cyan",
+          "min": 26,
+          "max": 29
+        },
+        {
+          "label": "Cyan + Green",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "Green",
+          "min": 35,
+          "max": 38
+        },
+        {
+          "label": "Green + Light Green",
+          "min": 39,
+          "max": 42
+        },
+        {
+          "label": "Light Green",
+          "min": 43,
+          "max": 46
+        },
+        {
+          "label": "Light Green + Lavender",
+          "min": 47,
+          "max": 51
+        },
+        {
+          "label": "Lavender",
+          "min": 52,
+          "max": 55
+        },
+        {
+          "label": "Lavender + Pink",
+          "min": 56,
+          "max": 59
+        },
+        {
+          "label": "Pink",
+          "min": 60,
+          "max": 63
+        },
+        {
+          "label": "Pink + Yellow",
+          "min": 64,
+          "max": 68
+        },
+        {
+          "label": "Yellow",
+          "min": 69,
+          "max": 72
+        },
+        {
+          "label": "Yellow + Magenta",
+          "min": 73,
+          "max": 76
+        },
+        {
+          "label": "Magenta",
+          "min": 77,
+          "max": 81
+        },
+        {
+          "label": "Magenta + Cyan",
+          "min": 82,
+          "max": 85
+        },
+        {
+          "label": "Cyan",
+          "min": 86,
+          "max": 89
+        },
+        {
+          "label": "Cyan + CTO 260",
+          "min": 90,
+          "max": 93
+        },
+        {
+          "label": "CTO 260",
+          "min": 94,
+          "max": 98
+        },
+        {
+          "label": "CTO 260 + CTO 190",
+          "min": 99,
+          "max": 102
+        },
+        {
+          "label": "CTO 190",
+          "min": 103,
+          "max": 106
+        },
+        {
+          "label": "CTO 190 + CTB 8000",
+          "min": 107,
+          "max": 110
+        },
+        {
+          "label": "CTB 8000",
+          "min": 111,
+          "max": 115
+        },
+        {
+          "label": "CTB 8000 + Blue",
+          "min": 116,
+          "max": 119
+        },
+        {
+          "label": "Blue",
+          "min": 120,
+          "max": 123
+        },
+        {
+          "label": "Blue + White",
+          "min": 124,
+          "max": 127
+        },
+        {
+          "label": "Rotation (Fast 160 rpm To Slow 0.2 rpm)",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Rotation (Slow 0.2 rpm to Fast 160 rpm)",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Stop / Strobe",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Strobe (slow 1 flash/sec to fast 12 flashes/sec)",
+          "min": 4,
+          "max": 103
+        },
+        {
+          "label": "Open",
+          "min": 104,
+          "max": 107
+        },
+        {
+          "label": "Pulsation (Slow 30rpm to fast 360rpm)",
+          "min": 108,
+          "max": 207
+        },
+        {
+          "label": "Open",
+          "min": 208,
+          "max": 212
+        },
+        {
+          "label": "Random slow strobe",
+          "min": 213,
+          "max": 225
+        },
+        {
+          "label": "Random medium strobe",
+          "min": 226,
+          "max": 238
+        },
+        {
+          "label": "Random fast strobe",
+          "min": 239,
+          "max": 251
+        },
+        {
+          "label": "Open",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 4,
+      "type_description": "Static Gobo Change",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Gobo 1",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "Gobo 2",
+          "min": 8,
+          "max": 11
+        },
+        {
+          "label": "Gobo 3",
+          "min": 12,
+          "max": 15
+        },
+        {
+          "label": "Gobo 4",
+          "min": 16,
+          "max": 19
+        },
+        {
+          "label": "Gobo 5",
+          "min": 20,
+          "max": 23
+        },
+        {
+          "label": "Gobo 6",
+          "min": 24,
+          "max": 27
+        },
+        {
+          "label": "Gobo 7",
+          "min": 28,
+          "max": 31
+        },
+        {
+          "label": "Gobo 8",
+          "min": 32,
+          "max": 35
+        },
+        {
+          "label": "Gobo 9",
+          "min": 36,
+          "max": 39
+        },
+        {
+          "label": "Gobo 10",
+          "min": 40,
+          "max": 43
+        },
+        {
+          "label": "Gobo 11",
+          "min": 44,
+          "max": 47
+        },
+        {
+          "label": "Gobo 12",
+          "min": 48,
+          "max": 51
+        },
+        {
+          "label": "Gobo 13",
+          "min": 52,
+          "max": 55
+        },
+        {
+          "label": "Gobo 14",
+          "min": 56,
+          "max": 59
+        },
+        {
+          "label": "Gobo 15",
+          "min": 60,
+          "max": 63
+        },
+        {
+          "label": "Gobo 16",
+          "min": 64,
+          "max": 67
+        },
+        {
+          "label": "Gobo 17",
+          "min": 68,
+          "max": 71
+        },
+        {
+          "label": "Rotation (Fast 60rpm to slow 5rpm)",
+          "min": 72,
+          "max": 113
+        },
+        {
+          "label": "Open",
+          "min": 114,
+          "max": 117
+        },
+        {
+          "label": "Rotation (Slow 5rpm to fast 60rpm)",
+          "min": 118,
+          "max": 159
+        },
+        {
+          "label": "Gobo 1 Shake (Slow to Fast)",
+          "min": 160,
+          "max": 166
+        },
+        {
+          "label": "Gobo 2 Shake (Slow to Fast)",
+          "min": 167,
+          "max": 172
+        },
+        {
+          "label": "Gobo 3 Shake (Slow to Fast)",
+          "min": 173,
+          "max": 179
+        },
+        {
+          "label": "Gobo 4 Shake (Slow to Fast)",
+          "min": 180,
+          "max": 185
+        },
+        {
+          "label": "Gobo 5 Shake (Slow to Fast)",
+          "min": 186,
+          "max": 191
+        },
+        {
+          "label": "Gobo 6 Shake (Slow to Fast)",
+          "min": 192,
+          "max": 198
+        },
+        {
+          "label": "Gobo 7 Shake (Slow to Fast)",
+          "min": 199,
+          "max": 204
+        },
+        {
+          "label": "Gobo 8 Shake (Slow to Fast)",
+          "min": 205,
+          "max": 211
+        },
+        {
+          "label": "Gobo 9 Shake (Slow to Fast)",
+          "min": 212,
+          "max": 217
+        },
+        {
+          "label": "Gobo 10 Shake (Slow to Fast)",
+          "min": 218,
+          "max": 223
+        },
+        {
+          "label": "Gobo 11 Shake (Slow to Fast)",
+          "min": 224,
+          "max": 230
+        },
+        {
+          "label": "Gobo 12 Shake (Slow to Fast)",
+          "min": 231,
+          "max": 236
+        },
+        {
+          "label": "Gobo 13 Shake (Slow to Fast)",
+          "min": 237,
+          "max": 243
+        },
+        {
+          "label": "Gobo 14 Shake (Slow to Fast)",
+          "min": 244,
+          "max": 249
+        },
+        {
+          "label": "Gobo 15 Shake (Slow to Fast)",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 20,
+      "type_description": "Prism Insertion",
+      "capabilities": [
+        {
+          "label": "Prism excluded",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Prism inserted (0%-100%: 0.36 sec)",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 20,
+      "type_description": "Prism Rotation",
+      "capabilities": [
+        {
+          "label": "Position 0°",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Position 90°",
+          "min": 21,
+          "max": 41
+        },
+        {
+          "label": "Position 180°",
+          "min": 42,
+          "max": 62
+        },
+        {
+          "label": "Position 270°",
+          "min": 63,
+          "max": 83
+        },
+        {
+          "label": "Position 360°",
+          "min": 84,
+          "max": 104
+        },
+        {
+          "label": "Position 450°",
+          "min": 105,
+          "max": 126
+        },
+        {
+          "label": "Position 540°",
+          "min": 127,
+          "max": 127
+        },
+        {
+          "label": "Rotation (Fast 43rpm to slow 1.1rph)",
+          "min": 128,
+          "max": 190
+        },
+        {
+          "label": "Stop",
+          "min": 191,
+          "max": 192
+        },
+        {
+          "label": "Rotation (Slow 1.1rph to fast 43rpm)",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Effects Movement",
+      "capabilities": [
+        {
+          "label": "Movement (0%-100%: 0.33 sec)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Frost",
+      "capabilities": [
+        {
+          "label": "Frost insertion (excluded to inserted)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 3,
+      "type_description": "Function",
+      "capabilities": [
+        {
+          "label": "Unused",
+          "min": 0,
+          "max": 11
+        },
+        {
+          "label": "Pan-Tilt Function (Fast - Default)",
+          "min": 12,
+          "max": 24
+        },
+        {
+          "label": "Pan-Tilt Function (Normal)",
+          "min": 25,
+          "max": 37
+        },
+        {
+          "label": "Dimmer Curve Function (Conventional)",
+          "min": 38,
+          "max": 50
+        },
+        {
+          "label": "Dimmer Curve Function (Linear - Default)",
+          "min": 51,
+          "max": 62
+        },
+        {
+          "label": "Unused",
+          "min": 63,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 17,
+      "type_description": "Reset",
+      "capabilities": [
+        {
+          "label": "Reserved",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Reset",
+          "min": 128,
+          "max": 128
+        },
+        {
+          "label": "Reserved",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 17,
+      "type_description": "Lamp Control",
+      "capabilities": [
+        {
+          "label": "Reserved",
+          "min": 0,
+          "max": 62
+        },
+        {
+          "label": "Lamp OFF",
+          "min": 63,
+          "max": 63
+        },
+        {
+          "label": "Reserved",
+          "min": 64,
+          "max": 177
+        },
+        {
+          "label": "Lamp ON",
+          "min": 178,
+          "max": 178
+        },
+        {
+          "label": "Reserved",
+          "min": 179,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Pan - Tilt Time",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 22,
+      "type_description": "Colour Time",
+      "capabilities": [
+        {
+          "label": "Colour Speed Max to Min",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 22,
+      "type_description": "Focus Time",
+      "capabilities": [
+        {
+          "label": "Focus Speed Max to Min",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 22,
+      "type_description": "Gobo Time",
+      "capabilities": [
+        {
+          "label": "Gobo Speed Max to Min",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Reserved",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Reserved 2",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Starway/Starway-Servo-Beam-5R.json",
+  "id": 1364
+}

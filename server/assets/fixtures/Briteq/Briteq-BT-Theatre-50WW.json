@@ -1,0 +1,54 @@
+{
+  "version": "1.0.0",
+  "label": "BT-Theatre 50WW",
+  "manufacturer": "Briteq",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 3200,
+  "dimension_weight": 36,
+  "dimension_width": 195,
+  "dimension_height": 173,
+  "dimension_depth": 241,
+  "lens_label": "Other",
+  "lens_degree_min": 10,
+  "lens_degree_max": 50,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 50,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Strobe Slow to Fast",
+          "min": 6,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Master dimmer fine",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Briteq/Briteq-BT-Theatre-50WW.json",
+  "id": 256
+}

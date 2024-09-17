@@ -1,0 +1,276 @@
+{
+  "version": "1.0.0",
+  "label": "CS-1000RGB Mk3",
+  "manufacturer": "Laserworld",
+  "bulb_type": "RGB Laser",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 200,
+  "dimension_height": 150,
+  "dimension_depth": 116,
+  "lens_label": "Other",
+  "lens_degree_min": 40,
+  "lens_degree_max": 40,
+  "focus_type": "Mirror",
+  "focus_pan_max": 40,
+  "focus_tilt_max": 40,
+  "technical_power_consumption": 20,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 17,
+      "type_description": "Operation Mode",
+      "capabilities": [
+        {
+          "label": "Laser off",
+          "min": 0,
+          "max": 49
+        },
+        {
+          "label": "Music mode",
+          "min": 50,
+          "max": 99
+        },
+        {
+          "label": "Automatic mode",
+          "min": 100,
+          "max": 149
+        },
+        {
+          "label": "Patterns/DMX",
+          "min": 150,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Pattern Select",
+      "capabilities": [
+        {
+          "label": "Patterns Selection",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 1,
+      "type_description": "Z Rotation",
+      "capabilities": [
+        {
+          "label": "Indexing",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "CCW slow to fast",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "CW slow to fast",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 23,
+      "type_description": "Y Rotation",
+      "capabilities": [
+        {
+          "label": "Indexing",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Automatic Rotation",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 19,
+      "type_description": "X Rotation",
+      "capabilities": [
+        {
+          "label": "Indexing",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Automatic Rotation",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 1,
+      "type_description": "Offset X",
+      "capabilities": [
+        {
+          "label": "Offset X step",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Movement X automatic",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 1,
+      "type_description": "Offset Y",
+      "capabilities": [
+        {
+          "label": "Offset Y step",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Movement Y automatic",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Drawing effect",
+      "capabilities": [
+        {
+          "label": "Drawing Speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 22,
+      "type_description": "Scan speed / Points",
+      "capabilities": [
+        {
+          "label": "Scan speed",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Point speed",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Color Change",
+      "capabilities": [
+        {
+          "label": "Pattern color (original)",
+          "min": 0,
+          "max": 24
+        },
+        {
+          "label": "Purple",
+          "min": 25,
+          "max": 49
+        },
+        {
+          "label": "Red",
+          "min": 50,
+          "max": 74
+        },
+        {
+          "label": "Yellow",
+          "min": 75,
+          "max": 99
+        },
+        {
+          "label": "Green",
+          "min": 100,
+          "max": 124
+        },
+        {
+          "label": "Cyan",
+          "min": 125,
+          "max": 149
+        },
+        {
+          "label": "Blue",
+          "min": 150,
+          "max": 174
+        },
+        {
+          "label": "White",
+          "min": 175,
+          "max": 199
+        },
+        {
+          "label": "Automatic color change effect",
+          "min": 200,
+          "max": 224
+        },
+        {
+          "label": "Multi color step through",
+          "min": 225,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 1,
+      "type_description": "Size X",
+      "capabilities": [
+        {
+          "label": "Size X from big to small",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 1,
+      "type_description": "Size Y",
+      "capabilities": [
+        {
+          "label": "Size Y from big to small",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 22,
+      "type_description": "Color speed",
+      "capabilities": [
+        {
+          "label": "Speed adjustment for automatic color change effect and multi color step through",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Laserworld/Laserworld-CS-1000RGB-Mk3.json",
+  "id": 953
+}

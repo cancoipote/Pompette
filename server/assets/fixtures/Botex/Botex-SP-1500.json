@@ -1,0 +1,134 @@
+{
+  "version": "1.0.0",
+  "label": "SP-1500",
+  "manufacturer": "Botex",
+  "bulb_type": "XOP-15",
+  "bulb_lumens": 7500,
+  "bulb_color_temperature": 8000,
+  "dimension_weight": 5,
+  "dimension_width": 480,
+  "dimension_height": 220,
+  "dimension_depth": 124,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 1600,
+  "technical_dmx_connector": "3-pin",
+  "type": 12,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Brightness",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 22,
+      "type_description": "Speed",
+      "capabilities": [
+        {
+          "label": "Strobe (Slow to fast)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 17,
+      "type_description": "Control",
+      "capabilities": [
+        {
+          "label": "Normal",
+          "min": 0,
+          "max": 49
+        },
+        {
+          "label": "Blinder",
+          "min": 50,
+          "max": 99
+        },
+        {
+          "label": "Random",
+          "min": 100,
+          "max": 149
+        },
+        {
+          "label": "Single Flash",
+          "min": 150,
+          "max": 199
+        },
+        {
+          "label": "SYNC",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "Single Flash",
+      "capabilities": [
+        {
+          "label": "No Flash",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Flash",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Blind Speed",
+      "capabilities": [
+        {
+          "label": "OFF",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "14Hz",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "15Hz",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "16,6Hz",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "20Hz",
+          "min": 160,
+          "max": 192
+        },
+        {
+          "label": "25Hz",
+          "min": 193,
+          "max": 223
+        },
+        {
+          "label": "50Hz",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Botex/Botex-SP-1500.json",
+  "id": 250
+}

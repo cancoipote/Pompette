@@ -1,0 +1,156 @@
+{
+  "version": "1.0.0",
+  "label": "Mini Kinta",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 258,
+  "dimension_height": 182,
+  "dimension_depth": 190,
+  "lens_label": "Other",
+  "lens_degree_min": 135,
+  "lens_degree_max": 135,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 25,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Control/Operating Mode",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Red",
+          "min": 6,
+          "max": 20
+        },
+        {
+          "label": "Green",
+          "min": 21,
+          "max": 35
+        },
+        {
+          "label": "Blue",
+          "min": 36,
+          "max": 50
+        },
+        {
+          "label": "White",
+          "min": 51,
+          "max": 65
+        },
+        {
+          "label": "Red/Green",
+          "min": 66,
+          "max": 80
+        },
+        {
+          "label": "Red/Blue",
+          "min": 81,
+          "max": 95
+        },
+        {
+          "label": "Red/White",
+          "min": 96,
+          "max": 110
+        },
+        {
+          "label": "Green/Blue",
+          "min": 111,
+          "max": 125
+        },
+        {
+          "label": "Green/White",
+          "min": 126,
+          "max": 140
+        },
+        {
+          "label": "Blue/White",
+          "min": 141,
+          "max": 155
+        },
+        {
+          "label": "Red/Green/Blue",
+          "min": 156,
+          "max": 170
+        },
+        {
+          "label": "Red/Green/White",
+          "min": 171,
+          "max": 185
+        },
+        {
+          "label": "Green/Blue/White",
+          "min": 186,
+          "max": 200
+        },
+        {
+          "label": "Red/Green/Blue/White",
+          "min": 201,
+          "max": 215
+        },
+        {
+          "label": "Automatic (4 color chase)",
+          "min": 216,
+          "max": 230
+        },
+        {
+          "label": "Automatic (7 color chase)",
+          "min": 231,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No strobe",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Slow -> fast",
+          "min": 6,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 1,
+      "type_description": "Motor Rotation",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Motor indexing",
+          "min": 1,
+          "max": 127
+        },
+        {
+          "label": "Motor speed (bi-directional)",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-Mini-Kinta.json",
+  "id": 503
+}

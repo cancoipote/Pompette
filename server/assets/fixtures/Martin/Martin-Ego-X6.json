@@ -1,0 +1,368 @@
+{
+  "version": "1.0.0",
+  "label": "Ego X6",
+  "manufacturer": "Martin",
+  "bulb_type": "ELC 250W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 3200,
+  "dimension_weight": 3,
+  "dimension_width": 324,
+  "dimension_height": 150,
+  "dimension_depth": 305,
+  "lens_label": "Other",
+  "lens_degree_min": 33,
+  "lens_degree_max": 33,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 255,
+  "technical_dmx_connector": "3-pin",
+  "type": 3,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Strobe, music trig, reset",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Strobe, fast to slow",
+          "min": 5,
+          "max": 68
+        },
+        {
+          "label": "Remote stand-alone auto trigger (disables other channels)",
+          "min": 69,
+          "max": 100
+        },
+        {
+          "label": "Reserved, no function",
+          "min": 101,
+          "max": 249
+        },
+        {
+          "label": "Reset fixture, time > 3 seconds",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Intensity",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 4,
+      "type_description": "Textured glass wheel",
+      "capabilities": [
+        {
+          "label": "Textured glass 1",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Textured glass 2",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Textured glass 3",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Textured glass 4",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Textured glass 5",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Textured glass 6",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Textured glass 7",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Textured glass 8",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Textured glass 9",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Textured glass 10",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Textured glass 11",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Textured glass 12",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Textured glass 13",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Reserved",
+          "min": 130,
+          "max": 175
+        },
+        {
+          "label": "Continuous rotation Clockwise (fast to slow)",
+          "min": 176,
+          "max": 206
+        },
+        {
+          "label": "Continuous rotation Counter-clockwise (slow to fast)",
+          "min": 207,
+          "max": 239
+        },
+        {
+          "label": "Music trigger - fast",
+          "min": 240,
+          "max": 244
+        },
+        {
+          "label": "Music trigger - slow (5 values)",
+          "min": 245,
+          "max": 249
+        },
+        {
+          "label": "Music trigger - dynamic (5 values)",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 4,
+      "type_description": "Textured glass wheel shake",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "label": "Narrow shake (slow to fast)",
+          "min": 2,
+          "max": 128
+        },
+        {
+          "label": "Wide shake (slow to fast)",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Color/twinkle wheel",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Position: first to last color",
+          "min": 6,
+          "max": 165
+        },
+        {
+          "label": "Auto color (slow to fast)",
+          "min": 166,
+          "max": 199
+        },
+        {
+          "label": "Twinkle stop",
+          "min": 200,
+          "max": 201
+        },
+        {
+          "label": "Auto twinkle (slow to fast)",
+          "min": 202,
+          "max": 235
+        },
+        {
+          "label": "Closed",
+          "min": 236,
+          "max": 239
+        },
+        {
+          "label": "Music trigger - fast",
+          "min": 240,
+          "max": 244
+        },
+        {
+          "label": "Music trigger - slow",
+          "min": 245,
+          "max": 249
+        },
+        {
+          "label": "Music trigger - dynamic",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 1,
+      "type_description": "Parabolic mirror dish",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "label": "Counter-clockwise rotation (fast to slow)",
+          "min": 2,
+          "max": 65
+        },
+        {
+          "label": "Clockwise rotation (slow to fast)",
+          "min": 66,
+          "max": 129
+        },
+        {
+          "label": "Shake (slow to fast)",
+          "min": 130,
+          "max": 192
+        },
+        {
+          "label": "Random shake",
+          "min": 193,
+          "max": 208
+        },
+        {
+          "label": "Reserved, stop",
+          "min": 209,
+          "max": 239
+        },
+        {
+          "label": "Reserved (music trigger - fast)",
+          "min": 240,
+          "max": 244
+        },
+        {
+          "label": "Reserved (music trigger - slow)",
+          "min": 245,
+          "max": 249
+        },
+        {
+          "label": "Music trigger - dynamic",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Macros",
+      "capabilities": [
+        {
+          "label": "No macro",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Macro 1",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Macro 2",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Macro 3",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Macro 4",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Macro 5",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Macro 6",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Macro 7",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Macro 8",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Macro 9",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Macro 10",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Macro 11",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Macro 12",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "Reserved. No function",
+          "min": 208,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Martin/Martin-Ego-X6.json",
+  "id": 1045
+}

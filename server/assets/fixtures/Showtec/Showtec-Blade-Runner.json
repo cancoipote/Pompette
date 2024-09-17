@@ -1,0 +1,275 @@
+{
+  "version": "1.0.0",
+  "label": "Blade Runner",
+  "manufacturer": "Showtec",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 550,
+  "dimension_height": 130,
+  "dimension_depth": 350,
+  "lens_label": "Other",
+  "lens_degree_min": 15,
+  "lens_degree_max": 15,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 92,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Built-in Programs - 2-Channel Mode",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Red",
+          "min": 1,
+          "max": 22
+        },
+        {
+          "label": "Green",
+          "min": 23,
+          "max": 45
+        },
+        {
+          "label": "Blue",
+          "min": 46,
+          "max": 68
+        },
+        {
+          "label": "Amber",
+          "min": 69,
+          "max": 91
+        },
+        {
+          "label": "White",
+          "min": 92,
+          "max": 114
+        },
+        {
+          "label": "Amber + white",
+          "min": 115,
+          "max": 137
+        },
+        {
+          "label": "Red + green",
+          "min": 138,
+          "max": 160
+        },
+        {
+          "label": "Red + blue",
+          "min": 161,
+          "max": 183
+        },
+        {
+          "label": "Green + blue",
+          "min": 184,
+          "max": 206
+        },
+        {
+          "label": "Red + green + blue",
+          "min": 207,
+          "max": 229
+        },
+        {
+          "label": "Red + green + blue + amber + white",
+          "min": 230,
+          "max": 252
+        },
+        {
+          "label": "Sound-controlled",
+          "min": 253,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "No function/Strobe/Audio Sensitivity",
+      "capabilities": [
+        {
+          "label": "No function/Slow to fast/Less sensitive to highly sensitive",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 3,
+      "type_description": "Built-in Programs - 3-Channel Mode",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Program 1",
+          "min": 1,
+          "max": 9
+        },
+        {
+          "label": "Program 2",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Program 3",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Program 4",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "Program 5",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Program 6",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Program 7",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Program 8",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Program 9",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Program 10",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Program 11",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Program 12",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Program 13",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Program 14",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Program 15",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Program 16",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Program 17",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Program 18",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Program 19",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Program 20",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Program 21",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Program 22",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "Program 23",
+          "min": 220,
+          "max": 229
+        },
+        {
+          "label": "Program 24",
+          "min": 230,
+          "max": 239
+        },
+        {
+          "label": "Program 25",
+          "min": 240,
+          "max": 249
+        },
+        {
+          "label": "Sound-controlled",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 3,
+      "type_description": "No function/LED Running Speed/Audio Sensitivity",
+      "capabilities": [
+        {
+          "label": "No function/Slow to fast/Less sensitive to highly sensitive",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "No function/Strobe",
+      "capabilities": [
+        {
+          "label": "No function/Flash frequency from slow to fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Showtec/Showtec-Blade-Runner.json",
+  "id": 1277
+}

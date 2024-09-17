@@ -1,0 +1,576 @@
+{
+  "version": "1.0.0",
+  "label": "COB Tri 4 Pixel Batten",
+  "manufacturer": "Elumen8",
+  "bulb_type": "LED",
+  "bulb_lumens": 6362,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 440,
+  "dimension_height": 220,
+  "dimension_depth": 150,
+  "lens_label": "Other",
+  "lens_degree_min": 60,
+  "lens_degree_max": 60,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 160,
+  "technical_dmx_connector": "3-pin and 5-pin",
+  "type": 13,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 3,
+      "type_description": "Sound Active/Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Sound active (7 colours)",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "label": "No function",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Strobe (slow-fast)",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "R1",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "G1",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "B1",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "R2",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "R3",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "R4",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "G2",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "G3",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "G4",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "B2",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "B3",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "B4",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 3,
+      "type_description": "Colours/Macros/Programs/Sound Active",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "R",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "G",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "B",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "RG",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "GB",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "RB",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "RGB",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Colour 1",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Colour 2",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Colour 3",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Colour 4",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Colour 5",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Colour 6",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Colour 7",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Colour 8",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Dream",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Meteor",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Fade",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Change",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Flow 1",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Flow 2",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Flow 3",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Flow 4",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Flow 5",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Flow 6",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Flow 7",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Flow 8",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Flow 9",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Sound active",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 5,
+      "type_description": "Speed/Sensitivity",
+      "capabilities": [
+        {
+          "label": "Speed (slow-fast)/Sensitivity (low-high)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Slow-fast",
+          "min": 0,
+          "max": 239
+        },
+        {
+          "label": "No function",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 3,
+      "type_description": "Master Dimmer/Speed/Sensitivity",
+      "capabilities": [
+        {
+          "label": "Master dimmer (0-100%)/Speed (slow-fast)/Sensitivity (low-high)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Flash",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 3,
+      "type_description": "Red 1/Colour Select",
+      "capabilities": [
+        {
+          "label": "Red 1 (0-100%)",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "No function",
+          "min": 16,
+          "max": 223
+        },
+        {
+          "label": "Colour select",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "No function",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "type": 3,
+      "type_description": "Green 1/Colour Select",
+      "capabilities": [
+        {
+          "label": "Green 1 (0-100%)",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "No function",
+          "min": 16,
+          "max": 223
+        },
+        {
+          "label": "Colour select",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "No function",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "type": 5,
+      "type_description": "Blue 1",
+      "capabilities": [
+        {
+          "label": "0-100%",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "No function",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "type": 5,
+      "type_description": "Blue 2",
+      "capabilities": [
+        {
+          "label": "0-100%",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "No function",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "type": 5,
+      "type_description": "Blue 3",
+      "capabilities": [
+        {
+          "label": "0-100%",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "No function",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "type": 5,
+      "type_description": "Blue 4",
+      "capabilities": [
+        {
+          "label": "0-100%",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "No function",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "type": 5,
+      "type_description": "Red 2",
+      "capabilities": [
+        {
+          "label": "0-100%",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "No function",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "type": 5,
+      "type_description": "Red 3",
+      "capabilities": [
+        {
+          "label": "0-100%",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "No function",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "type": 5,
+      "type_description": "Red 4",
+      "capabilities": [
+        {
+          "label": "0-100%",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "No function",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "type": 5,
+      "type_description": "Green 2",
+      "capabilities": [
+        {
+          "label": "0-100%",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "No function",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "type": 5,
+      "type_description": "Green 3",
+      "capabilities": [
+        {
+          "label": "0-100%",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "No function",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "type": 5,
+      "type_description": "Green 4",
+      "capabilities": [
+        {
+          "label": "0-100%",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "No function",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Elumen8/Elumen8-COB-Tri-4-Pixel-Batten.json",
+  "id": 624
+}

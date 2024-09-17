@@ -1,0 +1,117 @@
+{
+  "version": "1.0.0",
+  "label": "LP 12 HEX",
+  "manufacturer": "Eliminator Lighting",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 280,
+  "dimension_height": 68,
+  "dimension_depth": 247,
+  "lens_label": "Other",
+  "lens_degree_min": 25,
+  "lens_degree_max": 25,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 72,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "White Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Amber Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "UV Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Change Mode",
+      "capabilities": [
+        {
+          "label": "No Function",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Jump Change Mode, slow to fast",
+          "min": 16,
+          "max": 75
+        },
+        {
+          "label": "Pulse Change Mode, slow to fast",
+          "min": 76,
+          "max": 135
+        },
+        {
+          "label": "Fade Change, slow to fast",
+          "min": 136,
+          "max": 195
+        },
+        {
+          "label": "Sound Active Pulse Mode",
+          "min": 196,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 22,
+      "type_description": "Sound Active Pulse Mode Speed/Sensitivty",
+      "capabilities": [
+        {
+          "label": "Sound Active Pulse Mode Speed/Sensitivity",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Flash/Strobe speed",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Eliminator_Lighting/Eliminator-Lighting-LP-12-HEX.json",
+  "id": 622
+}

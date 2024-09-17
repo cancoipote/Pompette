@@ -1,0 +1,276 @@
+{
+  "version": "1.0.0",
+  "label": "LED FE-700",
+  "manufacturer": "Eurolite",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 300,
+  "dimension_height": 310,
+  "dimension_depth": 200,
+  "lens_label": "Other",
+  "lens_degree_min": 60,
+  "lens_degree_max": 60,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 24,
+  "technical_dmx_connector": "3-pin",
+  "type": 5,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Green",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Blue",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "White",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Amber",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Magenta",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Red & Green",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Green & Blue",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Blue & White",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "White & Amber",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Amber & Magenta",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Red & Magenta",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Green & Amber",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Red & Green & Blue",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Red & Green & Amber",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Red & Green & Magenta",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Red & Blue & Magenta",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "Blue & White & Magenta",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "Blue & White & Amber",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "Green & Blue & White",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Green & Blue & Amber",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "Red & Blue & White",
+          "min": 220,
+          "max": 229
+        },
+        {
+          "label": "Red & Blue & Amber",
+          "min": 230,
+          "max": 239
+        },
+        {
+          "label": "Red & White & Amber",
+          "min": 240,
+          "max": 249
+        },
+        {
+          "label": "Green & White & Magenta",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Strobe Slow->Fast",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 3,
+      "type_description": "Rotation",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Rotation Clockwise Slow->Fast",
+          "min": 10,
+          "max": 127
+        },
+        {
+          "label": "Stop",
+          "min": 128,
+          "max": 138
+        },
+        {
+          "label": "Rotation Counter-Clockwise Slow->Fast",
+          "min": 139,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Pink",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Programs",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Auto Program",
+          "min": 10,
+          "max": 200
+        },
+        {
+          "label": "Sound Program",
+          "min": 201,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 22,
+      "type_description": "Program Speed",
+      "capabilities": [
+        {
+          "label": "Auto Program Speed Slow->Fast",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-LED-FE-700.json",
+  "id": 684
+}

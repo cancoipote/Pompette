@@ -1,0 +1,255 @@
+{
+  "version": "1.0.0",
+  "label": "LED Par 64 Floor 5in1 7x10W RGBWA",
+  "manufacturer": "Varytec",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 290,
+  "dimension_height": 285,
+  "dimension_depth": 410,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 160,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 5,
+      "type_description": "Master Dimmer",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Master dimmer",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Speed of Shutter/Slow-Fast/Sound sensitivy",
+      "capabilities": [
+        {
+          "label": "LED flash off",
+          "min": 0,
+          "max": 8
+        },
+        {
+          "label": "speed of shutter/special functions slow-fast, sound\nsensitivity",
+          "min": 9,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Function",
+      "capabilities": [
+        {
+          "label": "LED flash",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "automatic dimming (upwards)",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "automatic dimming (downwards)",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "automatic dimming (upwards/downwards)",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "colour change (5 colours)",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "colour change (30 colours)",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "colour shift",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "colour shift (8 colours)",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "colour flash change (5 colours)",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "colour change (30 colours)",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "colour change (40 colours)",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "colour change (10 colours)",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "colour change (48 colours)",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "LED flash (32 colours)",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "colour shift red/green",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "colour shift red/blue",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "colour shift red/white",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "colour shift white/green",
+          "min": 170,
+          "max": 179
+        },
+        {
+          "label": "colour shift white/blue",
+          "min": 180,
+          "max": 189
+        },
+        {
+          "label": "colour shift green/blue",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "colour shift red/green/blue/white",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "colour shift red/green/amber/white",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "colour shift red/blue/amber/white",
+          "min": 220,
+          "max": 229
+        },
+        {
+          "label": "All program mode run",
+          "min": 230,
+          "max": 239
+        },
+        {
+          "label": "colour change sound controlled",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 17,
+      "type_description": "Stand Alone",
+      "capabilities": [
+        {
+          "label": "static colour change sound controlled",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "flash colour change sound controlled",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "36 different colour macros",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Varytec/Varytec-LED-PAR-64-Floor-5in1.json",
+  "id": 1513
+}

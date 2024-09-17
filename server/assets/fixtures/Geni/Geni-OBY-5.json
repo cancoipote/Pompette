@@ -1,0 +1,511 @@
+{
+  "version": "1.0.0",
+  "label": "OBY 5",
+  "manufacturer": "Geni",
+  "bulb_type": "HTI 575W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 6000,
+  "dimension_weight": 26,
+  "dimension_width": 400,
+  "dimension_height": 280,
+  "dimension_depth": 540,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Head",
+  "focus_pan_max": 570,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 800,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Shutter / Strobe",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Strobe slow to fast",
+          "min": 8,
+          "max": 63
+        },
+        {
+          "label": "Open",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Shutter from narrow to wide",
+          "min": 72,
+          "max": 127
+        },
+        {
+          "label": "Open",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Shutter from wide to narrow",
+          "min": 136,
+          "max": 191
+        },
+        {
+          "label": "Open",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Random shutter from slow to fast",
+          "min": 200,
+          "max": 253
+        },
+        {
+          "label": "Open",
+          "min": 254,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Color 1",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 13
+        },
+        {
+          "label": "Steel Blue",
+          "min": 14,
+          "max": 27
+        },
+        {
+          "label": "Orange",
+          "min": 28,
+          "max": 41
+        },
+        {
+          "label": "Green Blue",
+          "min": 42,
+          "max": 55
+        },
+        {
+          "label": "Bright Blue",
+          "min": 56,
+          "max": 69
+        },
+        {
+          "label": "Bright Pink",
+          "min": 70,
+          "max": 83
+        },
+        {
+          "label": "Red",
+          "min": 84,
+          "max": 97
+        },
+        {
+          "label": "Deep Blue",
+          "min": 98,
+          "max": 111
+        },
+        {
+          "label": "Yellow",
+          "min": 112,
+          "max": 125
+        },
+        {
+          "label": "Rose",
+          "min": 126,
+          "max": 139
+        },
+        {
+          "label": "Light Green",
+          "min": 140,
+          "max": 153
+        },
+        {
+          "label": "Turquoise",
+          "min": 154,
+          "max": 167
+        },
+        {
+          "label": "Color rotation from slow to fast",
+          "min": 168,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Color 2",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 13
+        },
+        {
+          "label": "Steel Blue",
+          "min": 14,
+          "max": 27
+        },
+        {
+          "label": "Rose Pink",
+          "min": 28,
+          "max": 41
+        },
+        {
+          "label": "Yellow",
+          "min": 42,
+          "max": 55
+        },
+        {
+          "label": "Pale Blue",
+          "min": 56,
+          "max": 69
+        },
+        {
+          "label": "C.T Orange",
+          "min": 70,
+          "max": 83
+        },
+        {
+          "label": "Pale Blue / C. T Orange",
+          "min": 84,
+          "max": 97
+        },
+        {
+          "label": "Steel Blue / Orange",
+          "min": 98,
+          "max": 111
+        },
+        {
+          "label": "Green / Yellow",
+          "min": 112,
+          "max": 125
+        },
+        {
+          "label": "Rose Pink / Moss Green",
+          "min": 126,
+          "max": 139
+        },
+        {
+          "label": "Rose Pink / Yellow / Steel Blue / Green",
+          "min": 140,
+          "max": 153
+        },
+        {
+          "label": "Yellow / Moss Green / Orange / Steel Blue",
+          "min": 154,
+          "max": 167
+        },
+        {
+          "label": "Color rotation from slow to fast",
+          "min": 168,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 4,
+      "type_description": "Gobo 1",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Gobo 2",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Gobo 3",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Gobo 4",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Gobo 5",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Gobo 6",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Gobo 7",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Gobo 8",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Gobo 9",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Gobo 10",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Gobo wheel rotation from slow to fast",
+          "min": 160,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 4,
+      "type_description": "Gobo 2",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 23
+        },
+        {
+          "label": "Gobo 2",
+          "min": 24,
+          "max": 47
+        },
+        {
+          "label": "Gobo 3",
+          "min": 48,
+          "max": 71
+        },
+        {
+          "label": "Gobo 4",
+          "min": 72,
+          "max": 95
+        },
+        {
+          "label": "Gobo 5",
+          "min": 96,
+          "max": 119
+        },
+        {
+          "label": "Gobo 6",
+          "min": 120,
+          "max": 143
+        },
+        {
+          "label": "Gobo 7",
+          "min": 144,
+          "max": 167
+        },
+        {
+          "label": "Gobo rotation from fast to slow",
+          "min": 168,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 20,
+      "type_description": "Prism Rotation",
+      "capabilities": [
+        {
+          "label": "Simple",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "label": "Triple Prism Static",
+          "min": 2,
+          "max": 7
+        },
+        {
+          "label": "Rotate Clockwise from fast to slow",
+          "min": 8,
+          "max": 132
+        },
+        {
+          "label": "Rotate Counter Clockwise from slow to fast",
+          "min": 133,
+          "max": 253
+        },
+        {
+          "label": "Triple Prisme Static",
+          "min": 254,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 1,
+      "type_description": "Iris",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Diameter from min to max",
+          "min": 1,
+          "max": 159
+        },
+        {
+          "label": "Iris in from slow to fast",
+          "min": 160,
+          "max": 207
+        },
+        {
+          "label": "Iris out from fast to slow",
+          "min": 208,
+          "max": 253
+        },
+        {
+          "label": "Open",
+          "min": 254,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 17,
+      "type_description": "Lamp switch",
+      "capabilities": [
+        {
+          "label": "Standby",
+          "min": 0,
+          "max": 47
+        },
+        {
+          "label": "Lamp on after 3s",
+          "min": 48,
+          "max": 95
+        },
+        {
+          "label": "Standy",
+          "min": 96,
+          "max": 159
+        },
+        {
+          "label": "Lamp off after 3s",
+          "min": 160,
+          "max": 207
+        },
+        {
+          "label": "Standby",
+          "min": 208,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 3,
+      "type_description": "Gobo 2 Rotate",
+      "capabilities": [
+        {
+          "label": "Angle adjustment from 0 to 360°",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Rotate Clockwise from fast to slow",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Rotate Counter Clockwise from slow to fast",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 3,
+      "type_description": "Control",
+      "capabilities": [
+        {
+          "label": "Slow moving in short distance",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Fast moving in short distance",
+          "min": 8,
+          "max": 63
+        },
+        {
+          "label": "No function",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Fast auto reset after 3s",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Geni/Geni-OBY-5.json",
+  "id": 838
+}

@@ -1,0 +1,134 @@
+{
+  "version": "1.0.0",
+  "label": "Intimidator Scan LED 100",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 9000,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 172,
+  "dimension_height": 300,
+  "dimension_depth": 145,
+  "lens_label": "Other",
+  "lens_degree_min": 15,
+  "lens_degree_max": 15,
+  "focus_type": "Mirror",
+  "focus_pan_max": 180,
+  "focus_tilt_max": 90,
+  "technical_power_consumption": 25,
+  "technical_dmx_connector": "3-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Strobe (slow ~ fast)",
+          "min": 6,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 4,
+      "type_description": "Operating Mode",
+      "capabilities": [
+        {
+          "label": "Open (White)",
+          "min": 0,
+          "max": 29
+        },
+        {
+          "label": "Gobo 1",
+          "min": 30,
+          "max": 59
+        },
+        {
+          "label": "Gobo 2",
+          "min": 60,
+          "max": 89
+        },
+        {
+          "label": "Gobo 3",
+          "min": 90,
+          "max": 119
+        },
+        {
+          "label": "Gobo 4",
+          "min": 120,
+          "max": 149
+        },
+        {
+          "label": "Gobo 5",
+          "min": 150,
+          "max": 179
+        },
+        {
+          "label": "Gobo 6",
+          "min": 180,
+          "max": 209
+        },
+        {
+          "label": "Gobo 7",
+          "min": 210,
+          "max": 239
+        },
+        {
+          "label": "Gobo Wheel rotate (use CH.6 to control the speed)",
+          "min": 240,
+          "max": 249
+        },
+        {
+          "label": "Sound Active",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 4,
+      "type_description": "Gobo Wheel Rotate",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Slow to Fast",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-Intimidator-Scan-LED-100.json",
+  "id": 462
+}

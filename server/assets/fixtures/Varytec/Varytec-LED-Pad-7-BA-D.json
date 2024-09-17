@@ -1,0 +1,142 @@
+{
+  "version": "1.0.0",
+  "label": "LED Pad 7 BA-D",
+  "manufacturer": "Varytec",
+  "bulb_type": "LED",
+  "bulb_lumens": 1015,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 2,
+  "dimension_width": 265,
+  "dimension_height": 274,
+  "dimension_depth": 109,
+  "lens_label": "Other",
+  "lens_degree_min": 30,
+  "lens_degree_max": 30,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 25,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Dimmer For Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Dimmer For Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Dimmer For Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Macros",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Scene with R - G - B - RG - G",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Scene with G - GB - B - RB - R",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Scene with R - B - G - RG - G",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Scene with R - G - GB - RGB - G",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Scene with B - BG - RGB - RG - G",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Colour continuous strobe",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Gradient",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Colour swap",
+          "min": 128,
+          "max": 143
+        },
+        {
+          "label": "Colour change and strobe",
+          "min": 144,
+          "max": 159
+        },
+        {
+          "label": "Colour ramp down",
+          "min": 160,
+          "max": 175
+        },
+        {
+          "label": "Colour Ramp in",
+          "min": 176,
+          "max": 191
+        },
+        {
+          "label": "Colour triangular",
+          "min": 192,
+          "max": 207
+        },
+        {
+          "label": "Colour glide",
+          "min": 208,
+          "max": 223
+        },
+        {
+          "label": "Sound 1",
+          "min": 224,
+          "max": 239
+        },
+        {
+          "label": "Sound 2",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Varytec/Varytec-LED-Pad-7-BA-D.json",
+  "id": 1510
+}

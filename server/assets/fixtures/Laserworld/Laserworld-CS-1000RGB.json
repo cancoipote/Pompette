@@ -1,0 +1,260 @@
+{
+  "version": "1.0.0",
+  "label": "CS-1000RGB",
+  "manufacturer": "Laserworld",
+  "bulb_type": "RGB Laser",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 7,
+  "dimension_width": 330,
+  "dimension_height": 170,
+  "dimension_depth": 310,
+  "lens_label": "Other",
+  "lens_degree_min": 40,
+  "lens_degree_max": 40,
+  "focus_type": "Mirror",
+  "focus_pan_max": 40,
+  "focus_tilt_max": 40,
+  "technical_power_consumption": 50,
+  "technical_dmx_connector": "3-pin",
+  "type": 7,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "Laser off",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "Music mode",
+          "min": 64,
+          "max": 127
+        },
+        {
+          "label": "Automatic mode",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "DMX Mode",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Patterns",
+      "capabilities": [
+        {
+          "label": "Patterns",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 19,
+      "type_description": "Horizontal movement",
+      "capabilities": [
+        {
+          "label": "No effect",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "(fixed) Movement",
+          "min": 1,
+          "max": 167
+        },
+        {
+          "label": "Animated left to right with increasing speed",
+          "min": 168,
+          "max": 188
+        },
+        {
+          "label": "dto. Right to Left",
+          "min": 189,
+          "max": 209
+        },
+        {
+          "label": "dto. Left to Right and back",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 1,
+      "type_description": "Zoom",
+      "capabilities": [
+        {
+          "label": "No effect",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Increasing size",
+          "min": 11,
+          "max": 104
+        },
+        {
+          "label": "growing with increasing speed",
+          "min": 105,
+          "max": 154
+        },
+        {
+          "label": "dto. shrinking",
+          "min": 155,
+          "max": 204
+        },
+        {
+          "label": "dto. growing / shrinking",
+          "min": 205,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 17,
+      "type_description": "Width (rotation over Y)",
+      "capabilities": [
+        {
+          "label": "Fixed rotation",
+          "min": 0,
+          "max": 150
+        },
+        {
+          "label": "automatic rotation with increased speed",
+          "min": 151,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 17,
+      "type_description": "Width (rotation over X)",
+      "capabilities": [
+        {
+          "label": "Height (rotation over X): analogous to width",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 1,
+      "type_description": "Rotation",
+      "capabilities": [
+        {
+          "label": "Fixed rotation",
+          "min": 0,
+          "max": 180
+        },
+        {
+          "label": "automatic with increased speed clockwise",
+          "min": 181,
+          "max": 217
+        },
+        {
+          "label": "do. counter clockwise",
+          "min": 218,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 1,
+      "type_description": "Blanking",
+      "capabilities": [
+        {
+          "label": "no effect",
+          "min": 0,
+          "max": 70
+        },
+        {
+          "label": "points are brighter",
+          "min": 71,
+          "max": 139
+        },
+        {
+          "label": "dashed lines",
+          "min": 140,
+          "max": 209
+        },
+        {
+          "label": "points only",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 1,
+      "type_description": "Wave",
+      "capabilities": [
+        {
+          "label": "Wave",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "colour",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 1,
+      "type_description": "Image format",
+      "capabilities": [
+        {
+          "label": "image format",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 19,
+      "type_description": "Horizontal / vertical movement",
+      "capabilities": [
+        {
+          "label": "Vertical movement: analogus to horizontal movement",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Laserworld/Laserworld-CS-1000RGB.json",
+  "id": 955
+}

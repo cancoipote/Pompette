@@ -1,0 +1,517 @@
+{
+  "version": "1.0.0",
+  "label": "SIXPAR 200IP",
+  "manufacturer": "Elation",
+  "bulb_type": "LED",
+  "bulb_lumens": 2100,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 5,
+  "dimension_width": 157,
+  "dimension_height": 300,
+  "dimension_depth": 313,
+  "lens_label": "Other",
+  "lens_degree_min": 15,
+  "lens_degree_max": 25,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 150,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "U.V.",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "LED OFF (NO STROE)",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Strobe Effect SLOW to FAST",
+          "min": 32,
+          "max": 95
+        },
+        {
+          "label": "LED ON (NO STROBE)",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Strobe Pulse Effect In Sequences SLOW to FAST",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "LED ON (NO STROBE)",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random Strobe Effect SLOW to FAST",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "LED ON (NO STROBE)",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Color Macros",
+      "capabilities": [
+        {
+          "label": "OFF",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "RED",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "GREEN",
+          "min": 8,
+          "max": 11
+        },
+        {
+          "label": "BLUE",
+          "min": 12,
+          "max": 15
+        },
+        {
+          "label": "WHITE",
+          "min": 16,
+          "max": 19
+        },
+        {
+          "label": "AMBER",
+          "min": 20,
+          "max": 23
+        },
+        {
+          "label": "U.V.",
+          "min": 24,
+          "max": 27
+        },
+        {
+          "label": "RED+GREEN",
+          "min": 28,
+          "max": 31
+        },
+        {
+          "label": "RED+BLUE",
+          "min": 32,
+          "max": 35
+        },
+        {
+          "label": "RED+WHITE",
+          "min": 36,
+          "max": 39
+        },
+        {
+          "label": "RED+AMBER",
+          "min": 40,
+          "max": 43
+        },
+        {
+          "label": "RED+U.V.",
+          "min": 44,
+          "max": 47
+        },
+        {
+          "label": "GREEN+BLUE",
+          "min": 48,
+          "max": 51
+        },
+        {
+          "label": "GREEN+WHITE",
+          "min": 52,
+          "max": 55
+        },
+        {
+          "label": "GREEN+AMBER",
+          "min": 56,
+          "max": 59
+        },
+        {
+          "label": "GREEN+U.V.",
+          "min": 60,
+          "max": 63
+        },
+        {
+          "label": "BLUE+WHITE",
+          "min": 64,
+          "max": 67
+        },
+        {
+          "label": "BLUE+AMBER",
+          "min": 68,
+          "max": 71
+        },
+        {
+          "label": "BLUE+U.V.",
+          "min": 72,
+          "max": 75
+        },
+        {
+          "label": "WHITE+AMBER",
+          "min": 76,
+          "max": 79
+        },
+        {
+          "label": "WHITE+U.V.",
+          "min": 80,
+          "max": 83
+        },
+        {
+          "label": "AMBER+U.V.",
+          "min": 84,
+          "max": 87
+        },
+        {
+          "label": "RED+GREEN+BLUE",
+          "min": 88,
+          "max": 91
+        },
+        {
+          "label": "RED+GREEN+WHITE",
+          "min": 92,
+          "max": 95
+        },
+        {
+          "label": "RED+GREEN+AMBER",
+          "min": 96,
+          "max": 99
+        },
+        {
+          "label": "RED+GREEN+U.V.",
+          "min": 100,
+          "max": 103
+        },
+        {
+          "label": "RED+BLUE+WHITE",
+          "min": 104,
+          "max": 107
+        },
+        {
+          "label": "RED+BLUE+AMBER",
+          "min": 108,
+          "max": 111
+        },
+        {
+          "label": "RED+BLUE+U.V.",
+          "min": 112,
+          "max": 115
+        },
+        {
+          "label": "RED+WHITE+AMBER",
+          "min": 116,
+          "max": 119
+        },
+        {
+          "label": "RED+WHITE+U.V.",
+          "min": 120,
+          "max": 123
+        },
+        {
+          "label": "RED+AMBER+U.V.",
+          "min": 124,
+          "max": 127
+        },
+        {
+          "label": "GREEN+BLUE+WHITE",
+          "min": 128,
+          "max": 131
+        },
+        {
+          "label": "GREEN+BLUE+AMBER",
+          "min": 132,
+          "max": 135
+        },
+        {
+          "label": "GREEN+BLUE+U.V.",
+          "min": 136,
+          "max": 139
+        },
+        {
+          "label": "GREEN+WHITE+AMBER",
+          "min": 140,
+          "max": 143
+        },
+        {
+          "label": "GREEN+WHITE+U.V.",
+          "min": 144,
+          "max": 147
+        },
+        {
+          "label": "GREEN+AMBER+U.V.",
+          "min": 148,
+          "max": 151
+        },
+        {
+          "label": "BLUE+WHITE+AMBER",
+          "min": 152,
+          "max": 155
+        },
+        {
+          "label": "BLUE+WHITE+U.V.",
+          "min": 156,
+          "max": 159
+        },
+        {
+          "label": "BLUE+AMBER+U.V.",
+          "min": 160,
+          "max": 163
+        },
+        {
+          "label": "WHITE+AMBER+U.V.",
+          "min": 164,
+          "max": 167
+        },
+        {
+          "label": "RED+GREEN+BLUE+WHITE",
+          "min": 168,
+          "max": 171
+        },
+        {
+          "label": "RED+GREEN+BLUE+AMBER",
+          "min": 172,
+          "max": 175
+        },
+        {
+          "label": "RED+GREEN+BLUE+U.V.",
+          "min": 176,
+          "max": 179
+        },
+        {
+          "label": "RED+GREEN+WHITE+AMBER",
+          "min": 180,
+          "max": 183
+        },
+        {
+          "label": "RED+GREEN+WHITE+U.V.",
+          "min": 184,
+          "max": 187
+        },
+        {
+          "label": "RED+GREEN+AMBER+U.V.",
+          "min": 188,
+          "max": 191
+        },
+        {
+          "label": "RED+BLUE+WHITE+AMBER",
+          "min": 192,
+          "max": 195
+        },
+        {
+          "label": "RED+GREEN+WHITE+U.V.",
+          "min": 196,
+          "max": 199
+        },
+        {
+          "label": "RED+GREEN+AMBER+U.V.",
+          "min": 200,
+          "max": 203
+        },
+        {
+          "label": "RED+WHITE+AMBE+U.V.",
+          "min": 204,
+          "max": 207
+        },
+        {
+          "label": "GREEN+BLUE+WHITE+AMBER",
+          "min": 208,
+          "max": 211
+        },
+        {
+          "label": "GREEN+BLUE+WHITE+U.V.",
+          "min": 212,
+          "max": 215
+        },
+        {
+          "label": "GREEN+BLUE+AMBER+U.V.",
+          "min": 216,
+          "max": 219
+        },
+        {
+          "label": "GREEN+WHITE+AMBER+U.V.",
+          "min": 220,
+          "max": 223
+        },
+        {
+          "label": "BLUE+WHITE+AMBER+U.V.",
+          "min": 224,
+          "max": 227
+        },
+        {
+          "label": "RED+GREEN+BLUE+WHITE+AMBER",
+          "min": 228,
+          "max": 231
+        },
+        {
+          "label": "RED+GREEN+BLUE+WHITE+U.V.",
+          "min": 232,
+          "max": 235
+        },
+        {
+          "label": "RED+GREEN+BLUE+AMBER+U.V.",
+          "min": 236,
+          "max": 239
+        },
+        {
+          "label": "RED+GREEN+WHITE+AMBER+U.V.",
+          "min": 240,
+          "max": 243
+        },
+        {
+          "label": "RED+BLUE+WHITE+AMBER+U.V.",
+          "min": 244,
+          "max": 247
+        },
+        {
+          "label": "GREEN+BLUE+WHITE+AMBER+U.V.",
+          "min": 248,
+          "max": 251
+        },
+        {
+          "label": "RED+GREEN+BLUE+WHITE+AMBER+U.V.",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 17,
+      "type_description": "Colour Chase Macros",
+      "capabilities": [
+        {
+          "label": "NO Function",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "30 Colour Chase",
+          "min": 21,
+          "max": 40
+        },
+        {
+          "label": "6 Colour Chase",
+          "min": 41,
+          "max": 60
+        },
+        {
+          "label": "Colour Fade Chase",
+          "min": 61,
+          "max": 80
+        },
+        {
+          "label": "NO Function",
+          "min": 81,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 17,
+      "type_description": "Colour Chase Macros Speed",
+      "capabilities": [
+        {
+          "label": "Chase Speed of CHANNEL 10 - SLOW to FAST",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 17,
+      "type_description": "Dimming Modes",
+      "capabilities": [
+        {
+          "label": "Standard",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "Stage",
+          "min": 21,
+          "max": 40
+        },
+        {
+          "label": "TV",
+          "min": 41,
+          "max": 60
+        },
+        {
+          "label": "Archictural",
+          "min": 61,
+          "max": 80
+        },
+        {
+          "label": "Theater",
+          "min": 81,
+          "max": 100
+        },
+        {
+          "label": "NO Function",
+          "min": 101,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Elation/Elation-SIXPAR-200IP.json",
+  "id": 613
+}

@@ -1,0 +1,510 @@
+{
+  "version": "1.0.0",
+  "label": "Fury FY250S",
+  "manufacturer": "Pro-Lights",
+  "bulb_type": "LED",
+  "bulb_lumens": 23000,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 5,
+  "dimension_width": 229,
+  "dimension_height": 336,
+  "dimension_depth": 213,
+  "lens_label": "Other",
+  "lens_degree_min": 17,
+  "lens_degree_max": 17,
+  "focus_type": "Fixed",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 84,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Color Wheel",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 6
+        },
+        {
+          "label": "Yellow",
+          "min": 7,
+          "max": 13
+        },
+        {
+          "label": "Pink",
+          "min": 14,
+          "max": 20
+        },
+        {
+          "label": "Green",
+          "min": 21,
+          "max": 27
+        },
+        {
+          "label": "Reg",
+          "min": 28,
+          "max": 34
+        },
+        {
+          "label": "Light Blue",
+          "min": 35,
+          "max": 41
+        },
+        {
+          "label": "Kelly Green",
+          "min": 42,
+          "max": 48
+        },
+        {
+          "label": "Orange",
+          "min": 49,
+          "max": 55
+        },
+        {
+          "label": "Dark Blue",
+          "min": 56,
+          "max": 64
+        },
+        {
+          "label": "White + Yellow",
+          "min": 65,
+          "max": 71
+        },
+        {
+          "label": "Yellow + Pink",
+          "min": 72,
+          "max": 78
+        },
+        {
+          "label": "Pink + Green",
+          "min": 79,
+          "max": 85
+        },
+        {
+          "label": "Green + Red",
+          "min": 86,
+          "max": 92
+        },
+        {
+          "label": "Red + Light Blue",
+          "min": 93,
+          "max": 99
+        },
+        {
+          "label": "Light Blue + Orange",
+          "min": 100,
+          "max": 106
+        },
+        {
+          "label": "Orange + Kelly Green",
+          "min": 107,
+          "max": 113
+        },
+        {
+          "label": "Kelly Green + Orange",
+          "min": 114,
+          "max": 120
+        },
+        {
+          "label": "Orange + White",
+          "min": 121,
+          "max": 127
+        },
+        {
+          "label": "Forwards Rainbow Effect Slow > Fast",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Backwards Rainbow Effect Slow > Fast",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Close",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Open",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "Strobe Slow > Fast",
+          "min": 8,
+          "max": 215
+        },
+        {
+          "label": "Open",
+          "min": 216,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 4,
+      "type_description": "Gobo Wheel",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Gobo 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Gobo 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Gobo 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Gobo 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Gobo 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Gobo 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Gobo 7",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Gobo 1 Shake Slow > Fast",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Gobo 2 Shake Slow > Fast",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Gobo 3 Shake Slow > Fast",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Gobo 4 Shake Slow > Fast",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Gobo 5 Shake Slow > Fast",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Gobo 6 Shake Slow > Fast",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Gobo 7 Shake Slow > Fast",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Open",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Forwards Rainbow Effect Slow > Fast",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Backwards Rainbow Effect Slow > Fast",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Gobo Rotation",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Forwards Rotation Slow > Fast",
+          "min": 8,
+          "max": 119
+        },
+        {
+          "label": "Backwards Rotation Slow > Fast",
+          "min": 120,
+          "max": 231
+        },
+        {
+          "label": "Gobo Bouncing",
+          "min": 232,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Prism Effect",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 17,
+      "type_description": "Channel Function",
+      "capabilities": [
+        {
+          "label": "Reserved",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Blackout while Pan/Tilt Moving",
+          "min": 8,
+          "max": 27
+        },
+        {
+          "label": "Blackout while Gobo Wheel Moving",
+          "min": 28,
+          "max": 47
+        },
+        {
+          "label": "Disable Blackout while Pan/Tilt/Gobo Moving",
+          "min": 48,
+          "max": 67
+        },
+        {
+          "label": "Blackout while Color Wheel Moving",
+          "min": 68,
+          "max": 87
+        },
+        {
+          "label": "Disable Blackout while Pan/Tilt/Color Wheel Moving",
+          "min": 88,
+          "max": 107
+        },
+        {
+          "label": "Disable Blackout while Gobo Wheel/Color Wheel Moving",
+          "min": 108,
+          "max": 127
+        },
+        {
+          "label": "Disable Blackout while Pan/Tilt/Gobo Wheel/Color Wheel Moving",
+          "min": 128,
+          "max": 147
+        },
+        {
+          "label": "Reset Pan",
+          "min": 148,
+          "max": 157
+        },
+        {
+          "label": "Reset Tilt",
+          "min": 158,
+          "max": 167
+        },
+        {
+          "label": "Reset Color Wheel",
+          "min": 168,
+          "max": 177
+        },
+        {
+          "label": "Reset Gobo Wheel",
+          "min": 178,
+          "max": 187
+        },
+        {
+          "label": "Reset Prism",
+          "min": 188,
+          "max": 197
+        },
+        {
+          "label": "Reset All",
+          "min": 198,
+          "max": 207
+        },
+        {
+          "label": "Reserved",
+          "min": 208,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 3,
+      "type_description": "Program Built-In",
+      "capabilities": [
+        {
+          "label": "Reserved",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Program Built-In 1",
+          "min": 8,
+          "max": 23
+        },
+        {
+          "label": "Program Built-In 2",
+          "min": 24,
+          "max": 39
+        },
+        {
+          "label": "Program Built-In 3",
+          "min": 40,
+          "max": 55
+        },
+        {
+          "label": "Program Built-In 4",
+          "min": 56,
+          "max": 71
+        },
+        {
+          "label": "Program Built-In 5",
+          "min": 72,
+          "max": 87
+        },
+        {
+          "label": "Program Built-In 6",
+          "min": 88,
+          "max": 103
+        },
+        {
+          "label": "Program Built-In 7",
+          "min": 104,
+          "max": 119
+        },
+        {
+          "label": "Program Built-In 8",
+          "min": 120,
+          "max": 135
+        },
+        {
+          "label": "Sound Control 1",
+          "min": 136,
+          "max": 151
+        },
+        {
+          "label": "Sound Control 2",
+          "min": 152,
+          "max": 167
+        },
+        {
+          "label": "Sound Control 3",
+          "min": 168,
+          "max": 183
+        },
+        {
+          "label": "Sound Control 4",
+          "min": 184,
+          "max": 199
+        },
+        {
+          "label": "Sound Control 5",
+          "min": 200,
+          "max": 215
+        },
+        {
+          "label": "Sound Control 6",
+          "min": 216,
+          "max": 231
+        },
+        {
+          "label": "Sound Control 7",
+          "min": 232,
+          "max": 247
+        },
+        {
+          "label": "Sound Control 8",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Pro-Lights/Pro-Lights-Fury-FY250S.json",
+  "id": 1131
+}

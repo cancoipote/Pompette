@@ -1,0 +1,492 @@
+{
+  "version": "1.0.0",
+  "label": "Phantom 20 LED Beam",
+  "manufacturer": "Showtec",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 47,
+  "dimension_width": 205,
+  "dimension_height": 273,
+  "dimension_depth": 214,
+  "lens_label": "",
+  "lens_degree_min": 5,
+  "lens_degree_max": 5,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 65,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Colour wheel",
+      "capabilities": [
+        {
+          "label": "Open / White",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Blue",
+          "min": 16,
+          "max": 31
+        },
+        {
+          "label": "Yellow",
+          "min": 32,
+          "max": 47
+        },
+        {
+          "label": "Pink",
+          "min": 48,
+          "max": 63
+        },
+        {
+          "label": "Green",
+          "min": 64,
+          "max": 79
+        },
+        {
+          "label": "Red",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "label": "Light Blue",
+          "min": 96,
+          "max": 111
+        },
+        {
+          "label": "Orange",
+          "min": 112,
+          "max": 127
+        },
+        {
+          "label": "Clockwise rotation (CW) rainbow effect from slow to fast",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Counter-clockwise rotation (CCW) rainbow effect from slow to fast",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 21,
+      "type_description": "Shutter/Strobe",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "Shutter open",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "Strobe effect, from slow to fast (0-10 flashes/sec.)",
+          "min": 8,
+          "max": 76
+        },
+        {
+          "label": "Pulse strobe effect from slow to fast",
+          "min": 77,
+          "max": 145
+        },
+        {
+          "label": "Random strobe effect, from slow to fast (0-10 flashes/sec.)",
+          "min": 146,
+          "max": 215
+        },
+        {
+          "label": "Shutter open",
+          "min": 216,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Dimmer intensity",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 4,
+      "type_description": "Static Gobo-wheel + Gobo Shake",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Gobo 1",
+          "min": 10,
+          "max": 15
+        },
+        {
+          "label": "Gobo 2",
+          "min": 16,
+          "max": 21
+        },
+        {
+          "label": "Gobo 3",
+          "min": 22,
+          "max": 27
+        },
+        {
+          "label": "Gobo 4",
+          "min": 28,
+          "max": 33
+        },
+        {
+          "label": "Gobo 5",
+          "min": 34,
+          "max": 39
+        },
+        {
+          "label": "Gobo 6",
+          "min": 40,
+          "max": 45
+        },
+        {
+          "label": "Gobo 7",
+          "min": 46,
+          "max": 51
+        },
+        {
+          "label": "Gobo 8",
+          "min": 52,
+          "max": 57
+        },
+        {
+          "label": "Gobo 9",
+          "min": 58,
+          "max": 63
+        },
+        {
+          "label": "Gobo Shake 9 from slow to fast",
+          "min": 64,
+          "max": 69
+        },
+        {
+          "label": "Gobo Shake 8 from slow to fast",
+          "min": 70,
+          "max": 75
+        },
+        {
+          "label": "Gobo Shake 7 from slow to fast",
+          "min": 76,
+          "max": 81
+        },
+        {
+          "label": "Gobo Shake 6 from slow to fast",
+          "min": 82,
+          "max": 87
+        },
+        {
+          "label": "Gobo Shake 5 from slow to fast",
+          "min": 88,
+          "max": 93
+        },
+        {
+          "label": "Gobo Shake 4 from slow to fast",
+          "min": 94,
+          "max": 99
+        },
+        {
+          "label": "Gobo Shake 3 from slow to fast",
+          "min": 100,
+          "max": 105
+        },
+        {
+          "label": "Gobo Shake 2 from slow to fast",
+          "min": 106,
+          "max": 111
+        },
+        {
+          "label": "Gobo Shake 1 from slow to fast",
+          "min": 112,
+          "max": 117
+        },
+        {
+          "label": "Open / White",
+          "min": 118,
+          "max": 127
+        },
+        {
+          "label": "Clockwise rotation (CW) rainbow effect from slow to fast",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "Counter-clockwise rotation (CCW) rainbow effect from slow to fast",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 3,
+      "type_description": "Channel Functions",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Blackout during Pan/Tilt movement",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "Blackout during Colorwheel movement",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "Blackout during Gobowheel movement",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "Blackout during Pan/Tilt/Colorwheel movement",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "Blackout during Pan/Tilt/Gobowheel movement",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "Blackout during Gobowheel /Colorwheel movement",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "Blackout during Pan/Tilt/Gobowheel /Colorwheel movement",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "No function",
+          "min": 45,
+          "max": 69
+        },
+        {
+          "label": "Reset after 5 seconds",
+          "min": 70,
+          "max": 74
+        },
+        {
+          "label": "No function",
+          "min": 75,
+          "max": 79
+        },
+        {
+          "label": "X, Y negative direction after 5 seconds",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "X negative direction after 5 seconds",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "No function",
+          "min": 90,
+          "max": 94
+        },
+        {
+          "label": "Y negative direction after 5 seconds",
+          "min": 95,
+          "max": 99
+        },
+        {
+          "label": "No function",
+          "min": 100,
+          "max": 104
+        },
+        {
+          "label": "Cancel X negative direction after 5 seconds",
+          "min": 105,
+          "max": 109
+        },
+        {
+          "label": "No function",
+          "min": 110,
+          "max": 114
+        },
+        {
+          "label": "Cancel Y negative direction after 5 seconds",
+          "min": 115,
+          "max": 119
+        },
+        {
+          "label": "No functions",
+          "min": 120,
+          "max": 124
+        },
+        {
+          "label": "Cancel X, Y direction after 5 seconds",
+          "min": 125,
+          "max": 129
+        },
+        {
+          "label": "No function",
+          "min": 130,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 3,
+      "type_description": "Built-In Programs + Sound-controlled Program",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Built-in Program 1",
+          "min": 8,
+          "max": 22
+        },
+        {
+          "label": "Built-in Program 2",
+          "min": 23,
+          "max": 37
+        },
+        {
+          "label": "Built-in Program 3",
+          "min": 38,
+          "max": 52
+        },
+        {
+          "label": "Built-in Program 4",
+          "min": 53,
+          "max": 67
+        },
+        {
+          "label": "Built-in Program 5",
+          "min": 68,
+          "max": 82
+        },
+        {
+          "label": "Built-in Program 6",
+          "min": 83,
+          "max": 97
+        },
+        {
+          "label": "Built-in Program 7",
+          "min": 98,
+          "max": 112
+        },
+        {
+          "label": "Built-in Program 8",
+          "min": 113,
+          "max": 127
+        },
+        {
+          "label": "Built-in Program 9",
+          "min": 128,
+          "max": 142
+        },
+        {
+          "label": "Built-in Program 10",
+          "min": 143,
+          "max": 157
+        },
+        {
+          "label": "Built-in Program 11",
+          "min": 158,
+          "max": 172
+        },
+        {
+          "label": "Built-in Program 12",
+          "min": 173,
+          "max": 187
+        },
+        {
+          "label": "Built-in Program 13",
+          "min": 188,
+          "max": 202
+        },
+        {
+          "label": "Built-in Program 14",
+          "min": 203,
+          "max": 217
+        },
+        {
+          "label": "Built-in Program 15",
+          "min": 218,
+          "max": 232
+        },
+        {
+          "label": "Built-in Program 16",
+          "min": 233,
+          "max": 247
+        },
+        {
+          "label": "Sound-controlled Program",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Speed",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Showtec/Showtec-Phantom-20-LED-Beam.json",
+  "id": 1317
+}

@@ -1,0 +1,262 @@
+{
+  "version": "1.0.0",
+  "label": "Mini Scan HPE",
+  "manufacturer": "Clay Paky",
+  "bulb_type": "HTI 300W",
+  "bulb_lumens": 22000,
+  "bulb_color_temperature": 6500,
+  "dimension_weight": 13,
+  "dimension_width": 582,
+  "dimension_height": 300,
+  "dimension_depth": 238,
+  "lens_label": "Other",
+  "lens_degree_min": 16,
+  "lens_degree_max": 16,
+  "focus_type": "Mirror",
+  "focus_pan_max": 150,
+  "focus_tilt_max": 110,
+  "technical_power_consumption": 900,
+  "technical_dmx_connector": "5-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Color Disc",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Red",
+          "min": 16,
+          "max": 32
+        },
+        {
+          "label": "Yellow",
+          "min": 33,
+          "max": 48
+        },
+        {
+          "label": "Violet",
+          "min": 49,
+          "max": 65
+        },
+        {
+          "label": "Green",
+          "min": 66,
+          "max": 81
+        },
+        {
+          "label": "Orange",
+          "min": 82,
+          "max": 97
+        },
+        {
+          "label": "Blue",
+          "min": 98,
+          "max": 114
+        },
+        {
+          "label": "Pink",
+          "min": 115,
+          "max": 127
+        },
+        {
+          "label": "Rotation Speed",
+          "min": 128,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 22,
+      "type_description": "Gobo Rotation",
+      "capabilities": [
+        {
+          "label": "0° Position",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "label": "90° Position",
+          "min": 21,
+          "max": 41
+        },
+        {
+          "label": "180° Position",
+          "min": 42,
+          "max": 62
+        },
+        {
+          "label": "270° Position",
+          "min": 63,
+          "max": 83
+        },
+        {
+          "label": "360° Position",
+          "min": 84,
+          "max": 104
+        },
+        {
+          "label": "450° Position",
+          "min": 105,
+          "max": 126
+        },
+        {
+          "label": "540° Position",
+          "min": 127,
+          "max": 127
+        },
+        {
+          "label": "CCW Rotation [Fast->Slow]",
+          "min": 128,
+          "max": 190
+        },
+        {
+          "label": "Stop Rotation",
+          "min": 191,
+          "max": 192
+        },
+        {
+          "label": "CW Rotation [Slow->Fast]",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 4,
+      "type_description": "Gobo Select",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 36
+        },
+        {
+          "label": "Gobo 1",
+          "min": 37,
+          "max": 73
+        },
+        {
+          "label": "Gobo 2",
+          "min": 74,
+          "max": 110
+        },
+        {
+          "label": "Gobo 3",
+          "min": 111,
+          "max": 147
+        },
+        {
+          "label": "Gobo 4",
+          "min": 148,
+          "max": 184
+        },
+        {
+          "label": "Gobo 5",
+          "min": 185,
+          "max": 221
+        },
+        {
+          "label": "Gobo 6",
+          "min": 222,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 21,
+      "type_description": "Dimmer / Stopper / Strobe",
+      "capabilities": [
+        {
+          "label": "Close",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Open",
+          "min": 128,
+          "max": 139
+        },
+        {
+          "label": "Strobe Slow to Fast",
+          "min": 140,
+          "max": 243
+        },
+        {
+          "label": "Open",
+          "min": 244,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 3,
+      "type_description": "Effects disc",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 35
+        },
+        {
+          "label": "Warm Filter",
+          "min": 36,
+          "max": 71
+        },
+        {
+          "label": "Cold Filter",
+          "min": 72,
+          "max": 108
+        },
+        {
+          "label": "Light Frost",
+          "min": 109,
+          "max": 145
+        },
+        {
+          "label": "Heavy Frost",
+          "min": 146,
+          "max": 181
+        },
+        {
+          "label": "3 Face Prism",
+          "min": 182,
+          "max": 217
+        },
+        {
+          "label": "U.V. Filter",
+          "min": 218,
+          "max": 254
+        },
+        {
+          "label": "Light Blue",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Clay_Paky/Clay-Paky-Mini-Scan-HPE.json",
+  "id": 366
+}

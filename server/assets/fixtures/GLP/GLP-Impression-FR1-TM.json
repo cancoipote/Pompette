@@ -1,0 +1,691 @@
+{
+  "version": "1.0.0",
+  "label": "Impression FR1 TM",
+  "manufacturer": "GLP",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 190,
+  "dimension_height": 264,
+  "dimension_depth": 140,
+  "lens_label": "Other",
+  "lens_degree_min": 3,
+  "lens_degree_max": 35,
+  "focus_type": "Head",
+  "focus_pan_max": 629,
+  "focus_tilt_max": 210,
+  "technical_power_consumption": 85,
+  "technical_dmx_connector": "5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan Coarse",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt coarse",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Color Presets (virtual color wheel)",
+      "capabilities": [
+        {
+          "label": "RGBW control",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Color 01 - Red",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Color 02 - Amber",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Color 03 - Warm yellow",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Color 04 - Yellow",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Color 05 - Green",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Color 06 - Turquoise",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Color 07 - Cyan",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Color 08 - Blue",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Color 09 - Lavender",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Color 10 - Mauve",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Color 11 - Magenta",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Color 12 - Pink",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "White - CTO",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "White",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "White - CTB",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Rainbow effect stop",
+          "min": 128,
+          "max": 128
+        },
+        {
+          "label": "Rainbow effect active",
+          "min": 129,
+          "max": 223
+        },
+        {
+          "label": "Random colors slow - fast",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 21,
+      "type_description": "Shutter/ Strobe",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Shutter pulse random",
+          "min": 16,
+          "max": 47
+        },
+        {
+          "label": "Fade on, snap off (random patterns)",
+          "min": 48,
+          "max": 79
+        },
+        {
+          "label": "Snap on, fade off (random patterns)",
+          "min": 80,
+          "max": 111
+        },
+        {
+          "label": "Fade on, fade off (random patterns)",
+          "min": 112,
+          "max": 143
+        },
+        {
+          "label": "Strobe with blackout pause",
+          "min": 144,
+          "max": 199
+        },
+        {
+          "label": "Strobe effect slow - fast",
+          "min": 200,
+          "max": 239
+        },
+        {
+          "label": "Shutter open",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Dimmer coarse",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Dimmer fine",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "CTC",
+      "capabilities": [
+        {
+          "label": "RGBW raw",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "CTC 10000 K - 2500 K",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 17,
+      "type_description": "Settings",
+      "capabilities": [
+        {
+          "label": "Idle",
+          "min": 0,
+          "max": 11
+        },
+        {
+          "label": "No function",
+          "min": 12,
+          "max": 26
+        },
+        {
+          "label": "Performance = Fast",
+          "min": 27,
+          "max": 29
+        },
+        {
+          "label": "Performance = Normal",
+          "min": 30,
+          "max": 32
+        },
+        {
+          "label": "Performance = Smooth",
+          "min": 33,
+          "max": 35
+        },
+        {
+          "label": "No function",
+          "min": 36,
+          "max": 38
+        },
+        {
+          "label": "Dimmer curve = Extra-soft",
+          "min": 39,
+          "max": 41
+        },
+        {
+          "label": "Dimmer curve = Linear",
+          "min": 42,
+          "max": 44
+        },
+        {
+          "label": "Dimmer curve = Soft",
+          "min": 45,
+          "max": 47
+        },
+        {
+          "label": "No function",
+          "min": 48,
+          "max": 56
+        },
+        {
+          "label": "Display auto-off",
+          "min": 57,
+          "max": 59
+        },
+        {
+          "label": "Display permantently on",
+          "min": 60,
+          "max": 62
+        },
+        {
+          "label": "Display invert off",
+          "min": 63,
+          "max": 65
+        },
+        {
+          "label": "Display invert on",
+          "min": 66,
+          "max": 68
+        },
+        {
+          "label": "No function",
+          "min": 69,
+          "max": 71
+        },
+        {
+          "label": "No DMX = Blackout",
+          "min": 72,
+          "max": 74
+        },
+        {
+          "label": "No DMX = Hold current effect",
+          "min": 75,
+          "max": 77
+        },
+        {
+          "label": "No DMX = Stand-Alone",
+          "min": 78,
+          "max": 80
+        },
+        {
+          "label": "No DMX = Save Snapshot",
+          "min": 81,
+          "max": 83
+        },
+        {
+          "label": "No function",
+          "min": 84,
+          "max": 86
+        },
+        {
+          "label": "Fans temperature-regulated",
+          "min": 87,
+          "max": 89
+        },
+        {
+          "label": "Fans constant high",
+          "min": 90,
+          "max": 92
+        },
+        {
+          "label": "Fans constant medium",
+          "min": 93,
+          "max": 95
+        },
+        {
+          "label": "Fans constant low",
+          "min": 96,
+          "max": 98
+        },
+        {
+          "label": "No function",
+          "min": 99,
+          "max": 104
+        },
+        {
+          "label": "P/T position feedback off",
+          "min": 105,
+          "max": 107
+        },
+        {
+          "label": "P/T position feedback on",
+          "min": 108,
+          "max": 110
+        },
+        {
+          "label": "No function",
+          "min": 111,
+          "max": 116
+        },
+        {
+          "label": "Tilt invert off",
+          "min": 117,
+          "max": 119
+        },
+        {
+          "label": "Tilt invert on",
+          "min": 120,
+          "max": 122
+        },
+        {
+          "label": "Pan invert off",
+          "min": 123,
+          "max": 125
+        },
+        {
+          "label": "Pan invert on",
+          "min": 126,
+          "max": 128
+        },
+        {
+          "label": "Zoom invert off",
+          "min": 129,
+          "max": 131
+        },
+        {
+          "label": "Zoom invert on",
+          "min": 132,
+          "max": 134
+        },
+        {
+          "label": "No function",
+          "min": 135,
+          "max": 149
+        },
+        {
+          "label": "PWM frequency 582 Hz",
+          "min": 150,
+          "max": 150
+        },
+        {
+          "label": "PWM frequency 583 Hz",
+          "min": 151,
+          "max": 151
+        },
+        {
+          "label": "PWM frequency 584 Hz",
+          "min": 152,
+          "max": 152
+        },
+        {
+          "label": "PWM frequency 585 Hz",
+          "min": 153,
+          "max": 153
+        },
+        {
+          "label": "PWM frequency 586 Hz",
+          "min": 154,
+          "max": 154
+        },
+        {
+          "label": "PWM frequency 587 Hz",
+          "min": 155,
+          "max": 155
+        },
+        {
+          "label": "PWM frequency 588 Hz",
+          "min": 156,
+          "max": 156
+        },
+        {
+          "label": "PWM frequency 589 Hz",
+          "min": 157,
+          "max": 157
+        },
+        {
+          "label": "PWM frequency 590 Hz",
+          "min": 158,
+          "max": 158
+        },
+        {
+          "label": "PWM frequency 591 Hz",
+          "min": 159,
+          "max": 159
+        },
+        {
+          "label": "PWM frequency 592 Hz",
+          "min": 160,
+          "max": 160
+        },
+        {
+          "label": "PWM frequency 593 Hz",
+          "min": 161,
+          "max": 161
+        },
+        {
+          "label": "PWM frequency 594 Hz",
+          "min": 162,
+          "max": 162
+        },
+        {
+          "label": "PWM frequency 595 Hz",
+          "min": 163,
+          "max": 163
+        },
+        {
+          "label": "PWM frequency 596 Hz",
+          "min": 164,
+          "max": 164
+        },
+        {
+          "label": "PWM frequency 597 Hz",
+          "min": 165,
+          "max": 165
+        },
+        {
+          "label": "PWM frequency 598 Hz",
+          "min": 166,
+          "max": 166
+        },
+        {
+          "label": "PWM frequency 599 Hz",
+          "min": 167,
+          "max": 167
+        },
+        {
+          "label": "PWM frequency 600 Hz",
+          "min": 168,
+          "max": 168
+        },
+        {
+          "label": "PWM frequency 601 Hz",
+          "min": 169,
+          "max": 169
+        },
+        {
+          "label": "PWM frequency 602 Hz",
+          "min": 170,
+          "max": 170
+        },
+        {
+          "label": "PWM frequency 603 Hz",
+          "min": 171,
+          "max": 171
+        },
+        {
+          "label": "PWM frequency 604 Hz",
+          "min": 172,
+          "max": 172
+        },
+        {
+          "label": "PWM frequency 605 Hz",
+          "min": 173,
+          "max": 173
+        },
+        {
+          "label": "PWM frequency 606 Hz",
+          "min": 174,
+          "max": 174
+        },
+        {
+          "label": "PWM frequency 607 Hz",
+          "min": 175,
+          "max": 175
+        },
+        {
+          "label": "PWM frequency 608 Hz",
+          "min": 176,
+          "max": 176
+        },
+        {
+          "label": "PWM frequency 609 Hz",
+          "min": 177,
+          "max": 177
+        },
+        {
+          "label": "PWM frequency 610 Hz",
+          "min": 178,
+          "max": 178
+        },
+        {
+          "label": "PWM frequency 611 Hz",
+          "min": 179,
+          "max": 179
+        },
+        {
+          "label": "PWM frequency 612 Hz",
+          "min": 180,
+          "max": 180
+        },
+        {
+          "label": "PWM frequency 613 Hz",
+          "min": 181,
+          "max": 181
+        },
+        {
+          "label": "PWM frequency 614 Hz",
+          "min": 182,
+          "max": 182
+        },
+        {
+          "label": "PWM frequency 615 Hz",
+          "min": 183,
+          "max": 183
+        },
+        {
+          "label": "PWM frequency 616 Hz",
+          "min": 184,
+          "max": 184
+        },
+        {
+          "label": "PWM frequency 617 Hz",
+          "min": 185,
+          "max": 185
+        },
+        {
+          "label": "PWM frequency 618 Hz",
+          "min": 186,
+          "max": 186
+        },
+        {
+          "label": "No function",
+          "min": 187,
+          "max": 191
+        },
+        {
+          "label": "PWM frequency 1200 Hz",
+          "min": 192,
+          "max": 194
+        },
+        {
+          "label": "PWM frequency 2400 Hz",
+          "min": 195,
+          "max": 197
+        },
+        {
+          "label": "PWM frequency 4800 Hz",
+          "min": 198,
+          "max": 200
+        },
+        {
+          "label": "PWM frequency 9600 Hz",
+          "min": 201,
+          "max": 203
+        },
+        {
+          "label": "No function",
+          "min": 204,
+          "max": 251
+        },
+        {
+          "label": "Reset entire fixture",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 19,
+      "type_description": "Endless pan rotation",
+      "capabilities": [
+        {
+          "label": "Stop",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Pan rotation CW fast - slow",
+          "min": 1,
+          "max": 127
+        },
+        {
+          "label": "Stop",
+          "min": 128,
+          "max": 128
+        },
+        {
+          "label": "Pan rotation CCW slow - fast",
+          "min": 129,
+          "max": 254
+        },
+        {
+          "label": "Stop",
+          "min": 255,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/GLP/GLP-Impression-FR1-TM.json",
+  "id": 844
+}

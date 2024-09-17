@@ -1,0 +1,1371 @@
+{
+  "version": "1.0.0",
+  "label": "MAC Aura",
+  "manufacturer": "Martin",
+  "bulb_type": "LED",
+  "bulb_lumens": 3850,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 5,
+  "dimension_width": 302,
+  "dimension_height": 302,
+  "dimension_depth": 360,
+  "lens_label": "Other",
+  "lens_degree_min": 11,
+  "lens_degree_max": 58,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 232,
+  "technical_power_consumption": 230,
+  "technical_dmx_connector": "5-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Beam electronic shutter effect",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Shutter open",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "Strobe 1 (fast → slow)",
+          "min": 25,
+          "max": 64
+        },
+        {
+          "label": "Shutter open",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "Strobe 2: opening pulse (fast → slow)",
+          "min": 70,
+          "max": 84
+        },
+        {
+          "label": "Shutter open",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "Strobe 3: closing pulse (fast → slow)",
+          "min": 90,
+          "max": 104
+        },
+        {
+          "label": "Shutter open",
+          "min": 105,
+          "max": 109
+        },
+        {
+          "label": "Strobe 4: random strobe (fast → slow)",
+          "min": 110,
+          "max": 124
+        },
+        {
+          "label": "Shutter open",
+          "min": 125,
+          "max": 129
+        },
+        {
+          "label": "Strobe 5: random opening pulse (fast → slow)",
+          "min": 130,
+          "max": 144
+        },
+        {
+          "label": "Shutter open",
+          "min": 145,
+          "max": 149
+        },
+        {
+          "label": "Strobe 6: random closing pulse (fast → slow)",
+          "min": 150,
+          "max": 164
+        },
+        {
+          "label": "Shutter open",
+          "min": 165,
+          "max": 169
+        },
+        {
+          "label": "Strobe 7: burst pulse (fast → slow)",
+          "min": 170,
+          "max": 184
+        },
+        {
+          "label": "Shutter open",
+          "min": 185,
+          "max": 189
+        },
+        {
+          "label": "Strobe 8: random burst pulse (fast → slow)",
+          "min": 190,
+          "max": 204
+        },
+        {
+          "label": "Shutter open",
+          "min": 205,
+          "max": 209
+        },
+        {
+          "label": "Strobe 9: sine wave (fast → slow)",
+          "min": 210,
+          "max": 224
+        },
+        {
+          "label": "Shutter open",
+          "min": 225,
+          "max": 229
+        },
+        {
+          "label": "Strobe 10: burst (fast → slow)",
+          "min": 230,
+          "max": 244
+        },
+        {
+          "label": "Shutter open",
+          "min": 245,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Beam dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 17,
+      "type_description": "Fixture control settings",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Reset entire fixture",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "No function",
+          "min": 15,
+          "max": 39
+        },
+        {
+          "label": "PTSP = NORM",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "PTSP = FAST",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "PTSP = SLOW",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "No function",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "Fan mode FULL",
+          "min": 60,
+          "max": 64
+        },
+        {
+          "label": "No function",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "Fan mode Regulated",
+          "min": 70,
+          "max": 74
+        },
+        {
+          "label": "No function",
+          "min": 75,
+          "max": 89
+        },
+        {
+          "label": "Calibrated color output mode COLOR CALIB = ON",
+          "min": 90,
+          "max": 94
+        },
+        {
+          "label": "No function",
+          "min": 95,
+          "max": 99
+        },
+        {
+          "label": "Raw color output mode COLOR CALIB = OFF",
+          "min": 100,
+          "max": 104
+        },
+        {
+          "label": "No function",
+          "min": 105,
+          "max": 109
+        },
+        {
+          "label": "Fast dimming, speed of changes unrestricted",
+          "min": 110,
+          "max": 114
+        },
+        {
+          "label": "No function",
+          "min": 115,
+          "max": 119
+        },
+        {
+          "label": "Smooth dimming, speed of changes restricted slightly",
+          "min": 120,
+          "max": 124
+        },
+        {
+          "label": "No function",
+          "min": 125,
+          "max": 249
+        },
+        {
+          "label": "Illuminate display",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Beam color wheel effect",
+      "capabilities": [
+        {
+          "label": "Open. RGBW color mixing enabled",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "LEE 790 - Moroccan pink",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "LEE 157 - Pink",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "LEE 332 - Special rose pink",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "LEE 328 - Follies pink",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "LEE 345 - Fuchsia pink",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "LEE 194 - Surprise pink",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "LEE 181 - Congo Blue",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "LEE 071 - Tokyo Blue",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "LEE 120 - Deep Blue",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "LEE 079 - Just Blue",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "LEE 132 - Medium Blue",
+          "min": 60,
+          "max": 64
+        },
+        {
+          "label": "LEE 200 - Double CT Blue",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "LEE 161 - Slate Blue",
+          "min": 70,
+          "max": 74
+        },
+        {
+          "label": "LEE 201 - Full CT Blue",
+          "min": 75,
+          "max": 79
+        },
+        {
+          "label": "LEE 202 - Half CT Blue",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "LEE 117 - Steel Blue",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "LEE 353 - Lighter Blue",
+          "min": 90,
+          "max": 94
+        },
+        {
+          "label": "LEE 118 - Light Blue",
+          "min": 95,
+          "max": 99
+        },
+        {
+          "label": "LEE 116 - Medium Blue Green",
+          "min": 100,
+          "max": 104
+        },
+        {
+          "label": "LEE 124 - Dark Green",
+          "min": 105,
+          "max": 109
+        },
+        {
+          "label": "LEE 139 - Primary Green",
+          "min": 110,
+          "max": 114
+        },
+        {
+          "label": "LEE 089 - Moss Green",
+          "min": 115,
+          "max": 119
+        },
+        {
+          "label": "LEE 122 - Fern Green",
+          "min": 120,
+          "max": 124
+        },
+        {
+          "label": "LEE 738 - JAS Green",
+          "min": 125,
+          "max": 129
+        },
+        {
+          "label": "LEE 088 - Lime Green",
+          "min": 130,
+          "max": 134
+        },
+        {
+          "label": "LEE 100 - Spring Yellow",
+          "min": 135,
+          "max": 139
+        },
+        {
+          "label": "LEE 104 - Deep Amber",
+          "min": 140,
+          "max": 144
+        },
+        {
+          "label": "LEE 179 - Chrome Orange",
+          "min": 145,
+          "max": 149
+        },
+        {
+          "label": "LEE 105 - Orange",
+          "min": 150,
+          "max": 154
+        },
+        {
+          "label": "LEE 021 - Gold Amber",
+          "min": 155,
+          "max": 159
+        },
+        {
+          "label": "LEE 778 - Millennium Gold",
+          "min": 160,
+          "max": 164
+        },
+        {
+          "label": "LEE 135 - Deep Golden Amber",
+          "min": 165,
+          "max": 169
+        },
+        {
+          "label": "LEE 164 - Flame Red",
+          "min": 170,
+          "max": 174
+        },
+        {
+          "label": "Open",
+          "min": 175,
+          "max": 179
+        },
+        {
+          "label": "Color rotation fast → slow",
+          "min": 180,
+          "max": 201
+        },
+        {
+          "label": "Stop Rot",
+          "min": 202,
+          "max": 207
+        },
+        {
+          "label": "Color rotation slow → fast",
+          "min": 208,
+          "max": 229
+        },
+        {
+          "label": "Open",
+          "min": 230,
+          "max": 234
+        },
+        {
+          "label": "Random color Fast",
+          "min": 235,
+          "max": 239
+        },
+        {
+          "label": "Random color Medium",
+          "min": 240,
+          "max": 244
+        },
+        {
+          "label": "Random color Slow",
+          "min": 245,
+          "max": 249
+        },
+        {
+          "label": "Open",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Beam Red",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Beam Green",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Beam Blue",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "Beam White",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 5,
+      "type_description": "Beam CTC",
+      "capabilities": [
+        {
+          "label": "Disabled",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "10 000K → 2 500K",
+          "min": 20,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 3,
+      "type_description": "FX1 select",
+      "capabilities": [
+        {
+          "label": "Idle",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Dimmer sync",
+          "min": 10,
+          "max": 12
+        },
+        {
+          "label": "Strobe sync",
+          "min": 13,
+          "max": 15
+        },
+        {
+          "label": "Dimmer + strobe sync",
+          "min": 16,
+          "max": 18
+        },
+        {
+          "label": "Aura color sync",
+          "min": 19,
+          "max": 21
+        },
+        {
+          "label": "Aura all sync",
+          "min": 22,
+          "max": 24
+        },
+        {
+          "label": "Reserved",
+          "min": 25,
+          "max": 39
+        },
+        {
+          "label": "Aura strobe delay",
+          "min": 40,
+          "max": 42
+        },
+        {
+          "label": "Strobe alternate single",
+          "min": 43,
+          "max": 45
+        },
+        {
+          "label": "Strobe alternate dual",
+          "min": 46,
+          "max": 48
+        },
+        {
+          "label": "Strobe alternate triple",
+          "min": 49,
+          "max": 51
+        },
+        {
+          "label": "3-step strobe",
+          "min": 52,
+          "max": 54
+        },
+        {
+          "label": "Reserved",
+          "min": 55,
+          "max": 60
+        },
+        {
+          "label": "Intensity random alternate",
+          "min": 61,
+          "max": 63
+        },
+        {
+          "label": "Aura ramp, Beam flash",
+          "min": 64,
+          "max": 66
+        },
+        {
+          "label": "Beam ramp, Aura flash",
+          "min": 67,
+          "max": 69
+        },
+        {
+          "label": "Intensity Aura, Beam ramp",
+          "min": 70,
+          "max": 72
+        },
+        {
+          "label": "Intensity Beam, Aura ramp",
+          "min": 73,
+          "max": 75
+        },
+        {
+          "label": "Reserved",
+          "min": 76,
+          "max": 99
+        },
+        {
+          "label": "Aura color offset",
+          "min": 100,
+          "max": 102
+        },
+        {
+          "label": "Reserved",
+          "min": 103,
+          "max": 108
+        },
+        {
+          "label": "Hue shimmer",
+          "min": 109,
+          "max": 111
+        },
+        {
+          "label": "Saturation shimmer",
+          "min": 112,
+          "max": 114
+        },
+        {
+          "label": "Reserved",
+          "min": 115,
+          "max": 126
+        },
+        {
+          "label": "Color strobe",
+          "min": 127,
+          "max": 129
+        },
+        {
+          "label": "Color offset strobe",
+          "min": 130,
+          "max": 132
+        },
+        {
+          "label": "Aura color strobe",
+          "min": 133,
+          "max": 135
+        },
+        {
+          "label": "Aura color offset strobe",
+          "min": 136,
+          "max": 138
+        },
+        {
+          "label": "Color spikes",
+          "min": 139,
+          "max": 141
+        },
+        {
+          "label": "Reserved",
+          "min": 142,
+          "max": 159
+        },
+        {
+          "label": "Color zoom ramp in",
+          "min": 160,
+          "max": 162
+        },
+        {
+          "label": "Color zoom ramp out",
+          "min": 163,
+          "max": 165
+        },
+        {
+          "label": "Color zoom fade in",
+          "min": 166,
+          "max": 168
+        },
+        {
+          "label": "Color zoom fade out",
+          "min": 169,
+          "max": 171
+        },
+        {
+          "label": "Reserved",
+          "min": 172,
+          "max": 174
+        },
+        {
+          "label": "Zoom ramp up",
+          "min": 175,
+          "max": 177
+        },
+        {
+          "label": "Zoom ramp down",
+          "min": 178,
+          "max": 180
+        },
+        {
+          "label": "Reserved",
+          "min": 181,
+          "max": 219
+        },
+        {
+          "label": "Reserved",
+          "min": 220,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 22,
+      "type_description": "FX1 adjust, sync speed adjust",
+      "capabilities": [
+        {
+          "label": "Min > Max",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 3,
+      "type_description": "FX2 select",
+      "capabilities": [
+        {
+          "label": "Idle",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Dimmer sync",
+          "min": 10,
+          "max": 12
+        },
+        {
+          "label": "Strobe sync",
+          "min": 13,
+          "max": 15
+        },
+        {
+          "label": "Dimmer + strobe sync",
+          "min": 16,
+          "max": 18
+        },
+        {
+          "label": "Aura color sync",
+          "min": 19,
+          "max": 21
+        },
+        {
+          "label": "Aura all sync",
+          "min": 22,
+          "max": 24
+        },
+        {
+          "label": "Reserved",
+          "min": 25,
+          "max": 39
+        },
+        {
+          "label": "Aura strobe delay",
+          "min": 40,
+          "max": 42
+        },
+        {
+          "label": "Strobe alternate single",
+          "min": 43,
+          "max": 45
+        },
+        {
+          "label": "Strobe alternate dual",
+          "min": 46,
+          "max": 48
+        },
+        {
+          "label": "Strobe alternate triple",
+          "min": 49,
+          "max": 51
+        },
+        {
+          "label": "3-step strobe",
+          "min": 52,
+          "max": 54
+        },
+        {
+          "label": "Reserved",
+          "min": 55,
+          "max": 60
+        },
+        {
+          "label": "Intensity random alternate",
+          "min": 61,
+          "max": 63
+        },
+        {
+          "label": "Aura ramp, Beam flash",
+          "min": 64,
+          "max": 66
+        },
+        {
+          "label": "Beam ramp, Aura flash",
+          "min": 67,
+          "max": 69
+        },
+        {
+          "label": "Intensity Aura, Beam ramp",
+          "min": 70,
+          "max": 72
+        },
+        {
+          "label": "Intensity Beam, Aura ramp",
+          "min": 73,
+          "max": 75
+        },
+        {
+          "label": "Reserved",
+          "min": 76,
+          "max": 99
+        },
+        {
+          "label": "Aura color offset",
+          "min": 100,
+          "max": 102
+        },
+        {
+          "label": "Reserved",
+          "min": 103,
+          "max": 108
+        },
+        {
+          "label": "Hue shimmer",
+          "min": 109,
+          "max": 111
+        },
+        {
+          "label": "Saturation shimmer",
+          "min": 112,
+          "max": 114
+        },
+        {
+          "label": "Reserved",
+          "min": 115,
+          "max": 126
+        },
+        {
+          "label": "Color strobe",
+          "min": 127,
+          "max": 129
+        },
+        {
+          "label": "Color offset strobe",
+          "min": 130,
+          "max": 132
+        },
+        {
+          "label": "Aura color strobe",
+          "min": 133,
+          "max": 135
+        },
+        {
+          "label": "Aura color offset strobe",
+          "min": 136,
+          "max": 138
+        },
+        {
+          "label": "Color spikes",
+          "min": 139,
+          "max": 141
+        },
+        {
+          "label": "Reserved",
+          "min": 142,
+          "max": 159
+        },
+        {
+          "label": "Color zoom ramp in",
+          "min": 160,
+          "max": 162
+        },
+        {
+          "label": "Color zoom ramp out",
+          "min": 163,
+          "max": 165
+        },
+        {
+          "label": "Color zoom fade in",
+          "min": 166,
+          "max": 168
+        },
+        {
+          "label": "Color zoom fade out",
+          "min": 169,
+          "max": 171
+        },
+        {
+          "label": "Reserved",
+          "min": 172,
+          "max": 174
+        },
+        {
+          "label": "Zoom ramp up",
+          "min": 175,
+          "max": 177
+        },
+        {
+          "label": "Zoom ramp down",
+          "min": 178,
+          "max": 180
+        },
+        {
+          "label": "Reserved",
+          "min": 181,
+          "max": 219
+        },
+        {
+          "label": "Reserved",
+          "min": 220,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 22,
+      "type_description": "FX2 adjust, sync speed adjust",
+      "capabilities": [
+        {
+          "label": "Min > Max",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 3,
+      "type_description": "Sync (FX synchronization)",
+      "capabilities": [
+        {
+          "label": "No sync",
+          "min": 0,
+          "max": 49
+        },
+        {
+          "label": "Sync",
+          "min": 50,
+          "max": 50
+        },
+        {
+          "label": "Sync shift",
+          "min": 51,
+          "max": 169
+        },
+        {
+          "label": "Sync random",
+          "min": 170,
+          "max": 209
+        },
+        {
+          "label": "No sync, random",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 21,
+      "type_description": "Aura shutter and strobe effect",
+      "capabilities": [
+        {
+          "label": "closed",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "open",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "Strobe 1 (fast → slow)",
+          "min": 25,
+          "max": 64
+        },
+        {
+          "label": "Open",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "Strobe 2: opening pulse (fast → slow)",
+          "min": 70,
+          "max": 84
+        },
+        {
+          "label": "open",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "Strobe 3: closing pulse (fast → slow)",
+          "min": 90,
+          "max": 104
+        },
+        {
+          "label": "open",
+          "min": 105,
+          "max": 109
+        },
+        {
+          "label": "Strobe 4: random strobe (fast → slow)",
+          "min": 110,
+          "max": 124
+        },
+        {
+          "label": "open",
+          "min": 125,
+          "max": 129
+        },
+        {
+          "label": "Strobe 5: random opening pulse (fast → slow)",
+          "min": 130,
+          "max": 144
+        },
+        {
+          "label": "open",
+          "min": 145,
+          "max": 149
+        },
+        {
+          "label": "Strobe 6: random closing pulse (fast → slow)",
+          "min": 150,
+          "max": 164
+        },
+        {
+          "label": "open",
+          "min": 165,
+          "max": 169
+        },
+        {
+          "label": "Strobe 7: burst pulse (fast → slow)",
+          "min": 170,
+          "max": 184
+        },
+        {
+          "label": "open",
+          "min": 185,
+          "max": 189
+        },
+        {
+          "label": "Strobe 8: random burst pulse (fast → slow)",
+          "min": 190,
+          "max": 204
+        },
+        {
+          "label": "open",
+          "min": 205,
+          "max": 209
+        },
+        {
+          "label": "Strobe 9: sine wave (fast → slow)",
+          "min": 210,
+          "max": 224
+        },
+        {
+          "label": "Open",
+          "min": 225,
+          "max": 229
+        },
+        {
+          "label": "Strobe 10: burst (fast → slow)",
+          "min": 230,
+          "max": 244
+        },
+        {
+          "label": "open",
+          "min": 245,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Aura dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "Aura color wheel effect",
+      "capabilities": [
+        {
+          "label": "Open. RGBW color mixing enabled",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "LEE 790 - Moroccan pink",
+          "min": 10,
+          "max": 14
+        },
+        {
+          "label": "LEE 157 - Pink",
+          "min": 15,
+          "max": 19
+        },
+        {
+          "label": "LEE 332 - Special rose pink",
+          "min": 20,
+          "max": 24
+        },
+        {
+          "label": "LEE 328 - Follies pink",
+          "min": 25,
+          "max": 29
+        },
+        {
+          "label": "LEE 345 - Fuchsia pink",
+          "min": 30,
+          "max": 34
+        },
+        {
+          "label": "LEE 194 - Surprise pink",
+          "min": 35,
+          "max": 39
+        },
+        {
+          "label": "LEE 181 - Congo Blue",
+          "min": 40,
+          "max": 44
+        },
+        {
+          "label": "LEE 071 - Tokyo Blue",
+          "min": 45,
+          "max": 49
+        },
+        {
+          "label": "LEE 120 - Deep Blue",
+          "min": 50,
+          "max": 54
+        },
+        {
+          "label": "LEE 079 - Just Blue",
+          "min": 55,
+          "max": 59
+        },
+        {
+          "label": "LEE 132 - Medium Blue",
+          "min": 60,
+          "max": 64
+        },
+        {
+          "label": "LEE 200 - Double CT Blue",
+          "min": 65,
+          "max": 69
+        },
+        {
+          "label": "LEE 161 - Slate Blue",
+          "min": 70,
+          "max": 74
+        },
+        {
+          "label": "LEE 201 - Full CT Blue",
+          "min": 75,
+          "max": 79
+        },
+        {
+          "label": "LEE 202 - Half CT Blue",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "LEE 117 - Steel Blue",
+          "min": 85,
+          "max": 89
+        },
+        {
+          "label": "LEE 353 - Lighter Blue",
+          "min": 90,
+          "max": 94
+        },
+        {
+          "label": "LEE 118 - Light Blue",
+          "min": 95,
+          "max": 99
+        },
+        {
+          "label": "LEE 116 - Medium Blue Green",
+          "min": 100,
+          "max": 104
+        },
+        {
+          "label": "LEE 124 - Dark Green",
+          "min": 105,
+          "max": 109
+        },
+        {
+          "label": "LEE 139 - Primary Green",
+          "min": 110,
+          "max": 114
+        },
+        {
+          "label": "LEE 089 - Moss Green",
+          "min": 115,
+          "max": 119
+        },
+        {
+          "label": "LEE 122 - Fern Green",
+          "min": 120,
+          "max": 124
+        },
+        {
+          "label": "LEE 738 - JAS Green",
+          "min": 125,
+          "max": 129
+        },
+        {
+          "label": "LEE 088 - Lime Green",
+          "min": 130,
+          "max": 134
+        },
+        {
+          "label": "LEE 100 - Spring Yellow",
+          "min": 135,
+          "max": 139
+        },
+        {
+          "label": "LEE 104 - Deep Amber",
+          "min": 140,
+          "max": 144
+        },
+        {
+          "label": "LEE 179 - Chrome Orange",
+          "min": 145,
+          "max": 149
+        },
+        {
+          "label": "LEE 105 - Orange",
+          "min": 150,
+          "max": 154
+        },
+        {
+          "label": "LEE 021 - Gold Amber",
+          "min": 155,
+          "max": 159
+        },
+        {
+          "label": "LEE 778 - Millennium Gold",
+          "min": 160,
+          "max": 164
+        },
+        {
+          "label": "LEE 135 - Deep Golden Amber",
+          "min": 165,
+          "max": 169
+        },
+        {
+          "label": "LEE 164 - Flame Red",
+          "min": 170,
+          "max": 174
+        },
+        {
+          "label": "Open",
+          "min": 175,
+          "max": 179
+        },
+        {
+          "label": "Color rotation fast → slow",
+          "min": 180,
+          "max": 201
+        },
+        {
+          "label": "Stop Rot",
+          "min": 202,
+          "max": 207
+        },
+        {
+          "label": "Color rotation slow → fast",
+          "min": 208,
+          "max": 229
+        },
+        {
+          "label": "Open",
+          "min": 230,
+          "max": 234
+        },
+        {
+          "label": "Random color Fast",
+          "min": 235,
+          "max": 239
+        },
+        {
+          "label": "Random color Medium",
+          "min": 240,
+          "max": 244
+        },
+        {
+          "label": "Random color Slow",
+          "min": 245,
+          "max": 249
+        },
+        {
+          "label": "Open",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "type": 0,
+      "type_description": "Aura Red",
+      "capabilities": []
+    },
+    {
+      "index": 23,
+      "type": 0,
+      "type_description": "Aura Green",
+      "capabilities": []
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Aura Blue",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Martin/Martin-MAC-Aura.json",
+  "id": 1063
+}

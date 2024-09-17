@@ -1,0 +1,395 @@
+{
+  "version": "1.0.0",
+  "label": "Accu Roller 250",
+  "manufacturer": "American DJ",
+  "bulb_type": "MSD 250W",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 13,
+  "dimension_width": 292,
+  "dimension_height": 571,
+  "dimension_depth": 229,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Barrel",
+  "focus_pan_max": 180,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 390,
+  "technical_dmx_connector": "3-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 3,
+      "type_description": "Barrel rotation",
+      "capabilities": [
+        {
+          "label": "No rotation",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Forward (fast to slow)",
+          "min": 8,
+          "max": 127
+        },
+        {
+          "label": "No rotation",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Backwards rotation (slow to fast)",
+          "min": 136,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Color",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Red",
+          "min": 20,
+          "max": 39
+        },
+        {
+          "label": "Blue",
+          "min": 40,
+          "max": 59
+        },
+        {
+          "label": "Green",
+          "min": 60,
+          "max": 79
+        },
+        {
+          "label": "Yellow",
+          "min": 80,
+          "max": 99
+        },
+        {
+          "label": "Magenta",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "Orange",
+          "min": 120,
+          "max": 139
+        },
+        {
+          "label": "Purple",
+          "min": 140,
+          "max": 159
+        },
+        {
+          "label": "Pink",
+          "min": 160,
+          "max": 179
+        },
+        {
+          "label": "Light blue",
+          "min": 180,
+          "max": 199
+        },
+        {
+          "label": "Rainbow effect",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Spot",
+          "min": 0,
+          "max": 13
+        },
+        {
+          "label": "Rotating 1",
+          "min": 14,
+          "max": 27
+        },
+        {
+          "label": "Rotating 2",
+          "min": 28,
+          "max": 41
+        },
+        {
+          "label": "Rotating 3",
+          "min": 42,
+          "max": 55
+        },
+        {
+          "label": "Rotating 4",
+          "min": 56,
+          "max": 69
+        },
+        {
+          "label": "Rotating 5",
+          "min": 70,
+          "max": 83
+        },
+        {
+          "label": "Rotating 6",
+          "min": 84,
+          "max": 97
+        },
+        {
+          "label": "Rotating 7",
+          "min": 98,
+          "max": 115
+        },
+        {
+          "label": "Shake 1",
+          "min": 116,
+          "max": 135
+        },
+        {
+          "label": "Shake 2",
+          "min": 136,
+          "max": 155
+        },
+        {
+          "label": "Shake 3",
+          "min": 156,
+          "max": 175
+        },
+        {
+          "label": "Shake 4",
+          "min": 176,
+          "max": 195
+        },
+        {
+          "label": "Shake 5",
+          "min": 196,
+          "max": 215
+        },
+        {
+          "label": "Shake 6",
+          "min": 216,
+          "max": 235
+        },
+        {
+          "label": "Shake 7",
+          "min": 236,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 4,
+      "type_description": "Gobo rotation",
+      "capabilities": [
+        {
+          "label": "No rotation",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Forwards (fast to slow)",
+          "min": 8,
+          "max": 127
+        },
+        {
+          "label": "No rotation",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Backwards (slow to fast)",
+          "min": 136,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Shutter/Strobe",
+      "capabilities": [
+        {
+          "label": "Shutter close",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Dimmer",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe (slow to fast)",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Shutter open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse effect",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Shutter open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random strobe (slow to fast)",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Shutter open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 17,
+      "type_description": "Reset/Internal programs",
+      "capabilities": [
+        {
+          "label": "Color change normal",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Color change to any position",
+          "min": 20,
+          "max": 39
+        },
+        {
+          "label": "No rotation",
+          "min": 40,
+          "max": 79
+        },
+        {
+          "label": "All motor reset",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "Scan motor reset",
+          "min": 85,
+          "max": 87
+        },
+        {
+          "label": "Color motor reset",
+          "min": 88,
+          "max": 90
+        },
+        {
+          "label": "Gobo motor reset",
+          "min": 91,
+          "max": 93
+        },
+        {
+          "label": "Shutter/dimmer motor reset",
+          "min": 94,
+          "max": 96
+        },
+        {
+          "label": "No rotation",
+          "min": 97,
+          "max": 99
+        },
+        {
+          "label": "Internal program 1",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "Internal progarm 2",
+          "min": 120,
+          "max": 139
+        },
+        {
+          "label": "Internal program 3",
+          "min": 140,
+          "max": 159
+        },
+        {
+          "label": "Internal program 4",
+          "min": 160,
+          "max": 179
+        },
+        {
+          "label": "Internal program 5",
+          "min": 180,
+          "max": 199
+        },
+        {
+          "label": "Internal program 6",
+          "min": 200,
+          "max": 219
+        },
+        {
+          "label": "Internal program 7",
+          "min": 220,
+          "max": 239
+        },
+        {
+          "label": "Sound active",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 22,
+      "type_description": "Speed of pan/tilt movement",
+      "capabilities": [
+        {
+          "label": "Max to min speed",
+          "min": 0,
+          "max": 225
+        },
+        {
+          "label": "Blackout by movement",
+          "min": 226,
+          "max": 235
+        },
+        {
+          "label": "Blackout by wheel movement",
+          "min": 236,
+          "max": 245
+        },
+        {
+          "label": "No function",
+          "min": 246,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Accu-Roller-250.json",
+  "id": 27
+}

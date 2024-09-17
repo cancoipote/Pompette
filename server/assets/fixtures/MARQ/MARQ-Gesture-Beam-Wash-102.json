@@ -1,0 +1,509 @@
+{
+  "version": "1.0.0",
+  "label": "Gesture Beam/Wash 102",
+  "manufacturer": "MARQ",
+  "bulb_type": "LED",
+  "bulb_lumens": 24400,
+  "bulb_color_temperature": 6500,
+  "dimension_weight": 2,
+  "dimension_width": 190,
+  "dimension_height": 150,
+  "dimension_depth": 230,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 3,
+  "focus_type": "Fixed",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 40,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 19,
+      "type_description": "Pan Continuous Rotation",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Forward pan rotation, slow (128) to fast (189)",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Backward pan rotation, slow (194) to fast (255)",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 23,
+      "type_description": "Tilt Continuous Rotation",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Forward tilt rotation, slow (128) to fast (189)",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Backward tilt rotation, slow (194) to fast (255)",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 5,
+      "type_description": "Master Dimmer",
+      "capabilities": [
+        {
+          "label": "Master dimmer, all colors, A & B sides, dark (000) to bright (255)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 21,
+      "type_description": "Shutter A&B",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "label": "open",
+          "min": 4,
+          "max": 7
+        },
+        {
+          "label": "Strobe, slow (008) to fast (076)",
+          "min": 8,
+          "max": 76
+        },
+        {
+          "label": "Pulse, slow (077) to fast (145)",
+          "min": 77,
+          "max": 145
+        },
+        {
+          "label": "Random strobe, slow (146) to fast (215)",
+          "min": 146,
+          "max": 215
+        },
+        {
+          "label": "Open",
+          "min": 216,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "A Red Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "A Green Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "A Blue Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 12,
+      "type": 0,
+      "type_description": "A White Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "B Red Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 0,
+      "type_description": "B Blue Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "B White Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Color Presets- Overrides Ch. 10–17",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 29
+        },
+        {
+          "label": "R",
+          "min": 30,
+          "max": 44
+        },
+        {
+          "label": "G",
+          "min": 45,
+          "max": 59
+        },
+        {
+          "label": "B",
+          "min": 60,
+          "max": 74
+        },
+        {
+          "label": "W",
+          "min": 75,
+          "max": 89
+        },
+        {
+          "label": "R G",
+          "min": 90,
+          "max": 104
+        },
+        {
+          "label": "R B",
+          "min": 105,
+          "max": 119
+        },
+        {
+          "label": "R W",
+          "min": 120,
+          "max": 134
+        },
+        {
+          "label": "G B",
+          "min": 135,
+          "max": 149
+        },
+        {
+          "label": "G W",
+          "min": 150,
+          "max": 164
+        },
+        {
+          "label": "B W",
+          "min": 165,
+          "max": 179
+        },
+        {
+          "label": "R G B",
+          "min": 180,
+          "max": 194
+        },
+        {
+          "label": "R G W",
+          "min": 195,
+          "max": 209
+        },
+        {
+          "label": "R B W",
+          "min": 210,
+          "max": 224
+        },
+        {
+          "label": "G B W",
+          "min": 225,
+          "max": 239
+        },
+        {
+          "label": "R G B W",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Color Programs",
+      "capabilities": [
+        {
+          "label": "NO FUNCT",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Program 1 (snap)",
+          "min": 8,
+          "max": 39
+        },
+        {
+          "label": "Program 2 (snap)",
+          "min": 40,
+          "max": 71
+        },
+        {
+          "label": "Program 3 (snap)",
+          "min": 72,
+          "max": 103
+        },
+        {
+          "label": "Program 4 (fade)",
+          "min": 104,
+          "max": 135
+        },
+        {
+          "label": "Program 5 (fade)",
+          "min": 136,
+          "max": 167
+        },
+        {
+          "label": "Program 6 (fade)",
+          "min": 168,
+          "max": 199
+        },
+        {
+          "label": "Sound-active colors (snap)",
+          "min": 200,
+          "max": 231
+        },
+        {
+          "label": "Sound-active colors (fade)",
+          "min": 232,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "type": 22,
+      "type_description": "Program Speed / Microphone Sensitivity",
+      "capabilities": [
+        {
+          "label": "Color change rate (slow to fast) / Microphone sensitivity",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 17,
+      "type_description": "Macro Functions",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Automatic movement 1",
+          "min": 8,
+          "max": 39
+        },
+        {
+          "label": "Automatic movement 2",
+          "min": 40,
+          "max": 71
+        },
+        {
+          "label": "Automatic movement 3",
+          "min": 72,
+          "max": 103
+        },
+        {
+          "label": "Automatic movement 4",
+          "min": 104,
+          "max": 135
+        },
+        {
+          "label": "Sound-active movement 1",
+          "min": 136,
+          "max": 167
+        },
+        {
+          "label": "Sound-active movement 2",
+          "min": 168,
+          "max": 199
+        },
+        {
+          "label": "Sound-active movement 3",
+          "min": 200,
+          "max": 231
+        },
+        {
+          "label": "Sound-active movement 4",
+          "min": 232,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "type": 17,
+      "type_description": "Control Functions",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 69
+        },
+        {
+          "label": "Blackout during pan/tilt",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Disable blackout during pan/tilt",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "No function",
+          "min": 90,
+          "max": 139
+        },
+        {
+          "label": "Reset pan/tilt",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Reset color/gobo",
+          "min": 150,
+          "max": 169
+        },
+        {
+          "label": "No function",
+          "min": 170,
+          "max": 199
+        },
+        {
+          "label": "Reset all",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "No function",
+          "min": 210,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "type": 0,
+      "type_description": "B Green Dimmer 1",
+      "capabilities": []
+    },
+    {
+      "index": 22,
+      "type": 5,
+      "type_description": "A Master Dimmer",
+      "capabilities": [
+        {
+          "label": "Master dimmer, A side, all colors, dark (000) to bright (255)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "type": 5,
+      "type_description": "B Master Dimmer",
+      "capabilities": [
+        {
+          "label": "Master dimmer, B side, all colors, dark (000) to bright (255)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "type": 0,
+      "type_description": "Red Dimmer A&B",
+      "capabilities": []
+    },
+    {
+      "index": 25,
+      "type": 0,
+      "type_description": "Green Dimmer A&B",
+      "capabilities": []
+    },
+    {
+      "index": 26,
+      "type": 0,
+      "type_description": "Blue Dimmer A&B",
+      "capabilities": []
+    },
+    {
+      "index": 27,
+      "type": 0,
+      "type_description": "White Dimmer A&B",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/MARQ/MARQ-Gesture-Beam-Wash-102.json",
+  "id": 1026
+}

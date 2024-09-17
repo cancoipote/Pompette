@@ -1,0 +1,299 @@
+{
+  "version": "1.0.0",
+  "label": "Inno Color Beam Quad 7",
+  "manufacturer": "American DJ",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 6,
+  "dimension_width": 260,
+  "dimension_height": 304,
+  "dimension_depth": 168,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 10,
+  "focus_type": "Head",
+  "focus_pan_max": 570,
+  "focus_tilt_max": 240,
+  "technical_power_consumption": 130,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 3,
+      "type_description": "Shows",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Show 1",
+          "min": 8,
+          "max": 67
+        },
+        {
+          "label": "Show 2",
+          "min": 68,
+          "max": 127
+        },
+        {
+          "label": "Show 3",
+          "min": 128,
+          "max": 187
+        },
+        {
+          "label": "Show 4",
+          "min": 188,
+          "max": 247
+        },
+        {
+          "label": "Random show",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 21,
+      "type_description": "Shutter/Strobing",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Open",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobing (slow to fast)",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Slow open - Fast close",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Random strobe (slow to fast)",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Master Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Rainbow",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Rainbow colors 1",
+          "min": 10,
+          "max": 39
+        },
+        {
+          "label": "Rainbow colors 2",
+          "min": 40,
+          "max": 71
+        },
+        {
+          "label": "Rainbow colors 3",
+          "min": 72,
+          "max": 103
+        },
+        {
+          "label": "Rainbow colors 4",
+          "min": 104,
+          "max": 135
+        },
+        {
+          "label": "Rainbow colors 5",
+          "min": 136,
+          "max": 167
+        },
+        {
+          "label": "Rainbow colors 6",
+          "min": 168,
+          "max": 199
+        },
+        {
+          "label": "Rainbow colors 7",
+          "min": 200,
+          "max": 231
+        },
+        {
+          "label": "Crossfading colors (slow to fast)",
+          "min": 232,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 22,
+      "type_description": "Pan/Tilt speed",
+      "capabilities": [
+        {
+          "label": "Max. - Min. movement speed",
+          "min": 0,
+          "max": 225
+        },
+        {
+          "label": "Blackout by movement",
+          "min": 226,
+          "max": 235
+        },
+        {
+          "label": "No function",
+          "min": 236,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 17,
+      "type_description": "Open/Reset/Internal programs",
+      "capabilities": [
+        {
+          "label": "Normal",
+          "min": 0,
+          "max": 79
+        },
+        {
+          "label": "All motor reset",
+          "min": 80,
+          "max": 84
+        },
+        {
+          "label": "No function",
+          "min": 85,
+          "max": 99
+        },
+        {
+          "label": "Internal program 1",
+          "min": 100,
+          "max": 119
+        },
+        {
+          "label": "Internal program 2",
+          "min": 120,
+          "max": 139
+        },
+        {
+          "label": "Internal program 3",
+          "min": 140,
+          "max": 159
+        },
+        {
+          "label": "Internal program 4",
+          "min": 160,
+          "max": 179
+        },
+        {
+          "label": "Internal program 5",
+          "min": 180,
+          "max": 199
+        },
+        {
+          "label": "Internal program 6",
+          "min": 200,
+          "max": 219
+        },
+        {
+          "label": "Internal program 7",
+          "min": 220,
+          "max": 239
+        },
+        {
+          "label": "Sound active program",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/American_DJ/American-DJ-Inno-Color-Beam-Quad-7.json",
+  "id": 82
+}

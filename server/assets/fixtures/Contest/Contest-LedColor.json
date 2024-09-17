@@ -1,0 +1,139 @@
+{
+  "version": "1.0.0",
+  "label": "LedColor",
+  "manufacturer": "Contest",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 5,
+  "dimension_width": 420,
+  "dimension_height": 366,
+  "dimension_depth": 255,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 63,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 17,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "RGB & B & F (ch2=Red, ch3=green, ch4=blue, ch5=strobe)",
+          "min": 0,
+          "max": 29
+        },
+        {
+          "label": "Auto",
+          "min": 30,
+          "max": 94
+        },
+        {
+          "label": "Sound impulsions",
+          "min": 95,
+          "max": 159
+        },
+        {
+          "label": "Snake",
+          "min": 160,
+          "max": 184
+        },
+        {
+          "label": "Sequencer",
+          "min": 185,
+          "max": 209
+        },
+        {
+          "label": "Automatic sequencer (40 colours)",
+          "min": 210,
+          "max": 234
+        },
+        {
+          "label": "Automatic sequencer time synchronized (40 colours)",
+          "min": 235,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Colour",
+      "capabilities": [
+        {
+          "label": "Colour",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 22,
+      "type_description": "Flash",
+      "capabilities": [
+        {
+          "label": "Flash speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Fade",
+      "capabilities": [
+        {
+          "label": "Fade",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 22,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Strobe speed",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Contest/Contest-LedColor.json",
+  "id": 572
+}

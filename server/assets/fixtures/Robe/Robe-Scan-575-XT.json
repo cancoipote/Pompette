@@ -1,0 +1,551 @@
+{
+  "version": "1.0.0",
+  "label": "Scan 575 XT",
+  "manufacturer": "Robe",
+  "bulb_type": "HMI 575W",
+  "bulb_lumens": 49000,
+  "bulb_color_temperature": 6000,
+  "dimension_weight": 22,
+  "dimension_width": 306,
+  "dimension_height": 346,
+  "dimension_depth": 769,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Mirror",
+  "focus_pan_max": 187,
+  "focus_tilt_max": 58,
+  "technical_power_consumption": 480,
+  "technical_dmx_connector": "3-pin",
+  "type": 10,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 22,
+      "type_description": "Speed P/T",
+      "capabilities": [
+        {
+          "label": "Max to Min",
+          "min": 0,
+          "max": 249
+        },
+        {
+          "label": "Max speed BO Moving",
+          "min": 250,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 17,
+      "type_description": "Control",
+      "capabilities": [
+        {
+          "label": "Fan speed Max to Min",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Lamp ON Reset",
+          "min": 128,
+          "max": 139
+        },
+        {
+          "label": "No function",
+          "min": 140,
+          "max": 229
+        },
+        {
+          "label": "Lamp OFF",
+          "min": 230,
+          "max": 239
+        },
+        {
+          "label": "No function",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Colours",
+      "capabilities": [
+        {
+          "label": "White",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "While/Turquoise",
+          "min": 1,
+          "max": 9
+        },
+        {
+          "label": "Turquoise",
+          "min": 10,
+          "max": 10
+        },
+        {
+          "label": "Turquoise/Red",
+          "min": 11,
+          "max": 20
+        },
+        {
+          "label": "Red",
+          "min": 21,
+          "max": 21
+        },
+        {
+          "label": "Red/Cyan",
+          "min": 22,
+          "max": 31
+        },
+        {
+          "label": "Cyan",
+          "min": 32,
+          "max": 32
+        },
+        {
+          "label": "Cyan/Green",
+          "min": 33,
+          "max": 41
+        },
+        {
+          "label": "Green",
+          "min": 42,
+          "max": 42
+        },
+        {
+          "label": "Green/Magenta",
+          "min": 43,
+          "max": 52
+        },
+        {
+          "label": "Magenta",
+          "min": 53,
+          "max": 53
+        },
+        {
+          "label": "Magenta/Blue",
+          "min": 54,
+          "max": 63
+        },
+        {
+          "label": "Light Blue",
+          "min": 64,
+          "max": 64
+        },
+        {
+          "label": "Blue/Yellow",
+          "min": 65,
+          "max": 73
+        },
+        {
+          "label": "Yellow",
+          "min": 74,
+          "max": 74
+        },
+        {
+          "label": "Yellow/Green",
+          "min": 75,
+          "max": 84
+        },
+        {
+          "label": "Green",
+          "min": 85,
+          "max": 85
+        },
+        {
+          "label": "Green/Pink",
+          "min": 86,
+          "max": 95
+        },
+        {
+          "label": "Pink",
+          "min": 96,
+          "max": 96
+        },
+        {
+          "label": "Pink/Blue",
+          "min": 97,
+          "max": 105
+        },
+        {
+          "label": "Blue",
+          "min": 106,
+          "max": 106
+        },
+        {
+          "label": "Blue/Orange",
+          "min": 107,
+          "max": 116
+        },
+        {
+          "label": "Orange",
+          "min": 117,
+          "max": 117
+        },
+        {
+          "label": "Orange/White",
+          "min": 118,
+          "max": 127
+        },
+        {
+          "label": "Rainbow Fast to Slow",
+          "min": 128,
+          "max": 190
+        },
+        {
+          "label": "No function",
+          "min": 191,
+          "max": 192
+        },
+        {
+          "label": "CCW Rainbow Slow to Fast",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 4,
+      "type_description": "Gobos",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 63
+        },
+        {
+          "label": "Wheel Fast to Slow",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "No Rotation",
+          "min": 96,
+          "max": 96
+        },
+        {
+          "label": "CCW Wheel Slow to Fast",
+          "min": 97,
+          "max": 127
+        },
+        {
+          "label": "MultiColor",
+          "min": 128,
+          "max": 134
+        },
+        {
+          "label": "Dichro 1",
+          "min": 135,
+          "max": 140
+        },
+        {
+          "label": "Dichro 2",
+          "min": 141,
+          "max": 153
+        },
+        {
+          "label": "Gobo 4",
+          "min": 154,
+          "max": 166
+        },
+        {
+          "label": "Gobo 5",
+          "min": 167,
+          "max": 179
+        },
+        {
+          "label": "Gobo 6",
+          "min": 180,
+          "max": 191
+        },
+        {
+          "label": "Gobo 7",
+          "min": 192,
+          "max": 204
+        },
+        {
+          "label": "Gobo 8",
+          "min": 205,
+          "max": 217
+        },
+        {
+          "label": "Gobo 9",
+          "min": 218,
+          "max": 230
+        },
+        {
+          "label": "Gobo 10",
+          "min": 231,
+          "max": 243
+        },
+        {
+          "label": "Gobo 11",
+          "min": 244,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 1,
+      "type_description": "Beam",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 96
+        },
+        {
+          "label": "Frost",
+          "min": 97,
+          "max": 127
+        },
+        {
+          "label": "Prism",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "3200 K",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "5600 K",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "UV",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 20,
+      "type_description": "Prism Control",
+      "capabilities": [
+        {
+          "label": "No Rotation",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "CW Fast to Slow",
+          "min": 1,
+          "max": 126
+        },
+        {
+          "label": "No Rotation",
+          "min": 127,
+          "max": 128
+        },
+        {
+          "label": "CCW Slow to Fast",
+          "min": 129,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 4,
+      "type_description": "Rotating Gobos",
+      "capabilities": [
+        {
+          "label": "Gobo 1 (Open)",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Gobo 2",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Gobo 3",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Gobo 4",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Gobo 5",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Gobo 6",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Gobo 7",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Wheel Slow to Fast",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 4,
+      "type_description": "Gobo Index/Rotation",
+      "capabilities": [
+        {
+          "label": "Gobo Indexing",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Rotation Fast to Slow",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "No Rotation",
+          "min": 192,
+          "max": 192
+        },
+        {
+          "label": "CCW Rotation Slow to Fast",
+          "min": 193,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 1,
+      "type_description": "Iris",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Open to Min",
+          "min": 1,
+          "max": 179
+        },
+        {
+          "label": "Closed",
+          "min": 180,
+          "max": 191
+        },
+        {
+          "label": "Pulse Closing >>>",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Pulse Opening <<<",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Shutter Closed",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Open",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Strobe >>",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Open",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Pulse",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "Open",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Strobe Random >>",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Open",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Robe/Robe-Scan-575-XT.json",
+  "id": 1222
+}

@@ -1,0 +1,274 @@
+{
+  "version": "1.0.0",
+  "label": "LED PAR64",
+  "manufacturer": "Venue",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 400,
+  "dimension_height": 300,
+  "dimension_depth": 210,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 15,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Color Macro",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Color 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Color 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Color 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Color 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Color 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Color 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Color 7",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Color 8",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Color 9",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Color 10",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Color 11",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Color 12",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Color 13",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Color 14",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Color 15",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Color 16",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Color 17",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Color 18",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Color 19",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Color 20",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Color 21",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Color 22",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Color 23",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Color 24",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Color 25",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Color 26",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Color 27",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Color 28",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Color 29",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Color 30",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Color 31",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Strobe Speed",
+      "capabilities": [
+        {
+          "label": "Off/Slowest",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "label": "Slow to fast Strobe (increments every 16)",
+          "min": 16,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Presets/Sound",
+      "capabilities": [
+        {
+          "label": "Blink",
+          "min": 0,
+          "max": 31
+        },
+        {
+          "label": "Fade In",
+          "min": 32,
+          "max": 63
+        },
+        {
+          "label": "Fade Out",
+          "min": 64,
+          "max": 95
+        },
+        {
+          "label": "Fade In/Out",
+          "min": 96,
+          "max": 127
+        },
+        {
+          "label": "Color Fade Cycle",
+          "min": 128,
+          "max": 159
+        },
+        {
+          "label": "RGB Cycle (Instant Switch)",
+          "min": 160,
+          "max": 191
+        },
+        {
+          "label": "Color Cycle (Instant Switch)",
+          "min": 192,
+          "max": 223
+        },
+        {
+          "label": "Sound Active Color Cycle (Instant)",
+          "min": 224,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Venue/Venue-LEDPAR64.json",
+  "id": 1518
+}

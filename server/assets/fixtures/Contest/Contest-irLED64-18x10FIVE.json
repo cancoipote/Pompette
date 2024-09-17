@@ -1,0 +1,272 @@
+{
+  "version": "1.0.0",
+  "label": "irLED64-18x10FIVE",
+  "manufacturer": "Contest",
+  "bulb_type": "LED",
+  "bulb_lumens": 9525,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 430,
+  "dimension_height": 270,
+  "dimension_depth": 220,
+  "lens_label": "Other",
+  "lens_degree_min": 40,
+  "lens_degree_max": 40,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 165,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Amber",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 5,
+      "type_description": "Dimmer",
+      "capabilities": [
+        {
+          "label": "Dimmer",
+          "min": 0,
+          "max": 189
+        },
+        {
+          "label": "Strobe (slow>fast)",
+          "min": 190,
+          "max": 250
+        },
+        {
+          "label": "Full",
+          "min": 251,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Colours Macros",
+      "capabilities": [
+        {
+          "label": "OFF",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Red",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Orange",
+          "min": 11,
+          "max": 15
+        },
+        {
+          "label": "Yellow",
+          "min": 16,
+          "max": 20
+        },
+        {
+          "label": "Green",
+          "min": 21,
+          "max": 25
+        },
+        {
+          "label": "Cyan",
+          "min": 26,
+          "max": 30
+        },
+        {
+          "label": "Blue",
+          "min": 31,
+          "max": 35
+        },
+        {
+          "label": "Pink",
+          "min": 36,
+          "max": 40
+        },
+        {
+          "label": "Magenta",
+          "min": 41,
+          "max": 45
+        },
+        {
+          "label": "Cold White",
+          "min": 46,
+          "max": 50
+        },
+        {
+          "label": "Warm White",
+          "min": 51,
+          "max": 55
+        },
+        {
+          "label": "Full",
+          "min": 56,
+          "max": 60
+        },
+        {
+          "label": "Pale Pink",
+          "min": 61,
+          "max": 65
+        },
+        {
+          "label": "Pastel Apricot",
+          "min": 66,
+          "max": 70
+        },
+        {
+          "label": "Pastel Ocre",
+          "min": 71,
+          "max": 75
+        },
+        {
+          "label": "Pearl Green",
+          "min": 76,
+          "max": 80
+        },
+        {
+          "label": "Pearl Grey",
+          "min": 81,
+          "max": 85
+        },
+        {
+          "label": "Pearl",
+          "min": 86,
+          "max": 90
+        },
+        {
+          "label": "Pearl Blue",
+          "min": 91,
+          "max": 95
+        },
+        {
+          "label": "Pastel Verona Green",
+          "min": 96,
+          "max": 100
+        },
+        {
+          "label": "Pastel Lagoon",
+          "min": 101,
+          "max": 105
+        },
+        {
+          "label": "Sky Blue",
+          "min": 106,
+          "max": 110
+        },
+        {
+          "label": "Clear Blue",
+          "min": 111,
+          "max": 115
+        },
+        {
+          "label": "Pastel Blue",
+          "min": 116,
+          "max": 120
+        },
+        {
+          "label": "Fluo",
+          "min": 121,
+          "max": 125
+        },
+        {
+          "label": "Candy",
+          "min": 126,
+          "max": 130
+        },
+        {
+          "label": "Amber",
+          "min": 131,
+          "max": 135
+        },
+        {
+          "label": "Sunset",
+          "min": 136,
+          "max": 140
+        },
+        {
+          "label": "Macro 1 : All colours (Step)",
+          "min": 141,
+          "max": 150
+        },
+        {
+          "label": "Macro 2 : All colours (Fade)",
+          "min": 151,
+          "max": 160
+        },
+        {
+          "label": "Macro 3 : Orange to Red Fade",
+          "min": 161,
+          "max": 170
+        },
+        {
+          "label": "Macro 4 : Magenta to Cyan Fade",
+          "min": 171,
+          "max": 180
+        },
+        {
+          "label": "Macro 5 : Amber to Cold White Fade",
+          "min": 181,
+          "max": 190
+        },
+        {
+          "label": "Colours and macros to music change",
+          "min": 191,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Dimmer/Speed/Mic sensitivity",
+      "capabilities": [
+        {
+          "label": "Dimmer/Speed/Mic sensitivity",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Contest/Contest-irLED64-18x10FIVE.json",
+  "id": 571
+}

@@ -1,0 +1,165 @@
+{
+  "version": "1.0.0",
+  "label": "Flat PAR CAN TRI 3W",
+  "manufacturer": "Cameo",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 1,
+  "dimension_width": 176,
+  "dimension_height": 180,
+  "dimension_depth": 113,
+  "lens_label": "Other",
+  "lens_degree_min": 30,
+  "lens_degree_max": 30,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 25,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 22,
+      "type_description": "Stroboscope rate",
+      "capabilities": [
+        {
+          "label": "0% - 100%",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Mode",
+      "capabilities": [
+        {
+          "label": "Blackout",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "label": "Red",
+          "min": 5,
+          "max": 15
+        },
+        {
+          "label": "Green",
+          "min": 16,
+          "max": 26
+        },
+        {
+          "label": "Blue",
+          "min": 27,
+          "max": 37
+        },
+        {
+          "label": "Yellow",
+          "min": 38,
+          "max": 48
+        },
+        {
+          "label": "Magenta",
+          "min": 49,
+          "max": 59
+        },
+        {
+          "label": "Cyan",
+          "min": 60,
+          "max": 70
+        },
+        {
+          "label": "White",
+          "min": 71,
+          "max": 80
+        },
+        {
+          "label": "Colour change (rate)",
+          "min": 81,
+          "max": 150
+        },
+        {
+          "label": "Colour blending (rate)",
+          "min": 151,
+          "max": 220
+        },
+        {
+          "label": "Music control (microphone sensitivity)",
+          "min": 221,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Colour macro",
+      "capabilities": [
+        {
+          "label": "Red",
+          "min": 0,
+          "max": 36
+        },
+        {
+          "label": "Green",
+          "min": 37,
+          "max": 73
+        },
+        {
+          "label": "Blue",
+          "min": 74,
+          "max": 110
+        },
+        {
+          "label": "Yellow",
+          "min": 111,
+          "max": 147
+        },
+        {
+          "label": "Magenta",
+          "min": 148,
+          "max": 184
+        },
+        {
+          "label": "Cyan",
+          "min": 185,
+          "max": 221
+        },
+        {
+          "label": "White",
+          "min": 222,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Cameo/Cameo-Flat-PAR-CAN-TRI-3W.json",
+  "id": 292
+}

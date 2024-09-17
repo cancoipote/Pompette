@@ -1,0 +1,6 @@
+<mat-form-field class="search-box-form">
+    <mat-label>Search</mat-label>
+    <input matInput type="text" color="accent" class="search-box-input" [(ngModel)]="search_text" (keyup)="on_keyup($event)">
+    <button *ngIf="search_text" matSuffix mat-button aria-label="Clear" (click)="on_clear()"><mat-icon>close</mat-icon></button>
+</mat-form-field>
+  

@@ -1,0 +1,374 @@
+{
+  "version": "1.0.0",
+  "label": "MiN Spot RGBW",
+  "manufacturer": "Chauvet",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 173,
+  "dimension_height": 249,
+  "dimension_depth": 173,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Head",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 66,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan (coarse)",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan (fine)",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt (coarse)",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt (fine)",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Closed",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Dimmer (100%-1%)",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Strobe (slow-fast)",
+          "min": 16,
+          "max": 239
+        },
+        {
+          "label": "Open",
+          "min": 240,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Color Macro",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "RGBW@full",
+          "min": 8,
+          "max": 21
+        },
+        {
+          "label": "Red",
+          "min": 22,
+          "max": 35
+        },
+        {
+          "label": "Green",
+          "min": 36,
+          "max": 49
+        },
+        {
+          "label": "Blue",
+          "min": 50,
+          "max": 63
+        },
+        {
+          "label": "White",
+          "min": 64,
+          "max": 77
+        },
+        {
+          "label": "Cyan",
+          "min": 78,
+          "max": 91
+        },
+        {
+          "label": "Magenta",
+          "min": 92,
+          "max": 105
+        },
+        {
+          "label": "Yellow",
+          "min": 106,
+          "max": 119
+        },
+        {
+          "label": "Yellow-Green",
+          "min": 120,
+          "max": 133
+        },
+        {
+          "label": "Light Blue",
+          "min": 134,
+          "max": 147
+        },
+        {
+          "label": "Midnight Blue",
+          "min": 148,
+          "max": 161
+        },
+        {
+          "label": "Purple",
+          "min": 162,
+          "max": 175
+        },
+        {
+          "label": "Light Purple",
+          "min": 176,
+          "max": 189
+        },
+        {
+          "label": "Pink",
+          "min": 190,
+          "max": 203
+        },
+        {
+          "label": "Light Red",
+          "min": 204,
+          "max": 217
+        },
+        {
+          "label": "Orange",
+          "min": 218,
+          "max": 231
+        },
+        {
+          "label": "Color Chase (adjust the speed with CH.12)",
+          "min": 232,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 22,
+      "type_description": "Color Speed",
+      "capabilities": [
+        {
+          "label": "Fast-slow",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 3,
+      "type_description": "Auto Program",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Auto Program 1",
+          "min": 8,
+          "max": 22
+        },
+        {
+          "label": "Auto Program 2",
+          "min": 23,
+          "max": 37
+        },
+        {
+          "label": "Auto Program 3",
+          "min": 38,
+          "max": 52
+        },
+        {
+          "label": "Auto Program 4",
+          "min": 53,
+          "max": 67
+        },
+        {
+          "label": "Auto Program 5",
+          "min": 68,
+          "max": 82
+        },
+        {
+          "label": "Auto Program 6",
+          "min": 83,
+          "max": 97
+        },
+        {
+          "label": "Auto Program 7",
+          "min": 98,
+          "max": 112
+        },
+        {
+          "label": "Auto Program 8",
+          "min": 113,
+          "max": 135
+        },
+        {
+          "label": "Sound Program 1",
+          "min": 136,
+          "max": 142
+        },
+        {
+          "label": "Sound Program 2",
+          "min": 143,
+          "max": 157
+        },
+        {
+          "label": "Sound Program 3",
+          "min": 158,
+          "max": 172
+        },
+        {
+          "label": "Sound Program 4",
+          "min": 173,
+          "max": 187
+        },
+        {
+          "label": "Sound Program 5",
+          "min": 188,
+          "max": 202
+        },
+        {
+          "label": "Sound Program 6",
+          "min": 203,
+          "max": 217
+        },
+        {
+          "label": "Sound Program 7",
+          "min": 218,
+          "max": 240
+        },
+        {
+          "label": "Sound Program 8",
+          "min": 241,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 4,
+      "type_description": "Gobo",
+      "capabilities": [
+        {
+          "label": "Round",
+          "min": 0,
+          "max": 12
+        },
+        {
+          "label": "Lighning",
+          "min": 13,
+          "max": 25
+        },
+        {
+          "label": "Ring (approx)",
+          "min": 26,
+          "max": 38
+        },
+        {
+          "label": "Rose (approx)",
+          "min": 39,
+          "max": 51
+        },
+        {
+          "label": "Lace",
+          "min": 52,
+          "max": 64
+        },
+        {
+          "label": "Dots",
+          "min": 65,
+          "max": 77
+        },
+        {
+          "label": "Flower (approx)",
+          "min": 78,
+          "max": 90
+        },
+        {
+          "label": "Celtic",
+          "min": 91,
+          "max": 103
+        },
+        {
+          "label": "Spinner (approx)",
+          "min": 104,
+          "max": 116
+        },
+        {
+          "label": "Shards (approx)",
+          "min": 117,
+          "max": 127
+        },
+        {
+          "label": "CW Gobo wheel rotate (slow-fast)",
+          "min": 128,
+          "max": 191
+        },
+        {
+          "label": "CCW Gobo wheel rotate (slow-fast)",
+          "min": 192,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Chauvet/Chauvet-MiN-Spot-RGBW.json",
+  "id": 501
+}

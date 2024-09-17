@@ -1,0 +1,201 @@
+{
+  "version": "1.0.0",
+  "label": "LED Party Panel RGB+UV",
+  "manufacturer": "Eurolite",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 0,
+  "dimension_width": 150,
+  "dimension_height": 150,
+  "dimension_depth": 51,
+  "lens_label": "Other",
+  "lens_degree_min": 0,
+  "lens_degree_max": 0,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 36,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Master dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Strobe with increasing speed",
+          "min": 10,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "UV",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Preset colors",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Red",
+          "min": 10,
+          "max": 19
+        },
+        {
+          "label": "Green",
+          "min": 20,
+          "max": 29
+        },
+        {
+          "label": "Blue",
+          "min": 30,
+          "max": 39
+        },
+        {
+          "label": "UV",
+          "min": 40,
+          "max": 49
+        },
+        {
+          "label": "Yellow",
+          "min": 50,
+          "max": 59
+        },
+        {
+          "label": "Magenta",
+          "min": 60,
+          "max": 69
+        },
+        {
+          "label": "Cyan",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Dark orange",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Green yellow",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Salmon",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Turquoise",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Light green",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "Orange",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Lavender",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Light blue",
+          "min": 150,
+          "max": 159
+        },
+        {
+          "label": "Dark blue",
+          "min": 160,
+          "max": 169
+        },
+        {
+          "label": "Pink",
+          "min": 170,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 3,
+      "type_description": "Internal programs",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Auto program 1 color blending slow > fast",
+          "min": 10,
+          "max": 69
+        },
+        {
+          "label": "Auto program 2 color change slow > fast",
+          "min": 70,
+          "max": 129
+        },
+        {
+          "label": "Sound program 1 color blending slow > fast",
+          "min": 130,
+          "max": 189
+        },
+        {
+          "label": "Sound program 2 color change slow > fast",
+          "min": 190,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Eurolite/Eurolite-LED-Party-Panel-RGB+UV.json",
+  "id": 702
+}

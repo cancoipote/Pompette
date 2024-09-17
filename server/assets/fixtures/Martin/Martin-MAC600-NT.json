@@ -1,0 +1,337 @@
+{
+  "version": "1.0.0",
+  "label": "MAC 600 NT",
+  "manufacturer": "Martin",
+  "bulb_type": "MSR 575W",
+  "bulb_lumens": 8500,
+  "bulb_color_temperature": 7200,
+  "dimension_weight": 31,
+  "dimension_width": 481,
+  "dimension_height": 356,
+  "dimension_depth": 652,
+  "lens_label": "Other",
+  "lens_degree_min": 18,
+  "lens_degree_max": 35,
+  "focus_type": "Head",
+  "focus_pan_max": 270,
+  "focus_tilt_max": 265,
+  "technical_power_consumption": 700,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 21,
+      "type_description": "Shutter, strobe, reset, lamp",
+      "capabilities": [
+        {
+          "label": "Shutter closed",
+          "min": 0,
+          "max": 19
+        },
+        {
+          "label": "Shutter open",
+          "min": 20,
+          "max": 49
+        },
+        {
+          "label": "Strobe on (fast->slow)",
+          "min": 50,
+          "max": 112
+        },
+        {
+          "label": "Shutter closed",
+          "min": 113,
+          "max": 115
+        },
+        {
+          "label": "Shutter open (Reduced lamp power w/electronic ballast)",
+          "min": 116,
+          "max": 122
+        },
+        {
+          "label": "Shutter closed",
+          "min": 123,
+          "max": 127
+        },
+        {
+          "label": "Random strobe, fast",
+          "min": 128,
+          "max": 147
+        },
+        {
+          "label": "Random strobe, medium",
+          "min": 148,
+          "max": 167
+        },
+        {
+          "label": "Random strobe, slow",
+          "min": 168,
+          "max": 187
+        },
+        {
+          "label": "Shutter closed",
+          "min": 188,
+          "max": 207
+        },
+        {
+          "label": "Reset fixture",
+          "min": 208,
+          "max": 217
+        },
+        {
+          "label": "Shutter closed",
+          "min": 218,
+          "max": 227
+        },
+        {
+          "label": "Lamp power on",
+          "min": 228,
+          "max": 237
+        },
+        {
+          "label": "Shutter closed",
+          "min": 238,
+          "max": 247
+        },
+        {
+          "label": "Lamp power off Note: T ≥ 5 seconds",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Cyan",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Magenta",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Yellow",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Colour Wheel",
+      "capabilities": [
+        {
+          "label": "White > Color 1 (Continuous scroll)",
+          "min": 0,
+          "max": 40
+        },
+        {
+          "label": "Color 1 > Color 2 (Continuous scroll)",
+          "min": 41,
+          "max": 80
+        },
+        {
+          "label": "Color 2 > Color 3 (Continuous scroll)",
+          "min": 81,
+          "max": 120
+        },
+        {
+          "label": "Color 3 > Color 4 (Continuous scroll)",
+          "min": 121,
+          "max": 160
+        },
+        {
+          "label": "Color 4 (Stepped scroll)",
+          "min": 161,
+          "max": 165
+        },
+        {
+          "label": "Color 3 (Stepped scroll)",
+          "min": 166,
+          "max": 170
+        },
+        {
+          "label": "Color 2 (Stepped scroll)",
+          "min": 171,
+          "max": 175
+        },
+        {
+          "label": "Color 1 (Stepped scroll)",
+          "min": 176,
+          "max": 180
+        },
+        {
+          "label": "White (Stepped scroll)",
+          "min": 181,
+          "max": 185
+        },
+        {
+          "label": "CW, fast > slow (Continuous rotation)",
+          "min": 186,
+          "max": 214
+        },
+        {
+          "label": "CCW, slow < fast (Continuous rotation)",
+          "min": 215,
+          "max": 243
+        },
+        {
+          "label": "Random color, fast (Random CMY color)",
+          "min": 244,
+          "max": 247
+        },
+        {
+          "label": "Random color, medium (Random CMY color)",
+          "min": 248,
+          "max": 251
+        },
+        {
+          "label": "Random color, slow (Random CMY color)",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 1,
+      "type_description": "Frost",
+      "capabilities": [
+        {
+          "label": "No Frost > Full Frost",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Pan fine",
+      "capabilities": []
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "Tilt fine",
+      "capabilities": []
+    },
+    {
+      "index": 11,
+      "type": 22,
+      "type_description": "Pan/tilt speed",
+      "capabilities": [
+        {
+          "label": "Tracking mode",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Fast -> slow",
+          "min": 3,
+          "max": 245
+        },
+        {
+          "label": "Tracking, PTSP NORM",
+          "min": 246,
+          "max": 248
+        },
+        {
+          "label": "Tracking, PTSP FAST",
+          "min": 249,
+          "max": 251
+        },
+        {
+          "label": "Blackout while moving",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 22,
+      "type_description": "Effect speed",
+      "capabilities": [
+        {
+          "label": "Tracking mode",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "label": "Fast -> slow",
+          "min": 3,
+          "max": 245
+        },
+        {
+          "label": "Tracking, SCUT OFF",
+          "min": 246,
+          "max": 248
+        },
+        {
+          "label": "Tracking, SCUT ON",
+          "min": 249,
+          "max": 251
+        },
+        {
+          "label": "Blackout while moving",
+          "min": 252,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "CTC",
+      "capabilities": [
+        {
+          "label": "Cold > Warm (0-178 mireds)",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "type": 1,
+      "type_description": "Beam Shaper",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Beam shaper left > right",
+          "min": 1,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Martin/Martin-MAC600-NT.json",
+  "id": 1073
+}

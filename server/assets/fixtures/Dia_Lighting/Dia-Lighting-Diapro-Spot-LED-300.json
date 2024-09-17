@@ -1,0 +1,764 @@
+{
+  "version": "1.0.0",
+  "label": "Diapro Spot LED 300",
+  "manufacturer": "Dia Lighting",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 8300,
+  "dimension_weight": 22,
+  "dimension_width": 430,
+  "dimension_height": 674,
+  "dimension_depth": 254,
+  "lens_label": "Other",
+  "lens_degree_min": 7,
+  "lens_degree_max": 31,
+  "focus_type": "Fixed",
+  "focus_pan_max": 540,
+  "focus_tilt_max": 270,
+  "technical_power_consumption": 400,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Pan/Tilt Macro",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Macro 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Macro 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Macro 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Macro 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Macro 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Macro 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Macro 7",
+          "min": 56,
+          "max": 63
+        },
+        {
+          "label": "Macro 8",
+          "min": 64,
+          "max": 71
+        },
+        {
+          "label": "Macro 9",
+          "min": 72,
+          "max": 79
+        },
+        {
+          "label": "Macro 10",
+          "min": 80,
+          "max": 87
+        },
+        {
+          "label": "Macro 11",
+          "min": 88,
+          "max": 95
+        },
+        {
+          "label": "Macro 12",
+          "min": 96,
+          "max": 103
+        },
+        {
+          "label": "Macro 13",
+          "min": 104,
+          "max": 111
+        },
+        {
+          "label": "Macro 14",
+          "min": 112,
+          "max": 119
+        },
+        {
+          "label": "Macro 15",
+          "min": 120,
+          "max": 127
+        },
+        {
+          "label": "Macro 16",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Macro 17",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Macro 18",
+          "min": 144,
+          "max": 151
+        },
+        {
+          "label": "Macro 19",
+          "min": 152,
+          "max": 159
+        },
+        {
+          "label": "Macro 20",
+          "min": 160,
+          "max": 167
+        },
+        {
+          "label": "Macro 21",
+          "min": 168,
+          "max": 175
+        },
+        {
+          "label": "Macro 22",
+          "min": 176,
+          "max": 183
+        },
+        {
+          "label": "Macro 23",
+          "min": 184,
+          "max": 191
+        },
+        {
+          "label": "Macro 24",
+          "min": 192,
+          "max": 199
+        },
+        {
+          "label": "Macro 25",
+          "min": 200,
+          "max": 207
+        },
+        {
+          "label": "Macro 26",
+          "min": 208,
+          "max": 215
+        },
+        {
+          "label": "Macro 27",
+          "min": 216,
+          "max": 223
+        },
+        {
+          "label": "Macro 28",
+          "min": 224,
+          "max": 231
+        },
+        {
+          "label": "Macro 29",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Macro 30",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Macro 31",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 22,
+      "type_description": "Pan/Tilt Macro Speed",
+      "capabilities": [
+        {
+          "label": "Fast to slow",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Color wheel 1",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Color 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Color 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Color 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Color 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Color 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Color 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Color 7",
+          "min": 56,
+          "max": 64
+        },
+        {
+          "label": "Index",
+          "min": 65,
+          "max": 127
+        },
+        {
+          "label": "Clockwise rotation (fast to slow)",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Counterclockwise rotation (slow to fast)",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Color wheel 2",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Color 1",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Color 2",
+          "min": 16,
+          "max": 23
+        },
+        {
+          "label": "Color 3",
+          "min": 24,
+          "max": 31
+        },
+        {
+          "label": "Color 4",
+          "min": 32,
+          "max": 39
+        },
+        {
+          "label": "Color 5",
+          "min": 40,
+          "max": 47
+        },
+        {
+          "label": "Color 6",
+          "min": 48,
+          "max": 55
+        },
+        {
+          "label": "Color 7",
+          "min": 56,
+          "max": 64
+        },
+        {
+          "label": "Index",
+          "min": 65,
+          "max": 127
+        },
+        {
+          "label": "Clockwise rotation (fast to slow)",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Counterclockwise rotation (slow to fast)",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 4,
+      "type_description": "Gobo 1",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Gobo 1",
+          "min": 6,
+          "max": 11
+        },
+        {
+          "label": "Gobo 2",
+          "min": 12,
+          "max": 17
+        },
+        {
+          "label": "Gobo 3",
+          "min": 18,
+          "max": 23
+        },
+        {
+          "label": "Gobo 4",
+          "min": 24,
+          "max": 29
+        },
+        {
+          "label": "Gobo 5",
+          "min": 30,
+          "max": 35
+        },
+        {
+          "label": "Gobo 6",
+          "min": 36,
+          "max": 41
+        },
+        {
+          "label": "Gobo 7",
+          "min": 42,
+          "max": 47
+        },
+        {
+          "label": "Gobo 8",
+          "min": 48,
+          "max": 53
+        },
+        {
+          "label": "Gobo 9",
+          "min": 54,
+          "max": 59
+        },
+        {
+          "label": "Gobo Shaking",
+          "min": 60,
+          "max": 127
+        },
+        {
+          "label": "Clockwise rotation (fast to slow)",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Counterclockwise rotation (slow to fast)",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "type": 4,
+      "type_description": "Gobo 2",
+      "capabilities": [
+        {
+          "label": "Open",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "label": "Gobo 1",
+          "min": 11,
+          "max": 21
+        },
+        {
+          "label": "Gobo 2",
+          "min": 22,
+          "max": 32
+        },
+        {
+          "label": "Gobo 3",
+          "min": 33,
+          "max": 43
+        },
+        {
+          "label": "Gobo 4",
+          "min": 44,
+          "max": 54
+        },
+        {
+          "label": "Gobo 5",
+          "min": 55,
+          "max": 65
+        },
+        {
+          "label": "Gobo 6",
+          "min": 66,
+          "max": 76
+        },
+        {
+          "label": "Gobo 7",
+          "min": 77,
+          "max": 88
+        },
+        {
+          "label": "Gobo shaking",
+          "min": 89,
+          "max": 127
+        },
+        {
+          "label": "Clockwise rotation (fast to slow)",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Counterclockwise rotation (slow to fast)",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 4,
+      "type_description": "Rotation Gobo",
+      "capabilities": [
+        {
+          "label": "Index",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Clockwise rotation (fast to slow)",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Counterclockwise rotation (slow to fast)",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 1,
+      "type_description": "Frost",
+      "capabilities": [
+        {
+          "label": "0-100",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Iris",
+      "capabilities": []
+    },
+    {
+      "index": 14,
+      "type": 20,
+      "type_description": "Prism",
+      "capabilities": [
+        {
+          "label": "No Prism",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "Prism",
+          "min": 8,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "type": 20,
+      "type_description": "Prism Rotation",
+      "capabilities": [
+        {
+          "label": "Index",
+          "min": 0,
+          "max": 127
+        },
+        {
+          "label": "Clockwise rotation (fast to slow)",
+          "min": 128,
+          "max": 189
+        },
+        {
+          "label": "Stop",
+          "min": 190,
+          "max": 193
+        },
+        {
+          "label": "Counterclockwise rotation (slow to fast)",
+          "min": 194,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "type": 0,
+      "type_description": "Zoom",
+      "capabilities": []
+    },
+    {
+      "index": 17,
+      "type": 0,
+      "type_description": "Focus",
+      "capabilities": []
+    },
+    {
+      "index": 18,
+      "type": 21,
+      "type_description": "Shutter",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 7
+        },
+        {
+          "label": "On",
+          "min": 8,
+          "max": 15
+        },
+        {
+          "label": "Strobe slow to fast",
+          "min": 16,
+          "max": 131
+        },
+        {
+          "label": "Open",
+          "min": 132,
+          "max": 139
+        },
+        {
+          "label": "Slow Open slow to fast",
+          "min": 140,
+          "max": 181
+        },
+        {
+          "label": "Open",
+          "min": 182,
+          "max": 189
+        },
+        {
+          "label": "Slow Close slow to fast",
+          "min": 190,
+          "max": 231
+        },
+        {
+          "label": "Open",
+          "min": 232,
+          "max": 239
+        },
+        {
+          "label": "Random Strobe",
+          "min": 240,
+          "max": 247
+        },
+        {
+          "label": "Open",
+          "min": 248,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 20,
+      "type": 0,
+      "type_description": "Dimmer Fine",
+      "capabilities": []
+    },
+    {
+      "index": 21,
+      "type": 17,
+      "type_description": "Function",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 69
+        },
+        {
+          "label": "Enable Blackout While Pan/Tilt Moving",
+          "min": 70,
+          "max": 79
+        },
+        {
+          "label": "Disable Blackout While Pan/Tilt Moving",
+          "min": 80,
+          "max": 89
+        },
+        {
+          "label": "Enable Blackout While Color Changing",
+          "min": 90,
+          "max": 99
+        },
+        {
+          "label": "Disable Blackout While Color Changing",
+          "min": 100,
+          "max": 109
+        },
+        {
+          "label": "Enable Blackout While Gobo Changing",
+          "min": 110,
+          "max": 119
+        },
+        {
+          "label": "Disable Blackout While Gobo Changing",
+          "min": 120,
+          "max": 129
+        },
+        {
+          "label": "No function",
+          "min": 130,
+          "max": 139
+        },
+        {
+          "label": "Pan/Tilt Reset",
+          "min": 140,
+          "max": 149
+        },
+        {
+          "label": "Effect reset",
+          "min": 150,
+          "max": 189
+        },
+        {
+          "label": "No function",
+          "min": 190,
+          "max": 199
+        },
+        {
+          "label": "All Reset",
+          "min": 200,
+          "max": 209
+        },
+        {
+          "label": "Enable Blackout While Pan/Tilt Color Gobo Moving",
+          "min": 210,
+          "max": 219
+        },
+        {
+          "label": "Disable Blackout While Pan/Tilt Color Gobo Moving",
+          "min": 220,
+          "max": 229
+        },
+        {
+          "label": "No function",
+          "min": 230,
+          "max": 255
+        }
+      ]
+    }
+  ],
+  "filePath": "./assets/fixtures/Dia_Lighting/Dia-Lighting-Diapro-Spot-LED-300.json",
+  "id": 581
+}

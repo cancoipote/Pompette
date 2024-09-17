@@ -1,0 +1,142 @@
+{
+  "version": "1.0.0",
+  "label": "LED Par 64 Short V2",
+  "manufacturer": "Showtec",
+  "bulb_type": "LED",
+  "bulb_lumens": 0,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 3,
+  "dimension_width": 250,
+  "dimension_height": 250,
+  "dimension_depth": 270,
+  "lens_label": "Other",
+  "lens_degree_min": 45,
+  "lens_degree_max": 45,
+  "focus_type": "Fixed",
+  "focus_pan_max": 0,
+  "focus_tilt_max": 0,
+  "technical_power_consumption": 65,
+  "technical_dmx_connector": "3-pin",
+  "type": 1,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 21,
+      "type_description": "Strobe with dead zone",
+      "capabilities": [
+        {
+          "label": "No Function",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "Full on",
+          "min": 6,
+          "max": 10
+        },
+        {
+          "label": "Strobe (Slow to fast)",
+          "min": 11,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "type_description": "Built-in programs / Sound-controlled",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "label": "Program 1: 7-color fading",
+          "min": 1,
+          "max": 35
+        },
+        {
+          "label": "Program 2: 7-color jump",
+          "min": 36,
+          "max": 71
+        },
+        {
+          "label": "Program 3: Color dreaming",
+          "min": 72,
+          "max": 107
+        },
+        {
+          "label": "Program 4: Red fading",
+          "min": 108,
+          "max": 143
+        },
+        {
+          "label": "Program 5: Green fading",
+          "min": 144,
+          "max": 179
+        },
+        {
+          "label": "Program 6: Blue fading",
+          "min": 180,
+          "max": 215
+        },
+        {
+          "label": "Sound active (Ch 2 is audio sensivity)",
+          "min": 216,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": 22,
+      "type_description": "Speed / Sensitivity",
+      "capabilities": [
+        {
+          "label": "Speed from slow to fast / Audio sensitivity from low to high",
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "Strobe",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 0,
+      "type_description": "Macro Colors",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Showtec/Showtec-LED-Par-64-Short-V2.json",
+  "id": 1305
+}

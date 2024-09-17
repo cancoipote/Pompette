@@ -1,0 +1,363 @@
+{
+  "version": "1.0.0",
+  "label": "MH-100 Beam 36x3 LED",
+  "manufacturer": "Stairville",
+  "bulb_type": "LED",
+  "bulb_lumens": 949,
+  "bulb_color_temperature": 0,
+  "dimension_weight": 4,
+  "dimension_width": 260,
+  "dimension_height": 310,
+  "dimension_depth": 148,
+  "lens_label": "Other",
+  "lens_degree_min": 8,
+  "lens_degree_max": 8,
+  "focus_type": "Fixed",
+  "focus_pan_max": 630,
+  "focus_tilt_max": 220,
+  "technical_power_consumption": 150,
+  "technical_dmx_connector": "3-pin",
+  "type": 8,
+  "channels": [
+    {
+      "index": 0,
+      "type": 0,
+      "type_description": "Pan",
+      "capabilities": []
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "type_description": "Tilt",
+      "capabilities": []
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "type_description": "Pan/Tilt Speed",
+      "capabilities": []
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "type_description": "Dimmer",
+      "capabilities": []
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "type_description": "Red",
+      "capabilities": []
+    },
+    {
+      "index": 5,
+      "type": 0,
+      "type_description": "Green",
+      "capabilities": []
+    },
+    {
+      "index": 6,
+      "type": 0,
+      "type_description": "Blue",
+      "capabilities": []
+    },
+    {
+      "index": 7,
+      "type": 0,
+      "type_description": "White",
+      "capabilities": []
+    },
+    {
+      "index": 8,
+      "type": 21,
+      "type_description": "Strobe",
+      "capabilities": [
+        {
+          "label": "Off",
+          "min": 0,
+          "max": 9
+        },
+        {
+          "label": "Increasing speed",
+          "min": 10,
+          "max": 140
+        },
+        {
+          "label": "Random speed",
+          "min": 141,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "type": 0,
+      "type_description": "Pan Fine",
+      "capabilities": []
+    },
+    {
+      "index": 10,
+      "type": 0,
+      "type_description": "White with Full Intensity and Adjustable Colour Temperature",
+      "capabilities": [
+        {
+          "label": "All LEDs off",
+          "min": 0,
+          "max": 35
+        },
+        {
+          "label": "3200 K",
+          "min": 36,
+          "max": 55
+        },
+        {
+          "label": "3400 K",
+          "min": 56,
+          "max": 75
+        },
+        {
+          "label": "4200 K",
+          "min": 76,
+          "max": 95
+        },
+        {
+          "label": "4900 K",
+          "min": 96,
+          "max": 115
+        },
+        {
+          "label": "5600 K",
+          "min": 116,
+          "max": 135
+        },
+        {
+          "label": "6500 K",
+          "min": 136,
+          "max": 175
+        },
+        {
+          "label": "7200 K",
+          "min": 176,
+          "max": 195
+        },
+        {
+          "label": "8000 K",
+          "min": 196,
+          "max": 215
+        },
+        {
+          "label": "8500 K",
+          "min": 216,
+          "max": 235
+        },
+        {
+          "label": "10000 K",
+          "min": 236,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "type": 0,
+      "type_description": "Preprogrammed Colours",
+      "capabilities": [
+        {
+          "label": "All LEDs off",
+          "min": 0,
+          "max": 14
+        },
+        {
+          "label": "Red (255,0,0)",
+          "min": 15,
+          "max": 22
+        },
+        {
+          "label": "Scarlet (255,51,0) + 10% white LEDs",
+          "min": 23,
+          "max": 30
+        },
+        {
+          "label": "Safety Orange (255,102,0)",
+          "min": 31,
+          "max": 37
+        },
+        {
+          "label": "Orange Peel (255,153,0)",
+          "min": 38,
+          "max": 45
+        },
+        {
+          "label": "Tangerine Yellow (255,204,0) + 20% white LEDs",
+          "min": 46,
+          "max": 52
+        },
+        {
+          "label": "Yellow (255,255,0)",
+          "min": 53,
+          "max": 60
+        },
+        {
+          "label": "Electric Lime (204,255,0)",
+          "min": 61,
+          "max": 67
+        },
+        {
+          "label": "Spring Bud (153,255,0) + 10% white LEDs",
+          "min": 68,
+          "max": 75
+        },
+        {
+          "label": "Bright Green (102,255,0)",
+          "min": 76,
+          "max": 82
+        },
+        {
+          "label": "Harlequin (51,255,0) + 20% white LEDs",
+          "min": 83,
+          "max": 90
+        },
+        {
+          "label": "Green (Lime) (0,255,0)",
+          "min": 91,
+          "max": 97
+        },
+        {
+          "label": "Free Speech Green (0,255,51) + 10% white LEDs",
+          "min": 98,
+          "max": 105
+        },
+        {
+          "label": "Spring Green (0,255,102)",
+          "min": 106,
+          "max": 112
+        },
+        {
+          "label": "Medium Spring Green (0,255,153)",
+          "min": 113,
+          "max": 120
+        },
+        {
+          "label": "Bright Turquoise (0,255,204) + 10% white LEDs",
+          "min": 121,
+          "max": 127
+        },
+        {
+          "label": "Cyan (0,255,255)",
+          "min": 128,
+          "max": 135
+        },
+        {
+          "label": "Deep Sky Blue (0,204,255)",
+          "min": 136,
+          "max": 143
+        },
+        {
+          "label": "Dodger Blue (0,153,255) + 10% white LEDs",
+          "min": 144,
+          "max": 150
+        },
+        {
+          "label": "Navy Blue (0,102,255)",
+          "min": 151,
+          "max": 158
+        },
+        {
+          "label": "Neon Blue (0,51,255) + 20% white LEDs",
+          "min": 159,
+          "max": 165
+        },
+        {
+          "label": "Blue (0,0,255)",
+          "min": 166,
+          "max": 173
+        },
+        {
+          "label": "Han Purple (Ultramarine) (51,0,255)",
+          "min": 174,
+          "max": 180
+        },
+        {
+          "label": "Electric Indigo (102,0,255)",
+          "min": 181,
+          "max": 188
+        },
+        {
+          "label": "Vivid Violet (153,0,255) + 20% white LEDs",
+          "min": 189,
+          "max": 195
+        },
+        {
+          "label": "Electric Purple (204,0,255)",
+          "min": 196,
+          "max": 203
+        },
+        {
+          "label": "Magenta (255,0,255)",
+          "min": 204,
+          "max": 210
+        },
+        {
+          "label": "Hot Magenta (255,0,204)",
+          "min": 211,
+          "max": 218
+        },
+        {
+          "label": "Hollywood Cerise (255,0,153)",
+          "min": 219,
+          "max": 225
+        },
+        {
+          "label": "Razzmatazz Rose (255,0,102)",
+          "min": 226,
+          "max": 233
+        },
+        {
+          "label": "Torch Red (255,0,51) + 20% white LEDs",
+          "min": 234,
+          "max": 240
+        },
+        {
+          "label": "Red (255,0,0) + 100% white LEDs",
+          "min": 241,
+          "max": 248
+        },
+        {
+          "label": "White (255,255,255) + 100% white LEDs",
+          "min": 249,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "type": 17,
+      "type_description": "Special Functions",
+      "capabilities": [
+        {
+          "label": "No function",
+          "min": 0,
+          "max": 99
+        },
+        {
+          "label": "Automatic sound-to-light-show",
+          "min": 100,
+          "max": 199
+        },
+        {
+          "label": "Reset (hold value over 5 seconds )",
+          "min": 200,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "type": 0,
+      "type_description": "Tilt Fine",
+      "capabilities": []
+    }
+  ],
+  "filePath": "./assets/fixtures/Stairville/Stairville-MH-100-Beam-36x3-LED.json",
+  "id": 1417
+}
