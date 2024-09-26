@@ -152,10 +152,6 @@ export class PopupComponent
      */
     public date!: Date;
 
-    /**
-     * Mode nonono
-     */
-    public mode_nonono:boolean = false;
 
     /**
      * items
@@ -262,19 +258,6 @@ export class PopupComponent
         {
             this.set_date_button_label = this.data.set_date_button_label;
         }
-
-        if( this.data.mode_nonono )
-        {
-            this.mode_nonono = this.data.mode_nonono;
-
-            if( this.mode_nonono == true )
-            {
-                this.mode_question = false;
-                this.title_label = ""
-                this.content = "<video autoplay loop ><source type='video/mp4'  src='https://kyliisaas.com/assets/commons/nonono.mp4' ></video>"
-            }
-        }
-        
 
         this.popup_height = this.getHeight();
     }
