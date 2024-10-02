@@ -439,7 +439,7 @@ export class PopupExport
                 let transitions:any = [];
                 for( let k:number = 0; k < sequences[i].sequenceFixtures[j].transitions.length; k++ )
                 {
-                    let fixChannel:any = [];
+                    let fixChannels:any = [];
                     for( let a:number = 0; a < sequences[i].sequenceFixtures[j].transitions[k].fixFixture.channels.length; a++ )
                     {
                         let item:any = (
@@ -448,7 +448,7 @@ export class PopupExport
                                 value:sequences[i].sequenceFixtures[j].transitions[k].fixFixture.channels[a].value
                             }
                         );
-                        fixChannel.push(item);
+                        fixChannels.push(item);
                     }
 
                     let startChannels:any = [];
@@ -490,7 +490,7 @@ export class PopupExport
                             durationMax:parseInt(sequences[i].sequenceFixtures[j].transitions[k].durationMax.toString()),
                             useStep:sequences[i].sequenceFixtures[j].transitions[k].useStep,
                             step:parseInt(sequences[i].sequenceFixtures[j].transitions[k].step.toString()),
-                            fixChannel:fixChannel,
+                            fixChannels:fixChannels,
                             startChannels:startChannels,
                             endChannels:endChannels
                         }
