@@ -707,7 +707,7 @@ export class ProjectService
 	{
 		const dataUri = 'data:application/json;charset=utf-8,' + encodeURIComponent(datas);
 
-		const exportFileDefaultName = this.appService.project.label + filename_details + '.json';
+		const exportFileDefaultName =  filename_details + '.json';
 
 		const linkElement = document.createElement('a');
 		linkElement.setAttribute('href', dataUri);
@@ -729,7 +729,7 @@ export class ProjectService
 			const fileHandle = await (window as any).showSaveFilePicker
 			(
 				{
-					suggestedName: this.appService.project.label + filename_details + '.json',
+					suggestedName:filename_details + '.json',
 					types: 
 					[
 						{

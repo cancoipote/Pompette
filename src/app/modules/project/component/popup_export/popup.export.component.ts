@@ -284,6 +284,133 @@ export class PopupExport
 
 
     /**
+     * Export Fixture
+     */
+    public onExportFixture()
+    {
+        let selectedFixtures:any[] = this.getSelectItems( this.fixtures );
+
+        if(  selectedFixtures.length == 0 )
+        {
+            let message_error:string = "Please select at least one fixture to export.";
+            this.dialog.open
+            (
+                PopupComponent, 
+                {
+                    disableClose:true,
+                    width:  '555px',
+                    data: 
+                    { 
+                        title_label:'Error', 
+                        content:message_error,
+                        mode_question:false,
+                        mode_prompt:false,
+                        mode_prompt_type:"text",
+                        cancel_button_label:"Close",
+                        prompt_value:"Sequence's name",
+                        disable_cancel:false,
+                        display_cancel:false,
+                        prompt:'' 
+                    }
+                }
+            );
+
+            return;
+        }
+
+
+        if( selectedFixtures.length > 0 )
+        {
+            this.exportFixtures( selectedFixtures );
+        }
+    }
+
+
+    /**
+     * Export Sequence
+     */
+    public onExportSequence()
+    {
+        let selectedSequences:any[] = this.getSelectItems( this.sequences );
+        
+        if( selectedSequences.length == 0 )
+        {
+            let message_error:string = "Please select at least one sequence to export.";
+            this.dialog.open
+            (
+                PopupComponent, 
+                {
+                    disableClose:true,
+                    width:  '555px',
+                    data: 
+                    { 
+                        title_label:'Error', 
+                        content:message_error,
+                        mode_question:false,
+                        mode_prompt:false,
+                        mode_prompt_type:"text",
+                        cancel_button_label:"Close",
+                        prompt_value:"Sequence's name",
+                        disable_cancel:false,
+                        display_cancel:false,
+                        prompt:'' 
+                    }
+                }
+            );
+
+            return;
+        }
+
+        if( selectedSequences.length > 0 )
+        {
+            this.exportSequences( selectedSequences );
+        }
+    }
+
+
+    /**
+     * Export Effect
+     */
+    public onExportEffect()
+    {
+        let selectedEffects:any[] = this.getSelectItems( this.effects );
+
+        if( selectedEffects.length == 0 )
+        {
+            let message_error:string = "Please select at least one effect to export.";
+            this.dialog.open
+            (
+                PopupComponent, 
+                {
+                    disableClose:true,
+                    width:  '555px',
+                    data: 
+                    { 
+                        title_label:'Error', 
+                        content:message_error,
+                        mode_question:false,
+                        mode_prompt:false,
+                        mode_prompt_type:"text",
+                        cancel_button_label:"Close",
+                        prompt_value:"Sequence's name",
+                        disable_cancel:false,
+                        display_cancel:false,
+                        prompt:'' 
+                    }
+                }
+            );
+
+            return;
+        }
+
+        if( selectedEffects.length > 0 )
+        {
+            this.exportSequences( selectedEffects );
+        }
+    }
+
+
+    /**
      * Export Sequences
      * @param sequences 
      */
@@ -312,7 +439,7 @@ export class PopupExport
                 for( let k:number = 0; k < sequences[i].sequenceFixtures[j].transitions.length; k++ )
                 {
                     let startChannels:any = [];
-                    for( let a:number = 0; a < this.appService.project.sequences[i].sequenceFixtures[j].transitions[k].startFixture.channels.length; a++ )
+                    for( let a:number = 0; a < sequences[i].sequenceFixtures[j].transitions[k].startFixture.channels.length; a++ )
                     {
                         let item:any = (
                             {
@@ -386,15 +513,16 @@ export class PopupExport
         let extport_data:any = (
             {
                 frequency:50,
+                project:this.appService.project.label,
                 devices_channel:devices_channel,
                 atmospheres:atmospheres
             }
         );
         
-        let export_filename_description:string = "_export_sequences";
+        let export_filename_description:string = "pompette_sequences";
         if( sequences[0].isFX == true )
         {
-            export_filename_description = "_export_effects";
+            export_filename_description = "pompette_effects";
         }
 
         if ('showSaveFilePicker' in window)
@@ -467,12 +595,13 @@ export class PopupExport
 
         let extport_data:any = (
             {
+                project:this.appService.project.label,
                 fixtures:devices
             }
         );
 
 
-        let export_filename_description:string = "_export_fixtures";
+        let export_filename_description:string = "pompette_fixtures";
        
         if ('showSaveFilePicker' in window)
         {
