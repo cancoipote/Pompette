@@ -25,6 +25,7 @@ import { AppService }                                                           
 import { ProjectService }                                                               from '../../service/project.service';
 import { Sequence } from '../../../sequence/vo/sequence';
 import { Fixture } from '../../../fixture/vo/fixture';
+import { FixtureType } from '../../../fixture/vo/fixture.type';
 
 
 /**
@@ -416,7 +417,7 @@ export class PopupExport
      */
     private exportSequences( sequences:Sequence[] )
     {
-        let devices_channel:any = [];
+        let fixtures_channel:any = [];
         for( let i:number = 0; i < this.appService.project.fixtures.length; i++ )
         {
             let item:any = (
@@ -425,14 +426,14 @@ export class PopupExport
                     channel:this.appService.project.fixtures[i].index
                 }
             );
-            devices_channel.push(item);
+            fixtures_channel.push(item);
         }
 
 
         let atmospheres:any = [];
         for( let i:number = 0; i < sequences.length; i++ )
         {
-            let devices:any = [];
+            let fixtures:any = [];
             for( let j:number = 0; j < sequences[i].sequenceFixtures.length; j++ )
             {
                 let transitions:any = [];
@@ -498,13 +499,13 @@ export class PopupExport
                         }
                     }
                 );
-                devices.push(item);
+                fixtures.push(item);
             }
 
             let item:any = (
                 {
                     label:sequences[i].label,
-                    devices:devices
+                    fixtures:fixtures
                 }
             );
             atmospheres.push(item);
@@ -514,7 +515,7 @@ export class PopupExport
             {
                 frequency:50,
                 project:this.appService.project.label,
-                devices_channel:devices_channel,
+                fixtures_channel:fixtures_channel,
                 atmospheres:atmospheres
             }
         );
@@ -543,7 +544,7 @@ export class PopupExport
     private exportFixtures( fixtures:Fixture[] )
     {
 
-        let devices:any[] = new Array();
+        let items:any[] = new Array();
 
         for( let i:number = 0; i < fixtures.length; i++ )
         {
@@ -590,13 +591,13 @@ export class PopupExport
                     channels:channels
                 }
             );
-            devices.push(fixture);
+            items.push(fixture);
         }
 
         let extport_data:any = (
             {
                 project:this.appService.project.label,
-                fixtures:devices
+                fixtures:items
             }
         );
 
