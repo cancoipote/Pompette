@@ -34,7 +34,7 @@
                 <div class="sequence-fixture-transition-thumb-content-part">
                     <mat-form-field color="accent" fxFlex="90">
                         <mat-label>Transition type</mat-label>
-                        <mat-select [(value)]="sequenceFixtureTransition.type" (selectionChange)="onChangeTransitionType()" >
+                        <mat-select [(value)]="sequenceFixtureTransition.type" (selectionChange)="onChangeTransitionType()" [disabled]="sequenceFixtureTransition.useStep == true">
                             <mat-option *ngFor="let transitionType of fixtureService.transitionTypes" [value]="transitionType">
                                 {{transitionType.label}}
                             </mat-option>
@@ -43,7 +43,7 @@
                     <br>
                     <mat-form-field color="accent" fxFlex="90">
                         <mat-label>Transition sub type</mat-label>
-                        <mat-select [(value)]="sequenceFixtureTransition.subType" [disabled]="sequenceFixtureTransition.type.subTypes.length == 0" >
+                        <mat-select [(value)]="sequenceFixtureTransition.subType" [disabled]="sequenceFixtureTransition.type.subTypes.length == 0 || sequenceFixtureTransition.useStep == true" >
                             <mat-option *ngFor="let transitionSubType of sequenceFixtureTransition.type.subTypes" [value]="transitionSubType">
                                 {{transitionSubType.label}}
                             </mat-option>
@@ -52,35 +52,53 @@
                 </div>
             </div>
             <div>
-                <div class="title">Duration</div>
-
-                <mat-radio-group [(ngModel)]="sequenceFixtureTransition.fixedDuration" >
-                    <mat-radio-button  (change)="onChangeDurationType($event)"  [value]="true">Fixed duration</mat-radio-button>
-                    <mat-radio-button  (change)="onChangeDurationType($event)"  [value]="false">Randomized duration</mat-radio-button>
-                </mat-radio-group>
-
-                <div class="duration-container" >
-                    <mat-form-field  color="accent" *ngIf="sequenceFixtureTransition.fixedDuration == true">
-                        <mat-label>Fixed duration (ms)</mat-label>
-                        <input matInput [(ngModel)]="sequenceFixtureTransition.duration" [ngModelOptions]="{standalone: true}" />
-                    </mat-form-field>
-                    <mat-form-field  color="accent" *ngIf="sequenceFixtureTransition.fixedDuration == false">
-                        <mat-label>Min duration (ms)</mat-label>
-                        <input matInput [(ngModel)]="sequenceFixtureTransition.durationMin" [ngModelOptions]="{standalone: true}" />
-                    </mat-form-field>
-                    <mat-form-field  color="accent" *ngIf="sequenceFixtureTransition.fixedDuration == false">
-                        <mat-label>Max duration (ms)</mat-label>
-                        <input matInput [(ngModel)]="sequenceFixtureTransition.durationMax" [ngModelOptions]="{standalone: true}" />
-                    </mat-form-field>
+                <div class="title">
+                    Duration
+                    <mat-radio-group [(ngModel)]="sequenceFixtureTransition.useStep" >
+                        <mat-radio-button  [value]="false">Use time</mat-radio-button>
+                        <mat-radio-button  [value]="true">Use step</mat-radio-button>
+                    </mat-radio-group>
+                </div>
+                
+                <div *ngIf="sequenceFixtureTransition.useStep == false" >
+                    <mat-radio-group [(ngModel)]="sequenceFixtureTransition.fixedDuration" >
+                        <mat-radio-button  (change)="onChangeDurationType($event)"  [value]="true">Fixed duration</mat-radio-button>
+                        <mat-radio-button  (change)="onChangeDurationType($event)"  [value]="false">Randomized duration</mat-radio-button>
+                    </mat-radio-group>
+    
+                    <div class="duration-container" >
+                        <mat-form-field  color="accent" *ngIf="sequenceFixtureTransition.fixedDuration == true">
+                            <mat-label>Fixed duration (ms)</mat-label>
+                            <input matInput [(ngModel)]="sequenceFixtureTransition.duration" [ngModelOptions]="{standalone: true}" />
+                        </mat-form-field>
+                        <mat-form-field  color="accent" *ngIf="sequenceFixtureTransition.fixedDuration == false">
+                            <mat-label>Min duration (ms)</mat-label>
+                            <input matInput [(ngModel)]="sequenceFixtureTransition.durationMin" [ngModelOptions]="{standalone: true}" />
+                        </mat-form-field>
+                        <mat-form-field  color="accent" *ngIf="sequenceFixtureTransition.fixedDuration == false">
+                            <mat-label>Max duration (ms)</mat-label>
+                            <input matInput [(ngModel)]="sequenceFixtureTransition.durationMax" [ngModelOptions]="{standalone: true}" />
+                        </mat-form-field>
+                    </div>
+                </div>
+                <div *ngIf="sequenceFixtureTransition.useStep == true" >
+                    <div class="duration-container-message" >
+                        Only linear transitions can use step
+                    </div>
+                    <div class="duration-container" >
+                        <mat-form-field  color="accent">
+                            <mat-label>Step</mat-label>
+                            <input matInput [(ngModel)]="sequenceFixtureTransition.step" [ngModelOptions]="{standalone: true}" />
+                        </mat-form-field>
+                    </div>
                 </div>
             </div>
         </div>
 
 
-        <div *ngIf="sequenceFixtureTransition.type != null" >
-            <div *ngIf="sequenceFixtureTransition.type.useStartEndChannel == true" >
+        <div *ngIf="sequenceFixtureTransition.type != null || sequenceFixtureTransition.useStep == true" >
+            <div *ngIf="sequenceFixtureTransition.type.useStartEndChannel == true || sequenceFixtureTransition.useStep == true" >
                 <div class="title">Channels</div>
-
                 <div class="fixture-container" >
                     <fixture 
                         class="fixture-container-thumb"
@@ -102,13 +120,11 @@
                         [lightHeader]="true"
                       ></fixture>
                 </div>
-
             </div>
         </div>
-        <div *ngIf="sequenceFixtureTransition.type != null" >
+        <div *ngIf="sequenceFixtureTransition.type != null && sequenceFixtureTransition.useStep == false" >
             <div *ngIf="sequenceFixtureTransition.type.useChannel == true" >
                 <div class="title">Channels</div>
-
                 <div class="fixture-container" >
                     <fixture 
                         class="fixture-container-thumb"
@@ -118,7 +134,6 @@
                         [lightHeader]="true"
                      ></fixture>
                 </div>
-
             </div>
         </div>
     </div>

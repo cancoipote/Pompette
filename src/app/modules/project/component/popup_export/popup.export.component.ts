@@ -348,6 +348,8 @@ export class PopupExport
                             duration:parseInt(sequences[i].sequenceFixtures[j].transitions[k].duration.toString()),
                             durationMin:parseInt(sequences[i].sequenceFixtures[j].transitions[k].durationMin.toString()),
                             durationMax:parseInt(sequences[i].sequenceFixtures[j].transitions[k].durationMax.toString()),
+                            useStep:sequences[i].sequenceFixtures[j].transitions[k].useStep,
+                            step:parseInt(sequences[i].sequenceFixtures[j].transitions[k].step.toString()),
                             startChannels:startChannels,
                             endChannels:endChannels
                         }

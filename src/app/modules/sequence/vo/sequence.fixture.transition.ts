@@ -37,6 +37,16 @@ export class SequenceFixtureTransition
     fixedDuration:boolean = true;
 
     /**
+     * use setp instead of duration
+     */
+    useStep:boolean = false;
+
+    /**
+     * step
+     */
+    step:number = 0;
+
+    /**
      * type
      */
     type!:SequenceFixtureTransitionType;
@@ -83,6 +93,8 @@ export class SequenceFixtureTransition
         this.durationMin = transition.durationMin;
         this.durationMax = transition.durationMax;
         this.fixedDuration = transition.fixedDuration;
+        this.useStep = transition.useStep;
+        this.step = transition.step;
         this.type = transition.type;
         this.subType = transition.subType;
 
@@ -125,19 +137,26 @@ export class SequenceFixtureTransition
      */
     public getDurationString():string
     {
-        let duration:any = this.getDuration();
-        let result:string = "";
-
-        if( duration.min == duration.max )
+        if( this.useStep == false )
         {
-            result = "( " + duration.min + "ms )";
+            let duration:any = this.getDuration();
+            let result:string = "";
+
+            if( duration.min == duration.max )
+            {
+                result = "( " + duration.min + "ms )";
+            }
+            else
+            {
+                result = "( [ " + duration.min + "ms ; " + duration.max + "ms ] )";
+            }
+            
+            return result;
         }
         else
         {
-            result = "( [ " + duration.min + "ms ; " + duration.max + "ms ] )";
+            return "( " + this.step + " steps )";
         }
-        
-        return result;
     }
 
 

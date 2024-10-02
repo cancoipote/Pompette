@@ -110,7 +110,8 @@ export class EngineFixture
 	{
 		this.isPlaying  = true;
         this.index      = 0;
-        this.playSequenceTransition();
+
+        this.playSequenceTransition();      
 	}
 
 
@@ -133,7 +134,6 @@ export class EngineFixture
 	 * 
 	 */
 
-
     /**
      * Play Sequence Transition
      */
@@ -151,40 +151,49 @@ export class EngineFixture
         this.sequenceFixture.transitions[this.index].isPlayging = true;
         this.sequenceFixture.transitions[this.index].percentAnimation = 0;
 
-        let duration:number = 0;
-        if( this.sequenceFixture.transitions[this.index].fixedDuration == true )
+
+        if( this.sequenceFixture.transitions[this.index].useStep == true )
         {
-            duration = this.sequenceFixture.transitions[this.index].duration;
+            this.linearWithStep(this.sequenceFixture.transitions[this.index].step);
+            return;
         }
         else
         {
-            let min:number = parseInt(this.sequenceFixture.transitions[this.index].durationMin.toString());
-            let max:number = parseInt(this.sequenceFixture.transitions[this.index].durationMax.toString());
-
-            duration = Math.floor(Math.random() * (max - min )) + min;
+            let duration:number = 0;
+            if( this.sequenceFixture.transitions[this.index].fixedDuration == true )
+            {
+                duration = this.sequenceFixture.transitions[this.index].duration;
+            }
+            else
+            {
+                let min:number = parseInt(this.sequenceFixture.transitions[this.index].durationMin.toString());
+                let max:number = parseInt(this.sequenceFixture.transitions[this.index].durationMax.toString());
+    
+                duration = Math.floor(Math.random() * (max - min )) + min;
+            }
+    
+            switch( this.sequenceFixture.transitions[this.index].type.id)
+            {
+                case 1:
+                    this.delay(duration);
+                    break;
+                
+                case 2:
+                    this.linear(duration);
+                    break;
+    
+                case 3:
+                    if( this.sequenceFixture.transitions[this.index].subType )
+                    {
+                        this.easing(duration, this.sequenceFixture.transitions[this.index].subType.label);
+                    }
+                    break;
+    
+                case 4:
+                    this.fix(duration);
+                    break;
+            }  
         }
-
-        switch( this.sequenceFixture.transitions[this.index].type.id)
-        {
-            case 1:
-                this.delay(duration);
-                break;
-            
-            case 2:
-                this.linear(duration);
-                break;
-
-            case 3:
-                if( this.sequenceFixture.transitions[this.index].subType )
-                {
-                    this.easing(duration, this.sequenceFixture.transitions[this.index].subType.label);
-                }
-                break;
-
-            case 4:
-                this.fix(duration);
-                break;
-        }  
     }
 
 
@@ -233,6 +242,54 @@ export class EngineFixture
                 this.nextTransition();
 			}
 		  });
+    }
+
+
+    private linearWithStep(duration: number) {
+        this.fixture = JSON.parse(JSON.stringify(this.sequenceFixture.transitions[this.index].startFixture));
+    
+        // Calcul du nombre de frames par rapport à la durée et la fréquence de rafraîchissement (par ex. 60 FPS)
+        const fps = 60;
+        let totalFrames = Math.round(fps / duration); // Nombre total de frames pour la durée donnée
+        if( totalFrames == 0 )
+        {
+            totalFrames = 1;
+        }
+        console.log("totalFrames", totalFrames);
+        // Calculer les valeurs initiales, finales et le step pour chaque canal
+        const startValues = this.fixture.channels.map((ch: any) => ch.value);
+        const endValues = this.sequenceFixture.transitions[this.index].endFixture.channels.map((ch: any) => ch.value);
+        const steps = startValues.map((start: number, i: number) => (endValues[i] - start) / totalFrames);
+    
+        let currentFrame = 0;
+    
+        const stepUpdate = () => {
+
+            if( this.isPlaying == false )
+            {   
+                return;
+            }
+            if (currentFrame <= totalFrames) {
+                // Mise à jour des valeurs pour chaque canal
+                for (let i = 0; i < this.fixture.channels.length; i++) {
+                    this.fixture.channels[i].value = startValues[i] + steps[i] * currentFrame;
+                    this.appService.dmx_buffer[this.fixture.index + this.fixture.channels[i].index] = this.fixture.channels[i].value;
+                }
+    
+                // Mettre à jour la progression de l'animation en pourcentage
+                this.sequenceFixture.transitions[this.index].percentAnimation = (currentFrame / totalFrames) * 100;
+               // console.log(this.sequenceFixture.transitions[this.index].percentAnimation);
+                // Demander la prochaine frame
+                currentFrame++;
+                requestAnimationFrame(stepUpdate);
+            } else {
+                // Transition terminée
+                this.nextTransition();
+            }
+        };
+    
+        // Démarrer la boucle d'animation
+        requestAnimationFrame(stepUpdate);
     }
 
     private easing( duration:number, easing:string ) 

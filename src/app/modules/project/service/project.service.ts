@@ -88,6 +88,8 @@ export class ProjectService
 					transition.durationMin = this.appService.project.sequences[i].sequenceFixtures[j].transitions[k].durationMin;
 					transition.durationMax = this.appService.project.sequences[i].sequenceFixtures[j].transitions[k].durationMax;
 					transition.fixedDuration = this.appService.project.sequences[i].sequenceFixtures[j].transitions[k].fixedDuration;
+					transition.useStep = this.appService.project.sequences[i].sequenceFixtures[j].transitions[k].useStep;
+					transition.step = this.appService.project.sequences[i].sequenceFixtures[j].transitions[k].step;
 
 					transition.type = new Object();
 					transition.type.id = this.appService.project.sequences[i].sequenceFixtures[j].transitions[k].type.id;
@@ -318,6 +320,18 @@ export class ProjectService
 										transition.durationMin = parseInt(jsonData.project.sequences[i].sequenceFixtures[j].transitions[k].durationMin.toString());
 										transition.durationMax = parseInt(jsonData.project.sequences[i].sequenceFixtures[j].transitions[k].durationMax.toString());
 										transition.fixedDuration = jsonData.project.sequences[i].sequenceFixtures[j].transitions[k].fixedDuration;
+
+										transition.useStep = false;
+										if( jsonData.project.sequences[i].sequenceFixtures[j].transitions[k].useStep )
+										{
+											transition.useStep = jsonData.project.sequences[i].sequenceFixtures[j].transitions[k].useStep;
+										}
+
+										transition.step = 0;
+										if( jsonData.project.sequences[i].sequenceFixtures[j].transitions[k].step )
+										{
+											transition.step = parseInt(jsonData.project.sequences[i].sequenceFixtures[j].transitions[k].step.toString());
+										}
 
 										transition.type = new SequenceFixtureTransitionType();
 										for( let a:number = 0; a < this.fixtureService.transitionTypes.length; a++ )
