@@ -1,5 +1,6 @@
-import { Fixture }              from "../../fixture/vo/fixture";
-import { Sequence } from "../../sequence/vo/sequence";
+import { Fixture }      from "../../fixture/vo/fixture";
+import { Sequence }     from "../../sequence/vo/sequence";
+import { Show }         from "../../show/vo/SHow";
 
 export class Project
 {
@@ -22,4 +23,10 @@ export class Project
      * Sequences
      */
     sequences:Sequence[] = new Array();
+
+
+    /**
+     * Shows
+     */
+    shows:Show[] = new Array();
 }

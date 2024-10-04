@@ -142,7 +142,7 @@ export class SequenceComponent implements OnChanges  {
      */
     public onChangeSequenceLabel()
     {
-        let message:string = "<p>Please enter a new name for your new Sequence</p>";
+        let message:string = "<p>Please enter a new name for your Sequence</p>";
 
         let dialogRef = this.dialog.open
         (

@@ -1,0 +1,70 @@
+/****************************************************
+* Show Component
+****************************************************/
+
+
+.show-thumb
+{
+    width: 100%;
+    min-height: 200px;
+    background-color: #fdfdfd;
+    border-style: solid;
+    border-width: thin;
+    border-color: #d2d2d2;
+    border-radius: 5px;
+}
+
+.show-thumb-title
+{
+    display: flex;
+}
+
+.show-thumb-title-icon
+{
+    margin-right: 5px;
+    margin-top: 3px;
+}
+
+.show-thumb-title-text
+{
+    flex: 1;
+}
+
+.show-thumb-header
+{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 40px;
+    background-color: #f7f7f7;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: #d2d2d2;
+}
+
+.show-thumb-header-title
+{
+    font-weight: initial;
+    font-size: 24px;
+}
+
+.show-thumb-header-tools
+{
+    margin-right: 10px;
+}
+
+.show-thumb-content
+{
+    padding: 10px;
+    margin-right: 10px;
+    flex-grow: 1;
+    height: calc(100vh - 300px); 
+}
+
+.show-thumb-footer
+{
+    height: 80px;
+    background-color: #F9F9F9;
+    width: 100%;
+    padding: 10px;
+}
+

@@ -3,10 +3,27 @@
         <div class="shows-container-title">
             <i class="shows-container-title-label">Shows</i>
             <div class="shows-container-title-separator"></div>
+            <button mat-button class="show-container-title-button" (click)="createShow()" >
+                Create
+            </button>
             <button mat-icon-button class="sequences-container-title-button" (click)="display_menu = false" >
               <mat-icon>menu</mat-icon>
             </button>
         </div>
+
+
+        <br>
+        <search-box class="fixtures-search" [disableFilters]="false" (onChange)="onSearch($event)"></search-box>
+        <mat-list class="shows-container-menu-list">
+            <div cdkDropList [cdkDropListData]="shows" (cdkDropListDropped)="onDrop($event)">
+                <div *ngFor="let show of shows" cdkDrag (click)="selectShow(show)">
+                    <mat-list-item [ngClass]="{'shows-container-menu-list-item-selected': show.isSelected, 'shows-container-menu-list-item': !show.isSelected}">
+                        {{show.label}}
+                    </mat-list-item>
+                </div>
+            </div>
+        </mat-list>        
+
     </div>
     <div class="shows-container-menu-light" *ngIf="display_menu == false">
         <button mat-icon-button class="shows-container-title-button" (click)="display_menu = true" >
@@ -14,11 +31,17 @@
         </button>
     </div>
     <div class="shows-container-content">
-       
-       
-        <span class="coming-soon">Coming soon...</span>
-
-
-        
+        <div *ngIf="show == null">
+            <div class="shows-container-title" > 
+                <i class="shows-container-title-label">Select or Create Show</i>
+            </div>
+        </div>
+        <div *ngIf="show != null">
+            <show
+                [show] = "show"
+                (onRemove)="removeShow(show)"
+            >
+            </show>
+        </div>
     </div>
 </div>

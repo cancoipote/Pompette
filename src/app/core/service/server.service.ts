@@ -42,7 +42,6 @@ export class ServerService
      */
 	private onBlackout = new Subject<boolean>();
 
-
     
     /**
      * Socket Initialisation

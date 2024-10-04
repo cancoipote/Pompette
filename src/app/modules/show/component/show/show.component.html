@@ -1,0 +1,26 @@
+<div class="show-thumb" >
+    <div class="show-thumb-header">
+        <div class="show-thumb-header-title">
+            <button mat-button (click)="onChangeShowLabel()" color="accent">
+                <i>{{show.label}}</i>
+            </button>
+        </div>
+        <span class="toolbar-spacer"></span>
+
+
+
+        <div class="toolbar-spacer-separator">-</div>   
+
+        <div >
+            <button mat-icon-button (click)="remove()" matTooltip="Delete Show">
+                <mat-icon  color="warn">delete</mat-icon>
+            </button>
+        </div>
+    </div>
+    <div class="show-thumb-content">
+        content
+    </div>
+    <div class="show-thumb-footer">
+        Tools
+    </div>
+</div>
