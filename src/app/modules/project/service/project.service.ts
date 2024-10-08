@@ -159,6 +159,7 @@ export class ProjectService
 				date:formattedDateTime,
 				project:
 				{
+					frequency: this.appService.project.frequency,
 					label: this.appService.project.label,
 					fixtures: fixtures,
 					sequences: sequences,
@@ -263,6 +264,11 @@ export class ProjectService
 						{
 							this.appService.project = new Project();
 							this.appService.project.label = jsonData.project.label;
+							this.appService.project.frequency = this.appService.frequency;
+							if( jsonData.project.frequency )
+							{
+								this.appService.project.frequency = parseInt(jsonData.project.frequency);
+							}
 
 							this.appService.project.fixtures = new Array();
 							for( let i:number = 0; i < jsonData.project.fixtures.length; i++)

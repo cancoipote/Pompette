@@ -15,6 +15,11 @@ export class Project
     version!: string;
 
     /**
+	 * Frequency
+	 */
+	frequency = 60;
+
+    /**
      * Fixtures
      */
     fixtures:Fixture[] = new Array();

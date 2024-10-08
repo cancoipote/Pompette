@@ -133,6 +133,7 @@ export class DashboardComponent implements OnInit {
                                     this.appService.project             = new Project();
                                     this.appService.project.label       = result.value;
                                     this.appService.project.version     = this.appService.version;
+                                    this.appService.frequency           = this.appService.project.frequency;
                                     this.appService.is_project          = true;
                                 }
                                 else

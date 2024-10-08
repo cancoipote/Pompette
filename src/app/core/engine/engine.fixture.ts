@@ -248,14 +248,19 @@ export class EngineFixture
     private linearWithStep(duration: number) {
         this.fixture = JSON.parse(JSON.stringify(this.sequenceFixture.transitions[this.index].startFixture));
     
-        // Calcul du nombre de frames par rapport à la durée et la fréquence de rafraîchissement (par ex. 60 FPS)
-        const fps = 60;
+
+        let fps = this.appService.frequency;
+
+        if( this.appService.is_project == true && this.appService.project )
+        {
+            fps = this.appService.project.frequency;
+        }
+
         let totalFrames = Math.round(fps / duration); // Nombre total de frames pour la durée donnée
         if( totalFrames == 0 )
         {
             totalFrames = 1;
         }
-        console.log("totalFrames", totalFrames);
         // Calculer les valeurs initiales, finales et le step pour chaque canal
         const startValues = this.fixture.channels.map((ch: any) => ch.value);
         const endValues = this.sequenceFixture.transitions[this.index].endFixture.channels.map((ch: any) => ch.value);

@@ -23,7 +23,15 @@
     <button *ngIf="appService.is_project == true" mat-icon-button (click)="close()" matTooltip="Close your project" >
         <mat-icon>close</mat-icon>
     </button>
+    
     <span class="toolbar-spacer"></span>
+    
+    <button color="accent" *ngIf="appService.is_project == false" mat-button (click)="manageBaseFrequency()">
+        <i>{{appService.frequency}} Hz</i>
+    </button>
+    <button color="accent" *ngIf="appService.is_project == true" mat-button (click)="manageProjectFrequency()">
+        <i>{{appService.project.frequency}} Hz</i>
+    </button>
     <button *ngIf="appService.is_project == true" mat-button (click)="gotoHome()">
         Project
     </button>

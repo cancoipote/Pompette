@@ -16,6 +16,11 @@ export class AppService
 	 */
 	version = '1.0.0';
 
+	/**
+	 * Base frequency
+	 */
+	frequency = 60;
+
     /**
      * DMX Buffer
      */

@@ -15,13 +15,13 @@ import { PopupExport }                                                          
 
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.sass'
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.sass'
 })
 export class AppComponent implements OnInit{
 
-  constructor (
+    constructor (
         public router: Router,
         public appService: AppService,
         public server: ServerService,
@@ -44,36 +44,244 @@ export class AppComponent implements OnInit{
 
 
 
-  /****************************
-  *
-  * Initialisation
-  *
-  */
+    /****************************
+     *
+     * Initialisation
+     *
+     */
 
-  ngOnInit() 
-  {
-    this.gotoHome();
-    this.fixtureService.loadConfiguration();
-    this.server.initalisation();
-    this.engine.start();
-  }
+    ngOnInit() 
+    {
+        this.gotoHome();
+        this.fixtureService.loadConfiguration();
+        this.server.initalisation();
+        this.engine.start();
+    }
   
 
 
-  /****************************
-  *
-  * Actions
-  *
-  */
+    /****************************
+     *
+     * Actions
+     *
+     */
 
-  /**
-   * Change Project Name
-   */
-  public onChangeProjectLabel()
-  {
-    let message:string = "<p>Please enter a new name for your Project</p>";
+    /**
+     * Manage Project Frequency
+     */
+    public manageProjectFrequency()
+    {
+        let message:string = "<p>Please enter Frequeny</p>";
 
-    let dialogRef = this.dialog.open
+        let dialogRef = this.dialog.open
+        (
+            PopupComponent, 
+            {
+                disableClose:true,
+                width:  '555px',
+                data: 
+                { 
+                    title_label:"Frequency", 
+                    content:message,
+                    yes_button_label:"Set Frequency",
+                    no_button_label:"Cancel",
+                    cancel_button_label:"Cancel",
+                    mode_question:false,
+                    mode_prompt:true,
+                    mode_prompt_type:"text",
+                    prompt_value:"Frequency",
+                    disable_cancel:false,
+                    prompt:this.appService.project.frequency
+                }
+            }
+        );
+
+        dialogRef.afterClosed().subscribe
+        (
+            result => 
+            {               
+                if( result )
+                {
+                    if( result.value )
+                    {
+                        if( result.value == null )
+                        {
+                            //
+                        }
+                        else
+                        {
+                            if( result.value == "" || result.value == " ")
+                            {
+                                //
+                            }
+                            else
+                            {
+                                let displayError:boolean = false;
+                                // Check if result.value is a integer between 0 and 512
+                                if( CommonsService.isNumeric( result.value ) )
+                                {
+                                    let frequency:number = parseInt( result.value );
+
+                                    if( frequency > 0 )
+                                    {
+                                        displayError = false;
+                                        this.appService.project.frequency = frequency;
+                                    }
+                                    else
+                                    {
+                                        displayError = true;
+                                    }
+                                }
+                                else
+                                {
+                                    displayError = true;
+                                }
+
+                                if( displayError == true )
+                                {
+                                    let message_error:string = "Frequency must be a number greater than 0";
+                                    this.dialog.open
+                                    (
+                                        PopupComponent, 
+                                        {
+                                            disableClose:true,
+                                            width:  '555px',
+                                            data: 
+                                            { 
+                                                title_label:'Error', 
+                                                content:message_error,
+                                                mode_question:false,
+                                                mode_prompt:false,
+                                                mode_prompt_type:"text",
+                                                prompt_value:"DMX IP",
+                                                disable_cancel:true,
+                                                display_close:true,
+                                                display_cancel:false,
+                                                prompt:'' 
+                                            }
+                                        }
+                                    );
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        );
+    }
+
+    /**
+     * Manage Base Frequency
+     */
+    public manageBaseFrequency()
+    {
+        let message:string = "<p>Please enter Frequeny</p>";
+
+        let dialogRef = this.dialog.open
+        (
+            PopupComponent, 
+            {
+                disableClose:true,
+                width:  '555px',
+                data: 
+                { 
+                    title_label:"Frequency", 
+                    content:message,
+                    yes_button_label:"Set Frequency",
+                    no_button_label:"Cancel",
+                    cancel_button_label:"Cancel",
+                    mode_question:false,
+                    mode_prompt:true,
+                    mode_prompt_type:"text",
+                    prompt_value:"Frequency",
+                    disable_cancel:false,
+                    prompt:this.appService.frequency
+                }
+            }
+        );
+
+        dialogRef.afterClosed().subscribe
+        (
+            result => 
+            {               
+                if( result )
+                {
+                    if( result.value )
+                    {
+                        if( result.value == null )
+                        {
+                            //
+                        }
+                        else
+                        {
+                            if( result.value == "" || result.value == " ")
+                            {
+                                //
+                            }
+                            else
+                            {
+                                let displayError:boolean = false;
+                                // Check if result.value is a integer between 0 and 512
+                                if( CommonsService.isNumeric( result.value ) )
+                                {
+                                    let frequency:number = parseInt( result.value );
+
+                                    if( frequency > 0 )
+                                    {
+                                        displayError = false;
+                                        this.appService.frequency = frequency;
+                                    }
+                                    else
+                                    {
+                                        displayError = true;
+                                    }
+                                }
+                                else
+                                {
+                                    displayError = true;
+                                }
+
+                                if( displayError == true )
+                                {
+                                    let message_error:string = "Frequency must be a number greater than 0";
+                                    this.dialog.open
+                                    (
+                                        PopupComponent, 
+                                        {
+                                            disableClose:true,
+                                            width:  '555px',
+                                            data: 
+                                            { 
+                                                title_label:'Error', 
+                                                content:message_error,
+                                                mode_question:false,
+                                                mode_prompt:false,
+                                                mode_prompt_type:"text",
+                                                prompt_value:"DMX IP",
+                                                disable_cancel:true,
+                                                display_close:true,
+                                                display_cancel:false,
+                                                prompt:'' 
+                                            }
+                                        }
+                                    );
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        );
+    }
+
+    /**
+     * Change Project Name
+     */
+    public onChangeProjectLabel()
+    {
+        let message:string = "<p>Please enter a new name for your Project</p>";
+
+        let dialogRef = this.dialog.open
         (
             PopupComponent, 
             {
@@ -116,14 +324,14 @@ export class AppComponent implements OnInit{
                             }
                             else
                             {
-                              this.appService.project.label       = result.value;
+                                this.appService.project.label       = result.value;
                             }
                         }
                     }
                 }
             }
         );
-  }
+    }
 
 
     /**
@@ -208,67 +416,67 @@ export class AppComponent implements OnInit{
     }
 
 
-  /****************************
-  *
-  * Router
-  *
-  */
+    /****************************
+     *
+     * Router
+     *
+     */
 
-  /**
-   * Goto Home dashboard
-   */
-  public gotoHome()
-  {
-    this.router.navigate([this.appService.DASHBOARD_PAGE]);
-  }
-
-   /**
-   * Goto Fixtures
-   */
-  public gotoFixtures()
-  {
-    this.router.navigate(["/fixtures"]);
-  }
-
-  /**
-   * Goto DMX Tester
-   */
-  public gotoDMXTester()
-  {
-    this.router.navigate(["/DMXTester"]);
-  }
-
-
-  /****************************
-  *
-  * Save
-  *
-  */
-
-  /**
-   * Save project
-   */
-  public save( closeAfterSave:boolean = false, openAfterSave:boolean = false, event:any=null )
-  {
-    if ('showSaveFilePicker' in window)
+    /**
+     * Goto Home dashboard
+     */
+    public gotoHome()
     {
-      this.projectService.saveProjectFromSowftware();
-    }
-    else
-    {
-      this.projectService.saveProjectFromBrowser();
-    }
-  
-    if( closeAfterSave == true )
-    {
-      this.close( false );
+        this.router.navigate([this.appService.DASHBOARD_PAGE]);
     }
 
-    if( openAfterSave == true )
+    /**
+     * Goto Fixtures
+     */
+    public gotoFixtures()
     {
-      this.open( false, event );
+        this.router.navigate(["/fixtures"]);
     }
-  }
+
+    /**
+     * Goto DMX Tester
+     */
+    public gotoDMXTester()
+    {
+        this.router.navigate(["/DMXTester"]);
+    }
+
+
+    /****************************
+     *
+     * Save
+     *
+     */
+
+    /**
+     * Save project
+     */
+    public save( closeAfterSave:boolean = false, openAfterSave:boolean = false, event:any=null )
+    {
+        if ('showSaveFilePicker' in window)
+        {
+            this.projectService.saveProjectFromSowftware();
+        }
+        else
+        {
+            this.projectService.saveProjectFromBrowser();
+        }
+
+        if( closeAfterSave == true )
+        {
+            this.close( false );
+        }
+
+        if( openAfterSave == true )
+        {
+            this.open( false, event );
+        }
+    }
 
 
     /**

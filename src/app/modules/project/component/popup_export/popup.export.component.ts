@@ -526,7 +526,7 @@ export class PopupExport
 
         let extport_data:any = (
             {
-                frequency:50,
+                frequency:this.appService.project.frequency,
                 project:this.appService.project.label,
                 fixtures_channel:fixtures_channel,
                 atmospheres:atmospheres
