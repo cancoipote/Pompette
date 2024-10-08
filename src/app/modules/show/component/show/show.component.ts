@@ -25,7 +25,7 @@ import { PopupComponent }                                                       
 import { CommonsService }                                                               from '../../../../core/service/commons.service';
 import { Fixture }                                                                      from '../../../fixture/vo/fixture';
 import { Engine }                                                                       from '../../../../core/engine/engine';
-import { Show } from '../../vo/SHow';
+import { Show }                                                                         from '../../vo/Show';
 
 /**
  * Sequence Component
