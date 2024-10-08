@@ -51,7 +51,7 @@
                     </mat-form-field>
                 </div>
             </div>
-            <div>
+            <div class="sequence-fixture-transition-thumb-content-part-duration">
                 <div class="title">
                     Duration
                     <mat-radio-group [(ngModel)]="sequenceFixtureTransition.useStep" (change)="onChangeUseStep()" >
@@ -85,7 +85,7 @@
                     <div class="duration-container-message" >
                         Only linear transitions can use step
                     </div>
-                    <div class="duration-container" >
+                    <div class="duration-container-step" >
                         <mat-form-field  color="accent">
                             <mat-label>Step</mat-label>
                             <input matInput [(ngModel)]="sequenceFixtureTransition.step" [ngModelOptions]="{standalone: true}" />
