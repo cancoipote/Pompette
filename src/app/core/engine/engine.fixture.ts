@@ -247,54 +247,48 @@ export class EngineFixture
 
     private linearWithStep(duration: number) {
         this.fixture = JSON.parse(JSON.stringify(this.sequenceFixture.transitions[this.index].startFixture));
-    
-
-        let fps = this.appService.frequency;
+               
+        let frequency = this.appService.frequency;
 
         if( this.appService.is_project == true && this.appService.project )
         {
-            fps = this.appService.project.frequency;
+            frequency = this.appService.project.frequency;
         }
 
-        let totalFrames = Math.round(fps / duration); // Nombre total de frames pour la durée donnée
-        if( totalFrames == 0 )
-        {
-            totalFrames = 1;
-        }
-        // Calculer les valeurs initiales, finales et le step pour chaque canal
-        const startValues = this.fixture.channels.map((ch: any) => ch.value);
-        const endValues = this.sequenceFixture.transitions[this.index].endFixture.channels.map((ch: any) => ch.value);
-        const steps = startValues.map((start: number, i: number) => (endValues[i] - start) / totalFrames);
-    
-        let currentFrame = 0;
-    
-        const stepUpdate = () => {
 
-            if( this.isPlaying == false )
-            {   
-                return;
+        let max_delta = 0;
+        for(  let i:number = 0; i < this.sequenceFixture.transitions[this.index].startFixture.channels.length; i++)
+        {   
+            let delta = Math.abs(this.sequenceFixture.transitions[this.index].endFixture.channels[i].value - this.sequenceFixture.transitions[this.index].startFixture.channels[i].value);
+            if( delta > max_delta )
+            {
+                max_delta = delta;
             }
-            if (currentFrame <= totalFrames) {
-                // Mise à jour des valeurs pour chaque canal
-                for (let i = 0; i < this.fixture.channels.length; i++) {
-                    this.fixture.channels[i].value = startValues[i] + steps[i] * currentFrame;
-                    this.appService.dmx_buffer[this.fixture.index + this.fixture.channels[i].index] = this.fixture.channels[i].value;
-                }
-    
-                // Mettre à jour la progression de l'animation en pourcentage
-                this.sequenceFixture.transitions[this.index].percentAnimation = (currentFrame / totalFrames) * 100;
-               // console.log(this.sequenceFixture.transitions[this.index].percentAnimation);
-                // Demander la prochaine frame
-                currentFrame++;
-                requestAnimationFrame(stepUpdate);
-            } else {
-                // Transition terminée
+        }
+
+        let max_step = Math.ceil(max_delta / duration);
+
+
+        let animationDuration = (max_step * 1000) / frequency;
+        
+        anime({
+			targets: this.fixture.channels,
+			value: (el:any, i:number) => this.sequenceFixture.transitions[this.index].endFixture.channels[i].value,
+			duration: animationDuration,
+			easing: 'linear',
+			update: (anim) => {
+				for(  let i:number = 0; i < this.fixture.channels.length; i++)
+				{
+					this.appService.dmx_buffer[this.fixture.index + this.fixture.channels[i].index] = this.fixture.channels[i].value;
+				}
+                this.sequenceFixture.transitions[this.index].percentAnimation = anim.progress;
+				//this.server.sendDMX();
+			},
+			complete: (anim) =>
+            {
                 this.nextTransition();
-            }
-        };
-    
-        // Démarrer la boucle d'animation
-        requestAnimationFrame(stepUpdate);
+			}
+		  });
     }
 
     private easing( duration:number, easing:string ) 
