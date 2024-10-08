@@ -43,7 +43,7 @@
                     <br>
                     <mat-form-field color="accent" fxFlex="90">
                         <mat-label>Transition sub type</mat-label>
-                        <mat-select [(value)]="sequenceFixtureTransition.subType" [disabled]="sequenceFixtureTransition.type.subTypes.length == 0 || sequenceFixtureTransition.useStep == true" >
+                        <mat-select [(value)]="sequenceFixtureTransition.subType" [disabled]="sequenceFixtureTransition.type.subTypes.length == 0 || sequenceFixtureTransition.useStep == true"  >
                             <mat-option *ngFor="let transitionSubType of sequenceFixtureTransition.type.subTypes" [value]="transitionSubType">
                                 {{transitionSubType.label}}
                             </mat-option>
@@ -54,7 +54,7 @@
             <div>
                 <div class="title">
                     Duration
-                    <mat-radio-group [(ngModel)]="sequenceFixtureTransition.useStep" >
+                    <mat-radio-group [(ngModel)]="sequenceFixtureTransition.useStep" (change)="onChangeUseStep()" >
                         <mat-radio-button  [value]="false">Use time</mat-radio-button>
                         <mat-radio-button  [value]="true">Use step</mat-radio-button>
                     </mat-radio-group>

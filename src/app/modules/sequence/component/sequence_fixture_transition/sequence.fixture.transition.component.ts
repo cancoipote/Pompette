@@ -255,6 +255,75 @@ export class SequenceFixtureTransitionComponent implements OnChanges  {
         }
     }
 
+    /**
+     * On Change transition sue step or not
+     */
+    public onChangeUseStep()
+    {
+        if( this.sequenceFixtureTransition.useStep == true )
+        {
+            let message:string = "<p>If you change the transition duration type to \"<i><b>step</b></i>\" it will change the transition type to \"<i><b>linear</b></i>\".<br><br>Do you want to continue ?</p>";
+
+            let dialogRef = this.dialog.open
+            (
+                PopupComponent, 
+                {
+                    disableClose:true,
+                    width:  '555px',
+                    data: 
+                    { 
+                        title_label:'Edit duration type', 
+                        content:message,
+                        yes_button_label:"Yes",
+                        no_button_label:"No",
+                        cancel_button_label:"Cancel",
+                        mode_question:true,
+                        mode_prompt:false,
+                        mode_prompt_type:"text",
+                        disable_cancel:false,
+                        prompt:'' 
+                    }
+                }
+            );
+
+            dialogRef.afterClosed().subscribe
+            (
+                result => 
+                {               
+                    if( result )
+                    {
+                        if( result.answer )
+                        {
+                            if( result.answer == true )
+                            {
+                                for( let i:number = 0; i < this.fixtureService.transitionTypes.length; i++ )
+                                {
+                                    if( this.fixtureService.transitionTypes[i].id == 2)
+                                    {
+                                        this.sequenceFixtureTransition.type = this.fixtureService.transitionTypes[i];
+                                        break;
+                                    }
+                                }
+                            }
+                            else
+                            {
+                                this.sequenceFixtureTransition.useStep = false;
+                            }
+                        }
+                        else
+                        {
+                            this.sequenceFixtureTransition.useStep = false;
+                        }
+                    }
+                    else
+                    {
+                        this.sequenceFixtureTransition.useStep = false;
+                    }
+                }
+            );  
+        }
+    }
+
     
     /**
      * Change duration type
