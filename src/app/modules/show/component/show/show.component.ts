@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, OnChanges ,  Output, EventEmitter, SimpleChange  }   from '@angular/core';
+import { Component, OnInit, Input, OnChanges ,  Output, EventEmitter, SimpleChange, ViewChild, ElementRef, AfterViewInit, HostListener  }   from '@angular/core';
 import { MatSliderModule }                                                              from '@angular/material/slider';
 import { MatButtonModule }                                                              from '@angular/material/button';
 import { MatCardModule }                                                                from '@angular/material/card';
@@ -17,7 +17,7 @@ import { MatCheckboxModule }                                                    
 import { MatTooltipModule }                                                             from '@angular/material/tooltip';
 import { NgxColorsModule }                                                              from 'ngx-colors';
 import { CdkDragDrop, DragDropModule, moveItemInArray }                                 from '@angular/cdk/drag-drop';
-
+import { gsap }                                                                         from 'gsap';
 
 import { AppService }                                                                   from '../../../../core/service/app.service';
 import { ServerService }                                                                from '../../../../core/service/server.service';
@@ -85,8 +85,20 @@ export class ShowComponent implements OnChanges  {
      */
     @Input() show!:Show;
 
+    /**
+     * Elapsed time
+     */
+    public elapsedTime:number = 0;
 
+    /**
+     * Start time
+     */
+    public startTime:number = 0;
 
+    /**
+     * Interval Id
+     */
+    private intervalId: any = null;
 
 
     /**
@@ -95,11 +107,10 @@ export class ShowComponent implements OnChanges  {
     */
     ngOnChanges(changes: any): void 
     {
-        
+        this.elapsedTime = 0;
+        this.show.isPlay = false;
+        this.show.isPause = false;
     }    
-
-
-
 
     /**
     * Actions
@@ -201,6 +212,98 @@ export class ShowComponent implements OnChanges  {
     public remove()
     {
         this.onRemove.emit( this.show );
+    }
+
+    /**
+    * Player
+    * 
+    */
+
+    /**
+     * Play
+     */
+    public play()
+    {
+        this.show.isPlay = true;
+        this.startTime = Date.now() - this.elapsedTime;
+        this.intervalId = setInterval(() => this.updateTime(), 10);
+    }
+
+    /**
+     * Pause
+     */
+    public pause()
+    {
+        this.show.isPause = true;
+        clearInterval(this.intervalId);
+        this.elapsedTime = Date.now() - this.startTime;
+    }
+
+    /**
+     * Resume
+     */
+    public resume()
+    {
+        this.show.isPause = false;
+        this.play();
+    }
+
+    /**
+     * Stop
+     */
+    public stop()
+    {
+        this.show.isPlay = false;
+        this.show.isPause = false;
+
+        clearInterval(this.intervalId);
+        this.elapsedTime = 0;
+        this.startTime = 0;
+    }
+
+
+    /**
+     * Update time
+     */
+    private updateTime() 
+    {
+        this.elapsedTime = Date.now() - this.startTime;
+    }
+
+    /**
+     * Format elapsed time minute:second:millsecond
+     * @param time 
+     */
+    public formatElapsedTime( )
+    {  
+        const totalMilliseconds = this.elapsedTime;
+        const totalSeconds = Math.floor(totalMilliseconds / 1000);
+        const hours = Math.floor(totalSeconds / 3600);
+        const minutes = Math.floor((totalSeconds % 3600) / 60);
+        const seconds = totalSeconds % 60;
+        const milliseconds = totalMilliseconds % 1000;
+
+        return `${this.pad(hours)}:${this.pad(minutes)}:${this.pad(seconds)}:${this.padMilliseconds(milliseconds)}`;
+    }
+
+    /**
+     * Pad
+     * @param num
+     * @returns
+     */
+    private pad(num: number): string 
+    {
+        return num.toString().padStart(2, '0');
+    }
+    
+    /**
+     * Pad milliseconds
+     * @param num
+     * @returns
+     */
+    private padMilliseconds(num: number): string 
+    {
+        return num.toString().padStart(3, '0');
     }
 }
 

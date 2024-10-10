@@ -215,8 +215,11 @@ export class ProjectShowComponent implements OnInit {
 
                                 if( CommonsService.isAlphanumeric( result.value ) )
                                 {
-                                    let show:Show = new Show();
-                                    show.label = result.value;
+                                    let show:Show   = new Show();
+                                    show.label      = result.value;
+                                    show.sequences  = new Array();
+                                    show.effects    = new Array();
+                                    
                                     this.appService.project.shows.push( show );
                                     this.selectShow(show);
                                 }

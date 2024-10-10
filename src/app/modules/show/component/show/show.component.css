@@ -5,7 +5,7 @@
 
 .show-thumb
 {
-    width: 100%;
+    width: 99%;
     min-height: 200px;
     background-color: #fdfdfd;
     border-style: solid;
@@ -57,14 +57,31 @@
     padding: 10px;
     margin-right: 10px;
     flex-grow: 1;
-    height: calc(100vh - 300px); 
+    height: calc(100vh - 310px); 
+}
+
+.show-thumb-content-row
+{
+    height: 50%;
+}
+
+.show-thumb-content-row-title
+{
+    display: flex;
 }
 
 .show-thumb-footer
 {
-    height: 80px;
+    height: 60px;
     background-color: #F9F9F9;
-    width: 100%;
     padding: 10px;
+    border-top-style: solid;
+    border-top-width: thin;
+    border-top-color: #cec8c8;
+    text-align: center;
 }
 
+.show-thumb-footer-elapsedTime
+{
+    font-style: italic;
+}

@@ -18,9 +18,33 @@
         </div>
     </div>
     <div class="show-thumb-content">
-        content
+        <div class="show-thumb-content-row">
+            <div class="title show-thumb-content-row-title">
+                Sequences
+            </div>   
+        </div>   
+        <div class="show-thumb-content-row">
+            <div class="title show-thumb-content-row-title">
+                Effects
+            </div>   
+        </div>   
     </div>
     <div class="show-thumb-footer">
-        Tools
+        <button *ngIf="show.isPlay == false" mat-icon-button (click)="play()" matTooltip="Play">
+            <mat-icon  color="normal">play_circle</mat-icon>
+        </button>
+        <button *ngIf="show.isPlay == true && show.isPause == false" mat-icon-button (click)="pause()" matTooltip="Pause">
+            <mat-icon  color="normal">pause_circle</mat-icon>
+        </button>
+        <button *ngIf="show.isPlay == true && show.isPause == true" mat-icon-button (click)="resume()" matTooltip="Resume">
+            <mat-icon  color="normal">not_started</mat-icon>
+        </button>
+        <button mat-icon-button (click)="stop()" matTooltip="Stop" [disabled]="show.isPlay == false">
+            <mat-icon  color="normal">stop_circle</mat-icon>
+        </button>
+        <br>
+        <div class="show-thumb-footer-elapsedTime">
+            {{formatElapsedTime()}}
+        </div>
     </div>
 </div>

@@ -13,15 +13,24 @@ export class Sequence
     isFX:boolean = false;
 
     /**
-     * Is playing
-     */
-    isPlayging:boolean = false;
-
-    /**
      * Sequence Fixtures
      */
     sequenceFixtures:SequenceFixture[] = new Array();
 
+    /**
+     * Show is loop
+     */
+    showIsLoop:boolean = false;
+
+    /**
+     * Show start time
+     */
+    showStartTime:number = 0;
+
+    /**
+     * Show end time
+     */
+    showEndTime:number = 0;
 
     /*****************************************************************/
     //
@@ -64,4 +73,9 @@ export class Sequence
      * Is selected for Export
      */
     isSelectedForExport:boolean = false;
+
+    /**
+     * Is playing
+     */
+    isPlayging:boolean = false;
 }
