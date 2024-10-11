@@ -25,17 +25,40 @@
                 <button mat-button (click)="addSequence()" color="accent">
                     Add Sequence
                 </button>
+                <button mat-button (click)="addSequenceDelay()" color="accent">
+                    Add Delay
+                </button>
             </div>
             <div class="show-thumb-content-items" >
-                <div *ngFor="let item of show.sequences" class="item-thumb" >
-                    <div class="item-thumb-header">
-                        <div class="item-thumb-header-title">
-                            {{item.label}}
+                <div cdkDropList cdkDropListOrientation="horizontal" class="drop-list" [cdkDropListData]="show.sequences"  (cdkDropListDropped)="onDropSequence($event)">
+                    <div *ngFor="let item of show.sequences" cdkDrag class="item-thumb" >
+                        <div class="item-thumb-header">
+                            <div class="item-thumb-header-title">
+                                <b>{{item.label}}</b>
+                            </div>
+                            <div class="toolbar-spacer-separator"></div>   
+                            <button class="item-thumb-header-button-delete" mat-icon-button (click)="removeSequence( item )" matTooltip="Delete Show">
+                                <mat-icon  color="warn">delete</mat-icon>
+                            </button>
                         </div>
-                        <div class="toolbar-spacer-separator"></div>   
-                        <button class="item-thumb-header-button-delete" mat-icon-button (click)="removeSequence( item )" matTooltip="Delete Show">
-                            <mat-icon  color="warn">delete</mat-icon>
-                        </button>
+                        <div class="item-thumb-content">
+                            <div class="item-thumb-content-row">
+                                <div class="item-thumb-content-row-title">
+                                    Duration
+                                </div>
+                                <div class="toolbar-spacer-separator"></div>   
+                                <button mat-button (click)="onChangeSequenceDuration( item )" color="accent">
+                                    <i>{{item.showDuration}} ms</i>
+                                </button>
+                            </div>
+                            <div class="item-thumb-content-row">
+                                <div class="item-thumb-content-row-title">
+                                    Is Loop
+                                </div>
+                                <div class="toolbar-spacer-separator"></div>   
+                                <mat-checkbox [(ngModel)]="item.showIsLoop"></mat-checkbox>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div> 
@@ -47,7 +70,43 @@
                 <button mat-button (click)="addEffect()" color="accent">
                     Add Effect
                 </button>
-            </div>   
+                <button mat-button (click)="addEffectDelay()" color="accent">
+                    Add Delay
+                </button>
+            </div>
+            <div class="show-thumb-content-items" >
+                <div cdkDropList cdkDropListOrientation="horizontal" class="drop-list" [cdkDropListData]="show.effects"  (cdkDropListDropped)="onDropEffect($event)">
+                    <div *ngFor="let item of show.effects" cdkDrag class="item-thumb" >
+                        <div class="item-thumb-header">
+                            <div class="item-thumb-header-title">
+                                <b>{{item.label}}</b>
+                            </div>
+                            <div class="toolbar-spacer-separator"></div>   
+                            <button class="item-thumb-header-button-delete" mat-icon-button (click)="removeEffect( item )" matTooltip="Delete Show">
+                                <mat-icon  color="warn">delete</mat-icon>
+                            </button>
+                        </div>
+                        <div class="item-thumb-content">
+                            <div class="item-thumb-content-row">
+                                <div class="item-thumb-content-row-title">
+                                    Duration
+                                </div>
+                                <div class="toolbar-spacer-separator"></div>   
+                                <button mat-button (click)="onChangeSequenceDuration( item )" color="accent">
+                                    <i>{{item.showDuration}} ms</i>
+                                </button>
+                            </div>
+                            <div class="item-thumb-content-row">
+                                <div class="item-thumb-content-row-title">
+                                    Is Loop
+                                </div>
+                                <div class="toolbar-spacer-separator"></div>   
+                                <mat-checkbox [(ngModel)]="item.showIsLoop"></mat-checkbox>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
         </div>   
     </div>
     <div class="show-thumb-footer">

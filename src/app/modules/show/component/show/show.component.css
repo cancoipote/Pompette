@@ -93,6 +93,12 @@
     display: inline-flex;
 }
 
+.drop-list
+{
+    display: flex;
+    flex-direction: row;
+}
+
 .item-thumb
 {
     background-color: #267cdc26;
@@ -109,16 +115,41 @@
 .item-thumb-header
 {
     display: inline-flex;
+    width: 100%; 
+    justify-content: space-between; 
+    align-items: center; 
 }
 
 
 .item-thumb-header-title
 {
     font-style: italic;
+    cursor: pointer;
+    margin-top:-8px;
 }
 
 .item-thumb-header-button-delete
 {
     margin-left: 10px;
     margin-top:-8px;
+}
+
+.item-thumb-content
+{
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.item-thumb-content-row
+{
+    display: inline-flex;
+    width: 100%; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.item-thumb-content-row-title
+{
+    font-size: 14px;
 }

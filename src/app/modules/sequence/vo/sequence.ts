@@ -23,14 +23,15 @@ export class Sequence
     showIsLoop:boolean = false;
 
     /**
-     * Show start time
+     * Show duration
      */
-    showStartTime:number = 0;
+    showDuration:number = 0;
 
     /**
-     * Show end time
+     * Show is delay
      */
-    showEndTime:number = 0;
+    showIsDelay:boolean = false;
+
 
     /*****************************************************************/
     //

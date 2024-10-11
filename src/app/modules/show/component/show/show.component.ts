@@ -57,6 +57,7 @@ import { Sequence } from '../../../sequence/vo/sequence';
         MatTooltipModule,
         NgxColorsModule,
         DragDropModule,
+        MatCheckboxModule
         ],
 })
 export class ShowComponent implements OnChanges  {
@@ -277,6 +278,17 @@ export class ShowComponent implements OnChanges  {
         );
     }
 
+    /**
+     * Add Sequence Delay
+     */
+    public addSequenceDelay()
+    {
+        let delaySequence:Sequence = new Sequence();
+        delaySequence.label = "Delay";
+        delaySequence.showIsDelay = true;
+        this.show.sequences.push( delaySequence );
+    }
+
 
     /**
      * Remove Sequence
@@ -331,6 +343,15 @@ export class ShowComponent implements OnChanges  {
                 }
             }
         );
+    }
+
+    /**
+     * Drop Sequence
+     * @param event 
+     */
+    public onDropSequence( event: CdkDragDrop<any[]> )
+    {
+        moveItemInArray(this.show.sequences, event.previousIndex, event.currentIndex);
     }
 
     /**
@@ -390,6 +411,19 @@ export class ShowComponent implements OnChanges  {
 
 
     /**
+     * Add Effect Delay
+     */
+    public addEffectDelay()
+    {
+        let delayEffect:Sequence = new Sequence();
+        delayEffect.label = "Delay";
+        delayEffect.showIsDelay = true;
+        delayEffect.isFX = true;
+        this.show.effects.push( delayEffect );
+    }
+
+
+    /**
      * Remove Effect
      * @param Effect 
      */
@@ -445,6 +479,118 @@ export class ShowComponent implements OnChanges  {
     }
 
 
+    /**
+     * Drop Effect
+     * @param event 
+     */
+    public onDropEffect( event: CdkDragDrop<any[]> )
+    {
+        moveItemInArray(this.show.effects, event.previousIndex, event.currentIndex);
+    }
+
+    /**
+     * Shane Sequence duration
+     * @param sequence 
+     */
+    public onChangeSequenceDuration( sequence:Sequence )
+    {
+        let message:string = "<p>Please enter duration in ms</p>";
+
+        let dialogRef = this.dialog.open
+        (
+            PopupComponent, 
+            {
+                disableClose:true,
+                width:  '555px',
+                data: 
+                { 
+                    title_label:"Set duration", 
+                    content:message,
+                    yes_button_label:"Set duration",
+                    no_button_label:"Cancel",
+                    cancel_button_label:"Cancel",
+                    mode_question:false,
+                    mode_prompt:true,
+                    mode_prompt_type:"text",
+                    prompt_value:"Duration in ms",
+                    disable_cancel:false,
+                    prompt:sequence.showDuration.toString()
+                }
+            }
+        );
+
+        dialogRef.afterClosed().subscribe
+        (
+            result => 
+            {               
+                if( result )
+                {
+                    if( result.value )
+                    {
+                        if( result.value == null )
+                        {
+                            //
+                        }
+                        else
+                        {
+                            if( result.value == "" || result.value == " ")
+                            {
+                                //
+                            }
+                            else
+                            {
+                                let displayError:boolean = false;
+                                if( CommonsService.isNumeric( result.value ) )
+                                {
+                                    let futureDuration:number = parseInt( result.value );
+
+                                    if( futureDuration >= 0)
+                                    {
+                                        displayError = false;
+                                        sequence.showDuration = futureDuration;
+                                    }
+                                    else
+                                    {
+                                        displayError = true;
+                                    }
+                                }
+                                else
+                                {
+                                    displayError = true;
+                                }
+
+                                if( displayError == true )
+                                {
+                                    let message_error:string = "The duration must be a number greater than 0";
+                                    this.dialog.open
+                                    (
+                                        PopupComponent, 
+                                        {
+                                            disableClose:true,
+                                            width:  '555px',
+                                            data: 
+                                            { 
+                                                title_label:'Error', 
+                                                content:message_error,
+                                                mode_question:false,
+                                                mode_prompt:false,
+                                                mode_prompt_type:"text",
+                                                prompt_value:"Duration",
+                                                disable_cancel:true,
+                                                display_close:true,
+                                                display_cancel:false,
+                                                prompt:'' 
+                                            }
+                                        }
+                                    );
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        );
+    }
 
 
     //////////////////////////////////////////////////////////////////////
