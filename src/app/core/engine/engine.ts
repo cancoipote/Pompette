@@ -80,6 +80,7 @@ export class Engine
 
 		this.engineFixtures = new Array<EngineFixture>();
 
+		sequence.isPlayging = true;
 
 		for( let i:number = 0; i < sequence.sequenceFixtures.length; i++ )
 		{
@@ -99,6 +100,7 @@ export class Engine
 	 */
 	public stopSequence( sequence:Sequence )
 	{
+		sequence.isPlayging = false;
 		for( let i:number = 0; i < this.engineFixtures.length; i++ )
 		{
 			if( this.engineFixtures[i].sequence == sequence )

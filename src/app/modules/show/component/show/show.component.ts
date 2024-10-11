@@ -693,6 +693,11 @@ export class ShowComponent implements OnChanges  {
             {
                 this.show.sequences[i].percent = 0;
                 this.show.sequences[i].isPlayging = false;
+
+                if( this.show.sequences[i].isDelay == false && this.show.sequences[i].sequence.isPlayging == true )
+                {
+                    this.engine.stopSequence( this.show.sequences[i].sequence );
+                }
             }
             else
             {
@@ -700,6 +705,12 @@ export class ShowComponent implements OnChanges  {
                 {
                     this.show.sequences[i].isPlayging = true;
                     this.show.sequences[i].percent = 100;
+
+                    if( this.show.sequences[i].isDelay == false && this.show.sequences[i].sequence.isPlayging == false )
+                    {
+                        this.engine.playSequence( this.show.sequences[i].sequence );
+                    }
+
                     break;
                 }
                 else
@@ -707,11 +718,21 @@ export class ShowComponent implements OnChanges  {
                     if( this.elapsedTime >= sequencesDuration + this.show.sequences[i].duration )
                     {
                         this.show.sequences[i].isPlayging = false;
+
+                        if( this.show.sequences[i].isDelay == false && this.show.sequences[i].sequence.isPlayging == true )
+                        {
+                            this.engine.stopSequence( this.show.sequences[i].sequence );
+                        }
                     }
                     else
                     {
                         this.show.sequences[i].isPlayging = true;
                         this.show.sequences[i].percent = (this.elapsedTime - sequencesDuration) / this.show.sequences[i].duration * 100;
+
+                        if( this.show.sequences[i].isDelay == false && this.show.sequences[i].sequence.isPlayging == false )
+                        {
+                            this.engine.playSequence( this.show.sequences[i].sequence );
+                        }
                     }
                 }
             }
@@ -731,6 +752,12 @@ export class ShowComponent implements OnChanges  {
             {
                 this.show.effects[i].percent = 0;
                 this.show.effects[i].isPlayging = false;
+
+                if( this.show.effects[i].isDelay == false && this.show.effects[i].sequence.isPlayging == true )
+                {
+                    this.engine.stopSequence( this.show.effects[i].sequence );
+                }
+                
             }
             else
             {
@@ -738,6 +765,11 @@ export class ShowComponent implements OnChanges  {
                 {
                     this.show.effects[i].isPlayging = true;
                     this.show.effects[i].percent = 100;
+
+                    if( this.show.effects[i].isDelay == false && this.show.effects[i].sequence.isPlayging == false )
+                    {
+                        this.engine.playSequence( this.show.effects[i].sequence );
+                    }
                     break;
                 }
                 else
@@ -745,11 +777,21 @@ export class ShowComponent implements OnChanges  {
                     if( this.elapsedTime >= effectsDuration + this.show.effects[i].duration )
                     {
                         this.show.effects[i].isPlayging = false;
+
+                        if( this.show.effects[i].isDelay == false && this.show.effects[i].sequence.isPlayging == true )
+                        {
+                            this.engine.stopSequence( this.show.effects[i].sequence );
+                        }
                     }
                     else
                     {
                         this.show.effects[i].isPlayging = true;
                         this.show.effects[i].percent = (this.elapsedTime - effectsDuration) / this.show.effects[i].duration * 100;
+
+                        if( this.show.effects[i].isDelay == false && this.show.effects[i].sequence.isPlayging == false )
+                        {
+                            this.engine.playSequence( this.show.effects[i].sequence );
+                        }
                     }
                 }
             }
