@@ -34,7 +34,7 @@
                     <div *ngFor="let item of show.sequences" cdkDrag class="item-thumb" >
                         <div class="item-thumb-header">
                             <div class="item-thumb-header-title">
-                                <b>{{item.label}}</b>
+                                <b>{{item.sequence.label}}</b>
                             </div>
                             <div class="toolbar-spacer-separator"></div>   
                             <button class="item-thumb-header-button-delete" mat-icon-button (click)="removeSequence( item )" matTooltip="Delete Show">
@@ -48,7 +48,7 @@
                                 </div>
                                 <div class="toolbar-spacer-separator"></div>   
                                 <button mat-button (click)="onChangeSequenceDuration( item )" color="accent">
-                                    <i>{{item.showDuration}} ms</i>
+                                    <i>{{item.duration}} ms</i>
                                 </button>
                             </div>
                             <div class="item-thumb-content-row">
@@ -56,10 +56,10 @@
                                     Is Loop
                                 </div>
                                 <div class="toolbar-spacer-separator"></div>   
-                                <mat-checkbox [(ngModel)]="item.showIsLoop"></mat-checkbox>
+                                <mat-checkbox [(ngModel)]="item.isLoop"></mat-checkbox>
                             </div>
                         </div>
-                        <div *ngIf="item.isPlayging" class="item-thumb-isPlaying" [ngStyle]="{'width.%': item.showPercent}"></div>
+                        <div *ngIf="item.isPlayging" class="item-thumb-isPlaying" [ngStyle]="{'width.%': item.percent}"></div>
                     </div>
                 </div>
             </div> 
@@ -80,7 +80,7 @@
                     <div *ngFor="let item of show.effects" cdkDrag class="item-thumb" >
                         <div class="item-thumb-header">
                             <div class="item-thumb-header-title">
-                                <b>{{item.label}}</b>
+                                <b>{{item.sequence.label}}</b>
                             </div>
                             <div class="toolbar-spacer-separator"></div>   
                             <button class="item-thumb-header-button-delete" mat-icon-button (click)="removeEffect( item )" matTooltip="Delete Show">
@@ -94,7 +94,7 @@
                                 </div>
                                 <div class="toolbar-spacer-separator"></div>   
                                 <button mat-button (click)="onChangeSequenceDuration( item )" color="accent">
-                                    <i>{{item.showDuration}} ms</i>
+                                    <i>{{item.duration}} ms</i>
                                 </button>
                             </div>
                             <div class="item-thumb-content-row">
@@ -102,10 +102,10 @@
                                     Is Loop
                                 </div>
                                 <div class="toolbar-spacer-separator"></div>   
-                                <mat-checkbox [(ngModel)]="item.showIsLoop"></mat-checkbox>
+                                <mat-checkbox [(ngModel)]="item.isLoop"></mat-checkbox>
                             </div>
                         </div>
-                        <div *ngIf="item.isPlayging" class="item-thumb-isPlaying" [ngStyle]="{'width.%': item.showPercent}"></div>
+                        <div *ngIf="item.isPlayging" class="item-thumb-isPlaying" [ngStyle]="{'width.%': item.percent}"></div>
                     </div>
                 </div>
             </div>    

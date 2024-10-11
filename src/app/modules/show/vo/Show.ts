@@ -1,4 +1,4 @@
-import { Sequence } from "../../sequence/vo/sequence";
+import { ShowSequence } from "./show.sequence";
 
 export class Show
 {
@@ -10,12 +10,12 @@ export class Show
     /**
      * Sequences
      */
-    sequences!: Sequence[];
+    sequences!: ShowSequence[];
 
     /**
      * Effects
      */
-    effects!: Sequence[];
+    effects!: ShowSequence[];
 
 
     /*****************************************************************/

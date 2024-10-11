@@ -1,6 +1,6 @@
 import { Fixture }      from "../../fixture/vo/fixture";
 import { Sequence }     from "../../sequence/vo/sequence";
-import { Show }         from "../../show/vo/Show";
+import { Show }         from "../../show/vo/show";
 
 export class Project
 {

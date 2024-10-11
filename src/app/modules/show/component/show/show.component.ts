@@ -17,16 +17,15 @@ import { MatCheckboxModule }                                                    
 import { MatTooltipModule }                                                             from '@angular/material/tooltip';
 import { NgxColorsModule }                                                              from 'ngx-colors';
 import { CdkDragDrop, DragDropModule, moveItemInArray }                                 from '@angular/cdk/drag-drop';
-import { gsap }                                                                         from 'gsap';
 
 import { AppService }                                                                   from '../../../../core/service/app.service';
 import { ServerService }                                                                from '../../../../core/service/server.service';
 import { PopupComponent }                                                               from '../../../../commons/popup/popup.component';
 import { CommonsService }                                                               from '../../../../core/service/commons.service';
-import { Fixture }                                                                      from '../../../fixture/vo/fixture';
 import { Engine }                                                                       from '../../../../core/engine/engine';
-import { Show }                                                                         from '../../vo/Show';
-import { Sequence } from '../../../sequence/vo/sequence';
+import { Show }                                                                         from '../../vo/show';
+import { Sequence }                                                                     from '../../../sequence/vo/sequence';
+import { ShowSequence } from '../../vo/show.sequence';
 
 /**
  * Sequence Component
@@ -115,12 +114,12 @@ export class ShowComponent implements OnChanges  {
 
         for( let i:number = 0; i < this.show.sequences.length; i++ )
         {
-            this.show.sequences[i].showPercent = 0;
+            this.show.sequences[i].percent = 0;
         }
 
         for( let i:number = 0; i < this.show.effects.length; i++ )
         {
-            this.show.effects[i].showPercent = 0;
+            this.show.effects[i].percent = 0;
         }
     }    
 
@@ -280,8 +279,9 @@ export class ShowComponent implements OnChanges  {
                 {
                     if( result.value )
                     {
-                        let newSequence = JSON.parse( JSON.stringify( result.value ) );
-                        newSequence.showPercent = 0;
+                        let newSequence:ShowSequence = new ShowSequence();
+                        newSequence.sequence =  result.value;
+                        newSequence.percent = 0;
                         newSequence.isPlayging = false;
                         this.show.sequences.push( newSequence );
                     }
@@ -295,10 +295,11 @@ export class ShowComponent implements OnChanges  {
      */
     public addSequenceDelay()
     {
-        let delaySequence:Sequence = new Sequence();
-        delaySequence.label = "Delay";
-        delaySequence.showIsDelay = true;
-        delaySequence.showPercent = 0;
+        let delaySequence:ShowSequence = new ShowSequence();
+        delaySequence.sequence = new Sequence();
+        delaySequence.sequence.label = "Delay";
+        delaySequence.isDelay = true;
+        delaySequence.percent = 0;
         delaySequence.isPlayging = false;
         this.show.sequences.push( delaySequence );
 
@@ -306,12 +307,12 @@ export class ShowComponent implements OnChanges  {
 
 
     /**
-     * Remove Sequence
-     * @param sequence 
+     * Remove ShowSequence
+     * @param ShowSequence 
      */
-    public removeSequence( sequence:Sequence )
+    public removeSequence( sequence:ShowSequence )
     {
-        let message:string = "<p>Do you want to remove this sequence  " +sequence.label + " ?</p>";
+        let message:string = "<p>Do you want to remove this sequence  " +sequence.sequence.label + " ?</p>";
 
         let dialogRef = this.dialog.open
         (
@@ -416,8 +417,9 @@ export class ShowComponent implements OnChanges  {
                 {
                     if( result.value )
                     {
-                        let newEffect = JSON.parse( JSON.stringify( result.value ) );
-                        newEffect.showPercent = 0;
+                        let newEffect:ShowSequence = new ShowSequence();
+                        newEffect.sequence =  result.value;
+                        newEffect.percent = 0;
                         newEffect.isPlayging = false;
                         this.show.effects.push( newEffect );
                     }
@@ -432,11 +434,11 @@ export class ShowComponent implements OnChanges  {
      */
     public addEffectDelay()
     {
-        let delayEffect:Sequence = new Sequence();
-        delayEffect.label = "Delay";
-        delayEffect.showIsDelay = true;
-        delayEffect.isFX = true;
-        delayEffect.showPercent = 0;
+        let delayEffect:ShowSequence = new ShowSequence();
+        delayEffect.sequence = new Sequence();
+        delayEffect.sequence.label = "Delay";
+        delayEffect.isDelay = true;
+        delayEffect.percent = 0;
         delayEffect.isPlayging = false;
         this.show.effects.push( delayEffect );
     }
@@ -446,9 +448,9 @@ export class ShowComponent implements OnChanges  {
      * Remove Effect
      * @param Effect 
      */
-    public removeEffect( effect:Sequence )
+    public removeEffect( effect:ShowSequence )
     {
-        let message:string = "<p>Do you want to remove this effect  " +effect.label + " ?</p>";
+        let message:string = "<p>Do you want to remove this effect  " + effect.sequence.label + " ?</p>";
 
         let dialogRef = this.dialog.open
         (
@@ -511,7 +513,7 @@ export class ShowComponent implements OnChanges  {
      * Shane Sequence duration
      * @param sequence 
      */
-    public onChangeSequenceDuration( sequence:Sequence )
+    public onChangeSequenceDuration( sequence:ShowSequence )
     {
         let message:string = "<p>Please enter duration in ms</p>";
 
@@ -533,7 +535,7 @@ export class ShowComponent implements OnChanges  {
                     mode_prompt_type:"text",
                     prompt_value:"Duration in ms",
                     disable_cancel:false,
-                    prompt:sequence.showDuration.toString()
+                    prompt:sequence.duration.toString()
                 }
             }
         );
@@ -566,7 +568,7 @@ export class ShowComponent implements OnChanges  {
                                     if( futureDuration >= 0)
                                     {
                                         displayError = false;
-                                        sequence.showDuration = futureDuration;
+                                        sequence.duration = futureDuration;
                                     }
                                     else
                                     {
@@ -661,12 +663,12 @@ export class ShowComponent implements OnChanges  {
 
         for( let i:number = 0; i < this.show.sequences.length; i++ )
         {
-            this.show.sequences[i].showPercent = 0;
+            this.show.sequences[i].percent = 0;
         }
 
         for( let i:number = 0; i < this.show.effects.length; i++ )
         {
-            this.show.effects[i].showPercent = 0;
+            this.show.effects[i].percent = 0;
         }
     }
 
@@ -683,33 +685,33 @@ export class ShowComponent implements OnChanges  {
         {
             if( i > 0 )
             {
-                sequencesDuration += this.show.sequences[i-1].showDuration;
+                sequencesDuration += this.show.sequences[i-1].duration;
             }
             
             
             if( this.elapsedTime <=  sequencesDuration)
             {
-                this.show.sequences[i].showPercent = 0;
+                this.show.sequences[i].percent = 0;
                 this.show.sequences[i].isPlayging = false;
             }
             else
             {
-                if( this.show.sequences[i].showIsLoop == true )
+                if( this.show.sequences[i].isLoop == true )
                 {
                     this.show.sequences[i].isPlayging = true;
-                    this.show.sequences[i].showPercent = 100;
+                    this.show.sequences[i].percent = 100;
                     break;
                 }
                 else
                 {
-                    if( this.elapsedTime >= sequencesDuration + this.show.sequences[i].showDuration )
+                    if( this.elapsedTime >= sequencesDuration + this.show.sequences[i].duration )
                     {
                         this.show.sequences[i].isPlayging = false;
                     }
                     else
                     {
                         this.show.sequences[i].isPlayging = true;
-                        this.show.sequences[i].showPercent = (this.elapsedTime - sequencesDuration) / this.show.sequences[i].showDuration * 100;
+                        this.show.sequences[i].percent = (this.elapsedTime - sequencesDuration) / this.show.sequences[i].duration * 100;
                     }
                 }
             }
@@ -721,33 +723,33 @@ export class ShowComponent implements OnChanges  {
         {
             if( i > 0 )
             {
-                effectsDuration += this.show.effects[i-1].showDuration;
+                effectsDuration += this.show.effects[i-1].duration;
             }
             
             
             if( this.elapsedTime <=  effectsDuration)
             {
-                this.show.effects[i].showPercent = 0;
+                this.show.effects[i].percent = 0;
                 this.show.effects[i].isPlayging = false;
             }
             else
             {
-                if( this.show.effects[i].showIsLoop == true )
+                if( this.show.effects[i].isLoop == true )
                 {
                     this.show.effects[i].isPlayging = true;
-                    this.show.effects[i].showPercent = 100;
+                    this.show.effects[i].percent = 100;
                     break;
                 }
                 else
                 {
-                    if( this.elapsedTime >= effectsDuration + this.show.effects[i].showDuration )
+                    if( this.elapsedTime >= effectsDuration + this.show.effects[i].duration )
                     {
                         this.show.effects[i].isPlayging = false;
                     }
                     else
                     {
                         this.show.effects[i].isPlayging = true;
-                        this.show.effects[i].showPercent = (this.elapsedTime - effectsDuration) / this.show.effects[i].showDuration * 100;
+                        this.show.effects[i].percent = (this.elapsedTime - effectsDuration) / this.show.effects[i].duration * 100;
                     }
                 }
             }

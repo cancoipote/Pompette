@@ -12,6 +12,8 @@ import { Project } from '../vo/project';
 import { Fixture } from '../../fixture/vo/fixture';
 import { SequenceFixtureTransitionType } from '../../sequence/vo/sequence.fixture.transition.type';
 import { FixtureChannel } from '../../fixture/vo/fixture.channel';
+import { Show } from '../../show/vo/show';
+import { ShowSequence } from '../../show/vo/show.sequence';
 
 
 
@@ -152,6 +154,34 @@ export class ProjectService
 		}
 
 		let shows:any = new Array();
+		for( let i:number = 0; i < this.appService.project.shows.length; i++)
+		{
+			let show:any = new Object();
+			show.label = this.appService.project.shows[i].label;
+			show.sequences = new Array();
+			for( let j:number = 0; j < this.appService.project.shows[i].sequences.length; j++)
+			{
+				let sequence:any = new Object();
+				sequence.label = this.appService.project.shows[i].sequences[j].sequence.label;
+				sequence.duration = this.appService.project.shows[i].sequences[j].duration;
+				sequence.isLoop = this.appService.project.shows[i].sequences[j].isLoop;
+				sequence.isDelay = this.appService.project.shows[i].sequences[j].isDelay;
+				show.sequences.push(sequence);
+			}
+
+			show.effects = new Array();
+			for( let j:number = 0; j < this.appService.project.shows[i].effects.length; j++)
+			{
+				let effect:any = new Object();
+				effect.label = this.appService.project.shows[i].effects[j].sequence.label;
+				effect.duration = this.appService.project.shows[i].effects[j].duration;
+				effect.isLoop = this.appService.project.shows[i].effects[j].isLoop;
+				effect.isDelay = this.appService.project.shows[i].effects[j].isDelay;
+				show.effects.push(effect);
+			}
+
+			shows.push(show);
+		}
 
 		let exportResult:any = (
 			{
@@ -422,6 +452,78 @@ export class ProjectService
 								this.appService.project.sequences.push(sequence);
 							}
 
+							this.appService.project.shows = new Array();
+							for( let i:number = 0; i < jsonData.project.shows.length; i++)
+							{
+								let show:Show = new Show();
+								show.label = jsonData.project.shows[i].label;
+								
+								show.sequences = new Array();
+								for( let j:number = 0; j < jsonData.project.shows[i].sequences.length; j++)
+								{
+									if( jsonData.project.shows[i].sequences[j].label == "Delay" )
+									{
+										let item:ShowSequence = new ShowSequence();
+										item.sequence = new Sequence();
+										item.sequence.label = "Delay";
+										item.duration = jsonData.project.shows[i].sequences[j].duration;
+										item.isLoop = jsonData.project.shows[i].sequences[j].isLoop;
+										item.isDelay = true;
+										show.sequences.push(item);
+									}
+									else
+									{
+										for( let a:number = 0; a < this.appService.project.sequences.length; a++)
+										{
+											if( jsonData.project.shows[i].sequences[j].label == this.appService.project.sequences[a].label && this.appService.project.sequences[a].isFX == false )
+											{
+												let item:ShowSequence = new ShowSequence();
+												item.sequence = this.appService.project.sequences[a];
+												item.duration = jsonData.project.shows[i].sequences[j].duration;
+												item.isLoop = jsonData.project.shows[i].sequences[j].isLoop;
+												item.isDelay = false;
+												show.sequences.push(item);
+												break;
+											}
+										}
+									}
+								}
+
+								show.effects = new Array();
+								for( let j:number = 0; j < jsonData.project.shows[i].effects.length; j++)
+								{
+									if( jsonData.project.shows[i].effects[j].label == "Delay" )
+									{
+										let item:ShowSequence = new ShowSequence();
+										item.sequence = new Sequence();
+										item.sequence.label = "Delay";
+										item.duration = jsonData.project.shows[i].sequences[j].duration;
+										item.isLoop = jsonData.project.shows[i].sequences[j].isLoop;
+										item.isDelay = true;
+										show.effects.push(item);
+									}
+									else
+									{
+										for( let a:number = 0; a < this.appService.project.sequences.length; a++)
+										{
+											
+											if( jsonData.project.shows[i].effects[j].label == this.appService.project.sequences[a].label && this.appService.project.sequences[a].isFX == true )
+											{
+												let item:ShowSequence = new ShowSequence();
+												item.sequence = this.appService.project.sequences[a];
+												item.duration = jsonData.project.shows[i].effects[j].duration;
+												item.isLoop = jsonData.project.shows[i].effects[j].isLoop;
+												item.isDelay = false;
+												show.effects.push(item);
+												break;
+											}
+										}
+									}
+								}
+
+								this.appService.project.shows.push(show);
+							}
+
 							this.appService.is_project 	= true;	
 
 							
@@ -464,7 +566,7 @@ export class ProjectService
 								width:  '555px',
 								data: 
 								{ 
-									title_label:'Error', 
+									title_label:'Error Parsing', 
 									content:message_error,
 									mode_question:false,
 									mode_prompt:false,

@@ -20,7 +20,7 @@ import { FixtureComponent }                                                     
 import { FixtureService }                                                               from '../../../fixture/service/fixture.service';
 import { PopupComponent }                                                               from '../../../../commons/popup/popup.component';
 import { CommonsService }                                                               from '../../../../core/service/commons.service';
-import { Show }                                                                         from '../../../show/vo/Show';
+import { Show }                                                                         from '../../../show/vo/show';
 import { SearchBoxComponent }                                                           from '../../../../commons/search/search.component';
 import { CdkDragDrop, DragDropModule, moveItemInArray }                                 from '@angular/cdk/drag-drop';
 import { ShowComponent }                                                                from '../../../show/component/show/show.component';

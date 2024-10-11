@@ -17,26 +17,7 @@ export class Sequence
      */
     sequenceFixtures:SequenceFixture[] = new Array();
 
-    /**
-     * Show is loop
-     */
-    showIsLoop:boolean = false;
-
-    /**
-     * Show duration
-     */
-    showDuration:number = 0;
-
-    /**
-     * Show is delay
-     */
-    showIsDelay:boolean = false;
-
-     /**
-     * Show percent
-     */
-     showPercent:number = 0;
-
+   
 
     /*****************************************************************/
     //
