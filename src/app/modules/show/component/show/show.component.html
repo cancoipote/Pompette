@@ -59,6 +59,7 @@
                                 <mat-checkbox [(ngModel)]="item.showIsLoop"></mat-checkbox>
                             </div>
                         </div>
+                        <div *ngIf="item.isPlayging" class="item-thumb-isPlaying" [ngStyle]="{'width.%': item.showPercent}"></div>
                     </div>
                 </div>
             </div> 
@@ -104,6 +105,7 @@
                                 <mat-checkbox [(ngModel)]="item.showIsLoop"></mat-checkbox>
                             </div>
                         </div>
+                        <div *ngIf="item.isPlayging" class="item-thumb-isPlaying" [ngStyle]="{'width.%': item.showPercent}"></div>
                     </div>
                 </div>
             </div>    

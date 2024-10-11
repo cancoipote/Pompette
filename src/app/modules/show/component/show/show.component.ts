@@ -112,6 +112,16 @@ export class ShowComponent implements OnChanges  {
         this.elapsedTime = 0;
         this.show.isPlay = false;
         this.show.isPause = false;
+
+        for( let i:number = 0; i < this.show.sequences.length; i++ )
+        {
+            this.show.sequences[i].showPercent = 0;
+        }
+
+        for( let i:number = 0; i < this.show.effects.length; i++ )
+        {
+            this.show.effects[i].showPercent = 0;
+        }
     }    
 
     /**
@@ -271,6 +281,8 @@ export class ShowComponent implements OnChanges  {
                     if( result.value )
                     {
                         let newSequence = JSON.parse( JSON.stringify( result.value ) );
+                        newSequence.showPercent = 0;
+                        newSequence.isPlayging = false;
                         this.show.sequences.push( newSequence );
                     }
                 }       
@@ -286,7 +298,10 @@ export class ShowComponent implements OnChanges  {
         let delaySequence:Sequence = new Sequence();
         delaySequence.label = "Delay";
         delaySequence.showIsDelay = true;
+        delaySequence.showPercent = 0;
+        delaySequence.isPlayging = false;
         this.show.sequences.push( delaySequence );
+
     }
 
 
@@ -402,6 +417,8 @@ export class ShowComponent implements OnChanges  {
                     if( result.value )
                     {
                         let newEffect = JSON.parse( JSON.stringify( result.value ) );
+                        newEffect.showPercent = 0;
+                        newEffect.isPlayging = false;
                         this.show.effects.push( newEffect );
                     }
                 }       
@@ -419,6 +436,8 @@ export class ShowComponent implements OnChanges  {
         delayEffect.label = "Delay";
         delayEffect.showIsDelay = true;
         delayEffect.isFX = true;
+        delayEffect.showPercent = 0;
+        delayEffect.isPlayging = false;
         this.show.effects.push( delayEffect );
     }
 
@@ -633,12 +652,22 @@ export class ShowComponent implements OnChanges  {
      */
     public stop()
     {
-        this.show.isPlay = false;
-        this.show.isPause = false;
+        this.show.isPlay    = false;
+        this.show.isPause   = false;
 
         clearInterval(this.intervalId);
-        this.elapsedTime = 0;
-        this.startTime = 0;
+        this.elapsedTime    = 0;
+        this.startTime      = 0;
+
+        for( let i:number = 0; i < this.show.sequences.length; i++ )
+        {
+            this.show.sequences[i].showPercent = 0;
+        }
+
+        for( let i:number = 0; i < this.show.effects.length; i++ )
+        {
+            this.show.effects[i].showPercent = 0;
+        }
     }
 
 
@@ -648,6 +677,81 @@ export class ShowComponent implements OnChanges  {
     private updateTime() 
     {
         this.elapsedTime = Date.now() - this.startTime;
+
+        let sequencesDuration:number = 0;
+        for( let i:number = 0; i < this.show.sequences.length; i++ )
+        {
+            if( i > 0 )
+            {
+                sequencesDuration += this.show.sequences[i-1].showDuration;
+            }
+            
+            
+            if( this.elapsedTime <=  sequencesDuration)
+            {
+                this.show.sequences[i].showPercent = 0;
+                this.show.sequences[i].isPlayging = false;
+            }
+            else
+            {
+                if( this.show.sequences[i].showIsLoop == true )
+                {
+                    this.show.sequences[i].isPlayging = true;
+                    this.show.sequences[i].showPercent = 100;
+                    break;
+                }
+                else
+                {
+                    if( this.elapsedTime >= sequencesDuration + this.show.sequences[i].showDuration )
+                    {
+                        this.show.sequences[i].isPlayging = false;
+                    }
+                    else
+                    {
+                        this.show.sequences[i].isPlayging = true;
+                        this.show.sequences[i].showPercent = (this.elapsedTime - sequencesDuration) / this.show.sequences[i].showDuration * 100;
+                    }
+                }
+            }
+        }
+
+
+        let effectsDuration:number = 0;
+        for( let i:number = 0; i < this.show.effects.length; i++ )
+        {
+            if( i > 0 )
+            {
+                effectsDuration += this.show.effects[i-1].showDuration;
+            }
+            
+            
+            if( this.elapsedTime <=  effectsDuration)
+            {
+                this.show.effects[i].showPercent = 0;
+                this.show.effects[i].isPlayging = false;
+            }
+            else
+            {
+                if( this.show.effects[i].showIsLoop == true )
+                {
+                    this.show.effects[i].isPlayging = true;
+                    this.show.effects[i].showPercent = 100;
+                    break;
+                }
+                else
+                {
+                    if( this.elapsedTime >= effectsDuration + this.show.effects[i].showDuration )
+                    {
+                        this.show.effects[i].isPlayging = false;
+                    }
+                    else
+                    {
+                        this.show.effects[i].isPlayging = true;
+                        this.show.effects[i].showPercent = (this.elapsedTime - effectsDuration) / this.show.effects[i].showDuration * 100;
+                    }
+                }
+            }
+        }
     }
 
     /**

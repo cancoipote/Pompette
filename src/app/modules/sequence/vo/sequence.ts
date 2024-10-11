@@ -32,6 +32,11 @@ export class Sequence
      */
     showIsDelay:boolean = false;
 
+     /**
+     * Show percent
+     */
+     showPercent:number = 0;
+
 
     /*****************************************************************/
     //
