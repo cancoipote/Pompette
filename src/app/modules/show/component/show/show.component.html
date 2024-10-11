@@ -21,11 +21,32 @@
         <div class="show-thumb-content-row">
             <div class="title show-thumb-content-row-title">
                 Sequences
-            </div>   
+                <span class="toolbar-spacer"></span>
+                <button mat-button (click)="addSequence()" color="accent">
+                    Add Sequence
+                </button>
+            </div>
+            <div class="show-thumb-content-items" >
+                <div *ngFor="let item of show.sequences" class="item-thumb" >
+                    <div class="item-thumb-header">
+                        <div class="item-thumb-header-title">
+                            {{item.label}}
+                        </div>
+                        <div class="toolbar-spacer-separator"></div>   
+                        <button class="item-thumb-header-button-delete" mat-icon-button (click)="removeSequence( item )" matTooltip="Delete Show">
+                            <mat-icon  color="warn">delete</mat-icon>
+                        </button>
+                    </div>
+                </div>
+            </div> 
         </div>   
         <div class="show-thumb-content-row">
             <div class="title show-thumb-content-row-title">
                 Effects
+                <span class="toolbar-spacer"></span>
+                <button mat-button (click)="addEffect()" color="accent">
+                    Add Effect
+                </button>
             </div>   
         </div>   
     </div>

@@ -26,6 +26,7 @@ import { CommonsService }                                                       
 import { Fixture }                                                                      from '../../../fixture/vo/fixture';
 import { Engine }                                                                       from '../../../../core/engine/engine';
 import { Show }                                                                         from '../../vo/Show';
+import { Sequence } from '../../../sequence/vo/sequence';
 
 /**
  * Sequence Component
@@ -214,10 +215,243 @@ export class ShowComponent implements OnChanges  {
         this.onRemove.emit( this.show );
     }
 
+
+    //////////////////////////////////////////////////////////////////////
+    //
+    // Manage Sequences / Effects
+    //
+    //////////////////////////////////////////////////////////////////////
+
     /**
-    * Player
-    * 
-    */
+     * Add Sequence
+     */
+    public addSequence()
+    {
+        let items:Sequence[] = new Array<Sequence>();
+        for( let i=0; i< this.appService.project.sequences.length; i++ )
+        {
+            if( this.appService.project.sequences[i].isFX == false )
+            {
+                items.push( this.appService.project.sequences[i] );
+            }
+        }
+
+        let dialogRef = this.dialog.open
+        (
+            PopupComponent, 
+            {
+                disableClose:true,
+                width:  '555px',
+                data: 
+                { 
+                    title_label:'Select a sequence', 
+                    content:"Select a sequence",
+                    yes_button_label:"Add",
+                    no_button_label:"Close",
+                    cancel_button_label:"Cancel",
+                    mode_question:false,
+                    mode_prompt:true,
+                    mode_prompt_type:"select",
+                    prompt_value:"Select a sequence",
+                    disable_cancel:false,
+                    display_cancel:false,
+                    display_close:false,
+                    items:items
+                }
+            }
+        );
+
+        dialogRef.afterClosed().subscribe
+        (
+            result => 
+            {
+                if( result )
+                {
+                    if( result.value )
+                    {
+                        let newSequence = JSON.parse( JSON.stringify( result.value ) );
+                        this.show.sequences.push( newSequence );
+                    }
+                }       
+            }
+        );
+    }
+
+
+    /**
+     * Remove Sequence
+     * @param sequence 
+     */
+    public removeSequence( sequence:Sequence )
+    {
+        let message:string = "<p>Do you want to remove this sequence  " +sequence.label + " ?</p>";
+
+        let dialogRef = this.dialog.open
+        (
+            PopupComponent, 
+            {
+                disableClose:true,
+                width:  '555px',
+                data: 
+                { 
+                    title_label:'Remove sequence', 
+                    content:message,
+                    yes_button_label:"Yes",
+                    no_button_label:"No",
+                    cancel_button_label:"Cancel",
+                    mode_question:true,
+                    mode_prompt:false,
+                    mode_prompt_type:"text",
+                    disable_cancel:false,
+                    prompt:'' 
+                }
+            }
+        );
+
+        dialogRef.afterClosed().subscribe
+        (
+            result => 
+            {               
+                if( result )
+                {
+                    if( result.answer )
+                    {
+                        if( result.answer == true )
+                        {
+                            for( let i:number = 0; i < this.show.sequences.length; i++ )
+                            {
+                                if( this.show.sequences[i] == sequence )
+                                {
+                                    this.show.sequences.splice( i, 1 );
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        );
+    }
+
+    /**
+     * Add Effect
+     */
+    public addEffect()
+    {
+        let items:Sequence[] = new Array<Sequence>();
+        for( let i=0; i< this.appService.project.sequences.length; i++ )
+        {
+            if( this.appService.project.sequences[i].isFX == true )
+            {
+                items.push( this.appService.project.sequences[i] );
+            }
+        }
+
+        let dialogRef = this.dialog.open
+        (
+            PopupComponent, 
+            {
+                disableClose:true,
+                width:  '555px',
+                data: 
+                { 
+                    title_label:'Select an effect', 
+                    content:"Select an effect",
+                    yes_button_label:"Add",
+                    no_button_label:"Close",
+                    cancel_button_label:"Cancel",
+                    mode_question:false,
+                    mode_prompt:true,
+                    mode_prompt_type:"select",
+                    prompt_value:"Select an effect",
+                    disable_cancel:false,
+                    display_cancel:false,
+                    display_close:false,
+                    items:items
+                }
+            }
+        );
+
+        dialogRef.afterClosed().subscribe
+        (
+            result => 
+            {
+                if( result )
+                {
+                    if( result.value )
+                    {
+                        let newEffect = JSON.parse( JSON.stringify( result.value ) );
+                        this.show.effects.push( newEffect );
+                    }
+                }       
+            }
+        );
+    }
+
+
+    /**
+     * Remove Effect
+     * @param Effect 
+     */
+    public removeEffect( effect:Sequence )
+    {
+        let message:string = "<p>Do you want to remove this effect  " +effect.label + " ?</p>";
+
+        let dialogRef = this.dialog.open
+        (
+            PopupComponent, 
+            {
+                disableClose:true,
+                width:  '555px',
+                data: 
+                { 
+                    title_label:'Remove effect', 
+                    content:message,
+                    yes_button_label:"Yes",
+                    no_button_label:"No",
+                    cancel_button_label:"Cancel",
+                    mode_question:true,
+                    mode_prompt:false,
+                    mode_prompt_type:"text",
+                    disable_cancel:false,
+                    prompt:'' 
+                }
+            }
+        );
+
+        dialogRef.afterClosed().subscribe
+        (
+            result => 
+            {               
+                if( result )
+                {
+                    if( result.answer )
+                    {
+                        if( result.answer == true )
+                        {
+                            for( let i:number = 0; i < this.show.effects.length; i++ )
+                            {
+                                if( this.show.effects[i] == effect )
+                                {
+                                    this.show.effects.splice( i, 1 );
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        );
+    }
+
+
+
+
+    //////////////////////////////////////////////////////////////////////
+    //
+    // Player
+    //
+    //////////////////////////////////////////////////////////////////////
 
     /**
      * Play
