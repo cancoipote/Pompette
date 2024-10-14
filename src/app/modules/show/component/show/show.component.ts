@@ -670,6 +670,25 @@ export class ShowComponent implements OnChanges  {
         {
             this.show.effects[i].percent = 0;
         }
+
+        for( let i:number = 0; i < this.show.sequences.length; i++ )
+        {
+            if( this.show.sequences[i].isDelay == false && this.show.sequences[i].sequence.isPlayging == true )
+            {
+                this.engine.stopSequence( this.show.sequences[i].sequence );
+            }
+        }
+
+        for( let i:number = 0; i < this.show.effects.length; i++ )
+        {
+            if( this.show.sequences[i].isDelay == false && this.show.effects[i].sequence.isPlayging == true )
+            {
+                this.engine.stopSequence( this.show.effects[i].sequence );
+            }
+        }
+
+
+        this.server.blackOut();
     }
 
 
