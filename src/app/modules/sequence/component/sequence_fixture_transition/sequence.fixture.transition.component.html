@@ -54,14 +54,14 @@
             <div class="sequence-fixture-transition-thumb-content-part-duration">
                 <div class="title">
                     Duration
-                    <mat-radio-group [(ngModel)]="sequenceFixtureTransition.useStep" (change)="onChangeUseStep()" >
+                    <mat-radio-group [(ngModel)]="sequenceFixtureTransition.useStep" (change)="onChangeUseStep()" [disabled]="sequenceFixtureTransition.type.id == 1 || sequenceFixtureTransition.type.id == 3" >
                         <mat-radio-button  [value]="false">Use time</mat-radio-button>
                         <mat-radio-button  [value]="true">Use step</mat-radio-button>
                     </mat-radio-group>
                 </div>
                 
                 <div *ngIf="sequenceFixtureTransition.useStep == false" >
-                    <mat-radio-group [(ngModel)]="sequenceFixtureTransition.fixedDuration" >
+                    <mat-radio-group [(ngModel)]="sequenceFixtureTransition.fixedDuration" [disabled]="sequenceFixtureTransition.type.id == 2 || sequenceFixtureTransition.type.id == 3">
                         <mat-radio-button  (change)="onChangeDurationType($event)"  [value]="true">Fixed duration</mat-radio-button>
                         <mat-radio-button  (change)="onChangeDurationType($event)"  [value]="false">Randomized duration</mat-radio-button>
                     </mat-radio-group>

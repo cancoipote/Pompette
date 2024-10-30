@@ -253,6 +253,21 @@ export class SequenceFixtureTransitionComponent implements OnChanges  {
         {
             this.sequenceFixtureTransition.subType = this.sequenceFixtureTransition.type.subTypes[0];
         }
+
+        if( this.sequenceFixtureTransition.type.id == 1 )
+        {
+            this.sequenceFixtureTransition.useStep = false;
+        }
+
+        if( this.sequenceFixtureTransition.type.id == ( 2 || 3 ) )
+        {
+            this.sequenceFixtureTransition.useStep = false;
+        }
+
+        if( this.sequenceFixtureTransition.type.id == 3 )
+        {
+            this.sequenceFixtureTransition.fixedDuration = true;
+        }
     }
 
     /**
