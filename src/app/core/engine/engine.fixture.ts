@@ -108,6 +108,8 @@ export class EngineFixture
 	 */
 	public start() 
 	{
+        console.log("start animation");
+
 		this.isPlaying  = true;
         this.index      = 0;
 
@@ -116,13 +118,18 @@ export class EngineFixture
 
 
     /**
-	 * Start Engine
+	 * Stop Engine
 	 */
 	public stop() 
 	{
         this.isPlaying  = false;
         this.index      = 0;
         anime.remove(this.fixture.channels);
+
+        for(  let i:number = 0; i < this.fixture.channels.length; i++)
+        {
+            this.appService.dmx_buffer[this.fixture.index + this.fixture.channels[i].index] = 0;
+        }
 	}
 
 
@@ -381,6 +388,7 @@ export class EngineFixture
         {
             return;
         }
+
         if( this.direction == 1 )
         {
             if( this.index >= this.sequenceFixture.transitions.length - 1 )

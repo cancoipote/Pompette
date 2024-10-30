@@ -91,7 +91,6 @@ export class Engine
 
 			this.engineFixtures.push(fixtureEngine);
 		}
-
 		this.startThread();
 	}
 
@@ -101,21 +100,34 @@ export class Engine
 	public stopSequence( sequence:Sequence )
 	{
 		sequence.isPlayging = false;
-		for( let i:number = 0; i < this.engineFixtures.length; i++ )
+
+		let isAllClean:boolean = false;
+
+		while( !isAllClean )
 		{
-			if( this.engineFixtures[i].sequence == sequence )
+			let hasDeleteFixture:boolean = false;
+			for( let i:number = 0; i < this.engineFixtures.length; i++ )
 			{
-				for( let a:number = 0; a < this.engineFixtures[i].sequenceFixture.transitions.length; a++ )
+				if( this.engineFixtures[i].sequence == sequence )
 				{
-					this.engineFixtures[i].sequenceFixture.transitions[a].isPlayging = false;
+					for( let a:number = 0; a < this.engineFixtures[i].sequenceFixture.transitions.length; a++ )
+					{
+						this.engineFixtures[i].sequenceFixture.transitions[a].isPlayging = false;
+					}
+					
+					this.engineFixtures[i].stop();
+					this.engineFixtures.splice(i, 1);
+					hasDeleteFixture = true;
+					break;
 				}
-				
-				this.engineFixtures[i].stop();
-				this.engineFixtures.splice(i, 1);
-				break;
+			}	
+
+			if( !hasDeleteFixture )
+			{
+				isAllClean = true;
 			}
 		}
-
+		
 		if( this.engineFixtures.length == 0 )
 		{
 			this.clear();
